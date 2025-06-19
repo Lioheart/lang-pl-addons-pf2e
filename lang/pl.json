@@ -4,11 +4,11 @@
     "attacksLabel": "Ataki",
     "settings": {
       "enableRuneDescriptions": {
-        "name": "Włącz opisy run",
+        "name": "Włącz opisy run w przedmiotach",
         "hint": "Włącza lub wyłącza automatyczne dodawanie opisów run do przedmiotów."
       },
       "enableAddonTranslations": {
-        "name": "Włącz tłumaczenia modułów",
+        "name": "Włącz dodatkowe tłumaczenia modułów",
         "hint": "Wczytuje dodatkowe tłumaczenia kompendiów."
       },
       "firstTurn": {
@@ -20,7 +20,7 @@
         "hint": "Dodaje obok każdej opcji ikonę 🌍 (World) lub 👤 (Client)."
       },
       "enableJournalStyle": {
-        "name": "Użyj stylu dzienników",
+        "name": "Użyj niestandardowego stylu dzienników",
         "hint": "Włącza alternatywny styl wyglądu dzienników."
       },
       "nonlethalButton": {

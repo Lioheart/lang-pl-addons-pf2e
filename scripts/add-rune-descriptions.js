@@ -168,9 +168,6 @@ Hooks.once("init", registerSettings);
 Hooks.on("renderItemSheetPF2e", async (sheet) => {
   const item = sheet.document;
 
-  /* tylko przedmioty świata (bez packa, bez posiadania, bez rodzica) */
-  if (item.pack || item.isOwned || item.parent) return;
-
   const runes = item.system?.runes?.property ?? [];
   const hash = runes.slice().sort().join("|");
 

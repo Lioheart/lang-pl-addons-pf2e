@@ -20,7 +20,7 @@
         "hint": "Prepends 🌍 (World) or 👤 (Client) icon to each setting entry."
       },
       "enableJournalStyle": {
-        "name": "Use journal style",
+        "name": "Use custom journal style",
         "hint": "Enables a custom journal appearance."
       },
       "nonlethalButton": {
