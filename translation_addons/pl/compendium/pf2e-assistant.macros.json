@@ -1,0 +1,14 @@
+{
+    "label": "Makra",
+    "folders": {
+        "Development": "Opracowanie"
+    },
+    "entries": {
+        "Extract Effects": {
+            "name": "Eksport efektów"
+        },
+        "Use Action": {
+            "name": "Użyj akcji"
+        }
+    }
+}

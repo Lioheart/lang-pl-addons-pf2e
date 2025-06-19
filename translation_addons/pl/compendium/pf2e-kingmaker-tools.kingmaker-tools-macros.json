@@ -1,0 +1,59 @@
+{
+    "label": "Kingmaker Tools - Makra",
+    "entries": {
+        "Advance/Retract to Time of Day": {
+            "name": "Advance/Retract to Time of Day"
+        },
+        "Award Hero Points": {
+            "name": "Przyznaj Punkty Bohaterstwa"
+        },
+        "Award XP": {
+            "name": "Nagroda PD"
+        },
+        "Create Food": {
+            "name": "Stworzenie Żywności"
+        },
+        "Edit Realm Tile/Drawing": {
+            "name": "Edit Realm Tile/Drawing"
+        },
+        "Edit Structure Rules": {
+            "name": "Edit Structure Rules"
+        },
+        "Reset Hero Points": {
+            "name": "Zresetuj Punkty Bohaterskie"
+        },
+        "Roll Actor Skill Check": {
+            "name": "Roll Actor Skill Check"
+        },
+        "Roll Perception Exploration": {
+            "name": "Roll Perception Exploration"
+        },
+        "Roll Stealth Exploration": {
+            "name": "Roll Stealth Exploration"
+        },
+        "Roll Weather": {
+            "name": "Rzuć na pogodę"
+        },
+        "Scene Weather Settings": {
+            "name": "Scene Weather Settings"
+        },
+        "Set Combat Playlist": {
+            "name": "Set Combat Playlist"
+        },
+        "Set Current Weather": {
+            "name": "Set Current Weather"
+        },
+        "Subsist: Provisions": {
+            "name": "Subsist: Provisions"
+        },
+        "Toggle Combat Tracks": {
+            "name": "Toggle Combat Tracks"
+        },
+        "Toggle Shelter from Weather": {
+            "name": "Toggle Shelter from Weather"
+        },
+        "Toggle Weather": {
+            "name": "Przełącznik pogody"
+        }
+    }
+}

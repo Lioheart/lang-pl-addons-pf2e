@@ -1,0 +1,228 @@
+{
+    "label": "AC-Atuty-Ewolucji",
+    "entries": {
+        "Advanced Weaponry (CC)": {
+            "name": "Zaawansowana Broń (CC)",
+            "description": "<p>Atak twojego eidolona ewoluuje.</p>\n<p>Wybierz jeden z początkowych ataków eidolona w walce wręcz bez broni. Zyskuje on jedną z następujących cech, wybraną podczas zdobywania atutu: rozbrojenie, chwyt, nieśmiercionośność, pchnięcie, podcięcie lub wszechstronne obrażenia obuchowe, kłute lub cięte.</p>",
+            "gmNote": ""
+        },
+        "Alacritous Action (CC)": {
+            "name": "Żwawa Akcja (CC)",
+            "description": "<p>Twój eidolon porusza się szybciej. Zyskuje premię +10 stóp do swojej Szybkości.</p>",
+            "gmNote": ""
+        },
+        "Amphibious Form (CC)": {
+            "name": "Amfibiotyczna Postać (CC)",
+            "description": "<p>Twój eidolon przystosowuje się do życia na lądzie i pod wodą. Zyskuje cechę amfibii, która pozwala mu oddychać w wodzie i powietrzu oraz uniknąć normalnej kary -2 do wykonywania Ataków obuchowych i tnących bez broni pod wodą. Zyskuje Szybkość pływania równą jego Szybkości na lądzie lub 25 stopom, w zależności od tego, która z tych wartości jest mniejsza; lub jeśli normalnie jest istotą wodną, zyskuje Szybkość na lądzie równą jego Szybkości pływania lub 25 stopom, w zależności od tego, która z tych wartości jest mniejsza.</p>",
+            "gmNote": ""
+        },
+        "Blood Frenzy (CC)": {
+            "name": "Krwawy Szał (CC)",
+            "description": "<p><strong>Wymagania</strong> Ostatnia akcja twojego eidolona zadała obrażenia od krwawienia żywej istocie.</p>\n<p>Twój eidolon wpada w szał. Zyskuje korzyści płynące z @Compendium[pf2e.spells-srd.HStu2Yhw3iQER9tY]{Wzmocnienia Eidolona} i zyskuje tymczasowe PW równe twojemu poziomowi, ale otrzymuje karę -2 do KP. Nie może dobrowolnie zakończyć szału ani rozpocząć innego szału, gdy jest w trakcie szału.</p>\n<p>Szał trwa 1 minutę, po czym eidolon jest @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{Zmęczony} przez 1 minutę i nie może rozpocząć kolejnego szału przez 1 minutę.</p>",
+            "gmNote": "",
+            "prerequisites": [
+                {
+                    "value": "Krwawe Szpony"
+                }
+            ]
+        },
+        "Bloodletting Claws (CC)": {
+            "name": "Krwawe Szpony (CC)",
+            "description": "<p>Twój eidolon zadaje krwawiące rany przy wymownym ciosie. Jeśli twój eidolon trafi krytycznie atakiem bez broni w walce wręcz, który zadaje obrażenia cięte lub kłute, jego cel otrzymuje obrażenia @Damage[1d6[bleed]]. Twój eidolon zyskuje premię przedmiotową do tych obrażeń od krwawienia równą premii przedmiotowej ataku bez broni do rzutów na atak. Jest to efekt specjalizacji krytycznej.</p>",
+            "gmNote": "",
+            "rules": {
+                "0": {
+                    "text": "Jeśli twój eidolon trafi krytycznie atakiem bez broni w walce wręcz, który zadaje obrażenia cięte lub kłute, jego cel otrzymuje obrażenia @Damage[1d6[bleed]]. Twój eidolon zyskuje premię przedmiotową do tych obrażeń od krwawienia równą premii przedmiotowej ataku bez broni do rzutów na atak. Jest to efekt specjalizacji krytycznej."
+                }
+            }
+        },
+        "Burrowing Form (CC)": {
+            "name": "Kopiąca Postać (CC)",
+            "description": "<p>Twój eidolon może przekopywać się przez luźną ziemię. Prędkość kopania eidolona wynosi 15 stóp.</p>",
+            "gmNote": ""
+        },
+        "Constricting Hold (CC)": {
+            "name": "Duszący Uścisk (CC)",
+            "description": "<p><strong>Wymagania</strong> Twój eidolon ma stworzenie @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Pochwycone} lub @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Obezwładnione}.</p>\n<p>Twój eidolon krępuje stworzenie, zadając [[/r (@actor.level+@actor.abilities.str.mod)[bludgeoning]]]{obrażenia obuchowe} równe poziomowi twojego eidolona plus jego modyfikator Siły, z podstawowym rzutem obronnym Wytrzymałości przeciwko ST zaklęcia.</p>",
+            "gmNote": ""
+        },
+        "Defend Summoner (CC)": {
+            "name": "Ochrona Przywoływacza (CC)",
+            "description": "<p>Twój eidolon blokuje ataki wymierzone w ciebie. Po wykonaniu tej akcji przez eidolona zyskujesz premię +2 do KP do początku swojej następnej tury. Premia ta ma zastosowanie tylko wtedy, gdy znajdujesz się w zasięgu eidolona (w większości przypadków oznacza to, że eidolon sąsiaduje z tobą lub znajduje się w twojej przestrzeni).</p>",
+            "gmNote": ""
+        },
+        "Dual Energy Heart (CC)": {
+            "name": "Podwójna Energia Serca (CC)",
+            "description": "<p>Druga energia zamieszkuje twojego eidolona. Wybierz dodatkowy typ obrażeń energetycznych. Twój atak bez broni, który zadaje obrażenia energetyczne, zyskuje cechę wszechstronności dla drugiego typu obrażeń energetycznych, a twój eidolon zyskuje odporność na drugi typ obrażeń energetycznych równą połowie twojego poziomu.</p>",
+            "gmNote": "",
+            "prerequisites": [
+                {
+                    "value": "Energetyczne Serce"
+                }
+            ]
+        },
+        "Eidolon's Opportunity (CC)": {
+            "name": "Okazja Eidolona (CC)",
+            "description": "<p><strong>Wyzwalacz</strong> Istota znajdująca się w zasięgu twojego eidolona wykonuje akcję manipulacji lub ruchu, wykonuje atak dystansowy lub opuszcza pole podczas wykonywanej przez siebie akcji ruchu.</p>\n<hr />\n<p>Twój eidolon wykonuje Atak w walce wręcz przeciwko wyzwalającemu stworzeniu. Jeśli atak jest trafieniem krytycznym, a wyzwalacz był akcją manipulacji, eidolon przerywa tę akcję. Uderzenie to nie wlicza się do kary za wielokrotny atak, a kara za wielokrotny atak nie ma do niego zastosowania.</p>",
+            "gmNote": ""
+        },
+        "Eidolon's Wrath (CC)": {
+            "name": "Gniew Eidolona (CC)",
+            "description": "<p>Twój eidolon zyskuje zaklęcie skupienia <em>@Compendium[pf2e.spells-srd.kuZnUNrhXHRYQ2eM]{Gniew eidolona}</em>, które rzuca zamiast ciebie. Podczas zdobywania atutu określasz rodzaj obrażeń: kwas, zimno, elektryczność, ogień, dźwięk, witalność lub pustka. Jeśli twój eidolon jest niebianinem, czartem lub obserwatorem o charakterze innym niż prawdziwie neutralne, możesz wybrać typ obrażeń zgodny z jego charakterem.</p>\n<p>Zwiększa liczbę Punktów Skupienia w twojej puli skupienia o 1. Twój eidolon normalnie dzieli twoje Punkty Skupienia.</p>",
+            "gmNote": ""
+        },
+        "Energy Heart (CC)": {
+            "name": "Energetyczne Serce (CC)",
+            "description": "<p>Serce twojego eidolona pulsuje energią.</p>\n<p>Wybierz typ obrażeń energetycznych inny niż moc. Jeden z jego ataków bez broni zmienia typ obrażeń na wybrany typ i zyskuje on odporność na ten typ równą połowie twojego poziomu (minimum 1).</p>",
+            "gmNote": ""
+        },
+        "Energy Resistance (CC)": {
+            "name": "Odporność na Energię (CC)",
+            "description": "<p>Twój eidolon ma większą odporność. Jego odporność związana z Energetycznym Sercem i Podwójnym Energetycznym Sercem wzrasta do twojego poziomu.</p>",
+            "gmNote": "",
+            "prerequisites": [
+                {
+                    "value": "Energetyczne Serce"
+                }
+            ]
+        },
+        "Ever-Vigilant Senses (CC)": {
+            "name": "Zawsze Czujne Zmysły (CC)",
+            "description": "<p>Twój eidolon ma wzmocnione zmysły. Zyskuje premię okoliczności +2 do Percepcji i nie może być flankowany, chyba że przez istoty o wyższym od niego poziomie.</p>\n<p>Widzi @UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{Niewidzialne} stworzenia i przedmioty; wydają się mu półprzezroczyste i są @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Przysłonięte}.</p>\n<p>Kiedy twój eidolon porusza się w promieniu 30 stóp od iluzji, w którą można nie uwierzyć, MG rzuca ukryty test, aby ją przejrzeć, nawet jeśli twój eidolon nie wydał akcji na Interakcję.</p>",
+            "gmNote": ""
+        },
+        "Expanded Senses (CC)": {
+            "name": "Rozszerzone Zmysły (CC)",
+            "description": "<p>Twój eidolon zyskuje bardziej wyostrzone zmysły.</p>\n</p>Twój eidolon zyskuje widzenie w słabym świetle i widzenie w ciemności, a także węch jako nieprecyzyjny zmysł o zasięgu 30 stóp.</p>",
+            "gmNote": ""
+        },
+        "Glider Form (CC)": {
+            "name": "Postać Szybująca (CC)",
+            "description": "<p>Twój eidolon ewoluuje, otrzymując skrzydła, wyporne ciało lub inny sposób kontrolowania opadania.</p>\n<p>Szybuje powoli w kierunku ziemi, 5 stóp w dół i do 25 stóp do przodu w powietrzu.</p>\n<p>Dopóki spędza co najmniej 1 akcję na szybowaniu w każdej rundzie i nie dotrze w tym czasie do ziemi, pozostaje w powietrzu na koniec twojej tury.</p>",
+            "gmNote": ""
+        },
+        "Grasping Limbs (CC)": {
+            "name": "Chwytające Kończyny (CC)",
+            "description": "<p>Twój eidolon chwyta wrogów. Wybierz jeden z ataków bez broni eidolona z cechą chwytania. Zyskuje on akcję @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.Tkd8sH4pwFIPzqTr]{Chwyt} podczas tego ataku bez broni.</p>",
+            "gmNote": ""
+        },
+        "Hulking Size (CC)": {
+            "name": "Ogromny Rozmiar (CC)",
+            "description": "<p>Twój eidolon znacznie się rozrasta. Twój eidolon staje się Duży, zamiast poprzedniego rozmiaru, a jego zasięg wzrasta do 10 stóp. Nie zmienia to żadnych innych statystyk eidolona.</p>",
+            "gmNote": ""
+        },
+        "Magical Adept (CC)": {
+            "name": "Magiczny Adept (CC)",
+            "description": "<p>Twój eidolon zyskuje więcej magii. Wybierz jedno zaklęcie 2. poziomu i jedno zaklęcie 1. poziomu z tradycji twojego eidolona. Twój eidolon może rzucać je raz dziennie jako zaklęcia wrodzone. Na każdym parzystym poziomie po zdobyciu tego atutu twój eidolon może zamienić jedno z tych zaklęć wrodzonych na nowe zaklęcie wrodzone o co najmniej 2 poziomy niższe niż twoja komórka zaklęć na najwyższym poziomie.</p>",
+            "gmNote": "",
+            "prerequisites": [
+                {
+                    "value": "Magiczny Dubler"
+                }
+            ]
+        },
+        "Magical Master (CC)": {
+            "name": "Mistrz Magii (CC)",
+            "description": "<p>Twój eidolon zyskuje szereg zaklęć niższej rangi. Wybierz zaklęcie wrodzone tradycji twojego eidolona z każdej rangi zaklęć od 1 do 7, w której twój eidolon nie ma obecnie zaklęcia wrodzonego od Magicznego Adepta. Twój eidolon może rzucić każde z nich raz dziennie jako zaklęcie wrodzone.</p>\n<p>Możesz wymieniać te zaklęcia na każdym równym poziomie, ale twój eidolon nigdy nie może znać więcej niż jednego zaklęcia z każdej rangi od 1 do 7</p>",
+            "gmNote": "",
+            "prerequisites": [
+                {
+                    "value": "Magiczny Adept"
+                }
+            ]
+        },
+        "Magical Understudy (CC)": {
+            "name": "Magiczny Dubler (CC)",
+            "description": "<p>Twój eidolon ewoluuje, aby rzucać zaklęcia. Zyskuje umiejętność rzucania zaklęć i uczy się dwóch sztuczek swojej tradycji, które może rzucać jako zaklęcia wrodzone.</p>",
+            "gmNote": ""
+        },
+        "Miniaturize (CC)": {
+            "name": "Miniaturyzacja (CC)",
+            "description": "<p>Twój eidolon może zmniejszyć się jeszcze bardziej. Kiedy używasz Zmniejszania, twój eidolon może zmniejszyć swój rozmiar do Malutkiego.</p>",
+            "gmNote": "",
+            "prerequisites": [
+                {
+                    "value": "Kurczenie się"
+                }
+            ]
+        },
+        "Phase Out (CC)": {
+            "name": "Fazowe Wycofanie (CC)",
+            "description": "<p>Twój eidolon nieznacznie wycofuje się z rzeczywistości, zyskując odporność na wszystkie obrażenia (z wyjątkiem obrażeń od mocy i negatywnych) równą połowie twojego poziomu. Nie jest bezcielesny, ale nie może używać Ataków ani akcji wymagających w pełni fizycznej formy, takich jak @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{Pochwycenie}, @UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{Pchnięcie}, lub @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{Przewracanie}.</p>\n<p>Twój eidolon może powrócić do swojej normalnej postaci za pomocą pojedynczej akcji, która posiada cechę koncentracji.</p>",
+            "gmNote": "",
+            "prerequisites": [
+                {
+                    "value": "Twój eidolon jest widmem"
+                }
+            ]
+        },
+        "Pushing Attack (CC)": {
+            "name": "Pchający Atak (CC)",
+            "description": "<p>Twój eidolon dysponuje atakiem, który odpycha wrogów. Wybierz jeden z nieuzbrojonych ataków eidolona z cechą odepchnięcia. Otrzymuje on akcję @UUID[Compendium.pf2e. bestiary-ability-glossary-srd.Item.t6cx9FOODmeZQNYl]{Pchnięcie} dla tego ataku.</p>",
+            "gmNote": ""
+        },
+        "Ranged Combatant (CC)": {
+            "name": "Walczący na Dystans (CC)",
+            "description": "<p>Kolce, strumienie ognia i święte podmuchy to tylko niektóre ze sposobów, w jakie eidolon może atakować z dystansu. Zyskuje on dystansowy atak bez broni z przyrostem zasięgu do 30 stóp, który zadaje 1k4 obrażeń i posiada cechy magiczny i siłowy.</p>\n<p>Kiedy wybierzesz ten atut, wybierz rodzaj obrażeń: kwas, obuchowe, zimno, elektryczność, ogień, kłute, cięte, witalność lub pustka. Jeśli twój eidolon jest niebianinem, czartem lub monitorem o charakterze innym niż prawdziwie neutralne, możesz wybrać typ obrażeń zgodny z jego charakterem.</p>",
+            "gmNote": ""
+        },
+        "Resilient Shell (CC)": {
+            "name": "Odporna Powłoka (CC)",
+            "description": "<p>Twój eidolon jest odporny na ataki. Zyskuje odporność na obrażenia fizyczne równą swojemu modyfikatorowi do Kondycji.</p>",
+            "gmNote": ""
+        },
+        "Shrink Down (CC)": {
+            "name": "Kurczenie się (CC)",
+            "description": "<p>Twój eidolon może się zmniejszyć, aby zmieścić się w małych przestrzeniach. Twój eidolon zmniejsza się do minimalnego rozmiaru Małego. Może użyć tej akcji ponownie, gdy jest zmniejszony, aby powrócić do normalnego rozmiaru.</p>",
+            "gmNote": ""
+        },
+        "Spell-Repelling Form (CC)": {
+            "name": "Postać Odpierająca Zaklęcia (CC)",
+            "description": "<p>Twój eidolon ewoluuje, aby chronić się przed zagrożeniami związanymi z zaklęciami. Zyskuje premię +1 do wszystkich rzutów obronnych przeciwko magii.</p>",
+            "gmNote": ""
+        },
+        "Steed Form (CC)": {
+            "name": "Postać Rumaka (CC)",
+            "description": "<p>Twój eidolon zmienia się, aby był szczególnie skuteczny jako twój wierzchowiec. Gdy go dosiadasz, otrzymujesz pełną liczbę akcji w każdej rundzie, zamiast zmniejszać ją do 2. Dotyczy to tylko sytuacji, gdy to ty dosiadasz swojego eidolona, a nie ktoś inny. Aby móc dosiadać eidolona, musi on być większy od ciebie o co najmniej jedną kategorię wielkości. Ponieważ poruszacie się razem, akcje ruchu twojego eidolona, gdy jesteś na nim dosiadany, zyskują cechę tandemu.</p>",
+            "gmNote": ""
+        },
+        "Summoner Dedication Adjustment (CC)": {
+            "name": "Dostosowanie Archetypu Przywoływacza (CC)",
+            "description": "<p>Ta funkcja dostosuje statystyki eidolona tak, aby były prawidłowe dla graczy korzystających z archetypu przywoływacza. Ogranicza ona wszystkie statystyki do 16, dopóki eidolon nie osiągnie poziomu 5.</p>",
+            "gmNote": ""
+        },
+        "Towering Size (CC)": {
+            "name": "Górujący Rozmiar (CC)",
+            "description": "<p>Twój eidolon staje się jeszcze większy. Staje się Ogromny zamiast Wielki, a zasięg wszystkich jego ataków wzrasta do 15 stóp.</p>",
+            "gmNote": "",
+            "prerequisites": [
+                {
+                    "value": "Ogromny Rozmiar"
+                }
+            ]
+        },
+        "Trample (CC)": {
+            "name": "Tratowanie (CC)",
+            "description": "<p>Twój eidolon biegnie z podwojoną szybkością i może przemieszczać się przez przestrzenie stworzeń co najmniej o jeden rozmiar mniejszych, depcząc każdą istotę, w której przestrzeń wejdzie. Może próbować zdeptać tę samą istotę tylko raz podczas jednego tratowania.</p>\n<p>Zadaje obrażenia obuchowe równe obrażeniom ataku drugorzędnego przeciwko tym stworzeniom, które mogą wykonać podstawowy rzut obronny Refleksu przeciwko ST zaklęcia.</p>",
+            "gmNote": ""
+        },
+        "Vibration Sense (CC)": {
+            "name": "Zmysł Drgań (CC)",
+            "description": "<p>Twój eidolon zyskuje @UUID[Compendium.pf2e.bestiary-glossary-ability-srd.Item.j2wsK6IsW5yMW1jW]{Wyczucie Drgań} jako nieprecyzyjny zmysł o zasięgu 30 stóp. Jeśli jest wodny, otrzymuje @UUID[Compendium.pf2e.bestiary-glossary-ability-srd.Item.VdSMQ6yRZ3YXNXHL]{Wyczucie Fal} jako nieprecyzyjny zmysł o zasięgu 30 stóp. Jeśli jest amfibią, zyskuje oba zmysły.</p>",
+            "gmNote": ""
+        },
+        "Weighty Impact (CC)": {
+            "name": "Potężny Wpływ (CC)",
+            "description": "<p>Twój eidolon powala wrogów. Wybierz jeden z nieuzbrojonych ataków eidolona z cechą przewracania. Otrzymuje on akcję @Compendium[pf2e.bestiary-ability-glossary-srd.BCLvAx4Pz4MLa2pu]{Powalenie} dla tego ataku.</p>",
+            "gmNote": ""
+        }
+    },
+    "mapping": {
+        "gmNote": "system.description.gm",
+        "rules": {
+            "converter": "translateRules",
+            "path": "system.rules"
+        },
+        "prerequisites": "system.prerequisites.value"
+    }
+}

@@ -1,0 +1,165 @@
+{
+    "label": "Efekty",
+    "folders": {
+        "Hunt Prey": "Naznaczona Ofiara",
+        "Ammunition": "Amunicja",
+        "Feats": "Atuty"
+    },
+    "entries": {
+        "Alchemical Shot": {
+            "name": "Alchemiczny Strzał",
+            "description": "<p>Przelałeś zawartość bomby na amunicję, używając atutu @Kompendium[pf2e.feats-srd.Q1O4P1YIkCfeedHH]{Alchemiczny Strzał}.</p>",
+            "rules": {
+                "1": {
+                    "choices": {
+                        "0": {
+                            "label": "Kwas"
+                        },
+                        "1": {
+                            "label": "Obuchowe"
+                        },
+                        "2": {
+                            "label": "Zimno"
+                        },
+                        "3": {
+                            "label": "Elektryczność"
+                        },
+                        "4": {
+                            "label": "Ogień"
+                        },
+                        "5": {
+                            "label": "Dobro"
+                        },
+                        "6": {
+                            "label": "Mentalny"
+                        },
+                        "7": {
+                            "label": "Negatywne"
+                        },
+                        "8": {
+                            "label": "Kłute"
+                        },
+                        "9": {
+                            "label": "Trucizna"
+                        },
+                        "10": {
+                            "label": "Pozytywne"
+                        },
+                        "11": {
+                            "label": "Cięte"
+                        },
+                        "12": {
+                            "label": "Dźwiękowe"
+                        }
+                    }
+                },
+                "2": {
+                    "choices": {
+                        "0": {
+                            "label": "Mniejsze / Średnie"
+                        },
+                        "1": {
+                            "label": "Większe"
+                        },
+                        "2": {
+                            "label": "Potężniejsze"
+                        }
+                    }
+                },
+                "5": {
+                    "text": "<p class='compact-text'>Otrzymujesz [[/r 1d6[{item|flags.pf2e.rulesSelections.damageType}]]]{1k6 {item|flags.pf2e.rulesSelections.damageType} obrażeń} i twoja broń nie wypala.</p>"
+                }
+            }
+        },
+        "Ammunition Effect": {
+            "name": "Efekt Amunicji",
+            "description": "<p>Ta amunicja została wystrzelona.</p>"
+        },
+        "Chamber Loaded": {
+            "name": "Komora załadowana",
+            "description": "<p>Bieżąca komora lub lufa broni jest załadowana i gotowa do strzału.</p>"
+        },
+        "Conjured Round": {
+            "name": "Wyczarowany Pocisk",
+            "description": "<p>Załadowałeś broń wyczarowanym pociskiem.</p>"
+        },
+        "Effect: Crossbow Ace": {
+            "name": "Efekt: As Kuszy",
+            "description": "<p>Otrzymujesz premię okoliczności +2 do rzutu na obrażenia przy następnym ataku kuszą. Jeśli kusza jest zwykłą kuszą, zwiększasz także rozmiar kości obrażeń dla tego ataku.</p>",
+            "rules": {
+                "1": {
+                    "label": "As Kuszy"
+                }
+            }
+        },
+        "Effect: Crossbow Crack Shot": {
+            "name": "Efekt: Kusznik Wyborowy",
+            "description": "<p>Twój atut @UUID[Compendium.pf2e.feats-srd.s6h0xkdKf3gecLk6] jest aktywowany po przeładowaniu kuszy.</p>",
+            "rules": {
+                "1": {
+                    "label": "Kusznik Wyborowy"
+                }
+            }
+        },
+        "Hunted Prey": {
+            "name": "Naznaczona Ofiara",
+            "description": "<p>Wyznaczyłeś to stworzenie jako swoją ofiarę.</p>"
+        },
+        "Loaded": {
+            "name": "Załadowano",
+            "description": "<p>Broń jest załadowana i gotowa do strzału.</p>"
+        },
+        "Loaded Bomb": {
+            "name": "Załadowano bombę",
+            "description": "<p>Załadowałeś swoją Kuszę Alchemiczną bombą alchemiczną i zadajesz dodatkowe 1k6 obrażeń od typu bomby.</p>",
+            "rules": {
+                "1": {
+                    "choices": {
+                        "0": {
+                            "label": "Ogień"
+                        },
+                        "1": {
+                            "label": "Zimno"
+                        },
+                        "2": {
+                            "label": "Kwas"
+                        },
+                        "3": {
+                            "label": "Elektryczność"
+                        },
+                        "4": {
+                            "label": "Dźwiękowe"
+                        }
+                    }
+                }
+            }
+        },
+        "Magazine Loaded": {
+            "name": "Magazynek załadowany",
+            "description": "<p>Broń jest załadowana magazynkiem.</p>"
+        },
+        "Prey": {
+            "name": "Ofiara",
+            "description": "<p>Zostałeś wyznaczony jako Naznaczona Ofiara.</p>"
+        },
+        "Sword and Pistol (Melee)": {
+            "name": "Miecz i Pistolet (Walka wręcz)",
+            "description": "<p>Twój następny Atak dystansowy przeciwko temu samemu wrogowi z jednoręczną bronią palną lub jednoręczną kuszą nie wywołuje reakcji, które zostałyby wywołane przy ataku dystansowym, ale nie przy ataku w walce wręcz, takich jak @UUID[Compendium.pf2e.actionspf2e.KAVf7AmRnbCAHrkT]{Reaktywne Uderzenie}.</p>",
+            "rules": {
+                "1": {
+                    "text": "Atak ten nie wywołuje reakcji, które wywołałby atak dystansowy, ale nie atak wręcz."
+                }
+            }
+        },
+        "Sword and Pistol (Ranged)": {
+            "name": "Miecz i Pistolet (Dystans)",
+            "description": "<p>Wróg jest @UUID[Compendium.pf2e.conditionitems.AJh5ex99aV6VTggg]{Odsłonięty} przeciwko następnemu atakowi w walce wręcz bronią jednoręczną.</p>"
+        }
+    },
+    "mapping": {
+        "rules": {
+            "converter": "translateRules",
+            "path": "system.rules"
+        }
+    }
+}

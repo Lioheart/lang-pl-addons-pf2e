@@ -1,0 +1,21 @@
+{
+    "label": "Efekty Reakcji",
+    "entries": {
+        "Effect: Available reactions": {
+            "name": "Efekt: Dostępne reakcje",
+            "description": ""
+        },
+        "Effect: Exploit Vulnerability": {
+            "name": "Efekt: Wykorzystanie Podatności",
+            "description": "<p><strong>Krytyczny Sukces</strong> Zapamiętujesz słabe punkty stwora, a podczas wzmacniania ezoteryki doznajesz przebłysku intuicji, który daje ci jeszcze więcej wiedzy na jego temat. Poznajesz wszystkie odporności, słabości i niewrażliwości danej istoty, w tym wartości odporności i słabości oraz wszelkie nietypowe słabości lub podatności, np. jakie zaklęcia przejdą przez antymagię golema. Możesz wykorzystać śmiertelną słabość lub osobistą antytezę danej istoty (patrz cecha klasowa Wykorzystanie Podatności). Ataki bez broni i z bronią przeciwko stworzeniu również stają się magiczne, jeśli wcześniej nie były.</p>\n<p><strong>Sukces</strong> Przypominasz sobie ważny fakt o stworzeniu, ucząc się jego największej słabości (lub jednej z największych słabości, jeśli ma kilka o tej samej wartości), ale nie innych słabości, odporności lub niewrażliwości. Możesz wykorzystać śmiertelną słabość lub osobistą antytezę danej istoty. Ataki bez broni i z bronią przeciwko stworzeniu również stają się magiczne, jeśli wcześniej nie były.</p>\n<p><strong>Porażka</strong> Jeśli nie uda ci się przypomnieć sobie istotnej słabości tej istoty, zamiast tego spróbujesz wykorzystać bardziej osobisty słaby punkt. Możesz wykorzystać tylko osobistą antytezę danej istoty. Twoje ataki bez broni i z bronią przeciwko tej istocie również stają się magiczne, jeśli już wcześniej nie były. </p>\n<p><strong>Krytyczna Porażka</strong> Nie pamiętałeś jakiego odpowiedniego przedmiotu użyć i rozproszyłeś się, grzebiąc w swoich ezoterykach. Stajesz się odsłonięty do początku swojej następnej tury.</p>"
+        },
+        "Effect: Identified by Recall Knowledge": {
+            "name": "Efekt: Identyfikacja na podstawie Przywołania Wiedzy",
+            "description": "<p>Stworzenie zostało zidentyfikowane przez Przywołanie Wiedzy.</p>"
+        },
+        "Effect: Reaction was used": {
+            "name": "Efekt: Wykorzystano reakcję",
+            "description": "<p>Aktor wykorzystał wszystkie możliwe reakcje.</p>"
+        }
+    }
+}

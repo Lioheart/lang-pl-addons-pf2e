@@ -1,0 +1,17 @@
+{
+    "label": "AC-Ekwipunek",
+    "entries": {
+        "Heavy Barding": {
+            "name": "Ciężkie Ladry",
+            "description": ""
+        },
+        "Light Barding": {
+            "name": "Lekkie Ladry",
+            "description": ""
+        },
+        "Skysunder": {
+            "name": "Podniebny Rozpad",
+            "description": "<p>Ten <em>sztylet klanowy uderzeń +1</em> nosi twarz surowego krasnoludzkiego boga, jego broda i rysy stanowią część ostrza.</p>\n<p><strong>Formowanie więzi</strong> Gracze wykonują @UUID[Compendium.pf2e.spells-srd.Item.w00PBRjENqJa7Vxu]{Rytuał Repatriacji}.</p>\n<p><strong>Rozwijanie więzi</strong> Chronić, odzyskiwać i przywracać krasnoludzką kulturę.</p>\n<p><strong>Pomniejsze dary</strong> Zabójcza Iskra, Boska Zemsta, Słowo Wiary; Uderzenia boskiej zemsty wykonane za pomocą Skysunder zyskują cechę mordercze k4.</p>\n<p><strong>Potężniejsze dary</strong> Święta Światłość, Wiatry Napędzające</p>"
+        }
+    }
+}

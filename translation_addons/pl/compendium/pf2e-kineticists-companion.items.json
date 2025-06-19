@@ -1,0 +1,102 @@
+{
+    "label": "Przedmioty",
+    "folders": {
+        "Thermal Nimbus": "Termiczna Otulina",
+        "Fresh Produce": "Świeże Produkty",
+        "Protector Tree": "Drzewo Obrońca",
+        "Hardwood Armor": "Pancerz z Twardego Drewna",
+        "Ocean's Balm": "Oceaniczny Balsam",
+        "Dash of Herbs": "Szczypta Ziół",
+        "Metal Carapace": "Metalowy Karapaks",
+        "Torrent in the Blood": "Strumień Krwi",
+        "Ignite the Sun": "Zapłon Słońca",
+        "Armor in Earth": "Zbroja z Ziemi"
+    },
+    "entries": {
+        "Armor in Earth": {
+            "name": "Zbroja z Ziemi",
+            "description": "<p>Ta zbroja została stworzona przez impuls @UUID[Compendium.pf2e.feats-srd.plEZoAyPwjAOdY4e]{Zbroja z Ziemi}.</p>"
+        },
+        "Aura: Ignited Sun": {
+            "name": "Aura: Zapłon Słońca",
+            "description": "<p>Ten token został utworzony przez @UUID[Compendium.pf2e.feats-srd.uKeUPPqV1cNnIy0h]{Zapłon Słońca}.</p>"
+        },
+        "Effect: Armor in Earth": {
+            "name": "Efekt: Zbroja z Ziemi",
+            "description": "<p>Stworzone przez @UUID[Compendium.pf2e.feats-srd.Item.plEZoAyPwjAOdY4e]{Zbroja z Ziemi}.</p>"
+        },
+        "Effect: Dash of Herbs Immunity": {
+            "name": "Efekt: Niepodatność na Szczyptę Ziół",
+            "description": "<p>Masz niewrażliwość na @UUID[Compendium.pf2e.feats-srd.azyp4nQgAPDI6nKv]{Szczyptę Ziół}.</p>"
+        },
+        "Effect: Hardwood Armor": {
+            "name": "Efekt: Pancerz z Twardego Drewna",
+            "description": "<p>Stworzone przez @UUID[Compendium.pf2e.feats-srd.cZa6br5C3Iyzqqi9]{Pancerz z Twardego Drewna}.</p>"
+        },
+        "Effect: Ignite the Sun": {
+            "name": "Efekt: Zapłon Słońca",
+            "description": "<p>Masz aktywną instancję @UUID[Compendium.pf2e.feats-srd.uKeUPPqV1cNnIy0h]{Zapłonu Słońca}. </p>"
+        },
+        "Effect: Metal Carapace": {
+            "name": "Efekt: Metalowy Karapaks",
+            "description": "<p>Stworzone przez @UUID[Compendium.pf2e.feats-srd.HbdOZ8YTtu8ykASc]{Metalowy Karapaks}.</p>"
+        },
+        "Effect: Ocean's Balm Immunity": {
+            "name": "Efekt: Niepodatność na Oceaniczny Balsam",
+            "description": "<p>Masz niewrażliwość na leczenie przez @UUID[Compendium.pf2e.feats-srd.1gtWb6lKWMw1Wp1q]{Oceaniczny Balsam}.</p>"
+        },
+        "Effect: Protector Tree": {
+            "name": "Efekt: Drzewo Obrońca",
+            "description": "<p>Za każdym razem, gdy sąsiadujący sojusznik zostanie trafiony Atakiem, drzewo wstawia swoją gałąź i otrzymuje obrażenia jako pierwsze. Wszelkie dodatkowe obrażenia wykraczające poza to, co jest potrzebne do zredukowania drzewa do 0 Punktów Wytrzymałości, są zadawane pierwotnemu celowi.</p>"
+        },
+        "Effect: Sun's Light": {
+            "name": "Efekt: Światło Słońca",
+            "description": "<p>Znajdujesz się w świetle słońca stworzonego przez @UUID[Compendium.pf2e.feats-srd.uKeUPPqV1cNnIy0h]{Zapłon Słońca}. Zadajesz dodatkowe 1k6 obrażeń od ognia wszystkimi Atakami, zaklęciami zadającymi obrażenia od ognia i impulsami zadającymi obrażenia od ognia.</p>",
+            "rules": {
+                "0": {
+                    "label": "Światło Słońca"
+                },
+                "1": {
+                    "label": "Światło Słońca"
+                },
+                "2": {
+                    "label": "Światło Słońca"
+                }
+            }
+        },
+        "Effect: Thermal Nimbus Damage": {
+            "name": "Efekt: Obrażenia Termicznej Otuliny",
+            "description": "<p>Znajdujesz się wewnątrz aury Termicznej Otuliny Kinetyka.</p>"
+        },
+        "Effect: Torrent in the Blood Immunity": {
+            "name": "Efekt: Niepodatność na Strumień Krwi",
+            "description": "<p>Masz niewrażliwość na @UUID[Compendium.pf2e.feats-srd.ijsMs8iv9AsHQWrv]{Strumień Krwi}.</p>"
+        },
+        "Fresh Produce": {
+            "name": "Świeże Produkty",
+            "description": "<p>Został on stworzony przez @UUID[Compendium.pf2e.feats-srd.IcAEMf94XoTvtzAO]{Świeże Produkty}. Możesz go zjeść za pomocą akcji Interakcji, aby odzyskać @Damage[((floor((max(1,@item.level)-1)/2)+1)d4+(floor((max(1,@item.level)-1)/2)*5+1))[vitality,healing]] PW; jest to leczniczy efekt witalności. Czujesz się syty przez 10 minut, podczas których masz odporność na obrażenia od pustki i nie możesz zjeść kolejnego kawałka pożywienia.</p><p>@UUID[Compendium.pf2e.feat-effects.Item.2GWZgsvMJF9DN0DO]{Efekt: Świeże Produkty}</p>"
+        },
+        "Hardwood Armor": {
+            "name": "Pancerz z Twardego Drewna",
+            "description": "<p>Ta zbroja została stworzona przez impuls @UUID[Compendium.pf2e.feats-srd.cZa6br5C3Iyzqqi9]{Pancerz z Twardego Drewna}.</p><p>Drewno i kora porastają twoje ciało niczym zbroja.</p>"
+        },
+        "Hardwood Shield": {
+            "name": "Tarcza z Twardego Drewna",
+            "description": "<p>Ta tarcza została stworzona przez impuls @UUID[Compendium.pf2e.feats-srd.cZa6br5C3Iyzqqi9]{Pancerz z Twardego Drewna}.</p><p>Możesz używać @UUID[Compendium.pf2e.feats-srd.jM72TjJ965jocBV8]{Blok Tarczy} z tą tarczą, nawet jeśli nie posiadasz tego atutu. Ręka dzierżąca tę tarczę liczy się jako wolna ręka do używania impulsów. Tarcza rozpada się błyskawicznie, jeśli zostanie @UUID[Compendium.pf2e.conditionitems.6dNUvdb1dhToNDj3]{Zepsuta} lub opuści twój uścisk.</p><table class=\"pf2e\"><thead><tr><th>Twardość</th><th>PW</th><th>PU</th></tr></thead><tbody><tr><td>3</td><td>12</td><td>6</td></tr></tbody></table>"
+        },
+        "Metal Carapace": {
+            "name": "Metalowy Karapaks",
+            "description": "<p>Ta zbroja została stworzona przez impuls @UUID[Compendium.pf2e.feats-srd.HbdOZ8YTtu8ykASc]{Metalowy Karapaks}.</p><p>Płyty z giętego i zardzewiałego metalu pokrywają cię pancerną powłoką.</p><p>Metal jest zardzewiały i kruchy. Jeśli otrzymasz obrażenia od trafienia krytycznego, metal rozpadnie się, a impuls dobiegnie końca.</p>"
+        },
+        "Metal Carapace Shield": {
+            "name": "Tarcza z Metalowego Karapaksu",
+            "description": "<p>Ta tarcza została stworzona przez impuls @UUID[Compendium.pf2e.feats-srd.HbdOZ8YTtu8ykASc]{Metalowy Karapaks}.</p><p>Możesz użyć @UUID[Compendium.pf2e.feats-srd.jM72TjJ965jocBV8]{Blok Tarczą} z tą tarczą, nawet jeśli nie posiadasz tego atutu. Ręka dzierżąca tę tarczę liczy się jako wolna ręka do używania impulsów. Tarcza rozpada się na kawałki rdzy, jeśli zostanie @UUID[Compendium.pf2e.conditionitems.6dNUvdb1dhToNDj3]{Uszkodzona} lub opuści twój uścisk.</p><table class=\"pf2e\"><thead><tr><th>Twardość</th><th>PW</th><th>PU</th></tr></thead><tbody><tr><td>5</td><td>20</td><td>10</td></tr></tbody></table>"
+        }
+    },
+    "mapping": {
+        "rules": {
+            "converter": "translateRules",
+            "path": "system.rules"
+        }
+    }
+}

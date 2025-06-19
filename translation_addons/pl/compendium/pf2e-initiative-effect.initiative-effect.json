@@ -1,0 +1,13 @@
+{
+    "label": "Efekt Inicjatywny",
+    "entries": {
+        "Effect: Roll 1 on initiative": {
+            "name": "Efekt: Rzucenie 1 na inicjatywę",
+            "description": "<p> W tej turze jesteś @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3].</p>"
+        },
+        "Effect: Roll 20 on initiative": {
+            "name": "Efekt: Rzucenie 20 na inicjatywę",
+            "description": "<p> W tej turze jesteś @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl].</p>"
+        }
+    }
+}

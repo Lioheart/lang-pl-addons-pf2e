@@ -1,0 +1,14 @@
+{
+    "label": "Macros",
+    "folders": {
+        "Development": "Opracowanie"
+    },
+    "entries": {
+        "Extract Effects": {
+            "name": "Extract Effects"
+        },
+        "Use Action": {
+            "name": "Use Action"
+        }
+    }
+}

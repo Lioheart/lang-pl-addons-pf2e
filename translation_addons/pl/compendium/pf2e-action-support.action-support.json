@@ -1,0 +1,301 @@
+{
+    "label": "Wsparcie dla Akcji",
+    "entries": {
+        "Aura: Bane": {
+            "name": "Aura: Zguba",
+            "description": "<p>Aura dla @Compendium[pf2e.spells-srd.7ZinJNzxq0XF0oMx]{Zguba}.</p>"
+        },
+        "Aura: Triple Time": {
+            "name": "Aura: Potrójny Czas",
+            "description": "<p>Aura dla @UUID[Compendium.pf2e.spells-srd.Item.IAjvwqgiDr3qGYxY]{Inspirująca Obrona}.</p>"
+        },
+        "Effect: Aberrant Whispers Immunity": {
+            "name": "Efekt: Odporność na Wynaturzone Szepty",
+            "description": "<p>Przyznane, gdy ktoś używa @UUID[Compendium.pf2e.spells-srd.qhJfRnkCRrMI4G1O].</p>"
+        },
+        "Effect: Actor's hunted prey": {
+            "name": "Efekt: Naznaczona Ofiara postaci",
+            "description": ""
+        },
+        "Effect: Additional bludgeoning damage bloodline": {
+            "name": "Efekt: Dodatkowa linia krwi zadająca obrażenia obuchowe",
+            "description": ""
+        },
+        "Effect: Additional damage bloodline": {
+            "name": "Efekt: Linia krwi zadająca dodatkowe obrażenia",
+            "description": "",
+            "rules": {
+                "0": {
+                    "label": "Pozytywne"
+                },
+                "1": {
+                    "label": "Negatywne"
+                }
+            }
+        },
+        "Effect: Allegro": {
+            "name": "Efekt: Allegro",
+            "description": "Przyznane, gdy ktoś używa @UUID[Compendium.pf2e.spells-srd.Item.IQchIYUwbsVTa9Mc] na tobie, zyskuje stan Przyspieszony i może użyć dodatkowej akcji, aby wykonać Atak, Bieg lub Krok."
+        },
+        "Effect: Aromatic Lure (Critical Failure)": {
+            "name": "Efekt: Aromatyczna Przynęta (Krytyczna Porażka)",
+            "description": "<p>Jesteś @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Ogłupiony 4} i przemieszczasz się do wybranej lokalizacji najbardziej bezpośrednią możliwą drogą przez 1 rundę, omijając wszelkie oczywiste zagrożenia i wrogów na drodze. Jeśli istota dotrze do celu, musi pozostać w tym miejscu przez [[/r 1d4 #rounds]]{1k4 rund}, ale poza tym może działać normalnie.</p>"
+        },
+        "Effect: Aromatic Lure (Failure)": {
+            "name": "Efekt: Aromatyczna Przynęta (Porażka)",
+            "description": "<p>Jesteś @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Ogłupiony 2} i poruszasz się w kierunku wybranej lokalizacji najbardziej bezpośrednią możliwą drogą przez 1 rundę, omijając wszelkie oczywiste zagrożenia i wrogów na drodze.</p>"
+        },
+        "Effect: Aromatic Lure (Success)": {
+            "name": "Efekt: Aromatyczna Przynęta (Sukces)",
+            "description": "<p>Rozpraszają cię kuszące zapachy, przez co stajesz się @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Ogłupiony 1} na 1 rundę.</p>"
+        },
+        "Effect: Battle Medicine Immunity 1 Hour": {
+            "name": "Efekt: Odporność na Medycynę Bitewną przez 1 godzinę",
+            "description": "<p>Przyznawany, gdy ktoś użyje na tobie @UUID[Compendium.pf2e.feats-srd.wYerMk6F1RZb0Fwt] z @UUID[Compendium.pf2e.equipment-srd.8kv4fmpE1geu4bFx], czyniąc cię tymczasowo odpornym na Medycynę Bitewną od tej osoby na czas jej trwania.</p>"
+        },
+        "Effect: Bend Time": {
+            "name": "Efekt: Zakrzywianie Czasu",
+            "description": "<p> W tej turze jesteś @UUID[Compendium.pf2e.conditionitems.nlCjDvLMf2EkV2dl]. Możesz użyć swojej dodatkowej akcji, aby Biec.</p>"
+        },
+        "Effect: Blinded for 1 round": {
+            "name": "Efekt: Oślepiony na 1 rundę",
+            "description": "<p>Jesteś @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2] przez 1 rundę.</p>"
+        },
+        "Effect: Clumsy for 1 round": {
+            "name": "Efekt: Niezdarny przez 1 rundę",
+            "description": "<p>Jesteś @UUID[Compendium.pf2e.conditionitems.i3OJZU2nk64Df3xm] przez 1 rundę.</p>"
+        },
+        "Effect: Clumsy until start of your next turn": {
+            "name": "Efekt: Niezdarny do początku twojej następnej tury",
+            "description": "<p>Jesteś @UUID[Compendium.pf2e.conditionitems.i3OJZU2nk64Df3xm] do początku twojej następnej tury.</p>"
+        },
+        "Effect: Concealed for 1 round": {
+            "name": "Efekt: Przysłonięty przez 1 rundę",
+            "description": "<p>Jesteś @UUID[Compendium.pf2e.conditionitems.DmAIPqOBomZ7H95W] przez 1 rundę, ale nie możesz używać przysłonięcia do @UUID[Compendium.pf2e.actionspf2e.Item.XMcnh4cSI32tljXa].</p>"
+        },
+        "Effect: Concealed until start of your next turn": {
+            "name": "Efekt: Przysłonięty do początku twojej następnej tury",
+            "description": "<p>Jesteś @UUID[Compendium.pf2e.conditionitems.DmAIPqOBomZ7H95W] do początku twojej następnej tury.</p>"
+        },
+        "Effect: Critically Successful Feint on": {
+            "name": "Efekt: Krytycznie udany test Finty",
+            "description": ""
+        },
+        "Effect: Dazzled for 1 round": {
+            "name": "Efekt: Zamroczony na 1 rundę",
+            "description": "<p>Jesteś @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh] przez 1 rundę.</p>"
+        },
+        "Effect: Deafened for 1 hour": {
+            "name": "Efekt: Ogłuchły na 1 godzinę",
+            "description": "<p>Jesteś @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR] przez 1 godzinę.</p>"
+        },
+        "Effect: Deafened for 1 minute": {
+            "name": "Efekt: Ogłuchły na 1 minutę",
+            "description": "<p>Jesteś @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR] przez 1 minutę.</p>"
+        },
+        "Effect: Deafened for 1 round": {
+            "name": "Efekt: Ogłuchły na 1 rundę",
+            "description": "<p>Jesteś @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR] przez 1 rundę.</p>"
+        },
+        "Effect: Demoralize Immunity 10 minutes": {
+            "name": "Efekt: Odporność na Demoralizację przez 10 minut",
+            "description": "<p>Przyznawany, gdy ktoś użyje na tobie @UUID[Compendium.pf2e.actionspf2e.2u915NdUyQan6uKF], czyniąc cię tymczasowo odpornym na Demoralizację na czas jej trwania.</p>"
+        },
+        "Effect: Enfeebled 1 until start of your next turn": {
+            "name": "Efekt: Osłabiony 1 do początku twojej następnej tury",
+            "description": "<p>Jesteś @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7] do początku następnej tury atakującego.</p>"
+        },
+        "Effect: Enfeebled 2 until start of your next turn": {
+            "name": "Efekt: Osłabiony 2 do początku twojej następnej tury",
+            "description": "<p>Jesteś @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7] do początku następnej tury atakującego.</p>"
+        },
+        "Effect: Enfeebled for 1 round": {
+            "name": "Efekt: Osłabiony na 1 rundę",
+            "description": "<p>Jesteś @UUID[Compendium.pf2e.conditionitems.MIRkyAjyBeXivMa7] przez 1 rundę.</p>"
+        },
+        "Effect: Fascinated for 1 round": {
+            "name": "Efekt: Zafascynowany przez 1 rundę",
+            "description": "<p>Jesteś @UUID[Compendium.pf2e.conditionitems.AdPVz7rbaVSRxHFg] przez 1 rundę.</p>"
+        },
+        "Effect: Feint (Critical Success) from": {
+            "name": "Efekt: Finta (Krytyczny Sukces) od ",
+            "description": "<p>Postać zostaje oszukana, ale tylko na chwilę. Do końca twojej następnej tury postać jest odsłonięta względem następnego ataku w walce wręcz.</p>"
+        },
+        "Effect: Feint (Success) from": {
+            "name": "Efekt: Finta (Sukces) od ",
+            "description": "<p>Postać zostaje oszukana, ale tylko na chwilę. Postać jest odsłonięta wzgledem kolejnego ataku w walce wręcz.</p>"
+        },
+        "Effect: Grabbed until end of attacker next turn": {
+            "name": "Efekt: Pochwycony do końca następnej tury atakującego",
+            "description": "<p>Cel jest @UUID[Compendium.pf2e.conditionitems.kWc1fhmv9LBiTuei] do końca twojej następnej tury, chyba że się poruszysz lub twój cel @UUID[Compendium.pf2e.actionspf2e.SkZAQRkLLkmBQNB9]{Ucieknie}.</p>"
+        },
+        "Effect: Haste": {
+            "name": "Efekt: Przyspieszenie",
+            "description": "Przyznany, gdy ktoś użyje @UUID[Compendium.pf2e.spells-srd.Item.o6YCGx4lycsYpww4] na tobie, zyskuje stan Przyspieszony i może użyć dodatkowej akcji co rundę tylko dla akcji Ataku i Biegu."
+        },
+        "Effect: Immobilized for 1 round": {
+            "name": "Efekt: Unieruchomiony na 1 rundę",
+            "description": "<p>Jesteś @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe] przez 1 rundę.</p>"
+        },
+        "Effect: Jinx Clumsy 1": {
+            "name": "Efekt: Fatum Niezdarny 1",
+            "description": "<p>Przyznany przez @UUID[Compendium.pf2e.actionspf2e.hFRHPBj6wjAayNtW].</p>"
+        },
+        "Effect: Jinx Clumsy 2": {
+            "name": "Efekt: Fatum Niezdarny 2",
+            "description": "<p>Przyznany przez @UUID[Compendium.pf2e.actionspf2e.hFRHPBj6wjAayNtW].</p>"
+        },
+        "Effect: Jinx Immunity": {
+            "name": "Efekt: Odporność na Fatum",
+            "description": "<p>Przyznane, gdy ktoś użyje @UUID[Compendium.pf2e.actionspf2e.hFRHPBj6wjAayNtW] na tobie.</p>"
+        },
+        "Effect: Ki Rush": {
+            "name": "Efekt: Pęd Ki",
+            "description": ""
+        },
+        "Effect: Off-Guard Tumble Behind": {
+            "name": "Efekt: Odsłonięty - Przeturlanie za Plecy",
+            "description": ""
+        },
+        "Effect: Off-Guard until start of your next turn": {
+            "name": "Efekt: Odsłonięty do początku twojej następnej tury",
+            "description": "<p>Jesteś @UUID[Compendium.pf2e.conditionitems.AJh5ex99aV6VTggg] do początku twojej następnej tury.</p>"
+        },
+        "Effect: Paralyzed until end of your next turn": {
+            "name": "Efekt: Sparaliżowany do końca twojej następnej tury",
+            "description": "<p>Jesteś @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF] do końca następnej tury atakującego.</p>"
+        },
+        "Effect: Pistol Twirl": {
+            "name": "Efekt: Kręcenie Pistoletem",
+            "description": ""
+        },
+        "Effect: Psychopomp Fortitude saving throws for 1 round": {
+            "name": "Efekt: Rzuty obronne na Wytrwałość Psychopompa przez 1 rundę",
+            "description": ""
+        },
+        "Effect: Restrained until end of attacker next turn": {
+            "name": "Efekt: Obezwładniony do końca następnej tury atakującego",
+            "description": "<p>Celem jest @UUID[Compendium.pf2e.conditionitems.VcDeM8A5oI6VqhbM] do końca twojej następnej tury, chyba że się poruszysz lub twój cel @UUID[Compendium.pf2e.actionspf2e.SkZAQRkLLkmBQNB9]{Ucieknie}.</p>"
+        },
+        "Effect: Root to Life": {
+            "name": "Efekt: Korzenie Życia",
+            "description": ""
+        },
+        "Effect: Scouting (Scout Dedication)": {
+            "name": "Efekt: Zwiad (Archetyp Zwiadowcy)",
+            "description": ""
+        },
+        "Effect: Skunk Bomb (Failure)": {
+            "name": "Efekt: Skunksowa Bomba (Porażka)",
+            "description": "<p>Jesteś @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3] podczas @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18].</p>"
+        },
+        "Effect: Slowed 1 for 1 round": {
+            "name": "Efekt: Spowolniony 1 na 1 rundę",
+            "description": "<p>Jesteś @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3] przez 1 rundę.</p>"
+        },
+        "Effect: Slowed while Sickened": {
+            "name": "Efekt: Spowolniony podczas Mdłości",
+            "description": "<p>Jesteś @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3] podczas  @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18].</p>"
+        },
+        "Effect: Stupefied for 1 round": {
+            "name": "Efekt: Ogłupiony na 1 rundę",
+            "description": "<p>Jesteś @UUID[Compendium.pf2e.conditionitems.e1XGnhKNSQIm5IXg] przez 1 rundę.</p>"
+        },
+        "Effect: Successful Feint on": {
+            "name": "Efekt: Udany test Finty",
+            "description": ""
+        },
+        "Effect: Temp HP 1 round": {
+            "name": "Efekt: Tymczasowe PW na 1 rundę",
+            "description": ""
+        },
+        "Effect: Treat Wounds Immunity 10 minutes": {
+            "name": "Efekt: Odporność na Leczenie Ran przez 10 minut",
+            "description": "<p>Przyznawany, gdy ktoś użyje na tobie @UUID[Compendium.pf2e.actionspf2e.1kGNdIIhuglAjIp9], czyniąc cię tymczasowo odpornym na Leczenie Ran na czas jego trwania.</p>"
+        },
+        "Feat Effect: Intimidating Strike": {
+            "name": "Efekt atutu: Zastraszający Atak",
+            "description": ""
+        },
+        "Feat Effect: Reach Spell": {
+            "name": "Efekt atutu: Zaklęcie Zasięgowe",
+            "description": ""
+        },
+        "Immunity to bane": {
+            "name": "Odporność na zgubę",
+            "description": ""
+        },
+        "Inspire Aura": {
+            "name": "Inspirująca Aura",
+            "description": ""
+        },
+        "Spell Effect: Aberrant Form": {
+            "name": "Efekt zaklęcia: Wynaturzona Forma",
+            "description": "",
+            "rules": {
+                "0": {
+                    "prompt": "Wybierz efekt."
+                }
+            }
+        },
+        "Spell Effect: Adapt Self": {
+            "name": "Efekt zaklęcia: Adaptacja Siebie",
+            "description": "",
+            "rules": {
+                "0": {
+                    "prompt": "Wybierz efekt."
+                }
+            }
+        },
+        "Spell Effect: Aerial Form": {
+            "name": "Efekt zaklęcia: Powietrzna Postać",
+            "description": "",
+            "rules": {
+                "0": {
+                    "prompt": "Wybierz efekt."
+                }
+            }
+        },
+        "Spell Effect: Angel Form": {
+            "name": "Efekt zaklęcia: Anielska Postać",
+            "description": "",
+            "rules": {
+                "0": {
+                    "prompt": "Wybierz efekt."
+                }
+            }
+        },
+        "Spell Effect: Animal Feature": {
+            "name": "Efekt zaklęcia: Zwierzęca Cecha",
+            "description": "",
+            "rules": {
+                "0": {
+                    "prompt": "Wybierz efekt."
+                }
+            }
+        },
+        "Spell Effect: Animal Form": {
+            "name": "Efekt zaklęcia: Zwierzęca Postać",
+            "description": "",
+            "rules": {
+                "0": {
+                    "prompt": "Wybierz efekt."
+                }
+            }
+        },
+        "Spell Effect: See the Unseen (8 hours)": {
+            "name": "Efekt zaklęcia: Widzenie Niewidzialnego (8 godzin)",
+            "description": "<p>Przyznane przez <em>@UUID[Compendium.pf2e.spells-srd.Item.jwK43yKsHTkJQvQ9]</em></p>\n<p>Możesz widzieć niewidzialne stworzenia tak, jakby nie były niewidzialne, choć ich cechy są zamazane, co sprawia, że są @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]. Zyskujesz także premię +2 do statusu przy testach niewiary w iluzje.</p>"
+        },
+        "Spell Effect: Spectral Hand": {
+            "name": "Efekt zaklęcia: Widmowa Dłoń",
+            "description": ""
+        }
+    },
+    "mapping": {
+        "rules": {
+            "converter": "translateRules",
+            "path": "system.rules"
+        }
+    }
+}

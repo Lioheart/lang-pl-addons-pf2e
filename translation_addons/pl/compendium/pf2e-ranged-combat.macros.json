@@ -1,0 +1,56 @@
+{
+    "label": "Makra",
+    "folders": {
+        "Utility": "Użytkowe",
+        "Ammunition System": "System Amunicji",
+        "Feats & Features": "Atuty i Cechy",
+        "Weapon Actions": "Akcje Broni"
+    },
+    "entries": {
+        "Alchemical Shot": {
+            "name": "Alchemiczny Strzał"
+        },
+        "Conjure Bullet": {
+            "name": "Wyczarowanie Pocisku"
+        },
+        "Consolidate Repeating Weapon Ammunition": {
+            "name": "Konsolidacja amunicji do broni powtarzalnej"
+        },
+        "Fully Reload": {
+            "name": "Pełne przeładowanie"
+        },
+        "Hunt Prey": {
+            "name": "Naznaczona Ofiara"
+        },
+        "Link Animal Companion": {
+            "name": "Łączenie zwierzęcego towarzysza"
+        },
+        "Load Alchemical Crossbow": {
+            "name": "Załaduj Kuszę Alchemiczną"
+        },
+        "NPC Weapon Configuration": {
+            "name": "Konfiguracja broni BN"
+        },
+        "Next Chamber": {
+            "name": "Następna Komora"
+        },
+        "Reload": {
+            "name": "Przeładowanie"
+        },
+        "Reload Magazine": {
+            "name": "Przeładowanie magazynku"
+        },
+        "Reload NPCs": {
+            "name": "Przeładowanie BNów"
+        },
+        "Switch Ammunition": {
+            "name": "Zmiana amunicji"
+        },
+        "Unload": {
+            "name": "Rozładuj"
+        },
+        "Unload Alchemical Crossbow": {
+            "name": "Rozładuj Kuszę Alchemiczną"
+        }
+    }
+}

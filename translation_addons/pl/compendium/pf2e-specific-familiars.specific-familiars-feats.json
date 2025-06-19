@@ -1,0 +1,9 @@
+{
+    "label": "Specyficzne Chowańce - Atuty",
+    "entries": {
+        "Specific Familiar Required Abilities": {
+            "name": "Szczegółowe wymagane zdolności chowańca",
+            "description": "<p>Dodaj ten atut bonusowy do swojej postaci, aby automatycznie odjąć wymaganą liczbę zdolności danego chowańca od całkowitej liczby zdolności chowańca na jego karcie.</p>\n<p><span style=\"text-decoration:underline\"><strong>Ten atut jest dla mistrza, a nie dla chowańca.</strong></span></p>\n<p>Dodaj ten atut na karcie mistrza po dodaniu Specyficznego Chowańca do karty Chowańca.<br />Zastąp atut, gdy zmienisz typ Specyficznego Chowańca.<br />Usuń atut po usunięciu Specyficznego Chowańca.</p>\n<p>Możesz użyć następującego makra @UUID[Compendium.pf2e-specific-familiars.specific-familiars-macros.Macro.3GV00hz5De2omavk] na tokenie mistrza, aby automatycznie dodać/zastąpić/usunąć Atut w zależności od potrzeb.</p>"
+        }
+    }
+}

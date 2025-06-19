@@ -1,0 +1,29 @@
+{
+    "label": "Specyficzne Chowańce - Ekwipunek",
+    "entries": {
+        "First Infusion": {
+            "name": "Pierwszy Napar",
+            "description": "<p><strong>Aktywacja</strong> <span class=\"action-glyph\">2 </span>Interakcja (Połknięcie)</p><p>Napar przywraca liczbę Punktów Wytrzymałości równą 1k8 razy połowa twojego poziomu (minimum 1k8) i zapewnia premię +4 do następnego rzutu obronnego przeciwko chorobie lub truciźnie wykonanego w ciągu 24 godzin.</p><p>@Damage[(ceil((@actor.level/2),1))d8[healing]]{Uzdrawianie na wyższym poziomie}</p><p>@UUID[Compendium.pf2e-specific-familiars.specific-familiars-effects.Item.6pI6nDLfhlGBUEiO]{Efekt: Pierwszy Napar}</p>"
+        },
+        "Second Infusion": {
+            "name": "Drugi Napar",
+            "description": "<p><strong>Aktywacja</strong> <span class=\"action-glyph\">2 </span>Interakcja</p><p>Napar przywraca liczbę Punktów Wytrzymałości równą 1k4 razy połowa twojego poziomu (minimum 1k4) i zapewnia premię +2 do następnego rzutu obronnego przeciwko chorobie lub truciźnie wykonanego w ciągu 24 godzin.</p><p>@Damage[(ceil((@actor.level/2),1))d4[healing]]{Uzdrowienie na wyższym poziomie}</p><p>@UUID[Compendium.pf2e-specific-familiars.specific-familiars-effects.Item.a3bOhBcAh8HARlFT]{Efekt: Drugi Napar}</p>"
+        },
+        "Sorcerous Sweets Candy": {
+            "name": "Cukierki dla Czarowników",
+            "description": "<p><strong>Aktywacja</strong> <span class=\"action-glyph\">A</span> Interakcja (Połknięcie)</p><p>Każdy, kto zje cukierek w ramach akcji Interakcji, zyskuje premię +1 do testów Oszustwa, Dyplomacji i Występów przez 1 godzinę. Cukierek zachowuje swój urok do następnego codziennego przygotowania.</p><p>@UUID[Compendium.pf2e-specific-familiars.specific-familiars-effects.Item.n6bo0EkqKR3dVbIx]{Efekt: Czarodziejskie Słodycze}</p>"
+        },
+        "Sorcerous Sweets Candy (Level 17)": {
+            "name": "Cukierki dla Czarowników (Poziom 17)",
+            "description": "<p><strong>Aktywacja</strong> <span class=\"action-glyph\">A</span> Interakcja (Połknięcie)</p>\n<p>Każdy, kto zje cukierek w ramach akcji Interakcji, zyskuje premię +3 do testów Oszustwa, Dyplomacji i Występów przez 1 godzinę. Cukierek zachowuje swój urok do następnego codziennego przygotowania.</p>\n<p>@UUID[Compendium.pf2e-specific-familiars.specific-familiars-effects.Item.Wfm1mtjJlIju5Kzq]{Efekt: Czarodziejskie Słodycze (Poziom 17)}</p>"
+        },
+        "Sorcerous Sweets Candy (Level 9)": {
+            "name": "Cukierki dla Czarowników (Poziom 9)",
+            "description": "<p><strong>Aktywacja</strong> <span class=\"action-glyph\">A</span> Interakcja (Połknięcie)</p>\n<p>Każdy, kto zje cukierek w ramach akcji Interakcji, zyskuje premię +2 do testów Oszustwa, Dyplomacji i Występów przez 1 godzinę. Cukierek zachowuje swój urok do następnego codziennego przygotowania.</p>\n<p>@UUID[Compendium.pf2e-specific-familiars.specific-familiars-effects.Item.ttXGdsjYZZwDePaG]{Efekt: Czarodziejskie Słodycze (Poziom 9)}</p>"
+        },
+        "Third Infusion": {
+            "name": "Trzeci Napar",
+            "description": "<p><strong>Aktywacja</strong> <span class=\"action-glyph\">2 </span>Interakcja</p><p>Napar ten zapewnia tymczasowe Punkty Wytrzymałości równe twojemu poziomowi przez 1 godzinę.</p><p>@UUID[Compendium.pf2e-specific-familiars.specific-familiars-effects.Item.GGr2FcMoySQJAXPN]{Efekt: Trzeci Napar}</p>"
+        }
+    }
+}

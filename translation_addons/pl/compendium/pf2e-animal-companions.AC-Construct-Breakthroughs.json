@@ -1,0 +1,77 @@
+{
+    "label": "AC-Przełomowe-Konstrukty",
+    "entries": {
+        "Accelerated Mobility": {
+            "name": "Przyspieszona Mobilność",
+            "description": "<p>Napędzane nogi, wydajne przekładnie w kołach lub bieżnikach lub dodatkowe wzmacniacze sprawiają, że konstrukcja jest szybsza. Szybkość innowacji wzrasta do 40 stóp.</p>"
+        },
+        "Advanced Weaponry": {
+            "name": "Zaawansowana Broń",
+            "description": "<p>Wzmocniłeś uzbrojenie swojego konstrukta. Wybierz jeden z nieuzbrojonych ataków swojego konstrukta, aby otrzymać jedną początkową modyfikację broni, wybraną z listy na stronie 18 lub z innych początkowych modyfikacji broni, do których masz dostęp. Atak bez broni musi spełniać wszystkie wymagania dla wybranej cechy (np. być atakiem wręcz dla postaci oplatającej), a ponieważ jest to atak bez broni, nigdy nie może spełnić niektórych wymagań, takich jak bycie prostą bronią dla złożonej prostoty.</p>\n<p><em>Uwaga: Modyfikacje Broni nie są obecnie dostępne w tym module lub systemie, elementy reguł Ataku na odpowiedniej funkcji mogą zostać zmodyfikowane w celu zastosowania modyfikacji.</em></p>"
+        },
+        "Amphibious Construct": {
+            "name": "Konstrukt Amfibijny",
+            "description": "<p>Zwiększona pływalność, stery i środki napędowe, takie jak falisty ogon lub potężne śmigło, sprawiają, że twoja konstrukcja może podróżować w wodzie. Twoja innowacja zyskuje szybkość pływania wynoszącą 25 stóp.</p>"
+        },
+        "Antimagic Construction": {
+            "name": "Konstrukcja Antymagiczna",
+            "description": "<p>Niezależnie od tego, czy użyłeś sprytnej adaptacji magicznego niebiańskiego metalu znanego jako noqual, czy też stworzyłeś magiczne zabezpieczenia całkowicie według własnego pomysłu, uczyniłeś swoją innowację wysoce odporną na zaklęcia. Twoja innowacyjna konstrukcja zyskuje premię +2 do wszystkich rzutów obronnych i KP przeciwko zaklęciom.</p>"
+        },
+        "Climbing Limbs": {
+            "name": "Kończyny Wspinaczkowe",
+            "description": "<p>Dzięki kończynom zdolnym do chwytania lub przyssania, twój konstrukt staje się zdolnym wspinaczem. Twoja innowacja zyskuje szybkość wspinaczki równą połowie jej szybkości lądowej.</p>"
+        },
+        "Durable Construction": {
+            "name": "Wytrzymała Konstrukcja",
+            "description": "<p>Twoja innowacja jest solidnie zbudowana; może przyjąć znaczne obrażenia, zanim zostanie zniszczona. Zwiększ jego maksymalne PW o swój poziom.</p>"
+        },
+        "Flight Chassis": {
+            "name": "Podwozie Lotnicze",
+            "description": "<p>Możesz wyposażyć swoją konstrukcję w zdolność latania, np. dodać wirniki lub wyposażyć ją w skrzydła i lekką konstrukcję. Twoja innowacja zyskuje szybkość lotu wynoszącą 25 stóp.</p>"
+        },
+        "Increased Size": {
+            "name": "Zwiększony Rozmiar",
+            "description": "<p>Zbudowałeś swoją innowację konstrukcyjną większą niż inne. Twój konstrukt jest Duży. Jeśli posiadasz tę modyfikację, a twoja innowacja konstrukcyjna stanie się zaawansowanym towarzyszem konstrukcyjnym lub w inny sposób zyska zdolność stania się dużą, możesz natychmiast zmienić zwiększony rozmiar na inną początkową modyfikację konstrukcyjną.</p>"
+        },
+        "Manual Dexterity": {
+            "name": "Zdolności Manualne",
+            "description": "<p>Twój innowacyjny konstrukt ma przegubowe ręce lub podobne kończyny o znacznej zręczności manualnej. Może wykonywać czynności manipulacyjne za pomocą maksymalnie dwóch kończyn. Jak zwykle w przypadku towarzysza, nadal nie może władać bronią ani trzymać przedmiotów, które nie mają cechy towarzysza, i nie może aktywować przedmiotów.</p>"
+        },
+        "Marvelous Gears": {
+            "name": "Wspaniałe Zębatki",
+            "description": "<p>Twoja innowacja zyskuje biegłość ekspercką w Zastraszaniu, Ukryciu i Przetrwaniu. W przypadku każdej z tych umiejętności, w której była już ekspertem (na przykład z powodu bycia zaawansowanym konstruktem towarzyszącym), zyskuje biegłość mistrzowską. Jeśli posiadasz cechę klasową rewolucyjna innowacja, biegłości te zostają ulepszone do poziomu mistrzowskiego lub legendarnego, jeśli twoja innowacja konstruktu była już ekspertem. Aby wybrać tę modyfikację, musisz posiadać modyfikację cudowne zębatki.</p>"
+        },
+        "Miracle Gears": {
+            "name": "Cudowne Przekładnie",
+            "description": "<p>W miarę doskonalenia kory mózgowej innowacji staje się ona coraz bardziej inteligentna. Jego modyfikator Inteligencji wzrasta o 2 i uczy się wybranego przez ciebie języka spośród tych, które znasz. Twój konstrukt zyskuje możliwość korzystania z akcji wymagających większej inteligencji, takich jak @Compendium[pf2e.actionspf2e.Coerce]{Przymuszanie} i @Compendium[pf2e.actionspf2e.d9gbpiQjChYDYA2L]{Odszyfrowanie pisma}. Wreszcie, twój konstrukt staje się legendarny w dwóch wybranych umiejętnościach opartych na Inteligencji lub Charyzmie. Aby wybrać tę modyfikację, musisz posiadać modyfikację wspaniałe zębatki.</p>"
+        },
+        "Projectile Launcher": {
+            "name": "Wyrzutnia Pocisków",
+            "description": "<p>Twój konstrukt ma zamontowaną wyrzutnię strzałek, wbudowane działko lub podobne uzbrojenie. Twoja innowacja zyskuje dystansowy atak bez broni, który zadaje 1k4 obuchowe lub kłute obrażenia (wybierasz, kiedy wybierasz tę modyfikację). Atak ma cechę siłowy i przyrost zasięgu wynoszący 30 stóp.</p>"
+        },
+        "Resistant Coating": {
+            "name": "Odporna Powłoka",
+            "description": "<p>Twoja innowacja jest trudna do zniszczenia w jakikolwiek sposób. Zyskuje odporność 5 na wszystkie obrażenia (z wyjątkiem adamantyny).</p>"
+        },
+        "Runic Keystone": {
+            "name": "Kamień Runiczny",
+            "description": "<p>Włączyłeś do swojej innowacji urządzenie podobne do kamienia runicznego, dzięki czemu może ono posiadać runę właściwości, nawet jeśli nie jest to broń ani zbroja. Runa właściwości zbroi wpływa na samą innowację, jeśli miałaby ona wpływ na osobę noszącą zbroję. Runa właściwości broni nadaje właściwości, które normalnie nadawałaby broni, atakom nieuzbrojonym twojej innowacji, zgodnie ze wszystkimi normalnymi wymaganiami (na przykład runa dekapitacji miałaby zastosowanie tylko do ataków nieuzbrojoną bronią do walki wręcz); jeśli runa wpływa tylko na ataki dystansowe, nie ma żadnego efektu, chyba że twoja innowacja ma wbudowany atak dystansowy (na przykład z początkowej modyfikacji wyrzutni pocisków). Jeśli runa wpływa na fizyczny kształt lub wygląd samej broni lub zbroi, jak w przypadku runy maskarady, runa nie ma żadnego efektu, gdy jest wyryta w konstrukcji.</p>\n<p><em>Uwaga: Pozostaje to bez automatyzacji do czasu ukończenia ulepszeń run systemowych.</em></p>"
+        },
+        "Sensory Array": {
+            "name": "Układ Sensoryczny",
+            "description": "<p>Dodatkowe urządzenia sensoryczne zapewniają innowacyjności widzenie w słabym świetle i ciemności, a także nieprecyzyjny zmysł drżenia o zasięgu do 30 stóp.</p>"
+        },
+        "Turret Configuration": {
+            "name": "Konfiguracja Wieżyczki",
+            "description": "<p>Twoja innowacja może przekształcić się z mobilnego konstruktu w stacjonarną wieżyczkę. Twój konstrukt-towarzysz może przekształcić się jako pojedyncza akcja, która ma cechę manipulowania, zmieniając się w wieżyczkę w swojej przestrzeni (lub przekształcając się z wieżyczki w normalną konfigurację). Gdy jest wieżyczką, twoja innowacja jest @Compendium[pf2e.conditionitems.Immobilized]{Unieruchomiona}, ale kość obrażeń z jego wyrzutni pocisków wzrasta do 1k6, a przyrost zasięgu wzrasta do 60 stóp. Musisz posiadać modyfikację wyrzutni pocisków, aby wybrać tę modyfikację.</p>\n<p><em>Uwaga: Jeśli zmieniono nazwę Wyrzutni Pocisków, należy zmodyfikować selektor elementu reguły na nową nazwę.</em></p>"
+        },
+        "Wall Configuration": {
+            "name": "Konfiguracja Ściany",
+            "description": "<p>Twoja innowacja może przekształcić się z mobilnej konstrukcji w stacjonarną placówkę na polu bitwy. Może się ona rozwinąć w ramach 2 akcji z cechą manipulacji, zmieniając swoją zwykłą postać w cienką, prostą ścianę z metalu i kół zębatych o wysokości do 10 stóp i długości do 30 stóp. Ściana musi rozciągać się przez oryginalną przestrzeń innowacji. Podczas gdy twój konstrukt jest ścianą, nie może wykonywać żadnych akcji poza użyciem tej samej czynności do ponownej transformacji i nie może się łatwo bronić, co czyni go @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Odsłoniętym} i daje mu dodatkową karę -2 do KP. Ściana blokuje linię wzroku i efekt, chyba że innowacja ma połowę swojego maksymalnego PW lub mniej, w którym to momencie dziury w ścianie pozwalają stworzeniom widzieć przez nią i atakować z ukrycia, a Malutkie stworzenia mogą się przez nią prześlizgnąć.</p>"
+        },
+        "Wonder Gears": {
+            "name": "Cudowne Zębatki",
+            "description": "<p>Mapujesz specjalistyczne umiejętności na surową inteligencję swojego konstruktu. Twoja innowacja zostaje wytrenowana w Zastraszaniu, Ukryciu i Przetrwaniu.</p>"
+        }
+    }
+}

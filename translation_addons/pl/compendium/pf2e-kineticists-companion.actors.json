@@ -1,0 +1,27 @@
+{
+    "label": "Postacie",
+    "folders": {
+        "Protector Tree": "Drzewo Obrońca",
+        "Ignite the Sun": "Zapłon Słońca"
+    },
+    "entries": {
+        "Protector Tree": {
+            "name": "Drzewo Obrońca"
+        },
+        "Sun": {
+            "name": "Słońce",
+            "publicNotes": "<p>Miniaturowe słońce stworzone przez @UUID[Compendium.pf2e.feats-srd.uKeUPPqV1cNnIy0h]{Zapłon Słońca}.</p>"
+        }
+    },
+    "mapping": {
+        "publicNotes": "system.details.publicNotes",
+        "privateNotes": "system.details.privateNotes",
+        "acDetails": "system.attributes.ac.details",
+        "blurb": "system.details.blurb",
+        "hpDetails": "system.attributes.hp.details",
+        "allSavesBonus": "system.attributes.allSaves.value",
+        "speedsDetails": "system.attributes.speed.details",
+        "sensesDetails": "system.perception.details",
+        "languagesDetails": "system.details.languages.details"
+    }
+}

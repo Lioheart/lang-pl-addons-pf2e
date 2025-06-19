@@ -1,0 +1,57 @@
+{
+    "label": "Warianty Zaklęć",
+    "folders": {
+        "Spell Effects": "Efekty Zaklęć",
+        "Remaster Cantrips": "Remaster Sztuczek"
+    },
+    "entries": {
+        "Blaze": {
+            "name": "Płomień",
+            "description": "<p><strong>Zastępuje @UUID[Compendium.pf2e.spells-srd.Item.6DfLZBl8wKIV03Iq]</strong></p><p></p><p>Pstrykasz palcami i wskazujesz cel, który zaczyna się tlić. Wykonaj rzut ataku zaklęciem przeciwko KP celu, zadając 2k6 obrażeń od ognia przy trafieniu. Jeśli cel znajduje się w zasięgu twojej walki wręcz, możesz zdecydować się na wykonanie ataku zaklęciem w walce wręcz za pomocą płomienia zamiast ataku zaklęciem na odległość, co zwiększa wszystkie kości obrażeń zaklęcia do k8.</p><hr /><p><strong>Krytyczny Sukces</strong> Cel otrzymuje podwójne obrażenia i 1k4 trwałych obrażeń od ognia.</p><p><strong>Sukces</strong> Cel otrzymuje pełne obrażenia.</p><hr /><p><strong>Wzmocnienie (+1)</strong> Początkowe obrażenia wzrastają o 1k6, a obrażenia od ognia przy trafieniu krytycznym wzrastają o 1k4.</p><p>@Damage[(@item.rank)d4[persistent,fire]]{Skalowanie obrażeń od ognia}</p><p>@Damage[(@item.rank)d6[persistent,fire]]{Skalowanie obrażeń od ognia (Walka Wręcz)}</p>"
+        },
+        "Chant": {
+            "name": "Intonacja",
+            "description": "<p><strong>Zastępuje @UUID[Compendium.pf2e.spells-srd.Item.b5BQbwmuBhgPXTyi]</strong></p><p></p><p>Intonujesz przeraźliwy hymn, który słyszą tylko stworzenia w okolicy. Hymn zadaje 2k4 obrażeń przy rzucie obronnym na Wytrwałość. Jeśli cel nie zda rzutu obronnego, zostaje również @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{Ogłuchły} na 1 minutę.</p><hr /><p><strong>Wzmocnienie (+1)</strong> Obrażenia wzrastają o 1k4.</p>"
+        },
+        "Cleanse": {
+            "name": "Oczyszczenie",
+            "description": "<p><strong>Zastępuje</strong> @UUID[Compendium.pf2e.spells-srd.Item.kcelf6IHl3L9VXXg]</p><p></p><p>Niszczysz zepsutą esencję celu energią z Kuźni Stworzenia. Zadajesz obrażenia witalności równe 2k8 przy rzucie obronnym na Wytrwałość. Jeśli istota poniesie krytyczną porażkę w rzucie obronnym, otrzymuje również @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Osłabienie 1} do początku twojej następnej tury.</p><hr /><p><strong>Wzmocnienie (+1)</strong> Obrażenia zwiększają się o 1k8.</p>"
+        },
+        "Dissolve": {
+            "name": "Rozpuszczenie",
+            "description": "<p><strong>Zastępuje</strong> @UUID[Compendium.pf2e.spells-srd.Item.thAHF1zxNplLCJPO] i @UUID[Compendium.pf2e.spells-srd.Item.gISYsBFby1TiXfBt]</p><p></p><p>Rzucasz dużą kulę kwasu, która natychmiast wybucha, rozpryskując się na pobliskie stworzenia. Stworzenia w obszarze działania otrzymują 2k4 obrażeń od kwasu przy rzucie obronnym na Refleks; w przypadku krytycznej porażki stworzenie otrzymuje dodatkowo <a class=\"inline-roll roll\" draggable=\"true\" data-formula=\"{1[acid,persistent]}\" data-base-formula=\"(1+floor((@item.rank )/2))[persistent,acid]\" data-damage-roll=\"(1+floor((@item.rank )/2))[persistent,acid]\" data-traits=\"acid,cantrip,concentrate,manipulate\" data-item-id=\"9La62tVrVKGK506h\" data-persistent>1 trwały kwas</a> obrażeń.</p><hr /><p><strong>Wzmocnienie (+1)</strong> Początkowe obrażenia wzrastają o 1k4, a trwałe obrażenia w przypadku krytycznej porażki wzrastają o 1.</p><h5> </h5>"
+        },
+        "Freeze": {
+            "name": "Zamrożenie",
+            "description": "<p><strong>Zastępuje</strong> @UUID[Compendium.pf2e.spells-srd.Item.gYjPm7YwGtEa1oxh] i @UUID[Compendium.pf2e.spells-srd.Item.IxhGEKl63R4QBvkj]</p><p></p><p>Kula przenikliwego zimna tworzy się wokół celu, zamrażając jego ciało. Cel otrzymuje 2k6 obrażeń od zimna z rzutem obronnym na Wytrwałość.</p><p></p><hr /><p><strong>Krytyczny Sukces</strong> Nie ma to wpływu na stworzenie.</p><p><strong>Sukces</strong> Stworzenie otrzymuje połowę obrażeń.</p><p><strong>Porażka</strong> Stworzenie otrzymuje pełne obrażenia i karę -5 stóp do szybkości do początku twojej następnej tury. @UUID[Compendium.pf2e-variant-cantrips.variant-spells.Item.cdcEZpMaDhNBGARS]</p><p><strong>Krytyczna Porażka</strong> Stworzenie otrzymuje podwójne obrażenia, podatność 1 na obrażenia obuchowe oraz karę -10 stóp do szybkości do początku twojej następnej tury.</p><p>@UUID[Compendium.pf2e-variant-cantrips.variant-spells.Item.RlrvMxaqytg6cOM7]</p><p>@UUID[Compendium.pf2e-variant-cantrips.variant-spells.Item.Ob1aAInUML4GLDXR]</p><hr /><p><strong>Wzmocnienie (+1)</strong> Obrażenia wzrastają o 1k6, a podatność z porażki krytycznej wzrasta o 1.</p>"
+        },
+        "Gush": {
+            "name": "Wylew",
+            "description": "<p><strong>Zastępuje</strong> @UUID[Compendium.pf2e.spells-srd.Item.eSL5hVT9gXrnRLtd]</p><p></p><p>Woda tryska w górę, wydobywając się z ziemi, unosząc się z kałuży, a nawet pojawiając się z powietrza. Wszelkie stworzenia w obszarze otrzymują 2k6 obrażeń, z podstawowym rzutem obronnym na Refleks. Stworzenie, które poniesie krytyczną porażkę w rzucie obronnym, zostaje zdezorientowane przez eksplozję wody i do końca twojej następnej tury otrzymuje stan @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Odsłonięty}.</p><p>Możesz zmienić obszar działania tego zaklęcia na @Template[burst|distance:5], pod warunkiem, że wyśrodkujesz wybuch w zbiorniku wodnym. Zbiornik ten może być tak mały jak staw lub strumień, ale nie może być tak mały jak kałuża lub wanna.</p><hr /><p><strong>Wzmocnienie (+1)</strong> Obrażenia wzrastają o 1k6.</p>"
+        },
+        "Intoxicate": {
+            "name": "Zatruwanie",
+            "description": "<p><strong>Zastępuje @UUID[Compendium.pf2e.spells-srd.Item.D7ZEhTNIDWDLC2J4]</strong></p><p></p><p><span style=\"font-family:Roboto, sans-serif\">Wydmuchujesz z ust migoczącą chmurę trującego powietrza w twarz wroga. Cel otrzymuje 2k4 obrażeń od trucizny i </span>@Damage[(ceil(@item.level))[persistent,poison]]<span style=\"font-family:Roboto, sans-serif\">, w zależności od rzutu obronnego na Wytrwałość.</span></p><hr style=\"box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial;border-right:none;border-left:none;border-image:initial;border-top:1px solid var(--app-border-color);border-bottom:1px solid var(--app-border-color);color:rgb(239, 230, 216);font-family:Roboto, sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial\" /><p><strong>Krytyczny Sukces</strong> Nie ma to wpływu na stworzenie.</p><p><strong>Sukces</strong> Cel otrzymuje połowę początkowych obrażeń i obrażenia trwałe.</p><p><strong>Porażka</strong> Cel otrzymuje pełne obrażenia początkowe i trwałe.</p><p><strong>Krytyczna Porażka</strong> Cel otrzymuje podwójne obrażenia początkowe i trwałe.</p><hr /><p><strong>Wzmocnienie (+1)</strong> Początkowe obrażenia od trucizny wzrastają o 1k4, a trwałe obrażenia od trucizny wzrastają o 1.</p>"
+        },
+        "Spell Effect: Freeze -10 Speed": {
+            "name": "Efekt Zaklęcia: Zamrożenie -10 do Szybkości",
+            "description": "<p>Przyznany przez @UUID[Item.eKUoT3rSRfTMPPPu]</p><p>Otrzymujesz karę statusu -10 stóp do szybkości.</p>"
+        },
+        "Spell Effect: Freeze -5 Speed": {
+            "name": "Efekt Zaklęcia: Zamrożenie -5 do Szybkości",
+            "description": "<p>Przyznany przez @UUID[Item.eKUoT3rSRfTMPPPu]</p><p>Otrzymujesz karę statusu -5 stóp do szybkości.</p>"
+        },
+        "Spell Effect: Freeze Weakness": {
+            "name": "Efekt Zaklęcia: Zamrożenie Podatność",
+            "description": "<p>Przyznany przez @UUID[Item.eKUoT3rSRfTMPPPu]</p><p>Cel otrzymuje podatność na obrażenia obuchowe równą randze zaklęcia.</p>"
+        },
+        "Stagger": {
+            "name": "Zataczanie",
+            "description": "<p><strong>Zastępuje</strong> <span style=\"font-family:Roboto\">@UUID[Compendium.pf2e.spells-srd.Item.4gBIw4IDrSfFHik4]</span></p><p></p><p>Zadajesz obrażenia psychiczne równe 2k6 przy rzucie obronnym na Wolę. Jeśli cel poniesie krytyczną porażkę w rzucie obronnym, zostaje również <a class=\"content-link\" draggable=\"true\" data-link data-uuid=\"Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix\" data-id=\"dfCMdR4wnpbYNTix\" data-type=\"Item\" data-pack=\"pf2e.conditionitems\" data-tooltip=\"Condition Item\">Ogłuszony 1</a>.</p><hr /><p><strong>Wzmocnienie (+1)</strong> Obrażenia wzrastają o 1k6.</p><h5> </h5>"
+        },
+        "Void Rot": {
+            "name": "Pustka Gnicia",
+            "description": "<p><strong>Zastępuje</strong> @UUID[Compendium.pf2e.spells-srd.Item.mAMEt4FFbdqoRnkN]</p><p></p><p><strong>Żywe stworzenie</strong> Zaklęcie zadaje obrażenia pustki równe 2k6, z rzutem obronnym na Wytrwałość. W przypadku krytycznej porażki cel otrzymuje również @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Osłabienie 1} na 1 rundę.</p><p><strong>Nieumarłe stworzenie</strong> Cel otrzymuje stan @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Odsłonięty} na 1 rundę po nieudanym rzucie obronnym na Wytrwałość. W przypadku krytycznej porażki cel otrzymuje również @UUID[Compendium.pf2e.conditionitems.Item.sDPxOjQ9kx2RZE8D]{Ucieczka} na 1 rundę, chyba że uda mu się rzut obronny na Wolę.</p><hr /><p><strong>Wzmocnienie (+1)</strong> Obrażenia od pustki zadane żywym istotom wzrastają o 1k6.</p>"
+        }
+    }
+}

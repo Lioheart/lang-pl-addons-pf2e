@@ -1,0 +1,99 @@
+{
+    "label": "Efekty",
+    "folders": {
+        "Spell": "Zaklęcie",
+        "Consumable": "Zużywalny",
+        "Feat": "Atut",
+        "Critical Specialization": "Krytyczna Specjalizacja",
+        "Swashbuckler": "Zawadiaka",
+        "Rogue": "Łotr",
+        "Class Feature": "Zdolność Klasowa",
+        "Action": "Akcja"
+    },
+    "entries": {
+        "Effect: Bottled Lightning": {
+            "name": "Efekt: Błyskawica w butelce",
+            "description": "<p>Przyznany przez @UUID[Compendium.pf2e.equipment-srd.Item.AFR01HVd7DcZvkpP], @UUID[Compendium.pf2e.equipment-srd.Item.97QyNEOAyYLdGaYc], @UUID[Compendium.pf2e.equipment-srd.Item.r2iTRbt1zpkAqHj2], @UUID[Compendium.pf2e.equipment-srd.Item.rpbbfkexLhtadBDV]</p><p>Jesteś @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Odsłonięty} do początku następnej tury przeciwnika.</p>"
+        },
+        "Effect: Critical Specialization (Bow)": {
+            "name": "Efekt: Krytyczna Specjalizacja (Łuk)",
+            "description": "<p>Jesteś @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Unieruchomiony} i musisz wydać akcję @UUID[Compendium.pf2e.actionspf2e.Item.pvQ5rY2zrtPI614F]{Interakcji}, aby spróbować @Check[athletics|dc:10|name:Uwolnij pocisk|showDC:all] aby uwolnić pocisk; nie możesz opuścić swojego miejsca, dopóki ci się to nie uda.</p>"
+        },
+        "Effect: Critical Specialization (Brawling)": {
+            "name": "Efekt: Krytyczna Specjalizacja (Bijatyka)",
+            "description": "<p>Jesteś @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Spowolniony o 1} do końca następnej tury przeciwnika.</p>"
+        },
+        "Effect: Critical Specialization (Spear)": {
+            "name": "Efekt: Krytyczna Specjalizacja (Włócznia)",
+            "description": "<p>Twój atak został osłabiony, jesteś @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Niezdarny 1} do początku następnej tury przeciwnika.</p>"
+        },
+        "Effect: Critical Specialization (Sword)": {
+            "name": "Efekt: Krytyczna Specjalizacja (Miecz)",
+            "description": "<p>Zostajesz wytrącony z równowagi przez atak przeciwnika, stając się @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Odsłonięty} do początku jego następnej tury.</p>"
+        },
+        "Effect: Demoralize Immunity": {
+            "name": "Efekt: Odporność na Demoralizację",
+            "description": "<p>Przyznawany, gdy ktoś użyje na tobie @UUID[Compendium.pf2e.actionspf2e.Item.2u915NdUyQan6uKF]{Demoralizacji}, czyniąc cię tymczasowo niewrażliwym na dalsze próby Demoralizacji z jego strony na czas trwania tej umiejętności.</p>"
+        },
+        "Effect: Disarm (Critical Failure)": {
+            "name": "Efekt: Rozbrojenie (Krytyczna Porażka)",
+            "description": "<p>Tracisz równowagę i stajesz się @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Odsłonięty} do początku swojej następnej tury.</p>"
+        },
+        "Effect: Feint (Critical Failure)": {
+            "name": "Efekt: Finta (Krytyczna Porażka)",
+            "description": "<p>Podstęp przeciwnika nie powiódł się, jest on teraz @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Odsłonięty} przed twoimi atakami wręcz do końca swojej następnej tury.</p>"
+        },
+        "Effect: Feint (Critical Success)": {
+            "name": "Efekt: Finta (Krytyczny Sukces)",
+            "description": "<p>Całkowicie wyłączasz obronę przeciwnika. Cel jest @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Odsłonięty} przed atakami w walce wręcz, które podejmiesz przeciwko niemu do końca twojej następnej tury.</p>"
+        },
+        "Effect: Feint (Success)": {
+            "name": "Efekt: Finta (Sukces)",
+            "description": "<p>Przeciwnik daje się nabrać, ale tylko na chwilę. Cel jest @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Odsłonięty} przed następnym atakiem w zwarciu, który wykonasz przeciwko niemu przed końcem twojej bieżącej tury.</p>"
+        },
+        "Effect: Grapple (Critical Success)": {
+            "name": "Efekt: Chwytanie (Krytyczny Sukces)",
+            "description": "<p>Jesteś @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Obezwładniony} do końca następnej tury przeciwnika, chyba że on się poruszy lub ty @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Uwolnisz się}.</p>"
+        },
+        "Effect: Grapple (Success)": {
+            "name": "Efekt: Chwytanie (Sukces)",
+            "description": "<p>Zostajesz @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Pochwycony} do końca następnej tury przeciwnika, chyba że on się poruszy lub ty @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Uwolnisz się}.</p>"
+        },
+        "Effect: Mistform Elixir (Greater)": {
+            "name": "Efekt: Eliksir Mgielnej Postaci (Większy)",
+            "description": "<p>Przyznany przez @UUID[Compendium.pf2e.equipment-srd.Item.04giYigfDL5geu5f]{Eliksir Mgielnej Postaci (Większy)}</p><p>Słaba mgiełka emanuje z twojej skóry, sprawiając, że jesteś @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Przysłonięty} przez 5 minut.</p>"
+        },
+        "Effect: Mistform Elixir (Lesser)": {
+            "name": "Efekt: Eliksir Mgielnej Postaci (Mniejszy)",
+            "description": "<p>Przyznany przez @UUID[Compendium.pf2e.equipment-srd.Item.GyO89RBVjAKFxsFm]{Eliksir Mgielnej Postaci (Mniejszy)}</p><p>Słaba mgiełka emanuje z twojej skóry, sprawiając, że jesteś @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Przysłonięty} przez 3 rundy.</p>"
+        },
+        "Effect: Mistform Elixir (Moderate)": {
+            "name": "Efekt: Eliksir Mgielnej Postaci (Średni)",
+            "description": "<p>Przyznany przez @UUID[Compendium.pf2e.equipment-srd.Item.Ax8XcBd0rRd1Z7hN]{Eliksir Mgielnej Postaci (Średni)}</p><p>Słaba mgiełka emanuje z twojej skóry, sprawiając, że jesteś @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Przysłonięty} przez 1 minutę.</p>"
+        },
+        "Effect: Scoundrel Feint (Critical Success)": {
+            "name": "Efekt: Finta Łajdaka (Krytyczny Sukces)",
+            "description": "<p>Jesteś Odsłonięty przed wszystkimi atakami w walce wręcz do końca następnej tury przeciwnika.</p>"
+        },
+        "Effect: Scoundrel Feint (Success)": {
+            "name": "Efekt: Finta Łajdaka (Sukces)",
+            "description": "<p>Twój cel jest @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Odsłonięty} przed twoimi atakami wręcz do końca twojej następnej tury.</p>"
+        },
+        "Effect: Scoundrel Off-Guard": {
+            "name": "Efekt: Odsłonięcie Łajdaka",
+            "description": "<p>Cel jest Odsłonięty przed wszystkimi atakami w walce wręcz.</p>"
+        },
+        "Effect: Tumble Behind": {
+            "name": "Efekt: Przeturlanie za plecy",
+            "description": "<p>Twój wróg jest @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Odsłonięty} przed następnym atakiem, który wykonasz przed końcem swojej tury.</p>"
+        },
+        "Spell Effect: Painful Vibrations": {
+            "name": "Efekt Zaklęcia: Bolesne Wibracje",
+            "description": "<p>Jesteś @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{Ogłuchły}.</p>"
+        },
+        "Spell Effect: Vision of Death": {
+            "name": "Efekt Zaklęcia: Wizja Śmierci",
+            "description": "<p>Stałeś się @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Przestraszony 4}, a także @UUID[Compendium.pf2e.conditionitems.Item.sDPxOjQ9kx2RZE8D]{Uciekasz}, dopóki jesteś przestraszony.</p>"
+        }
+    }
+}

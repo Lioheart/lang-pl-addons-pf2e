@@ -1,0 +1,160 @@
+{
+    "label": "Ac-Atuty",
+    "entries": {
+        "Ambusher": {
+            "name": "Czatownik",
+            "description": "<p>W naturalnym środowisku towarzysz może użyć akcji @UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]{Skradania się}, nawet jeśli jest aktualnie obserwowany. Jego poziom biegłości w Ukryciu wzrasta do eksperta (lub mistrza, jeśli był już ekspertem ze swojego typu), a jego modyfikator Zręczności wzrasta o 1. Jego poziom biegłości w obronie bez pancerza wzrasta do eksperta.</p>"
+        },
+        "Billowing Wings": {
+            "name": "Rozłożyste Skrzydła",
+            "description": "<p>Wytrenowałeś swoich skrzydlatych towarzyszy, by gromadzili powietrze w swoich skrzydłach, wzbijając skoncentrowany podmuch wiatru w kierunku przeciwników, potencjalnie ich oszałamiając.</p><p>Twoi skrzydlaci towarzysze zyskują dystansowy atak bez broni w postaci podmuchu, który zadaje 1k4 obrażeń obuchowych w zasięgu 30 stóp i posiada cechy powietrza i siłowy. Przy trafieniu krytycznym cel zostaje odepchnięty na 5 stóp. Jest to ruch wymuszony.</p>",
+            "rules": {
+                "1": {
+                    "text": "Przy trafieniu krytycznym cel zostaje odepchnięty na 5 stóp. Jest to ruch wymuszony."
+                }
+            }
+        },
+        "Bully": {
+            "name": "Dręczyciel",
+            "description": "<p>Twój towarzysz terroryzuje wrogów pokazami dominacji i popycha ich po polu bitwy. Jego poziomy biegłości w Atletyce i Zastraszaniu wzrastają do poziomu eksperta (lub mistrza, jeśli był już ekspertem ze swojego typu), jego modyfikator Siły wzrasta o 1, a jego modyfikator Charyzmy wzrasta o 3.</p>"
+        },
+        "Daredevil": {
+            "name": "Śmiałek",
+            "description": "<p>Twój towarzysz dołącza do walki, wykonując pełne gracji skoki, nurkując w stronę przeciwnika. Zyskuje zdolność zaprzeczenia przewadze, więc nie jest @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Odsłonięty} dla @UUID[Compendium.pf2e.conditionitems.Item. iU0fEDdBp3rXpTMC]{Ukrytego}, @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{Niewykrytego} lub flankujących stworzeń, chyba że poziom takiego stworzenia jest wyższy niż twój. Jego poziom biegłości w Akrobatyce wzrasta do mistrzowskiego, a jego modyfikator Zręczności wzrasta o 1. Jego poziom biegłości w obronie bez pancerza wzrasta do eksperta.</p>"
+        },
+        "Deep Diver": {
+            "name": "Nurek Głębinowy",
+            "description": "<p>Twój towarzysz zyskuje szybkość pływania wynoszącą 30 stóp lub premię +10 stóp do istniejącej szybkości pływania i może oddychać pod wodą, jeśli wcześniej tego nie potrafił. Jego modyfikator Kondycji wzrasta o 1. Jego poziom biegłości w Atletyce wzrasta do mistrza, a w Ladrach wzrasta do eksperta. Ta specjalizacja może być wybrana tylko przez syrenowych towarzyszy.</p>",
+            "rules": {
+                "0": {
+                    "choices": {
+                        "0": {
+                            "label": "Uzyskanie prędkości pływania"
+                        },
+                        "1": {
+                            "label": "Zwiększenie dotychczasowej szybkości pływania"
+                        }
+                    }
+                }
+            }
+        },
+        "Ferocious Charge": {
+            "name": "Dzika Szarża",
+            "description": "<p>Towarzysz porusza się w linii prostej z dwukrotną szybkością i zadaje cios porożem, głową lub rogiem. Jeśli przemieścił się o co najmniej 20 stóp, zadaje dodatkowe 1k8 obrażeń. Obrażenia te wzrastają do 2k8, jeśli towarzysz jest wyspecjalizowany. Towarzysz może użyć Dzikiej Szarży podczas kopania, wspinania się, latania lub pływania zamiast chodzenia, jeśli posiada odpowiedni typ ruchu.</p>"
+        },
+        "Genie-Touched Companion": {
+            "name": "Dotknięty przez Dżina Zwierzęcy Towarzysz",
+            "description": "<p>Jeśli wybierzesz atut, który normalnie pozwoliłby ci wybrać dzikiego lub zwinnego zwierzęcego towarzysza, możesz zamiast tego wybrać, aby stał się on zwierzęcym towarzyszem dotkniętym przez dżina. Wybierając atut, należy wybrać rodzaj dżina, którego moc przepełnia towarzysza. Dżiny i ich cechy żywiołów są następujące: djinni (powietrze), efreeti (ogień), marid (woda) lub shaitan (ziemia). Towarzysz dotknięty przez dżina zwiększa swój modyfikator Mądrości o 2 oraz modyfikatory Siły, Zręczności i Kondycji o 1. Zadaje dodatkowe 3 obrażenia atakami bez broni; obrażenia te są obrażeniami od ognia w przypadku towarzysza dotkniętego przez efreeti lub tego samego typu co atak bez broni w przypadku pozostałych. Zyskuje odporność 5 na obrażenia typu zależnego od dżina: kwas dla djinni, ogień dla efreeti lub marida oraz elektryczność dla shaitana. Jeśli towarzysz jest dotknięty djinni lub efreeti, zwiększa swój poziom biegłości w Akrobatyce do eksperta; jeśli jest dotknięty maridem lub shaitanem, zwiększa swój poziom biegłości w Atletyce do eksperta. Uczy się również zaawansowanego manewru dla swojego typu. Jego ataki liczą się jako magiczne w celu ignorowania odporności i zyskują cechę żywiołu dżina. Towarzysze dotknięci przez dżina mogą wybrać jedną z następujących opcji, gdy stają się wyspecjalizowanymi towarzyszami zwierząt.</p>",
+            "rules": {
+                "0": {
+                    "choices": {
+                        "0": {
+                            "label": "Dżinni"
+                        },
+                        "1": {
+                            "label": "Ifryt"
+                        },
+                        "2": {
+                            "label": "Marid"
+                        },
+                        "3": {
+                            "label": "Shaitan"
+                        }
+                    }
+                }
+            }
+        },
+        "Heightened Instincts": {
+            "name": "Wzmocnione Instynkty",
+            "description": "<p>Pracowałeś nad wyostrzeniem instynktów swoich towarzyszy do nadnaturalnego poziomu. Kiedy jednemu z twoich towarzyszy uda się rzut obronny, zamiast tego otrzymuje on sukces krytyczny.</p>"
+        },
+        "Indomitable Animal Companion": {
+            "name": "Niezłomny Zwierzęcy Towarzysz",
+            "description": "<p>Niezłomny towarzysz zwiększa swój modyfikator Kondycji o 2 oraz modyfikatory Siły, Zręczności i Mądrości o 1. Zadaje dodatkowe 3 obrażenia atakami bez broni. Zwiększa stopień biegłości w Atletyce do eksperta i stopień biegłości w ladrach do eksperta. Uczy się również zaawansowanego manewru dla swojego typu. Jeśli twój towarzysz jest Średni lub mniejszy, jego rozmiar wzrasta o jedną kategorię. Jego ataki liczą się jako magiczne dla celów ignorowania odporności.</p>"
+        },
+        "Mature Animal Companion": {
+            "name": "Dojrzały Zwierzęcy Towarzysz",
+            "description": "<p>Kiedy zmieniasz młodego zwierzęcego towarzysza w dojrzałego zwierzęcego towarzysza:</p><ul><li>Jeśli towarzysz jest Średni lub mniejszy, powiększa się o jeden rozmiar.</li><li>Zwiększa modyfikatory Siły, Zręczności, Kondycji i Mądrości o 1.</li><li>Zwiększa rangę biegłości w Percepcji i wszystkich rzutach obronnych do poziomu eksperta. Zwiększa stopień biegłości w Zastraszaniu, Ukryciu i Przetrwaniu do wytrenowanego, a jeśli był już wytrenowany w jednej z tych umiejętności ze swojego typu, zwiększa stopień biegłości w tej umiejętności do eksperta.</li><li>Zwiększa obrażenia ataku bez broni z jednej kości do dwóch kości (np. 1k8 do 2k8).</li></ul>"
+        },
+        "Nature's Precision": {
+            "name": "Naturalna Precyzja",
+            "description": "<p>Twoi towarzysze atakują słabe punkty wroga. Kiedy twój towarzysz atakuje @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Odsłoniętą} istotę zwinnym lub finezyjnym atakiem bez broni, zadaje dodatkowe 1k4 obrażenia precyzyjne (2k4, jeśli zwierzęcy towarzysz jest wyspecjalizowany). Jeśli towarzysz zadaje już obrażenia precyzyjne, należy je połączyć.</p>"
+        },
+        "Nimble Animal Companion": {
+            "name": "Zwinny Zwierzęcy Towarzysz",
+            "description": "<p>Aby przekształcić dojrzałego zwierzęcego towarzysza w zwinnego zwierzęcego towarzysza:</p><ul><li>Zwiększa modyfikator Zręczności o 2 oraz modyfikatory Siły, Kondycji i Mądrości o 1.</li><li>Zwiększa stopnie biegłości w Akrobatyce do poziomu eksperta.</li><li>Zadaje dodatkowe 2 obrażenia atakami bez broni. Jego ataki stają się magiczne w celu ignorowania odporności.</li><li>Uczy się zaawansowanego manewru dla swojego typu.</li></ul>"
+        },
+        "Racer": {
+            "name": "Ścigacz",
+            "description": "<p>Twój towarzysz się ściga. Zyskuje premię +10 stóp do szybkości, szybkości pływania lub szybkości latania (do wyboru). Jego biegłość w rzutach obronnych Wytrwałość wzrasta do legendarnej, a modyfikator Kondycji wzrasta o 1.</p>"
+        },
+        "Running Kick": {
+            "name": "Kopnięcie w biegu",
+            "description": "<p>Towarzysz ten wykonuje Bieg do dwukrotności swojej szybkości i wykonuje atak kopytem, stopą lub szponem w dowolnym momencie ruchu. Ruch ten nie wywołuje reakcji ze strony istoty będącej celem ataku.</p>"
+        },
+        "Savage Animal Companion": {
+            "name": "Dziki Zwierzęcy Towarzysz",
+            "description": "<p>Aby awansować dojrzałego zwierzęcego towarzysza na dzikiego zwierzęcego towarzysza, zwiększ jego modyfikator Siły o 2 oraz modyfikatory Zręczności, Kondycji i Mądrości o 1. Zadaje on dodatkowe 3 obrażenia atakami bez broni. Zwiększa stopień biegłości w Atletyce do eksperta. Uczy się również zaawansowanego manewru dla swojego typu. Jeśli twój towarzysz jest średniej wielkości lub mniejszy, rośnie o jeden rozmiar. Jego ataki stają się magiczne w celu ignorowania odporności.</p>"
+        },
+        "Shade": {
+            "name": "Odcień",
+            "description": "<p><strong>Dostęp</strong> Czarownik Cieni</p><hr /><p>Postać fizyczna towarzysza składa się w całości lub częściowo z cienia. Zyskuje zdolność widzenia w ciemności, odporność 5 na wszystkie obrażenia poza obrażeniami od mocy, a w obszarach słabego światła lub ciemności może się poruszać na odległość 10 stóp zamiast 5 stóp. Jego poziom biegłości w obronie bez pancerza wzrasta do eksperta lub mistrza, jeśli jest zwinny.</p>"
+        },
+        "Sinking Jaws": {
+            "name": "Zatapiające Szczęki",
+            "description": "<p><strong>Wymagania</strong> Towarzysz ten chwyta lub obezwładnia istotę za pomocą szczęk lub kłów</p><hr /><p><strong>Efekt</strong> Chwycony lub obezwładniony wróg tego towarzysza otrzymuje obrażenia kłute równe poziomowi towarzysza plus modyfikator Siły (@Damage[(@actor.level + @actor.abilities.str.mod)[piercing]]).</p>"
+        },
+        "Specialized Animal Companion": {
+            "name": "Wyspecjalizowany Zwierzęcy Towarzysz",
+            "description": "<p>Wyspecjalizowani zwierzęcy towarzysze są bardziej inteligentni i angażują się w bardziej złożone zachowania. Większość zwierzęcych towarzyszy może mieć tylko jedną specjalizację. Za pierwszym razem, gdy zwierzę zyskuje specjalizację, zyskuje również następujące cechy.</p><ul><li>Jego poziom biegłości w atakach bez broni wzrasta do eksperta.</li><li>Jego stopnie biegłości dla rzutów obronnych i Percepcji wzrastają do poziomu mistrzowskiego.</li><li>Zwiększa modyfikator Zręczności o 1 i modyfikator Inteligencji o 2.</li><li>Jego obrażenia od ataków bez broni wzrastają z dwóch do trzech kości, a dodatkowe obrażenia od ataków bez broni wzrastają z 2 do 4 lub z 3 do 6.</li></ul>",
+            "rules": {
+                "4": {
+                    "prompt": "Wybierz wyspecjalizowanego towarzysza, do którego masz dostęp"
+                }
+            }
+        },
+        "Steadfast Strider": {
+            "name": "Niezłomny Spacer",
+            "description": "<p>Twój towarzysz ignoruje naturalny trudny teren i większy trudny teren z osadów lub kamieni i może poruszać się po ruchomych piaskach, błocie i podobnych powierzchniach, jakby były twarde. Zyskuje premię +2 do rzutów obronnych i rzutów na uniknięcie Pchnięcia lub Przewracania. Jego modyfikator Siły wzrasta o 1, a biegłość w Ladrach wzrasta do poziomu eksperta. Ta specjalizacja może być wybrana tylko przez towarzyszy dotkniętych przez shaitana.</p>"
+        },
+        "Sweeping Tail": {
+            "name": "Zamaszysty Ogon",
+            "description": "<p>Ten towarzysz wykonuje dwa ataki ogonem przeciwko różnym stworzeniom w jego zasięgu, zwiększając karę za wielokrotny atak. Trafienie powoduje odepchnięcie celu na 5 stóp lub 10 stóp w przypadku trafienia krytycznego. Jest to ruch wymuszony.</p>"
+        },
+        "Tracker": {
+            "name": "Tropiciel",
+            "description": "<p>Twój towarzysz jest niesamowitym tropicielem. Może poruszać się z pełną szybkością podczas podążania za śladami. Jego poziom biegłości w Przetrwaniu wzrasta do eksperta (lub mistrza, jeśli był już ekspertem ze swojego typu), a jego modyfikator Mądrości wzrasta o 1.</p>"
+        },
+        "Unseen Animal Companion": {
+            "name": "Niewidzialny Zwierzęcy Towarzysz",
+            "description": "<p>Zwierzęcy towarzysze kryptydów wyglądają nieco dziwnie, często z niesamowitymi cechami lub takimi, które wydają się pochodzić od innego zwierzęcia. Jeśli skorzystasz z atutu, który normalnie pozwoliłby ci wybrać, aby twój towarzysz stał się dzikim lub zwinnym zwierzęcym towarzyszem, możesz zamiast tego uczynić go niewidzialnym zwierzęcym towarzyszem. Niewidzialny towarzysz zwiększa swój modyfikator Mądrości o 2 oraz modyfikatory Siły, Zręczności i Kondycji o 1. Zadaje dodatkowe 3 obrażenia atakami bez broni i zadaje dodatkowe 1k4 obrażenia precyzyjne przeciwko celom @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Odsłoniętym} (jeśli zwierzęcy towarzysz już zadaje obrażenia precyzyjne, np. kot, połącz obrażenia precyzyjne). Zwiększa stopień biegłości w Ukryciu do eksperta. Uczy się również zaawansowanego manewru dla swojego typu.</p>"
+        },
+        "Vicious Rend": {
+            "name": "Podstępne Rozdarcie",
+            "description": "<p>Wykonaj dwa ataki pazurami, pięściami, szczypcami lub szponami na ten sam cel, stosując karę za wielokrotny atak. Jeśli oba ataki trafią, cel otrzyma dodatkowe obrażenia @Damage[1d6[bleed]]. Obrażenia te wzrastają do 2k6, jeśli twój towarzysz jest wyspecjalizowany.</p>"
+        },
+        "Wildfire Scorcher": {
+            "name": "Pogromca Dzikiego Ognia",
+            "description": "<p>Twój towarzysz zyskuje odporność na ogień równą twojemu poziomowi. Każda istota, która spróbuje @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{Złapać} lub chwycić twojego towarzysza, trafi twojego towarzysza atakiem bez broni do walki wręcz lub trafi twojego towarzysza atakiem z broni do walki wręcz, będąc w pobliżu twojego towarzysza, otrzymuje @Damage[2d6[fire]] obrażeń. Jego modyfikator Zręczności wzrasta o 1, a ranga biegłości wzrasta do legendarnej dla rzutów obronnych na Refleks i do eksperckiej dla obrony bez pancerza. Ta specjalizacja może być wybrana tylko przez towarzyszy dotkniętych przez efreeti.</p>"
+        },
+        "Wind Chaser": {
+            "name": "Ścigacz Wiatru",
+            "description": "<p>Twój towarzysz zyskuje premię +20 stóp do swojej szybkości lub szybkości lotu (wybierasz, jeśli ma obie). Jego biegłość w Akrobatyce wzrasta do poziomu mistrzowskiego, a modyfikator Zręczności wzrasta o 1. Jego ranga biegłości wzrasta do legendarnej dla rzutu obronnego na Refleks i do eksperta dla obrony bez pancerza. Ta specjalizacja może być wybrana tylko przez towarzyszy dotkniętych przez djinni.</p>",
+            "rules": {
+                "0": {
+                    "prompt": "Która szybkość powinna otrzymać premię?"
+                }
+            }
+        },
+        "Wrecker": {
+            "name": "Rozbijacz",
+            "description": "<p>Twój towarzysz rozbija różne rzeczy. Jego ataki bez broni ignorują połowę twardości przedmiotu. Jego biegłość w Atletyce wzrasta do poziomu mistrzowskiego, a modyfikator Siły wzrasta o 1.</p>"
+        }
+    },
+    "mapping": {
+        "rules": {
+            "converter": "translateRules",
+            "path": "system.rules"
+        }
+    }
+}

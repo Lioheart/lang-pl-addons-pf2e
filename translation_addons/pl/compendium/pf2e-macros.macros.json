@@ -1,0 +1,107 @@
+{
+    "label": "Makra",
+    "entries": {
+        "Accidental Shot": {
+            "name": "Przypadkowy Strzał"
+        },
+        "Aid": {
+            "name": "Wsparcie"
+        },
+        "Certain Strike": {
+            "name": "Pewne Uderzenie"
+        },
+        "Counteract": {
+            "name": "Przeciwdziałanie"
+        },
+        "Current hero points": {
+            "name": "Aktualne punkty bohatera"
+        },
+        "Dazing Blow": {
+            "name": "Oszałamiający Cios"
+        },
+        "Disable/Enable NPC Vision": {
+            "name": "Wyłącz/Włącz wizję BN"
+        },
+        "Disguise self/Shapeshifting": {
+            "name": "Przebieranie się/Zmiana kształtu"
+        },
+        "Doff party armor": {
+            "name": "Zdejmij zbroję"
+        },
+        "Double Slice": {
+            "name": "Podwójne Cięcie"
+        },
+        "Exploration activities": {
+            "name": "Aktywności eksploracyjne"
+        },
+        "Fast counteract": {
+            "name": "Szybkie przeciwdziałanie"
+        },
+        "Flowing Spirit Strike": {
+            "name": "Atak Przepływającego Ducha"
+        },
+        "Flurry of Blows": {
+            "name": "Grad Ciosów"
+        },
+        "Hunted Shot": {
+            "name": "Strzał Łowcy"
+        },
+        "Inspire Heroics / Fortissimo Composition": {
+            "name": "Inspiracja Bohaterów / Kompozycja Fortissimo"
+        },
+        "Link Ranger and Animal Companion": {
+            "name": "Łączenie Łowcy i zwierzęcego towarzysza"
+        },
+        "Overwhelming Combination": {
+            "name": "Przytłaczająca Kombinacja"
+        },
+        "Paired Shots": {
+            "name": "Sparowane Strzały"
+        },
+        "Pistolero's Challenge": {
+            "name": "Wyzwanie Pistolero"
+        },
+        "Repair for party": {
+            "name": "Zreperuj dla drużyny"
+        },
+        "Root to Life": {
+            "name": "Korzenie Życia"
+        },
+        "Scare to Death": {
+            "name": "Śmiertelne Przerażenie"
+        },
+        "Show info about target effect/condition": {
+            "name": "Wyświetlanie informacji o efekcie/stanie celu"
+        },
+        "Slam down": {
+            "name": "Powalający Cios"
+        },
+        "Snagging Strike": {
+            "name": "Chwytny Atak"
+        },
+        "Stab and Blast": {
+            "name": "Dźgnięcie i Wybuch"
+        },
+        "Swipe": {
+            "name": "Zamaszysty Atak"
+        },
+        "Sword and Pistol": {
+            "name": "Miecz i Pistolet"
+        },
+        "Target is Off-Guard": {
+            "name": "Cel jest Odsłonięty"
+        },
+        "Twin Feint": {
+            "name": "Podwójna Finta"
+        },
+        "Twin Takedown": {
+            "name": "Podwójne Obalenie"
+        },
+        "Two-Element Infusion": {
+            "name": "Infuzja Dwuelementowa"
+        },
+        "Whirlwind Strike": {
+            "name": "Atak Wichru"
+        }
+    }
+}

@@ -1,0 +1,133 @@
+{
+    "label": "Specyficzne Chowańce - Efekty",
+    "entries": {
+        "Effect: Become Shadow": {
+            "name": "Efekt: Stań się Cieniem",
+            "description": "<p>Chowaniec cienia przekształca swoje ciało w ledwie namacalny cień. Zyskuje odporność na wszystkie obrażenia (z wyjątkiem mocy) równą połowie twojego poziomu, ale nie może używać żadnych akcji wymagających fizycznej postaci. Chowaniec może również prześlizgiwać się przez szczeliny o szerokości co najmniej 2 cali lub 1 cala, jeśli używa @UUID[Compendium.pf2e.actionspf2e.kMcV8e5EZUxa6evt]{Przeciskania się}.</p>"
+        },
+        "Effect: Fiendish Temptation": {
+            "name": "Efekt: Piekielna Pokusa",
+            "description": "<p>Imp oferuje nie-przyjacielowi znajdującemu się w promieniu 15 stóp okazję, dając dobrodziejstwo szczęścia <em>Piekielnej Pokusy</em>, jeśli istota się zgodzi. Po zaakceptowaniu dobrodziejstwo trwa przez 1 godzinę.</p><p>Raz w ciągu godziny istota może wykonać rzut ataku lub rzut obronny dwa razy i użyć wyższego wyniku.</p><p>Jeśli stworzenie umrze, gdy dobrodziejstwo jest w użyciu, imp decyduje, dokąd powędruje jego dusza. Zazwyczaj sprawia to, że dusza zostaje uwięziona na wieczność w macierzystym planie impa, a istota nie może zostać wskrzeszona, chyba że za pomocą rytuału @UUID[Compendium.pf2e.spells-srd.Item.6dDtGIUerazSHIOu]{Życzenie} lub podobnej magii.</p>"
+        },
+        "Effect: Fiendish Temptation Luck": {
+            "name": "Efekt: Piekielna Pokusa - Szczęście",
+            "description": "<p>Raz w ciągu godziny możesz rzucić atakiem lub rzutem obronnym dwa razy i użyć wyższego wyniku.</p>",
+            "rules": {
+                "0": {
+                    "label": "Piekielna Pokusa"
+                }
+            }
+        },
+        "Effect: First Infusion": {
+            "name": "Efekt: Pierwszy Napar",
+            "description": "<p><span style=\"font-family:Roboto, sans-serif\">Otrzymujesz premię +4 do następnego rzutu obronnego przeciwko chorobie wywołanej trucizną wykonanego w ciągu 24 godzin.</span></p>"
+        },
+        "Effect: Resonance (Air)": {
+            "name": "Efekt: Rezonans (Powietrze)",
+            "description": "<p>Stworzenia w okolicy zyskują premię statusową +1 do rzutów na obrażenia za efekty alchemiczne i magiczne z tą samą cechą żywiołu co twój ognik.</p>",
+            "rules": {
+                "0": {
+                    "label": "Rezonans"
+                }
+            }
+        },
+        "Effect: Resonance (Earth)": {
+            "name": "Efekt: Rezonans (Ziemia)",
+            "description": "<p>Stworzenia w okolicy zyskują premię statusową +1 do rzutów na obrażenia za efekty z tą samą cechą żywiołów co twój ognik.</p>",
+            "rules": {
+                "0": {
+                    "label": "Rezonans"
+                }
+            }
+        },
+        "Effect: Resonance (Fire)": {
+            "name": "Efekt: Rezonans (Ogień)",
+            "description": "<p>Stworzenia w okolicy zyskują premię statusową +1 do rzutów na obrażenia za efekty z tą samą cechą żywiołów co twój ognik.</p>",
+            "rules": {
+                "0": {
+                    "label": "Rezonans"
+                }
+            }
+        },
+        "Effect: Resonance (Metal)": {
+            "name": "Efekt: Resonance (Metal)",
+            "description": "<p>Stworzenia w okolicy zyskują premię statusową +1 do rzutów na obrażenia za efekty alchemiczne i magiczne z tą samą cechą żywiołu co twój ognik.</p>",
+            "rules": {
+                "0": {
+                    "label": "Rezonans"
+                }
+            }
+        },
+        "Effect: Resonance (Water)": {
+            "name": "Efekt: Rezonans (Woda)",
+            "description": "<p>Stworzenia w okolicy zyskują premię statusową +1 do rzutów na obrażenia za efekty z tą samą cechą żywiołów co twój ognik.</p>",
+            "rules": {
+                "0": {
+                    "label": "Rezonans"
+                }
+            }
+        },
+        "Effect: Resonance (Wood)": {
+            "name": "Efekt: Rezonans (Drewno)",
+            "description": "<p>Stworzenia w okolicy zyskują premię statusową +1 do rzutów na obrażenia za efekty alchemiczne i magiczne z tą samą cechą żywiołu co twój ognik.</p>",
+            "rules": {
+                "0": {
+                    "label": "Rezonans"
+                }
+            }
+        },
+        "Effect: Second Infusion": {
+            "name": "Efekt: Drugi Napar",
+            "description": "<p><span style=\"font-family:Roboto, sans-serif\">Otrzymujesz premię +2 do następnego rzutu obronnego przeciwko chorobie wywołanej trucizną wykonanego w ciągu 24 godzin.</span></p>"
+        },
+        "Effect: Silver Infusion": {
+            "name": "Efekt: Srebrna Infuzja",
+            "description": "<p>Do początku twojej następnej tury, ta broń liczy się jako srebrna zamiast normalnego materiału dla wszystkich obrażeń fizycznych, które zadaje.</p>"
+        },
+        "Effect: Sorcerous Sweets": {
+            "name": "Efekt: Czarodziejskie Słodycze",
+            "description": "<p>Zyskujesz premię +1 przedmiotu do testów Oszustwa, Dyplomacji i Występów na 1 godzinę.</p>",
+            "rules": {
+                "0": {
+                    "label": "Czarodziejskie Słodycze"
+                }
+            }
+        },
+        "Effect: Sorcerous Sweets (Level 17)": {
+            "name": "Efekt: Czarodziejskie Słodycze (Poziom 17)",
+            "description": "<p>Zyskujesz premię +3 przedmiotu do testów Oszustwa, Dyplomacji i Występów na 1 godzinę.</p>",
+            "rules": {
+                "0": {
+                    "label": "Czarodziejskie Słodycze"
+                }
+            }
+        },
+        "Effect: Sorcerous Sweets (Level 9)": {
+            "name": "Efekt: Czarodziejskie Słodycze (Poziom 9)",
+            "description": "<p>Zyskujesz premię +2 przedmiotu do testów Oszustwa, Dyplomacji i Występów na 1 godzinę.</p>",
+            "rules": {
+                "0": {
+                    "label": "Czarodziejskie Słodycze"
+                }
+            }
+        },
+        "Effect: Spiritual Recall": {
+            "name": "Efekt: Duchowe Przywołanie",
+            "description": "<p>Chowaniec <span style=\"font-family:'Century Gothic', CenturyGothic, AppleGothic, sans-serif\">staje się bezcielesny do końca twojej następnej tury</span></p>"
+        },
+        "Effect: Steam Screen": {
+            "name": "Efekt: Parowy Pokaz",
+            "description": "<p>Twój mechaniczny chowaniec wydmuchuje kłębiący się pióropusz pary do otaczającego go kwadratu. Zyskuje premię +1 do okoliczności do swoich testów Zastraszania, a każda istota w kwadracie chowańca jest @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{przysłonięta}, choć istoty w kwadracie nie mogą użyć tego przysłonięcia do Ukrycia lub Skradania się.</p>\n<p>Para i jej efekty utrzymują się przez 1 rundę.</p>"
+        },
+        "Effect: Third Infusion": {
+            "name": "Efekt: Trzeci Napar",
+            "description": "<p><span style=\"font-family:Roboto, sans-serif\">Napar ten zapewnia tymczasowe Punkty Wytrzymałości równe twojemu poziomowi na 1 godzinę.</span></p>"
+        }
+    },
+    "mapping": {
+        "rules": {
+            "converter": "translateRules",
+            "path": "system.rules"
+        }
+    }
+}

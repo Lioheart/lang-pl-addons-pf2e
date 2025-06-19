@@ -1,0 +1,49 @@
+{
+  "lang-pl-addons-pf2e": {
+    "runeDescriptionsTitle": "Property Rune Descriptions",
+    "attacksLabel": "Attacks",
+    "settings": {
+      "enableRuneDescriptions": {
+        "name": "Enable Rune Descriptions",
+        "hint": "Toggles automatic adding of rune descriptions to items."
+      },
+      "enableAddonTranslations": {
+        "name": "Enable modules translations",
+        "hint": "Loads additional translations of compendiums."
+      },
+      "firstTurn": {
+        "name": "Add 'Before Turn' effect",
+        "hint": "At the start of combat, adds an effect to all but the first combatant, preventing Reactions until their turn."
+      },
+      "showSettingScopeIcons": {
+        "name": "Show setting‑scope icons",
+        "hint": "Prepends 🌍 (World) or 👤 (Client) icon to each setting entry."
+      },
+      "enableJournalStyle": {
+        "name": "Use journal style",
+        "hint": "Enables a custom journal appearance."
+      },
+      "nonlethalButton": {
+        "name": "Nonlethal Button",
+        "hint": "Adds a button in the Attacks section that applies the nonlethal attack effect."
+      }
+    },
+    "effects": {
+      "firstTurn": {
+        "name": "Before Turn",
+        "description": "<p>You can't use reactions until the start of your turn.</p>"
+      },
+      "nonlethal": {
+        "name": "Effect: Nonlethal Attacks",
+        "desc": "<p>You take a -2 penalty to attack rolls.</p><hr/><p>You can make a nonlethal attack to knock someone out instead of killing them (see Knocked Out and Dying). Weapons with the nonlethal trait (including fists) do this automatically. You take a –2 circumstance penalty to the attack roll when you make a nonlethal attack using a weapon or unarmed attack that doesn’t have the nonlethal trait. You also take this penalty when making a lethal attack using a nonlethal weapon. Spells and other effects with the nonlethal trait that reduce a creature to 0 Hit Points knock the creature out instead of killing them.</p>"
+      }
+    },
+    "scope": {
+      "world": "World‑scope setting",
+      "client": "Client‑scope setting"
+    },
+    "buttons": {
+      "nonlethal": "Nonlethal"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+    "label": "Makra Eksporacji",
+    "entries": {
+        "Checkmaker.js": {
+            "name": "Checkmaker.js"
+        },
+        "Exploration Activities": {
+            "name": "Aktywności Eksploracyjne"
+        },
+        "Show Token Art": {
+            "name": "Pokaż grafikę tokena"
+        },
+        "Toggle Bullseye Lantern": {
+            "name": "Przełącznik Latarni Kierunkowej"
+        },
+        "Toggle Hooded Lantern": {
+            "name": "Przełącznik Zakrytej Latarnii"
+        },
+        "Toggle Light": {
+            "name": "Przełącznik światła"
+        },
+        "Toggle Light (Upcast)": {
+            "name": "Przełącznik światła (Aktualizacja)"
+        },
+        "Toggle Sunrod": {
+            "name": "Przełącznik Słonecznego Prętu"
+        },
+        "Toggle Torch": {
+            "name": "Przełącznik Pochodni"
+        }
+    }
+}

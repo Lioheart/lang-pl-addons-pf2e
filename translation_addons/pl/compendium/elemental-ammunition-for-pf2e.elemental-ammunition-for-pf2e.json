@@ -1,0 +1,191 @@
+{
+    "label": "Amunicja Żywiołów dla PF2e",
+    "entries": {
+        "Acid Ammunition (Greater)": {
+            "name": "Amunicja Kwasowa (Większa)",
+            "description": "<p><strong>Amunicja</strong> dowolny</p>\n<p><strong>Aktywacja</strong> <span class=\"action-glyph\">1</span> Interkacja</p>\n<hr />\n<p>Po aktywacji, zbiornik odczynników alchemicznych w amunicji żywiołów rozpyla się przy uderzeniu, zadając obrażenia @Damage[3d4[persistent,acid]] kwasem, zimnem, elektrycznością, ogniem lub trucizną celowi oraz [[/r (3[splash])[acid]]]{3 obrażenia od rozprysków} oprócz obrażeń zadawanych normalnie przez atak. Każdy typ obrażeń wymaga innej formuły, a amunicja zyskuje cechę odpowiadającą typowi obrażeń.</p>",
+            "rules": {
+                "0": {
+                    "label": "Kwasowy Rozprysk"
+                },
+                "1": {
+                    "label": "Trwałe obrażenia od kwasu"
+                }
+            }
+        },
+        "Acid Ammunition (Lesser)": {
+            "name": "Amunicja Kwasowa (Mniejsza)",
+            "description": "<p><strong>Amunicja</strong> dowolny</p>\n<p><strong>Aktywacja</strong> <span class=\"action-glyph\">1</span> Interkacja</p>\n<hr />\n<p>Po aktywacji, zbiornik odczynników alchemicznych w amunicji żywiołów rozpyla się przy uderzeniu, zadając obrażenia @Damage[1[persistent,acid]] kwasem, zimnem, elektrycznością, ogniem lub trucizną celowi oraz [[/r (1[splash])[acid]]]{1 obrażenia od rozprysków} oprócz obrażeń zadawanych normalnie przez atak. Każdy typ obrażeń wymaga innej formuły, a amunicja zyskuje cechę odpowiadającą typowi obrażeń.</p>",
+            "rules": {
+                "0": {
+                    "label": "Trwałe obrażenia od kwasu"
+                },
+                "1": {
+                    "label": "Kwasowy Rozprysk"
+                }
+            }
+        },
+        "Acid Ammunition (Moderate)": {
+            "name": "Amunicja Kwasowa (Średnia)",
+            "description": "<p><strong>Amunicja</strong> dowolny</p>\n<p><strong>Aktywacja</strong> <span class=\"action-glyph\">1</span> Interkacja</p>\n<hr />\n<p>Po aktywacji, zbiornik odczynników alchemicznych w amunicji żywiołów rozpyla się przy uderzeniu, zadając obrażenia @Damage[2d4[persistent,acid]] kwasem, zimnem, elektrycznością, ogniem lub trucizną celowi oraz [[/r (2[splash])[acid]]]{2 obrażenia od rozprysków} oprócz obrażeń zadawanych normalnie przez atak. Każdy typ obrażeń wymaga innej formuły, a amunicja zyskuje cechę odpowiadającą typowi obrażeń.</p>",
+            "rules": {
+                "0": {
+                    "label": "Kwasowy Rozprysk"
+                },
+                "1": {
+                    "label": "Trwałe obrażenia od kwasu"
+                }
+            }
+        },
+        "Cold Ammunition (Greater)": {
+            "name": "Amunicja Mrożąca (Większa)",
+            "description": "<p><strong>Amunicja</strong> dowolny</p>\n<p><strong>Aktywacja</strong> <span class=\"action-glyph\">1</span> Interkacja</p>\n<hr />\n<p>Po aktywacji, zbiornik odczynników alchemicznych w amunicji żywiołów rozpyla się przy uderzeniu, zadając obrażenia @Damage[3d4[persistent,cold]] kwasem, zimnem, elektrycznością, ogniem lub trucizną celowi oraz  [[/r (3[splash])[cold]]]{3 obrażenia od rozprysków} oprócz obrażeń zadawanych normalnie przez atak. Każdy typ obrażeń wymaga innej formuły, a amunicja zyskuje cechę odpowiadającą typowi obrażeń.</p>",
+            "rules": {
+                "0": {
+                    "label": "Mrożący Rozprysk"
+                },
+                "1": {
+                    "label": "Trwałe obrażenia od zimna"
+                }
+            }
+        },
+        "Cold Ammunition (Lesser)": {
+            "name": "Amunicja Mrożąca (Mniejsza)",
+            "description": "<p><strong>Amunicja</strong> dowolny</p>\n<p><strong>Aktywacja</strong> <span class=\"action-glyph\">1</span> Interkacja</p>\n<hr />\n<p>Po aktywacji, zbiornik odczynników alchemicznych w amunicji żywiołów rozpyla się przy uderzeniu, zadając obrażenia @Damage[1[persistent,cold]] kwasem, zimnem, elektrycznością, ogniem lub trucizną celowi oraz  [[/r (1[splash])[cold]]]{1 obrażenia od rozprysków} oprócz obrażeń zadawanych normalnie przez atak. Każdy typ obrażeń wymaga innej formuły, a amunicja zyskuje cechę odpowiadającą typowi obrażeń.</p>",
+            "rules": {
+                "0": {
+                    "label": "Trwałe obrażenia od zimna"
+                },
+                "1": {
+                    "label": "Mrożący Rozprysk"
+                }
+            }
+        },
+        "Cold Ammunition (Moderate)": {
+            "name": "Amunicja Mrożąca (Średnia)",
+            "description": "<p><strong>Amunicja</strong> dowolny</p>\n<p><strong>Aktywacja</strong> <span class=\"action-glyph\">1</span> Interkacja</p>\n<hr />\n<p>Po aktywacji, zbiornik odczynników alchemicznych w amunicji żywiołów rozpyla się przy uderzeniu, zadając obrażenia @Damage[2d4[persistent,cold]] kwasem, zimnem, elektrycznością, ogniem lub trucizną celowi oraz  [[/r (2[splash])[cold]]]{2 obrażenia od rozprysków} oprócz obrażeń zadawanych normalnie przez atak. Każdy typ obrażeń wymaga innej formuły, a amunicja zyskuje cechę odpowiadającą typowi obrażeń.</p>",
+            "rules": {
+                "0": {
+                    "label": "Mrożący Rozprysk"
+                },
+                "1": {
+                    "label": "Trwałe obrażenia od zimna"
+                }
+            }
+        },
+        "Electricity Ammunition (Greater)": {
+            "name": "Amunicja Elektryczna (Większa)",
+            "description": "<p><strong>Amunicja</strong> dowolny</p>\n<p><strong>Aktywacja</strong> <span class=\"action-glyph\">1</span> Interkacja</p>\n<hr />\n<p>Po aktywacji, zbiornik odczynników alchemicznych w amunicji żywiołów rozpyla się przy uderzeniu, zadając obrażenia @Damage[3d4[persistent,electricity]] kwasem, zimnem, elektrycznością, ogniem lub trucizną celowi oraz  [[/r (3[splash])[electricity]]]{3 obrażenia od rozprysków} oprócz obrażeń zadawanych normalnie przez atak. Każdy typ obrażeń wymaga innej formuły, a amunicja zyskuje cechę odpowiadającą typowi obrażeń.</p>",
+            "rules": {
+                "0": {
+                    "label": "Elektryczny Rozprysk"
+                },
+                "1": {
+                    "label": "Trwałe obrażenia od elektryczności"
+                }
+            }
+        },
+        "Electricity Ammunition (Lesser)": {
+            "name": "Amunicja Elektryczna (Mniejsza)",
+            "description": "<p><strong>Amunicja</strong> dowolny</p>\n<p><strong>Aktywacja</strong> <span class=\"action-glyph\">1</span> Interkacja</p>\n<hr />\n<p>Po aktywacji, zbiornik odczynników alchemicznych w amunicji żywiołów rozpyla się przy uderzeniu, zadając obrażenia @Damage[1[persistent,electricity]] kwasem, zimnem, elektrycznością, ogniem lub trucizną celowi oraz  [[/r (1[splash])[electricity]]]{1 obrażenia od rozprysków} oprócz obrażeń zadawanych normalnie przez atak. Każdy typ obrażeń wymaga innej formuły, a amunicja zyskuje cechę odpowiadającą typowi obrażeń.</p>",
+            "rules": {
+                "0": {
+                    "label": "Trwałe obrażenia od elektryczności"
+                },
+                "1": {
+                    "label": "Elektryczny Rozprysk"
+                }
+            }
+        },
+        "Electricity Ammunition (Moderate)": {
+            "name": "Amunicja Elektryczna (Średnia)",
+            "description": "<p><strong>Amunicja</strong> dowolny</p>\n<p><strong>Aktywacja</strong> <span class=\"action-glyph\">1</span> Interkacja</p>\n<hr />\n<p>Po aktywacji, zbiornik odczynników alchemicznych w amunicji żywiołów rozpyla się przy uderzeniu, zadając obrażenia @Damage[2d4[persistent,electricity]] kwasem, zimnem, elektrycznością, ogniem lub trucizną celowi oraz  [[/r (2[splash])[electricity]]]{2 obrażenia od rozprysków} oprócz obrażeń zadawanych normalnie przez atak. Każdy typ obrażeń wymaga innej formuły, a amunicja zyskuje cechę odpowiadającą typowi obrażeń.</p>",
+            "rules": {
+                "0": {
+                    "label": "Elektryczny Rozprysk"
+                },
+                "1": {
+                    "label": "Elektryczny Rozprysk"
+                }
+            }
+        },
+        "Fire Ammunition (Greater)": {
+            "name": "Amunicja Ogniowa (Większa)",
+            "description": "<p><strong>Amunicja</strong> dowolny</p>\n<p><strong>Aktywacja</strong> <span class=\"action-glyph\">1</span> Interkacja</p>\n<hr />\n<p>Po aktywacji, zbiornik odczynników alchemicznych w amunicji żywiołów rozpyla się przy uderzeniu, zadając obrażenia @Damage[3d4[persistent,fire]] kwasem, zimnem, elektrycznością, ogniem lub trucizną celowi oraz  [[/r (3[splash])[fire]]]{3 obrażenia od rozprysków} oprócz obrażeń zadawanych normalnie przez atak. Każdy typ obrażeń wymaga innej formuły, a amunicja zyskuje cechę odpowiadającą typowi obrażeń.</p>",
+            "rules": {
+                "0": {
+                    "label": "Ognisty Rozprysk"
+                },
+                "1": {
+                    "label": "Trwałe obrażenia od ognia"
+                }
+            }
+        },
+        "Fire Ammunition (Lesser)": {
+            "name": "Amunicja Ogniowa (Mniejsza)",
+            "description": "<p><strong>Amunicja</strong> dowolny</p>\n<p><strong>Aktywacja</strong> <span class=\"action-glyph\">1</span> Interkacja</p>\n<hr />\n<p>Po aktywacji, zbiornik odczynników alchemicznych w amunicji żywiołów rozpyla się przy uderzeniu, zadając obrażenia @Damage[1[persistent,fire]] kwasem, zimnem, elektrycznością, ogniem lub trucizną celowi oraz  [[/r (1[splash])[fire]]]{1 obrażenia od rozprysków} oprócz obrażeń zadawanych normalnie przez atak. Każdy typ obrażeń wymaga innej formuły, a amunicja zyskuje cechę odpowiadającą typowi obrażeń.</p>",
+            "rules": {
+                "0": {
+                    "label": "Trwałe obrażenia od ognia"
+                },
+                "1": {
+                    "label": "Ognisty Rozprysk"
+                }
+            }
+        },
+        "Fire Ammunition (Moderate)": {
+            "name": "Amunicja Ogniowa (Średnia)",
+            "description": "<p><strong>Amunicja</strong> dowolny</p>\n<p><strong>Aktywacja</strong> <span class=\"action-glyph\">1</span> Interkacja</p>\n<hr />\n<p>Po aktywacji, zbiornik odczynników alchemicznych w amunicji żywiołów rozpyla się przy uderzeniu, zadając obrażenia @Damage[2d4[persistent,fire]] kwasem, zimnem, elektrycznością, ogniem lub trucizną celowi oraz  [[/r (2[splash])[fire]]]{2 obrażenia od rozprysków} oprócz obrażeń zadawanych normalnie przez atak. Każdy typ obrażeń wymaga innej formuły, a amunicja zyskuje cechę odpowiadającą typowi obrażeń.</p>",
+            "rules": {
+                "0": {
+                    "label": "Ognisty Rozprysk"
+                },
+                "1": {
+                    "label": "Trwałe obrażenia od ognia"
+                }
+            }
+        },
+        "Poison Ammunition (Greater)": {
+            "name": "Amunicja Trująca (Większa)",
+            "description": "<p><strong>Amunicja</strong> dowolny</p>\n<p><strong>Aktywacja</strong> <span class=\"action-glyph\">1</span> Interkacja</p>\n<hr />\n<p>Po aktywacji, zbiornik odczynników alchemicznych w amunicji żywiołów rozpyla się przy uderzeniu, zadając obrażenia @Damage[3d4[persistent,poison]] kwasem, zimnem, elektrycznością, ogniem lub trucizną celowi oraz  [[/r (3[splash])[poison]]]{3 obrażenia od rozprysków} oprócz obrażeń zadawanych normalnie przez atak. Każdy typ obrażeń wymaga innej formuły, a amunicja zyskuje cechę odpowiadającą typowi obrażeń.</p>",
+            "rules": {
+                "0": {
+                    "label": "Trujący Rozprysk"
+                },
+                "1": {
+                    "label": "Trwałe obrażenia od trucizny"
+                }
+            }
+        },
+        "Poison Ammunition (Lesser)": {
+            "name": "Amunicja Trująca (Mniejsza)",
+            "description": "<p><strong>Amunicja</strong> dowolny</p>\n<p><strong>Aktywacja</strong> <span class=\"action-glyph\">1</span> Interkacja</p>\n<hr />\n<p>Po aktywacji, zbiornik odczynników alchemicznych w amunicji żywiołów rozpyla się przy uderzeniu, zadając obrażenia @Damage[1[persistent,poison]] kwasem, zimnem, elektrycznością, ogniem lub trucizną celowi oraz  [[/r (1[splash])[poison]]]{1 obrażenia od rozprysków} oprócz obrażeń zadawanych normalnie przez atak. Każdy typ obrażeń wymaga innej formuły, a amunicja zyskuje cechę odpowiadającą typowi obrażeń.</p>",
+            "rules": {
+                "0": {
+                    "label": "Trwałe obrażenia od trucizny"
+                },
+                "1": {
+                    "label": "Trujący Rozprysk"
+                }
+            }
+        },
+        "Poison Ammunition (Moderate)": {
+            "name": "Amunicja Trująca (Średnia)",
+            "description": "<p><strong>Amunicja</strong> dowolny</p>\n<p><strong>Aktywacja</strong> <span class=\"action-glyph\">1</span> Interkacja</p>\n<hr />\n<p>Po aktywacji, zbiornik odczynników alchemicznych w amunicji żywiołów rozpyla się przy uderzeniu, zadając obrażenia @Damage[2d4[persistent,poison]] kwasem, zimnem, elektrycznością, ogniem lub trucizną celowi oraz  [[/r (2[splash])[poison]]]{2 obrażenia od rozprysków} oprócz obrażeń zadawanych normalnie przez atak. Każdy typ obrażeń wymaga innej formuły, a amunicja zyskuje cechę odpowiadającą typowi obrażeń.</p>",
+            "rules": {
+                "0": {
+                    "label": "Trujący Rozprysk"
+                },
+                "1": {
+                    "label": "Trwałe obrażenia od trucizny"
+                }
+            }
+        }
+    },
+    "mapping": {
+        "rules": {
+            "converter": "translateRules",
+            "path": "system.rules"
+        }
+    }
+}

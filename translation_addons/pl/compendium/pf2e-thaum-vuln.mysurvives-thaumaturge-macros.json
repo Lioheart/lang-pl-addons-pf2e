@@ -1,0 +1,35 @@
+{
+    "label": "Makra Taumaturga",
+    "entries": {
+        "Cursed Effigy": {
+            "name": "Przeklęta Kukła"
+        },
+        "Drink from the Chalice": {
+            "name": "Napij się z Kielicha"
+        },
+        "Exploit Vulnerability": {
+            "name": "Wykorzystanie Podatności"
+        },
+        "Force EV": {
+            "name": "Wymuś Wykorzystanie Podatności"
+        },
+        "Glimpse Vulnerability": {
+            "name": "Dostrzeżenie Słabości"
+        },
+        "Intensify Vulnerability": {
+            "name": "Zwiększenie Podatności"
+        },
+        "Recall Knowledge (Esoteric Lore)": {
+            "name": "Przywołanie Wiedzy (Wiedza Ezoteryczna)"
+        },
+        "Root to Life": {
+            "name": "Korzenie Życia"
+        },
+        "Share Weakness": {
+            "name": "Współdzielenie Podatności"
+        },
+        "Twin Weakness": {
+            "name": "Bliźniacza Podatność"
+        }
+    }
+}

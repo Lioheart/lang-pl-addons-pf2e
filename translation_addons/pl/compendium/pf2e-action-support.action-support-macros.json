@@ -1,0 +1,38 @@
+{
+    "label": "Wsparcie dla Akcji - Makra",
+    "entries": {
+        "Accidental Shot": {
+            "name": "Przypadkowy Strzał"
+        },
+        "Double Slice": {
+            "name": "Podwójne Cięcie"
+        },
+        "Flurry of Blows": {
+            "name": "Grad Ciosów"
+        },
+        "Hunted Shot": {
+            "name": "Strzał Łowcy"
+        },
+        "Inspire Heroics / Fortissimo Composition": {
+            "name": "Inspiracja Bohaterów / Kompozycja Fortissimo"
+        },
+        "Knockdown": {
+            "name": "Powalenie"
+        },
+        "Link Ranger and Animal Companion": {
+            "name": "Łączenie Łowcy i zwierzęcego towarzysza"
+        },
+        "Paired Shots": {
+            "name": "Sparowane Strzały"
+        },
+        "Root to Life": {
+            "name": "Korzenie Życia"
+        },
+        "Scare to Death": {
+            "name": "Śmiertelne Przerażenie"
+        },
+        "Twin Takedown": {
+            "name": "Podwójne Obalenie"
+        }
+    }
+}

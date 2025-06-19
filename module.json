@@ -1,0 +1,44 @@
+{
+  "id": "lang-pl-addons-pf2e",
+  "title": "PF2e Dodatkowe Polskie Tłumaczenie",
+  "version": "vDev",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "description": "<p>Jest to moduł zawierający tłumaczenia dodatkowych paczek do Pathfindera 2e.</p><p>Zawiera tłumaczenia kompendium, a także kilka dodatkowych opcji, nie ujętych w podstawowym tłumaczeniu.</p>",
+  "authors": [
+    {
+      "name": "Lioheart",
+      "email": "caco7.lioheart@gmail.com",
+      "discord": "lioheart77",
+      "flags": {}
+    }
+  ],
+  "esmodules": [
+    "scripts/add-rune-descriptions.js",
+    "scripts/begin-combat.js",
+    "scripts/setting-scope-icons.js",
+    "scripts/toggle-journal-style.js",
+    "scripts/nonlethal-button.js",
+    "scripts/settings.js",
+    "scripts/module.js"
+  ],
+  "languages": [
+    {
+      "lang": "pl",
+      "name": "Polski",
+      "path": "lang/pl.json",
+      "flags": {}
+    },
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json",
+      "flags": {}
+    }
+  ],
+  "url": "Filled in by the release workflow",
+  "manifest": "Filled in by the release workflow",
+  "download": "Filled in by the release workflow"
+}

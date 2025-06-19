@@ -1,0 +1,49 @@
+{
+    "label": "Efekty",
+    "entries": {
+        "Effect: Aid (Critical Failure)": {
+            "name": "Efekt: Wsparcie (Krytyczna Porażka)",
+            "description": "Otrzymujesz premię okoliczności do wspieranego testu w oparciu o wynik testu Wsparcia twojego sojusznika."
+        },
+        "Effect: Aid (Critical Success Legendary)": {
+            "name": "Efekt: Wsparcie (Krytyczny Sukces - Legendarny)",
+            "description": "Otrzymujesz premię okoliczności do wspieranego testu w oparciu o wynik testu Wsparcia twojego sojusznika."
+        },
+        "Effect: Aid (Critical Success Master)": {
+            "name": "Efekt: Wsparcie (Krytyczny Sukces - Mistrzowski)",
+            "description": "Otrzymujesz premię okoliczności do wspieranego testu w oparciu o wynik testu Wsparcia twojego sojusznika."
+        },
+        "Effect: Aid (Critical Success)": {
+            "name": "Efekt: Wsparcie (Krytyczny Sukces)",
+            "description": "Otrzymujesz premię okoliczności do wspieranego testu w oparciu o wynik testu Wsparcia twojego sojusznika."
+        },
+        "Effect: Aid (Success)": {
+            "name": "Efekt: Wsparcie (Sukces)",
+            "description": "Otrzymujesz premię okoliczności do wspieranego testu w oparciu o wynik testu Wsparcia twojego sojusznika."
+        },
+        "Effect: Off-Guard 1 round (start)": {
+            "name": "Efekt: Odsłonięty 1 runda (start)",
+            "description": "<p>Jesteś @UUID[Compendium.pf2e.conditionitems.AJh5ex99aV6VTggg] przez 1 rundę.</p>"
+        },
+        "Effect: Root to Life": {
+            "name": "Efekt: Korzenie Życia",
+            "description": ""
+        },
+        "Effect: Twin Feint": {
+            "name": "Efekt: Podwójna Finta",
+            "description": ""
+        },
+        "Inspire Aura": {
+            "name": "Inspirująca Aura",
+            "description": ""
+        },
+        "Spell Effect: Song of Strength (+2)": {
+            "name": "Efekt Zaklęcia: Pieśń Siły (+2)",
+            "description": "<p>Zyskujesz premię +2 do testów Atletyki i współczynników ST przeciwko umiejętnościom Atletyki, takim jak Rozbrojenie, Przemieszczenie, Pchnięcie i Przewracanie.</p>"
+        },
+        "Spell Effect: Song of Strength (+3)": {
+            "name": "Efekt Zaklęcia: Pieśń Siły (+3)",
+            "description": "<p>Zyskujesz premię +3 do testów Atletyki i współczynników ST przeciwko umiejętnościom Atletyki, takim jak Rozbrojenie, Przemieszczenie, Pchnięcie i Przewracanie.</p>"
+        }
+    }
+}

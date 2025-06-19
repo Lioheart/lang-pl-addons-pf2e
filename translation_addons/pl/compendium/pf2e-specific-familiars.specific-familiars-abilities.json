@@ -1,0 +1,183 @@
+{
+    "label": "Specyficzne Chowańce - Zdolności",
+    "entries": {
+        "Aeon Stone Reservoir": {
+            "name": "Rezerwuar Kamienia Eonów",
+            "description": "<p>Twoje eonowe przeznaczenie może utrzymywać dowolny kamień eonów jako potężnie rezonujące jądro, które utrzymuje go razem. Zyskujesz korzyści płynące z kamienia eonowego bez konieczności wykorzystywania jednego ze swoich miejsc dostrajania na dany dzień, a także zyskujesz moc rezonansową kamienia eonowego, bez zakłócania działania żadnego z dostrojonych przez ciebie wayfinderów.</p>"
+        },
+        "Anchored Incorporeality": {
+            "name": "Zakotwiczona Bezcielesność",
+            "description": "<p>Podczas gdy większość duchów jest związana z miejscem, w którym zmarli lub zostali pochowani, niektórzy zamiast tego są związani z określonymi przedmiotami, takimi jak konkretna biżuteria, ubranie, obroża zwierzęcia lub kamień z budynku, w którym mieszkali. Przedmioty te, znane jako kotwice, były ważne dla ducha za życia lub miały kluczowe znaczenie dla wydarzeń związanych z jego śmiercią i nawiedzeniem.</p>\n<p>Istota z zakotwiczoną bezcielesnością posiada cechę bezcielesny, co oznacza, że może poruszać się przez istoty fizyczne, a takie istoty mogą poruszać się przez nią. Nie może próbować wykonywać testów opartych na Sile (takich jak @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{Pochwycenie}) przeciwko istotom cielesnym, a istoty cielesne nie mogą próbować wykonywać takich testów przeciwko niej. Chociaż bezcielesna, istota z zakotwiczoną bezcielesnością może podróżować nie dalej niż 60 stóp od swojej kotwicy i musi utrzymywać linię efektu do kotwicy. Zazwyczaj uniemożliwia to jej przemieszczanie się przez ściany. W przeciwieństwie do wielu innych bezcielesnych stworzeń, istota z zakotwiczoną bezcielesnością nie posiada odporności na wszystkie obrażenia ani odporności na obrażenia precyzyjne.</p>\n<p>Postać posiadająca zwierzęcego towarzysza lub chowańca, który zakotwiczył bezcielesność, może przenieść kotwicę na nowy przedmiot za pomocą specjalnego rytuału. Wymaga to spędzenia 1 tygodnia w porozumieniu z towarzyszem, aby stworzyć nową kotwicę. Postać, która zna tę technikę, może być w stanie dostosować ją do przeniesienia zdolności ducha Związany z miejscem (lub podobnego ograniczenia), aby przywiązać go do kotwicy zamiast do miejsca.</p>"
+        },
+        "Blood Link": {
+            "name": "Krwawe Połączenie",
+            "description": "<p>Homunkulus jest telepatycznie połączony ze swoim stwórcą, używając ich wspólnej krwi jako przewodnika, pozwalając mu na wymianę informacji tam i z powrotem w zasięgu 1500 stóp, w tym wiedzy swojego mistrza i wszystkiego, co słyszy homunkulus. Jeśli stracisz przytomność lub umrzesz, twój homunkulus wyczuje słabnącą moc w twojej krwi, pozwalając mu automatycznie działać w następnej turze, tak jakbyś mu rozkazywał. Jeśli homunkulus zostanie zniszczony, jego mistrz otrzymuje obrażenia @Damage[2d10[mental]].</p>"
+        },
+        "Bound to Mortal": {
+            "name": "Związany ze Śmiertelnikiem",
+            "description": "<p>Twój chowaniec zyskuje wyjątkowe korzyści dzięki więzi z tobą. <br />Twój chowaniec zyskuje dodatkowe 10 Punktów Wytrzymałości i może wykonać atak bez broni z użyciem szczęk lub pazurów, korzystając z normalnej premii do ataku w walce wręcz. Wybierasz, czy ma atak bez broni szczękami czy pazurami, gdy po raz pierwszy zyskujesz duchowego przewodnika jako swojego chowańca. <br />Jeśli posiada atak bez broni z użyciem szczęk, atak zadaje @Damage[1d6[piercing]] obrażeń i znajduje się w grupie bijatyk. <br />Jeśli wybierzesz atak bez broni z pazurami, zadaje on @Damage[1d4[slashing]] obrażeń, posiada cechę zwinności i znajduje się w grupie bijatyk</p>",
+            "rules": {
+                "1": {
+                    "choices": {
+                        "0": {
+                            "label": "Szczęki"
+                        },
+                        "1": {
+                            "label": "Pazury"
+                        }
+                    }
+                },
+                "2": {
+                    "label": "Szczęki"
+                },
+                "3": {
+                    "label": "Pazury"
+                }
+            }
+        },
+        "Created Magic": {
+            "name": "Stworzona Magia",
+            "description": "<p>Twój chowaniec ceru zapewnia ci sztuczki @UUID[Compendium.pf2e.spells-srd.pwzdSlJgYqN7bs2w] i @UUID[Compendium.pf2e.spells-srd. izcxFQFwf3woCnFs] przez przyznaną zdolność @UUID[Compendium.pf2e.familiar-abilities.rs4Awf4k1e0Mj797]{Połączenie ze Sztuczką}. <br />Jeśli jednej lub więcej z tych sztuczek nie ma na twojej liście zaklęć, możesz zastąpić sztuczkę lub sztuczki, których nie ma na twojej liście zaklęć, sztuczką lub sztuczkami z twojej listy zaklęć.</p>"
+        },
+        "Crystal Scent": {
+            "name": "Kryształowy Zmysł Węchu",
+            "description": "<p>Cullitox może wyczuwać kryształy lub klejnoty w promieniu 60 stóp, tak jakby korzystał ze zdolności węchu.</p>"
+        },
+        "Detect Magic": {
+            "name": "Wykrycie Magii",
+            "description": "<p>Twoje młode Kuglokota może rzucić zaklęcie 1. rangi <a class=\"content-link\" draggable=\"true\" data-uuid=\"Compendium.pf2e.spells-srd.Item.gpzpAAAJ1Lza2JVl\" data-id=\"gpzpAAAJ1Lza2JVl\" data-type=\"Item\" data-pack=\"pf2e.spells-srd\" data-tooltip=\"Spell Item\" data-scope>Wykrycie Magii</a> jako wrodzone zaklęcie tajemne.</p>"
+        },
+        "Elemental Diplomat": {
+            "name": "Dyplomata Żywiołów",
+            "description": "<p>Modyfikator Dżinnika do Dyplomacji jest równy twojemu poziomowi plus modyfikator kluczowego atrybutu rzucania zaklęć, a nie tylko twojemu poziomowi. Dżinnik otrzymuje premię +1 do okoliczności do testów Dyplomacji przeciwko żywiołakom i zapewnia ci taką samą premię, jeśli znajdujecie się w tej samej przestrzeni.</p>",
+            "rules": {
+                "0": {
+                    "label": "Dyplomata Żywiołów"
+                }
+            }
+        },
+        "Elemental Familiar (Air)": {
+            "name": "Chowaniec Żywiołów (Powietrze)",
+            "description": "<p><strong>Archetyp</strong> Elementalista</p>\n<hr />\n<p>Jeśli twój chowaniec pozostanie w bezruchu przez 1 rundę, staje się @UUID[Compendium.pf2e.conditionitems.zJxUflt9np0q4yML]{Niewidzialny} do czasu wykonania kolejnej akcji. Każdy ruch, nawet bycie przenoszonym lub niesionym przez inną istotę, kończy ten efekt.</p>"
+        },
+        "Elemental Familiar (Earth)": {
+            "name": "Chowaniec Żywiołów (Ziemia)",
+            "description": "<p><strong>Archetyp</strong> Elementalista</p>\n<hr />\n<p>Twój chowaniec zyskuje odporność na obrażenia fizyczne (z wyjątkiem adamantyny) równą połowie twojego poziomu.</p>"
+        },
+        "Elemental Familiar (Fire)": {
+            "name": "Chowaniec Żywiołów (Ogień)",
+            "description": "<p><strong>Archetyp</strong> Elementalista</p>\n<hr />\n<p>Twój chowaniec rzuca jasne światło w promieniu 20 stóp (i słabe światło przez następne 20 stóp) i emituje ciepło. Stworzenia pozostające w promieniu 15 stóp nie odnoszą obrażeń od silnego zimna środowiskowego.</p>"
+        },
+        "Elemental Familiar (Metal)": {
+            "name": "Chowaniec Żywiołów (Metal)",
+            "description": "<p><strong>Archetyp</strong> Elementalista</p>\n<hr />\n<p>Twój chowaniec zyskuje odporność na obrażenia fizyczne od broni metalowych równą połowie twojego poziomu. (nie zautomatyzowane)</p>"
+        },
+        "Elemental Familiar (Water)": {
+            "name": "Chowaniec Żywiołów (Woda)",
+            "description": "<p><strong>Archetyp</strong> Elementalista</p>\n<hr />\n<p>Twój chowaniec może przejść przez szczelinę o szerokości co najmniej 2 cali bez Przeciskania się i może @UUID[Compendium.pf2e.actionspf2e.kMcV8e5EZUxa6evt]{Przeciskać się} przez szczelinę o szerokości co najmniej 1 cala.</p>"
+        },
+        "Elemental Familiar (Wood)": {
+            "name": "Chowaniec Żywiołów (Drewno)",
+            "description": "<p>Jeśli twój chowaniec pozostaje w jasnym świetle przez 1 rundę, zyskuje szybkie leczenie równe połowie twojego poziomu. Po wyjściu z jasnego światła efekt ten wygasa. (nie zautomatyzowane)</p>"
+        },
+        "Heads Will Roll": {
+            "name": "Głowy się potoczą",
+            "description": "<p>O ile jej mistrz nie nada gadającej głowie zdolności latania, gadająca głowa jest w stanie poruszać się tylko poprzez toczenie się po ziemi, co zmniejsza jej szybkość do 15 stóp. Alternatywnie, stworzenie może, jako pojedynczą akcję, kopnąć lub rzucić głową na odległość 30 stóp. Nie można tego użyć jako ataku; głowa odbija się nieszkodliwie od wszystkiego, w co uderzy.</p>"
+        },
+        "Imp Invisibility": {
+            "name": "Niewidzialność Impa",
+            "description": "<p>Raz na godzinę twój imp może rzucić na siebie zaklęcie 2. rangi @UUID[Compendium.pf2e.spells-srd.XXqE1eY3w3z6xJCB]{Niewidzialność} jako boskie zaklęcie wrodzone.</p>"
+        },
+        "Invisibility": {
+            "name": "Niewidzialność",
+            "description": "<p>Raz na godzinę twój chowaniec może rzucić na siebie zaklęcie 2. rangi @UUID[Compendium.pf2e.spells-srd.XXqE1eY3w3z6xJCB]{Niewidzialność} jako boskie zaklęcie wrodzone.</p>"
+        },
+        "Lend a Hand": {
+            "name": "Pomocna Dłoń",
+            "description": "<p>Pełzająca ręka pomaga sojusznikowi znajdującemu się w tej samej przestrzeni zaatakować wroga, czołgając się nad nim i chwytając go, aby odwrócić jego uwagę. Pomimo bycia sługusem, zyskuje 1 reakcję na początku swojej tury, której może użyć tylko do @UUID[Compendium.pf2e.actionspf2e.HCl3pzVefiv9ZKQW]{Wsparcia} rzutu ataku wykonanego przez sojusznika, który dzieli przestrzeń ręki (nadal musi przygotować się do wsparcia, jak zwykle w przypadku reakcji Wsparcie). Ta próba automatycznie się powiedzie. Jeśli pełzająca ręka ma podobną zdolność, jak partner w zbrodni, nadal otrzymuje tylko 1 reakcję i może wybrać, jak ją wydać.</p>"
+        },
+        "Magic Scent": {
+            "name": "Magiczny Zmysł Węchu",
+            "description": "<p>Twój chowaniec zyskuje nieprecyzyjny zmysł o zasięgu 30 stóp, który pozwala mu wyczuwać magię tej samej tradycji co twoja.</p>"
+        },
+        "Not Flammable Poppet": {
+            "name": "Niełatwopalna Kukiełka",
+            "description": "<p>Chowaniec kukiełka nie jest już łatwopalny</p>"
+        },
+        "Ooze Defense": {
+            "name": "Szlamowa Obrona",
+            "description": "<p>Twój chowaniec jest łatwy do trafienia, ale nie ma podatności na obrażenia. Jest niewrażliwy na trafienia krytyczne i obrażenia precyzyjne, ale jego KP wynosi tylko 10 + twój poziom (zamiast KP równego twojemu).</p>"
+        },
+        "Porter": {
+            "name": "Portier",
+            "description": "<p>Możesz wybrać dla swojego homunkulusa albo @UUID[Compendium.pf2e.familiar-abilities.Item.Ms8EVO2mNbr4Zp1i]{Dostarczanie Przedmiotów} albo @UUID[Compendium.pf2e.familiar-abilities.Item.9PsptrEoCC4QdM23]{Służący}.</p>",
+            "rules": {
+                "0": {
+                    "choices": {
+                        "0": {
+                            "label": "Dostarczanie Przedmiotów"
+                        },
+                        "1": {
+                            "label": "Służący"
+                        }
+                    }
+                }
+            }
+        },
+        "Pot of Tea": {
+            "name": "Dzbanek Herbaty",
+            "description": "<p>Twój tapir-mędrzec jest wytrenowany w sztuce ziołolecznictwa i potrafi przygotować dzbanek leczniczej herbaty. Raz dziennie twój chowaniec może poświęcić 10 minut na zaparzenie delikatnych liści herbaty i ziół. Mędrzec tapirów musi skupić się na herbacie w tym czasie - jeśli wykona jakąkolwiek inną czynność, herbata zostanie zniszczona, choć mędrzec tapirów może zacząć od nowa.<br />Po zaparzeniu herbaty mędrzec tapirów może podać dwie filiżanki herbaty za pomocą każdej z poniższych akcji; za każdym razem daje 1 filiżankę sąsiedniemu sojusznikowi i sam wypija 1 filiżankę. Trzy napary muszą być nalewane i podawane w kolejności (na przykład mędrzec tapirów nie może podać drugiego naparu, dopóki nie poda pierwszego).<br />Herbata pozostaje dobra przez 1 godzinę po zaparzeniu; jeśli nie zostanie wypita do tego czasu, dzbanek ostygnie, a pozostała herbata straci swoją moc.</p><p>@UUID[Compendium.pf2e-specific-familiars.specific-familiars-equipments.Item.lEGiEGGrPGnske2q]{Pierwszy Napar}</p><p>@UUID[Compendium.pf2e-specific-familiars.specific-familiars-equipments.Item.BYgAO5UYPa6BuKXz]{Drugi Napar}</p><p>@UUID[Compendium.pf2e-specific-familiars.specific-familiars-equipments.Item.5qjeaIwmbQE03Fsx]{Trzeci Napar}</p>"
+        },
+        "Resistance (Cold) (Void)": {
+            "name": "Odporność (Zimno) (Pustka)",
+            "description": "<p>Twój chowaniec zyskuje odporność równą połowie twojego poziomu (minimalna odporność 1) na obrażenia od zimna i pustki.</p>"
+        },
+        "Resistance (poison)": {
+            "name": "Odporność (Trucizna)",
+            "description": "<p>Twój chowaniec zyskuje odporność na truciznę równą połowie twojego poziomu (minimalna odporność 1).</p>"
+        },
+        "Resonance": {
+            "name": "Rezonans",
+            "description": "<p><strong>Aura, Zasięg</strong> 30 stóp.</p><hr /><p>Twój ognik wibruje z częstotliwością dostosowaną do jego żywiołu, rezonując i wzmacniając wszystkie efekty posiadające tę samą cechę. Istoty znajdujące się w pobliżu zyskują premię +1 do rzutów na obrażenia za efekty o tej samej charakterystyce żywiołu co twój ognik (powietrze, ziemia, ogień lub woda).</p>",
+            "rules": {
+                "0": {
+                    "label": "Rezonans"
+                }
+            }
+        },
+        "Scholarly Linguist": {
+            "name": "Naukowy Lingwista",
+            "description": "<p>Dzięki wrodzonej erudycji, twój Smoczy Lis mówi i rozumie wszystkie języki, które znasz (zamiast tylko jednego), a także jeden wspólny język, którego nie znasz.</p>"
+        },
+        "Skilled (Perception)": {
+            "name": "Wykwalifikowany (Percepcja)",
+            "description": "<p><span style=\"font-family:Roboto, sans-serif\">Wybierz umiejętność inną niż Akrobatyka lub Ukrycie. Modyfikator twojego chowańca do tej umiejętności jest równy twojemu poziomowi plus modyfikator atrybutu rzucania zaklęć, a nie tylko twojemu poziomowi. Możesz wybrać tę zdolność wielokrotnie, za każdym razem wybierając inną umiejętność.</span></p>"
+        },
+        "Slime Rejuvenation": {
+            "name": "Odmłodzenie Szlamu",
+            "description": "<p>Podczas Ponownego Skupienia generujesz magiczną energię, która leczy twojego chowańca. Twój chowaniec odzyskuje 2 Punkty Wytrzymałości na poziom za każdym razem, gdy używasz Ponownego Skupienia.</p>"
+        },
+        "Slink in Shadows": {
+            "name": "Przemykając w cieniu",
+            "description": "<p>Cień chowaniec może @UUID[Compendium.pf2e.actionspf2e.XMcnh4cSI32tljXa]{Ukryć się} lub zakończyć @UUID[Compendium.pf2e.actionspf2e.VMozDqMMuK5kpoX4]{Skradanie się} w cieniu istoty lub przedmiotu.</p>"
+        },
+        "Sorcerous Sweets": {
+            "name": "Czarodziejskie Słodycze",
+            "description": "<p>Podczas codziennych przygotowań, twój słodziutki chowaniec przeprowadza niezwykły mały rytuał. <br />Twój chowaniec znajduje mały niemagiczny przedmiot (preferowany jest kwiat lub kawałek opadłego owocu, ale kamyk lub nawet moneta wystarczą), a następnie wykonuje wokół niego ciekawy rytualny taniec - piernikowe wróble podskakują i ćwierkają, podczas gdy twarde cukierkowe chrząszcze turlają się w coraz bardziej skomplikowanych geometrycznych wzorach, a czekoladowe myszy wykonują łapkami tajemne znaki. <br />Po zakończeniu rytuału przedmiot zamienia się w cukierek, zwykle tego samego rodzaju co chowaniec. Cukierek jest przedmiotem z cechami tajemny, konsumpcji i transmutacji.</p><p>Każdy, kto zje cukierek w ramach akcji Interakcji, zyskuje premię +1 do testów Oszustwa, Dyplomacji i Występów przez 1 godzinę (premia ta wzrasta do +2 na poziomie 9 i +3 na poziomie 17). Cukierek zachowuje swój urok aż do następnego codziennego przygotowania.</p><p>@UUID[Compendium.pf2e-specific-familiars.specific-familiars-equipments.Item.lEe3qsmk2nRwZybH]{Cukierki dla Czarowników}</p><p>@UUID[Compendium.pf2e-specific-familiars.specific-familiars-equipments.Item.lgbWrT72bCMERszr]{Cukierki dla Czarowników (Poziom 9)}</p><p>@UUID[Compendium.pf2e-specific-familiars.specific-familiars-equipments.Item.p08ulJpjgrqinPKa]{Cukierki dla Czarowników (Poziom 17)}</p>"
+        },
+        "Soul Bond": {
+            "name": "Więź Dusz",
+            "description": "<p>Duchy twoich kinnarów są ze sobą nierozerwalnie związane. Chociaż są to dwie istoty, są uważane za jedną istotę, działają jak jedna istota, używają normalnych statystyk chowańca i podlegają wszystkim normalnym efektom związanym z byciem pojedynczą istotą. Ich połączone duchy pozwalają im odpierać ataki wymierzone w ich umysły. Jeśli kinnary zostaną poddane efektowi mentalnemu, który pozwala na rzut obronny, rzucają dwa razy i wybierają wyższy wynik; jest to efekt fortuny.</p>"
+        },
+        "Stylus Claws": {
+            "name": "Stylowe Szpony",
+            "description": "<p>Twój żmij kaligraficzny ma pazury w kształcie rysika, które może wypełnić swoim naturalnym atramentem, używając pazura jako pióra bez konieczności kupowania atramentu.</p>"
+        }
+    },
+    "mapping": {
+        "rules": {
+            "converter": "translateRules",
+            "path": "system.rules"
+        }
+    }
+}

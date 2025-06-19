@@ -1,0 +1,9 @@
+{
+    "label": "Efekty",
+    "entries": {
+        "Effect: Thermal Nimbus Damage": {
+            "name": "Efekt: Obrażenia Termicznej Otuliny",
+            "description": "<p>Znajdujesz się wewnątrz aury Termicznej Otuliny Kinetyka.</p>"
+        }
+    }
+}

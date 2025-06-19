@@ -1,0 +1,68 @@
+/* ===== Styl tytułu dziennika ===== */
+.app.journal-sheet input.title {
+  font-family: 'Girassol-Regular', serif;
+  font-size: 2.5em;
+  font-weight: bold;
+  color: #002a17;
+}
+
+
+/* ===== Nagłówki w treści dziennika ===== */
+
+/* h1 */
+.app.journal-sheet .journal-entry-content h1 {
+  font-family: 'Girassol-Regular', serif;
+  color: #4b0101;
+  font-weight: bold;
+}
+
+/* h2 */
+.app.journal-sheet .journal-entry-content h2 {
+  font-family: 'Girassol-Regular', serif;
+  font-size: 1.8em;
+  font-weight: bold;
+  color: #4b0101;
+}
+
+/* h3 */
+.app.journal-sheet .journal-entry-content h3 {
+  font-family: 'Girassol-Regular', serif;
+  font-size: 1.6em;
+  font-weight: bold;
+  color: #040c48;
+  border-bottom: 1px solid #040c48;
+  padding-bottom: 0.1em;
+}
+
+/* h4 */
+.app.journal-sheet .journal-entry-content h4 {
+  font-family: 'Girassol-Regular', serif;
+  font-size: 1.4em;
+  font-weight: bold;
+  color: #002a17;
+}
+
+/* h5 */
+.app.journal-sheet .journal-entry-content h5 {
+  font-family: 'Girassol-Regular', serif;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+/* h6 */
+.app.journal-sheet .journal-entry-content h6 {
+  font-family: 'Girassol-Regular', serif;
+  font-size: 1em;
+  font-weight: bold;
+  color: #4b0101;
+}
+
+
+/* ===== Tło dziennika ===== */
+.app.journal-sheet .journal-entry-content {
+  background-image: url('../static/parchment.webp');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 2em;
+}

@@ -1,0 +1,413 @@
+{
+    "label": "AC-Zdolności",
+    "entries": {
+        "Adaptable Elemental": {
+            "name": "Adaptowalny Żywiołak",
+            "description": "<p>Sił +1, Zrc +4, Kon +3, Int +0, Mdr +1, Cha +0; +1 KP (+4 Maks. premia za Zr)</p>"
+        },
+        "Advanced Maneuver": {
+            "name": "Zaawansowany Manewr",
+            "description": ""
+        },
+        "Anchored Incorporeality": {
+            "name": "Zakotwiczona Bezcielesność",
+            "description": "<p>Podczas gdy większość duchów jest związana z miejscem, w którym zmarli lub zostali pochowani, niektórzy zamiast tego są związani z określonymi przedmiotami, takimi jak konkretna biżuteria, ubranie, obroża zwierzęcia lub kamień z budynku, w którym mieszkali. Przedmioty te, znane jako kotwice, były ważne dla ducha za życia lub miały kluczowe znaczenie dla wydarzeń związanych z jego śmiercią i nawiedzeniem.</p>\n<p>Istota z zakotwiczoną bezcielesnością posiada cechę bezcielesny, co oznacza, że może poruszać się przez istoty fizyczne, a takie istoty mogą poruszać się przez nią. Nie może próbować wykonywać testów opartych na Sile (takich jak @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{Pochwycenie}) przeciwko istotom cielesnym, a istoty cielesne nie mogą próbować wykonywać takich testów przeciwko niej. Chociaż bezcielesna, istota z zakotwiczoną bezcielesnością może podróżować nie dalej niż 60 stóp od swojej kotwicy i musi utrzymywać linię efektu do kotwicy. Zazwyczaj uniemożliwia to jej przemieszczanie się przez ściany. W przeciwieństwie do wielu innych bezcielesnych stworzeń, istota z zakotwiczoną bezcielesnością nie posiada odporności na wszystkie obrażenia ani odporności na obrażenia precyzyjne.</p>\n<p>Postać posiadająca zwierzęcego towarzysza lub chowańca, który zakotwiczył bezcielesność, może przenieść kotwicę na nowy przedmiot za pomocą specjalnego rytuału. Wymaga to spędzenia 1 tygodnia w porozumieniu z towarzyszem, aby stworzyć nową kotwicę. Postać, która zna tę technikę, może być w stanie dostosować ją do przeniesienia zdolności ducha Związany z miejscem (lub podobnego ograniczenia), aby przywiązać go do kotwicy zamiast do miejsca.</p>"
+        },
+        "Angelic Avenger": {
+            "name": "Anielski Mściciel",
+            "description": "<p>Sił +4, Zrc +2, Kon +3, Int -1, Mdr +1, Cha +0; +2 KP (+3 Maks. premia za Zr)</p>"
+        },
+        "Angelic Emissary": {
+            "name": "Anielski Emisariusz",
+            "description": "<p>Sił +1, Zrc +4, Kon +1, Int +0, Mdr +1, Cha +2; +1 KP (+4 Maks. premia za Zr)</p>"
+        },
+        "Angelic Mercy": {
+            "name": "Anielskie Miłosierdzie",
+            "description": "<p>Anielska moc twojego eidolona pozwala mu leczyć różne dolegliwości, podobnie jak większość innych potężnych aniołów. Twój eidolon może rzucać <em>@UUID[Compendium.pf2e.spells-srd.Item.SUKaxVZW2TlM8lu0]</em>, <em>@UUID[Compendium.pf2e.spells-srd.Item.EfFMLVbmkBWmzoLF]</em>, i <em>@UUID[Compendium.pf2e.spells-srd.Item.BCuHKrDeJ4eq53M6]</em> raz dziennie jako boskie zaklęcia wrodzone 9. poziomu.</p>"
+        },
+        "Anger Aura": {
+            "name": "Aura Gniewu",
+            "description": "<p>Twój eidolon emanuje gniewem w aurze wokół siebie, wzbudzając wściekłość pobliskich stworzeń i powodując, że ich obrona pęka, gdy kipią z wściekłości. Twój eidolon zyskuje aurę gniewu o zasięgu 20 stóp, która posiada cechy aury, emocji, zaklęcia, umysłu i okultyzmu. Odporności każdej istoty znajdującej się w aurze, w tym ciebie, twoich sojuszników, wrogów i twojego eidolona, zostają zmniejszone o wartość równą 3 + modyfikator Kondycji twojego eidolona. Twój eidolon może powstrzymać swój gniew, wydając pojedynczą akcję, która ma cechę koncentracji. Zmniejsza to efekt aury tak, że wpływa ona tylko na twojego eidolona. Może on wykonać tę akcję ponownie, aby przywrócić pełny efekt swojej aury. Aura gniewu nie ma wpływu na stworzenia, które są w stanie barbarzyńskiego szału, kipiącego szału lub podobnej zdolności, która pozwala im ukierunkować swój gniew.</p>"
+        },
+        "Animal Companion": {
+            "name": "Zwierzęcy Towarzysz",
+            "description": "<p>Poniżej znajdują się podstawowe statystyki młodego zwierzęcego towarzysza, pierwszego zwierzęcego towarzysza, którego otrzymuje większość postaci. Statystyki te można dostosować w zależności od wybranego typu zwierzęcia. Zwierzęcy towarzysze obliczają swoje modyfikatory i ST tak samo jak ty, z jedną różnicą: jedyne bonusy do szybkości i KP, z których mogą korzystać, to bonusy do KP (ich maksymalny bonus do KP wynosi +3). W miarę zdobywania kolejnych poziomów, możesz wzmocnić swojego towarzysza, ulepszając go.</p><p>Początkowe statystyki zwierzęcego towarzysza są następujące.</p><ul><li><strong>Poziom:</strong> Poziom twojego zwierzęcego towarzysza jest równy twojemu.</li><li><strong>Biegłości:</strong> Twój zwierzęcy towarzysz jest wytrenowany w atakach bez broni, obronie bez pancerza, ladrach (rodzaj zbroi dla zwierząt), wszystkich rzutach obronnych, Percepcji, Akrobatyce i Atletyce. Zwierzęcy towarzysze nie mogą korzystać ze zdolności wymagających większej inteligencji, takich jak @UUID[Compendium.pf2e.actionspf2e.Item.tHCqgwjtQtzNqVvd]{Przymuszenie} lub Rozszyfrowanie pisma, nawet jeśli są wytrenowani w odpowiedniej umiejętności, chyba że posiadają specjalizację, która na to pozwala.</li><li><strong>Modyfikatory Atrybutów:</strong> Zwierzęcy towarzysz zaczyna z podstawowymi modyfikatorami atrybutów wymienionymi w jego bloku statystyk.</li><li><strong>Punkty Wytrzymałości:</strong> Twój zwierzęcy towarzysz posiada Punkty Wytrzymałości pochodzące od jego typu oraz liczbę Punktów Wytrzymałości równą 6 plus jego modyfikator Kondycji za każdy posiadany poziom.</li></ul>"
+        },
+        "Beast's Charge": {
+            "name": "Szarża Bestii",
+            "description": "<p>Twój eidolon może wykonać okrutną szarżę lub rzucić się na wrogów, co pozwala mu na szybką walkę. Zyskuje aktywność @Compendium[pf2e-animal-companions.AC-Features.ITQghUQFhbYpD2QM]{Szarża Bestii}.</p>"
+        },
+        "Blasphemous Decree": {
+            "name": "Bluźnierczy Dekret",
+            "description": "<p>Twój demon wypowiada nieopisane słowa, wijąc się wraz z towarzyszącym mu grzechem. Może rzucić <em>@UUID[Compendium.pf2e.spells-srd.Item.sX2o0HH4RjJDAZ8C]</em> raz dziennie jako zaklęcie 9. poziomu. Dekret ten nie ma na ciebie wpływu, nawet jeśli nie jesteś zły. Na 19. poziomie staje się on dekretem boskim 10. poziomu.</p>"
+        },
+        "Breath Weapon": {
+            "name": "Zionięcie",
+            "description": "<p>Twój eidolon wydziela podmuch niszczycielskiej energii. Twój eidolon zadaje 1k6 obrażeń wszystkim istotom w okolicy, z podstawowym rzutem obronnym na Refleks przeciwko ST zaklęcia. Obszar i rodzaj obrażeń zadawanych przez Broń Oddechową są wybierane, gdy eidolon zyskuje tę umiejętność. Twój eidolon nie może następnie ponownie użyć swojej Broni Oddechu przez następne [[/r 1d4 #Rounds]]{1k4 rund}.</p>\n<p>Na 3. poziomie, a następnie co 2 poziomy, obrażenia wzrastają o 1k6.</p>"
+        },
+        "Brutal Beast": {
+            "name": "Brutalna Bestia",
+            "description": "<p>Sił +4, Zrc +2, Kon +3, Int -1, Mdr +1, Cha +0; +2 KP (+3 Maks. premia za Zr)</p>"
+        },
+        "Charisma Boost": {
+            "name": "Zwiększenie Charyzmy",
+            "description": ""
+        },
+        "Constitution Boost": {
+            "name": "Zwiększenie Kondycji",
+            "description": ""
+        },
+        "Construct Companion": {
+            "name": "Towarzysz Konstrukt",
+            "description": ""
+        },
+        "Construct Heart": {
+            "name": "Serce Konstrukta",
+            "description": "<p>Twój konstrukt eidolon ma bezpośrednie połączenie z twoją siłą życiową, co czyni go żywą istotą, a zatem podatną na wiele dolegliwości, które dotykają tylko żywych, choć posiada pewne odporności na te efekty. Nie posiada normalnych odporności konstruktów, ale zyskuje premię +2 do rzutów obronnych przeciwko efektom śmierci, chorób, nekromancji i trucizn, a także efektom powodującym @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{Zmęczenie} lub mdłości. Dodatkowo, jego esencja astralna powoli się wykrwawia i wystarczy, że odniesie sukces w <span data-pf2-check=\"flat\" data-pf2-dc=\"10\" data-pf2-show-dc=\"owner\">Płaskim teście</span> aby usunąć trwałe obrażenia od krwawienia (lub <span data-pf2-check=\"flat\" data-pf2-dc=\"5\" data-pf2-show-dc=\"owner\">Płaski test</span> po otrzymaniu szczególnie skutecznej pomocy).</p>"
+        },
+        "Creeping Plant": {
+            "name": "Roślina Pełzająca",
+            "description": "<p>Sił +1, Zrc +4, Kon +3, Int -1, Mdr +2, Cha +0; +1 KP (+4 Maks. premia za Zr)</p>"
+        },
+        "Cunning Dragon": {
+            "name": "Przebiegły Smok",
+            "description": "<p>Sił +1, Zrc +4, Kon +1, Int +2, Mdr +0, Cha +1; +1 KP (+4 Maks. premia za Zr)</p>"
+        },
+        "Demonic Strikes": {
+            "name": "Demoniczne Ataki",
+            "description": "<p>Ataki twojego eidolona są skażone przez Otchłań i przesiąknięte czystym złem oraz zmiennym chaosem. Ataki bez broni eidolona zyskują cechę nieświęty i zadają 1 dodatkowe obrażenia duchowe świętym istotom i istotom z podatnością na nieświęty. Dodatkowo, wybierz jeden z nieuzbrojonych ataków eidolona, który zadaje obrażenia fizyczne; zyskuje on cechę wszechstronności dla innego typu obrażeń fizycznych, który wybierzesz.</p>"
+        },
+        "Devotion Aura": {
+            "name": "Aura Poświęcenia",
+            "description": "<p>Po tak długiej walce u twego boku, twój eidolon stał się tak samo oddany ochronie ciebie i twoich sojuszników, jak swojej pierwotnej sprawie. Zyskuje aurę oddania o zasięgu 20 stóp, która posiada cechy odpychania, aury i okultyzmu. Za każdym razem, gdy jeden z sojuszników eidolona w obrębie aury otrzyma obrażenia, możesz je zmniejszyć o modyfikator Kondycji eidolona. Tracisz liczbę Punktów Wytrzymałości równą połowie wartości, o którą eidolon zmniejszył obrażenia, zaokrąglając w dół. Jeśli obrażenia były niższe niż modyfikator Kondycji, należy oprzeć otrzymywane obrażenia na rzeczywistej liczbie obrażeń, którym udało się zapobiec.</p>"
+        },
+        "Dexterity Boost": {
+            "name": "Zwiększenie Zręczności",
+            "description": ""
+        },
+        "Draconic Frenzy": {
+            "name": "Smoczy Szał",
+            "description": "<p>Twój eidolon może wykonać wściekły atak, potencjalnie odzyskując możliwość korzystania z broni oddechowej. Zyskują aktywność @Compendium[pf2e-animal-companions.AC-Features.HiVt4B5bE2hi0FWc]{Smoczy Szał}.</p>"
+        },
+        "Drain Life": {
+            "name": "Wyssanie Życia",
+            "description": "<p>Więź twojego eidolona z tobą podtrzymuje go, ale nadal pragnie esencji życiowej żywych, czy to poprzez krew, czy czystą esencję. Zyskuje aktywność @Compendium[pf2e-animal-companions.AC-Features.3Ns5BmFpAcoGQIY5]{Wyssanie Życia}.</p>"
+        },
+        "Dutiful Retaliation": {
+            "name": "Obowiązkowy Odwet",
+            "description": "<p>Twój eidolon głęboko szanuje twoją pomoc i okazuje ci lojalność, atakując tych, którzy ośmielą się cię skrzywdzić. Zyskuje reakcję @Compendium[pf2e-animal-companions.AC-Features.4NuAF8jxWDWzia9Z]{Obowiązkowy Odwet}.</p>"
+        },
+        "Effect: Seething Frenzy": {
+            "name": "Efekt: Kipiący Szał",
+            "description": "<p>Stworzenie otrzymuje karę -2 do KP.</p>"
+        },
+        "Eidolon": {
+            "name": "Eidolon",
+            "description": "",
+            "rules": {
+                "0": {
+                    "prompt": "Wybierz szczegóły Ataku Podstawowego. Można je później edytować w zakładce ekwipunku."
+                }
+            }
+        },
+        "Eidolon Ability": {
+            "name": "Zdolność Eidolona",
+            "description": "<p>Eidolon zaczyna z początkową umiejętnością określoną przez typ eidolona.</p>"
+        },
+        "Eidolon Ability Boosts (10th)": {
+            "name": "Wzmocnienie Atrybutów Eidolona (10. Poziom)",
+            "description": ""
+        },
+        "Eidolon Ability Boosts (15th)": {
+            "name": "Wzmocnienie Atrybutów Eidolona (15. Poziom)",
+            "description": ""
+        },
+        "Eidolon Ability Boosts (20th)": {
+            "name": "Wzmocnienie Atrybutów Eidolona (20. Poziom)",
+            "description": ""
+        },
+        "Eidolon Ability Boosts (5th)": {
+            "name": "Wzmocnienie Atrybutów Eidolona (5. Poziom)",
+            "description": ""
+        },
+        "Eidolon Defensive Expertise": {
+            "name": "Ekspert w Obronie Eidolona",
+            "description": "<p>Twój eidolon zwiększa swoją zdolność unikania ataków. Jego poziom biegłości w obronie bez pancerza wzrasta do eksperta.</p>"
+        },
+        "Eidolon Defensive Mastery": {
+            "name": "Mistrzostwo Obronne Eidolona",
+            "description": "<p>Postać eidolona staje się szczególnie trudna do zaatakowania. Jego poziom biegłości w obronie bez pancerza wzrasta do mistrzowskiego.</p>"
+        },
+        "Eidolon Symbiosis": {
+            "name": "Symbioza Eidolona",
+            "description": "<p>Twoja więź z eidolonem wzmacnia się, dając eidolonowi dostęp do nowej zdolności, w zależności od jego typu, jak opisano w Zdolnościach Eidolonów we wpisie każdego eidolona.</p>"
+        },
+        "Eidolon Transcendence": {
+            "name": "Transcendencja Eidolona",
+            "description": "<p>Twoje połączenie z eidolonem zbliża się do szczytu, dając eidolonowi dostęp do nowej, potężnej zdolności, w zależności od jego typu, jak opisano w sekcji Zdolności Eidolona we wpisie każdego eidolona. Zdolność ta zwiększa również jeden z wyników umiejętności eidolona o 2.</p>",
+            "rules": {
+                "0": {
+                    "prompt": "Wybierz Atrybut do zwiększenia"
+                }
+            }
+        },
+        "Eidolon Unarmed Expertise": {
+            "name": "Ekspert w walce bez broni Eidolona",
+            "description": "<p>Twój eidolon staje się bardziej zdolny do używania ataków bez broni. Jego poziom biegłości w atakach bez broni wzrasta do eksperta.</p>"
+        },
+        "Eidolon Unarmed Mastery": {
+            "name": "Mistrzostwo w walce bez broni Eidolona",
+            "description": "<p>Twój eidolon naprawdę opanował swoje ataki bez broni, osiągając wyższy poziom. Jego poziom biegłości w atakach bez broni wzrasta do poziomu mistrzowskiego.</p>"
+        },
+        "Eidolon Weapon Specialization": {
+            "name": "Specjalizacja Broni Eidolona",
+            "description": "<p>Twój eidolon nauczył się zadawać większe obrażenia atakami bez broni. Zadaje dodatkowe 2 obrażenia przy atakach bez użycia broni, w których jest ekspertem. Obrażenia te wzrastają do 3, jeśli jest mistrzem, i 4, jeśli jest legendarny.</p>"
+        },
+        "Elemental Burst": {
+            "name": "Wybuch Żywiołów",
+            "description": "<p><strong>Częstotliwość</strong> raz na 10 minut</p>\n<hr />\n<p>Twój eidolon wyrywa z własnej postaci fragment materii żywiołów i ciska nim w grupę wrogów. Twój eidolon traci liczbę Punktów Wytrzymałości równą twojemu poziomowi. Wszystkie istoty w obszarze @Template[type:burst|distance:20] w promieniu 60 stóp od eidolona otrzymują @Damage[(@actor.level - 1)d6] obrażeń z podstawowym rzutem obronnym przeciwko ST zaklęcia. Obrażenia wzrastają o 1k6 za każdy poziom powyżej 7. poziomu. Typ obrażeń to albo obrażenia od ognia, jeśli twój eidolon jest żywiołakiem ognia, albo ten sam typ obrażeń fizycznych, co podstawowy atak bez broni twojego eidolona, jeśli twój eidolon nie jest żywiołakiem ognia. Wybuch Żywiołów zyskuje wszystkie cechy, które nieuzbrojone ataki eidolona zyskują z rdzenia żywiołów.</p>"
+        },
+        "Elemental Core": {
+            "name": "Rdzeń Żywiołu",
+            "description": "<p>Twój eidolon żywiołów jest połączeniem materii żywiołów i siły życiowej śmiertelników, co pomaga chronić go przed niektórymi efektami, które są bardziej szkodliwe dla śmiertelników niż żywiołów. Zyskują premię +2 do rzutów obronnych przeciwko truciznom i efektom snu, a także efektom wywołującym stan @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Sparaliżowany}. Dodatkowo, ich esencja żywiołów krwawi słabiej niż ciało, więc ST każdego płaskiego testu, który wykonują, aby usunąć trwałe obrażenia od krwawienia, wynosi 10 (lub 5 po otrzymaniu szczególnie skutecznej pomocy). Twój eidolon może być żywiołakiem powietrza, ziemi, ognia, metalu, drewna lub wody. Twój eidolon i wszystkie jego ataki bez broni zyskują cechę wybranego żywiołu, a eidolon zyskuje dodatkowe efekty zależne od twojego wyboru.</p>\n<p><strong>Powietrze</strong>: Twój eidolon ma postać żywiołu powietrza i jest lekki jak wiatr. Twój eidolon potrafi @UUID[Compendium.pf2e.actionspf2e.Item.d5I6018Mci2SWokk]{Skakać}, @UUID[Compendium.pf2e.actionspf2e.Item.2 HJ4yuEFY1Cast4h]{Skakać wzwyż} i @UUUID[Compendium.pf2e.actionspf2e.Item.JUvAvruz7yRQXfz2]{Skakać w dal} dwa razy dalej i nie otrzymuje obrażeń od upadku.</p>\n<p><strong>Ziemia</strong>: Twój eidolon ma postać żywiołu ziemi i jest niezwykle trudny do poruszenia siłą. Twój eidolon zyskuje premię +2 do Wytrwałości lub Refleksu przeciwko próbom @UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{Pchnięcia} lub @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{Przewracania}. Premia ta dotyczy również rzutów obronnych przeciwko zaklęciom lub efektom, które próbują ich @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Przewrócić}. Dodatkowo, jeśli jakikolwiek efekt zmusi ich do przesunięcia się o 10 stóp lub więcej, zostaną przesunięci tylko o połowę dystansu.</p>\n<p><strong>Ogień</strong>: Twój eidolon ma postać żywiołu ognia i płonie żarem płomieni. Twój eidolon zyskuje odporność na ogień równą połowie twojego poziomu (minimum 1) oraz taką samą podatność na zimno i wodę. Ich ataki bez broni zadają 1 dodatkowe obrażenia od ognia.</p>\n<p><strong>Metal</strong>: Twój eidolon jest uformowany z żywiołu metalu i może dostosować swoją metaliczną postać do walki. Jeden z początkowych ataków eidolona w walce wręcz bez broni zyskuje cechę ataku różnorodnych obrażeń obuchowych, kłutych lub ciętych, w miarę jak eidolon uczy się zmieniać metal w różne postacie przypominające broń.</p>\n<p><strong>Woda</strong>: Twój eidolon ma postać żywiołu wody i pływa z łatwością. Twój eidolon zyskuje cechę amfibii, która pozwala mu oddychać w wodzie i powietrzu oraz uniknąć normalnej kary -2 do wykonywania obuchowych i ciętych bez broni Ataków pod wodą. Szybkość lądowa eidolona zostaje zmniejszona do 15 stóp, a jego szybkość pływania wynosi 25 stóp. Możesz skorzystać z atutu Postać amfibii, aby zwiększyć jego szybkość na lądzie do 25 stóp, zgodnie z opisem atutu.</p>\n<p><strong>Drewno</strong>: Twój eidolon jest uformowany z drewna żywiołów, a jego żywa drewniana postać skręca się i odrasta, gdy skupiasz swoje energie żywiołów. Możesz zdecydować, że twój eidolon zyska cechę rośliny. Za każdym razem, gdy Ponownie się Skupiasz, twój eidolon odzyskuje liczbę Punktów Wytrzymałości równą podwojonemu poziomowi.</p>",
+            "rules": {
+                "9": {
+                    "choices": {
+                        "0": {
+                            "label": "Zdobądź cechę rośliny"
+                        },
+                        "1": {
+                            "label": "Nie zdobywaj cechy rośliny"
+                        }
+                    },
+                    "prompt": "Uzyskać cechę rośliny?"
+                }
+            }
+        },
+        "Elemental Maelstrom": {
+            "name": "Wir Żywiołów",
+            "description": "<p>Twój eidolon tymczasowo zmienia swoją postać w wirujący wir żywiołów materii i rzuca się na wrogów. Twój eidolon Biegnie. Podczas ruchu może wykonać Atak przeciwko każdemu wrogowi, który znajdzie się w jego zasięgu. Jeśli wróg znajdzie się w zasięgu eidolona więcej niż raz, eidolon wykona tylko jeden Atak przeciwko danemu wrogowi. Wszystkie te ataki wliczają się do kary za wielokrotne ataki eidolona, ale kara nie wzrasta aż do zakończenia wszystkich ataków. Jeśli eidolon ma odpowiednią szybkość, może się wspinać, latać lub pływać zamiast chodzić.</p>"
+        },
+        "Enraged Assassin": {
+            "name": "Wściekły Zabójca",
+            "description": "<p>Sił +2, Zrc +4, Kon +3, Int +0, Mdr -1, Cha +1; +1 KP (+4 Maks. premia za Zr)</p>"
+        },
+        "Fey Chicanery": {
+            "name": "Oszustwo Fey",
+            "description": "<p>Zawsze pełen sztuczek, twój fey eidolon przekształca magiczne zabezpieczenia w waszą wspólną siłę życiową, dając mu w tylnej kieszeni rezerwę na wypadek desperackich sytuacji. Podczas codziennych przygotowań eidolon może rzucić zaklęcie @UUID[Compendium.pf2e.spells-srd.Item.WG91Z5TiR6oO5FOw]{Warunkowości}. Wybrane zaklęcie czwartego poziomu musi pochodzić z listy darów pierwotnych lub fey i musi być albo powszechne, albo być innym zaklęciem, do którego masz dostęp.</p>"
+        },
+        "Fey Gift Spells": {
+            "name": "Zaklęcia Darów Fey",
+            "description": "<p>Twój eidolon rozszerza twoją pierwotną magię o magię zaklęć i iluzji, pozwalając wam obojgu władać mocą uroku i blasku fey. Kiedy dodajesz zaklęcia do swojego repertuaru, możesz wybierać z listy zaklęć pierwotnych, a także zaklęć posiadających cechy iluzji lub mentalne, które pojawiają się na liście zaklęć tajemnych. Jak zwykle, gdy dodajesz zaklęcia innej tradycji do swojej listy zaklęć, nadal jesteś zaklinaczem pierwotnym, więc wszystkie twoje zaklęcia są zaklęciami pierwotnymi.</p><p>Twój eidolon zyskuje atut przywoływacza @UUID[Compendium.pf2e-animal-companions.AC-Evolution-Feats.Item.V4rqSvDeIlZCdbVQ]{Magiczny Dubler}, mimo że nie osiągnął wymaganego poziomu, i może wybierać sztuczki związane z darem fey oprócz sztuczek pierwotnych. Jak zwykle w przypadku atutu przyznawanego z nazwy, nie można przekwalifikować Magicznego Dublera na inny atut.</p>"
+        },
+        "Fey Mischief": {
+            "name": "Psotliwość Fey",
+            "description": "<p>Magia fey twojego eidolona staje się potężniejsza i bardziej psotna. Twój eidolon zyskuje atut @Compendium[pf2e.feats-srd.b1eGMNjBY3iqIt2S]{Magiczny Adept}, mimo że nie osiągnął wymaganego poziomu, i może wybierać spośród zaklęć daru fey oprócz zaklęć pierwotnych.</p>"
+        },
+        "Field of Roots": {
+            "name": "Pole Korzeni",
+            "description": "<p>Twój eidolon nauczył się wysyłać swoje korzenie pod ziemię, aby utrudniać walkę wrogom. Zyskuje aktywność @Compendium[pf2e-animal-companions.AC-Features.4ZCaD8Y817JjbrX2]{Pole Korzeni}.</p>"
+        },
+        "Fleet Beast": {
+            "name": "Szybka Bestia",
+            "description": "<p>Sił +2, Zrc +4, Kon +3, Int -1, Mdr +1, Cha +0; +1 KP (+4 Maks. premia za Zr)</p>"
+        },
+        "Furious Strike": {
+            "name": "Wściekły Atak",
+            "description": "<p>Twój eidolon przelewa swój gniew we wściekły atak. Wykonuje Atak wręcz. Liczy się to jako dwa ataki przy obliczaniu kary za wielokrotny atak. Jeśli Atak trafi, eidolon zadaje dodatkową kość obrażeń od broni i zyskuje premię okoliczności +1 do rzutu na obrażenia.</p>\n<p>Jeśli masz co najmniej 10. poziom, możesz zwiększyć tę wartość do dwóch dodatkowych kości z premią okoliczności +2, a jeśli masz co najmniej 18. poziom, możesz zwiększyć tę wartość do trzech dodatkowych kości z premią okoliczności +3.</p>"
+        },
+        "Greater Eidolon Specialization": {
+            "name": "Większa Specjalizacja Eidolona",
+            "description": "<p>Obrażenia zadawane przez eidolona dzięki specjalizacji broni wzrastają do 4 przy atakach bez broni, w których jest ekspertem, 6 jeśli jest mistrzem i 8 jeśli jest legendarny.</p>"
+        },
+        "Growing Vines": {
+            "name": "Rosnące Pnącza",
+            "description": "<p>Pnącza i gałęzie twojego eidolona wydłużają się jeszcze bardziej. Wszystkie ataki eidolona w walce wręcz bez broni zyskują cechę zasięgu.</p>"
+        },
+        "Guardian Plant": {
+            "name": "Roślina Strażnik",
+            "description": "<p>Sił +4, Zrc +2, Kon +3, Int -1, Mdr +1, Cha +0; +2 KP (+3 Maks. premia za Zr)</p>"
+        },
+        "Hallowed Strikes": {
+            "name": "Uświęcone Ataki",
+            "description": "<p>Ataki twojego eidolona są uświęcone przez niebiańskie królestwa. Ataki bez broni eidolona zyskują cechę świętości i zadają 1 dodatkowe obrażenia duchowe istotom nieświętym i istotom z podatnością na świętość. Dodatkowo, twój eidolon może wykonywać nieśmiercionośne ataki za pomocą swoich ataków bez użycia zwykłej kary -2 do okoliczności.</p>"
+        },
+        "Hidden Watcher": {
+            "name": "Ukryty Obserwator",
+            "description": "<p>Twój eidolon może sprawić, że oboje staniecie się niewidzialni. Raz na godzinę może rzucić @Compendium[pf2e.spells-srd.XXqE1eY3w3z6xJCB]{Niewidzialność} na ciebie, ich lub was oboje jednocześnie. Jeśli zaklęcie dotyczyło was obojga, zaklęcie kończy się dla was obojga, jeśli któreś z was wykona wrogą akcję.</p>"
+        },
+        "Intelligence Boost": {
+            "name": "Zwiększenie Inteligencji",
+            "description": ""
+        },
+        "Marauding Dragon": {
+            "name": "Smok Maruder",
+            "description": "<p>Sił +4, Zrc +2, Kon +3, Int +0, Mdr +0, Cha +0; +2 KP (+3 Maks. premia za Zr)</p>"
+        },
+        "Mindless Companion": {
+            "name": "Bezmyślny Towarzysz",
+            "description": "<p>Niektórzy nieumarli towarzysze są bezmyślni. Cecha bezmyślności sprawia, że są odporni na wszystkie efekty psychiczne. Jedynymi umiejętnościami, w których bezmyślny towarzysz jest wytrenowany, są Akrobatyka i Atletyka i nie może on zostać wytrenowany w innych umiejętnościach. Nawet jeśli bezmyślny towarzysz zyska ograniczoną zdolność do działania w walce bez rozkazu, na przykład dzięki wyczynowi Dojrzały Zwierzęcy Towarzysz, może powtórzyć tylko ostatnią komendę; nie może samodzielnie podjąć nowej akcji. Bezmyślny towarzysz nie może korzystać ze specjalizacji, które podniosłyby jego Inteligencję lub zapewniły mu korzyści w umiejętnościach innych niż Akrobatyka lub Atletyka, a także nie może używać ani korzystać z atutów lub innych opcji dla zwierzęcych towarzyszy, które normalnie wymagają od stworzenia posiadania umysłu, myślenia lub podejmowania decyzji. W razie wątpliwości MG określa, z jakich umiejętności może korzystać bezmyślny towarzysz.</p>"
+        },
+        "Negative Essence": {
+            "name": "Negatywna Esencja",
+            "description": "<p>Twój nieumarły eidolon jest bezpośrednio połączony z twoją siłą życiową, co zapewnia mu stan pośredni między życiem a śmiercią. Sprawia to, że jest żywą istotą, a zatem jest podatny na wiele dolegliwości, które dotykają tylko żywych, choć posiada pewne odporności na te efekty. Eidolon ma leczenie pustką, co oznacza, że leczy się za pomocą obrażeń od pustki, które leczą nieumarłych i jest podatny na obrażenia witalne, które ranią nieumarłych. Nie posiada normalnych odporności nieumarłego, ale zyskuje premię okoliczności +2 do rzutów obronnych przeciwko efektom śmierci, chorób i trucizn oraz efektom nie powodującym obrażeń, które są skierowane tylko przeciwko nieumarłym. Dodatkowo, jego nekrotyczna esencja z łatwością goi rany. ST płaskiego testu na usunięcie trwałych obrażeń od krwawienia u eidolona wynosi 10 (lub 5, jeżeli otrzyma wyjątkowo skuteczne wsparcie).</p>"
+        },
+        "Negative Healing": {
+            "name": "Leczenie Pustką"
+        },
+        "Primal Roar": {
+            "name": "Pierwotny Ryk",
+            "description": "<p>Twój eidolon wydaje z siebie pierwotny ryk lub inny przerażający dźwięk, który pasuje do jego postaci. Twój eidolon próbuje wykonać test Zastraszenia, aby @UUID[Compendium.pf2e.actionspf2e.Item.2u915NdUyQan6uKF]{Demoralizować} każdego wroga, który słyszy ryk; te próby Demoralizacji nie są karane za brak wspólnego języka.</p>"
+        },
+        "Primary (1d6, deadly d8, finesse)": {
+            "name": "Podstawowy (1k6, mordercze k8, finezyjny)",
+            "description": ""
+        },
+        "Primary (1d6, fatal d10)": {
+            "name": "Podstawowy (1k6, zabójcze k10)",
+            "description": ""
+        },
+        "Primary (1d6, forceful, sweep)": {
+            "name": "Podstawowy (1k6, mocarny, zamach)",
+            "description": ""
+        },
+        "Primary (1d8, disarm)": {
+            "name": "Podstawowy (1k8, rozbrojenie)",
+            "description": ""
+        },
+        "Primary (1d8, nonlethal)": {
+            "name": "Podstawowy (1k8, nieśmiercionośny)",
+            "description": ""
+        },
+        "Primary (1d8, shove)": {
+            "name": "Podstawowy (1k8, pchnięcie)",
+            "description": ""
+        },
+        "Primary (1d8, trip)": {
+            "name": "Podstawowy (1k8, przewracanie)",
+            "description": ""
+        },
+        "Primordial Elemental": {
+            "name": "Pierwotny Żywiołak",
+            "description": "<p>Sił +4, Zrc +2, Kon +3, Int -1, Mdr +1, Cha +0; +2 KP (+3 Maks. premia za Zr)</p>"
+        },
+        "Reconfigured Evolution": {
+            "name": "Przekonfigurowana Ewolucja",
+            "description": "<p>Twój eidolon konstrukt jest szczególnie łatwy do rekonfiguracji, zyskując dodatkową ewolucję, która pasuje do obu twoich zachcianek. Wybierz jeden dodatkowy atut ewolucji 6. poziomu lub niższego. Twój eidolon zyskuje ten atut. Możesz przekwalifikować ten atut na dowolny inny atut ewolucji 6. poziomu lub niższego z zaledwie jednym dniem przestoju, jeśli uda ci się wykonać test <span data-pf2-check=\"crafting\" data-pf2-label=\"Reconfigured Evolution DC\" data-pf2-dc=\"@self.level\" data-pf2-show-dc=\"gm\">Rzemiosła</span>, ze standardowym ST równym poziomowi eidolona. Jeśli ci się nie powiedzie, możesz spróbować ponownie późniejszego dnia. Wielu przywoływaczy wybiera Gniew Eidolona dla tej zdolności.</p>"
+        },
+        "Rejuvenation": {
+            "name": "Przywracanie",
+            "description": "<p>Niezwykła więź twojego eidolona z tobą pozwala wam obojgu odmłodzić się po pokonaniu. Za pierwszym razem, gdy każdego dnia twoja tura rozpoczyna się, gdy umierasz, natychmiast odzyskujesz liczbę Punktów Wytrzymałości równą trzykrotności twojego poziomu i wstajesz. (Zwiększ stan rannego jak zwykle). Możesz natychmiast zamanifestować swojego Eidolona jako darmową akcję. Następnie możesz normalnie wykonać swoją turę.</p>"
+        },
+        "Scout Construct": {
+            "name": "Konstrukt Zwiadowca",
+            "description": "<p>Sił +2, Zrc +4, Kon +3, Int +1, Mdr +0, Cha -1; +1 KP (+4 Maks. premia za Zr)</p>"
+        },
+        "Scribe of the Dead": {
+            "name": "Skryba Umarłych",
+            "description": "<p>Sił +1, Zrc +4, Kon +1, Int +2, Mdr +1, Cha +0; +1 KP (+4 Maks. premia za Zr)</p>"
+        },
+        "Secondary Attack": {
+            "name": "Dodatkowy atak",
+            "description": ""
+        },
+        "Seething Frenzy": {
+            "name": "Kipiący Szał",
+            "description": "<p>Twój eidolon może wpaść w szał. Zyskuje akcję @Compendium[pf2e-animal-companions.AC-Features.7K6UJ3D3owmOQS03]{Kipiący Szał}.</p>"
+        },
+        "Skirmisher Fey": {
+            "name": "Skrytobójca Fey",
+            "description": "<p>Sił +2, Zrc +4, Kon +2, Int +0, Mdr +0, Cha +1; +1 KP (+4 Maks. premia za Zr)</p>"
+        },
+        "Soul Guardian": {
+            "name": "Strażnik Dusz",
+            "description": "<p>Sił +4, Zrc +2, Kon +3, Int +0, Mdr +1, Cha -1; +2 KP (+3 Maks. premia za Zr)</p>"
+        },
+        "Spirit Taker": {
+            "name": "Duchowy Biorca",
+            "description": "<p>Twój eidolon jest szczególnie zdolny do radzenia sobie z bezcielesnymi duchami i usuwania nieumarłych. Twój eidolon widzi bezcielesne istoty wewnątrz stałych obiektów i może atakować je Atakami bez kar; bezcielesna istota w stałym obiekcie, która otrzyma obrażenia od Ataku twojego eidolona, zostaje wyrzucona z obiektu do najbliższej dostępnej przestrzeni, zbliżając się do twojego eidolona, jeśli to możliwe.</p>\n<p>Dodatkowo, twój eidolon może celować lub wpływać na istotę projektującą swoją świadomość (np. poprzez projekcję obrazu) lub opętującą inną istotę, nawet jeśli jej ciało znajduje się gdzie indziej, choć twój eidolon musi wiedzieć o opętaniu lub projekcji i zdecydować się to zrobić.</p>\n<p>Wreszcie, duch nieumarłego zniszczonego przez Atak twojego eidolona jest wysyłany bezpośrednio do Kostnicy w celu osądzenia; nieumarły posiadający zdolność automatycznego uniknięcia takiego losu, taką jak odmłodzenie ducha, może spróbować wykonać test kontrataku przeciwko ST twojego zaklęcia, aby powrócić za pomocą tej zdolności w normalny sposób. W takim przypadku używa modyfikatora rzutu obronnego Woli jako modyfikatora przeciwdziałania.</p>"
+        },
+        "Spirit Touch": {
+            "name": "Duchowy Dotyk",
+            "description": "<p>Ataki twojego eidolona posiadają zdolność psychopompy do zadawania obrażeń żywym i umarłym. Ataki bez broni twojego eidolona wpływają na bezcielesne istoty tak, jakby wyryto na nich runę właściwości niematerialnego dotyku i zadają dodatkowe [[/r 1[void]]{1 obrażenia} żywym istotom oraz dodatkowe [[/r 1[healing]] {1 obrażenia} nieumarłym.</p>"
+        },
+        "Stalwart Guardian": {
+            "name": "Niezłomny Strażnik",
+            "description": "<p>Sił +4, Zrc +2, Kon +3, Int +0, Mdr +0, Cha +0; +2 KP (+3 Maks. premia za Zr)</p>"
+        },
+        "Steadfast Devotion": {
+            "name": "Niezłomne Oddanie",
+            "description": "<p>Dedykacja twojego eidolona sprawia, że wrogom niezwykle trudno jest zagiąć jego umysł. Twój eidolon zyskuje premię +2 do rzutów obronnych przeciwko efektom mentalnym, a jeśli wyrzuci sukces przeciwko takiemu efektowi, otrzymuje zamiast tego sukces krytyczny. Jeśli posiadasz cechę klasową Współdzielenie Determinacji, a twój eidolon wyrzuci krytyczną porażkę przeciwko efektowi mentalnemu, zamiast tego otrzyma porażkę.</p>"
+        },
+        "Strength Boost": {
+            "name": "Zwiększenie Siły",
+            "description": ""
+        },
+        "Swift Protector": {
+            "name": "Błyskawiczny Obrońca",
+            "description": "<p>Sił +2, Zrc +4, Kon +3, Int +0, Mdr +0, Cha +0; +1 KP (+4 Maks. premia za Zr)</p>"
+        },
+        "Tempter Demon": {
+            "name": "Demon Kusiciel",
+            "description": "<p>Sił +1, Zrc +4, Kon +1, Int +0, Mdr +0, Cha +3; +1 KP (+4 Maks. premia za Zr)</p>"
+        },
+        "Tendril Strike": {
+            "name": "Atak Wicią",
+            "description": "<p>Twój eidolon może rozciągać pnącza i korzenie, atakując wrogów znajdujących się poza jego zasięgiem. Zyskuje akcję @Compendium[pf2e-animal-companions.AC-Features.fNTyFkFxNCi5O5SE]{Atak Wicią}.</p>"
+        },
+        "Traveler's Aura": {
+            "name": "Aura Podróżnika",
+            "description": "<p>Twój eidolon emanuje potężną aurą - przypominającą aurę astralnego diabła - która chroni istoty podczas podróży. Aura posiada cechy odpychania, aury i boskości. Twój eidolon i jego sojusznicy w promieniu @Template[distance:20] są chronieni przed silnym gorącem i zimnem, a twój eidolon nigdy nie jest @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Odsłonięty} wobec istot wewnątrz aury, które są niższego poziomu niż eidolon.</p>\n<p>Kiedy zyskujesz cechę klasową Transcendencja, ewoluuje ona do pełnych korzyści astralnego deva; twój eidolon i sojusznicy w aurze są chronieni przed obrażeniami środowiskowymi z dowolnego planu, w tym przed silnym i ekstremalnym gorącem i zimnem, a także bardziej nietypowymi niebezpieczeństwami.</p>"
+        },
+        "Trickster Fey": {
+            "name": "Podstępny Fey",
+            "description": "<p>Sił +1, Zrc +4, Kon +1, Int +1, Mdr -1, Cha +3; +1 KP (+4 Maks. premia za Zr)</p>"
+        },
+        "Ultimate Reconfiguration": {
+            "name": "Ostateczna Rekonfiguracja",
+            "description": "<p>Twój eidolon staje się jeszcze bardziej konfigurowalny. Wybierz atut ewolucji na 16. poziomie lub niższym. Twój eidolon zyskuje ten atut. Możesz poświęcić czas przestoju na dostosowanie go za pomocą Rzemiosła, podobnie jak w przypadku atutu rekonfiguracji ewolucji. Wielu przywoływaczy wybiera Zawsze Czujne Zmysły dla tej zdolności.</p>"
+        },
+        "Undead Brute": {
+            "name": "Nieumarły Brutal",
+            "description": "<p>Sił 18, Zrc 14, Kon 16, Int 8, Mdr 10, Cha 12</p>"
+        },
+        "Undead Stalker": {
+            "name": "Nieumarły Łowca",
+            "description": "<p>Sił 14, Zrc 18, Kon 16, Int 8, Mdr 12, Cha 10</p>"
+        },
+        "Visions of Sin": {
+            "name": "Wizje Grzechu",
+            "description": "<p><strong>Częstotliwość</strong> raz na 10 minut</p>\n<p> Twój eidolon przywołuje obrazy swojego grzechu do umysłu docelowej istoty znajdującej się w promieniu 30 stóp, dręcząc ją i dezorientując. Cel musi wykonać rzut obronny na Wolę przeciwko twojemu ST zaklęcia z następującymi efektami. Efekty trwają do końca twojej następnej tury, ale twój eidolon może użyć pojedynczej akcji, która ma cechę koncentracji, aby przedłużyć efekty do końca twojej następnej tury (tak jak Podtrzymanie Zaklęcia) do maksymalnego czasu trwania 1 minuty.</p>\n<p>Jeżeli cel jest zły, jego rzut obronny podlega karze z okoliczności -2. Niezależnie od tego, czy się powiedzie, cel staje się tymczasowo odporny na 1 dzień.</p>\n<hr />\n<p><strong>Krytyczny Sukces</strong> Nie ma to wpływu na cel.</p>\n<p><strong>Sukces</strong> Cel nie może używać reakcji.</p>\n<p><strong>Porażka</strong> Cel jest @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Spowolniony 1} i nie może używać reakcji.</p>\n<p><strong>Krytyczna Porażka</strong> jak Porażka, i cel jest też @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{Zdezorientowany} na 1 rundę. Zdezorientowanie nie może być wydłużone, ale pozostałe efekty już tak.</p>"
+        },
+        "Warrior Construct": {
+            "name": "Konstrukt Wojownika",
+            "description": "<p>Sił +4, Zrc +2, Kon +3, Int +1, Mdr +0, Cha -1; +2 KP (+3 Maks. premia za Zr)</p>"
+        },
+        "Whirlwind Maul": {
+            "name": "Wichrowe Poturbowanie",
+            "description": "<p>Twój eidolon rzuca się gwałtownie, zadając obrażenia wielu wrogom w jego zasięgu. Zyskuje aktywność @Compendium[pf2e-animal-companions.AC-Features.W4VCL85CO77MYkQH]{Wichrowe Poturbowanie}.</p>"
+        },
+        "Wisdom Boost": {
+            "name": "Zwiększenie Mądrości",
+            "description": ""
+        },
+        "Wrathful Berserker": {
+            "name": "Gniewny Berserker",
+            "description": "<p>Sił +4, Zrc +2, Kon +3, Int -1, Mdr +0, Cha +1; +2 KP (+3 Maks. premia za Zr)</p>"
+        },
+        "Wrecker Demon": {
+            "name": "Demon Niszczyciel",
+            "description": "<p>Sił +4, Zrc +2, Kon +3, Int +0, Mdr -1, Cha +1; +2 KP (+3 Maks. premia za Zr)</p>"
+        },
+        "Wyrm's Breath": {
+            "name": "Zionięcie Żmija",
+            "description": "<p><strong>Częstotliwość</strong> raz na minutę </p>\n<hr />\n<p>Twój eidolon gromadzi moc najpotężniejszych żmijów by magiczne zionięcie stało się jeszcze bardziej spektakularne. Jeżeli następna akcja twojego eidolona to Zionięcie, podwaja się zarówno liczba kości obrażeń jak i obszar.</p>"
+        }
+    },
+    "mapping": {
+        "rules": {
+            "converter": "translateRules",
+            "path": "system.rules"
+        }
+    }
+}

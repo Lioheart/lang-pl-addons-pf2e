@@ -1,0 +1,156 @@
+{
+    "label": "Relikty - Efekty",
+    "entries": {
+        "(BROKEN STILL) Spell Effect: Elemental Form (Forge)": {
+            "name": "(BROKEN STILL) Efekt zaklęcia: Postać Żywiołu (Kowalstwo)",
+            "description": ""
+        },
+        "Cooldown: Dragon Strike": {
+            "name": "Czas odnowienia: Atak Smoka",
+            "description": ""
+        },
+        "Cooldown: Healing Wave": {
+            "name": "Czas odnowienia: Fala Uzdrowienia",
+            "description": ""
+        },
+        "Cooldown: Word of Faith": {
+            "name": "Czas odnowienia: Słowo Wiary",
+            "description": ""
+        },
+        "Effect: Angelic Vessel": {
+            "name": "Efekt: Anielskie Naczynie",
+            "description": "<p>Zyskujesz 50 dodatkowych Punktów Wytrzymałości, zwiększając zarówno maksymalną, jak i aktualną liczbę Punktów Wytrzymałości, a także podatność na nieświęte na 10.</p>"
+        },
+        "Effect: Beginner's Luck": {
+            "name": "Efekt: Szczęście Początkującego",
+            "description": "<p>Traktujesz swoją premię za biegłość jako równą połowie twojego poziomu lub, jeśli relikt jest 7. lub wyższego poziomu, jako równą twojemu poziomowi. Następnie rzucasz dwukrotnie, wybierając lepszy wynik. Nie pozwala to na użycie akcji umiejętności wymagających wytrenowanej biegłości.</p>",
+            "rules": {
+                "0": {
+                    "label": "Szczęście Początkującego"
+                }
+            }
+        },
+        "Effect: Dragon Strike": {
+            "name": "Efekt: Atak Smoka",
+            "description": "<p>Przez 1 minutę, gdy wykonasz udany atak wręcz bez broni, zadajesz dodatkowe obrażenia cięte równe 1k6.</p>",
+            "rules": {
+                "0": {
+                    "label": "Atak Smoka"
+                }
+            }
+        },
+        "Effect: Feral Claws": {
+            "name": "Efekt: Zdziczały Pazury",
+            "description": "<p>Twoje dłonie zamieniają się w parę pazurów. Dzięki nim zyskujesz atak bez broni, który zadaje 1k6 obrażeń ciętych i ma cechy zwinny i finezja.</p>",
+            "rules": {
+                "0": {
+                    "label": "Zdziczałe Pazury"
+                }
+            }
+        },
+        "Effect: Fiendish Bargain (Attack Bonus)": {
+            "name": "Efekt: Diabelski Układ (premia do ataku)",
+            "description": "<p>Otrzymujesz premię statusową +2 do rzutów ataku przez 1 minutę.</p>"
+        },
+        "Effect: Fiendish Bargain (Damage Penalty)": {
+            "name": "Efekt: Diabelski Układ (kara do obrażeń)",
+            "description": "<p>Otrzymujesz -1 do rzutów na obrażenia przez 1 minutę.</p>"
+        },
+        "Effect: Grim Specter": {
+            "name": "Efekt: Ponure Widmo",
+            "description": "<p>Stajesz się niematerialny, nie masz fizycznego ciała. Jesteś odporny na efekty wymagające fizycznego ciała, w tym obrażenia precyzyjne, a także na większość chorób i trucizn. Masz również odporność na wszystkie obrażenia równe połowie poziomu relikwii; obrażenia od mocy, ataki @UUID[Compendium.pf2e.equipment-srd.Item.JQdwHECogcTzdd8R]{Niematerialnego Dotyku}, obrażenia duchowe, obrażenia od pustki i obrażenia witalności ignorują tę odporność, a odporność podwaja się w przypadku obrażeń niemagicznych.</p>\n<p>Możesz przenikać przez obiekty stałe. Znajdując się wewnątrz obiektu, nie możesz postrzegać, atakować ani wchodzić w interakcje z niczym na zewnątrz i zawsze masz stan @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Spowolniony 1} w turach, które rozpoczynasz w obiekcie. Istoty materialne mogą przechodzić przez ciebie, ale nie mogą zakończyć ruchu w twojej przestrzeni. Nie możesz wykonywać testów Siły przeciwko istotom materialnym lub obiektom, chyba że obiekty te mają runę właściwości niematerialnego dotyku. Podobnie, istoty materialne nie mogą wykonywać testów Siły przeciwko tobie.</p>\n<p>Aktywację można utrzymać do 1 minuty.</p>"
+        },
+        "Effect: Heat Haze": {
+            "name": "Efekt: Cieplne Opary",
+            "description": "<p>Twoja relikwia w nieregularny sposób podnosi temperaturę powietrza wokół ciebie, tworząc migotania, które zniekształcają twój wygląd i nadają ci stan @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Przysłonięty} na 1 minutę. Ponieważ natura tego efektu nadal sprawia, że twoja lokalizacja jest oczywista, nie możesz użyć tego przysłonięcia, aby @UUID[Compendium.pf2e.actionspf2e.Item.XMcnh4cSI32tljXa]{Ukryć się} lub @UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]{Skradać się}.</p>"
+        },
+        "Effect: Incandescent Sight": {
+            "name": "Efekt: Widzenie w stanie Rozżarzenia",
+            "description": "<p>Twoje oczy dostosowują się do sygnatur cieplnych, gdy twój wzrok rozszerza się na podczerwień, zapewniając ci precyzyjny zmysł cieplny przez 1 minutę. Twój zmysł cieplny pozwala dostrzegać gradienty temperatury w zasięgu do 30 stóp, umożliwiając wykrywanie żywych stworzeń i ciepłych obiektów nawet w ciemności. Ciepłe obiekty blokują twój zmysł cieplny, nawet jeśli są przezroczyste, np. gorąca woda.</p>"
+        },
+        "Effect: Jet Propulsion": {
+            "name": "Efekt: Napęd Odrzutowy",
+            "description": "<p>Płomienie z twojej relikwii przepływają przez twoje ciało, wybuchając z twoich stóp, dłoni lub innych kończyn z wystarczającą mocą, aby wyrzucić cię w powietrze i wyrzucić w powietrze. Przez 1 minutę zyskujesz premię statusu do szybkości wynoszącą +10 stóp oraz szybkość lotu równą twojej nowej szybkości lub 20 stóp, w zależności od tego, która z tych wartości jest większa. Musisz zakończyć swoją turę na twardym podłożu, w przeciwnym razie upadniesz.</p>",
+            "rules": {
+                "1": {
+                    "label": "Napęd Odrzutowy"
+                }
+            }
+        },
+        "Effect: Life Everlasting": {
+            "name": "Efekt: Życie Wieczne",
+            "description": "<p>Ogromne ilości energii witalnej wybuchają. Przez 1 minutę emitujesz energię witalną w promieniu 10 stóp wokół siebie. Na koniec swojej tury ty (jeśli żyjesz) i sprzymierzone żywe stworzenia w promieniu emanacji odzyskujecie [[/r 10[healing]]] punktów wytrzymałości. Jeśli ty lub sprzymierzone stworzenie umrze z powodu zwiększonej wartości śmierci, możesz odwołać aktywację jako akcję darmową, aby zapobiec śmierci; jeśli to zrobisz, wartość śmierci nie wzrośnie.</p>"
+        },
+        "Effect: Lightning Storm": {
+            "name": "Efekt: Burza z Piorunami",
+            "description": "<p>Relikt otacza cię burzą wiatru, deszczu i błyskawic w promieniu 30 stóp. Burza ta stanowi trudny teren dla wszystkich stworzeń poza tobą. Każda istota inna niż ty, która wejdzie lub rozpocznie swoją turę w burzy, otrzymuje obrażenia [[/r 1d12[electricity]]], z rzutem obronnym @Check[type:reflex|dc:resolve(@actor.system.attributes.classOrSpellDC.value)|basic:true] (obrażenia [[/r 2d12[electricity]]] na 15. poziomie). Możesz podtrzymywać tę aktywację przez maksymalnie 1 minutę.</p>"
+        },
+        "Effect: Perception Filter (Success)": {
+            "name": "Efekt: Filtr Percepcji (Sukces)",
+            "description": "<p>Stworzenie otrzymuje karę statusu -2 do testów Percepcji, aby cię Znaleźć lub wykryć w inny sposób.</p>"
+        },
+        "Effect: Petal Dance": {
+            "name": "Efekt: Taniec Płatków",
+            "description": "<p>Rozpadasz się w chmurę płatków i liści. Otrzymujesz cechę roju, niewrażliwość na obrażenia od upadku, odporność 5 na obrażenia obuchowe i kłute oraz podatność 5 na obrażenia obszarowe i rozpryskowe. Możesz zmieścić się w przestrzeniach o szerokości zaledwie kilku cali, przesuwając swoje płatki przez szczelinę. Nie zyskujesz zdolności umysłu roju, więc nadal działają na ciebie efekty umysłowe. Jako rój nie możesz mówić, rzucać zaklęć, wykonywać akcji wymagających użycia rąk, aktywować magicznych przedmiotów ani wykonywać ataków swoim normalnym ciałem. Pozostajesz w tej postaci przez 1 minutę lub do momentu, aż anulujesz aktywację. Na 13. poziomie relikt zyskuje reakcję, która uruchamia się, gdy upadniesz lub otrzymasz obrażenia, nakładając odporności, podatności i niewrażliwość na obrażenia od upadku na efekt, który ją wywołał.</p>"
+        },
+        "Effect: Profane Fervor": {
+            "name": "Efekt: Obłędna Żądza",
+            "description": "<p>Ataki sojuszników znajdujących się w promieniu 30 stóp od ciebie zyskują cechę nieświętość.</p>"
+        },
+        "Effect: Righteous Call": {
+            "name": "Efekt: Wezwanie Prawych",
+            "description": "<p>Ataki sojuszników znajdujących się w promieniu 30 stóp od ciebie zyskują cechę świętość.</p>"
+        },
+        "Effect: Ripples and Waves": {
+            "name": "Efekt: Kręgi i Fale",
+            "description": "<p>Woda sięgająca kostek zalewa obszar wokół ciebie, wypełniając obszar @Template[type:emanation|distance:60] skupiony wokół ciebie przez 1 minutę. Wrogowie w tym obszarze, którzy nie mają szybkości pływania, traktują ten obszar jako trudny teren do poruszania się na lądzie. Podczas trwania efektu możesz generować efekty związane z wodą z dowolnego punktu w obszarze emanacji, niezależnie od ich normalnego zasięgu i obszaru działania.</p>"
+        },
+        "Effect: Sacred Glow": {
+            "name": "Efekt: Święta Poświata",
+            "description": "<p>Niegodziwe stworzenia w okolicy mają stan @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Przestraszony 1} i nie mogą obniżyć swojej wartości przestraszenia poniżej 1, dopóki pozostają w świetle. Potwory w okolicy zwiększają swoją podatność na obrażenia od świętości o 5.</p>"
+        },
+        "Effect: Shroud of the Afterlife": {
+            "name": "Efekt: Całun z Zaświatów",
+            "description": "<p>Na 1 minutę otulasz się mocą pochodzącą z zaświatów. Podczas działania tej zasłony przybierasz bladą postać i zyskujesz odporność na truciznę równą połowie poziomu relikwii oraz premię statusową +1 do rzutów obronnych przeciwko efektom śmierci, chorobom, efektom powodującym paraliż, zatrucie i efektom usypiającym. Ponadto ST twoich testów na umieranie wynosi 9 + twoja wartość umierająca zamiast 10 + twoja wartość umierająca.</p>",
+            "rules": {
+                "1": {
+                    "label": "Całun z Zaświatów"
+                }
+            }
+        },
+        "Effect: Wind Barrier": {
+            "name": "Efekt: Bariera Wiatru",
+            "description": "<p>Niewidzialna bariera powietrzna odbija ataki z dystansu, zapewniając ci premię okoliczności +2 do KP przeciwko atakom z dystansu do początku twojej następnej tury. Na 13. poziomie wzrasta ona do premii +3 do KP przeciwko atakom z dystansu.</p>",
+            "rules": {
+                "0": {
+                    "label": "Bariera Wiatru (przeciw atakom Dystansowym)"
+                },
+                "1": {
+                    "label": "Bariera Wiatru (przeciw atakom Dystansowym)"
+                }
+            }
+        },
+        "Effect: Work Harden (Armor)": {
+            "name": "Efekt: Utwardzanie (Zbroja)",
+            "description": "<p>Atakujesz reliktem metalową zbroję, a z niej wydobywa się para, jakby została schłodzona. Cel ataku twardnieje na 10 minut, zwiększając swoją premię przedmiotu do KP o 1.</p>"
+        },
+        "Effect: Work Harden (Shield)": {
+            "name": "Efekt: Utwardzanie (Tarcza)",
+            "description": "<p>Atakujesz reliktem metalową tarczą, z której wydobywa się para, jakby została schłodzona. Cel staje się twardszy na 10 minut, a jego twardość wzrasta o 5.</p>"
+        },
+        "Effect: Wyrm's Flight": {
+            "name": "Efekt: Pęd Żmija",
+            "description": "<p>Widmowe skrzydła smoka zapewniają ci szybkość lotu równą twojej szybkości lub 20 stóp, w zależności od tego, która z tych wartości jest większa. Trwa to przez 10 minut lub do momentu, aż odrzucisz ten efekt. Na 17. poziomie możesz aktywować i odrzucać tę zdolność tak często, jak chcesz, a jej czas trwania jest nieograniczony.</p>"
+        },
+        "Spell Effect: Spirit Blink": {
+            "name": "Efekt Zaklęcia: Błysk Ducha",
+            "description": "<p>Mrugasz między światem śmiertelników a płaszczyzną eteryczną. Daje ci to efekty @UUID[Compendium.pf2e.spells-srd.Item.zR67Rt3UMHKC5evy]{Migotania}, z wyjątkiem tego, że odporność jest równa poziomowi nasionka duszy zamiast 5.</p>"
+        }
+    },
+    "mapping": {
+        "rules": {
+            "converter": "translateRules",
+            "path": "system.rules"
+        }
+    }
+}

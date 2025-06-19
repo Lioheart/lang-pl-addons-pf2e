@@ -1,0 +1,50 @@
+{
+    "label": "AC-Towarzysz-Konstrukt",
+    "entries": {
+        "Advanced Construct (CC)": {
+            "name": "Zaawansowany Konstrukt (CC)",
+            "description": "<p>Aby awansować prototypowego towarzysza konstrukta na zaawansowanego towarzysza konstrukta (zazwyczaj w wyniku wyboru jednego z atutów klasowych), należy dokonać następujących zmian.</p>\n<ul>\n<li>Zwiększa modyfikatory Siły, Zręczności, Kondycji i Mądrości o 1.</li>\n<li>Zwiększa obrażenia ataku bez broni z jednej kości do dwóch kości (np. 1k8 do 2k8).</li>\n<li>Zwiększa stopień biegłości Percepcji i wszystkich rzutów obronnych do eksperckiego.</li>\n<li>Zwiększ jego biegłość w Zastraszaniu, Ukryciu i Przetrwaniu do poziomu wytrenowanego. Jeśli konstrukt jest twoją innowacją i był już wytrenowany w tych umiejętnościach dzięki modyfikacji, zwiększ jego poziom biegłości w tych umiejętnościach do eksperta.</li>\n<li>Jeśli chcesz, możesz zmienić rozmiar towarzysza na Mały, Średni lub Duży.\n<p> </p>\n</li>\n</ul>"
+        },
+        "Incredible Construct (CC)": {
+            "name": "Niesamowity Konstrukt (CC)",
+            "description": "<p>Aby ulepszyć zaawansowanego towarzysza konstrukcji do niesamowitego towarzysza konstrukcji, dokonaj następujących zmian.</p>\n<ul>\n<li>Zwiększa modyfikatory Siły, Zręczności, Kondycji i Mądrości o 2.</li>\n<li>Zadaje dodatkowe 2 obrażenia atakami bez broni. Jego ataki stają się magiczne, co pozwala mu ominąć odporności na ataki niemagiczne.</li>\n<li>Zwiększ jego biegłość w Atletyce i Akrobatyce do poziomu eksperta.\n<p> </p>\n</li>\n</ul>",
+            "rules": {
+                "4": {
+                    "label": "Niesamowity Konstrukt"
+                }
+            }
+        },
+        "Megaton Strike (CC)": {
+            "name": "Uderzenie Megatony (CC)",
+            "description": "<p>Aktywujesz koła zębate, materiały wybuchowe i inne ukryte mechanizmy w swojej innowacji, aby wykonać potężny atak. Wykonujesz Atak, zadając dodatkową kość obrażeń od broni. Jeśli masz co najmniej 10. poziom, możesz zwiększyć tę liczbę do dwóch dodatkowych kości, a jeśli masz co najmniej 18. poziom, możesz zwiększyć ją do trzech dodatkowych kości. Rodzaj Ataku, jaki możesz wykonać, zależy od twojej innowacji.</p>\n<ul>\n<li><strong>Pancerz</strong> Atakujesz za pomocą ataku wręcz bez broni lub bronią do walki wręcz. Aby użyć broni do walki wręcz, musisz ją wcześniej przygotować za pomocą specjalnych urządzeń podczas codziennych przygotowań.</li>\n<li><strong>Konstrukt</strong> Twoja innowacja sługus Atakuje.</li>\n<li><strong>Broń</strong> Atak innowacyjną bronią.</li>\n</ul>\n<p><strong>Niestabilna funkcja</strong> Wkładasz jeszcze więcej siły w Atak, choć ryzykujesz złamania naprężeniowe swojej innowacji. Dodaj cechę niestabilności do Uderzenia Megatony. Atak zadaje kolejną dodatkową kość obrażeń, w sumie dwie dodatkowe kości na 4. poziomie, trzy na 10. poziomie i cztery na 18. poziomie.</p>\n<p><strong>Specjalne</strong> Jeśli twoja innowacja jest sługus, może wykonać tę akcję zamiast ciebie.</p>",
+            "prerequisites": [
+                {
+                    "value": "innowacje w zakresie zbroi, konstruktów lub broni"
+                }
+            ]
+        },
+        "Paragon Construct (CC)": {
+            "name": "Wzorzec Konstrukta (CC)",
+            "description": "<p>Aby ulepszyć niesamowitego towarzysza konstruktu do wzorca towarzysza konstruktu, dokonaj następujących zmian.</p>\n<ul>\n<li>Zwiększa modyfikatory Siły, Zręczności, Kondycji i Mądrości o 1.</li>\n<li>Zwiększa stopień biegłości w atakach bez broni i obronie bez pancerza do eksperta.</li>\n<li>Zwiększa stopnie biegłości w Atletyce, Akrobatyce, rzutach obronnych i Percepcji do poziomu mistrzowskiego.</li>\n<li>Zwiększa obrażenia od ataków bez broni z dwóch do trzech kości oraz dodatkowe obrażenia od ataków bez broni z 2 do 4.\n<p> </p>\n</li>\n</ul>"
+        },
+        "Prototype Construct": {
+            "name": "Prototyp Konstrukta",
+            "description": ""
+        },
+        "Unarmed Strike 1": {
+            "name": "Atak bez Broni 1",
+            "description": "<p>Zmień nazwę tego atutu, aby zmienić nazwę stworzonego przez niego Ataku, obraz tego atutu można również dostosować do wybranego obrazu Ataku.</p>"
+        },
+        "Unarmed Strike 2": {
+            "name": "Atak bez Broni 2",
+            "description": "<p>Zmień nazwę tego atutu, aby zmienić nazwę stworzonego przez niego Ataku, obraz tego atutu można również dostosować do wybranego obrazu Ataku.</p>"
+        }
+    },
+    "mapping": {
+        "prerequisites": "system.prerequisites.value",
+        "rules": {
+            "converter": "translateRules",
+            "path": "system.rules"
+        }
+    }
+}

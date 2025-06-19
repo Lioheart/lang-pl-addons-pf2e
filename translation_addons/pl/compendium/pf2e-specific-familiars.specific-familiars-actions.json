@@ -1,0 +1,97 @@
+{
+    "label": "Specyficzne Chowańce - Akcje",
+    "entries": {
+        "Alter Dweomer": {
+            "name": "Przemień Kugle",
+            "description": "<p><strong>Częstotliwość</strong> raz na 10 minut;</p> <p><strong>Wymagania</strong> Młody Kuglokot był celem zaklęcia lub znajdował się w obszarze działania zaklęcia rzuconego od czasu jego ostatniej tury.;</p><hr /><strong>Efekt</strong> Młode Kuglokot zyskuje efekt związany ze szkołą zaklęcia wyzwalającego. Poza obrażeniami, efekt utrzymuje się przez 1k4 rundy lub do momentu, gdy dweomercat go anuluje, w zależności od tego, co nastąpi wcześniej.<ul><li><strong>Odpychanie</strong> Młode zyskuje premię +1 do KP do statusu.</li><li><strong>Przywoływanie</strong> Chmura mgły pojawia się w promieniu 5 stóp i skupia się na rogu przestrzeni, w której znajduje się młode. Wszystko w chmurze jest przysłonięte.</li><li><strong>Wieszczenie</strong> Młode zyskuje premię +1 do testów umiejętności.</li><li><strong>Uroki</strong> Młode zyskuje premię +1 do rzutu obronnego.</li><li><strong>Wywoływanie</strong> Magiczne sprzężenie zwrotne zadaje 1k6 obrażeń od mocy za każde 2 poziomy posiadane przez wyzwalającego zaklęcie (podstawowy rzut obronny na Refleks przy użyciu twojego klasowego ST lub ST zaklęcia, w zależności od tego, która wartość jest wyższa).</li><li><strong>Iluzje</strong> Młode staje się niewidzialne. Efekt ten kończy się, jeśli młode wykona wrogą akcję, oprócz normalnych stanów końcowych.</li><li><strong>Nekromacja</strong> Młode zyskuje tymczasowo PW równe twojemu poziomowi.</li><li><strong>Transmutacja</strong> Młode zyskuje premię +1 do rzutów ataku.</li></ul>"
+        },
+        "Become Shadow": {
+            "name": "Stań się Cieniem",
+            "description": "<p>Chowaniec cienia przekształca swoje ciało w ledwie namacalny cień. Zyskuje odporność na wszystkie obrażenia (z wyjątkiem mocy) równą połowie twojego poziomu, ale nie może używać żadnych akcji wymagających fizycznej postaci. Chowaniec może również prześlizgnąć się przez szczeliny o szerokości co najmniej 2 cali lub 1 cala, jeśli @UUID[Compendium.pf2e.actionspf2e.kMcV8e5EZUxa6evt]{Przeciska się}. Może użyć tej akcji ponownie, aby powrócić do swojej normalnej postaci.</p>\n<p>Ta akcja ma cechę odpowiadającą twojej tradycji magii lub okultyzmu, jeśli nie jesteś czarodziejem.</p>"
+        },
+        "Breath Weapon (House Drake)": {
+            "name": "Breath Weapon (Udomowione Smoczydło)",
+            "description": "<p>Udomowione Smoczydło zieje @Template[type:cone|distance:10] srebrną mgłą. Każda istota w tym obszarze musi wykonać rzut obronny @Check[type:will|dc:resolve(@actor.master.attributes.classOrSpellDC.value)] przeciwko twojemu klasowemu ST lub zaklęciowemu ST, w zależności od tego, który jest wyższy. Stworzenie, które nie wykona rzutu obronnego, zostaje @UUID[Compendium.pf2e.conditionitems.e1XGnhKNSQIm5IXg]{Ogłupione 2} na 1 rundę. Udomowione smoczydło nie może używać Broni Oddechowej ani Srebrnej Infuzji przez [[/r 1d4]] rund.</p>"
+        },
+        "Elemental Breath": {
+            "name": "Żywiołowe Zionięcie",
+            "description": "<p><strong>Częstotliwość</strong> raz na godzinę</p><hr /><p>Mefit oddycha materią żywiołów w @Template[type:cone|distance:10]. Każda istota w obszarze otrzymuje @Damage[(floor((@actor.level+1)/2))d6|traits:area-damage] obrażeń za każde 2 poziomy, które posiadasz, z podstawowym @Check[type:reflex|dc:resolve(@actor.master.attributes.classOrSpellDC.value)] rzutem obronnym przeciwko twojemu ST klasy lub ST zaklęcia, w zależności od tego, który jest wyższy. Rodzaj obrażeń zależy od typu mefita.</p>"
+        },
+        "Emote": {
+            "name": "Emocja",
+            "description": "<p><strong>Częstotliwość</strong> raz na rundę</p><hr /><p><strong>Efekt</strong> Chmura uczuć zmienia wyraz swojej miniaturowej twarzy.<br />Przygotowuje się do @UUID[Compendium.pf2e.actionspf2e.HCl3pzVefiv9ZKQW]{Wsparcia} podczas testu umiejętności odpowiadającej jego wyrazowi: Oszustwo dla wyrazu tajemniczego, Dyplomacja dla wyrazu przyjaznego lub Zastraszanie dla wyrazu gniewnego. W tej rundzie zyskuje reakcję, której może użyć tylko do Wsparcia w ten sposób. Automatycznie udaje jej się test na Wsparcie umiejętnością lub automatycznie udaje jej się krytycznie, jeśli jesteś mistrzem danej umiejętności.</p>"
+        },
+        "Euphoric Breath": {
+            "name": "Euforyczne Zionięcie",
+            "description": "<p><strong>Częstotliwość</strong> Raz na godzinę</p><hr /><p><strong>Efekt</strong> Wróżkowe Smoczątko zionie euforyczny gaz w @Template[type:cone|distance:10]. Każda istota na tym obszarze musi wykonać rzut obronny @Check[type:fortitude|dc:resolve(@actor.master.attributes.classOrSpellDC.value)] przeciwko twojemu klasowemu ST lub zaklęciowemu ST, w zależności od tego, który jest wyższy. Istota, która nie wykona rzutu obronnego, zostaje @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Ogłupiona 2} i @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Spowolniona 1} na [[/r 1d4]] rund; w przypadku krytycznej porażki czas trwania wynosi 1 minutę.</p>"
+        },
+        "Ferocious Will": {
+            "name": "Dzika Wola",
+            "description": "<p><strong>Częstotliwość</strong> raz dziennie</p><p><strong>Wyzwalacz</strong> Udaje ci się rzut obronny przeciwko magicznemu efektowi mentalnemu;</p><hr /><p><strong>Efekt</strong> Wysyłasz podmuch magicznego sprzężenia zwrotnego do źródła efektu, zadając @Damage[2d6[mental]] obrażenia (@Check[type:will|dc:resolve(@actor.master.attributes.classOrSpellDC.value)|basic] rzut obronny przeciwko twojemu ST klasy lub ST zaklęcia, w zależności od tego, który jest wyższy) tej istocie.</p><p>W przypadku nieudanego rzutu obronnego istota zostaje również @UUID[Compendium.pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Spowolniona 1} na 1 rundę.</p>"
+        },
+        "Fiendish Temptation": {
+            "name": "Piekielna Pokusa",
+            "description": "<p><strong>Częstotliwość</strong> raz dziennie.</p><hr /><p><strong>Efekt</strong> Imp oferuje nie-przyjacielowi znajdującemu się w promieniu 15 stóp okazję, dając dobrodziejstwo szczęścia @UUID[Compendium.pf2e-specific-familiars.specific-familiars-effects.Item.0zZUwMQW9bgJ2sZd]{Piekielnej Pokusy}, jeśli istota się zgodzi. Po zaakceptowaniu dobrodziejstwo trwa przez 1 godzinę.</p><p>Raz w ciągu godziny istota może wykonać rzut ataku lub rzut obronny dwa razy i użyć wyższego wyniku.</p><p>Jeśli stworzenie umrze, gdy dobrodziejstwo jest w użyciu, imp decyduje, dokąd powędruje jego dusza. Zazwyczaj sprawia to, że dusza zostaje uwięziona na wieczność w macierzystym planie impa, a istota nie może zostać wskrzeszona, chyba że za pomocą rytuału @UUID[Compendium.pf2e.spells-srd.Item.6dDtGIUerazSHIOu]{Życzenie} lub podobnej magii.</p>"
+        },
+        "Forage": {
+            "name": "Szperanie",
+            "description": "<p><strong>Częstotliwość</strong> raz na 10 minut</p><hr /><p><strong>Efekt</strong> Grindle-smoczydło jest mistrzem w zdobywaniu pożywienia w niemal każdym środowisku. Grindle-smoczydło odzyskuje liczbę Punktów Wytrzymałości równą połowie twojego poziomu.</p><p>@Damage[(floor(@actor.master.level/2))[healing]]</p>"
+        },
+        "Gibe": {
+            "name": "Bełkot",
+            "description": "<p><strong>Częstotliwość</strong> raz na rundę</p><hr /><p><strong>Efekt</strong> Drwina przybiera niedoskonały, iluzoryczny wygląd istoty, którą widzi w promieniu 60 stóp, w drwiący sposób naśladując jej maniery. Iluzja ta nie sprawia, że drwina wygląda na większą i trwa do końca następnej tury gracza.<br />Istota musi wykonać rzut obronny @Check[type:will|dc:resolve(@actor.master.attributes.classOrSpellDC.value)] przeciwko ST klasy lub ST zaklęcia, w zależności od tego, która wartość jest wyższa. Niezależnie od wyniku, istota uzyskuje niewrażliwość na 1 minutę.</p><p><strong>Sukces</strong> Nie ma to wpływu na stworzenie.</p><p><strong>Porażka</strong> Stworzenie jest @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Odsłonięte} do początku twojej następnej tury, ponieważ jest rozpraszane przez drwiny twojego chowańca.</p><p><strong>Krytyczna Porażka</strong> Stworzenie jest Odsłonięte do końca twojej następnej tury.</p><p></p>"
+        },
+        "Haunting Melody": {
+            "name": "Upiorna Melodia",
+            "description": "<p><strong>Częstotliwość</strong> raz na godzinę</p><hr /><p><strong>Efekt</strong> Nosoi śpiewa porywającą pieśń. <br />Każda żywa lub nieumarła istota w promieniu 60 stóp musi wykonać rzut obronny @Check[type:will|dc:resolve(@actor.master.attributes.classOrSpellDC.value)] przeciwko twojemu klasowemu ST lub ST zaklęcia, w zależności od tego, która wartość jest wyższa, albo zostanie @UUID[Compendium.pf2e.conditionitems.AdPVz7rbaVSRxHFg]{Zafascynowana} na 1 rundę.<br />Nosoi może użyć aktywności 2-akcyjnej, która ma cechy słuchu, koncentracji, boskości, uroku i umysłu, aby zmusić dotknięte istoty do podjęcia kolejnej próby @Check[type:will|dc:resolve(@actor.master.attributes.classOrSpellDC.value)] rzutu obronnego; w przypadku porażki są one @UUID[Compendium.pf2e.conditionitems.AdPVz7rbaVSRxHFg]{Zafascynowane} przez dodatkową rundę.<br />Istota, której uda się rzut obronny lub której zauroczenie zostanie przełamane, zyskuje tymczasową niewrażliwość na 24 godziny.<br />Mimo że jest to efekt mentalny, zdolność ta wpływa na bezmyślnych nieumarłych.<br />Psychopompy są niewrażliwe na tę umiejętność.</p>"
+        },
+        "Ink Spray": {
+            "name": "Rozprysk Tuszu",
+            "description": "<p><strong>Częstotliwość</strong> raz na 10 minut;</p><hr /><p><strong>Efekt</strong> Żmij rozpryskuje atrament w @Template[type:cone|distance:10]. Każda istota na tym obszarze musi wykonać rzut obronny @Check[type:reflex|dc:resolve(@actor.master.attributes.classOrSpellST.value)] o ST równym ST zaklęcia jej mistrza lub ST klasy, w zależności od tego, która wartość jest wyższa.</p><p><strong>Krytyczny Sukces</strong> Nie ma to wpływu na stworzenie.</p><p><strong>Sukces</strong> Jeśli istota była niewidzialna, zamiast tego jest @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Przysłonięta} przez 2 rundy.</p><p><strong>Porażka</strong> Jak sukces, ale przez 1 minutę.</p><p><strong>Krytyczna Porażka</strong> Jak sukces, ale na 10 minut. Stworzenie zostaje również @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Oślepione} na 1 rundę lub do czasu, aż zetrze atrament z oczu za pomocą akcji Interakcji.</p>"
+        },
+        "Kick Up Dust": {
+            "name": "Wzniecanie Kurzu",
+            "description": "<p><strong>Częstotliwość</strong> raz na godzinę</p><hr /><p><strong>Efekt</strong> <span style=\"font-family:'Open Sans', Helvetica, Arial, sans-serif\">Twój kurzowy króliczek trzęsie się i kopie, wzniecając kurz w @Template[type:emanation|distance:5]. Każda istota na tym obszarze musi wykonać test</span>@Check[type:fortitude|dc:resolve(@actor.master.attributes.classOrSpellDC.value)]<span style=\"font-family:'Open Sans', Helvetica, Arial, sans-serif\"> przeciwko wyższemu z twoich ST klasy lub ST zaklęcia. Istota, której nie powiedzie się rzut obronny, zaczyna niekontrolowanie kichać i zostaje @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Spowolniona 1} i nie może podejmować reakcji przez 1 rundę; w przypadku porażki krytycznej zostaje @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Spowolniona 2}.</span></p>"
+        },
+        "Little Wish": {
+            "name": "Małe Życzenie",
+            "description": "<p><strong>Częstotliwość</strong> raz na dzień;</p>\n<p><strong>Wyzwalacz</strong> Widziana przez Dżinnika istota znajdująca się w promieniu 60 stóp wykonuje rzut obronny lub test umiejętności</p>\n<hr />\n<p><strong>Efekt</strong> Dżinnik zmienia rzeczywistość w niewielki sposób, aby odwrócić los, pozwalając istocie na ponowne wykonanie rzutu obronnego lub testu umiejętności.</p>"
+        },
+        "Orc Ferocity (Ferocious Beasts)": {
+            "name": "Orkowa Zaciekłość (Zaciekłe Bestie)",
+            "description": "<p><strong>Częstotliwość</strong> raz na dzień</p>\n<p><strong>Wyzwalacz</strong> Zostaniesz zredukowany do 0 Punktów Wytrzymałości, ale nie zostaniesz natychmiast zabity.</p>\n<hr />\n<p>Zaciekłość w walce płynie w twojej krwi i nie poddajesz się po odniesionych obrażeniach, bez względu na to, jak straszne by one nie były. Unikasz powalenia i pozostajesz z 1 Punktem Wytrzymałości, a twój stan @UUID[Compendium.pf2e.conditionitems.Item.Yl48xTdMh3aeQYL2]{Ranny} wzrasta o 1.</p>\n<p>Jeśli posiadasz atut Niezmordowana Zaciekłość, twój chowaniec opiera się szponom śmierci z nadnaturalnym wigorem, ośmielając się, by śmierć cię zabrała, jednocześnie obiecując, że każda taka próba na pewno się nie powiedzie. Kiedy użyje @UUID[Compendium.pf2e.feats-srd.Item.PlhPpdwIV0rIAJ8K]{Orkowej Zaciekłości}, zyskuje tymczasowe Punkty Wytrzymałości równe jego poziomowi.</p>\n<p>@UUID[Compendium.pf2e.feat-effects.Item.Px4E3Hyx2pmvSWAA]{Efekt: Niezmordowana Zaciekłość}</p>"
+        },
+        "Polong Possession": {
+            "name": "Opętanie Polonga",
+            "description": "<p>Polong próbuje opętać sąsiednią istotę cielesną. <br />Istota musi wykonać rzut obronny @Check[type:will|dc:resolve(@actor.master.attributes.classOrSpellDC.value)] przeciwko ST klasy lub ST zaklęcia, w zależności od tego, która wartość jest wyższa. <br />W przypadku porażki, polong łączy się z ciałem stworzenia na 1 minutę (24 godziny w przypadku porażki krytycznej). Polong może obserwować zmysły stworzenia, ale nie jest w stanie go kontrolować. Opętana istota jest @UUID[Compendium.pf2e.conditionitems.4D2KBtexWXa6oUMR]{Wysączona 1} przez cały czas trwania opętania. <br />Podczas opętania istoty, polong może zignorować ograniczenia odległości i linii efektu wynikające z jego zakotwiczonej zdolności bezcielesności; po zakończeniu opętania natychmiast wraca do butelki, jeśli znajduje się poza zasięgiem.</p>"
+        },
+        "Silver Infusion": {
+            "name": "Srebrna Infuzja",
+            "description": "<p>Twój udomowione smoczydło zieje na jedną z twoich broni. Do początku twojej następnej tury ta broń liczy się jako srebrna zamiast jako normalny materiał dla wszystkich zadawanych przez nią obrażeń fizycznych. Udomowione smoczydło nie może używać Broni Oddechu ani Naparu Srebra przez [[/r 1d4]] rund.</p>\n<p>@UUID[Compendium.pf2e-specific-familiars.specific-familiars-effects.Item.xDi0KLSjVdiGEkiH]{Efekt: Srebrna Infuzja}</p>"
+        },
+        "Spiritual Recall": {
+            "name": "Duchowe Przywołanie",
+            "description": "<p><strong>Częstotliwość</strong> raz dziennie</p><p><strong>Wyzwalacz</strong> Atak zmniejszyłby liczbę Punktów Wytrzymałości twojego chowańca do 0</p><hr /><p><strong>Efekt</strong> Używasz więzi, aby uratować swojego chowańca. Chowaniec przeżywa atak z 1 Punktem Wytrzymałości i staje się bezcielesny do końca twojej następnej tury.</p>"
+        },
+        "Steal Shadow": {
+            "name": "Kradzież Cienia",
+            "description": "<p><strong>Częstotliwość</strong> raz na 10 minut</p><hr /><p><strong>Efekt</strong> Cienisty chowaniec wykonuje atak wręcz z modyfikatorem rzutu ataku równym modyfikatorowi rzutu ataku na zaklęcie. Jeśli Atak się powiedzie, cel zostaje @UUID[Compendium.pf2e.conditionitems.MIRkyAjyBeXivMa7]{Osłabiony 1}, a jego cień znika. Po 24 godzinach stan osłabienia kończy się, a postać ponownie odzyskuje swój cień. Każdy efekt, który zmniejsza lub usuwa stan osłabienia, przywraca również jego cień.</p><p>Ta akcja ma cechę odpowiadającą twojej tradycji magii lub okultyzmu, jeśli nie jesteś czarodziejem.</p>"
+        },
+        "Steam Screen": {
+            "name": "Parowy Pokaz",
+            "description": "<p><strong>Częstotliwość</strong> raz na minutę;</p><hr /><p><strong>Efekt</strong> Twój mechaniczny chowaniec wydmuchuje kłębiący się pióropusz pary do otaczającego go kwadratu. Zyskuje premię +1 do okoliczności do swoich testów Zastraszania, a każda istota w kwadracie chowańca jest przysłonięta, choć istoty w kwadracie nie mogą użyć tego przysłonięcia do Ukrycia lub Skradania się.</p><p>Para i jej efekty utrzymują się przez 1 rundę.</p><p>Aby użyć tej zdolności, twój chowaniec musi poświęcić 1 godzinę czasu operacyjnego.</p>"
+        },
+        "Sure and Steady": {
+            "name": "Pewnie i Stabilnie",
+            "description": "<p>Kiedy wszystkie sześć nóg smoczydła stoi na dowolnym podłożu lub kamiennej podłodze, może ono wydobyć wiedzę o powierzchni pod swoimi stopami w obszarze <span style=\"font-family:ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace\">@Template[type:emanation|distance:10]</span> we wszystkich kierunkach. Wiedza ta może obejmować informacje o tym, czy ziemia jest zaczarowana, pusta, zdradliwa lub w inny sposób różni się od tego, jak wygląda. Smoczydło może następnie przekazać tę informację poprzez telepatię dotykową.</p>"
+        },
+        "Toggle Standby Mode": {
+            "name": "Przełączanie Trybu Czuwania",
+            "description": "<p>Twój mechaniczny chowaniec przechodzi w tryb czuwania. Jego czas działania nie skraca się w trybie czuwania, ale może wyczuwać otoczenie (z karą -2 do Percepcji). Nie może działać, z jednym wyjątkiem: kiedy rozkażesz mu wyjść z trybu czuwania, zrobi to, ponownie używając tej akcji.</p>"
+        },
+        "Turn of Fate": {
+            "name": "Odwrócenie Losu",
+            "description": "<p><strong>Częstotliwość</strong> raz na dzień;</p><p><strong>Zasięg</strong>30 stóp</p><hr /><p><strong>Efekt</strong></p><p>Twoja ceru przesuwa szalę fortuny dla następnej próby rzutu ataku, rzutu obronnego lub testu umiejętności jednego celu.</p><p>Jeśli cel zostanie objęty działaniem pecha, wykona rzut obronny @Check[type:will|dc:resolve(@actor.master.attributes.classOrSpellDC.value)] przeciwko ST klasy lub ST zaklęcia, w zależności od tego, która wartość jest wyższa, z efektami zależnymi od wyniku rzutu obronnego; jest to efekt pecha.</p><p>Jeśli cel jest objęty szczęściem, rzuca dwa razy i wykorzystuje lepszy wynik; jest to efekt szczęścia.</p><p>Niezależnie od wyniku, cele są niewrażliwe na Odwrócenie Losu przez jeden dzień.</p><p><strong>Sukces</strong> Nie ma to wpływu na cel.</p><p><strong>Porażka</strong> Cel rzuca dwa razy i wykorzystuje gorszy wynik.</p><p><strong>Krytyczna Porażka</strong> Jak porażka, z tą różnicą, że cel jest dotknięty przez następne trzy próby.</p>"
+        }
+    }
+}

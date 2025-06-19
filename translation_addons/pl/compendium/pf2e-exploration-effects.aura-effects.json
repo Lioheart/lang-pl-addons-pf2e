@@ -1,0 +1,46 @@
+{
+    "label": "Efekty Aury",
+    "entries": {
+        "100ft Aura": {
+            "name": "Aura 100 stóp (30 m)",
+            "description": ""
+        },
+        "10ft Aura": {
+            "name": "Aura 10 stóp (3 m)",
+            "description": ""
+        },
+        "120ft Aura": {
+            "name": "Aura 120 stóp (36 m)",
+            "description": ""
+        },
+        "20ft Aura": {
+            "name": "Aura 20 stóp (6 m)",
+            "description": ""
+        },
+        "30ft Aura": {
+            "name": "Aura 30 stóp (9 m)",
+            "description": ""
+        },
+        "40ft Aura": {
+            "name": "Aura 40 stóp (12 m)",
+            "description": ""
+        },
+        "60ft Aura": {
+            "name": "Aura 60 stóp (18 m)",
+            "description": ""
+        },
+        "80ft Aura": {
+            "name": "Aura 80 stóp (24 m)",
+            "description": ""
+        },
+        "Flexible Aura": {
+            "name": "Elastyczna aura",
+            "description": "",
+            "rules": {
+                "0": {
+                    "prompt": "Wybierz żądany zakres swojej aury."
+                }
+            }
+        }
+    }
+}

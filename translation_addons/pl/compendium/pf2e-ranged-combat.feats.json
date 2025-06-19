@@ -1,0 +1,56 @@
+{
+    "label": "Atuty",
+    "entries": {
+        "Masterful Animal Comanion": {
+            "name": "Mistrzowski Zwierzęcy Towarzysz",
+            "description": "<p>Ta istota jest zwierzęcym towarzyszem łowcy i zyskuje korzyści swojego mistrza @UUID[Compendium.pf2e.classfeatures.RVZC4wVy5B5W2OeS]{Mistrzowskiego Łowcy}.</p>",
+            "rules": {
+                "3": {
+                    "label": "pf2e-ranged-combat.huntPrey.huntersEdge.flurry"
+                },
+                "4": {
+                    "label": "pf2e-ranged-combat.huntPrey.huntersEdge.flurry"
+                },
+                "5": {
+                    "label": "pf2e-ranged-combat.huntPrey.huntersEdge.outwit"
+                },
+                "6": {
+                    "label": "pf2e-ranged-combat.huntPrey.huntersEdge.outwit"
+                },
+                "7": {
+                    "label": "pf2e-ranged-combat.huntPrey.huntersEdge.outwit"
+                }
+            }
+        },
+        "Ranger's Animal Companion": {
+            "name": "Zwierzęcy Towarzysz Łowcy",
+            "description": "<p>Ta istota jest zwierzęcym towarzyszem łowcy i zyskuje korzyści swojego pana @UUID[Compendium.pf2e.actionspf2e.JYi4MnsdFu618hPm]{Naznaczoną Ofiarę} oraz jego przewagę myśliwego.</p>",
+            "rules": {
+                "4": {
+                    "label": "pf2e-ranged-combat.huntPrey.huntersEdge.flurry"
+                },
+                "5": {
+                    "label": "pf2e-ranged-combat.huntPrey.huntersEdge.flurry"
+                },
+                "6": {
+                    "label": "pf2e-ranged-combat.huntPrey.huntersEdge.outwit"
+                },
+                "7": {
+                    "label": "pf2e-ranged-combat.huntPrey.huntersEdge.outwit"
+                },
+                "8": {
+                    "label": "pf2e-ranged-combat.huntPrey.huntersEdge.outwit"
+                },
+                "9": {
+                    "label": "pf2e-ranged-combat.huntPrey.precision.attackNumber"
+                }
+            }
+        }
+    },
+    "mapping": {
+        "rules": {
+            "converter": "translateRules",
+            "path": "system.rules"
+        }
+    }
+}

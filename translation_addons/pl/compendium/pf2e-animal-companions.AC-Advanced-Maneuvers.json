@@ -1,0 +1,380 @@
+{
+    "label": "AC-Zaawansowane Manewry",
+    "entries": {
+        "Aerial Retreat": {
+            "name": "Powietrzny Odwrót",
+            "description": "<p>Hipogryf wykonuje Atak szponem, a następnie leci z premią okolicznościową +10 stóp do szybkości lotu. Hipogryf i jego jeździec zyskują premię +2 do KP przeciwko reakcjom wywołanym przez ten ruch.</p><p>@UUID[Compendium.pf2e-animal-companions.AC-effects.Item.evvqmXIieuMwFMJT]{Efekt: Odwrót (Jeździec)}</p>"
+        },
+        "Antler Catapult": {
+            "name": "Katapulta Porożem",
+            "description": "<p>Łoś wykonuje jeden krok, a następnie wykonuje Atak porożem. Jeśli się poruszy i trafi, łoś może rzucić celem w miejsce, które właśnie opuścił, co jest ruchem wymuszonym.</p>"
+        },
+        "Badger Rage": {
+            "name": "Borsuczy Szał",
+            "description": "<p><strong>Wymagania</strong> Borsuk nie jest @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{Zmęczony} lub w szale.</p><hr /><p>Borsuk wchodzi w stan czystego szału, który trwa przez 1 minutę, dopóki nie będzie żadnych wrogów, których może dostrzec, lub dopóki nie stanie się @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Nieprzytomny}, w zależności od tego, co nastąpi wcześniej. Nie może dobrowolnie przestać szaleć. Podczas szału na borsuka wpływają następujące czynniki.</p><ul><li>Zadaje 4 dodatkowe obrażenia atakami ugryzienia i 2 dodatkowe obrażenia atakami pazurami.</li><li>Otrzymuje karę –1 do KP.</li><li>Nie może używać akcji z cechą koncentracji. Zwierzęcy towarzysz może @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{Szukać} nawet podczas szału. Po tym, jak przestanie szaleć, nie może ponownie użyć Borsuczego Szału przez 1 minutę.</li></ul>"
+        },
+        "Bay": {
+            "name": "Wycie",
+            "description": "<p>Ogar cienia uwalnia niesamowite wycie, próbując @UUID[Compendium.pf2e.actionspf2e.Item.2u915NdUyQan6uKF]{Demoralizować} każdego wroga w @Template[type:emanation|distance:20]. Te próby Demoralizacji nie wymagają języka i nie otrzymują żadnej kary z powodu nie dzielenia języka.</p>"
+        },
+        "Bear Hug": {
+            "name": "Niedźwiedzi Uścisk",
+            "description": "<p><strong>Wymagania</strong> Ostatnią akcją niedźwiedzia był udany Atak pazurami.</p><hr /><p>Niedźwiedź wykonuje kolejny Atak Pazurami na ten sam cel. Jeśli ten Atak trafi, cel zostanie również @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Chwycony}, tak jakby niedźwiedziowi udało się @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{Chwycić} cel.</p>"
+        },
+        "Blood Feast": {
+            "name": "Krwawa Uczta",
+            "description": "<p>Twój wampiryczny zwierzęcy towarzysz atakuje krwawiącego wroga i pije jego krew. Twój towarzysz próbuje wykonać Atak przeciwko istocie, która aktualnie otrzymuje trwałe obrażenia od krwawienia. Atak zadaje 2d8 dodatkowych obrażeń. Jeśli Atak trafi i zada obrażenia, twój wampiryczny zwierzęcy towarzysz zyskuje tymczasowe Punkty Wytrzymałości równe połowie twojego poziomu, które utrzymują się do 1 minuty.</p><p>@UUID[Compendium.pf2e-animal-companions.AC-effects.Item.q6fSAYeFEf1B5Bu7]{Efekt: Krwawa Uczta}</p>"
+        },
+        "Boar Charge": {
+            "name": "Szarża Dzika",
+            "description": "<p>Dzik podbiega dwukrotnie w prostej linii, a następnie wykonuje Atak Kłem. Dopóki porusza się na odległość co najmniej 20 stóp, otrzymuje premię +2 do rzutu ataku.</p>"
+        },
+        "Bony Constriction": {
+            "name": "Kościsty Dusiciel",
+            "description": "<p><strong>Wymagania</strong> Dusiciel ma stworzenie @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Pochwycone}.</p><hr /><p>Szkieletowy dusiciel zadaje @Damage[12[piercing]] obrażeń złapanej istocie swoimi ostrymi żebrami; istota musi wykonać rzut obronny @Check[fortitude|basic|against:bony-constriction]. Jeśli dusiciel jest wyspecjalizowanym towarzyszem, zwiększ te obrażenia do @Damage[20[piercing]|shortLabel]. Używa to wytrenowanego ST używającego modyfikatora Kondycji dusiciela lub eksperckiego ST jeśli dusiciel jest wyspecjalizowany.</p>"
+        },
+        "Bouncing Slam": {
+            "name": "Podskakujące Zderzenie",
+            "description": "<p>Gibtas skacze w kierunku średniej lub mniejszej istoty, lądując w jej przestrzeni i @UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{Pcha} stworzenie. Jeśli Pchnięcie się nie powiedzie, gibtas odbija się z pola celu na sąsiednie pole, które wybierze cel.</p>"
+        },
+        "Bounding Retreat": {
+            "name": "Odwrót Susem",
+            "description": "<p>Antylopa Skacze dwa razy. Jeśli ma jeźdźca, może zostawić go w pustej przestrzeni, gdy z niej wyskakuje.</p>"
+        },
+        "Breach": {
+            "name": "Wyłom",
+            "description": "<p>Orka pływa z maksymalną szybkością, a następnie wyskakuje pionowo z wody na wysokość do 25 stóp, wykonując Atak na istotę w dowolnym momencie skoku (pozwala to zaatakować istotę znajdującą się w odległości do 30 stóp od powierzchni wody). Po wykonaniu Ataku orka spada z powrotem do wody.</p>"
+        },
+        "Bucking Frenzy": {
+            "name": "Wściekłe Wierzganie",
+            "description": "<p>Świnia bojowa przekształca wszelki strach, jaki odczuwa, w furię, po czym zaczyna dziko kopać. Zmniejsz wartość Przestraszenia świni bojowej o 1 (minimum 0). Następnie świnia bojowa wykonuje ataki kopnięciem kopytem przeciwko maksymalnie trzem różnym przeciwnikom w zasięgu. Każdy z tych ataków otrzymuje modyfikator -2 do rzutu ataku, chyba że świnia bojowa rozpoczęła swoją turę w stanie przestraszenia. Każdy atak liczy się do kary za wielokrotny atak świni bojowej, ale kara wzrasta dopiero po wykonaniu wszystkich ataków.</p>"
+        },
+        "Burrowing Ambush": {
+            "name": "Zasadzka spod ziemi",
+            "description": "<p>Twój kret zakopuje się i wykonuje Atak. Jeśli kret rozpoczął ruch pod ziemią, cel ataku jest @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Odsłonięty}.</p>"
+        },
+        "Careful Withdraw": {
+            "name": "Ostrożne Wycofanie",
+            "description": "<p>Nożne krzesło ostrożnie wyciąga cię z niebezpiecznej sytuacji. Robi dwa Kroki, a następnie Biegnie.</p>"
+        },
+        "Cat Pounce": {
+            "name": "Koci Podskok",
+            "description": "<p>Kot Biegnie, a następnie Atakuje. Jeśli został @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{Niewykryty} w momencie rozpoczęcia Kociego Podskoku, pozostaje niewykryty aż do zakończenia ataku.</p>"
+        },
+        "Circling Flyby": {
+            "name": "Okrążający Przelot",
+            "description": "<p>Twój żywiołak powietrza leci po okręgu, rażąc wrogów podmuchami, po czym wraca do pozycji wyjściowej. Żywiołak powietrza wzlatuje do połowy swojej szybkości, wykonuje dwa Ataki podmuchem, a następnie ponownie wzlatuje do połowy swojej szybkości, aby powrócić do pierwotnej lokalizacji. Oba ataki wliczają się do kary za wielokrotne ataki żywiołaka powietrza, ale kara nie zwiększa się, dopóki nie wykona on obu ataków.</p>"
+        },
+        "Constrict": {
+            "name": "Zaciskanie",
+            "description": "<p><strong>Wymagania</strong> Wąż @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Pochwycił} mniejsze stworzenie.</p><hr /><p>Wąż zadaje @Damage[12[bludgeoning]] obrażeń chwyconej istocie; istota musi wykonać rzut obronny @Check[fortitude|basic] przeciwko ST twojej klasy. Jeśli wąż jest wyspecjalizowanym zwierzęcym towarzyszem, obrażenia te wzrastają do @Damage[20[bludgeoning]|shortLabel].</p>"
+        },
+        "Crab Cannon": {
+            "name": "Działo Kraba",
+            "description": "<p>Krab durian zwija się ciasno, przybierając kształt kuli. Następnie wystrzeliwuje swój potężny pazur w cel znajdujący się w promieniu 20 stóp. Kiedy wyląduje, wykonuje atak pazurami, ale obrażenia są obuchowe, a nie kłute. W przypadku trafienia cel zostaje @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Zamroczony} na 1 rundę, a atak zadaje dodatkowe @Damage[1d8[untyped]] obrażeń lub 2k8 dodatkowych obrażeń, jeśli krab jest wyspecjalizowany.</p>"
+        },
+        "Darting Attack": {
+            "name": "Gwałtowny Atak",
+            "description": "<p>Raptor robi Krok do 10 stóp, a następnie atakuje, lub Atakuje, a następnie robi Krok do 10 stóp.</p>"
+        },
+        "Darting Stab": {
+            "name": "Gwałtowne Dźgnięcie",
+            "description": "<p>Olbrzymia osa lata do 15 stóp, a następnie Atakuje lub Atakuje, a następnie lata do 15 stóp.</p>"
+        },
+        "Death Roll": {
+            "name": "Rzut Śmierci",
+            "description": "<p><strong>Wymagania</strong> Krokodyl ma stworzenie @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Pochwycone}</p><hr /><p>Krokodyl podkula nogi i szybko się zwija, wykręcając ofiarę. Wykonuje Atak szczękami z premią +2 do rzutu ataku przeciwko złapanej istocie. Jeśli trafi, powoduje również @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Przewrócenie} stworzenia. Jeśli nie trafi, uwalnia stworzenie.</p>"
+        },
+        "Death from Above": {
+            "name": "Śmierć z Wysoka",
+            "description": "<p>Latająca wiewiórka spada na cel, wściekle atakując go pazurami. Latająca wiewiórka spada na puste miejsce obok celu, nie odnosząc żadnych obrażeń i wykonuje dwa Ataki pazurami. Oba ataki wliczają się do jej kary za wielokrotny atak, ale kara nie wzrasta aż do momentu wykonania obu ataków.</p>"
+        },
+        "Defensive Curl": {
+            "name": "Obronny Kłęb",
+            "description": "<p>Łuskowiec zwija się w kłębek, aby się bronić. Zyskuje premię +2 do KP. Każda istota, która trafi łuskowca nieuzbrojonym atakiem w walce wręcz, gdy ten jest w swoim Obronnym Kłębie, otrzymuje [[/r 2d6[persistent,bleed]]] obrażeń. Łuskowiec nie może się poruszać, używać ataków bez broni, ani podejmować innych akcji wymagających użycia kończyn, gdy jest w Obronnym Kłębie, ale może rozwinąć się w ramach pojedynczej akcji, kończąc efekty Obronnego Kłebu.</p>"
+        },
+        "Defensive Curl (Hermit Krait)": {
+            "name": "Obronny Kłęb (Wąż pustelnik)",
+            "description": "<p>Wąż pustelnik chowa głowę do skorupy, aby się chronić. Zyskuje premię +2 do KP i premię +4 do każdego testu udawania zwykłej skorupy. Każda istota, która trafi węża pustelnika atakiem bez broni w walce wręcz, gdy ten znajduje się w swojej obronnej skorupie, otrzymuje obrażenia @Damage[2d6[persistent,poison]], gdy jedna z głów węża wystrzeliwuje z wnętrza skorupy. Będąc w skorupie, wąż pustelnik nie może się poruszać ani podejmować innych działań wymagających użycia kończyn, ale może wysunąć się ze skorupy w ramach pojedynczej akcji, kończącej efekty Obronnego Kłęba.</p>"
+        },
+        "Disgusting Gallop": {
+            "name": "Obrzydliwy Galop",
+            "description": "<p>Wierzchowiec zombie wykonuje dwukrotny bieg, rozpylając przy tym cuchnącą ślinę. Raz podczas tego ruchu wybierz istotę sąsiadującą z wierzchowcem zombie. Ślina pryska na nią, a istota musi wykonać rzut obronny @Check[fortitude|against:disgusting-gallop] lub otrzymać @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Mdłości 1}.</p><p>Istota jest wtedy tymczasowo odporna na ślinę przez 24 godziny. Używa to wytrenowanego ST używając modyfikatora Kondycji wierzchowca zombie lub eksperckiego ST jeśli wierzchowiec jest wyspecjalizowany.</p>"
+        },
+        "Distracting Spray": {
+            "name": "Rozpraszający Rozprysk",
+            "description": "<p>Kapibara spryskuje sąsiedni cel swoimi gruczołami zapachowymi. Cel musi wykonać rzut obronny @Check[fortitude|against:distracting-spray]. Zmycie piżma wymaga akcji Interakcji i kończy efekt. Używa to wytrenowanego ST używając modyfikatora Kondycji kapibary lub eksperckiego ST jeśli kapibara jest wyspecjalizowana.</p><hr /><p><strong>Krytyczny Sukces</strong> Nie ma to wpływu na stworzenie.</p><p><strong>Sukces</strong> Stworzenie jest @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Niezdarne 1} przez 1 rundę.</p><p><strong>Porażka</strong> Stworzenie jest niezdarne 1 przez 1 minutę.</p><p><strong>Krytyczna Porażka</strong> Stworzenie jest @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Niezdarne 2} przez 1 minutę.</p>"
+        },
+        "Diving Skewer": {
+            "name": "Szpikulec Nurkowy",
+            "description": "<p>Wywerna podlatuje do połowy swojej szybkości, a następnie wykonuje atak żądłem. Jeśli atak się powiedzie, cel zostanie również @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Powalony}. Jeśli atak powiedzie się krytycznie, cel otrzyma również obrażenia @Damage[2d6[persistent,poison]].</p>",
+            "rules": {
+                "1": {
+                    "text": "Cel jest @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Przewrócony}."
+                },
+                "2": {
+                    "text": "Cel zostaje @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Przewrócony} i otrzymuje @Damage[2d6[persistent,poison]] obrażeń."
+                }
+            }
+        },
+        "Drench": {
+            "name": "Zalanie",
+            "description": "<p>Twój żywiołak wody zalewa pobliskie pożary, aby je ugasić. Żywiołak gasi wszystkie pożary w obszarze @Template[type:emanation|distance:5]. Żywiołak automatycznie gasi wszystkie niemagiczne pożary i próbuje przeciwdziałać magicznym pożarom (jego modyfikator przeciwdziałania jest równy modyfikatorowi ataku za pomocą Ataku falą, niemodyfikowanemu przez żadne premie lub efekty, które mają zastosowanie do rzutów ataku).</p>"
+        },
+        "Extend Pseudopod": {
+            "name": "Przedłużona Nibynóżka",
+            "description": "<p>Krzesło wydłuża się, zapewniając swojemu Atakowi cechę Zasięg 10 stóp do początku następnej tury.</p>"
+        },
+        "Feast on the Fallen": {
+            "name": "Uczta Poległych",
+            "description": "<p><strong>Częstotliwość</strong> raz na godzinę</p><p><strong>Wyzwalacz</strong> Istota sąsiadująca z sępem zostaje zredukowana do 0 Punktów Wytrzymałości</p><hr /><p>Sęp zjada kawałek pokonanego wroga, odzyskując @Damage[18[healing]] Punktów Wytrzymałości. Jeśli sęp jest wyspecjalizowanym zwierzęcym towarzyszem, liczba odzyskanych Punktów Wytrzymałości wzrasta do @Damage[30[healing]|shortLabel].</p>"
+        },
+        "Fire Breath": {
+            "name": "Ogniste Zionięcie",
+            "description": "<p><strong>Częstotliwość</strong> raz na godzinę</p><hr /><p>Smoczydło wierzchowe zionie w obszarze @Template[type:cone|distance:30] ogniem, zadając @Damage[(max(1,floor(@actor.level/2))d6[fire]|options:area-damage]{1k6 obrażeń od ognia na każde 2 poziomy} smoczydła wszystkim istotom w okolicy (rzut obronny @Check[reflex|basic|options:area-effect|against:fire-breath]). Używa się do tego ST wytrenowania używając modyfikatora Kondycji smoczydła lub ST eksperta, jeśli smoczydło jest wyspecjalizowane.</p>"
+        },
+        "Flamethrower": {
+            "name": "Miotacz Płomieni",
+            "description": "<p><strong>Częstotliwość</strong> raz na 10 minut</p>\n<hr />\n<p>Żywiołak ognia wykonuje Atak wiązką przeciwko wszystkim stworzeniom w obszarze @Template[type:line|distance:60], nawet tym, które nie znajdują się w zasięgu Ataku wiązką. Wszystkie te Ataki wliczają się do kary za wielokrotne ataki żywiołaka ognia, ale nie zwiększa się ona do momentu wykonania wszystkich Ataków.</p>"
+        },
+        "Float": {
+            "name": "Dryfowanie",
+            "description": "<p><strong>Wyzwalacz</strong> Grzyb parasolowy spada.</p>\n<hr />\n<p>Grzyb parasolowy nadmuchuje pęcherze powietrza i zaczyna się obracać, aby zatrzymać upadek. Spowalnia opadanie do 60 stóp na rundę. Może wykonać tę reakcję, nawet jeśli jest @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Nieprzytomny}.</p>"
+        },
+        "Flower Dance": {
+            "name": "Taniec Kwiatów",
+            "description": "<p>Kwiatowy pancernik staje na tylnych nogach i zaczyna machać i tańczyć, pokazując swoje olśniewające piękno, aby odwrócić uwagę napastników. Próbuje @UUID[Compendium.pf2e.actionspf2e.Item.QNAVeNKtHA0EUw4X]{Zmylić} wybraną istotę, używając umiejętności [[/act feint skill=performance]]{Występy} zamiast Oszustwa. Jeśli się powiedzie (lub powiedzie się krytycznie), cel zostanie @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Oodsłonięty} wobec ciebie, a nie wobec twojego kwiatowego pancernika.</p>"
+        },
+        "Flyby Attack": {
+            "name": "Atak w przelocie",
+            "description": "<p>Ptak leci i wykonuje Atak szponem w dowolnym punkcie trasy.</p>"
+        },
+        "Flying Strafe": {
+            "name": "Latający Ostrzał",
+            "description": "<p>Gryfon podlatuje do swojej prędkości lotu i wykonuje dwa Ataki szponami w dowolnym momencie, każdy przeciwko innemu stworzeniu.</p>"
+        },
+        "Frightening Display": {
+            "name": "Przerażający Pokaz",
+            "description": "<p>Twoja małpa wykonuje głośny i przerażający pokaz, wytrącając wroga z równowagi. Małpa próbuje @UUID[Compendium.pf2e.actionspf2e.Item.2u915NdUyQan6uKF]{Demoralizować} wybraną istotę; ten pokaz zyskuje cechę wizualną i nie wymaga języka. Podczas gdy cel jest @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Przestraszony} tą zdolnością, jest @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Odsłonięty} względem twojej małpy.</p>"
+        },
+        "Gallop": {
+            "name": "Galop",
+            "description": "<p>Koń dwukrotnie wykonuje Bieg z premią okoliczności do Szybkości +10 stóp.</p>"
+        },
+        "Gnash": {
+            "name": "Zgrzytanie",
+            "description": "<p><strong>Wymagania</strong> Ostatnim działaniem odciętej głowy był udany atak szczęką. </p><hr /><p>Twoja odcięta głowa gwałtownie potrząsa się w przód i w tył, próbując wyrwać kawałek mięsa. Wykonuje kolejny atak szczęką na ten sam cel. Jeśli atak trafi, zadaje @Damage[1d6[persistent,bleed] obrażeń oprócz zwykłych obrażeń.</p>"
+        },
+        "Gnaw": {
+            "name": "Obgryzanie",
+            "description": "<p><strong>Wymagania</strong> Ostatnią akcją zwierzęcego towarzysza był udany Atak szczękami.</p><hr /><p>Cel Ataku otrzymuje @Damage[1d6[persistent,bleed]] obrażeń i otrzymuje karę do Szybkości równą –10 stóp, dopóki nie usunie obrażeń od krwawienia. Jeśli hiena jest wyspecjalizowanym zwierzęcym towarzyszem, trwałe obrażenia od krwawienia wzrastają do @Damage[2d6[persistent,bleed]|shortLabel].</p>"
+        },
+        "Grab and Sting": {
+            "name": "Pochwycenie i Użądlenie",
+            "description": "<p>Skorpion przytrzymuje przeciwnika szczypcami, aby go użądlić. Wykonuje Atak szczypcami. Jeśli Atak trafi, cel automatycznie zostanie @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Pochwycony} przez skorpiona, który następnie wykona na nim atak żądłem. Stan pochwycenia utrzymuje się do końca twojej następnej tury.</p>"
+        },
+        "Grabbing Branches": {
+            "name": "Chwytanie Gałęzi",
+            "description": "<p>Twój żywiołak drewna otacza wroga gałęziami, chwytając go w miejscu. Twój żywiołak drewna wykonuje Atak gałęziami; jeśli atak się powiedzie, cel zostanie @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Pochwycony} przez żywiołaka drewna do końca twojej następnej tury, chyba że żywiołak drewna się poruszy lub cel ucieknie.</p>"
+        },
+        "Grabbing Trunk": {
+            "name": "Chwytanie Trąbą",
+            "description": "<p>Słoń chwyta przeciwnika trąbą i unosi go. Słoń używa Atletyki, aby @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{Chwycić} w trąbę istotę do dwóch rozmiarów mniejszą od słonia. Jeśli cel jest @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Chwycony} lub @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Obezwładniony}, słoń przenosi cel na inne miejsce w zasięgu słonia.</p>"
+        },
+        "Grip Throat": {
+            "name": "Chwyt za gardło",
+            "description": "<p>Ręka próbuje @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{Chwycić} średnią lub mniejszą istotę za gardło. Jeśli chwyt się powiedzie, oprócz normalnych efektów, istota będzie miała trudności z mówieniem. Dopóki pozostaje @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Pochwycona} lub @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Obezwładniona} ręką, musi wydać dodatkową akcję, aby wykonać dowolną akcję z cechą werbalną.</p>"
+        },
+        "Gulp Blood": {
+            "name": "Łyk Krwi",
+            "description": "<p><strong>Wymagania</strong> Ostatnią akcją wodnego upiora był udany atak szczękami na wroga.</p><hr /><p>Wodny upiór zyskuje 2k8 tymczasowych Punktów Wytrzymałości, które utrzymują się przez 1 rundę, a wróg otrzymuje @Damage[2d6[persistent,bleed]] obrażeń. Jeśli wodny upiór posiada specjalizację, zamiast tego otrzymuje 3k8 tymczasowych Punktów Wytrzymałości, a cel otrzymuje @Damage[3d6[persistent,bleed]]] obrażeń. Jeśli wybrana istota nie ma absolutnie żadnych płynów witalnych, zdolność ta może nie działać, według uznania MG.</p>"
+        },
+        "Hair Barrage": {
+            "name": "Zapora z Włosów",
+            "description": "<p>Tarantula macha nogami, wyrzucając kolczaste włoski w obszarze @Template[type:cone|distance:15]. Zadaje to @Damage[(4 + max(0,floor((@actor.level - 6) / 4)))d6[piercing]] obrażeń z @Check[type:reflex|against:hair-barrage|basic:true] rzutem obronnym przeciwko twojemu klasowemu ST. Wymaga to wytrenowanego ST przy użyciu modyfikatora Zręczności tarantuli lub eksperckiego ST, jeśli tarantula jest wyspecjalizowana. Obrażenia te wzrastają o dodatkowe 1k6 za każde 4 poziomy powyżej 6. poziomu.</p>"
+        },
+        "Hustle": {
+            "name": "Pęd",
+            "description": "<p>Chrząszcz porusza się z niesamowitą prędkością. Robi trzykrotny bieg.</p>"
+        },
+        "Knock Aside": {
+            "name": "Pukanie Bokiem",
+            "description": "<p><strong>Wymagania</strong> Ostatnią akcją zwierzęcego towarzysza był udany Atak głową.</p>\n<hr />\n<p>Kozioł automatycznie odrzuca cel do tyłu o 5 stóp lub 10 stóp, jeśli wymagany Atak był trafieniem krytycznym.</p>"
+        },
+        "Liberating Bite": {
+            "name": "Wyzwalające Ugryzienie",
+            "description": "<p>Mangusta wykonuje Atak szczękami, który może pomóc istotom uwolnić się z więzów, takich jak uścisk kobry. Jeśli Atak trafi, każda istota pochwycona lub @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Obezwładniona} przez cel może @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLkmBQNB9]{Uciec} jako darmową akcję.</p>"
+        },
+        "Lizard Leap": {
+            "name": "Skok Jaszczurki",
+            "description": "<p>Keulia wykonuje skok, a następnie atak ugryzieniem. Jeśli przemieściła się o co najmniej 10 stóp, jej atak zadaje dodatkowe obrażenia @Damage[1d6[piercing]] lub @Damage[2d6[piercing]], jeśli twoja keulia jest zwinna lub dzika.</p>"
+        },
+        "Long Stomp": {
+            "name": "Długi Tupot",
+            "description": "<p>Żyrafa robi dwa kroki, a następnie wykonuje Atak Kopytem. Tak długo, jak żyrafa porusza się na odległość co najmniej 20 stóp, zadaje dodatkowe obrażenia @Damage[1d6[bludgeoning]]. Zwiększ te obrażenia do @Damage[2d6[bludgeoning]|shortLabel], jeśli twoja żyrafa jest wyspecjalizowana.</p>"
+        },
+        "Lumbering Knockdown": {
+            "name": "Powalający Nokaut",
+            "description": "<p>Twój triceratops podchodzi na odległość do 10 stóp, a następnie wykonuje Atak Rogami. W przypadku powodzenia cel zostaje @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Przewrócony}.</p>"
+        },
+        "Lurching Rush": {
+            "name": "Szalony Pęd",
+            "description": "<p>Waran biegnie, a następnie wykonuje Atak szczękami. Jeśli jaszczurka oddaliła się o co najmniej 20 stóp od swojej pozycji startowej, zyskuje premię +2 do tego rzutu ataku.</p>"
+        },
+        "Overwhelm": {
+            "name": "Przytłoczenie",
+            "description": "<p>Tyranozaur rzuca się na wroga i przygważdża go szczękami. Tyranozaur wykonuje Atak szczękami; w przypadku trafienia cel zostaje @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Chwycony}.</p>"
+        },
+        "Pick at the Meat": {
+            "name": "Skubanie Mięsa",
+            "description": "<p><strong>Wymagania</strong> Ostatnią akcją zwierzęcego towarzysza był udany Atak szczękami.</p><hr /><p>Twój ptak dłubie w ranie, którą właśnie zadał. Cel jego Ataku szczękami otrzymuje @Damage[1d8[bleed]] obrażeń lub @Damage[2d8[bleed]] obrażeń, jeśli ptak jest wyspecjalizowany.</p>"
+        },
+        "Poisonous Sweep": {
+            "name": "Trujący Zamach",
+            "description": "<p>Salamandra wydziela truciznę z gruczołów na ogonie i zadaje przeciwnikowi cios obuchowy. Wykonuje Atak ogonem. Jeśli Atak trafi, cel otrzymuje dodatkowe @Damage[1d6[persistent,poison]] obrażeń. Jeśli salamandra jest zwinna lub dzika, obrażenia te wzrastają do @Damage[2d6[persistent,poison]].</p>"
+        },
+        "Possessing Strike": {
+            "name": "Atak Opętujący",
+            "description": "<p><strong>Częstotliwość</strong> raz na godzinę</p><hr /><p>Twój szary ostrzak próbuje wstrzyknąć ofierze złośliwy fragment duszy, aby przejąć kontrolę nad jej działaniami. Szary ostrzak wykonuje atak ostrzem przeciwko żywej istocie. Jeśli trafi i zada obrażenia, cel musi wykonać rzut obronny na Wolę przeciwko twojemu ST klasy lub ST zaklęcia, w zależności od tego, która wartość jest wyższa. Niezależnie od wyniku, cel jest tymczasowo odporny na Atak opętujący przez 24 godziny.</p><p><strong>Krytyczny Sukces</strong> Nie ma to wpływu na cel.</p><p><strong>Sukces</strong> Cel odpiera atak fragmentu duszy, ale zostaje @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Ogłuszony 1}.</p><p><strong>Porażka</strong> Cel jest @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{Zdezorientowany} przez 1 rundę i nie może on używać akcji ofensywnych przeciwko tobie ani twojemu szaremu ostrzakowi.</p><p><strong>Krytyczna Porażka</strong> Jak porażka, ale jeśli cel otrzyma obrażenia od ataku lub zaklęcia, ST płaskiego testu na wyjście ze stanu dezorientacji wynosi 15.</p>"
+        },
+        "Pterosaur Swoop": {
+            "name": "Nalot Pterozaura",
+            "description": "<p>Pterozaur leci z prędkością odpowiadającą jego Szybkości i wykonuje jeden Atak dziobem w dowolnym momencie tego ruchu.</p>"
+        },
+        "Raging Stampede": {
+            "name": "Wściekły Dziki Pęd",
+            "description": "<p>Yzobu Biegnie, a następnie wykonuje atak rogiem. Jeśli atak trafi, cel zostaje odepchnięty na 10 stóp.</p>"
+        },
+        "Rhinoceros Charge": {
+            "name": "Szarża Nosorożca",
+            "description": "<p>Nosorożec wykonuje bieg i Atak Rogiem pod koniec biegu. Jeśli nosorożec przemieścił się na odległość co najmniej 20 stóp, Atak Rogiem zadaje 1k8 dodatkowych obrażeń kłutych lub 2k8 dodatkowych obrażeń, jeśli nosorożec jest zwinny lub dziki.</p>"
+        },
+        "Rolling Charge": {
+            "name": "Szarża z Rozpędu",
+            "description": "<p>Niedźwiedź skalny zwija się w kłębek i wykonuje dwukrotnie Bieg w linii prostej. W dowolnym momencie tego ruchu może wykonać atak roztrzaskania przeciwko jednej istocie znajdującej się w sąsiedztwie. Jeśli atak jest trafieniem krytycznym, cel zostaje również @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Przewrócony}.</p>"
+        },
+        "Rolling Knockdown": {
+            "name": "Toczny Nokaut",
+            "description": "<p>Żywiołak ziemi toczy się po ziemi jak kula do kręgli i przewraca przeciwnika. Podchodzi na odległość do 10 stóp, a następnie wykonuje Atak pięścią. Jeśli trafi, cel również zostanie @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Przewrócony}.</p>"
+        },
+        "Sand Stride": {
+            "name": "Piaskowy Bieg",
+            "description": "<p>Wielbłąd wykonuje Bieg dwa razy z premią okoliczności +5 stóp do Szybkości, ignorując trudny teren spowodowany gruzem, piaskiem i nierównym podłożem z ziemi i kamieni.</p>"
+        },
+        "Screaming Skull": {
+            "name": "Krzycząca Czaszka",
+            "description": "<p>Szkielet zdejmuje czaszkę i rzuca nią, wykonując Atak szczękami z zasięgiem 20 stóp. Bez względu na to, czy trafi, cel i wszyscy wrogowie w promieniu 10 stóp muszą wykonać rzut obronny @Check[will|against:screaming-skull] lub stają się @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Przerażeni 1}, lub @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Przerażeni 2} w przypadku krytycznej porażki. Wykorzystuje to wyszkolony ST przy użyciu modyfikatora Charyzmy szkieletu lub ekspercki ST, jeśli szkielet jest wyspecjalizowany.</p><p>Na początku następnej tury szkieletu, głowa podskakuje, toczy się lub odlatuje, aby ponownie się przyczepić. Szkielet jest @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Oślepiony}, gdy nie ma głowy.</p>"
+        },
+        "Scurry": {
+            "name": "Mknąc przez pole",
+            "description": "<p>Chetamog wykonuje dowolną kombinację dwóch akcji kroku lub wspinaczki. Podczas tych akcji chetamog otrzymuje premię +10 stóp do swojej szybkości.</p>"
+        },
+        "Seedpod Spring": {
+            "name": "Wyrzut Nasion",
+            "description": "<p>Strąk wewnątrz krzesła pęka i rozwija się, uwalniając lekką kępkę bawełnianego materiału. Krzesło z korzeniami podskakuje na odległość do 30 stóp w pionie lub poziomie i opada w dół, obniżając się o 5 stóp na każde 5 stóp pokonane w poziomie i nie powodując obrażeń od upadku. Po wylądowaniu bawełniany materiał rozprasza się.</p>"
+        },
+        "Shred": {
+            "name": "Szarpanie",
+            "description": "<p>Rekin zaciekle rozszarpuje ranę. Cel Ataku rekina otrzymuje @Damage[1d8[slashing]] obrażeń kłutych (@Damage[2d8[slashing]|shortLabel] w przypadku dojrzałego rekina lub @Damage[3d8[slashing]|shortLabel] w przypadku wyspecjalizowanego towarzysza).</p>"
+        },
+        "Snatch": {
+            "name": "Porwanie",
+            "description": "<p>Rok atakuje stworzenie swoim szponem, a następnie próbuje je złapać. Jeśli chwyt się powiedzie, rok leci do połowy swojej prędkości, niosąc ze sobą to stworzenie.</p>"
+        },
+        "Snatch and Zap": {
+            "name": "Złap i Rozwal",
+            "description": "<p>Ulgrem-Lurann gryzie mocno i wyładowuje się elektrycznie. Wykonuje Atak szczękami. Jeśli Atak trafi, cel automatycznie zostaje @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Pochwycony} przez Ulgrem-Luranna i otrzymuje @Damage[1d4[electricity]] obrażeń (@Damage[2d4[electricity]|shortLabel] dla dojrzałego Ulgrem-Luranna lub @Damage[3d4[electricity]|shortLabel] dla wyspecjalizowanego towarzysza). Stan pochwycenia trwa do końca twojej następnej tury, choć Ulgrem-Lurann może użyć @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{Chwycenia}, aby spróbować przedłużyć czas jego trwania.</p>"
+        },
+        "Spiked Bunker": {
+            "name": "Kolczasty Schron",
+            "description": "<p>Twój metalowy żywiołak otacza się ochronnymi metalowymi kolcami, chowając się w obronie. Zyskuje premię +2 do KP. Każda istota, która trafi metalowego żywiołaka atakiem bez broni w walce wręcz, gdy ten znajduje się w swoim kolczastym schronie, otrzymuje obrażenia @Damage[2d6[piercing]] (lub @Damage[3d6[piercing]], jeśli twój metalowy żywiołak posiada specjalizację). Metalowy żywiołak nie może się poruszać, atakować ani podejmować innych akcji wymagających użycia jego ciała, gdy znajduje się w swoim Kolczastym Schronie, ale może wycofać schron jako pojedynczą akcję, kończąc efekty.</p>"
+        },
+        "Spit": {
+            "name": "Plucie",
+            "description": "<p>Bakallia zwraca część zawartości swojego żołądka w postaci ataku na odległość, który zadaje obrażenia podstawowe równe @Damage[1d6[acid]] i ma zasięg 10 stóp. Obrażenia wynoszą 2k6 dla dojrzałej bakallii i 3k6 dla wyspecjalizowanej. Istota żywa trafiona tym atakiem otrzymuje również @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Mdłości 1} (@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Mdłości 2} przy trafieniu krytycznym).</p>"
+        },
+        "Spring Kick": {
+            "name": "Sprężyste Kopnięcie",
+            "description": "<p>Kangur balansuje na ogonie i wymierza potężne kopnięcie z dwóch nóg. Kangur wykonuje Atak nogą. Jeśli trafi, cel zostaje odepchnięty na 10 stóp. Przy trafieniu krytycznym zostaje on również @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Przewrócony}.</p>"
+        },
+        "Sudden Retreat": {
+            "name": "Nagły Odwrót",
+            "description": "<p>Hipokamp wykonuje Atak ogonem, a następnie płynie z premią okolicznościową +10 stóp do szybkości pływania. Hipokamp i jego jeździec zyskują premię +2 do KP przeciwko reakcjom wywołanym przez ten ruch.</p><p>@UUID[Compendium.pf2e-animal-companions.AC-effects.Item.evvqmXIieuMwFMJT]{Efekt: Odwrót (Jeździec)}</p>"
+        },
+        "Swimming Snap": {
+            "name": "Pływacki Zatrzask",
+            "description": "<p>Olbrzymi węgorz pływa i wykonuje Atak szczękami w dowolnym miejscu na swojej drodze.</p>"
+        },
+        "Tail Escape": {
+            "name": "Uwolnienie Ogona",
+            "description": "<p><strong>Częstotliwość</strong> raz na 10 minut</p><p><strong>Wymagania</strong> Gigantyczny łupkoząb jest @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Złapany} lub @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Obezwładniony}. </p><hr /><p>Gigantyczny łupkoząb odrywa ogon, aby uwolnić się z uścisku wroga. Automatycznie Uwalnia się i może wykonać Krok. Nie może wtedy używać ataku roztrzaskania ogonem, dopóki nie zregeneruje ogona, co zajmuje 10 minut lub wymaga użycia magii leczącej, która przywraca Punkty Wytrzymałości.</p>"
+        },
+        "Tail Swipe": {
+            "name": "Zamach Ogonem",
+            "description": "<p>Jaszczurka drapieżna zamachuje się ogonem, wykonując Atak Ogonem przeciwko maksymalnie dwóm sąsiadującym wrogom. Każdy atak wlicza się do kary za wielokrotny atak, ale kara wzrasta dopiero po wykonaniu wszystkich ataków.</p>"
+        },
+        "Take a Taste": {
+            "name": "Weź Gryza",
+            "description": "<p><strong>Wymagania</strong> Stworzenie jest dla zombie @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Pochwycone} lub @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Obezwładnione}.</p><hr /><p>Zombie próbuje schwytać i ugryźć stworzenie. Zombie wykonuje Atak szczękami na stworzenie. Ten Atak używa tych samych statystyk co zwykły Atak wręcz, z tym że kość obrażeń to 1k10 i zadaje obrażenia kłute.</p>"
+        },
+        "Takedown": {
+            "name": "Obalenie",
+            "description": "<p><strong>Wymagania</strong> Ostatnią akcją zwierzęcego towarzysza był udany Atak szczękami.</p><hr /><p>Wilk automatycznie @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Przewraca} cel swoimi szczękami.</p>"
+        },
+        "Tearing Clutch": {
+            "name": "Rozrywający Dziób",
+            "description": "<p>Ptak terroru wykonuje Atak dziobem; przy udanym trafieniu cel otrzymuje @Damage[2d6[persistent,bleed]] obrażeń.</p>"
+        },
+        "Telekinetic Assault": {
+            "name": "Telekinetyczne Natarcie",
+            "description": "<p><strong>Częstotliwość</strong> raz na godzinę</p><hr /><p>Twój duch wyzwala lawinę emocji, powodując, że małe przedmioty i odłamki lecą w @Template[type:emanation|distance:20], zadając @Damage[(floor(@actor.level / 2))d6[bludgeoning]|options:area-damage]{1k6 obrażeń obuchowych} na każde 2 poziomy ducha (podstawowy rzut obronny @Check[reflex|basic|against:telekinetic-assault|options:area-effect]). Używa to wytrenowanego ST przy użyciu modyfikatora Charyzmy ducha lub eksperckiego ST, jeśli duch jest wyspecjalizowany.</p>"
+        },
+        "Telepathic Pounce": {
+            "name": "Telepatyczne Odbicie",
+            "description": "<p>Shotalashu poluje, przygważdżając wrogów nie tylko pazurami, ale i umysłem. Jedna istota w promieniu 30 stóp musi wykonać rzut obronny @Check[will|against:telepathic-pounce], który wywołuje następujące efekty. Wykorzystuje to wytrenowane ST przy użyciu modyfikatora Charyzmy shotalashu lub eksperckie ST, jeśli shotalashu jest wyspecjalizowany.</p><hr /><p><strong>Krytyczny Sukces</strong> Nie ma to wpływu na stworzenie.</p><p><strong>Sukces</strong> Stworzenie otrzymuje karę -5 stóp do swojej Szybkości na jedną rundę.</p><p><strong>Porażka</strong> Stworzenie otrzymuje karę -10 stóp do swojej Szybkości na jedną rundę. Shotalashu może następnie @UUID[Compendium.pf2e.actionspf2e.Item.d5I6018Mci2SWokk]{Skoczyć}.</p><p><strong>Krytyczna Porażka</strong> Stworzenie jest @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Odsłonięte} i @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Unieruchomione} na jedną rundę. Shotalashu może wtedy wykonać Skok.</p>"
+        },
+        "Throw Rock": {
+            "name": "Rzut Kamieniem",
+            "description": "<p>Drzewiak wchodzi w interakcję, aby podnieść kamień znajdujący się w zasięgu lub odzyskać schowany kamień, a następnie rzuca nim za pomocą dystansowego Ataku Kamieniem, który zadaje obrażenia obuchowe o wartości bazowej 1k6 z przyrostem zasięgu wynoszącym 30 stóp. Obrażenia wynoszą 2k6 dla dojrzałego drzewiaka i 3k6 dla wyspecjalizowanego drzewiaka.</p>",
+            "rules": {
+                "1": {
+                    "label": "Kamień"
+                }
+            }
+        },
+        "Tongue Grab": {
+            "name": "Chwyt Językiem",
+            "description": "<p>Gigantyczna żaba wyciąga język, wykonując Atak językiem. Jeśli Atak trafi, cel zostanie automatycznie @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Pochwycony} przez gigantyczną żabę i wciągnięty na pole sąsiadujące z żabą. Stan pochwycenia trwa do końca twojej następnej tury.</p>"
+        },
+        "Tongue Pull": {
+            "name": "Pociągnięcie Języka",
+            "description": "<p>Gekon jaskiniowy wysuwa język, próbując przyciągnąć do siebie przeciwnika znajdującego się w promieniu 10 stóp. Gekon wykonuje test Atletyki przeciwko ST Wytrwałości przeciwnika. Jeśli się powiedzie, gekon przyciąga przeciwnika do siebie. Ruch ten jest ruchem wymuszonym. W przypadku sukcesu krytycznego, wróg zostaje również @Compendium[pf2e.conditionitems.kWc1fhmv9LBiTuei]{Chwycony} do początku twojej następnej tury.</p>"
+        },
+        "Ultrasonic Scream": {
+            "name": "Ultrasoniczny Krzyk",
+            "description": "<p>Ćma macha skrzydłami i emituje ultradźwiękowe piski, które zakłócają zmysły pobliskich stworzeń. Wybierz jedną istotę w promieniu 30 stóp od ćmy. Ta istota musi wykonać rzut obronny @Check[fortitude|against:ultrasonic-scream]. Używany jest wytrenowany ST wykorzystujący modyfikator Kondycji ćmy lub ekspercki ST, jeśli ćma jest wyspecjalizowana.</p><hr /><p><strong>Sukces</strong> Cel traktuje wszystkie stworzenia jako @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Przysłonięte} przy swoim następnym ataku przed rozpoczęciem twojej następnej tury.</p><p><strong>Porażka</strong> Cel traktuje wszystkie istoty jako przysłonięte do początku swojej następnej tury.</p><p><strong>Krytyczna Porażka</strong> Jak porażka, a cel jest również @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Ogłuszony 1}.</p>"
+        },
+        "Unnerving Screech": {
+            "name": "Niepokojący Skrzek",
+            "description": "<p>Twój szkieletowy drapieżny ptak wydaje z siebie nienaturalny pisk, ogłuszając i zaskakując wroga w promieniu 30 stóp. Cel musi wykonać rzut obronny @Check[fortitude]. Cel jest wtedy tymczasowo odporny przez 1 godzinę. Stan przestraszony jest efektem umysłu, emocji i strachu, ale stworzenie nadal może zostać @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{Ogłuchłe}, jeśli jest na nie odporne.</p><hr /><p><strong>Krytyczny Sukces</strong> Nie ma to wpływu na cel.</p><p><strong>Sukces</strong> Cel zostaje ogłuchły na 1 rundę i @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Przestraszony 1}.</p><p><strong>Porażka</strong> Cel zostaje ogłuchły na 1 minutę i przestraszony na 1.</p><p><strong>Krytyczna Porażka</strong> Cel zostaje ogłuchły na 10 minut i @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Przestraszony 2}.</p>"
+        },
+        "Weighted Kick": {
+            "name": "Wzmocnione Kopnięcie",
+            "description": "<p>Twój augdunar wykonuje silne kopnięcie tylnymi nogami, przenosząc ciężar swojego ciała na cel. Wykonuje Atak kopytem. Przy udanym trafieniu augdunar automatycznie odrzuca cel na 5 stóp (10 stóp przy krytycznym powodzeniu).</p>"
+        },
+        "Wing Thrash": {
+            "name": "Łopot Skrzydeł",
+            "description": "<p>Nietoperz szaleńczo uderza skrzydłami, wykonując Ataki skrzydłami przeciwko maksymalnie trzem sąsiadującym wrogom. Każdy atak wlicza się do kary za wielokrotny atak nietoperza, ale kara wzrasta dopiero po wykonaniu wszystkich ataków.</p>"
+        },
+        "Wrapping Tendrils": {
+            "name": "Owijające Wici",
+            "description": "<p><strong>Wymagania</strong> Ostatnią akcją jeżozwierza był udany atak wiciami. </p><hr /><p>Jeżozwierz wykonuje kolejny atak wiciami w ten sam cel. Jeśli ten atak trafi, cel zostanie również @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Pochwycony}, tak jakby jeżozwierz skutecznie chwycił cel.</p>"
+        }
+    },
+    "mapping": {
+        "rules": {
+            "converter": "translateRules",
+            "path": "system.rules"
+        }
+    }
+}

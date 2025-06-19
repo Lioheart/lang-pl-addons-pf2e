@@ -1,0 +1,226 @@
+{
+    "label": "Efekty Taumaturga",
+    "folders": {
+        "Weapon": "Broń",
+        "Chalice": "Kielich",
+        "Implement Effects": "Efekty Utensylium",
+        "Tome": "Tom",
+        "Amulet": "Amulet",
+        "Lantern": "Latarnia",
+        "Regalia": "Insygnia"
+    },
+    "entries": {
+        "Breached Defenses": {
+            "name": "Złamana Obrona",
+            "description": ""
+        },
+        "Breached Defenses Target": {
+            "name": "Cel Złamanej Obrony",
+            "description": ""
+        },
+        "Cursed Effigy": {
+            "name": "Przeklęta Kukła",
+            "description": "<p><strong>Wymagania</strong> Twoją ostatnią akcją było udany Atak na cel twojej Wykorzystania Podatności, który zadał obrażenia fizyczne.</p>\n<hr />\n<p>Po ataku chwytasz odrobinę krwi, obcięte włosy lub inny fragment ciała stwora. Wcielasz ten materiał w gotową lalkę, papierową figurkę lub inną podobiznę, aby stworzyć sympatyczną więź, która utrudnia oparcie się twoim umiejętnościom. Tak długo jak wykorzystujesz Podatność przeciwko tej istocie, otrzymuje ona karę -2 do rzutów obronnych przeciwko zdolnościom taumaturga lub przedmiotom, które używają twojego ST klasy taumaturga.</p>"
+        },
+        "Effect: Amulet's Abeyance": {
+            "name": "Efekt: Powstrzymanie Amuletem",
+            "description": "<p>Siłą prezentujesz swój amulet, aby odwrócić od siebie obrażenia. Ty lub sojusznik znajdujący się w promieniu 15 stóp zyskujecie odporność na wszystkie obrażenia przeciwko obrażeniom wyzwalającym. Odporność jest równa 2 + twój poziom.</p>"
+        },
+        "Effect: Amulet's Abeyance Lingering Resistance": {
+            "name": "Efekt: Powstrzymanie Amuletem Długotrwała Odporność",
+            "description": "<p>Twój amulet zapewnia stałą ochronę. Kiedy używasz Powstrzymania Amuletem, ty lub twój sojusznik wybieracie jeden rodzaj obrażeń zadanych przez atak wyzwalający i zyskujecie odporność 5 na ten rodzaj obrażeń do początku swojej następnej tury. Na 15. poziomie ta utrzymująca się odporność wzrasta z 5 do 10.</p>"
+        },
+        "Effect: Chalice Adept Enabled": {
+            "name": "Efekt: Adept Kielicha aktywowany",
+            "description": "<p>Esencja życiowa przelana z krwi wzmacnia twój kielich. Jeśli ty lub sojusznik w promieniu 30 stóp otrzyma obrażenia kłute lub cięte od trafienia krytycznego wroga lub otrzyma trwałe obrażenia od krwawienia, picie z Kielicha przed końcem następnej tury zapewnia tej rannej istocie większą odnowę, aby nadrobić utracone siły witalne. Po wypiciu, tymczasowe Punkty Wytrzymałości przyznane stworzeniu wzrastają do 2 + twój modyfikator Charyzmy + twój poziom. Po opróżnieniu kielich leczy stworzenie o 5 Punktów Wytrzymałości za każdy posiadany poziom.</p>"
+        },
+        "Effect: Chalice Drained": {
+            "name": "Efekt: Wypicie Kielicha do dna",
+            "description": ""
+        },
+        "Effect: Chalice Intensify Enabled": {
+            "name": "Efekt: Intensyfikacja Kielicha aktywowana",
+            "description": "<p>Twój wzmocniony kielich może zebrać siłę życiową istoty, aby ją wzmocnić. Jeśli uda ci się Atak przeciwko celowi twojego Wykorzystania Podatności, zwiększasz efekt, jeśli ktoś Napije się z Kielicha przed końcem tej tury. Dodaj dodatkową połowę swojego poziomu do tymczasowych PW, jeśli pijący wypije, lub dodaj swój poziom do odzyskanych PW, jeśli pijący opróżni kielich. Ten efekt nie kumuluje się, jeśli trafisz więcej niż jednym Atakiem.</p>"
+        },
+        "Effect: Chalice Temp HP": {
+            "name": "Efekt: Tymcz. PW Kielicha",
+            "description": ""
+        },
+        "Effect: Exploit Vulnerability DC": {
+            "name": "Efekt: ST Wykorzystania Podatności",
+            "description": "<p>Podaj ST Wykorzystania Podatności, aby wykonać przeciwstawny test.</p>",
+            "rules": {
+                "0": {
+                    "label": "ST Wykorzystania Podatności"
+                },
+                "1": {
+                    "label": "Standardowe ST Poziomu"
+                }
+            }
+        },
+        "Effect: Exploit Vulnerability DC (PwoL)": {
+            "name": "Efekt: ST Wykorzystania Podatności (Biegłość bez poziomu)",
+            "description": "<p>Podaj ST Wykorzystania Podatności, aby wykonać przeciwstawny test.</p><p>Dla wariantu Biegłości bez poziomu</p>",
+            "rules": {
+                "0": {
+                    "label": "ST Wykorzystania Podatności"
+                },
+                "1": {
+                    "label": "Standardowe ST Poziomu"
+                }
+            }
+        },
+        "Effect: In Lantern Light (Ally)": {
+            "name": "Efekt: W świetle latarni (Sojusznik)",
+            "description": "<p>Magiczne światło latarni próbuje ujawnić to, co niewidoczne. Ty i twoi sojusznicy znajdujący się w obszarze jasnego światła latarni zyskujecie premię +1 do testów Percepcji wzrokowej, aby zauważyć wszystko, co również znajduje się w jasnym świetle, oraz premię +1 do testów Przywoływania Wiedzy przeciwko istotom znajdującym się w jasnym świetle, ponieważ światło ujawnia ich prawdziwą naturę.</p>",
+            "rules": {
+                "0": {
+                    "label": "W świetle latarni"
+                },
+                "1": {
+                    "label": "W świetle latarni"
+                }
+            }
+        },
+        "Effect: In Lantern Light (Enemy)": {
+            "name": "Efekt: W świetle latarni (Wróg)",
+            "description": ""
+        },
+        "Effect: Intensify Vulnerability (Amulet)": {
+            "name": "Efekt: Zwiększenie Podatności (Amulet)",
+            "description": "<p>Twój amulet odpiera próby skrzywdzenia cię przez to stworzenie. Zyskujesz premię +2 do KP i rzutów obronnych przeciwko celowi twojego Wykorzystania Podatności.</p>"
+        },
+        "Effect: Intensify Vulnerability (Chalice)": {
+            "name": "Efekt: Zwiększenie Podatności (Kielich)",
+            "description": "<p>Twój wzmocniony kielich może zebrać siłę życiową istoty, aby ją wzmocnić. Jeśli uda ci się Atak przeciwko celowi twojego Wykorzystania Podatności, zwiększasz efekt, jeśli ktoś Napije się z Kielicha przed końcem tej tury. Dodaj dodatkową połowę swojego poziomu do tymczasowych PW, jeśli pijący wypije, lub dodaj swój poziom do odzyskanych PW, jeśli pijący opróżni kielich. Ten efekt nie kumuluje się, jeśli trafisz więcej niż jednym Atakiem.</p>"
+        },
+        "Effect: Intensify Vulnerability (Lantern)": {
+            "name": "Efekt: Zwiększenie Podatności (Latarnia)",
+            "description": "<p>Światło twojej latarni rozbłyska i płonie jasno, nie pozostawiając cieni, w których mogą ukrywać się sekrety i wrogowie. Przeciwko celowi twojej umiejętności Wykorzystania Podatności, premie statusowe z korzyści inicjacji latarni wzrastają do +2. Stworzenie otrzymuje karę -2 do testów Oszustwa i Ukrycia, dopóki znajduje się w świetle latarni. Stworzenie nie może być @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W], gdy znajduje się w świetle latarni, choć nadal może potencjalnie stać się @UUID[Compendium. pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC] lub @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf] przy użyciu osłony lub środków innych niż stan przysłonięty.</p>",
+            "rules": {
+                "0": {
+                    "text": "Przeciwko celowi twojej umiejętności Wykorzystania Podatności, premie statusowe z korzyści inicjacji latarni wzrastają do +2. Stworzenie otrzymuje karę -2 do testów Oszustwa i Ukrycia, dopóki znajduje się w świetle latarni. Stworzenie nie może być @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W], gdy znajduje się w świetle latarni, choć nadal może potencjalnie stać się @UUID[Compendium. pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC] lub @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf] przy użyciu osłony lub środków innych niż stan przysłonięty."
+                }
+            }
+        },
+        "Effect: Intensify Vulnerability (Regalia)": {
+            "name": "Efekt: Zwiększenie Podatności (Insygnia)",
+            "description": "<p>Twoje utensylium insygni sprawiają, że z każdym sukcesem wydajesz się bardziej pewny siebie i inspirujący. Za każdym razem, gdy pomyślnie Atakujesz cel swojego Wykorzystania Podatności, wybierz sojusznika, którego widzisz. Sojusznik ten otrzymuje premię +1 do rzutów ataku przeciwko tej istocie do początku twojej następnej tury. Jeśli rzut ataku był trafieniem krytycznym, premia okoliczności wzrasta do +2.</p>",
+            "rules": {
+                "0": {
+                    "text": "Wybierz sojusznika, którego widzisz, aby zyskać premię okoliczności +1 do rzutów ataku przeciwko celowi do początku swojej następnej tury.\n\n@UUID[Compendium.pf2e-thaum-vuln.thaumaturge-effects.Item.gEfHdas8he98C9rR]{Intensyfikacja Insygni: Sukces}"
+                },
+                "1": {
+                    "text": "Wybierz sojusznika, którego widzisz, aby zyskać premię okoliczności +2 do rzutów ataku przeciwko celowi do początku swojej następnej tury.\n\n@UUID[Compendium.pf2e-thaum-vuln.thaumaturge-effects.Item.CGANYKdu4lVXj0nk]{Intensyfikacja Insygnii: Krytyczny sukces}"
+                }
+            }
+        },
+        "Effect: Intensify Vulnerability (Regalia) (critical success)": {
+            "name": "Efekt: Zwiększenie Podatności (Insygnia) (krytyczny sukces)",
+            "description": "<p>premia okoliczności +2 do rzutów ataku przeciwko celowi Taumaturga.</p>",
+            "rules": {
+                "0": {
+                    "label": "Insygnia Zwiększenie Podatności Krytyczny Sukces"
+                }
+            }
+        },
+        "Effect: Intensify Vulnerability (Regalia) (success)": {
+            "name": "Efekt: Zwiększenie Podatności (Insygnia) (sukces)",
+            "description": "<p>premia okoliczności +1 do rzutów ataku przeciwko celowi Taumaturga.</p>",
+            "rules": {
+                "0": {
+                    "label": "Insygnia Zwiększenie Podatności Sukces"
+                }
+            }
+        },
+        "Effect: Intensify Vulnerability (Tome)": {
+            "name": "Efekt: Zwiększenie Podatności (Tom)",
+            "description": "<p>Moc twojego tomu nie tylko odczytuje teraźniejszość stworzenia, ale nawet zapisuje jego przyszłe działania. Kiedy używasz Zwiększenia Podatności, rzuć kostką k20 i odłóż jej wynik na bok. W dowolnym momencie do początku swojej następnej tury możesz użyć odłożonego wyniku k20 do rzutu ataku, aby Atakować cel swojego Wykorzystania Podatności, zamiast rzucać nowym k20; jest to efekt fortuny.</p>",
+            "rules": {
+                "0": {
+                    "label": "Zwiększenie Podatności Utensylium Tomu"
+                }
+            }
+        },
+        "Effect: Intensify Vulnerability (Weapon)": {
+            "name": "Efekt: Zwiększenie Podatności (Broń)",
+            "description": "<p>Broń zostaje przyciągnięta do punktów witalnych przeciwnika niemal z własnej woli. Zyskujesz premię +2 do rzutów ataku przeciwko celowi twojej umiejętności Wykorzystania Podatności.</p>",
+            "rules": {
+                "0": {
+                    "label": "Zwiększenie Podatności Broń"
+                }
+            }
+        },
+        "Effect: Primary EV Target": {
+            "name": "Efekt: Główny cel Wykorzystania Podatności",
+            "description": "<p>Oznacza cel Wykorzystania Podatności</p>"
+        },
+        "Effect: Regalia Aura - Adept": {
+            "name": "Efekt: Aura Insygnii - Adept",
+            "description": "<p>+1 premia statusowa do rzutów obronnych przeciwko zdolnościom mentalnym i +2 premie statusowe do rzutów na obrażenia. +3 do rzutów na obrażenia na 11. poziomie, +4 na 17. poziomie.</p>"
+        },
+        "Effect: Regalia Aura - Initiate": {
+            "name": "Efekt: Aura Insygnii - Inicjacja",
+            "description": "<p>+1 premia do rzutów obronnych przeciwko strachowi.</p>"
+        },
+        "Effect: Regalia Aura - Paragon": {
+            "name": "Efekt: Aura Insygnii - Wzorzec",
+            "description": "<p>+1 premia statusowa do rzutów obronnych przeciwko zdolnościom mentalnym i +2 premie statusowe do rzutów na obrażenia. +3 do rzutów na obrażenia na 11. poziomie, +4 na 17. poziomie.</p>\n<p>Sojusznicy w twojej inspirującej aurze nie są flankowani, chyba że ty również jesteś flankowany. Jeśli jeden z twoich sojuszników w aurze jest niezdarny, osłabiony, przestraszony, ogłupiony lub ma mdłości, kara za stan, jaką otrzymuje twój sojusznik, jest o 1 niższa od wartości stanu, dopóki sojusznik pozostaje w aurze, chyba że ty również jesteś dotknięty tym samym stanem.</p>",
+            "rules": {
+                "2": {
+                    "label": "Taumaturg nie jest flankowany"
+                }
+            }
+        },
+        "Effect: Tome Implement": {
+            "name": "Efekt: Utensylium Tomu",
+            "description": "<p>Utensylia księgi uosabiają utraconą wiedzę i nieziemskią przenikliwość. Choć najczęściej spotykana jest zwietrzała księga, utensylium w postaci księgi mogą mieć tak wiele różnych form, jak wiele jest sposobów na przechowywanie wiedzy, od rzeźbionych glinianych tabliczek po wiązki zawiązanych sznurków. Utensylia ksiąg są powiązane z wróżbiarską talią ksiąg oraz astrologicznymi znakami patrzącego w gwiazdy i podziemnego smoka.</p>\n<h3><strong>Korzyść Nowicjusza</strong></h3>\n<p>Gdy trzymasz tom, na otwartych stronach pojawiają się linijki tekstu, ujawniające przydatne informacje. Gdy trzymasz swoją księgę, zyskujesz premię okoliczności +1 do wszystkich testów umiejętności Przywoływania Wiedzy.</p>\n<p>Podczas codziennych przygotowań możesz zyskać wyszkoloną rangę biegłości w dwóch wybranych przez siebie umiejętnościach, dopóki nie przygotujesz się ponownie. Zachowujesz tę korzyść tak długo, jak księga znajduje się przy tobie, nawet jeśli jej nie trzymasz. Na 3. poziomie stajesz się ekspertem w jednej z umiejętności i wyszkolony w drugiej, a na 5. poziomie stajesz się ekspertem w obu umiejętnościach. Ponieważ te biegłości są tymczasowe, nie można ich użyć jako warunku wstępnego do zwiększenia umiejętności lub stałej opcji postaci, takiej jak atut.</p>\n<h3><strong>Korzyść Adepta</strong></h3>\n<p>Poza korzyściami związanymi z inicjacją, księga zawiera informacje o stworzeniach, które można wykorzystać do ich pokonania. Trzymając tom, na początku swojej tury w każdej rundzie, wykonaj test Przywołania Wiedzy o wybranym stworzeniu, które obserwujesz. Jeśli test się powiedzie, otrzymasz premię okoliczności +1 do następnego rzutu ataku przeciwko tej istocie przed rozpoczęciem następnej tury.</p>\n<p>Kiedy zdobywasz tymczasowe biegłości w umiejętnościach podczas codziennych przygotowań, jedna z nich jest na poziomie biegłości eksperckiej, a druga na poziomie biegłości mistrzowskiej. Na 9. poziomie posiadasz biegłość mistrzowską w obu umiejętnościach.</p>\n<h3><strong>Zwiększenie Podatności</strong></h3>\n<p>Moc twojego tomu nie tylko odczytuje teraźniejszość stworzenia, ale nawet zapisuje jego przyszłe działania. Kiedy używasz Intensyfikacji Podatności, rzuć kostką k20 i odłóż jej wynik na bok. W dowolnym momencie do początku swojej następnej tury możesz użyć odłożonego wyniku k20 do rzutu na atak, aby Atakować cel swojego Wykorzystania Podatności, zamiast rzucać nową k20; jest to efekt szczęścia.</p>\n<h3><strong>Korzyść Wzorca</strong></h3>\n<p>Oprócz innych korzyści, informacje zawarte w tomie ostrzegają o zasadzkach i atakach wrogów. Gdy trzymasz księgę, zawsze możesz wykonać rzut na inicjatywę przeciwko stworzeniom lub nawiedzeniom korzystającym z Wiedzy Ezoterycznej. Jeśli to zrobisz, zyskasz premię +3 do rzutu inicjatywy.</p>\n<p>Premia okoliczności do Przywołania Wiedzy Archiwalnej wynikająca z posiadania tomu wzrasta z +1 do +2. Gdy uda ci się wykonać test Przywołania Wiedzy przyznawany przez korzyść adepta, premia ta ma zastosowanie do wszystkich rzutów na atak, które wykonasz przed rozpoczęciem swojej następnej tury, a nie tylko do następnej. Wreszcie, gdy zdobywasz tymczasowe biegłości w umiejętnościach, obie są legendarne.</p>"
+        },
+        "Esoteric Warden Effect": {
+            "name": "Efekt Ezoterycznego Strażnika",
+            "description": "<p>Kiedy pomyślnie zastosujesz przeciwstawny materiał przeciwko stworzeniu, zabezpieczasz się również przed jego kolejnymi atakami. Gdy powiedzie ci się test na Wykorzystanie Podatności, zyskujesz premię +1 do KP przeciwko następnemu atakowi danej istoty oraz premię +1 do następnego rzutu obronnego przeciwko tej istocie; jeśli odniesiesz krytyczny sukces, premie te wynoszą +2. Możesz uzyskać te bonusy tylko raz dziennie przeciwko konkretnej istocie, a korzyść kończy się, jeśli ponownie Wykorzystasz Podatność.</p>"
+        },
+        "Exploit Mortal Weakness": {
+            "name": "Wykorzystaj Śmiertelną Słabość",
+            "description": ""
+        },
+        "Exploit Personal Antithesis": {
+            "name": "Wykorzystaj Osobistą Antytezę",
+            "description": ""
+        },
+        "Glimpse Vulnerability": {
+            "name": "Dostrzeżenie Słabości",
+            "description": ""
+        },
+        "Glimpse Vulnerability Target": {
+            "name": "Cel Dostrzeżenia Słabości",
+            "description": ""
+        },
+        "Mortal Weakness Target": {
+            "name": "Cel Śmiertelnej Słabości",
+            "description": ""
+        },
+        "Off-Guard (EV Critical Failure)": {
+            "name": "Odsłonięty (Krytyczna Porażka Wykorzystania Podatności)",
+            "description": "<p>Krytyczna porażka spowodowana akcją Wykorzystania Podatności Taumaturga.</p>"
+        },
+        "Personal Antithesis Target": {
+            "name": "Cel Osobistej Antytezy",
+            "description": ""
+        },
+        "Thaumaturge Recall Knowledge": {
+            "name": "Przywołanie Wiedzy Taumaturga",
+            "description": "<p>Dodaje przełączaną opcję rzutu dla akcji Przywołania Wiedzy o Wykorzystaniu Podatności.</p>"
+        },
+        "Tome Adept RK": {
+            "name": "Adept Tomu Przywołanie Wiedzy",
+            "description": "<p>Wykonano test Przywołania Wiedzy Adepta Tomu. W przypadku sukcesu, zaznacza token, który był celem testu.</p>"
+        }
+    },
+    "mapping": {
+        "rules": {
+            "converter": "translateRules",
+            "path": "system.rules"
+        }
+    }
+}

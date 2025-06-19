@@ -1,0 +1,40 @@
+{
+    "label": "Efekty aktywacji przedmiotów",
+    "entries": {
+        "Activation Effect: Douse Fire": {
+            "name": "Efekt aktywacji: Duszący Ogień",
+            "description": "<p>Przyznany przez @UUID[Compendium.pf2e-item-activations.item-activations.Item.STS9lnXLFGYeCVpz]{Aktywacja: Duszący Ogień}</p>\n<p>Odporność 5 na ogień i +1 premia statusowa do KP lub rzutu obronnego przeciwko efektowi ognia wymierzonemu w ciebie; korzyści te kończą się wraz z ustąpieniem efektu ognia.</p>"
+        },
+        "Activation Effect: Echoes of an Eerie Tale": {
+            "name": "Efekt aktywacji: Echa Upiornej Opowieści",
+            "description": "<p>Mgły, szepty i dziwne wgłębienia znikają pod koniec rundy, ale każda istota, która otrzyma obrażenia mentalne od tego efektu, otrzymuje również karę -1 do rzutów obronnych przeciwko efektom z cechą emocji przez 1 minutę.</p>"
+        },
+        "Activation Effect: Empty Death": {
+            "name": "Efekt aktywacji: Pusta Śmierć",
+            "description": "<p>Przyznany przez @UUID[Compendium.pf2e.equipment-srd.QT1jTPlf3ATYUh4I]{Szepty Traw}</p>\n<p><strong>Pusta Śmierć (klątwa, nekromancja, okultyzm)</strong></p>\n<p><strong>Rzut Obronny</strong> @Check[type:will|dc:27|traits:curse,necromancy]</p>\n<p><strong>Efekt</strong> W przypadku aktywacji @UUID[Compendium.pf2e.equipment-srd.QT1jTPlf3ATYUh4I]{Szeptów Traw} i gdy nie jesteś czcicielem Nhimbaloth, stajesz się @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Ogłupiony 2} przez 24 godziny, a twoje myśli wypełnia paranoja, że coś obserwuje cię z drugiej strony śmierci. Jeśli umrzesz pod wpływem Pustej Śmierci, natychmiast staniesz się chaotycznym złym duchem. Co 7 dni od momentu stania się duchem, musisz odnieść sukces w @Check[type:flat|dc:2]— porażka oznacza, że zostałeś pochłonięty przez Nhimbaloth. Istota, której duch zostanie pochłonięty w ten sposób, nie podróżuje do Rzeki Dusz i zostaje całkowicie unicestwiona; taka istota może zostać przywrócona do życia tylko poprzez efekt zaklęcia 10. rangi lub rytuał, taki jak @UUID[Compendium.pf2e.spells-srd.Item.6dDtGIUerazSHIOu]{Życzenie}.</p>"
+        },
+        "Activation Effect: Through the Flames": {
+            "name": "Efekt aktywacji: Przez Płomienie",
+            "description": "<p>Przyznany przez @UUID[Compendium.pf2e-item-activations.item-activations.Item.mBoDXpeUodhvbhpb]{Aktywacja: Przez Płomienie}</p>\n<p>Czerwony kamień szlachetny pierścienia rozbłyska światłem, zapewniając odporność 5 na ogień i premię statusu +1 do KP lub rzutu obronnego przeciwko efektowi ognia skierowanemu przeciwko tobie; korzyści te kończą się, gdy tylko efekt ognia zakończy się.</p>",
+            "rules": {
+                "3": {
+                    "choices": {
+                        "0": {
+                            "label": "KP"
+                        },
+                        "1": {
+                            "label": "Rzut Obronny"
+                        }
+                    },
+                    "prompt": "Wybierz premię +1 do statusu"
+                }
+            }
+        }
+    },
+    "mapping": {
+        "rules": {
+            "converter": "translateRules",
+            "path": "system.rules"
+        }
+    }
+}
