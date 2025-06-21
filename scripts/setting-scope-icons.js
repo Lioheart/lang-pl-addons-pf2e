@@ -12,7 +12,7 @@ Hooks.on("renderSettingsConfig", (settings, htmlEl) => {
   html.find(".form-group").each((_, group) => {
     const $group = $(group);
 
-    const input = $group.find("input[name], select[name], textarea[name]").first();
+    const input = $group.find("input[name], select[name], textarea[name], range-picker[name]").first();
     if (input.length) {
       const id = input.attr("name");
       const setting = game.settings.settings.get(id);

@@ -4,11 +4,11 @@
     "attacksLabel": "Ataki",
     "settings": {
       "enableRuneDescriptions": {
-        "name": "Włącz opisy run w przedmiotach",
+        "name": "Włącz opisy run",
         "hint": "Włącza lub wyłącza automatyczne dodawanie opisów run do przedmiotów."
       },
       "enableAddonTranslations": {
-        "name": "Włącz dodatkowe tłumaczenia modułów",
+        "name": "Włącz tłumaczenia modułów",
         "hint": "Wczytuje dodatkowe tłumaczenia kompendiów."
       },
       "firstTurn": {
@@ -20,12 +20,24 @@
         "hint": "Dodaje obok każdej opcji ikonę 🌍 (World) lub 👤 (Client)."
       },
       "enableJournalStyle": {
-        "name": "Użyj niestandardowego stylu dzienników",
+        "name": "Użyj stylu dzienników",
         "hint": "Włącza alternatywny styl wyglądu dzienników."
       },
       "nonlethalButton": {
         "name": "Przycisk „Nieśmiercionośne”",
         "hint": "Dodaje przycisk w sekcji Ataki, który nakłada efekt nieśmiercionośnego ataku."
+      },
+      "clockSection": {
+        "label": "Ustawienia zegara",
+        "hint": "Opcje dotyczące działania zegara czasu rzeczywistego"
+      },
+      "showClockHUD": {
+        "name": "Pokaż zegar HUD",
+        "hint": "Wyświetla aktualny czas świata gry w górnej części ekranu."
+      },
+      "secondsPerRealSecond": {
+        "name": "Sekundy gry na sekundę realnego czasu",
+        "hint": "Ile sekund upływa w świecie gry na każdą sekundę rzeczywistego czasu (poza walką)."
       }
     },
     "effects": {

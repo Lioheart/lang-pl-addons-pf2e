@@ -16,14 +16,19 @@
     }
   ],
   "esmodules": [
+    "scripts/settings.js",
+    "scripts/module.js",
     "scripts/add-rune-descriptions.js",
     "scripts/begin-combat.js",
     "scripts/setting-scope-icons.js",
     "scripts/toggle-journal-style.js",
     "scripts/nonlethal-button.js",
-    "scripts/settings.js",
-    "scripts/module.js"
+    "scripts/world-time-hud.js"
   ],
+  "templates": [
+    "templates/world-time-display.hbs"
+  ],
+  "styles": ["styles/world-time.css"],
   "languages": [
     {
       "lang": "pl",

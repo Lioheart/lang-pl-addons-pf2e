@@ -20,12 +20,24 @@
         "hint": "Prepends 🌍 (World) or 👤 (Client) icon to each setting entry."
       },
       "enableJournalStyle": {
-        "name": "Use custom journal style",
+        "name": "Use journal style",
         "hint": "Enables a custom journal appearance."
       },
       "nonlethalButton": {
         "name": "Nonlethal Button",
         "hint": "Adds a button in the Attacks section that applies the nonlethal attack effect."
+      },
+      "clockSection": {
+        "label": "Clock Settings",
+        "hint": "Options related to the real-time clock behavior"
+      },
+      "showClockHUD": {
+        "name": "Show Clock HUD",
+        "hint": "Displays the current in-game world time at the top of the screen."
+      },
+      "secondsPerRealSecond": {
+        "name": "Game seconds per real-time second",
+        "hint": "How many seconds pass in the game world for each real-life second (outside combat)."
       }
     },
     "effects": {
