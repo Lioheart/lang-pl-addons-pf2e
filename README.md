@@ -25,3 +25,6 @@ Zmienia sposób wyświetlania dzienników.
 Dodaje przycisk na karcie postaci, umożliwiający użycie nieśmiercionośnych obrażeń każdej broni.
 
 ![obraz](https://github.com/user-attachments/assets/e19aad18-25df-4e32-9ab4-eac019343fc7)
+
+### Automatyzacja czasu gry
+Możliwość włączenia u góry ekranu HUD z czasem gry, który automatyzuje się według ustawień.
