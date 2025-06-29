@@ -29,7 +29,7 @@
       },
       "clockSection": {
         "label": "Clock Settings",
-        "hint": "Options related to the real-time clock behavior"
+        "hint": "Options related to the real-time clock behavior."
       },
       "showClockHUD": {
         "name": "Show Clock HUD",
@@ -55,7 +55,12 @@
       "client": "Client‑scope setting"
     },
     "buttons": {
-      "nonlethal": "Nonlethal"
+      "nonlethal": "Nonlethal",
+      "time": {
+        "minutes": "min",
+        "hours": "hour",
+        "days": "day"
+      }
     }
   }
 }

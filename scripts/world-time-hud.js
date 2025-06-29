@@ -89,10 +89,31 @@ Hooks.once("ready", async () => {
 async function renderWorldTimeHUD() {
   if (document.getElementById("pf2e-world-time-display")) return;
 
-  const html = await renderTemplate("modules/lang-pl-addons-pf2e/templates/world-time-display.hbs");
+  const isGM = game.user.isGM;
+  console.log("renderWorldTimeHUD: isGM =", isGM);
+
+  const html = await renderTemplate("modules/lang-pl-addons-pf2e/templates/world-time-display.hbs", {
+    isGM,
+  });
+
   document.body.insertAdjacentHTML("beforeend", html);
   updateWorldTimeDisplay();
+
+  // Obsługa kliknięć przycisków
+  if (isGM) {
+    document.querySelectorAll(".time-adjust-btn").forEach((btn) => {
+      btn.addEventListener("click", (event) => {
+        const seconds = parseInt(event.currentTarget.dataset.adjust, 10);
+        if (!isNaN(seconds)) {
+          game.time.advance(seconds)
+            .catch(err => console.warn(`${MODULE_ID} | Could not adjust time:`, err))
+            .finally(() => updateWorldTimeDisplay());
+        }
+      });
+    });
+  }
 }
+
 
 async function updateWorldTimeDisplay() {
   const div = document.getElementById("pf2e-world-time-display");
@@ -165,7 +186,17 @@ async function updateWorldTimeDisplay() {
   // Finalny format z erą i nowym układem
   const formatted = `${weekday}, ${day}. ${month} ${year} ${era} — ${hour}:${minute}:${second}`;
 
-  div.textContent = `⏱️ ${formatted}`;
+  const timeText = `${formatted}`;
+
+// Znajdź lub stwórz element tekstowy, nie nadpisuj całego diva
+let timeSpan = div.querySelector(".time-text");
+if (!timeSpan) {
+  timeSpan = document.createElement("span");
+  timeSpan.className = "time-text";
+  div.prepend(timeSpan);
+}
+timeSpan.textContent = timeText;
+
 }
 
 export { updateWorldTimeDisplay };

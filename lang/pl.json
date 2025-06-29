@@ -17,7 +17,7 @@
       },
       "showSettingScopeIcons": {
         "name": "Pokaż ikony zasięgu ustawień",
-        "hint": "Dodaje obok każdej opcji ikonę 🌍 (World) lub 👤 (Client)."
+        "hint": "Dodaje obok każdej opcji ikonę 🌍 (Globalny) lub 👤 (Lokalny)."
       },
       "enableJournalStyle": {
         "name": "Użyj stylu dzienników",
@@ -29,7 +29,7 @@
       },
       "clockSection": {
         "label": "Ustawienia zegara",
-        "hint": "Opcje dotyczące działania zegara czasu rzeczywistego"
+        "hint": "Opcje dotyczące działania zegara czasu rzeczywistego."
       },
       "showClockHUD": {
         "name": "Pokaż zegar HUD",
@@ -55,7 +55,12 @@
       "client": "Ustawienie lokalne (Client)"
     },
     "buttons": {
-      "nonlethal": "Nieśmiercionośne"
+      "nonlethal": "Nieśmiercionośne",
+      "time": {
+        "minutes": "min",
+        "hours": "godz.",
+        "days": "dzień"
+      }
     }
   }
 }

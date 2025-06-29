@@ -5,21 +5,21 @@ export const MODULE_ID = "lang-pl-addons-pf2e";
 export const DEFAULT_RATE = 1;
 
 Hooks.on("renderSettingsConfig", (_app, htmlElement) => {
-  const html = $(htmlElement);
+    const html = $(htmlElement);
 
-  const section = $(`
+    const section = $(`
     <fieldset>
       <legend>${game.i18n.localize(`${MODULE_ID}.settings.clockSection.label`)}</legend>
       <p class="hint">${game.i18n.localize(`${MODULE_ID}.settings.clockSection.hint`)}</p>
     </fieldset>
   `);
 
-  const input      = html.find('input[name="lang-pl-addons-pf2e.showClockHUD"]');
-  const formGroup  = input.closest(".form-group");
+    const input = html.find('input[name="lang-pl-addons-pf2e.showClockHUD"]');
+    const formGroup = input.closest(".form-group");
 
-  if (formGroup.length) {
-    formGroup.before(section);
-  }
+    if (formGroup.length) {
+        formGroup.before(section);
+    }
 });
 
 /**
@@ -112,4 +112,5 @@ export function registerSettings() {
         default: DEFAULT_RATE,
         restricted: true
     });
+
 }
