@@ -10,8 +10,14 @@
         "Award XP": {
             "name": "Nagroda PD"
         },
+        "Change All NPC Display Bars": {
+            "name": "Change All NPC Display Bars"
+        },
         "Create Food": {
             "name": "Stworzenie Żywności"
+        },
+        "Create Teleport Region Pairs": {
+            "name": "Create Teleport Region Pairs"
         },
         "Edit Realm Tile/Drawing": {
             "name": "Edit Realm Tile/Drawing"

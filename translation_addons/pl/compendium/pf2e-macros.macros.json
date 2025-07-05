@@ -25,6 +25,9 @@
         "Disguise self/Shapeshifting": {
             "name": "Przebieranie się/Zmiana kształtu"
         },
+        "Distracting Performance": {
+            "name": "Rozpraszające Występy"
+        },
         "Doff party armor": {
             "name": "Zdejmij zbroję"
         },
@@ -64,6 +67,9 @@
         "Repair for party": {
             "name": "Zreperuj dla drużyny"
         },
+        "Retch": {
+            "name": "Rdza"
+        },
         "Root to Life": {
             "name": "Korzenie Życia"
         },
@@ -90,6 +96,9 @@
         },
         "Target is Off-Guard": {
             "name": "Cel jest Odsłonięty"
+        },
+        "Triggerbrand Salvo": {
+            "name": "Salwa Szaleńca"
         },
         "Twin Feint": {
             "name": "Podwójna Finta"

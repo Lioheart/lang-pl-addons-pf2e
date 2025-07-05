@@ -25,6 +25,9 @@
         "Disguise self/Shapeshifting": {
             "name": "Disguise self/Shapeshifting"
         },
+        "Distracting Performance": {
+            "name": "Distracting Performance"
+        },
         "Doff party armor": {
             "name": "Doff party armor"
         },
@@ -64,6 +67,9 @@
         "Repair for party": {
             "name": "Repair for party"
         },
+        "Retch": {
+            "name": "Retch"
+        },
         "Root to Life": {
             "name": "Root to Life"
         },
@@ -90,6 +96,9 @@
         },
         "Target is Off-Guard": {
             "name": "Target is Off-Guard"
+        },
+        "Triggerbrand Salvo": {
+            "name": "Triggerbrand Salvo"
         },
         "Twin Feint": {
             "name": "Twin Feint"
