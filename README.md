@@ -81,7 +81,7 @@ You can disable the translation to use the features included in this module.
 
 Displays rune descriptions on weapons and armor.
 
-![obraz](https://github.com/user-attachments/assets/45058316-8b7a-4b93-810e-154889a0f6cf)
+![obraz](https://github.com/user-attachments/assets/8027002e-e5dc-41ef-a28f-26ccec2f490c)
 
 ### Module Translations
 
@@ -103,8 +103,10 @@ Changes the visual style of journals.
 
 Adds a button to the character sheet allowing any weapon to be used for nonlethal damage.
 
-![obraz](https://github.com/user-attachments/assets/e19aad18-25df-4e32-9ab4-eac019343fc7)
+![obraz](https://github.com/user-attachments/assets/e17f4bb1-d24b-45b0-abe4-93070c60b319)
 
 ### In-Game Time Automation
 
 Allows enabling a game time HUD at the top of the screen that automatically updates based on settings.
+
+![obraz](https://github.com/user-attachments/assets/109955cf-8bf5-47bb-9cb7-01a25a2f240e)
