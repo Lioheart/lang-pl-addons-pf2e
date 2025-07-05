@@ -27,6 +27,10 @@
         "name": "Przycisk „Nieśmiercionośne”",
         "hint": "Dodaje przycisk w sekcji Ataki, który nakłada efekt nieśmiercionośnego ataku."
       },
+      "enableRealTimeClock": {
+        "name": "Włącz Zegar Czasu Rzeczywistego",
+        "hint": "Włącza interfejs zegara pokazującego rzeczywisty czas w świecie gry."
+      },
       "clockSection": {
         "label": "Ustawienia zegara",
         "hint": "Opcje dotyczące działania zegara czasu rzeczywistego."

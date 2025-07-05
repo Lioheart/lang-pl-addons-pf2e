@@ -78,12 +78,19 @@ class RealTimeClock {
 
 // ---------- bootstrap ----------
 Hooks.once("ready", async () => {
-  game.pf2eRealTimeClock = new RealTimeClock();
-  console.log("%cPF2e Real‑Time Clock | Initialized", "color: green");
-  await renderWorldTimeHUD();
-  Hooks.on("updateWorldTime", updateWorldTimeDisplay);
-});
+  const clockEnabled = game.settings.get("lang-pl-addons-pf2e", "enableRealTimeClock");
+  const hudEnabled = game.settings.get("lang-pl-addons-pf2e", "showClockHUD");
 
+  if (clockEnabled) {
+    game.pf2eRealTimeClock = new RealTimeClock();
+    console.log("%cPF2e Real‑Time Clock | Initialized", "color: green");
+    Hooks.on("updateWorldTime", updateWorldTimeDisplay);
+  }
+
+  if (hudEnabled) {
+    await renderWorldTimeHUD();
+  }
+});
 
 // ---------- Display world time ----------
 async function renderWorldTimeHUD() {
@@ -113,7 +120,6 @@ async function renderWorldTimeHUD() {
     });
   }
 }
-
 
 async function updateWorldTimeDisplay() {
   const div = document.getElementById("pf2e-world-time-display");

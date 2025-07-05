@@ -27,6 +27,10 @@
         "name": "Nonlethal Button",
         "hint": "Adds a button in the Attacks section that applies the nonlethal attack effect."
       },
+      "enableRealTimeClock": {
+        "name": "Enable Real-Time Clock",
+        "hint": "Enables the HUD showing real-time world clock during the game."
+      },
       "clockSection": {
         "label": "Clock Settings",
         "hint": "Options related to the real-time clock behavior."

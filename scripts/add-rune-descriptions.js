@@ -1,5 +1,5 @@
 /* ------------------------------------------------------------------------- */
-/*  Add Property Rune Descriptions – wersja z gotową mapą UUID_RUNES         */
+/*  Add Property Rune Descriptions                                           */
 /* ------------------------------------------------------------------------- */
 import { registerSettings } from "./settings.js";
 
@@ -9,8 +9,7 @@ const FLAG_ORIG = "runeOriginalDescription";
 const START = "<!-- rune-descriptions-start -->";
 const END = "<!-- rune-descriptions-end -->";
 
-/* === MAPA SLUG → UUID ==================================================== */
-/*  (wklejona 1:1 z Twojej wiadomości – przycięta tu do kilku przykładów ;) */
+/* === MAP SLUG → UUID ==================================================== */
 const UUID_RUNES = {
   "antimagic": "Compendium.pf2e.equipment-srd.Item.o02lg3k1RBoFXVFV",
   "ashen": "Compendium.pf2e.equipment-srd.Item.yMEDmJWDPv2i78WO",
@@ -171,13 +170,10 @@ Hooks.on("renderItemSheetPF2e", async (sheet) => {
   const runes = item.system?.runes?.property ?? [];
   const hash = runes.slice().sort().join("|");
 
-  // Pobierz z flag zapisany hash run lub pusty string
   const storedHash = await item.getFlag(MOD_ID, FLAG_HASH) || "";
 
-  // Jeśli hash się nie zmienił, nic nie rób
   if (hash === storedHash) return;
 
-  // Pobierz oryginalny opis (flaga lub obecny opis bez bloków run)
   let originalDesc = await item.getFlag(MOD_ID, FLAG_ORIG);
   if (!originalDesc) {
     const current = item.system.description.value || "";
@@ -185,15 +181,13 @@ Hooks.on("renderItemSheetPF2e", async (sheet) => {
     await item.setFlag(MOD_ID, FLAG_ORIG, originalDesc);
   }
 
-  // Jeśli nie ma run – usuń blok i przywróć oryginalny opis oraz flagi
   if (runes.length === 0) {
     await item.update({ "system.description.value": originalDesc });
     await item.unsetFlag(MOD_ID, FLAG_HASH);
-    console.log(`[${MOD_ID}] Usunięto sekcję run z: ${item.name}`);
+    console.log(`[${MOD_ID}] Removed the rune section from: ${item.name}`);
     return;
   }
 
-  // Generuj fragmenty opisów run na podstawie UUID_RUNES
   const fragments = [];
   const missingRunes = [];
 
@@ -214,17 +208,15 @@ Hooks.on("renderItemSheetPF2e", async (sheet) => {
     fragments.push(`<hr><h3>${doc.name}</h3>${desc}`);
   }
 
-  // Jeśli brakujące runy, pokaż powiadomienie MG i przywróć oryginał
   if (missingRunes.length > 0) {
     if (game.user.isGM) {
-      ui.notifications.warn(`Brak opisu dla run: ${missingRunes.join(", ")}`);
+      ui.notifications.warn(`No description for rune: ${missingRunes.join(", ")}`);
     }
     await item.update({ "system.description.value": originalDesc });
     await item.unsetFlag(MOD_ID, FLAG_HASH);
     return;
   }
 
-  // Złóż nowy blok i zaktualizuj opis + hash run
   const title = game.i18n.localize("lang-pl-addons-pf2e.runeDescriptionsTitle");
   const newBlock = `${START}<h3>${title}</h3>${fragments.join("")}${END}`;
   const finalDesc = originalDesc ? `${originalDesc}\n<hr>\n${newBlock}` : newBlock;
@@ -232,5 +224,5 @@ Hooks.on("renderItemSheetPF2e", async (sheet) => {
   await item.update({ "system.description.value": finalDesc });
   await item.setFlag(MOD_ID, FLAG_HASH, hash);
 
-  console.log(`[${MOD_ID}] Zaktualizowano opisy run w: ${item.name}`);
+  console.log(`[${MOD_ID}] Updated descriptions of runes in: ${item.name}`);
 });
