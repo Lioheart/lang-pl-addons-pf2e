@@ -39,6 +39,9 @@ Dodaje przycisk na karcie postaci, umożliwiający użycie nieśmiercionośnych 
 
 Możliwość włączenia u góry ekranu HUD z czasem gry, który automatyzuje się według ustawień.
 
+![Zrzut ekranu 2025-07-05 191208](https://github.com/user-attachments/assets/c8704dd3-dfad-485d-96b5-76ea9e0930d7)
+
+
 ## Tłumaczenia
 
 - [PF2e Action Support](https://foundryvtt.com/packages/pf2e-action-support/) - Foundry v11
