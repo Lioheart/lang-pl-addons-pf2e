@@ -58,12 +58,15 @@ Hooks.once("ready", () => {
         });
         if (!confirmed) return;
 
-        const newData = duplicate(item.toObject());
-        newData.system ??= {};
-        newData.system.quantity = quantity;
-        await targetActor.createEmbeddedDocuments("Item", [newData]);
+        await sourceActor.transferItemToActor(
+            targetActor,
+            item,
+            quantity,
+            undefined,
+            true,
+            false
+        );
 
-        await item.delete();
 
         await addCoinsFromCompendium(sourceActor, saleCp);
 
