@@ -18,11 +18,13 @@ Hooks.once("ready", () => {
         if (!sourceActor || !targetActor) return originalMoveItem.call(this, event, item, targetActor);
 
         const isMerchant = targetActor.type === "loot" && targetActor.system?.lootSheetType === "Merchant";
-        const isPlayer = sourceActor.hasPlayerOwner;
+        const isParty   = sourceActor.type === "party";
+        const isPlayer  = sourceActor.hasPlayerOwner;
         const isPhysical = item.isOfType?.("physical") || false;
-        if (!isMerchant || !isPlayer || !isPhysical) {
-            return originalMoveItem.call(this, event, item, targetActor);
+        if (!isMerchant || !isPhysical || (!isPlayer && !isParty)) {
+        return originalMoveItem.call(this, event, item, targetActor);
         }
+
 
         const price = item.system.price?.value || {};
         const coinRates = { pp: 1000, gp: 100, sp: 10, cp: 1 };
