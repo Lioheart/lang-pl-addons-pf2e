@@ -46,6 +46,10 @@ Możliwość włączenia u góry ekranu HUD z czasem gry, który automatyzuje si
 
 ![Zrzut ekranu 2025-07-05 191208](https://github.com/user-attachments/assets/c8704dd3-dfad-485d-96b5-76ea9e0930d7)
 
+### Możliwość sprzedaży przedmiotów u kupca
+
+Możliwość sprzedawania przedmiotów u kupca.
+
 
 ## Tłumaczenia
 
@@ -110,3 +114,7 @@ Adds a button to the character sheet allowing any weapon to be used for nonletha
 Allows enabling a game time HUD at the top of the screen that automatically updates based on settings.
 
 ![obraz](https://github.com/user-attachments/assets/109955cf-8bf5-47bb-9cb7-01a25a2f240e)
+
+### Possibility to sell items to a merchant
+
+The ability to sell items to a merchant.
