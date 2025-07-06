@@ -23,7 +23,8 @@
     "scripts/setting-scope-icons.js",
     "scripts/toggle-journal-style.js",
     "scripts/nonlethal-button.js",
-    "scripts/world-time-hud.js"
+    "scripts/world-time-hud.js",
+    "scripts/sell-to-merchant.js"
   ],
   "templates": [
     "templates/world-time-display.hbs"

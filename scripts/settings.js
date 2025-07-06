@@ -123,4 +123,13 @@ export function registerSettings() {
         restricted: true
     });
 
+    game.settings.register(MODULE_ID, "enableSellToMerchant", {
+        name: game.i18n.localize(`${MODULE_ID}.settings.enableSellToMerchant.name`),
+        hint: game.i18n.localize(`${MODULE_ID}.settings.enableSellToMerchant.hint`),
+        scope: "world",
+        config: true,
+        type: Boolean,
+        requiresReload: true,
+        default: true
+    });
 }

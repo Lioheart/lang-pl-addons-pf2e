@@ -42,6 +42,10 @@
       "secondsPerRealSecond": {
         "name": "Game seconds per real-time second",
         "hint": "How many seconds pass in the game world for each real-life second (outside combat)."
+      },
+      "enableSellToMerchant": {
+        "name": "Enable selling to merchants",
+        "hint": "If disabled, the module will not intercept or handle selling items to Merchant loot actors."
       }
     },
     "effects": {
@@ -56,7 +60,8 @@
     },
     "scope": {
       "world": "World‑scope setting",
-      "client": "Client‑scope setting"
+      "client": "Client‑scope setting",
+      "requiresReload": "Requires restart"
     },
     "buttons": {
       "nonlethal": "Nonlethal",
@@ -65,6 +70,12 @@
         "hours": "hour",
         "days": "day"
       }
+    },
+    "sell-to-merchant": {
+      "warnNoPrice": "„{item}” has no price.",
+      "confirmTitle": "Sales confirmation",
+      "confirmContent": "<p>Do you want to sell <strong>{item}</strong> ×{quantity} for <strong>{coins}</strong>?</p>",
+      "chatMessage": "{seller} sold {quantity}× {item} for {coins}."
     }
   }
 }

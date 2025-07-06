@@ -1,7 +1,3 @@
-/**
- * Pokazuje przy każdej pozycji w oknie Ustawień ikonę (🌎/👤) z FontAwesome.
- */
-
 const MOD_ID = "lang-pl-addons-pf2e";
 
 Hooks.on("renderSettingsConfig", (settings, htmlEl) => {
@@ -16,7 +12,7 @@ Hooks.on("renderSettingsConfig", (settings, htmlEl) => {
     if (input.length) {
       const id = input.attr("name");
       const setting = game.settings.settings.get(id);
-      if (setting) addScopeIcon($group, setting.scope ?? "client");
+      if (setting) addScopeIcon($group, setting.scope ?? "client", setting.requiresReload);
       return;
     }
 
@@ -24,7 +20,7 @@ Hooks.on("renderSettingsConfig", (settings, htmlEl) => {
     if (button.length) {
       const key = button.data("key");
       const menu = game.settings.menus.get(key);
-      if (menu) addScopeIcon($group, menu.restricted ? "world" : "client");
+      if (menu) addScopeIcon($group, menu.restricted ? "world" : "client", false);
     }
   });
 });
@@ -32,17 +28,25 @@ Hooks.on("renderSettingsConfig", (settings, htmlEl) => {
 /**
  * @param {JQuery} group - .form-group
  * @param {"client" | "world"} scope
+ * @param {boolean} requiresReload
  */
-/*<i class="fa-duotone fa-solid fa-user" style="--fa-primary-color: #ff8000; --fa-primary-opacity: 0.5; --fa-secondary-color: #ff8000; --fa-secondary-opacity: 1;"></i>
-<i class="fa-duotone fa-solid fa-earth-americas" style="--fa-primary-color: #00ff00; --fa-primary-opacity: 0.8; --fa-secondary-color: #0080ff; --fa-secondary-opacity: 0.7;"></i>*/
-function addScopeIcon(group, scope) {
-  const iconHTML =
+function addScopeIcon(group, scope, requiresReload) {
+  const scopeIcon =
     scope === "world"
-      ? `<i class="fa-duotone fa-solid fa-earth-americas" title="${game.i18n.localize("lang-pl-addons-pf2e.scope.world")}"></i>`
-      : `<i class="fa-duotone fa-solid fa-user" title="${game.i18n.localize("lang-pl-addons-pf2e.scope.client")}"></i>`;
+      ? `<i class="setting-scope-icon fa-duotone fa-solid fa-earth-americas" title="${game.i18n.localize("lang-pl-addons-pf2e.scope.world")}"></i>`
+      : `<i class="setting-scope-icon fa-duotone fa-solid fa-user" title="${game.i18n.localize("lang-pl-addons-pf2e.scope.client")}"></i>`;
+
+  const reloadIcon = requiresReload
+    ? `<i class="setting-reload-icon fa-duotone fa-solid fa-triangle-exclamation" title="${game.i18n.localize("lang-pl-addons-pf2e.requiresReload")}"></i>`
+    : "";
 
   const label = group.find("label").first();
-  if (label.length && !label.find("i.fa-solid").length) {
-    label.prepend(`${iconHTML} `);
+
+  if (label.length) {
+    // Usuń poprzednie nasze ikony
+    label.find(".setting-scope-icon, .setting-reload-icon").remove();
+    // Dodaj ikony na początek
+    label.prepend(`${scopeIcon}${reloadIcon} `);
   }
 }
+
