@@ -23,7 +23,7 @@
         },
         "Angelic Mercy": {
             "name": "Anielskie Miłosierdzie",
-            "description": "<p>Anielska moc twojego eidolona pozwala mu leczyć różne dolegliwości, podobnie jak większość innych potężnych aniołów. Twój eidolon może rzucać <em>@UUID[Compendium.pf2e.spells-srd.Item.SUKaxVZW2TlM8lu0]</em>, <em>@UUID[Compendium.pf2e.spells-srd.Item.EfFMLVbmkBWmzoLF]</em>, i <em>@UUID[Compendium.pf2e.spells-srd.Item.BCuHKrDeJ4eq53M6]</em> raz dziennie jako boskie zaklęcia wrodzone 9. poziomu.</p>"
+            "description": "<p>Anielska moc twojego eidolona pozwala mu leczyć różne dolegliwości, podobnie jak większość innych potężnych aniołów. Twój eidolon może rzucać <em>@UUID[Compendium.pf2e.spells-srd.Item.SUKaxVZW2TlM8lu0]</em>, <em>@UUID[Compendium.pf2e.spells-srd.Item.EfFMLVbmkBWmzoLF]</em>, i <em>@UUID[Compendium.pf2e.spells-srd.Item.BCuHKrDeJ4eq53M6]</em> raz na dzień jako boskie zaklęcia wrodzone 9. poziomu.</p>"
         },
         "Anger Aura": {
             "name": "Aura Gniewu",
@@ -39,7 +39,7 @@
         },
         "Blasphemous Decree": {
             "name": "Bluźnierczy Dekret",
-            "description": "<p>Twój demon wypowiada nieopisane słowa, wijąc się wraz z towarzyszącym mu grzechem. Może rzucić <em>@UUID[Compendium.pf2e.spells-srd.Item.sX2o0HH4RjJDAZ8C]</em> raz dziennie jako zaklęcie 9. poziomu. Dekret ten nie ma na ciebie wpływu, nawet jeśli nie jesteś zły. Na 19. poziomie staje się on dekretem boskim 10. poziomu.</p>"
+            "description": "<p>Twój demon wypowiada nieopisane słowa, wijąc się wraz z towarzyszącym mu grzechem. Może rzucić <em>@UUID[Compendium.pf2e.spells-srd.Item.sX2o0HH4RjJDAZ8C]</em> raz na dzień jako zaklęcie 9. poziomu. Dekret ten nie ma na ciebie wpływu, nawet jeśli nie jesteś zły. Na 19. poziomie staje się on dekretem boskim 10. poziomu.</p>"
         },
         "Breath Weapon": {
             "name": "Zionięcie",

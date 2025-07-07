@@ -27,11 +27,11 @@
         },
         "Ferocious Will": {
             "name": "Dzika Wola",
-            "description": "<p><strong>Częstotliwość</strong> raz dziennie</p><p><strong>Wyzwalacz</strong> Udaje ci się rzut obronny przeciwko magicznemu efektowi mentalnemu;</p><hr /><p><strong>Efekt</strong> Wysyłasz podmuch magicznego sprzężenia zwrotnego do źródła efektu, zadając @Damage[2d6[mental]] obrażenia (@Check[type:will|dc:resolve(@actor.master.attributes.classOrSpellDC.value)|basic] rzut obronny przeciwko twojemu ST klasy lub ST zaklęcia, w zależności od tego, który jest wyższy) tej istocie.</p><p>W przypadku nieudanego rzutu obronnego istota zostaje również @UUID[Compendium.pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Spowolniona 1} na 1 rundę.</p>"
+            "description": "<p><strong>Częstotliwość</strong> raz na dzień</p><p><strong>Wyzwalacz</strong> Udaje ci się rzut obronny przeciwko magicznemu efektowi mentalnemu;</p><hr /><p><strong>Efekt</strong> Wysyłasz podmuch magicznego sprzężenia zwrotnego do źródła efektu, zadając @Damage[2d6[mental]] obrażenia (@Check[type:will|dc:resolve(@actor.master.attributes.classOrSpellDC.value)|basic] rzut obronny przeciwko twojemu ST klasy lub ST zaklęcia, w zależności od tego, który jest wyższy) tej istocie.</p><p>W przypadku nieudanego rzutu obronnego istota zostaje również @UUID[Compendium.pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Spowolniona 1} na 1 rundę.</p>"
         },
         "Fiendish Temptation": {
             "name": "Piekielna Pokusa",
-            "description": "<p><strong>Częstotliwość</strong> raz dziennie.</p><hr /><p><strong>Efekt</strong> Imp oferuje nie-przyjacielowi znajdującemu się w promieniu 15 stóp okazję, dając dobrodziejstwo szczęścia @UUID[Compendium.pf2e-specific-familiars.specific-familiars-effects.Item.0zZUwMQW9bgJ2sZd]{Piekielnej Pokusy}, jeśli istota się zgodzi. Po zaakceptowaniu dobrodziejstwo trwa przez 1 godzinę.</p><p>Raz w ciągu godziny istota może wykonać rzut ataku lub rzut obronny dwa razy i użyć wyższego wyniku.</p><p>Jeśli stworzenie umrze, gdy dobrodziejstwo jest w użyciu, imp decyduje, dokąd powędruje jego dusza. Zazwyczaj sprawia to, że dusza zostaje uwięziona na wieczność w macierzystym planie impa, a istota nie może zostać wskrzeszona, chyba że za pomocą rytuału @UUID[Compendium.pf2e.spells-srd.Item.6dDtGIUerazSHIOu]{Życzenie} lub podobnej magii.</p>"
+            "description": "<p><strong>Częstotliwość</strong> raz na dzień.</p><hr /><p><strong>Efekt</strong> Imp oferuje nie-przyjacielowi znajdującemu się w promieniu 15 stóp okazję, dając dobrodziejstwo szczęścia @UUID[Compendium.pf2e-specific-familiars.specific-familiars-effects.Item.0zZUwMQW9bgJ2sZd]{Piekielnej Pokusy}, jeśli istota się zgodzi. Po zaakceptowaniu dobrodziejstwo trwa przez 1 godzinę.</p><p>Raz w ciągu godziny istota może wykonać rzut ataku lub rzut obronny dwa razy i użyć wyższego wyniku.</p><p>Jeśli stworzenie umrze, gdy dobrodziejstwo jest w użyciu, imp decyduje, dokąd powędruje jego dusza. Zazwyczaj sprawia to, że dusza zostaje uwięziona na wieczność w macierzystym planie impa, a istota nie może zostać wskrzeszona, chyba że za pomocą rytuału @UUID[Compendium.pf2e.spells-srd.Item.6dDtGIUerazSHIOu]{Życzenie} lub podobnej magii.</p>"
         },
         "Forage": {
             "name": "Szperanie",
@@ -71,7 +71,7 @@
         },
         "Spiritual Recall": {
             "name": "Duchowe Przywołanie",
-            "description": "<p><strong>Częstotliwość</strong> raz dziennie</p><p><strong>Wyzwalacz</strong> Atak zmniejszyłby liczbę Punktów Wytrzymałości twojego chowańca do 0</p><hr /><p><strong>Efekt</strong> Używasz więzi, aby uratować swojego chowańca. Chowaniec przeżywa atak z 1 Punktem Wytrzymałości i staje się bezcielesny do końca twojej następnej tury.</p>"
+            "description": "<p><strong>Częstotliwość</strong> raz na dzień</p><p><strong>Wyzwalacz</strong> Atak zmniejszyłby liczbę Punktów Wytrzymałości twojego chowańca do 0</p><hr /><p><strong>Efekt</strong> Używasz więzi, aby uratować swojego chowańca. Chowaniec przeżywa atak z 1 Punktem Wytrzymałości i staje się bezcielesny do końca twojej następnej tury.</p>"
         },
         "Steal Shadow": {
             "name": "Kradzież Cienia",

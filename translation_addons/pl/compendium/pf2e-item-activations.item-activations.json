@@ -132,7 +132,7 @@
         },
         "Activation: Jangling Dash": {
             "name": "Aktywacja: Gwałtowny Zryw",
-            "description": "<p><strong>Aktywacja—Gwałtowny Zryw</strong> <span class=\"action-glyph\">A</span> (koncentracja)</p>\n<p><strong>Częstotliwość</strong>raz dziennie</p>\n<hr />\n<p><strong>Efekt</strong> Zyskujesz premię +10 stóp do szybkości na 1 minutę.</p>"
+            "description": "<p><strong>Aktywacja—Gwałtowny Zryw</strong> <span class=\"action-glyph\">A</span> (koncentracja)</p>\n<p><strong>Częstotliwość</strong>raz na dzień</p>\n<hr />\n<p><strong>Efekt</strong> Zyskujesz premię +10 stóp do szybkości na 1 minutę.</p>"
         },
         "Activation: Light": {
             "name": "Aktywacja: Światło",
@@ -164,7 +164,7 @@
         },
         "Activation: Mystic Enthrallment": {
             "name": "Aktywacja: Mistyczne Zauroczenie",
-            "description": "<p><strong>Aktywacja</strong> </span>2</span> Interakcja (emocja, wizualny)</p>\n<p><strong>Częstotliwość</strong> raz dziennie</p>\n<p><strong>Efekt</strong> Kierujesz światło latarni na jedną żywą istotę w promieniu 60 stóp. Ta istota musi wykonać rzut obronny @Check[type:will|dc:20|traits:emotion,visual], aby oprzeć się efektom światła.</p>\n<hr />\n<p><strong>Krytyczny Sukces</strong> Nie ma to wpływu na istotę i zdaje sobie ona sprawę, że próbowałeś wpłynąć na nią mentalnie za pomocą światła.</p>\n<p><strong>Sukces</strong> Nie ma na nie wpływu, ale myśli, że światło było nieszkodliwe, chyba że zna już prawdziwą naturę latarni.</p>\n<p><strong>Porażka</strong> Stworzenie zostaje @UUID[Compendium.pf2e.conditionitems.AdPVz7rbaVSRxHFg]{Zafascynowane} światłem latarni i pozostaje zafascynowane tak długo, jak długo podtrzymujesz aktywację (do 10 minut).</p>\n<p><strong>Krytyczna Porażka</strong> Jak porażka, ale możesz podtrzymać aktywację przez maksymalnie 1 godzinę. Po zakończeniu efektu zafascynowana istota pamięta wszelkie wydarzenia, które miały miejsce podczas fascynacji, jedynie jako niewyraźne, podobne do snu wspomnienia.</p>"
+            "description": "<p><strong>Aktywacja</strong> </span>2</span> Interakcja (emocja, wizualny)</p>\n<p><strong>Częstotliwość</strong> raz na dzień</p>\n<p><strong>Efekt</strong> Kierujesz światło latarni na jedną żywą istotę w promieniu 60 stóp. Ta istota musi wykonać rzut obronny @Check[type:will|dc:20|traits:emotion,visual], aby oprzeć się efektom światła.</p>\n<hr />\n<p><strong>Krytyczny Sukces</strong> Nie ma to wpływu na istotę i zdaje sobie ona sprawę, że próbowałeś wpłynąć na nią mentalnie za pomocą światła.</p>\n<p><strong>Sukces</strong> Nie ma na nie wpływu, ale myśli, że światło było nieszkodliwe, chyba że zna już prawdziwą naturę latarni.</p>\n<p><strong>Porażka</strong> Stworzenie zostaje @UUID[Compendium.pf2e.conditionitems.AdPVz7rbaVSRxHFg]{Zafascynowane} światłem latarni i pozostaje zafascynowane tak długo, jak długo podtrzymujesz aktywację (do 10 minut).</p>\n<p><strong>Krytyczna Porażka</strong> Jak porażka, ale możesz podtrzymać aktywację przez maksymalnie 1 godzinę. Po zakończeniu efektu zafascynowana istota pamięta wszelkie wydarzenia, które miały miejsce podczas fascynacji, jedynie jako niewyraźne, podobne do snu wspomnienia.</p>"
         },
         "Activation: Nhimbaloth Lore": {
             "name": "Aktywacja: Wiedza o Nhimbaloth",
@@ -182,7 +182,7 @@
         },
         "Activation: Spectral Drain": {
             "name": "Aktywacja: Widmowy Drenaż",
-            "description": "<p><strong>Aktywacja</strong> <span class=\"pf2-icon\">2</span> Interakcja</p>\n<p><strong>Częstotliwość</strong> raz dziennie</p>\n<p><strong>Efekt</strong> Kierujesz światło latarni na jedną bezcielesną nieumarłą istotę w promieniu 60 stóp, aby wyssać z niej część esencji, zadając jej obrażenia @Damage[4d8[vitality]] (rzut obronny @Check[type:will|dc:20|basic:true]).</p>"
+            "description": "<p><strong>Aktywacja</strong> <span class=\"pf2-icon\">2</span> Interakcja</p>\n<p><strong>Częstotliwość</strong> raz na dzień</p>\n<p><strong>Efekt</strong> Kierujesz światło latarni na jedną bezcielesną nieumarłą istotę w promieniu 60 stóp, aby wyssać z niej część esencji, zadając jej obrażenia @Damage[4d8[vitality]] (rzut obronny @Check[type:will|dc:20|basic:true]).</p>"
         },
         "Activation: Strength of Droskar": {
             "name": "Aktywacja: Siła Droskara",

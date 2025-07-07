@@ -178,7 +178,7 @@
         },
         "Esoteric Warden Effect": {
             "name": "Efekt Ezoterycznego Strażnika",
-            "description": "<p>Kiedy pomyślnie zastosujesz przeciwstawny materiał przeciwko stworzeniu, zabezpieczasz się również przed jego kolejnymi atakami. Gdy powiedzie ci się test na Wykorzystanie Podatności, zyskujesz premię +1 do KP przeciwko następnemu atakowi danej istoty oraz premię +1 do następnego rzutu obronnego przeciwko tej istocie; jeśli odniesiesz krytyczny sukces, premie te wynoszą +2. Możesz uzyskać te bonusy tylko raz dziennie przeciwko konkretnej istocie, a korzyść kończy się, jeśli ponownie Wykorzystasz Podatność.</p>"
+            "description": "<p>Kiedy pomyślnie zastosujesz przeciwstawny materiał przeciwko stworzeniu, zabezpieczasz się również przed jego kolejnymi atakami. Gdy powiedzie ci się test na Wykorzystanie Podatności, zyskujesz premię +1 do KP przeciwko następnemu atakowi danej istoty oraz premię +1 do następnego rzutu obronnego przeciwko tej istocie; jeśli odniesiesz krytyczny sukces, premie te wynoszą +2. Możesz uzyskać te bonusy tylko raz na dzień przeciwko konkretnej istocie, a korzyść kończy się, jeśli ponownie Wykorzystasz Podatność.</p>"
         },
         "Exploit Mortal Weakness": {
             "name": "Wykorzystaj Śmiertelną Słabość",

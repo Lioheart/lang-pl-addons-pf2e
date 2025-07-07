@@ -69,10 +69,10 @@ Możliwość sprzedawania przedmiotów u kupca.
 - [PF2e Summons Helper](https://foundryvtt.com/packages/pf2e-summons-helper/) - Foundry v13
 - [PF2e Initiative Effect](https://foundryvtt.com/packages/pf2e-initiative-effect/) - Foundry v13
 - [Pf2e Variant Cantrips](https://foundryvtt.com/packages/pf2e-variant-cantrips/) - Foundry v12
+- [PF2e Relics](https://foundryvtt.com/packages/pf2e-relics/) - Foundry v12
 
 ### W trakcie opracowywania
 
-- [PF2e Relics](https://foundryvtt.com/packages/pf2e-relics/) - Foundry v12
 - [PF2e - Kingdom Building, Camping & Weather](https://foundryvtt.com/packages/pf2e-kingmaker-tools/) - Foundry v13
 
 ---

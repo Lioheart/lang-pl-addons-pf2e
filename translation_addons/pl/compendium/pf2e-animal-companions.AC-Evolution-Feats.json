@@ -113,7 +113,7 @@
         },
         "Magical Adept (CC)": {
             "name": "Magiczny Adept (CC)",
-            "description": "<p>Twój eidolon zyskuje więcej magii. Wybierz jedno zaklęcie 2. poziomu i jedno zaklęcie 1. poziomu z tradycji twojego eidolona. Twój eidolon może rzucać je raz dziennie jako zaklęcia wrodzone. Na każdym parzystym poziomie po zdobyciu tego atutu twój eidolon może zamienić jedno z tych zaklęć wrodzonych na nowe zaklęcie wrodzone o co najmniej 2 poziomy niższe niż twoja komórka zaklęć na najwyższym poziomie.</p>",
+            "description": "<p>Twój eidolon zyskuje więcej magii. Wybierz jedno zaklęcie 2. poziomu i jedno zaklęcie 1. poziomu z tradycji twojego eidolona. Twój eidolon może rzucać je raz na dzień jako zaklęcia wrodzone. Na każdym parzystym poziomie po zdobyciu tego atutu twój eidolon może zamienić jedno z tych zaklęć wrodzonych na nowe zaklęcie wrodzone o co najmniej 2 poziomy niższe niż twoja komórka zaklęć na najwyższym poziomie.</p>",
             "gmNote": "",
             "prerequisites": [
                 {
@@ -123,7 +123,7 @@
         },
         "Magical Master (CC)": {
             "name": "Mistrz Magii (CC)",
-            "description": "<p>Twój eidolon zyskuje szereg zaklęć niższej rangi. Wybierz zaklęcie wrodzone tradycji twojego eidolona z każdej rangi zaklęć od 1 do 7, w której twój eidolon nie ma obecnie zaklęcia wrodzonego od Magicznego Adepta. Twój eidolon może rzucić każde z nich raz dziennie jako zaklęcie wrodzone.</p>\n<p>Możesz wymieniać te zaklęcia na każdym równym poziomie, ale twój eidolon nigdy nie może znać więcej niż jednego zaklęcia z każdej rangi od 1 do 7</p>",
+            "description": "<p>Twój eidolon zyskuje szereg zaklęć niższej rangi. Wybierz zaklęcie wrodzone tradycji twojego eidolona z każdej rangi zaklęć od 1 do 7, w której twój eidolon nie ma obecnie zaklęcia wrodzonego od Magicznego Adepta. Twój eidolon może rzucić każde z nich raz na dzień jako zaklęcie wrodzone.</p>\n<p>Możesz wymieniać te zaklęcia na każdym równym poziomie, ale twój eidolon nigdy nie może znać więcej niż jednego zaklęcia z każdej rangi od 1 do 7</p>",
             "gmNote": "",
             "prerequisites": [
                 {
