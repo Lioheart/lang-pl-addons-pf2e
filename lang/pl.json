@@ -36,7 +36,7 @@
         "hint": "Opcje dotyczące działania zegara czasu rzeczywistego."
       },
       "showClockHUD": {
-        "name": "Pokaż zegar HUD",
+        "name": "Pokaż HUD zegara",
         "hint": "Wyświetla aktualny czas świata gry w górnej części ekranu."
       },
       "secondsPerRealSecond": {
