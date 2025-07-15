@@ -1,13 +1,16 @@
 .pf2e-world-time-display {
   position: absolute;
-  top: 5px;
+  top: 5px; 
   left: 50%;
-  transform: translateX(-50%);
   z-index: 1000;
   padding: 2px 8px;
   border-radius: 8px;
   font-family: var(--font-body);
-  pointer-events: none;
+  pointer-events: auto;
+  user-select: none;
+  cursor: move;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+  transition: background 0.2s ease;
   min-height: auto;
 }
 

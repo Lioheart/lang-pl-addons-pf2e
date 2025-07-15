@@ -1,4 +1,9 @@
 import { MODULE_ID, DEFAULT_RATE } from "./settings.js";
+import { registerClockPositionSettings } from "./settings.js";
+
+Hooks.once("init", () => {
+  registerClockPositionSettings();
+});
 
 class RealTimeClock {
   constructor() {
@@ -39,15 +44,12 @@ class RealTimeClock {
     this._advanceWorldTime(seconds);
   }
 
-
   // ---------- world‑clock helpers ----------
   _advanceWorldTime(seconds) {
     game.time.advance(seconds)
       .catch(err => console.warn(`${MODULE_ID} | Could not advance time:`, err))
       .finally(() => updateWorldTimeDisplay());
   }
-
-
 
   // ---------- Foundry hooks ----------
   _registerHooks() {
@@ -56,7 +58,6 @@ class RealTimeClock {
     Hooks.on("updateCombat", (combat, changed) => {
       if (!this.isPrimary) return;
 
-      // Aktualizuj flagę w oparciu o aktualny status walki
       this._combatActive = combat.started;
 
       if (!this._combatActive) return;
@@ -106,7 +107,6 @@ async function renderWorldTimeHUD() {
   document.body.insertAdjacentHTML("beforeend", html);
   updateWorldTimeDisplay();
 
-  // Obsługa kliknięć przycisków
   if (isGM) {
     document.querySelectorAll(".time-adjust-btn").forEach((btn) => {
       btn.addEventListener("click", (event) => {
@@ -119,6 +119,48 @@ async function renderWorldTimeHUD() {
       });
     });
   }
+
+  const position = game.settings.get(MODULE_ID, "clockPosition") || { top: 100, left: 100 };
+  const div = document.getElementById("pf2e-world-time-display");
+  div.style.top = `${position.top}px`;
+  div.style.left = `${position.left}px`;
+
+  makeDraggable(div);
+
+}
+
+function makeDraggable(element) {
+  let isDragging = false;
+  let offsetX = 0;
+  let offsetY = 0;
+
+  element.addEventListener("mousedown", (e) => {
+    if (e.button !== 0) return;
+    isDragging = true;
+    offsetX = e.clientX - element.offsetLeft;
+    offsetY = e.clientY - element.offsetTop;
+    document.body.style.userSelect = "none";
+  });
+
+  document.addEventListener("mousemove", (e) => {
+    if (!isDragging) return;
+    const left = e.clientX - offsetX;
+    const top = e.clientY - offsetY;
+    element.style.left = `${left}px`;
+    element.style.top = `${top}px`;
+  });
+
+  document.addEventListener("mouseup", (e) => {
+    if (!isDragging) return;
+    isDragging = false;
+    document.body.style.userSelect = "";
+
+    const newPosition = {
+      left: parseInt(element.style.left, 10),
+      top: parseInt(element.style.top, 10),
+    };
+    game.settings.set(MODULE_ID, "clockPosition", newPosition);
+  });
 }
 
 async function updateWorldTimeDisplay() {
@@ -137,11 +179,9 @@ async function updateWorldTimeDisplay() {
   const dt = wc.worldTime; // Luxon DateTime
   const dateTheme = wc.dateTheme;
 
-  // Oblicz poprawiony rok
   const yearOffset = CONFIG.PF2E.worldClock[dateTheme]?.yearOffset ?? 0;
   const year = dt.year + yearOffset;
 
-  // Pobierz erę
   let era = "";
   switch (dateTheme) {
     case "AR":
@@ -157,7 +197,6 @@ async function updateWorldTimeDisplay() {
 
   const day = dt.day;
 
-  // Nazwa miesiąca
   let month;
   switch (dateTheme) {
     case "AR":
@@ -171,7 +210,6 @@ async function updateWorldTimeDisplay() {
       month = dt.monthLong;
   }
 
-  // Nazwa dnia tygodnia
   let weekday;
   switch (dateTheme) {
     case "AR":
@@ -189,19 +227,17 @@ async function updateWorldTimeDisplay() {
   const minute = String(dt.minute).padStart(2, "0");
   const second = String(dt.second).padStart(2, "0");
 
-  // Finalny format z erą i nowym układem
   const formatted = `${weekday}, ${day}. ${month} ${year} ${era} — ${hour}:${minute}:${second}`;
 
   const timeText = `${formatted}`;
 
-// Znajdź lub stwórz element tekstowy, nie nadpisuj całego diva
-let timeSpan = div.querySelector(".time-text");
-if (!timeSpan) {
-  timeSpan = document.createElement("span");
-  timeSpan.className = "time-text";
-  div.prepend(timeSpan);
-}
-timeSpan.textContent = timeText;
+  let timeSpan = div.querySelector(".time-text");
+  if (!timeSpan) {
+    timeSpan = document.createElement("span");
+    timeSpan.className = "time-text";
+    div.prepend(timeSpan);
+  }
+  timeSpan.textContent = timeText;
 
 }
 

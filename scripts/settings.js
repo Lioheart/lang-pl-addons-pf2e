@@ -25,6 +25,18 @@ export const DEFAULT_RATE = 1;
 /**
  * Rejestruje wszystkie ustawienia modułu.
  */
+
+export function registerClockPositionSettings() {
+  game.settings.register(MODULE_ID, "clockPosition", {
+    name: "Clock Position",
+    scope: "client",
+    config: false,
+    type: Object,
+    default: { top: 5, left: 100 },
+  });
+}
+
+
 export function registerSettings() {
     game.settings.register(MODULE_ID, "enableRuneDescriptions", {
         name: game.i18n.localize(`${MODULE_ID}.settings.enableRuneDescriptions.name`),
