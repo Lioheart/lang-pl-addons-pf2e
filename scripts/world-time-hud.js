@@ -120,10 +120,17 @@ async function renderWorldTimeHUD() {
     });
   }
 
-  const position = game.settings.get(MODULE_ID, "clockPosition") || { top: 100, left: 100 };
+  const position = game.settings.get(MODULE_ID, "clockPosition") || { top: 5, left: "50%" };
   const div = document.getElementById("pf2e-world-time-display");
   div.style.top = `${position.top}px`;
-  div.style.left = `${position.left}px`;
+
+  if (typeof position.left === "number") {
+    div.style.left = `${position.left}px`;
+    div.style.transform = "";
+  } else if (position.left === "50%") {
+    div.style.left = "50%";
+    div.style.transform = "translateX(-50%)";
+  }
 
   makeDraggable(div);
 
@@ -156,9 +163,12 @@ function makeDraggable(element) {
     document.body.style.userSelect = "";
 
     const newPosition = {
-      left: parseInt(element.style.left, 10),
       top: parseInt(element.style.top, 10),
+      left: element.style.left.endsWith("%")
+        ? element.style.left
+        : parseInt(element.style.left, 10),
     };
+
     game.settings.set(MODULE_ID, "clockPosition", newPosition);
   });
 }
@@ -238,7 +248,6 @@ async function updateWorldTimeDisplay() {
     div.prepend(timeSpan);
   }
   timeSpan.textContent = timeText;
-
 }
 
 export { updateWorldTimeDisplay };

@@ -32,7 +32,7 @@ export function registerClockPositionSettings() {
     scope: "client",
     config: false,
     type: Object,
-    default: { top: 5, left: 100 },
+    default: { top: 5, left: "50%" },
   });
 }
 

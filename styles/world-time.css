@@ -37,3 +37,9 @@
   color: black;
 }
 
+.calendar-popup {
+  max-height: 300px;
+  overflow: hidden;
+  font-size: 0.95em;
+}
+
