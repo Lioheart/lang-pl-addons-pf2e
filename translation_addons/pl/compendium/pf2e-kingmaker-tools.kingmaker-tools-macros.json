@@ -2,7 +2,7 @@
     "label": "Kingmaker Tools - Makra",
     "entries": {
         "Advance/Retract to Time of Day": {
-            "name": "Advance/Retract to Time of Day"
+            "name": "Przybliżanie/Oddalanie do Pory Dnia"
         },
         "Award Hero Points": {
             "name": "Przyznaj Punkty Bohaterstwa"
@@ -11,52 +11,52 @@
             "name": "Nagroda PD"
         },
         "Change All NPC Display Bars": {
-            "name": "Change All NPC Display Bars"
+            "name": "Zmień Wszystkie Paski BN "
         },
         "Create Food": {
             "name": "Stworzenie Żywności"
         },
         "Create Teleport Region Pairs": {
-            "name": "Create Teleport Region Pairs"
+            "name": "Tworzenie Par Regionów Teleportacji"
         },
         "Edit Realm Tile/Drawing": {
-            "name": "Edit Realm Tile/Drawing"
+            "name": "Edycja Kafelka/Rysunku Królestwa"
         },
         "Edit Structure Rules": {
-            "name": "Edit Structure Rules"
+            "name": "Edycja zasad struktury"
         },
         "Reset Hero Points": {
             "name": "Zresetuj Punkty Bohaterskie"
         },
         "Roll Actor Skill Check": {
-            "name": "Roll Actor Skill Check"
+            "name": "Rzuć test umiejętności aktora"
         },
         "Roll Perception Exploration": {
-            "name": "Roll Perception Exploration"
+            "name": "Rzuć Percepcją na eksplorację"
         },
         "Roll Stealth Exploration": {
-            "name": "Roll Stealth Exploration"
+            "name": "Roll Ukryciem na eksplorację"
         },
         "Roll Weather": {
             "name": "Rzuć na pogodę"
         },
         "Scene Weather Settings": {
-            "name": "Scene Weather Settings"
+            "name": "Ustawienia pogody dla sceny"
         },
         "Set Combat Playlist": {
-            "name": "Set Combat Playlist"
+            "name": "Ustaw listę odtwarzania w walce"
         },
         "Set Current Weather": {
-            "name": "Set Current Weather"
+            "name": "Ustaw bieżącą pogodę"
         },
         "Subsist: Provisions": {
-            "name": "Subsist: Provisions"
+            "name": "Utrzymanie się: Zaprowiantowanie"
         },
         "Toggle Combat Tracks": {
-            "name": "Toggle Combat Tracks"
+            "name": "Przełączanie ścieżek bojowych"
         },
         "Toggle Shelter from Weather": {
-            "name": "Toggle Shelter from Weather"
+            "name": "Przełączanie schronienia przed warunkami pogodowymi"
         },
         "Toggle Weather": {
             "name": "Przełącznik pogody"

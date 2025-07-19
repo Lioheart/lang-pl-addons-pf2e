@@ -1,0 +1,14 @@
+{
+    "label": "Alchemist Duct Tape - Makra",
+    "entries": {
+        "Quick Alchemy": {
+            "name": "Szybka Alchemia"
+        },
+        "Remove Lower Level Formulas": {
+            "name": "Usuń formuły niższego poziomu"
+        },
+        "Update Formulas": {
+            "name": "Aktualizacja formuł"
+        }
+    }
+}

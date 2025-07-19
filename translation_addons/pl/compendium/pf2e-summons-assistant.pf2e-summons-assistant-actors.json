@@ -1,0 +1,243 @@
+{
+    "label": "Pf2E Summons Assistant - Aktorzy",
+    "folders": {
+        "Elemental Herald": "Żywiołowy Zwiastun",
+        "Deific Herald": "Zwiastun Bóstwa",
+        "Incarnate": "Inkarnacja",
+        "Ancient Fleshforged": "Starożytny z Kuźni Ciał",
+        "Kaiju": "Kaiju",
+        "Light": "Światło",
+        "Pf2e Summons Assistant": "Pf2e Summons Assistant",
+        "Special": "Specjalne"
+    },
+    "entries": {
+        "(Arrive)": {
+            "name": "(Przybycie)"
+        },
+        "(Depart)": {
+            "name": "(Odejście)"
+        },
+        "Advantageous Roots (Arrive)": {
+            "name": "Korzystne Korzenie (Przybycie)"
+        },
+        "Agmazar the Star Titan": {
+            "name": "Agmazar, Gwiezdny Tytan",
+            "publicNotes": "<p>Na krótko wyczarowujesz kaiju, masywnego, szalejącego potwora o wyjątkowej nazwie i legendarnej reputacji. Powstaje on ze swojego zacisznego legowiska, aby unicestwić twoich wrogów. Przywołane kaiju zajmuje przestrzeń Ogromnego stworzenia.</p>"
+        },
+        "Agyra, the Forever Storm": {
+            "name": "Agyra, Wieczna Burza",
+            "publicNotes": "<p>Na krótko wyczarowujesz kaiju, masywnego, szalejącego potwora o wyjątkowej nazwie i legendarnej reputacji. Powstaje on ze swojego zacisznego legowiska, aby unicestwić twoich wrogów. Przywołane kaiju zajmuje przestrzeń Ogromnego stworzenia.</p>"
+        },
+        "Aura of Redemption (Arrive)": {
+            "name": "Aura Odkupienia (Przybycie)"
+        },
+        "Aura of Retribution (Arrive)": {
+            "name": "Aura Zemsty (Przybycie)"
+        },
+        "Bezravnis, the Inferno Below": {
+            "name": "Bezravnis, Piekło Poniżej",
+            "publicNotes": "<p>Na krótko wyczarowujesz kaiju, masywnego, szalejącego potwora o wyjątkowej nazwie i legendarnej reputacji. Powstaje on ze swojego zacisznego legowiska, aby unicestwić twoich wrogów. Przywołane kaiju zajmuje przestrzeń Ogromnego stworzenia.</p>"
+        },
+        "Bone Breaker": {
+            "name": "Łamacz Kości"
+        },
+        "Cataclysmic Deluge (Depart)": {
+            "name": "Potop Kataklizmów (Odejście)"
+        },
+        "Deific Herald (Chaotic Evil)": {
+            "name": "Zwiastun Bóstwa (Chaotyczny Zły)",
+            "publicNotes": "<p>Twoja wiara jest wystarczająco silna, aby na krótko przywołać bezpośredniego przedstawiciela twojego bóstwa, takiego jak zwiastun bóstwa. Zwiastun zajmuje przestrzeń Wielkiego stworzenia i ma szybkość 60 stóp. Efekty tego zaklęcia zależą od ustawienia twojego bóstwa.</p>"
+        },
+        "Deific Herald (Chaotic Good)": {
+            "name": "Zwiastun Bóstwa (Chaotyczny Dobry)",
+            "publicNotes": "<p>Twoja wiara jest wystarczająco silna, aby na krótko przywołać bezpośredniego przedstawiciela twojego bóstwa, takiego jak zwiastun bóstwa. Zwiastun zajmuje przestrzeń Wielkiego stworzenia i ma szybkość 60 stóp. Efekty tego zaklęcia zależą od ustawienia twojego bóstwa.</p>"
+        },
+        "Deific Herald (Chaotic Neutral)": {
+            "name": "Zwiastun Bóstwa (Chaotyczny Neutralny)",
+            "publicNotes": "<p>Twoja wiara jest wystarczająco silna, aby na krótko przywołać bezpośredniego przedstawiciela twojego bóstwa, takiego jak zwiastun bóstwa. Zwiastun zajmuje przestrzeń Wielkiego stworzenia i ma szybkość 60 stóp. Efekty tego zaklęcia zależą od ustawienia twojego bóstwa.</p>"
+        },
+        "Deific Herald (Lawful Evil)": {
+            "name": "Zwiastun Bóstwa (Praworządny Zły)",
+            "publicNotes": "<p>Twoja wiara jest wystarczająco silna, aby na krótko przywołać bezpośredniego przedstawiciela twojego bóstwa, takiego jak zwiastun bóstwa. Zwiastun zajmuje przestrzeń Wielkiego stworzenia i ma szybkość 60 stóp. Efekty tego zaklęcia zależą od ustawienia twojego bóstwa.</p>"
+        },
+        "Deific Herald (Lawful Good)": {
+            "name": "Zwiastun Bóstwa (Praworządny Dobry)",
+            "publicNotes": "<p>Twoja wiara jest wystarczająco silna, aby na krótko przywołać bezpośredniego przedstawiciela twojego bóstwa, takiego jak zwiastun bóstwa. Zwiastun zajmuje przestrzeń Wielkiego stworzenia i ma szybkość 60 stóp. Efekty tego zaklęcia zależą od ustawienia twojego bóstwa.</p>"
+        },
+        "Deific Herald (Lawful Neutral)": {
+            "name": "Zwiastun Bóstwa (Praworządny Neutralny)",
+            "publicNotes": "<p>Twoja wiara jest wystarczająco silna, aby na krótko przywołać bezpośredniego przedstawiciela twojego bóstwa, takiego jak zwiastun bóstwa. Zwiastun zajmuje przestrzeń Wielkiego stworzenia i ma szybkość 60 stóp. Efekty tego zaklęcia zależą od ustawienia twojego bóstwa.</p>"
+        },
+        "Deific Herald (Neutral Evil)": {
+            "name": "Zwiastun Bóstwa (Neutralny Zły)",
+            "publicNotes": "<p>Twoja wiara jest wystarczająco silna, aby na krótko przywołać bezpośredniego przedstawiciela twojego bóstwa, takiego jak zwiastun bóstwa. Zwiastun zajmuje przestrzeń Wielkiego stworzenia i ma szybkość 60 stóp. Efekty tego zaklęcia zależą od ustawienia twojego bóstwa.</p>"
+        },
+        "Deific Herald (Neutral Good)": {
+            "name": "Zwiastun Bóstwa (Neutralny Dobry)",
+            "publicNotes": "<p>Twoja wiara jest wystarczająco silna, aby na krótko przywołać bezpośredniego przedstawiciela twojego bóstwa, takiego jak zwiastun bóstwa. Zwiastun zajmuje przestrzeń Wielkiego stworzenia i ma szybkość 60 stóp. Efekty tego zaklęcia zależą od ustawienia twojego bóstwa.</p>"
+        },
+        "Deific Herald (Neutral)": {
+            "name": "Zwiastun Bóstwa (Prawdziwie Neutralny)",
+            "publicNotes": "<p>Twoja wiara jest wystarczająco silna, aby na krótko przywołać bezpośredniego przedstawiciela twojego bóstwa, takiego jak zwiastun bóstwa. Zwiastun zajmuje przestrzeń Wielkiego stworzenia i ma szybkość 60 stóp. Efekty tego zaklęcia zależą od ustawienia twojego bóstwa.</p>"
+        },
+        "Detonate Mine": {
+            "name": "Detonacja Miny",
+            "rules": {
+                "0": {
+                    "label": "Modyfikacja obrażeń"
+                },
+                "3": {
+                    "label": "Krytyczna Eksplozja"
+                }
+            }
+        },
+        "Dire Foresight (Depart)": {
+            "name": "Mroczna Dalekowzroczność (Odejście)"
+        },
+        "Ebeshra, the Winged Razor": {
+            "name": "Ebeshra, Skrzydlata Brzytwa",
+            "publicNotes": "<p>Na krótko wyczarowujesz kaiju, masywnego, szalejącego potwora o wyjątkowej nazwie i legendarnej reputacji. Powstaje on ze swojego zacisznego legowiska, aby unicestwić twoich wrogów. Przywołane kaiju zajmuje przestrzeń Ogromnego stworzenia.</p>"
+        },
+        "Elemental Herald (Air)": {
+            "name": "Żywiołowy Zwiastun (Powietrze)",
+            "publicNotes": "<p>Twoja medytacja w różnych planach żywiołów łączy cię z nimi głęboko, a to połączenie pozwala ci przywołać zwiastuna władcy żywiołów. Zwiastun przybywa w postaci klęski żywiołowej skoncentrowanej na twoich wrogach. Zwiastun zajmuje przestrzeń Wielkiego stworzenia. Kiedy rzucasz to zaklęcie, wybierz jednego z poniższych heroldów żywiołów do przywołania; jeśli jesteś boskim czarodziejem, który czci władcę żywiołów, musisz wybrać opcję odpowiadającą żywiołowi twojego bóstwa. To zaklęcie zyskuje cechę (powietrze, ziemia, ogień, metal, woda lub drewno) odpowiadającą wybranemu żywiołowi.</p>"
+        },
+        "Elemental Herald (Earth)": {
+            "name": "Żywiołowy Zwiastun (Ziemia)",
+            "publicNotes": "<p>Twoja medytacja w różnych planach żywiołów łączy cię z nimi głęboko, a to połączenie pozwala ci przywołać zwiastuna władcy żywiołów. Zwiastun przybywa w postaci klęski żywiołowej skoncentrowanej na twoich wrogach. Zwiastun zajmuje przestrzeń Wielkiego stworzenia. Kiedy rzucasz to zaklęcie, wybierz jednego z poniższych heroldów żywiołów do przywołania; jeśli jesteś boskim czarodziejem, który czci władcę żywiołów, musisz wybrać opcję odpowiadającą żywiołowi twojego bóstwa. To zaklęcie zyskuje cechę (powietrze, ziemia, ogień, metal, woda lub drewno) odpowiadającą wybranemu żywiołowi.</p>"
+        },
+        "Elemental Herald (Fire)": {
+            "name": "Żywiołowy Zwiastun (Ogień)",
+            "publicNotes": "<p>Twoja medytacja w różnych planach żywiołów łączy cię z nimi głęboko, a to połączenie pozwala ci przywołać zwiastuna władcy żywiołów. Zwiastun przybywa w postaci klęski żywiołowej skoncentrowanej na twoich wrogach. Zwiastun zajmuje przestrzeń Wielkiego stworzenia. Kiedy rzucasz to zaklęcie, wybierz jednego z poniższych heroldów żywiołów do przywołania; jeśli jesteś boskim czarodziejem, który czci władcę żywiołów, musisz wybrać opcję odpowiadającą żywiołowi twojego bóstwa. To zaklęcie zyskuje cechę (powietrze, ziemia, ogień, metal, woda lub drewno) odpowiadającą wybranemu żywiołowi.</p>"
+        },
+        "Elemental Herald (Metal)": {
+            "name": "Żywiołowy Zwiastun (Metal)",
+            "publicNotes": "<p>Twoja medytacja w różnych planach żywiołów łączy cię z nimi głęboko, a to połączenie pozwala ci przywołać zwiastuna władcy żywiołów. Zwiastun przybywa w postaci klęski żywiołowej skoncentrowanej na twoich wrogach. Zwiastun zajmuje przestrzeń Wielkiego stworzenia. Kiedy rzucasz to zaklęcie, wybierz jednego z poniższych heroldów żywiołów do przywołania; jeśli jesteś boskim czarodziejem, który czci władcę żywiołów, musisz wybrać opcję odpowiadającą żywiołowi twojego bóstwa. To zaklęcie zyskuje cechę (powietrze, ziemia, ogień, metal, woda lub drewno) odpowiadającą wybranemu żywiołowi.</p>"
+        },
+        "Elemental Herald (Water)": {
+            "name": "Żywiołowy Zwiastun (Woda)",
+            "publicNotes": "<p>Twoja medytacja w różnych planach żywiołów łączy cię z nimi głęboko, a to połączenie pozwala ci przywołać zwiastuna władcy żywiołów. Zwiastun przybywa w postaci klęski żywiołowej skoncentrowanej na twoich wrogach. Zwiastun zajmuje przestrzeń Wielkiego stworzenia. Kiedy rzucasz to zaklęcie, wybierz jednego z poniższych heroldów żywiołów do przywołania; jeśli jesteś boskim czarodziejem, który czci władcę żywiołów, musisz wybrać opcję odpowiadającą żywiołowi twojego bóstwa. To zaklęcie zyskuje cechę (powietrze, ziemia, ogień, metal, woda lub drewno) odpowiadającą wybranemu żywiołowi.</p>"
+        },
+        "Elemental Herald (Wood)": {
+            "name": "Żywiołowy Zwiastun (Drewno)",
+            "publicNotes": "<p>Twoja medytacja w różnych planach żywiołów łączy cię z nimi głęboko, a to połączenie pozwala ci przywołać zwiastuna władcy żywiołów. Zwiastun przybywa w postaci klęski żywiołowej skoncentrowanej na twoich wrogach. Zwiastun zajmuje przestrzeń Wielkiego stworzenia. Kiedy rzucasz to zaklęcie, wybierz jednego z poniższych heroldów żywiołów do przywołania; jeśli jesteś boskim czarodziejem, który czci władcę żywiołów, musisz wybrać opcję odpowiadającą żywiołowi twojego bóstwa. To zaklęcie zyskuje cechę (powietrze, ziemia, ogień, metal, woda lub drewno) odpowiadającą wybranemu żywiołowi.</p>"
+        },
+        "Flame Vortex (Depart)": {
+            "name": "Ognisty Wir (Odejście)"
+        },
+        "Floating Flame": {
+            "name": "Lewitujący Płomień"
+        },
+        "Healing Servitor": {
+            "name": "Leczący Sługa",
+            "publicNotes": "<p>Przywołujesz sługę stworzonego z surowej energii witalnej, aby leczył i wzmacniał twoich sojuszników.</p>"
+        },
+        "Holy Smite (Depart)": {
+            "name": "Święte Uderzenie (Odejście)"
+        },
+        "Howl of Eternity (Depart)": {
+            "name": "Skowyt Wieczności (Odejście)"
+        },
+        "Hurricane Formation (Arrive)": {
+            "name": "Formacja Huraganu (Przybycie)"
+        },
+        "Interrupted Lives (Arrive)": {
+            "name": "Przerwane Życia (Przybycie)"
+        },
+        "Light": {
+            "name": "Światło"
+        },
+        "Light (Blue)": {
+            "name": "Światło (Niebieskie)"
+        },
+        "Light (Dark Blue)": {
+            "name": "Światło (Granatowe)"
+        },
+        "Light (Green)": {
+            "name": "Światło (Zielone)"
+        },
+        "Light (White)": {
+            "name": "Światło (Białe)"
+        },
+        "Light (Yellow)": {
+            "name": "Światło (Żółte)"
+        },
+        "Magma Flow (Arrive)": {
+            "name": "Przepływ Magmy (Przybycie)"
+        },
+        "Merciful Healing (Depart)": {
+            "name": "Miłosierne Uzdrowienie (Przybycie)"
+        },
+        "Mine": {
+            "name": "Kopalnia"
+        },
+        "Mogaru, the Final King": {
+            "name": "Mogaru, Ostateczny Król",
+            "publicNotes": "<p>Na krótko wyczarowujesz kaiju, masywnego, szalejącego potwora o wyjątkowej nazwie i legendarnej reputacji. Powstaje on ze swojego zacisznego legowiska, aby unicestwić twoich wrogów. Przywołane kaiju zajmuje przestrzeń Ogromnego stworzenia.</p>"
+        },
+        "Plate Crash (Depart)": {
+            "name": "Zderzenie Płyt (Odejście)"
+        },
+        "Retreat to Soil (Depart)": {
+            "name": "Powrót do Gleby (Odejście)"
+        },
+        "Rust Mist (Depart)": {
+            "name": "Rdzawa Mgła (Odejście)"
+        },
+        "Servitor's Blessing (Depart)": {
+            "name": "Błogosławieństwo Sługi (Odejście)"
+        },
+        "Servitor's Protection (Arrive)": {
+            "name": "Ochrona Sługi (Przybycie)"
+        },
+        "Shard Cloud (Arrive)": {
+            "name": "Chmura Odłamków (Przybycie)"
+        },
+        "Supercell Front (Arrive)": {
+            "name": "Front Wielkiej Burzy (Przybycie)"
+        },
+        "Tectonic Rise (Arrive)": {
+            "name": "Wzrost Tektoniczny (Przybycie)"
+        },
+        "Tempest of Shades": {
+            "name": "Nawałnica Cieni",
+            "publicNotes": "<p>Kanalizujesz moce nieśmiertelności, aby na krótko przywołać amalgamat mściwych zmarłych zabitych zarówno przez twoich wrogów, jak i sojuszników. Ten amalgamat manifestuje się jako wielkie tornado nieistotnych, wyjących twarzy.</p>"
+        },
+        "The Fluxwraith": {
+            "name": "Fluksupiór",
+            "publicNotes": "<p>Rozbijasz lustro i wyrzucasz jego odłamki w powietrze. Pomiędzy ich tysiącem pękniętych odbić pojawia się fluksupiór - rzecz z rozbitego szkła, złamanego czasu i złamanego życia.</p>"
+        },
+        "The Thousand": {
+            "name": "Tysiące"
+        },
+        "Twister Downdraft  (Depart)": {
+            "name": "Wirujący Podmuch (Odejście)"
+        },
+        "Vorgozen, the Shapeless Feeder": {
+            "name": "Vorgozen, Bezkształtny Karmiciel",
+            "publicNotes": "<p>Na krótko wyczarowujesz kaiju, masywnego, szalejącego potwora o wyjątkowej nazwie i legendarnej reputacji. Powstaje on ze swojego zacisznego legowiska, aby unicestwić twoich wrogów. Przywołane kaiju zajmuje przestrzeń Ogromnego stworzenia.</p>"
+        },
+        "Vortex of Death (Arrive)": {
+            "name": "Wir Śmierci (Przybycie)"
+        },
+        "Yarthoon, the Moon Grub": {
+            "name": "Yarthoon, Księżycowa Larwa",
+            "publicNotes": "<p>Na krótko wyczarowujesz kaiju, masywnego, szalejącego potwora o wyjątkowej nazwie i legendarnej reputacji. Powstaje on ze swojego zacisznego legowiska, aby unicestwić twoich wrogów. Przywołane kaiju zajmuje przestrzeń Ogromnego stworzenia.</p>"
+        }
+    },
+    "mapping": {
+        "publicNotes": "system.details.publicNotes",
+        "privateNotes": "system.details.privateNotes",
+        "acDetails": "system.attributes.ac.details",
+        "blurb": "system.details.blurb",
+        "hpDetails": "system.attributes.hp.details",
+        "allSavesBonus": "system.attributes.allSaves.value",
+        "speedsDetails": "system.attributes.speed.details",
+        "sensesDetails": "system.perception.details",
+        "languagesDetails": "system.details.languages.details",
+        "rules": {
+            "converter": "translateRules",
+            "path": "system.rules"
+        }
+    }
+}

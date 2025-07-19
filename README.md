@@ -50,7 +50,6 @@ Możliwość włączenia u góry ekranu HUD z czasem gry, który automatyzuje si
 
 Możliwość sprzedawania przedmiotów u kupca.
 
-
 ## Tłumaczenia
 
 - [PF2e Action Support](https://foundryvtt.com/packages/pf2e-action-support/) - Foundry v11
@@ -70,6 +69,8 @@ Możliwość sprzedawania przedmiotów u kupca.
 - [PF2e Initiative Effect](https://foundryvtt.com/packages/pf2e-initiative-effect/) - Foundry v13
 - [Pf2e Variant Cantrips](https://foundryvtt.com/packages/pf2e-variant-cantrips/) - Foundry v12
 - [PF2e Relics](https://foundryvtt.com/packages/pf2e-relics/) - Foundry v12
+- [PF2e Alchemist Remaster Duct Tape](https://foundryvtt.com/packages/pf2e-alchemist-remaster-ducttape/) - Foundry v13
+- [PF2e Summons Assistant](https://foundryvtt.com/packages/pf2e-summons-assistant/) - Foundry v13
 
 ### W trakcie opracowywania
 

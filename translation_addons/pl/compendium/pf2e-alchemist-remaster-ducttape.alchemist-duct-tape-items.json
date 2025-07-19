@@ -1,0 +1,44 @@
+{
+    "label": "Alchemist Duct Tape - Przedmioty",
+    "entries": {
+        "Effect: Coagulant Immunity": {
+            "name": "Efekt: Niewrażliwość na koagulant",
+            "description": "<p>Niewrażliwość na leczenie Punktów Wytrzymałości za pomocą przedmiotów alchemicznych z cechą <em data-start=\"863\" data-end=\"874\">koagulant</em>. Inne efekty nadal mają zastosowanie. Czas trwania: 10 minut.</p>"
+        },
+        "Effect: Mutagenist Resistance": {
+            "name": "Efekt: Odporność Mutagenika",
+            "description": "<p>Przyznany przez <a class=\"content-link\" draggable=\"true\" data-link data-uuid=\"Compendium.pf2e.classfeatures.Item.wYOdTCWQQ6ec8I6b\" data-id=\"wYOdTCWQQ6ec8I6b\" data-type=\"Item\" data-pack=\"pf2e.classfeatures\" data-tooltip=\"Feat/Feature Item\"><strong>Zaawansowane Fiolki</strong></a><strong> (11. Poziom)</strong> Kiedy wypijesz jedną ze swoich terenowych fiolek, zyskujesz również odporność na obrażenia fizyczne na ten sam czas. Odporność jest równa połowie twojego poziomu.</p>"
+        },
+        "Healing Bomb": {
+            "name": "Bomba Uzdrawiająca",
+            "description": "<p><span style=\"font-family:'Century Gothic', CenturyGothic, AppleGothic, sans-serif\">Możesz dodać spieniony katalizator do @UUID[Compendium.pf2e.equipment-srd.Item.hDLbR56Id2OtU318]{Eliksiru Życia}, aby zamienić go w miejscowy pocisk. Eliksirem można rzucać jak bombą alchemiczną</span>, z następującymi wynikami.<span style=\"font-family:'Century Gothic', CenturyGothic, AppleGothic, sans-serif\"><br style=\"color:rgb(255, 255, 255);font-family:'Century Gothic', CenturyGothic, AppleGothic, sans-serif;font-size:15px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgb(15, 15, 15);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial\" /><br style=\"color:rgb(255, 255, 255);font-family:'Century Gothic', CenturyGothic, AppleGothic, sans-serif;font-size:15px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgb(15, 15, 15);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial\" /><strong>Sukces</strong>: </span>Cel zostaje poddany działaniu eliksiru tak, jakby go wypił, a każda sąsiadująca z nim żywa istota odzyskuje PW od bomby równe liczbie kości obrażeń eliksiru. Cel otrzymuje również @UUID[Compendium.pf2e.equipment-effects.Item.lPRuIRbu0rHBkoKY]{Efekt: Eliksir Życia} za każdy użyty poziom eliksiru.</p><p><span style=\"font-family:'Century Gothic', CenturyGothic, AppleGothic, sans-serif\"><strong>Porażka</strong>: </span>Cel odzyskuje PW równe liczbie kości obrażeń eliksiru.<span style=\"font-family:'Century Gothic', CenturyGothic, AppleGothic, sans-serif\"><br style=\"color:rgb(255, 255, 255);font-family:'Century Gothic', CenturyGothic, AppleGothic, sans-serif;font-size:15px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgb(15, 15, 15);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial\" /><strong>Krytyczna Porażka</strong>: </span>Bomba lecząca nie daje żadnego efektu.</p>"
+        },
+        "Healing Quick Vial": {
+            "name": "Fiolka Szybkiego Leczenia",
+            "description": "<p>Ma zastosowanie do @UUID[Compendium.pf2e-alchemist-remaster-ducttape.alchemist-duct-tape-items.Item.htVOAKfVmVYafFrQ]{Efektu: Niewrażliwość na koagulant}<br /><strong><br /></strong></p><hr /><p></p><p><strong>Fiolki Terenowe</strong> Twoje wszechstronne fiolki mogą zostać użyte do uleczenia żywej istoty o liczbę Punktów Wytrzymałości równą początkowym obrażeniom zadanym przez fiolkę. Istota może wypić fiolkę, aby uzyskać tę korzyść, lub możesz rzucić fiolką w chętną istotę w promieniu 20 stóp jako akcję Interakcji, aby ją uleczyć. W obu przypadkach fiolka użyta w ten sposób traci cechy kwasu i rozprysku, a zyskuje cechy koagulantu i leczenia, a także cechę eliksiru, jeśli istota ją wypije.</p><p><strong>@UUID[Compendium.pf2e.classfeatures.Item.qC0Iz6SlG2i9gv6g]{Odkrycie Terenowe} (5. Poziom)</strong> Twoje eliksiry lecznicze są dość skuteczne. Kiedy istota wypije stworzony przez ciebie eliksir z cechą leczenia, zyskuje liczbę tymczasowych Punktów Wytrzymałości równą twojemu modyfikatorowi Inteligencji (minimum 0); te tymczasowe Punkty Wytrzymałości utrzymują się przez 1 minutę.</p><p><strong>@UUID[Compendium.pf2e.classfeatures.Item.6d8JFjFuvH27dpiw]{Zaawansowane Fiolki} (11. Poziom)</strong> Kiedy używasz fiolki terenowej do leczenia istoty, która ma połowę lub mniej swoich maksymalnych Punktów Wytrzymałości, cecha koagulantu nie ma zastosowania do tego leczenia.</p><p><strong>@UUID[Compendium.pf2e.classfeatures.Item.JJcaVijwRt9dsnac]{Wielkie Odkrycie Terenowe} (13. Poziom)</strong> Kiedy używasz Szybkiej Alchemii do stworzenia dowolnego eliksiru życia, istota uleczona przez ten przedmiot odzyskuje maksymalną możliwą liczbę Punktów Wytrzymałości, zamiast rzucać, aby określić liczbę odzyskanych Punktów Wytrzymałości.</p>"
+        },
+        "Poison Quick Vial": {
+            "name": "Fiolka Szybkiej Trucizny",
+            "description": "",
+            "rules": {
+                "0": {
+                    "label": "Fiolka Szybkiej Trucizny"
+                }
+            }
+        },
+        "Quick Vial": {
+            "name": "Szybka Fiolka",
+            "description": "<p>Ta niewielka szklana kolba zawiera lotne substancje chemiczne, które można wykorzystać w ofensywie. Bomba zadaje obrażenia od kwasu i obrażenia rozpryskowe od kwasu.</p>"
+        },
+        "Quick vial injury poison (*Temporary)": {
+            "name": "Szybka fiolka z trucizną (*Tymczasowa)",
+            "description": "<p>Stosowana jako trucizna zadająca obrażenia. Dodaje obrażenia do pierwszego udanego Ataku.</p>"
+        }
+    },
+    "mapping": {
+        "rules": {
+            "converter": "translateRules",
+            "path": "system.rules"
+        }
+    }
+}

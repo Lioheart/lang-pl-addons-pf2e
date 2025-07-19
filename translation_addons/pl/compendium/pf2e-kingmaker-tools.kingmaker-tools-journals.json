@@ -11,7 +11,7 @@
             "name": "Blizzard (Hazard 6)"
         },
         "Bolster Confidence": {
-            "name": "Bolster Confidence"
+            "name": "Zwiększenie Pewności Siebie"
         },
         "Camouflage Campsite": {
             "name": "Camouflage Campsite"
@@ -78,7 +78,7 @@
                     "text": "<p>When checking for wandering encounters during the night (including when made as part of camping), the flat check DC for the encounter is increased by 2.</p>"
                 },
                 "Bolster Confidence": {
-                    "name": "Bolster Confidence",
+                    "name": "Zwiększenie Pewności Siebie",
                     "text": "<p>Checks on all other Camping activities gain a +1 circumstance bonus. If the person is master in Performance, this becomes a +2 circumstance bonus.</p><p>@UUID[Compendium.pf2e-kingmaker-tools.kingmaker-tools-camping-effects.mAEvnTqFuLIASQLB]{Bolster Confidence}</p>"
                 },
                 "Camp Management": {
@@ -90,11 +90,11 @@
                     "text": "<p>When the party rests during this camp, each character regains twice the normal amount of Hit Points from the rest (an amount equal to double their Constitution modifier—minimum 2—multiplied by their level). The effect isn’t cumulative with the critical success effect of a basic meal.</p><p>@UUID[Compendium.pf2e-kingmaker-tools.kingmaker-tools-camping-effects.Item.eaWmjDOIvUF9aDbq]{Dawnflower's Blessing}</p>"
                 },
                 "Enhance Campfire": {
-                    "name": "Enhance Campfire",
+                    "name": "Wzmocnienie Ogniska",
                     "text": "<p>All cooking activities that take place for the remainder of the camping session gain a +1 circumstance bonus. This bonus increases to +2 if the PCs are at least 11th level.</p><p>@UUID[Compendium.pf2e-kingmaker-tools.kingmaker-tools-camping-effects.NFPQHxvpJd2vsKMe]{Enhance Campfire}</p>"
                 },
                 "Enhance Weapons": {
-                    "name": "Enhance Weapons",
+                    "name": "Ulepszenie Broni",
                     "text": "<p>Each PC chooses one melee weapon. That melee weapon gains a +1 circumstance bonus to damage rolls during the next encounter it’s used in; this bonus expires at the end of that encounter or after 24 hours, whichever comes first.</p><p>@UUID[Compendium.pf2e-kingmaker-tools.kingmaker-tools-camping-effects.ZKJlIqyFgbKDACnG]{Enhance Weapons}</p>"
                 },
                 "Intimidating Posture": {
@@ -102,11 +102,11 @@
                     "text": "<p>The camp’s intimidating nature scares off less powerful encounters. If a Low or Trivial random encounter is rolled at any point during the camp, treat it as no encounter instead. The PCs still earn any XP they would have otherwise earned for defeating the encounter in combat when they wake the next day and notice the telltale signs of flight from the skipped encounter.</p>"
                 },
                 "Maintain Armor": {
-                    "name": "Maintain Armor",
+                    "name": "Konserwacja Pancerza",
                     "text": "<p>One PC chooses one suit of armor or a broken shield. If the PC chooses a suit of armor, that suit of armor grants the wearer temporary Hit Points equal to half their level during the next encounter it’s worn; these temporary Hit Points expire at the end of the encounter or after 24 hours. If the PC chooses a broken shield, you restore the broken shield to full HP. An additional PC can choose a suit of armor or broken shield once the party is 3rd level, and then again every 2 levels thereafter.</p>"
                 },
                 "Set Alarms": {
-                    "name": "Set Alarms",
+                    "name": "Ustawianie Alarmów",
                     "text": "<p>The first time the campsite is attacked by enemies during the next 24 hours, the alarms trigger and alert the PCs. Sleeping characters do not take the normal –4 status penalty when rolling initiative during such an attack, while characters who are awake gain a +2 circumstance bonus to their initiative check.</p><p>@UUID[Compendium.pf2e-kingmaker-tools.kingmaker-tools-camping-effects.ptjs54eoEX8EAQNq]{Set Alarms}</p>"
                 },
                 "Set Traps": {
@@ -114,15 +114,15 @@
                     "text": "<p>If the campsite is attacked by enemies during the next 24 hours, the invaders suffer a –1 item penalty to all attack rolls and skill checks on the first round of combat as they navigate the distracting traps. Any enemy whose initiative result is less than Trapper's Thievery DC is also flat-footed from the traps until the start of their turn on the second round of combat.</p><p>@UUID[Compendium.pf2e-kingmaker-tools.kingmaker-tools-camping-effects.PSBOS7ZEl9RGWBqD]{Set Traps}</p>"
                 },
                 "Undead Guardians": {
-                    "name": "Undead Guardians",
+                    "name": "Nieumarli Strażnicy",
                     "text": "<p>If the camp is attacked during the period of rest, these spirits of the dead rise up as undead guardians to defend you and your allies.</p><p>These undead guardians manifest as shrieking ghostlike spirits. While their exact shape is determined by the GM, their effect in battle remains the same. Each round during combat, one PC can choose to be defended by the undead guardians (and gain a +1 status bonus to AC for 1 round) or to have them aid their attacks (and gain a +1 status bonus to all melee Strikes for 1 round).</p><p>@UUID[Compendium.pf2e-kingmaker-tools.kingmaker-tools-camping-effects.KysTaC245mOnSnmE]{Undead Guardians}</p>"
                 },
                 "Water Hazards": {
-                    "name": "Water Hazards",
+                    "name": "Wodne Zagrożenia",
                     "text": "<p>If the campsite is attacked by enemies during the next 24 hours, the attackers suffer a –2 circumstance penalty to Initiative checks as they’re forced to deal with unexpectedly deep puddles, sudden currents in standing water, or thick patches of muddy earth. This penalty increases to –3 once the party reaches 11th level.</p><p>@UUID[Compendium.pf2e-kingmaker-tools.kingmaker-tools-camping-effects.LN6mH7Muj4hgvStt]{Water Hazards}</p>"
                 },
                 "Wilderness Survival": {
-                    "name": "Wilderness Survival",
+                    "name": "Przetrwanie w Dziczy",
                     "text": "<p>Any attempts to Cook a Meal or Treat Disease gain a +1 item bonus during this camping session. If the party level is 11 or higher, the bonus increases to +2</p><p>@UUID[Compendium.pf2e-kingmaker-tools.kingmaker-tools-camping-effects.v9i9W49PeJ9NkfXX]{Wilderness Survival}</p>"
                 },
                 "Prepare Campsite": {
@@ -198,10 +198,10 @@
             "name": "Discover Special Meal"
         },
         "Enhance Campfire": {
-            "name": "Enhance Campfire"
+            "name": "Wzmocnienie Ogniska"
         },
         "Enhance Weapons": {
-            "name": "Enhance Weapons"
+            "name": "Ulepszenie Broni"
         },
         "Flash Flood (Hazard 7)": {
             "name": "Flash Flood (Hazard 7)"
@@ -264,7 +264,7 @@
             "name": "Licenses"
         },
         "Maintain Armor": {
-            "name": "Maintain Armor"
+            "name": "Konserwacja Pancerza"
         },
         "Manual": {
             "name": "Manual",
@@ -324,7 +324,7 @@
             "name": "Run a Kingdom Turn"
         },
         "Set Alarms": {
-            "name": "Set Alarms"
+            "name": "Ustawianie Alarmów"
         },
         "Set Traps": {
             "name": "Ustawianie Pułapek"
@@ -348,7 +348,7 @@
             "name": "Tornado (Hazard 12+)"
         },
         "Undead Guardians": {
-            "name": "Undead Guardians"
+            "name": "Nieumarli Strażnicy"
         },
         "Upgrading Notices": {
             "name": "Upgrading Notices",
@@ -384,7 +384,7 @@
             "name": "Upgrading from versions prior to 5.5"
         },
         "Water Hazards": {
-            "name": "Water Hazards"
+            "name": "Wodne Zagrożenia"
         },
         "Weather": {
             "name": "Weather"
@@ -443,7 +443,7 @@
             }
         },
         "Wilderness Survival": {
-            "name": "Wilderness Survival"
+            "name": "Przetrwanie w Dziczy"
         },
         "Wildfire (Hazard 4+)": {
             "name": "Wildfire (Hazard 4+)"

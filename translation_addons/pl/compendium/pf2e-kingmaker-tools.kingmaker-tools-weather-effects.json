@@ -3,37 +3,37 @@
     "entries": {
         "Blizzard": {
             "name": "Zamieć",
-            "description": "<p>A Blizzard imposes a –4 circumstance penalty to visual Perception checks. </p>",
+            "description": "<p>Zamieć nakłada karę okoliczności -4 do testów Percepcji wzrokowej. </p>",
             "rules": {
                 "0": {
-                    "label": "Blizzard - Visual Perception"
+                    "label": "Zamieć - wizualny Percepcja"
                 }
             }
         },
         "Fog": {
-            "name": "Fog",
-            "description": "<p>Fog imposes a –2 circumstance penalty to visual Perception checks. Fog causes creatures that are further than 15 feet away to be concealed, and it limits maximum visibility to 500 feet.</p>",
+            "name": "Mgła",
+            "description": "<p>Mgła nakłada karę okoliczności -2 do testów Percepcji wzrokowej. Mgła sprawia, że istoty znajdujące się dalej niż 15 stóp są przysłonięte i ogranicza maksymalną widoczność do 500 stóp.</p>",
             "rules": {
                 "0": {
-                    "label": "Fog - Visual Perception"
+                    "label": "Mgła - wizualny Percepcja"
                 }
             }
         },
         "Heavy Downpour": {
-            "name": "Heavy Downpour",
-            "description": "<p>As long as the heavy downpour lasts, visual Perception checks take a –1 circumstance penalty, causes creatures that are further than 100 feet away to be concealed, and cuts off all visibility at half a mile or more.</p>\n<p data-pm-slice=\"1 1 []\">During a heavy downpour, other storms tend to be even more severe. The DC of skill checks made to survive, prepare, or endure the routine of a blizzard, severe hailstorm, supernatural storm, thunderstorm, or windstorm increase by +2 during heavy downpour.</p>\n<p> </p>",
+            "name": "Silna ulewa",
+            "description": "<p>Dopóki trwa ulewa, testy Percepcji wzrokowej otrzymują karę okoliczności -1, powodują, że istoty znajdujące się w odległości większej niż 100 stóp są przysłonięte i odcinają widoczność na odległość pół mili lub większą.</p>\n<p data-pm-slice=\"1 1 []\">Podczas silnej ulewy inne burze są jeszcze bardziej dotkliwe. ST testów umiejętności wykonywanych w celu przetrwania, przygotowania lub przetrwania rutyny zamieci, silnej burzy gradowej, nadprzyrodzonej burzy, burzy z piorunami lub wichury wzrasta o +2 podczas ulewy.</p>\n<p> </p>",
             "rules": {
                 "0": {
-                    "label": "Heavy Downpour - Visual Perception"
+                    "label": "Silna ulewa - wizualny Percepcja"
                 }
             }
         },
         "Light Precipitation": {
-            "name": "Light Precipitation",
-            "description": "<p>Light precipitation reduces the time it takes for characters to become fatigued from overland travel to only 4 hours and imposes a –1 circumstance penalty to visual Perception checks.</p>",
+            "name": "Lekkie opady",
+            "description": "<p>Lekkie opady skracają czas zmęczenia postaci podróżą lądową do zaledwie 4 godzin i nakładają karę okoliczności -1 do testów Percepcji wzrokowej.</p>",
             "rules": {
                 "0": {
-                    "label": "Light Precipitation"
+                    "label": "Lekkie opady"
                 }
             }
         }

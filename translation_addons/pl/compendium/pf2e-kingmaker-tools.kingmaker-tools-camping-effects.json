@@ -2,120 +2,120 @@
     "label": "Kingmaker Tools - Efekty obozowe",
     "entries": {
         "Bolster Confidence": {
-            "name": "Bolster Confidence",
-            "description": "<p><span style=\"font-family:Signika, sans-serif\">Checks on all other Camping activities gain a +1 circumstance bonus. If the person is master in Performance, this becomes a +2 circumstance bonus.</span></p>"
+            "name": "Zwiększenie Pewności Siebie",
+            "description": "<p><span style=\"font-family:Signika, sans-serif\">Testy związane z innymi aktywnościami podczas biwakowania otrzymują premię okolicznościową +1. Jeśli postać jest mistrzem w Występach, premia ta wynosi +2.</span></p> "
         },
         "Camp Management (Critical Failure)": {
-            "name": "Camp Management (Critical Failure)",
-            "description": "<p>All checks made to resolve Camping activities take a –2 circumstance penalty for the remainder of this camping session.</p>"
+            "name": "Zarządzanie Obozem (Krytyczna Porażka)",
+            "description": "<p>Wszystkie testy związane z aktywnościami podczas biwakowania otrzymują karę okolicznościową -2 do końca trwania tego biwaku.</p> "
         },
         "Campfire Story (Critical Failure)": {
-            "name": "Campfire Story (Critical Failure)",
-            "description": "<p>Your story distracts or unsettles your allies. They each take a –1 status penalty to skill checks until they Relax or until they begin daily preparations.</p>"
+            "name": "Opowieść Przy Ognisku (Krytyczna Porażka)",
+            "description": "<p>Twoja historia rozprasza lub niepokoi sojuszników. Każdy z nich otrzymuje karę statusową -1 do testów umiejętności, dopóki nie odpoczną lub nie rozpoczną codziennych przygotowań.</p> "
         },
         "Campfire Story (Critical Success)": {
-            "name": "Campfire Story (Critical Success)",
-            "description": "<p>You inspire your allies dramatically. For the remainder of the camping session, your allies gain a +2 status bonus to attack rolls, saving throws, and skill checks during combat at the campsite. The bonuses end as soon as daily preparations begin after resting is concluded. If an ally spent the hour Relaxing, they can also choose to reroll a failed roll at any time once during the remainder of the camping session while the status bonus persists; this is a fortune effect.</p>"
+            "name": "Opowieść Przy Ognisku (Krytyczny Sukces)",
+            "description": "<p>Dramatycznie inspirujesz swoich sojuszników. Do końca trwania biwaku, twoi sojusznicy otrzymują premię statusową +2 do rzutów ataku, rzutów obronnych i testów umiejętności podczas walki w obozowisku. Premie wygasają zaraz po rozpoczęciu codziennych przygotowań po zakończeniu odpoczynku. Jeśli sojusznik spędził godzinę na Odpoczynku, może również raz do końca biwaku (dopóki trwa premia statusowa) powtórzyć nieudany rzut - jest to efekt szczęścia.</p>"
         },
         "Campfire Story (Success)": {
-            "name": "Campfire Story (Success)",
-            "description": "<p>You inspire your allies. For the remainder of the camping session, your allies gain a +1 status bonus to attack rolls, saving throws, and skill checks during combat at the campsite. The bonuses end as soon as daily preparations begin after resting is concluded.</p>"
+            "name": "Opowieść Przy Ognisku (Sukces)",
+            "description": "<p>Inspirujesz swoich sojuszników. Do końca trwania biwaku twoi sojusznicy otrzymują premię statusową +1 do rzutów ataku, rzutów obronnych i testów umiejętności podczas walki w obozowisku. Premia wygasa zaraz po rozpoczęciu codziennych przygotowań po zakończeniu odpoczynku.</p> "
         },
         "Enhance Campfire": {
-            "name": "Enhance Campfire",
-            "description": "<p data-pm-slice=\"1 1 []\">All cooking activities that take place for the remainder of the camping session gain a +1 circumstance bonus. This bonus increases to +2 if the PCs are at least 11th level.</p>\n<p> </p>"
+            "name": "Wzmocnienie Ogniska",
+            "description": "<p data-pm-slice=\"1 1 []\">Wszystkie czynności związane z gotowaniem, które mają miejsce do końca sesji biwaku, zyskują +1 premie okoliczności. Premia ta wzrasta do +2, jeśli gracze mają co najmniej 11 poziom.</p>\n<p> </p>"
         },
         "Enhance Weapons": {
-            "name": "Enhance Weapons",
-            "description": "<p data-pm-slice=\"1 1 []\">Each PC chooses one melee weapon. That melee weapon gains a +1 circumstance bonus to damage rolls during the next encounter it’s used in; this bonus expires at the end of that encounter or after 24 hours, whichever comes first.</p>"
+            "name": "Ulepszenie Broni",
+            "description": "<p data-pm-slice=\"1 1 []\">Każdy BG wybiera jedną broń wręcz. Ta broń zyskuje +1 premii okoliczności do rzutów na obrażenia podczas następnego spotkania, w którym zostanie użyta; premia ta wygasa na koniec tego spotkania lub po 24 godzinach, w zależności od tego, co nastąpi wcześniej.</p>"
         },
         "Fortify Camp": {
             "name": "Fortyfikuj Obóz",
-            "description": "<p>Anyone keeping watch gains a <strong>+2 circumstance bonus</strong> to <strong>Perception</strong> and <strong>Initiative</strong> rolls</p>"
+            "description": "<p>Każdy na straży zyskuje  <strong>+2 premii okoliczności</strong>  do rzutów <strong>Percepcji</strong> i <strong>Inicjatywy</strong></p>"
         },
         "Healer's Blessing": {
             "name": "Błogosławieństwo Uzdrowiciela",
             "description": ""
         },
         "Maintain Armor": {
-            "name": "Maintain Armor",
-            "description": "<p><span id=\"ctl00_RadDrawer1_Content_MainContent_DetailedOutput\">One PC chooses one suit of armor or a broken shield. If the PC chooses a  suit of armor, that suit of armor grants the wearer temporary Hit Points  equal to half their level during the next encounter it's worn; these  temporary Hit Points expire at the end of the encounter or after 24 hours. If the PC chooses a broken shield, Valerie restores the broken shield to full HP. An additional PC can choose a suit of armor or broken shield once the party is 3rd level, and then again every 2 levels thereafter.</span></p>"
+            "name": "Konserwacja Pancerza",
+            "description": "<p><span id=\"ctl00_RadDrawer1_Content_MainContent_DetailedOutput\">Jedna postać gracza wybiera jeden pancerz lub zniszczoną tarczę. Jeśli postać wybierze pancerz, zapewnia on noszącemu tymczasowe punkty wytrzymałości równe połowie jej poziomu podczas następnej walki, w której jest noszony; tymczasowe punkty wytrzymałości wygasają po zakończeniu walki lub po 24 godzinach. Jeśli postać wybierze zniszczoną tarczę, Valerie naprawia ją, przywracając jej pełną wytrzymałość. Dodatkowa postać może wybrać pancerz lub zniszczoną tarczę, gdy drużyna osiągnie 3. poziom, a następnie ponownie co każde 2 kolejne poziomy.</span></p>"
         },
         "Organize Watch (Critical Success)": {
-            "name": "Organize Watch (Critical Success)",
-            "description": "<p data-pm-slice=\"1 1 []\">The camp’s watch is efficient. Treat the total time required for rest as if the party size were 1 more, and all characters gain a +2 status bonus to Perception checks made during their shift on watch.</p>\n<p> </p>"
+            "name": "Organizacja Warty (Krytyczny Sukces)",
+            "description": "<p data-pm-slice=\"1 1 []\">Obozowa warta jest wydajna. Traktuj całkowity czas potrzebny na odpoczynek tak, jakby liczebność drużyny była o 1 większa, a wszystkie postacie zyskują +2 premii statusu do testów Percepcji wykonywanych podczas pełnienia warty.</p>\n<p> </p>"
         },
         "Organize Watch (Success)": {
-            "name": "Organize Watch (Success)",
-            "description": "<p data-pm-slice=\"1 1 []\">Characters gain a +1 status bonus to Perception checks made during their shift on watch.</p>"
+            "name": "Organizacja Warty (Sukces)",
+            "description": "<p data-pm-slice=\"1 1 []\">Postacie zyskują +1 premii statusu do testów Percepcji wykonywanych podczas ich zmiany na warcie.</p>"
         },
         "Prepare Campsite (Failure)": {
-            "name": "Prepare Campsite (Failure)",
-            "description": "<p>All checks made to resolve Camping activities take a –2 circumstance penalty for the remainder of this camping session.</p>"
+            "name": "Przygotowanie Obozowiska (Porażka)",
+            "description": "<p>Wszystkie testy związane z aktywnościami podczas biwakowania otrzymują karę okolicznościową -2 do końca trwania tego biwaku.</p> "
         },
         "Provisions": {
-            "name": "Provisions",
+            "name": "Zaprowiantowanie",
             "description": ""
         },
         "Relaxed": {
-            "name": "Relaxed",
-            "description": "<p>You gain a +1 circumstance bonus to the next check you make in order to resolve a Camping activity, provided that check happens during this camping session.</p>"
+            "name": "Zrelaksowany",
+            "description": "<p>Zyskujesz +1 premii okoliczności do następnego testu, który wykonasz w celu rozstrzygnięcia aktywności Obozowanie, pod warunkiem, że ten test odbędzie się podczas tej sesji obozowania.</p>"
         },
         "Relaxed (+1 to next campig check)": {
-            "name": "Relaxed (+1 to next campig check)",
+            "name": "Zrelaksowany (+1 do następnego testu obozowania)",
             "description": ""
         },
         "Set Alarms": {
-            "name": "Set Alarms",
-            "description": "<p>The first time the campsite is attacked by enemies during the next 24 hours, the alarms trigger and alert the PCs. Sleeping characters do not take the normal –4 status penalty when rolling initiative during such an attack, while characters who are awake gain a +2 circumstance bonus to their initiative check.</p>\n<p> </p>"
+            "name": "Ustawianie Alarmów",
+            "description": "<p>Podczas pierwszego ataku wrogów na obozowisko w ciągu najbliższych 24 godzin alarmy zostaną uruchomione i zaalarmują postaci graczy. Śpiące postaci nie otrzymują zwyczajnej kary statusowej -4 do inicjatywy podczas takiego ataku, podczas gdy postaci czuwające otrzymują premię okolicznościową +2 do testu inicjatywy.</p>\n<p></p>"
         },
         "Set Traps": {
             "name": "Ustawianie Pułapek",
-            "description": "<p>If the campsite is attacked by enemies during the next 24 hours, the invaders suffer a –1 item penalty to all attack rolls and skill checks on the first round of combat as they navigate the distracting traps. Any enemy whose initiative result is less than the Trapper’s Thievery DC is also off-guard from the traps until the start of their turn on the second round of combat.</p>"
+            "description": " <p>Jeśli obozowisko zostanie zaatakowane przez wrogów w ciągu najbliższych 24 godzin, napastnicy otrzymują karę przedmiotową -1 do wszystkich rzutów ataku i testów umiejętności w pierwszej rundzie walki, gdy zmagają się z rozpraszającymi pułapkami. Każdy wróg, którego wynik inicjatywy jest niższy niż ST Złodziejstwa Trapera, jest również odsłonięty z powodu pułapek do początku swojej tury w drugiej rundzie walki.</p>"
         },
         "Undead Guardians": {
-            "name": "Undead Guardians",
-            "description": "<p data-pm-slice=\"1 1 []\">Each round during combat, one PC can choose to be defended by the undead guardians (and gain a +1 status bonus to AC for 1 round) or to have them aid their attacks (and gain a +1 status bonus to all melee Strikes for 1 round).</p>",
+            "name": "Nieumarli Strażnicy",
+            "description": "<p data-pm-slice=\"1 1 []\">Podczas każdej runda walki jeden BG może wybrać, czy chce być broniony przez nieumarłych strażników (i zyskać +1 premii statusu do KP na 1 runda), czy też chce, by wspomagali jego ataki (i zyskać +1 premii statusu do wszystkich Ataków wręcz na 1 runda).</p>",
             "rules": {
                 "0": {
                     "choices": {
                         "0": {
-                            "label": "Defended"
+                            "label": "Obroniony"
                         },
                         "1": {
-                            "label": "Aided"
+                            "label": "Wspomagany"
                         }
                     }
                 }
             }
         },
         "Undead Guardians - Aided": {
-            "name": "Undead Guardians - Aided",
+            "name": "Nieumarli Strażnicy - Wspomagani",
             "description": ""
         },
         "Undead Guardians - Defended": {
-            "name": "Undead Guardians - Defended",
+            "name": "Nieumarli Guardians - Obronieni",
             "description": ""
         },
         "Water Hazards": {
-            "name": "Water Hazards",
-            "description": "<p data-pm-slice=\"1 1 []\">If the campsite is attacked by enemies during the next 24 hours, the attackers suffer a –2 circumstance penalty to Initiative checks as they’re forced to deal with unexpectedly deep puddles, sudden currents in standing water, or thick patches of muddy earth. This penalty increases to –3 once the party reaches 11th level.</p>",
+            "name": "Wodne Zagrożenia",
+            "description": "<p data-pm-slice=\"1 1 []\">Jeśli obozowisko zostanie zaatakowane przez wrogów w ciągu najbliższych 24 godzin, napastnicy otrzymują karę okolicznościową -2 do testów inicjatywy, ponieważ muszą radzić sobie z niespodziewanie głębokimi kałużami, nagłymi prądami w stojącej wodzie lub grząskimi obszarami błotnistej ziemi. Kara wzrasta do -3, gdy drużyna osiągnie 11. poziom.</p>",
             "rules": {
                 "0": {
                     "choices": {
                         "0": {
-                            "label": "Party Level >=11"
+                            "label": "Poziom Drużyny >=11"
                         },
                         "1": {
-                            "label": "Party Level <11"
+                            "label": "Poziom Drużyny <11"
                         }
                     }
                 }
             }
         },
         "Wilderness Survival": {
-            "name": "Wilderness Survival",
-            "description": "<p data-pm-slice=\"1 1 []\">Any attempts to Cook a Meal or Treat Disease gain a +1 item bonus during this camping session. If the party level is 11 or higher, the bonus increases to +2</p>"
+            "name": "Przetrwanie w Dziczy",
+            "description": "<p data-pm-slice=\"1 1 []\">Wszelkie próby ugotowania posiłku lub wyleczenia choroby zyskują +1 premii przedmiotu podczas tej sesji biwakowej. Jeśli poziom drużyny wynosi 11 lub więcej, premia wzrasta do +2</p>"
         }
     },
     "mapping": {
