@@ -116,7 +116,7 @@ export function registerSettings() {
         scope: "client",
         config: true,
         type: Boolean,
-        default: true,
+        default: false,
         onChange: () => {
             if (game.pf2e?.worldClock) {
                 updateWorldTimeDisplay();

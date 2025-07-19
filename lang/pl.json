@@ -29,7 +29,7 @@
       },
       "enableRealTimeClock": {
         "name": "Włącz Zegar Czasu Rzeczywistego",
-        "hint": "Włącza interfejs zegara pokazującego rzeczywisty czas w świecie gry."
+        "hint": "Włącza automatyczne dostosowywanie czasu w grze do rzeczywistego czasu systemowego."
       },
       "clockSection": {
         "label": "Ustawienia zegara",

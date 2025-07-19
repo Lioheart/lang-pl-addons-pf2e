@@ -29,7 +29,7 @@
       },
       "enableRealTimeClock": {
         "name": "Enable Real-Time Clock",
-        "hint": "Enables the HUD showing real-time world clock during the game."
+        "hint": "Enables automatic in-game time progression based on the real-world system clock."
       },
       "clockSection": {
         "label": "Clock Settings",
