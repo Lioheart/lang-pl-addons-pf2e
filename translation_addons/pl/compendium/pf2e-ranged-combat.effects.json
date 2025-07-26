@@ -101,9 +101,25 @@
                 }
             }
         },
+        "Effect: Risky Reload": {
+            "name": "Efekt: Ryzykowne Przeładowanie",
+            "description": "<p>Szybko przeładowałeś broń, ale próba użycia tej techniki jest niebezpiecznym ryzykiem dla funkcjonalności broni palnej.</p><p>Jeśli Atak się nie powiedzie, broń nie wystrzeli.</p>",
+            "rules": {
+                "1": {
+                    "label": "Ryzykowne Przeładowanie"
+                },
+                "2": {
+                    "text": "Jeśli Atak się nie powiedzie, broń nie wypali i stanie się @UUID[Compendium.pf2e-ranged-combat.effects.Item.gWyiBrwEyHTvua6t]."
+                }
+            }
+        },
         "Hunted Prey": {
             "name": "Naznaczona Ofiara",
             "description": "<p>Wyznaczyłeś to stworzenie jako swoją ofiarę.</p>"
+        },
+        "Jammed": {
+            "name": "Zacięcie",
+            "description": "<p>Ta broń jest zacięta. Musisz użyć akcji Interakcji, aby usunąć zacięcie przed przeładowaniem broni i ponownym oddaniem strzału.</p>"
         },
         "Loaded": {
             "name": "Załadowano",

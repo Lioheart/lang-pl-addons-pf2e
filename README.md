@@ -68,7 +68,7 @@ Możliwość sprzedawania przedmiotów u kupca.
 - [PF2e Summons Helper](https://foundryvtt.com/packages/pf2e-summons-helper/) - Foundry v13
 - [PF2e Initiative Effect](https://foundryvtt.com/packages/pf2e-initiative-effect/) - Foundry v13
 - [Pf2e Variant Cantrips](https://foundryvtt.com/packages/pf2e-variant-cantrips/) - Foundry v12
-- [PF2e Relics](https://foundryvtt.com/packages/pf2e-relics/) - Foundry v12
+- [PF2e Relics](https://foundryvtt.com/packages/pf2e-relics/) - Foundry v13
 - [PF2e Alchemist Remaster Duct Tape](https://foundryvtt.com/packages/pf2e-alchemist-remaster-ducttape/) - Foundry v13
 - [PF2e Summons Assistant](https://foundryvtt.com/packages/pf2e-summons-assistant/) - Foundry v13
 

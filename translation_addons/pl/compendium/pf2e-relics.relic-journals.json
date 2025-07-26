@@ -1,6 +1,9 @@
 {
     "label": "Relikty - Dzienniki",
     "entries": {
+        "Armor Template": {
+            "name": "Szablon Zbroi"
+        },
         "Creating Relics": {
             "name": "Tworzenie Reliktów",
             "pages": {
@@ -26,7 +29,7 @@
                 },
                 "Step 5. Granting Additional Bonuses": {
                     "name": "Krok 5. Przyznanie dodatkowych premii",
-                    "text": "<p>Jak wspomniano w „Podstawach” w Kroku 0, relikty to coś więcej niż tylko prezenty, które oferują. Zazwyczaj są to istniejące magiczne przedmioty, które mogą mieć własne bonusy. Pancerze i bronie oferują runy podstawowe i właściwości, noszone przedmioty/tatuaże oferują bonusy do umiejętności i innych specjalnych aktywacji, kostury i różdżki oferują zaklęcia do rzucenia, a lista jest długa.</p><p>Zdecydowanie zaleca się oferowanie automatycznych bonusów opartych na postaci, jaką przybiera relikt, oprócz oferowanych przez niego darów, ponieważ same dary zazwyczaj nie są wystarczające, aby zadowolić gracza, ani nie sprawiają, że relikt jest wystarczająco potężny, aby porównać go z innymi przedmiotami.</p><p>Zgodnie z zaleceniami samych zasad dotyczących reliktów, dobrym pomysłem może być odpowiednie dostosowanie skarbów dostępnych dla graczy, aby uwzględnić posiadanie przez nich reliktów i niektórych potrzebnych im premii matematycznych. Tabela 2-17: Poziomy premii do przedmiotów stałych będą pomocne w określeniu poziomu, na którym te premie powinny być przyznawane.</p><h2>Dodatkowe korzyści</h2><p>Czasami fajnie jest dodać coś unikalnego do przedmiotu, co odróżni go od innych tego typu. Na przykład dodanie cechy wszechstronności do broni, wybranie typu obrażeń poza fizycznymi.</p>"
+                    "text": "<p>Jak wspomniano w „Podstawach” w Kroku 0, relikty to coś więcej niż tylko prezenty, które oferują. Zazwyczaj są to istniejące magiczne przedmioty, które mogą mieć własne bonusy. Pancerze i bronie oferują runy podstawowe i właściwości, noszone przedmioty/tatuaże oferują bonusy do umiejętności i innych specjalnych aktywacji, kostury i różdżki oferują zaklęcia do rzucenia, a lista jest długa.</p><p>Zdecydowanie zaleca się oferowanie automatycznych bonusów opartych na postaci, jaką przybiera relikt, oprócz oferowanych przez niego darów, ponieważ same dary zazwyczaj nie są wystarczające, aby zadowolić gracza, ani nie sprawiają, że relikt jest wystarczająco potężny, aby porównać go z innymi przedmiotami. Przykładowe tabele postępów można znaleźć @UUID[Compendium.pf2e-relics.relic-journals.JournalEntry.V5zzZI9WeBA0uW3N]{tutaj}.</p><p>Zgodnie z zaleceniami samych zasad dotyczących reliktów, dobrym pomysłem może być odpowiednie dostosowanie skarbów dostępnych dla graczy, aby uwzględnić posiadanie przez nich reliktów i niektórych potrzebnych im premii matematycznych. Tabela 2-17: Poziomy premii do przedmiotów stałych będą pomocne w określeniu poziomu, na którym te premie powinny być przyznawane.</p><h2>Dodatkowe korzyści</h2><p>Czasami fajnie jest dodać coś unikalnego do przedmiotu, co odróżni go od innych tego typu. Na przykład dodanie cechy wszechstronności do broni, wybranie typu obrażeń poza fizycznymi.</p>"
                 },
                 "Example Relics": {
                     "name": "Przykładowe Relikty",
@@ -42,6 +45,30 @@
         },
         "Introduction": {
             "name": "Wprowadzenie"
+        },
+        "Optional: Relic Advancement Templates": {
+            "name": "Opcjonalnie: Szablony rozwoju reliktów",
+            "pages": {
+                "Introduction": {
+                    "name": "Wprowadzenie",
+                    "text": "<p>Podczas tworzenia relikwii możesz dodać pewne ulepszenia, które relikwia uzyska oprócz swoich właściwości, ponieważ przedmioty te mają rozwijać się wraz z użytkownikiem. Ulepszenia te będą się różnić w zależności od rodzaju relikwii, ale powinny być stosunkowo proste. Możesz ukryć te ulepszenia w relikwii, korzystając z funkcji „Notatka MG”.</p>"
+                },
+                "Weapon Template": {
+                    "name": "Szablon Broni",
+                    "text": "<h1>Ulepszenia broni</h1><p><strong>2. Poziom </strong>Broń zyskuje runę @UUID[Compendium.pf2e.equipment-srd.DKWuJb2rSgiotOG7]{Mocy (+1)}.</p><p><strong>4. Poziom</strong> Broń zyskuje runę @UUID[Compendium.pf2e.equipment-srd.DxCuJKynlnMQZHgp]{Uderzeń}.</p><p><strong>7. - 8. Poziom</strong> Broń może zyskać runę właściwości, która nie będzie wliczana do całkowitej liczby run. Runa ta może stać się lepszym wariantem na odpowiednich poziomach.</p><p><strong>10. Poziom</strong> Runa mocy broni wzrasta do +2.</p><p><strong>12. Poziom</strong> Runa uderzeń broni zwiększa się do Większych Uderzeń.</p><p><strong>16. Poziom</strong> Runa mocy broni wzrasta do +3.</p><p><strong>19. Poziom</strong> Runa uderzeń broni zwiększa się do Potężniejszych Uderzeń.</p>"
+                },
+                "Armor Template": {
+                    "name": "Szablon Zbroi",
+                    "text": "<h1>Ulepszenia zbroi</h1><p><strong>1. Poziom</strong> Zbroja (może) zapewniać noszącemu odporność na jeden rodzaj obrażeń fizycznych lub rodzaj obrażeń wybrany przez MG. Odporność ta jest równa połowie poziomu relikwii (minimum 1).</p><p><strong>5. Poziom</strong> Zbroja zyskuje runę @UUID[Compendium.pf2e.equipment-srd.Ro3g2JpJXrKXVyEr]{Mocy (+1)}.</p><p><strong>8. Poziom</strong> Zbroja zyskuje runę @UUID[Compendium.pf2e.equipment-srd.eSjQgsl3pYkirOwk]{Odporności}.</p><p><strong>11. Poziom</strong> Runa mocy pancerza wzrasta do +2.</p><p><strong>14. Poziom</strong> Runa odporności pancerza zwiększa się do Większej Odporności.</p><p><strong>18. Poziom</strong> Runa mocy pancerza wzrasta do +3.</p><p><strong>20. Poziom</strong> Runa odporności pancerza zwiększa się do Potężniejszej Odporności.</p>"
+                },
+                "Skill Item Template": {
+                    "name": "Szablon Przedmiotu Umiejętności",
+                    "text": "<h1>Rozwój umiejętności</h1><p><strong>1. -3. Poziom</strong> Przedmiot ten zapewnia premię przedmiotu +1 do Percepcji lub jednej umiejętności wybranej przez MG.</p><p><strong>5. Poziom</strong> Przedmiot ten zapewnia premię przedmiotu +1 do Percepcji lub drugiej umiejętności wybranej przez MG.</p><p><strong>9. Poziom</strong> Premia do pierwszej umiejętności (lub Percepcji, jeśli została wybrana) wzrasta do +2.</p><p><strong>13. Poziom</strong> Premia do drugiej umiejętności (lub Percepcji, jeśli została wybrana) wzrasta do +2.</p><p><strong>17. Poziom</strong> Premia przedmiotu do pierwszej umiejętności (lub Percepcji, jeśli została wybrana) wzrasta do +3. Przedmiot staje się Arcyprzedmiotem, zgodnie z wytycznymi MG.</p><p><strong>19. Poziom</strong> Premia do drugiej umiejętności (lub Percepcji, jeśli została wybrana) wzrasta do +3.</p>"
+                }
+            }
+        },
+        "Skill Item Template": {
+            "name": "Szablon Przedmiotu Umiejętności"
         },
         "Special Thanks": {
             "name": "Specjalne podziękowania"
@@ -80,6 +107,9 @@
                     "text": "<p>Moduł zawiera kompletny zbiór wszystkich istniejących Darów Reliktów dla systemu Pathfinder Second Edition. Niektóre z nich istnieją już w systemie PF2e Foundry, ale zostały ponownie opracowane, aby zapewnić odpowiednią integrację z Foundry. Znajdziesz tu również kilka przykładowych reliktów własnego autorstwa, które możesz wykorzystać jako punkt wyjścia do tworzenia własnych reliktów, a także dziennik zawierający szczegółowy przewodnik krok po kroku, jak tworzyć własne relikty.</p>"
                 }
             }
+        },
+        "Weapon Template": {
+            "name": "Szablon Broni"
         },
         "What The Module Offers": {
             "name": "Co oferuje moduł"

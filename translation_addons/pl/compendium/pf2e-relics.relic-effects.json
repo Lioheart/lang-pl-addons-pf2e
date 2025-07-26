@@ -1,10 +1,6 @@
 {
     "label": "Relikty - Efekty",
     "entries": {
-        "(BROKEN STILL) Spell Effect: Elemental Form (Forge)": {
-            "name": "(BROKEN STILL) Efekt zaklęcia: Postać Żywiołu (Kowalstwo)",
-            "description": ""
-        },
         "Cooldown: Dragon Strike": {
             "name": "Czas odnowienia: Atak Smoka",
             "description": ""
@@ -29,6 +25,10 @@
                     "label": "Szczęście Początkującego"
                 }
             }
+        },
+        "Effect: Dancing Shadow": {
+            "name": "Efekt: Tańczący Cień",
+            "description": "<p>Przyznany przez @UUID[Compendium.pf2e-relics.relic-gifts.BVQLXeCmX70EsXtq]{Tańczący Cień}</p><hr /><p>Cień reliktu odłącza się od reliktu i tańczy w powietrzu, atakując wroga. Kiedy aktywujesz relikt, wskaż cel. Cień reliktu leci na odległość do 60 stóp, aż znajdzie się w pobliżu wroga, a następnie wykonuje Atak, zadając @Damage[5d8[untyped]] obrażeń w przypadku powodzenia lub podwójne obrażenia w przypadku powodzenia krytycznego; typ obrażeń jest dowolny z typów normalnie zadawanych przez relikt. Cień używa twojej premii do ataku z reliktem, a także używa i przyczynia się do twojej kary za wielokrotny atak. Podczas trwania tej aktywacji możesz użyć pojedynczej akcji, która ma cechy ataku i koncentracji, aby mentalnie skierować cień do wykonania kolejnego Ataku przeciwko temu samemu celowi. Cień utrzymuje się do momentu, w którym liczba Punktów Wytrzymałości celu spadnie do 0, cel przemieści się na odległość większą niż 400 stóp od ciebie lub cel przemieści się do obszaru, na który nie można rzucić cienia, takiego jak obszar całkowitej ciemności, w zależności od tego, co nastąpi wcześniej.</p><p>Cień nie zajmuje miejsca, nie daje możliwości flankowania ani nie posiada żadnych innych atrybutów, które posiada istota i automatycznie podąża za wybranym przeciwnikiem. Cień nie może wykonywać ataków innych niż Atak, a atuty i zaklęcia wpływające na broń nie mają do niego zastosowania.</p>"
         },
         "Effect: Dragon Strike": {
             "name": "Efekt: Atak Smoka",
@@ -141,6 +141,18 @@
         "Effect: Wyrm's Flight": {
             "name": "Efekt: Pęd Żmija",
             "description": "<p>Widmowe skrzydła smoka zapewniają ci szybkość lotu równą twojej szybkości lub 20 stóp, w zależności od tego, która z tych wartości jest większa. Trwa to przez 10 minut lub do momentu, aż odrzucisz ten efekt. Na 17. poziomie możesz aktywować i odrzucać tę zdolność tak często, jak chcesz, a jej czas trwania jest nieograniczony.</p>"
+        },
+        "Spell Effect: Elemental Form (Forge)": {
+            "name": "Efekt Zaklęcia: Postać Żywiołaka (Kuźnia)",
+            "description": "<p>Przyznane przez @UUID[Compendium.pf2e.spells-srd.1K6AYGisvo9gqdhs] i @UUID[Compendium.pf2e-relics.relic-gifts.5BX9BGusRyMqWftu]</p><hr /><p>Twoja postać w walce przybiera Wielki rozmiar, a twoje ataki mają zasięg 15 stóp. Musisz mieć miejsce, aby się rozszerzyć, w przeciwnym razie zaklęcie zostanie przerwane. W zamian zyskujesz KP = 22 + twój poziom, 20 tymczasowych PW, modyfikator ataku +25, premię do obrażeń +11, podwójną liczbę kości obrażeń (w tym obrażeń trwałych) oraz Akrobatyka lub Atletyka o wartości +25. Zyskujesz również następujące korzyści: </p><ul><li><strong>Szybkość kuźni</strong> 30 stóp; odporność na ogień 10, podatność na zimno i wodę 5; <strong>Walka Wręcz</strong> <span class=\"action action-glyph\" title=\"Single Action\" aria-label=\"Single Action\">1</span> atak kuźni, <strong>Obrażenia</strong> 1k10 modułowy; 1k4 trwałych obrażeń od ognia.</li></ul>",
+            "rules": {
+                "1": {
+                    "label": "Modułowe obrażenia od Ataku Kuźni"
+                },
+                "5": {
+                    "label": "Obrażenia od ognia od Ataku Kuźni"
+                }
+            }
         },
         "Spell Effect: Spirit Blink": {
             "name": "Efekt Zaklęcia: Błysk Ducha",

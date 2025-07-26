@@ -142,6 +142,6 @@ export function registerSettings() {
         config: true,
         type: Boolean,
         requiresReload: true,
-        default: true
+        default: false
     });
 }
