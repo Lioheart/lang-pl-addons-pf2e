@@ -26,8 +26,8 @@ Hooks.on("combatStart", async (combat) => {
       exportSource: {
         world: "pf2e",
         system: "pf2e",
-        coreVersion: "13.345",
-        systemVersion: "7.2.0"
+        coreVersion: "13.347",
+        systemVersion: "7.3.1"
       }
     }
   };
@@ -35,7 +35,15 @@ Hooks.on("combatStart", async (combat) => {
   for (const combatant of sortedCombatants) {
     if (combatant === firstCombatant) continue;
     const actor = combatant.actor;
-    if (actor) {
+    if (!actor) continue;
+
+    // Sprawdź, czy ma klasę Guardian
+    const hasGuardianClass = actor.items.some(
+      item => item.type === "class" && item.system.slug === "guardian"
+    );
+
+    // ❌ Pomijamy nadanie efektu, jeśli postać ma Guardian
+    if (!hasGuardianClass) {
       await actor.createEmbeddedDocuments("Item", [effectData]);
     }
   }
