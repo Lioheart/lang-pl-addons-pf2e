@@ -75,6 +75,7 @@ Możliwość sprzedawania przedmiotów u kupca.
 ### W trakcie opracowywania
 
 - [PF2e - Kingdom Building, Camping & Weather](https://foundryvtt.com/packages/pf2e-kingmaker-tools/) - Foundry v13
+- [Hopefinder for Pathfinder 2e](https://foundryvtt.com/packages/hopefinder/) - Foundry v13
 
 ---
 # Additional PF2e Features
