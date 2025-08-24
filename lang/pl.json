@@ -2,6 +2,9 @@
   "lang-pl-addons-pf2e": {
     "runeDescriptionsTitle": "Opisy Run Właściwości",
     "attacksLabel": "Ataki",
+    "round": "Runda",
+    "combatStart": "Początek walki",
+    "combatEnd": "Koniec walki",
     "settings": {
       "enableRuneDescriptions": {
         "name": "Włącz opisy run",
@@ -50,6 +53,10 @@
       "enableUsedReactionEffect": {
         "name": "Dodaj efekt 'Wykorzystano reakcję'",
         "hint": "Po każdej użytej reakcji automatycznie dodaje do postaci efekt 'Wykorzystano reakcję', który znika na początku jej następnej tury."
+      },
+      "enableRoundMarkers": {
+        "name": "Dodaj znaczniki rund",
+        "hint": "Na początku każdej rundy walki dodaje specjalny komunikat w czacie, oddzielający rundy i ułatwiający czytelność."
       }
     },
     "effects": {

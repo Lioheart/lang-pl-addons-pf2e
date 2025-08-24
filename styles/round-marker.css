@@ -1,0 +1,26 @@
+.chat-log .message.round-divider {
+    border: none !important;
+    border-radius: 0px;
+    border-bottom: 1px solid #ff6400 !important;
+    padding: 0pc 5px;
+    box-shadow: none;
+}
+
+.chat-log .message.round-divider .message-header .message-sender, .chat-log .message.round-divider .message-header .message-timestamp, .chat-log .message.round-divider .message-content {
+    display: none !important;
+    border-bottom: none !important;
+    padding: 0px;
+}
+
+.chat-log .message.round-divider .message-header .message-metadata {
+    flex: 1;
+}
+
+.chat-log .message.round-divider .message-header .flavor-text {
+    flex: 1;
+    grid-area: unset;
+}
+
+.chat-log .message.round-divider .message-header {
+    flex-direction: row-reverse;
+}

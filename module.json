@@ -25,13 +25,15 @@
     "scripts/nonlethal-button.js",
     "scripts/world-time-hud.js",
     "scripts/sell-to-merchant.js",
-    "scripts/used-reaction.js"
+    "scripts/used-reaction.js",
+    "scripts/round-marker.js"
   ],
   "templates": [
     "templates/world-time-display.hbs"
   ],
   "styles": [
-    "styles/world-time.css"
+    "styles/world-time.css",    
+    "styles/round-marker.css"
   ],
   "languages": [
     {

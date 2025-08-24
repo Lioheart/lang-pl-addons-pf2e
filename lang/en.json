@@ -2,6 +2,9 @@
   "lang-pl-addons-pf2e": {
     "runeDescriptionsTitle": "Property Rune Descriptions",
     "attacksLabel": "Attacks",
+    "round": "Round",
+    "combatStart": "Start of Combat",
+    "combatEnd": "End of Combat",
     "settings": {
       "enableRuneDescriptions": {
         "name": "Enable Rune Descriptions",
@@ -50,6 +53,10 @@
       "enableUsedReactionEffect": {
         "name": "Add 'Reaction Used' effect",
         "hint": "After every used reaction automatically adds the 'Reaction Used' effect to the character, which ends at the start of their next turn."
+      },
+      "enableRoundMarkers": {
+        "name": "Add round markers in chat",
+        "hint": "At the start of each combat round adds a special chat message to separate rounds for better readability."
       }
     },
     "effects": {
