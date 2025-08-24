@@ -8,8 +8,8 @@
                 "0": {
                     "prompt": "Czy towarzysz jest zwinny czy dziki?"
                 },
-                "2": {
-                    "text": "Twoje ataki, które zadają obrażenia stworzeniu znajdującemu się w zasięgu antylopy, zadają również obrażenia @Damage[({item|flags.pf2e.rulesSelections.antelopeSupportBenefit})d6[persistent,bleed]]."
+                "3": {
+                    "text": "COMP.SpecificRule.Antelope.EffectNote"
                 }
             }
         },
@@ -18,7 +18,7 @@
             "description": "<p>Przyznany przez @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.Qm0iwIYyy2gbnYXe]{Korzyść Wsparcia Małpy}</p><p>Jeśli trafisz i zadasz obrażenia istocie w zasięgu twojej małpy, ta istota staje się @Compendium[pf2e.conditionitems.Frightened]{Przestraszona 1}.</p>",
             "rules": {
                 "1": {
-                    "text": "Jeśli trafisz i zadasz obrażenia istocie w zasięgu twojej małpy, staje się ona @Compendium[pf2e.conditionitems.Frightened]{Przestraszona 1}."
+                    "text": "COMP.SpecificRule.Ape.EffectNote"
                 }
             }
         },
@@ -46,8 +46,8 @@
                 "0": {
                     "prompt": "Czy towarzysz jest zwinny czy dziki?"
                 },
-                "2": {
-                    "text": "Cel otrzymuje obrażenia równe @Damage[({item|flags.pf2e.rulesSelections.bearSupportBenefit})d8[cięcie]] od niedźwiedzia."
+                "3": {
+                    "text": "COMP.SpecificRule.Bear.EffectNote"
                 }
             }
         },
@@ -55,13 +55,14 @@
             "name": "Efekt: Korzyść Wsparcia Chrząszcza",
             "description": "<p>Przyznany przez @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.mFTzDCqNL5EdwlGm]{Korzyść Wsparcia Chrząszcza}</p><p>Twoje ataki zadające obrażenia albo sprawią, że cel zostanie @Compendium[pf2e.conditionitems.Off-Guard]{Odsłonięty} do końca twojej następnej tury, albo przesuniesz cel o 5 stóp od żuka (jest to ruch wymuszony). Cel wybiera, który efekt wystąpi.</p>",
             "rules": {
-                "0": {
-                    "prompt": "Czy towarzysz jest zwinny czy dziki?"
-                },
-                "2": {
-                    "text": "Twoje ataki zadające obrażenia albo sprawią, że cel będzie @Compendium[pf2e.conditionitems.Off-Guard]{Odsłonięty} do końca twojej następnej tury, albo przesuną cel o 5 stóp od żuka (jest to ruch wymuszony). Cel wybiera, który efekt zostanie wywołany."
+                "1": {
+                    "text": "COMP.SpecificRule.Beetle.EffectNote"
                 }
             }
+        },
+        "Effect: Berserker Follower Ability": {
+            "name": "Efekt: Zdolność Zwolennika Berserkera",
+            "description": "<p>Otrzymujesz premię do statusu do następnego rzutu na obrażenia.</p>"
         },
         "Effect: Bird Support Benefit": {
             "name": "Efekt: Korzyść Wsparcia Ptaka",
@@ -70,8 +71,8 @@
                 "0": {
                     "prompt": "Czy towarzysz jest zwinny czy dziki?"
                 },
-                "2": {
-                    "text": "Twoje ataki, które zadają obrażenia stworzeniu będącemu w obszarze zagrożenia przez twojego ptaka, zadają również obrażenia @Damage[({item|flags.pf2e.rulesSelections.birdSupportBenefit})d4[bleed]] i dodatkowo jest @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Zamroczony} do momentu usunięcia obrażeń krwawienia."
+                "3": {
+                    "text": "COMP.SpecificRule.Bird.EffectNote"
                 }
             }
         },
@@ -86,8 +87,8 @@
                 "0": {
                     "prompt": "Czy towarzysz jest zwinny czy dziki?"
                 },
-                "2": {
-                    "text": "Twoje ataki, które zadają obrażenia stworzeniu znajdującemu się w zasięgu dzika, zadają również obrażenia @Damage[({item|flags.pf2e.rulesSelections.boarSupportBenefit})d6[persistent,bleed]]."
+                "3": {
+                    "text": "COMP.SpecificRule.Boar.EffectNote"
                 }
             }
         },
@@ -100,7 +101,7 @@
             "description": "<p>Przyznany przez @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.HCQXxqMtH81jE1W5]{Korzyść Wsparcia Kota}</p><p>Twoje ataki zadające obrażenia stworzeniu w zasięgu kota sprawiają, że cel jest @Compendium[pf2e.conditionitems.Off-Guard]{Odsłonięty}.</p>",
             "rules": {
                 "1": {
-                    "text": "Twoje ataki zadające obrażenia stworzeniu w zasięgu kota sprawiają, że cel jest @Compendium[pf2e.conditionitems.Off-Guard]{Odsłonięty}."
+                    "text": "COMP.SpecificRule.Cat.EffectNote"
                 }
             }
         },
@@ -126,7 +127,7 @@
             "description": "<p>Przyznany przez @UUID[Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.pMPtswKNokDNyYR2]{Obronny Kłęb}</p><p>Otrzymujesz premię +2 do KP. Każda istota, która trafi cię atakiem bez broni w walce wręcz, gdy znajduje się w obronnym zwinięciu, otrzymuje 2k6 trwałych obrażeń od krwawienia.</p>",
             "rules": {
                 "1": {
-                    "text": "Otrzymujesz obrażenia @Damage[2d6[bleed]]."
+                    "text": "COMP.SpecificRule.Pangolin.DefensiveCurl.DamageNote"
                 }
             }
         },
@@ -138,7 +139,7 @@
                     "label": "Imitacja powłoki"
                 },
                 "2": {
-                    "text": "Otrzymujesz @Damage[2d6[persistent,poison]] obrażeń."
+                    "text": "COMP.SpecificRule.HermitKrait.DefensiveCurl.DamageNote"
                 }
             }
         },
@@ -151,7 +152,7 @@
             "description": "<p>Przyznany przez @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.r7QN2lUVWXlcynMW]{Korzyść Wsparcia Słonia}</p><p>Cele znajdujące się w zasięgu słonia, które trafisz i którym zadasz obrażenia przed rozpoczęciem swojej następnej tury, otrzymują karę -4 do testów Percepcji czysto słuchowej.</p>",
             "rules": {
                 "1": {
-                    "text": "Cele znajdujące się w zasięgu słonia, które trafisz i którym zadasz obrażenia, otrzymują karę -4 do testów Percepcji czysto słuchowej. @UUID[Compendium.pf2e-animal-companions.AC-effects.Item.3EGbKKD73gGbSWIa]{Efekt: Korzyść Wsparcia Słonia (Kara)}"
+                    "text": "COMP.SpecificRule.Elephant.EffectNote"
                 }
             }
         },
@@ -164,9 +165,13 @@
             "description": "<p>Przyznany przez @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.60lThr6OM9zZtqK2]{Korzyść Wsparcia Łosia}</p><p>Jeśli trafisz i zadasz obrażenia istocie znajdującej się w zasięgu twojego łosia, istota ta zostaje @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Przestraszona 1}.</p>",
             "rules": {
                 "1": {
-                    "text": "Jeśli trafisz i zadasz obrażenia istocie znajdującej się w zasięgu twojego łosia, istota ta zostaje @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Przestraszona 1}."
+                    "text": "COMP.SpecificRule.Elk.EffectNote"
                 }
             }
+        },
+        "Effect: Experienced Sharpshooter": {
+            "name": "Efekt: Doświadczony Strzelec Wyborowy",
+            "description": "<p>Otrzymujesz karę do szybkości równej -5 stóp lub karę do szybkości równej -10 stóp, jeśli atak był trafieniem krytycznym.</p>"
         },
         "Effect: Fire Elemental Support Benefit": {
             "name": "Efekt: Korzyść Wsparcia Żywiołaka Ognia",
@@ -175,8 +180,8 @@
                 "0": {
                     "prompt": "Czy towarzysz jest zwinny czy dziki?"
                 },
-                "2": {
-                    "text": "Twoje ataki, które zadają obrażenia stworzeniu znajdującemu się w zasięgu twojego żywiołaka ognia, zadają również @Damage[({item|flags.pf2e.rulesSelections.fireElementalSupportBenefit})d6[persistent,fire]] obrażeń."
+                "3": {
+                    "text": "COMP.SpecificRule.FireElemental.EffectNote"
                 }
             }
         },
@@ -185,7 +190,7 @@
             "description": "<p>Przyznany przez @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.V2kspaYOoLbHV5vb]{Korzyść Wsparcia Latającej Wiewiórki}</p><p>Jeśli twój atak spowoduje obrażenia istoty znajdującej się w zasięgu twojej gigantycznej latającej wiewiórki, istota ta otrzymuje karę okolicznościową -10 stóp do swojej Szybkości.</p>",
             "rules": {
                 "1": {
-                    "text": "Jeśli twój atak spowoduje obrażenia istoty znajdującej się w zasięgu twojej gigantycznej latającej wiewiórki, istota ta otrzymuje karę okolicznościową -10 stóp do swojej Szybkości. @UUID[Compendium.pf2e-animal-companions.AC-effects.Item.lACoOtINmUb1fTMY]{Efekt: Korzyść Wsparcia Latającej Wiewiórki (Kara)}"
+                    "text": "COMP.SpecificRule.FlyingSquirrel.EffectNote"
                 }
             }
         },
@@ -198,7 +203,7 @@
             "description": "<p>Przyznany przez @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.4kkcfQdHAb4YTVNw]{Korzyść Wsparcia Ducha}</p><p>Jeśli trafisz i zadasz obrażenia istocie w zasięgu twojego ducha, ta istota staje się @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Przestraszony 1}.</p>",
             "rules": {
                 "1": {
-                    "text": "Jeśli trafisz i zadasz obrażenia istocie w zasięgu twojego ducha, ta istota staje się @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Przestraszony 1}."
+                    "text": "COMP.SpecificRule.Ghost.EffectNote"
                 }
             }
         },
@@ -216,7 +221,7 @@
             "description": "<p>Przyznany przez @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.V3XczB8r8fQfJIhe]{Korzyść Wsparcia Gigantycznej Osy}</p><p>Jeśli trafisz i zadasz obrażenia istocie znajdującej się w zasięgu twojej gigantycznej osy, istota ta staje się Przestraszona 1.</p>",
             "rules": {
                 "1": {
-                    "text": "Jeśli trafisz i zadasz obrażenia istocie znajdującej się w zasięgu twojego łosia, istota ta zostaje @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Przestraszona 1}."
+                    "text": "COMP.SpecificRule.GiantWasp.EffectNote"
                 }
             }
         },
@@ -225,10 +230,10 @@
             "description": "<p>Przyznany przez @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.LcAJTLzLDcIrQ7KQ]{Korzyść Wsparcia Żyrafy}</p><p>Każdy cel, który zostanie skutecznie pchnięty, porusza się o 10 stóp (15 stóp w przypadku sukcesu krytycznego).</p>",
             "rules": {
                 "1": {
-                    "text": "Wybrany cel porusza się o 10 stóp."
+                    "text": "COMP.SpecificRule.Giraffe.EffectNote.Success"
                 },
                 "2": {
-                    "text": "Wybrany cel porusza się o 15 stóp."
+                    "text": "COMP.SpecificRule.Giraffe.EffectNote.CriticalSuccess"
                 }
             }
         },
@@ -239,10 +244,10 @@
                 "0": {
                     "prompt": "COMP.Prompt.IsSpecialized"
                 },
-                "2": {
+                "3": {
                     "text": "COMP.SpecificRule.GrayBladeling.EffectNote.Bleeding"
                 },
-                "3": {
+                "4": {
                     "text": "COMP.SpecificRule.GrayBladeling.EffectNote.Frightened"
                 }
             }
@@ -258,18 +263,18 @@
                 "0": {
                     "prompt": "Czy towarzysz jest zwinny czy dziki?"
                 },
-                "2": {
-                    "text": "Twoje ataki, które zadają obrażenia stworzeniu znajdującemu się w zasięgu twojego węża pustelnika, zadają również @Damage[({item|flags.pf2e.rulesSelections.hermitKraitSupportBenefit})d6[persistent,poison]] obrażeń."
+                "3": {
+                    "text": "COMP.SpecificRule.HermitKrait.EffectNote"
                 }
             }
         },
         "Effect: Hippocampus Support Benefit": {
             "name": "Efekt: Korzyść Wsparcia Hipokampa",
-            "description": "<p>Przyznany przez @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.t1KMf7rDzJJ2vWhe]{Korzyść Wsparcia Hipokampa}</p><p>Jeśli dosiadasz hipokampa i przemieściłeś się o 10 stóp lub więcej podczas akcji poprzedzającej atak wręcz, zyskujesz premię okolicznościową do obrażeń za atak równą dwukrotności liczby kości obrażeń od broni. Jeśli twoja broń posiada już cechę „Starcie Konne”, zamiast tego zwiększ premię do obrażeń tej cechy o 2 na kość.</p>"
+            "description": "<p>Przyznany przez @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.t1KMf7rDzJJ2vWhe]{Korzyść Wsparcia Hipokampa}</p><p>Jeśli jesteś na Hipokampie i przemieściłeś się o 10 stóp lub więcej podczas akcji poprzedzającej atak wręcz, zyskujesz premię okolicznościową do obrażeń za atak równą dwukrotności liczby kości obrażeń broni.</p>"
         },
         "Effect: Hippogriff Support Benefit": {
             "name": "Efekt: Korzyść Wsparcia Hipogryfa",
-            "description": "<p>Przyznany przez @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.cJBAKsVacLTIiPcz]{Korzyść Wsparcia Hipogryfa}</p><p>Jeśli dosiadasz hipogryfa i przemieściłeś się o 10 stóp lub więcej podczas akcji poprzedzającej atak wręcz, zyskujesz premię okolicznościową do obrażeń za atak równą dwukrotności liczby kości obrażeń broni. Jeśli twoja broń posiada już cechę „Starcie Konne”, zamiast tego zwiększ premię do obrażeń tej cechy o 2 na kość.</p>"
+            "description": "<p>Przyznany przez @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.cJBAKsVacLTIiPcz]{Korzyść Wsparcia Hipogryfa}</p><p>Jeśli jesteś na Hipogryfie i przemieściłeś się o 10 stóp lub więcej podczas akcji poprzedzającej atak wręcz, zyskujesz premię okolicznościową do obrażeń za atak równą dwukrotności liczby kości obrażeń broni.</p>"
         },
         "Effect: Horse Support Benefit": {
             "name": "Efekt: Korzyść Wsparcia Konia",
@@ -280,7 +285,7 @@
             "description": "<p>Przyznany przez @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.wlh1poSMLK9wk2Nw]{Korzyść Wsparcia Hieny}</p><p>Kiedy trafisz atakiem istotę znajdującą się w zasięgu hieny, staje się ona Przestraszona 1.</p>",
             "rules": {
                 "1": {
-                    "text": "Kiedy trafisz atakiem istotę w zasięgu hieny, staje się ona @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Przestraszona 1}."
+                    "text": "COMP.SpecificRule.Hyena.EffectNote"
                 }
             }
         },
@@ -291,7 +296,7 @@
                 "0": {
                     "prompt": "COMP.Prompt.IsSpecialized"
                 },
-                "2": {
+                "3": {
                     "text": "COMP.SpecificRule.Keulia.EffectNote"
                 }
             }
@@ -303,8 +308,8 @@
                 "0": {
                     "prompt": "Czy towarzysz jest zwinny czy dziki?"
                 },
-                "2": {
-                    "text": "Twoje ataki, które zadają obrażenia stworzeniu znajdującemu się w zasięgu twojego żywiołaka metalu, zadają również obrażenia równe @Damage[({item|flags.pf2e.rulesSelections.metalElementalSupportBenefit})d6[bleed]]."
+                "3": {
+                    "text": "COMP.SpecificRule.MetalElemental.EffectNote"
                 }
             }
         },
@@ -313,7 +318,7 @@
             "description": "<p>Przyznany przez @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.vvuB2kEzRYSs4IpH]{Korzyść Wsparcia Kreta}</p><p>Jeśli trafisz i spowodujesz obrażenia u istoty sąsiadującej z twoim kretem, ta istota będzie Niezdarna 1, dopóki nie ruszy się ze swojej obecnej pozycji.</p>",
             "rules": {
                 "1": {
-                    "text": "Jeśli trafisz i zadasz obrażenia istocie sąsiadującej z twoim kretem, ta istota będzie @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Niezdarna 1} dopóki nie ruszy się ze swojej obecnej pozycji."
+                    "text": "COMP.SpecificRule.Mole.EffectNote"
                 }
             }
         },
@@ -326,7 +331,7 @@
             "description": "<p>Przyznany przez @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.2Jaz98WiQMNnqKCD]{Korzyść Wsparcia Warana}</p><p>Jeśli twój atak obrażenia wroga, za każdym razem, gdy wróg spróbuje wykonać akcję z cechą manipulacji do końca twojej następnej tury, musi spróbować wykonać Płaski Test ST 5. W przypadku porażki akcja zostaje przerwana.</p>",
             "rules": {
                 "1": {
-                    "text": "Jeśli twój atak obrażenia wroga, za każdym razem, gdy wróg spróbuje wykonać akcję z cechą manipulacji do końca twojej następnej tury, musi spróbować wykonać Płaski Test ST 5. @UUID[Compendium.pf2e-animal-companions.AC-effects.Item.eXABjTK48R1xCvOZ]{Efekt: Korzyść Wsparcia Warana (Kara)}"
+                    "text": "COMP.SpecificRule.MonitorLizard.EffectNote"
                 }
             }
         },
@@ -339,7 +344,7 @@
             "description": "<p>Przyznany przez @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.9Y5QKMvy0KsliE29]{Korzyść Wsparcia Ćmy}</p><p>W przypadku obrażenia atakiem istoty przysłoniętej lub ukrytej w zasięgu ćmy, istota ta wymaga jedynie Płaskiego Testu o ST 3, by ją namierzyć, jeśli jest przysłonięta, lub Płaskiego Testu o ST 9, jeśli jest ukryta.</p>",
             "rules": {
                 "1": {
-                    "text": "W przypadku obrażenia atakiem istoty przysłoniętej lub ukrytej w zasięgu ćmy, istota ta wymaga jedynie Płaskiego Testu o ST 3, aby ją namierzyć, jeśli jest przysłonięta, lub Płaskiego Testu o ST 9, jeśli jest ukryta. @UUID[Compendium.pf2e-animal-companions.AC-effects.Item.Db0Vtobv3v4Iybj5]{Efekt: Korzyść Wsparcia Ćmy (Kara)}"
+                    "text": "COMP.SpecificRule.Moth.EffectNote\n"
                 }
             }
         },
@@ -362,10 +367,14 @@
                 "0": {
                     "prompt": "Czy towarzysz jest zwinny czy dziki?"
                 },
-                "2": {
-                    "text": "Twoje ataki, które zadają obrażenia stworzeniu znajdującemu się w zasięgu twojego łuskowca, zadają również @Damage[({item|flags.pf2e.rulesSelections.pangolinSupportBenefit})d6[persistent,bleed]] obrażeń."
+                "3": {
+                    "text": "COMP.SpecificRule.Pangolin.EffectNote"
                 }
             }
+        },
+        "Effect: Reckless Attack": {
+            "name": "Efekt: Lekkomyślny Atak",
+            "description": "<p>Przyznany przez @UUID[Compendium.pf2e-animal-companions.AC-Features.Item.yYN5lYVfJVofjR0k]</p><p>Otrzymujesz premię okolicznościową +1 do następnego rzutu ataku.</p>"
         },
         "Effect: Retreat (Rider)": {
             "name": "Efekt: Odwrót (Jeździec)",
@@ -376,7 +385,7 @@
             "description": "<p>Przyznany przez @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.kecawjDhBFz5QA4f]{Korzyść Wsparcia Nosorożca}</p><p>Pierwsza istota w zasięgu twojego nosorożca, którą trafisz i zadasz jej obrażenia przed rozpoczęciem twojej następnej tury, staje się Niezdarna 1.</p>",
             "rules": {
                 "1": {
-                    "text": "Pierwsza istota w zasięgu twojego nosorożca, którą trafisz i której zadasz obrażenia przed rozpoczęciem twojej następnej tury, staje się @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Niezdara 1}."
+                    "text": "COMP.SpecificRule.Rhinoceros.EffectNote"
                 }
             }
         },
@@ -387,11 +396,11 @@
                 "0": {
                     "prompt": "Czy towarzysz jest zwinny czy dziki?"
                 },
-                "1": {
+                "2": {
                     "label": "Ujeżdżanie Smoczydła"
                 },
-                "2": {
-                    "text": "Za każdym razem, gdy wykonujesz atak podczas jazdy na smoczydle i trafisz stworzenie znajdujące się w zasięgu smoczydła, stworzenie to otrzymuje @Damage[({item|flags.pf2e.rulesSelections.ridingDrakeSupportBenefit})d4[fire]] obrażeń od smoczydła."
+                "3": {
+                    "text": "COMP.SpecificRule.RidingDrake.EffectNote"
                 }
             }
         },
@@ -400,7 +409,7 @@
             "description": "<p>Przyznany przez @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.NKgFIZQYkL3bb6xn]{Korzyść Wsparcia Tarantuli Wierzchowej}</p><p>Jeśli trafisz i zadasz obrażenia istocie, której zagraża twoja jeżdżąca tarantula, cel musi odnieść sukces w @Check[type:flat|dc:5] za każdym razem, gdy podejmie akcję koncentracji lub akcja ta zostanie utracona.</p>",
             "rules": {
                 "1": {
-                    "text": "Jeśli trafisz i zadasz obrażenia istocie, której zagraża twoja jeżdżąca tarantula, cel musi odnieść sukces w @Check[type:flat|dc:5] za każdym razem, gdy podejmie akcję koncentracji lub akcja ta zostanie utracona. @UUID[Compendium.pf2e-animal-companions.AC-effects.Item.6PFleA0i6lxly55o]{Efekt: Korzyść Wsparcia Tarantuli Wierzchowej (Kara)}"
+                    "text": "COMP.SpecificRule.RidingTarantula.EffectNote"
                 }
             }
         },
@@ -413,7 +422,7 @@
             "description": "<p>Przyznany przez @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.R0e3jHpB7nTzIUPm]{Korzyść Wsparcia Roka}</p><p>Twoje ataki zadające obrażenia istocie, której zagraża twój rok, odsuwają cel o 5 stóp od twojego roka.</p>",
             "rules": {
                 "1": {
-                    "text": "Twoje ataki zadające obrażenia stworzeniu, któremu zagraża twój rok, odpychają cel na odległość 5 stóp od twojego roka."
+                    "text": "COMP.SpecificRule.Roc.EffectNote"
                 }
             }
         },
@@ -424,8 +433,8 @@
                 "0": {
                     "prompt": "Czy towarzysz jest zwinny czy dziki?"
                 },
-                "2": {
-                    "text": "Twoje ataki, które zadają obrażenia stworzeniu znajdującemu się w zasięgu skorpiona, zadają również @Damage[({item|flags.pf2e.rulesSelections.scorpionSupportBenefit})d6[persistent,poison]] obrażeń."
+                "3": {
+                    "text": "COMP.SpecificRule.Scorpion.EffectNote"
                 }
             }
         },
@@ -447,7 +456,7 @@
             "description": "<p>Przyznany przez @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.h65iGxPkfrT8DdPv]{Korzyść Wsparcia Ogara Cienia}</p><p>Kiedy obrażenia zadajesz istocie za pomocą Ataku, a ta istota znajduje się w zasięgu twojego ogara cienia, zarówno ty, jak i twój ogar cienia stajecie się @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Przysłonięci} do tej istoty.</p>",
             "rules": {
                 "1": {
-                    "text": "Kiedy obrażenia są zadawane Atakiem, a istota ta znajduje się w zasięgu twojego ogara cienia, zarówno ty, jak i twój ogar cienia stajecie się @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Przyłonięci} do tej istoty.\n"
+                    "text": "COMP.SpecificRule.ShadowHound.EffectNote"
                 }
             }
         },
@@ -470,8 +479,8 @@
                 "0": {
                     "prompt": "Czy towarzysz jest zwinny czy dziki?"
                 },
-                "2": {
-                    "text": "Za każdym razem, gdy trafisz stworzenie znajdujące się w zasięgu shotalashu atakiem, stworzenie otrzymuje @Damage[({item|flags.pf2e.rulesSelections.shotalashuSupportBenefit})d6[mental]] obrażeń od shotalashu."
+                "3": {
+                    "text": "COMP.SpecificRule.Shotalashu.EffectNote"
                 }
             }
         },
@@ -480,7 +489,7 @@
             "description": "<p>Przyznany przez @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.Si13B4VFANZN8mi1]{Korzyść Wsparcia Szkieletowego Dusiciela}</p><p>Twoje ataki zadające obrażenia wybranej istocie sprawiają, że cel @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Odsłonięty}.</p>",
             "rules": {
                 "1": {
-                    "text": "Twoje ataki zadające obrażenia wybranej istocie sprawiają, że cel @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Odsłonięty}."
+                    "text": "COMP.SpecificRule.Antelope.EffectNote"
                 }
             }
         },
@@ -489,10 +498,10 @@
             "description": "<p>Przyznany przez @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.CKMQC3zu1XoGjeNd]{Korzyść Wsparcia Szkieletowego Rumaka}</p><p>Jeśli dosiadasz swojego szkieletowego wierzchowca i przemieścisz się o co najmniej 10 stóp podczas akcji poprzedzającej atak, każda istota obrażona atakiem staje się @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Przestraszona 1} lub @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Przestraszona 2}, jeśli atak był trafieniem krytycznym.</p>",
             "rules": {
                 "1": {
-                    "text": "Każda istota obrażenia atakiem staje się @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Przestraszona 1}."
+                    "text": "COMP.SpecificRule.SkeletalMount.EffectNote.Success"
                 },
                 "2": {
-                    "text": "Każda istota obrażenia atakiem staje się @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Przestraszona 2}."
+                    "text": "COMP.SpecificRule.SkeletalMount.EffectNote.CriticalSuccess"
                 }
             }
         },
@@ -501,7 +510,7 @@
             "description": "<p>Przyznany przez @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.bHaJZSm7SakAsk00]{Korzyść Wsparcia Szkieletowego Sługi}</p><p>Kiedy wykonany przez ciebie atak trafia i zadaje obrażenia istocie w zasięgu twojego szkieletowego sługi, cel ten staje się @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Odsłonięty}.</p>",
             "rules": {
                 "1": {
-                    "text": "Kiedy wykonany przez ciebie atak trafia i zadaje obrażenia istocie w zasięgu twojego Szkieletowego Sługi, cel ten staje się @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Odsłonięty}."
+                    "text": "COMP.SpecificRule.SkeletalServant.EffectNote"
                 }
             }
         },
@@ -512,8 +521,8 @@
                 "0": {
                     "prompt": "Czy towarzysz jest wyspecjalizowany?"
                 },
-                "2": {
-                    "text": "Otrzymujesz obrażenia @Damage[({item|flags.pf2e.rulesSelections.isSpecialized})d6[piercing]]."
+                "3": {
+                    "text": "COMP.SpecificRule.MetalElemental.SpikedBunker.DamageNote"
                 }
             }
         },
@@ -526,7 +535,7 @@
             "description": "<p>Przyznany przez @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.oLwBrrW33fIjSHLr]{Korzyść Wsparcia Ptaka Terroru}</p><p>Twoje ataki zadające obrażenia stworzeniu w zasięgu twojego ptaka terroru sprawiają, że cel @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Odsłonięty}.</p>",
             "rules": {
                 "1": {
-                    "text": "Twoje ataki zadające obrażenia wybranej istocie sprawiają, że cel @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Odsłonięty}."
+                    "text": "COMP.SpecificRule.TerrorBird.EffectNote"
                 }
             }
         },
@@ -541,8 +550,8 @@
                 "0": {
                     "prompt": "Czy towarzysz jest zwinny czy dziki?"
                 },
-                "2": {
-                    "text": "Twoje ataki, które zadają obrażenia leżącej istocie znajdującej się w zasięgu triceratopsa, zadają również @Damage[({item|flags.pf2e.rulesSelections.triceratopsSupportBenefit})d8[persistent,bleed]] obrażeń."
+                "3": {
+                    "text": "COMP.SpecificRule.Triceratops.EffectNote"
                 }
             }
         },
@@ -551,7 +560,7 @@
             "description": "<p>Przyznany przez @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.XrxIRaD1A5tpKm1t]{Korzyść Wsparcia Tyranozaura}</p><p>Jeśli trafisz i zadasz obrażenia istocie w zasięgu twojego tyranozaura, istota ta zostaje @Compendium[pf2e.conditionitems.przestraszony]{Przestraszona 1}.</p>",
             "rules": {
                 "1": {
-                    "text": "Jeśli trafisz i zadasz obrażenia istocie w zasięgu twojego tyranozaura, istota ta zostaje @Compendium[pf2e.conditionitems.przestraszony]{Przestraszona 1}."
+                    "text": "COMP.SpecificRule.Tyrannosaurus.EffectNote"
                 }
             }
         },
@@ -563,7 +572,7 @@
                     "prompt": "Czy towarzysz jest zwinny czy dziki?"
                 },
                 "2": {
-                    "text": "Za każdym razem, gdy trafisz stworzenie znajdujące się w zasięgu Ulgrem-Luranna atakiem, otrzymuje ono dodatkowe obrażenia @Damage[({item|flags.pf2e.rulesSelections.ulgremLurannSupportBenefit})d4[piercing]] oraz @Damage[({item|flags.pf2e.rulesSelections.ulgremLurannSupportBenefit})d4[electricity]] obrażeń od Ulgrem-Luranna."
+                    "text": "COMP.SpecificRule.UlgremLurann.EffectNote"
                 }
             }
         },
@@ -572,7 +581,7 @@
             "description": "<p>Przyznany przez @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.XVOVZjvTwaoalpWC]{Korzyść Wsparcia Grzyba Parasolowego}</p><p>Twoje ataki zadające obrażenia stworzeniom w zasięgu grzyba parasolowego stają się @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Ogłupiony 1}. Ten efekt ma cechę trucizny.</p>",
             "rules": {
                 "1": {
-                    "text": "Twoje ataki zadające obrażenia stworzeniom w zasięgu grzyba parasolowego stają się @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Ogłupiony 1}. Ten efekt ma cechę trucizny"
+                    "text": "COMP.SpecificRule.UmbrellaMushroom.EffectNote"
                 }
             }
         },
@@ -581,7 +590,7 @@
             "description": "<p>Przyznany przez @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.bEkXle5FLNxnp3IE]{Korzyść Wsparcia Nieumarłego Drapieżnego Ptaka}</p><p>Kiedy zadajesz obrażenia stworzeniu w zasięgu ptaka za pomocą Ataku, stworzenie to staje się @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Niezdarny 1}.</p>",
             "rules": {
                 "1": {
-                    "text": "Kiedy zadajesz obrażenia stworzeniu w zasięgu ptaka za pomocą Ataku, stworzenie to staje się @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Niezdarny 1}."
+                    "text": "COMP.SpecificRule.UndeadBirdOfPrey.EffectNote"
                 }
             }
         },
@@ -592,8 +601,8 @@
                 "0": {
                     "prompt": "Czy towarzysz jest zwinny czy dziki?"
                 },
-                "2": {
-                    "text": "Za każdym razem, gdy trafisz stworzenie znajdujące się w zasięgu nieumarłej ręki Atakiem, otrzymuje ono obrażenia równe @Damage[({item|flags.pf2e.rulesSelections.undeadHandSupportBenefit})d6[bludgeoning]]."
+                "3": {
+                    "text": "COMP.SpecificRule.UndeadHand.EffectNote"
                 }
             }
         },
@@ -604,17 +613,17 @@
                 "0": {
                     "prompt": "Czy towarzysz jest zwinny czy dziki?"
                 },
-                "2": {
-                    "text": "Twoje ataki, które zadają obrażenia stworzeniu znajdującemu się w zasięgu twojego wampirycznego zwierzęcia, zadają również @Damage[({item|flags.pf2e.rulesSelections.vampiricAnimalSupportBenefit})d6[bleed]] obrażeń."
+                "3": {
+                    "text": "COMP.SpecificRule.VampiricAnimal.EffectNote"
                 }
             }
         },
         "Effect: War Pig Support Benefit": {
             "name": "Efekt: Korzyść Wsparcia Świni Bojowej",
-            "description": "<p>Przyznany przez Korzyść Wsparcia Świni Bojowej</p><p>Ataki, które zadają obrażenia stworzeniu znajdującemu się w zasięgu twojej świni bojowej, sprawiają, że cel otrzymuje @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Niezdarny 1}.</p>",
+            "description": "<p>Przyznany przez @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.ZGE7RQKqjQCTEJct]{Korzyść Wsparcia Świni Bojowej}</p><p>Ataki, które zadają obrażenia stworzeniu znajdującemu się w zasięgu twojej świni bojowej, powodują, że cel otrzymuje @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Niezdarność 1}.</p>",
             "rules": {
                 "1": {
-                    "text": "Jeśli trafisz i zadajesz obrażenia stworowi znajdującemu się w zasięgu twojej świni bojowej, stwór ten otrzymuje @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Niezdarny 1}."
+                    "text": "COMP.SpecificRule.WarPig.EffectNote"
                 }
             }
         },
@@ -623,7 +632,7 @@
             "description": "<p>Przyznany przez @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.BFvS1wnFxgUqgX8m]{Korzyść Wsparcia Żywiołaka Wody}</p><p>Kiedy atak zadaje obrażenia istocie w zasięgu żywiołaka wody, ta istota staje się @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Niezdarna 1}.</p>",
             "rules": {
                 "1": {
-                    "text": "Twój atak, który zadaje obrażenia istocie w zasięgu twojego żywiołaka wody, sprawia, że ta istota staje się @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Niezdarna 1}."
+                    "text": "COMP.SpecificRule.WaterElemental.EffectNote"
                 }
             }
         },
@@ -641,10 +650,10 @@
             "description": "<p>Przyznany przez @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.5HnWXmOp8qNjfhdU]{Korzyść Wsparcia Wilka}</p><p>Ataki zadające obrażenia istotom, którym zagraża wilk, powodują obniżenie szybkości celu o -5 stóp (-10 przy trafieniu krytycznym).</p>",
             "rules": {
                 "1": {
-                    "text": "Ataki zadające obrażenia istotom, którym wilk zagraża, powodują karę do szybkości celu w wysokości -5 stóp. @UUID[Compendium.pf2e-animal-companions.AC-effects.Item.UhWenwf5XOlk9ZHY]"
+                    "text": "COMP.SpecificRule.Wolf.EffectNote.Success"
                 },
                 "2": {
-                    "text": "Ataki zadające obrażenia istotom, którym wilk zagraża, powodują karę do szybkości celu w wysokości -10 stóp. @UUID[Compendium.pf2e-animal-companions.AC-effects.Item.6x4zqyWl3pQiE9lw]"
+                    "text": "COMP.SpecificRule.Wolf.EffectNote.CriticalSuccess"
                 }
             }
         },
@@ -661,10 +670,10 @@
             "description": "<p>Przyznany przez @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.KomM6mTwJAzvqAgi]{Korzyść Wsparcia Żywiołaka Drewna}</p><p>Jeśli atak zadaje obrażenia istocie znajdującej się w zasięgu żywiołaka drewna, istota ta otrzymuje karę -5 stóp do swojej szybkości przez 1 minutę (-10 w przypadku sukcesu krytycznego).</p>",
             "rules": {
                 "1": {
-                    "text": "Jeśli atak zadaje obrażenia istocie znajdującej się w zasięgu żywiołaka drewna, istota ta otrzymuje karę -5 stóp do swojej szybkości. @UUID[Compendium.pf2e-animal-companions.AC-effects.Item.U2mkebPNSs531ADL]"
+                    "text": "COMP.SpecificRule.WoodElemental.EffectNote.Success"
                 },
                 "2": {
-                    "text": "Jeśli atak zadaje obrażenia istocie znajdującej się w zasięgu żywiołaka drewna, istota ta otrzymuje karę -10 stóp do swojej szybkości. @UUID[Compendium.pf2e-animal-companions.AC-effects.Item.FPqIVdqeegX6YATJ]"
+                    "text": "COMP.SpecificRule.WoodElemental.EffectNote.CriticalSuccess"
                 }
             }
         },
@@ -683,8 +692,8 @@
                 "0": {
                     "prompt": "Czy towarzysz jest zwinny czy dziki?"
                 },
-                "2": {
-                    "text": "Twoje ataki, które zadają obrażenia stworzeniu znajdującemu się w zasięgu twojej wiwerny, zadają również @Damage[({item|flags.pf2e.rulesSelections.wyvernSupportBenefit})d6[persistent,poison]] obrażeń."
+                "3": {
+                    "text": "COMP.SpecificRule.Wyvern.EffectNote"
                 }
             }
         },
@@ -695,8 +704,8 @@
                 "0": {
                     "prompt": "Czy towarzysz jest zwinny czy dziki?"
                 },
-                "2": {
-                    "text": "Za każdym razem, gdy trafisz i zadasz obrażenia stworzeniu znajdującemu się w promieniu 10 stóp od ptaka padlinożercy zombie, stworzenie to otrzymuje dodatkowe obrażenia równe @Damage[({item|flags.pf2e.rulesSelections.zombieCarrionBirdSupportBenefit})d6[untyped]]."
+                "3": {
+                    "text": "COMP.SpecificRule.ZombieCarrionBird.EffectNote"
                 }
             }
         },
@@ -707,8 +716,8 @@
                 "0": {
                     "prompt": "Czy towarzysz jest zwinny czy dziki?"
                 },
-                "3": {
-                    "text": "Za każdym razem, gdy wykonasz atak podczas jazdy na zombie i trafisz stworzenie znajdujące się w zasięgu zombie, stworzenie to otrzymuje obrażenia równe @Damage[({item|flags.pf2e.rulesSelections.zombieMountSupportBenefit})d4[{item|flags.pf2e.rulesSelections.zombieMountDamage}]] od zombie."
+                "5": {
+                    "text": "COMP.SpecificRule.ZombieMount.EffectNote"
                 }
             }
         },
@@ -719,8 +728,8 @@
                 "0": {
                     "prompt": "Czy towarzysz jest zwinny czy dziki?"
                 },
-                "2": {
-                    "text": "Za każdym razem, gdy trafisz stworzenie znajdujące się w odległości 10 stóp od zombie i zadajesz mu obrażenia, stworzenie otrzymuje dodatkowe obrażenia @Damage[({item|flags.pf2e.rulesSelections.zombieMountSupportBenefit})d6[untyped]], ponieważ rana ropieje."
+                "3": {
+                    "text": "COMP.SpecificRule.Zombie.EffectNote"
                 }
             }
         }

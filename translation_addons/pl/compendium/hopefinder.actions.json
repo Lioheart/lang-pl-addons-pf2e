@@ -1,0 +1,97 @@
+{
+    "label": "Akcje",
+    "entries": {
+        "Aim": {
+            "name": "Cel",
+            "description": "<p>Celujesz w cel bronią dystansową, zwiększając swoje szanse na trafienie. Jeśli twoją następną akcją jest Atak tą bronią, otrzymujesz premię okolicznościową +1 do rzutu ataku.</p>"
+        },
+        "Barricade": {
+            "name": "Barykada",
+            "description": "<p>Poświęcasz 10 minut na zbudowanie szybkiej bariery lub przeszkody, używając śmieci i gruzu z otoczenia. Bariera blokuje jedną krawędź kwadratu i musi być zakotwiczona do solidnych obiektów po obu stronach (zwykle jest to ościeżka drzwi, ale może to być również para ciężkich biurek). Wykonaj test umiejętności @Check[type:crafting|dc:15|immutable:true]. W przypadku powodzenia bariera ma wartość wytrzymałości 1, a ST potrzebna do jej otwarcia wynosi 10. W przypadku krytycznego powodzenia wartość wytrzymałości podwajasz, a ST zwiększasz o 5. Możesz zdecydować się na zwiększenie ST testu Rzemiosła o 5, aby zwiększyć pierwszą wartość wytrzymałości o 1, a ST potrzebną do jej otwarcia o 5. Możesz użyć tej akcji maksymalnie 3 razy na barierę, aby zwiększyć jej wartość wytrzymałości (ale nadal używasz tylko najwyższego ST otwarcia siłą).</p>"
+        },
+        "Batter": {
+            "name": "Rozbijacz",
+            "description": "<p>Wykonujesz atak bronią białą lub narzędziem przeciwko przedmiotowi nieożywionemu, próbując go otworzyć lub złamać.</p>"
+        },
+        "Case the Joint": {
+            "name": "Sprawdzanie Okolicy",
+            "description": "<p>Poświęć 10 minut na zbadanie lokacji i spróbuj wykonać @Check[type:perception|traits:action:case-the-joint], aby dowiedzieć się więcej o tym miejscu. ST ustala narrator. Sukces dostarcza ogólnych informacji o tym, co można znaleźć w tej lokalizacji, w tym prawdopodobny łup oraz wszelkie rutynowe przeszkody lub wyzwania, które można napotkać. Krytyczny sukces ujawnia to samo oraz jedną konkretną rzecz dotyczącą tej lokalizacji, którą można dostrzec z punktu obserwacyjnego. Informacje te dotyczą obszaru wielkości stacji benzynowej. Jeśli lokalizacja jest większa, należy skupić się na jednej jej części, aby dowiedzieć się więcej.</p>"
+        },
+        "Cook": {
+            "name": "Gotowanie",
+            "description": "<p>Możesz gotować surowe jedzenie, aby przedłużyć jego trwałość, oraz sterylizować wodę, aby była bezpieczna do picia (przynajmniej pod względem pasożytów i innych chorób przenoszonych przez wodę). Poświęć 10 minut na rozpalanie ognia i przygotowanie narzędzi do gotowania, a następnie spróbuj wykonać test umiejętności Przetrwanie. ST wynosi zazwyczaj 10, ale może być wyższy, jeśli twoje narzędzia są kiepskiej jakości lub sytuacja utrudnia zadanie. Jeśli test zakończy się sukcesem, możesz sprawić, że przeterminowane konserwy będą nadawały się do spożycia lub zamienić surowe mięso lub świeże warzywa w gotowane mięso lub gotowane warzywa. Produkty te psują się dwa razy wolniej. Jeśli masz dostęp do wody nie zanieczyszczonej chemikaliami, możesz również wykorzystać ten czas na przygotowanie 1 galona wody pitnej.</p>"
+        },
+        "Craft": {
+            "name": "Wytwarzanie",
+            "description": "<p>Tworzenie przedmiotów w zrujnowanym świecie nie polega na pieniądzach, ale na dostępie do odpowiednich części. Każdy przedmiot ma typ, który wskazuje ogólną kategorię materiałów użytych do jego wytworzenia, oraz wartość zniszczenia, która w przybliżeniu wskazuje trwałość przedmiotu. Aby stworzyć przedmiot, musisz posiadać liczbę części równą dwukrotności wartości zniszczenia przedmiotu, a wszystkie te części muszą być tego samego typu co przedmiot (z wyjątkiem przedmiotów składanych, które można stworzyć z dowolnych części). Elektronika, lekarstwa i przedmioty syntetyczne wymagają do stworzenia liczby części równej czterokrotności ich wartości zniszczenia.</p>\n<p>Po zebraniu wszystkich niezbędnych części należy poświęcić czas na wykonanie przedmiotu. Zazwyczaj jest to liczba godzin równa liczbie zużytych części, chociaż narrator może wydłużyć lub skrócić ten czas w zależności od przedmiotu (wykonanie bandaża zajmuje tylko minutę lub dwie, podczas gdy zbudowanie generatora z części może zająć wiele dni). Po upływie tego czasu wykonujesz test umiejętności Rzemiosło, z ST równym 10 + wartość zniszczenia przedmiotu (+4, jeśli jest to przedmiot elektroniczny, medyczny lub syntetyczny).</p>\n<p>Komputery lub Maszyny można wytwarzać przy użyciu umiejętności Komputery lub Maszyny, stosując te same zasady.</p>\n<hr />\n<p><strong>Krytyczny Sukces</strong> Wykonujesz przedmiot i zużywasz o 10% mniej części niż było to wymagane (minimum 1).</p>\n<p><strong>Sukces</strong> Twoja próba zakończyła się powodzeniem, a przedmiot został ukończony.</p>\n<p><strong>Porażka</strong> Nie stworzyłeś tego przedmiotu i zgubiłeś jedną część podczas procesu.</p>\n<p><strong>Krytyczna Porażka</strong> Próba zakończyła się katastrofą. Stracono połowę części.</p>"
+        },
+        "Diagnose": {
+            "name": "Diagnozowanie",
+            "description": "<p>Potrafisz zdiagnozować usterkę urządzenia lub systemu, które nie działają prawidłowo. Poświęć 10 minut na sprawdzenie systemu lub urządzenia, które możesz obejrzeć w całości, i spróbuj wykonać @Check[type:computers|dc:15|immutable:true]{Komputery} lub @Check[type:machinery|dc:15|immutable:true]{Maszyny} (@Check[type:computers|dc:20|immutable:true]{Komputery} lub @Check[type:machinery|dc:20|immutable:true]{Maszyny}, jeśli widzisz tylko większość urządzenia). Jeśli ci się to uda, dowiesz się, jakie problemy uniemożliwiają normalne działanie systemu. Jeśli odniesiesz krytyczny sukces, wykryjesz również wszelkie celowe sabotaże.</p>"
+        },
+        "Dodge": {
+            "name": "Unik",
+            "description": "<p><strong>Wyzwalacz</strong> Jesteś celem ataku wręcz i widzisz napastnika.</p>\n<p><strong>Wymagania</strong> Nie jesteś obciążony.</p>\n<hr />\n<p>Próbujesz uniknąć ataku, dzięki czemu trudniej cię trafić. Otrzymujesz premię okolicznościową +2 do KP przeciwko atakowi, który wywołał tę akcję.</p>"
+        },
+        "Educate": {
+            "name": "Edukacja",
+            "description": "<p>Poświęcając 10 minut na rozmowę i przeanalizowanie problemów z wybraną osobą, możesz przekazać jej podstawową wiedzę potrzebną do wykonania testu umiejętności, którą sam posiadasz na poziomie co najmniej wytrenowanym. Otrzymuje ona połowę twojej premii do testu. Dotyczy to tylko pierwszego testu, którego podejmie, a jeśli nie zostanie wykorzystane w ciągu godziny, korzyść przepada. Jeśli osoba ta jest wytrenowana w tej umiejętności, zdolność ta zapewnia jej premię okolicznościową +1, o ile twoja biegłość jest wyższa od jej.</p>"
+        },
+        "Fix": {
+            "name": "Naprawa",
+            "description": "<p>Próbujesz naprawić komputer, system elektroniczny lub maszynę, które są zepsute lub nie działają prawidłowo. Poświęć 10 minut i spróbuj wykonać test Komputery dla komputerów lub test Maszyny dla maszyn. ST tego testu zależy od stopnia trudności problemu, określonego przez narratora. Złożone problemy mogą wymagać wielu udanych testów, a w takich przypadkach krytyczny sukces liczy się jako dwa testy potrzebne do wykonania zadania.</p>"
+        },
+        "Hack": {
+            "name": "Hakowanie",
+            "description": "<p>Próbujesz ominąć zabezpieczenia komputera lub systemu elektronicznego, od prostego hasła lub systemu kart dostępu po coś bardziej złożonego, takiego jak skanowanie biometryczne. ST tej próby zależy od złożoności systemu (określonej przez narratora). Systemy o wyższej jakości prawdopodobnie wymagają wielu kolejnych sukcesów, aby ominąć ich zabezpieczenia, a niektóre mogą nawet zablokować ci dostęp, jeśli poniesiesz zbyt wiele porażek. Krytyczny sukces w takich systemach liczy się jako dwa sukcesy w kierunku ukończenia zadania, podczas gdy krytyczna porażka może natychmiast zablokować ci dostęp na pewien czas.</p>"
+        },
+        "Hit The Deck": {
+            "name": "Na Pokład!",
+            "description": "<p><strong>Wyzwalacz</strong> Jesteś celem ataku z dystansu i widzisz atakującego.</p>\n<p><strong>Wymagania</strong> Nie jesteś @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Przewrócony}.</p>\n<hr />\n<p>Upadasz na ziemię, aby stać się trudniejszym celem. Jesteś @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Odsłonięty}, ale zyskujesz +4 premię okolicznościową do KP przeciwko atakom dystansowym, dopóki nie wstaniesz.</p>"
+        },
+        "Hotwire": {
+            "name": "Odpalenie na krótko",
+            "description": "<p>Omijasz zabezpieczenia pojazdu, zazwyczaj w postaci kluczyka, aby go uruchomić. Działa tak samo jak użycie umiejętności Komputery w trybie Hakowania, ale zamiast tego wykorzystuje umiejętność Kierowania (samochody z nadal działającą elektroniką można również uruchomić za pomocą umiejętności Komputery).</p>"
+        },
+        "Maneuver": {
+            "name": "Manewr",
+            "description": "<p>Podejmujesz trudny manewr przy aktualnej szybkości pojazdu. Wykonaj test Kierowania. Narrator określa, jakie manewry są możliwe przy danej szybkości i ST tego testu. Jeśli test zakończy się sukcesem, wykonujesz manewr. Jeśli zakończy się porażką, dochodzi do wypadku, pojazd odnosi obrażenia (zazwyczaj [[/r 1d6 #Wgnieceń]] uszkodzeń), ale nadal jest sprawny. W przypadku krytycznej porażki wypadek powoduje [[/r 2d6 #Wgnieceń]] uszkodzeń, a charakter wypadku uniemożliwia dalszą jazdę bez dodatkowych napraw lub kontroli (być może wpadłeś do rowu i utknąłeś lub masz przebitą oponę).</p>"
+        },
+        "Navigate": {
+            "name": "Nawigacja",
+            "description": "<p>Spędzasz czas na jeździe do nieznanego miejsca, kierując się mapami i swoją znajomością okolicy. Wykonaj test Kierowania. Jeśli test zakończy się sukcesem, dotrzesz do zamierzonego celu. W przypadku porażki spóźnisz się, co wydłuży całkowity czas podróży o 20%. W przypadku krytycznej porażki dotrzesz do niewłaściwego (i potencjalnie niebezpiecznego) miejsca i będziesz musiał poświęcić co najmniej 50% pierwotnego czasu podróży, aby ponownie wykonać ten test.</p>"
+        },
+        "Operate": {
+            "name": "Obsługa",
+            "description": "<p>Używasz systemu komputerowego lub maszyny do wykonania jednej z funkcji, do których została zaprojektowana. Jest to określone przez sam komputer lub maszynę, ale typowe zastosowania obejmują otwieranie bazy danych, przenoszenie pliku na dysk przenośny lub korzystanie z funkcji urządzeń przyłączonych do systemu komputerowego, takich jak kamera bezpieczeństwa lub zdalnie sterowane drzwi. Może to obejmować test umiejętności Komputery, aby upewnić się, że szybko znajdziesz to, czego szukasz lub że używasz tego we właściwy sposób.</p>\n<p>W przypadku maszyny zadanie może obejmować użycie dźwigu do podniesienia samochodu, uruchomienie prasy do zgniatania zombie lub wyłączenie gigantycznej prasy do śmieci. Może to wymagać pomyślnego testu umiejętności Maszyny, jeśli maszyna jest szczególnie skomplikowana.</p>"
+        },
+        "Rehearse": {
+            "name": "Przećwiczenie",
+            "description": "<p>Nauczyłeś się, jak oczyścić umysł przed podjęciem ważnego zadania. Poświęć 10 minut na przećwiczenie, medytację lub inne przygotowania do zadania. Otrzymasz +2 premię okolicznościową do tego zadania, jeśli spróbujesz wykonać test w ciągu następnej godziny. Podczas przygotowań musisz nazwać zadanie. Jeśli wejdziesz w walkę, przygotowania zostaną utracone.</p>"
+        },
+        "Reload": {
+            "name": "Przeładowanie",
+            "description": "<p>Wyjmujesz pusty magazynek z broni, wyjmujesz nowy i wkładasz go do broni. Liczba akcji zależy od broni, ale w przeciwieństwie do innych czynności, nie muszą one następować po sobie. Pierwszą akcją jest zawsze wyjęcie magazynka z broni, pozostawiając maksymalnie 1 nabój w komorze, jeśli jest to pistolet. Dodatkowe akcje to wyjęcie i włożenie nowego magazynka, a następnie załadowanie broni. Może to wymagać od jednej do trzech dodatkowych akcji.</p>"
+        },
+        "Repair": {
+            "name": "Naprawa",
+            "description": "<p>Poświęcasz 10 minut na próbę naprawy uszkodzonego przedmiotu, zużywając niezbędne części i stosując odpowiedni zestaw naprawczy. Wykonaj test umiejętności Rzemiosła. ST wynosi zazwyczaj 10 + wartość zniszczenia przedmiotu (+4, jeśli jest to przedmiot elektroniczny, medyczny lub syntetyczny). Każda próba zużywa jedną część tego samego typu, co przedmiot. Nie możesz naprawić zniszczonego przedmiotu.</p>\n<hr />\n<p><strong>Krytyczny Sukces</strong> Usuń dwa wgniecenia z przedmiotu (trzy, jeśli jesteś mistrzem Rzemiosła, cztery, jeśli jesteś legendarny).</p>\n<p><strong>Sukces</strong> Usuń jedno wgniecenie z przedmiotu (dwa, jeśli jesteś mistrzem Rzemiosła).</p>\n<p><strong>Porażka</strong> Nie naprawiasz przedmiotu, ale nie tracisz części.</p>\n<p><strong>Krytyczna Porażka</strong> Obrażenia przedmiotu powodują jego uszkodzenie i utratę części.</p>"
+        },
+        "Research": {
+            "name": "Badanie",
+            "description": "<p>Nie ma problemu, którego nie da się rozwiązać przy pomocy niewielkich badań. Po spędzeniu 1 godziny przy komputerze lub w bibliotece możesz wykonać dowolny test umiejętności Wiedzy, tak jakbyś był w tej dziedzinie wytrenowany, lub uzyskać premię okolicznościową +2 do testu, jeśli jesteś wytrenowany lub masz wyższy poziom w tej umiejętności. Możesz również użyć tej zdolności podczas próby Przywołania Wiedzy, aby uzyskać premię okolicznościową +2 do testu.</p>"
+        },
+        "Survivor's Feast": {
+            "name": "Uczta Ocalałych",
+            "description": "<p>Raz na dzień możesz spędzić 1 godzinę przy ognisku, przygotowując ucztę. Każdy, kto spędzi co najmniej 10 minut na jedzeniu tej uczty, leczy 1 Punkt Wytrzymałości i liczbę Punktów Wytrzymałości równą 1k4 + twoją premię do umiejętności Przetrwania. Dodatkowo zyskuje 1 tymczasową Nadzieję, którą można wykorzystać tylko do ponownego rzutu, a jeśli nie zostanie wykorzystana w ciągu następnej godziny, przepada. Uczta zużywa i liczy się jako 2 jednostki pożywienia i 1 jednostkę nawodnienia dla każdego uczestnika.</p>"
+        },
+        "Treat Wounds": {
+            "name": "Leczenie Ran",
+            "description": "<p>Działa to tak samo jak w Pathfinder (@Compendium[pf2e.actionspf2e.1kGNdIIhuglAjIp9]), ale potrzebny jest @Compendium[hopefinder.equipment.PHClSyVXwCmuYZRk] (nie narzędzia uzdrowiciela) lub @Compendium[hopefinder.equipment.ozj1ME9TaDsTOYMF]. Można to wykonać bez odpowiedniego wyszkolenia, a ST i ilość wyleczonych punktów zdrowia są inne, jak pokazano w tabeli poniżej (aby uzyskać więcej informacji, zobacz atut @Compendium[hopefinder.feats.y9oAlWcDVlCAucqA] w sekcji Zaawansowane atuty na stronie 57 Podręcznika ocalałego Hopefindera). Leczenie Ran może również leczyć siniaki (dwukrotnie więcej w przypadku krytycznego sukcesu).</p>\n<table style=\"border-width:1px;margin-left:0px;margin-right:auto\" border=\"1\">\n<tbody>\n<tr>\n<th style=\"border-width:1px\">Biegłość</th>\n<th style=\"border-width:1px\">ST</th>\n<th style=\"border-width:1px\">Sukces Leczenia</th>\n<th style=\"border-width:1px\">Krytyczne Leczenie</th>\n<th style=\"border-width:1px\">Siniak</th>\n</tr>\n<tr>\n<td style=\"border-width:1px\">Niewyszkolony</td>\n<td style=\"border-width:1px\">@Check[type:medicine|dc:10]</td>\n<td style=\"border-width:1px\">[[/r {1d4}[healing]]]{1k4}</td>\n<td style=\"border-width:1px\">[[/r {2d4}[healing]]]{2k4}</td>\n<td style=\"border-width:1px\">0</td>\n</tr>\n<tr>\n<td style=\"border-width:1px\">Wytrenowany*</td>\n<td style=\"border-width:1px\">@Check[type:medicine|dc:15]</td>\n<td style=\"border-width:1px\">[[/r {1d4+2}[healing]]]{1k4+2}</td>\n<td style=\"border-width:1px\">[[/r {2d4+2}[healing]]]{2k4+2}</td>\n<td style=\"border-width:1px\">1</td>\n</tr>\n<tr>\n<td style=\"border-width:1px\">Ekspert*</td>\n<td style=\"border-width:1px\">@Check[type:medicine|dc:20]</td>\n<td style=\"border-width:1px\">[[/r {1d4+4}[healing]]]{1k4+4}</td>\n<td style=\"border-width:1px\">[[/r {2d4+4}[healing]]]{2k4+4}</td>\n<td style=\"border-width:1px\">1</td>\n</tr>\n<tr>\n<td style=\"border-width:1px\">Mistrzowski*</td>\n<td style=\"border-width:1px\">@Check[type:medicine|dc:25]</td>\n<td style=\"border-width:1px\">[[/r {1d4+6}[healing]]]{1k4+6}</td>\n<td style=\"border-width:1px\">[[/r {2d4+6}[healing]]]{2k4+6}</td>\n<td style=\"border-width:1px\">2</td>\n</tr>\n<tr>\n<td style=\"border-width:1px\">Legendarny*</td>\n<td style=\"border-width:1px\">@Check[type:medicine|dc:30]</td>\n<td style=\"border-width:1px\">[[/r {1d4+8}[healing]]]{1k4+8}</td>\n<td style=\"border-width:1px\">[[/r {2d4+8}[healing]]]{2k4+8}</td>\n<td style=\"border-width:1px\">2</td>\n</tr>\n</tbody>\n</table>\n<p>*Rzut przeciwko wyższej wartości ST jest opcjonalny.</p>"
+        },
+        "Urban Foraging": {
+            "name": "Zbieractwo Miejskie",
+            "description": "<p>Masz świetne oko do znajdowania wartościowych przedmiotów wśród wyrzuconych śmieci. Poświęć 10 minut na przeszukanie śmieci i gruzu w pobliżu i spróbuj wykonać test umiejętności Społeczeństwo.</p>\n<p>Narrator ustala ST dla tej próby na podstawie tego, jak często zbieracze mogli już przeszukać te szczątki. Sukces powoduje pojawienie się losowego przedmiotu o wartości barterowej równej twojemu poziomowi (lub 2 przedmiotów o wartości co najmniej 1 poziom niższej). Krytyczny sukces powoduje pojawienie się losowego przedmiotu o wartości barterowej równej podwójnej wartości twojego poziomu. Możesz użyć tej zdolności tylko raz na scenę.</p>"
+        }
+    }
+}

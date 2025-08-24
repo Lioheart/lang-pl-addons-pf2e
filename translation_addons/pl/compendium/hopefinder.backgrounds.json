@@ -1,0 +1,74 @@
+{
+    "label": "Przeszłość",
+    "entries": {
+        "Authority": {
+            "name": "Autorytet",
+            "description": "<p>Stałeś się użyteczny, będąc ekspertem w swojej dziedzinie, a Twoja wiedza jest cenna dla ludzi, którzy pracują nad tym, abyś mógł żyć. Bez Ciebie stracilibyśmy coś cennego.</p>\n<p><strong>Modyfikatory atrybutów:</strong> +1 Kon, +1 Int</p>\n<p><strong>Umiejętność:</strong> Wytrenowanie w Wiedzy (wybierz jedną)</p>\n<p><strong>Atut:</strong> Atut umiejętności @Compendium[pf2e.feats-srd.W6Gl9ePmItfDHji0] (w umiejętności Wiedza)</p>\n<p><strong>Sprzęt:</strong> @Compendium[hopefinder.equipment.UqOwULwHbtUJ61k6] (10 masy, +2 do testów Wiedzy, gdy poświęcisz 1 godzinę na zapoznanie się z nią)</p>"
+        },
+        "Builder": {
+            "name": "Kreator",
+            "description": "<p>Podczas gdy wszyscy skupiają się na przetrwaniu, ty nauczyłeś się budować różne rzeczy, wykorzystując dostępne części i materiały. Być może nie jest to zgodne z instrukcją, ale działa.</p>\n<p><strong>Modyfikatory atrybutów:</strong> +1 Sił, +1 Int</p>\n<p><strong>Umiejętność:</strong> Wytrenowanie w Rzemiośle</p>\n<p><strong>Atut:</strong> Atut umiejętności @Compendium[pf2e.feats-srd.QLeMH5mQgh28sa5o] (pancerz, wyposażenie, broń palna, konstrukcje, narzędzia, broń)</p>\n<p><strong>Sprzęt:</strong> @Compendium[hopefinder.equipment.0GNgkcEEIchnM54I] (mieści 4 narzędzia na pasku jako przedmioty gotowe do użycia)</p>"
+        },
+        "Bully": {
+            "name": "Dręczyciel",
+            "description": "<p>Po Upadku szybko zdałeś sobie sprawę, że najłatwiejszym sposobem na przetrwanie jest zabieranie innym tego, czego potrzebujesz, zazwyczaj poprzez manipulację lub groźby użycia przemocy. Masz reputację do utrzymania.</p>\n<p><strong>Modyfikatory atrybutów:</strong> +1 Sił, +1 Cha</p>\n<p><strong>Umiejętność:</strong> Wytrenowanie w Zastraszaniu</p>\n<p><strong>Atut:</strong> Atut umiejętności @Compendium[pf2e.feats-srd.xQMz6eDgX75WX2ce]</p>\n<p><strong>Sprzęt:</strong> @Compendium[hopefinder.equipment.dbVdqig4HeRGlflE] (broń)</p>"
+        },
+        "Daredevil": {
+            "name": "Śmiałek",
+            "description": "<p>Wkraczasz tam, gdzie inni boją się postawić stopę. W miesiącach po epidemii wszystko legło w gruzach i ktoś musi przedzierać się przez ruiny w poszukiwaniu zapasów, jedzenia i lekarstw.</p>\n<p><strong>Modyfikatory atrybutów:</strong> +1 Zrc, +1 Cha</p>\n<p><strong>Umiejętność:</strong> Wytrenowany w Akrobatyce</p>\n<p><strong>Atut:</strong> Atut umiejętności @Compendium[pf2e.feats-srd.LQw0yIMDUJJkq1nD]</p>\n<p><strong>Sprzęt:</strong> @Compendium[hopefinder.equipment.2CdamhoetlvUeRkF] (Przejdź testy równowagi na nierównym terenie)</p>"
+        },
+        "Driver": {
+            "name": "Kierowca",
+            "description": "<p>Większość samochodów nie działa, ale wiesz, jak znaleźć te, które są sprawne. Możliwość pokonywania dużych odległości, dostarczania przesyłek lub odbierania dostaw sprawia, że Twoje umiejętności są nieocenione.</p>\n<p><strong>Modyfikatory atrybutów:</strong> +1 Zrc, +1 Mdr</p>\n<p><strong>Umiejętność:</strong> Wytrenowanie w Kierowaniu</p>\n<p><strong>Atut:</strong> Atut umiejętności @Compendium[hopefinder.feats.rrkN2kxrdsjfstvO]</p>\n<p><strong>Sprzęt:</strong> @Compendium[hopefinder.equipment.EMwumrApcj1wb5tg] (umożliwia wypompowanie cieczy ze zbiornika)</p>"
+        },
+        "Entertainer": {
+            "name": "Bawiciel",
+            "description": "<p>Kiedy nie są przerażeni lub nie walczą o życie, większość ludzi po prostu się nudzi. Bez radia, telewizji i internetu wyrobiłeś sobie niszę, zapewniając im prostą rozrywkę.</p>\n<p><strong>Modyfikatory atrybutów:</strong> +1 Kon, +1 Cha</p>\n<p><strong>Umiejętność:</strong> Wytrenowanie w Występach</p>\n<p><strong>Atut:</strong> Atutu umiejętności @Compendium[pf2e.feats-srd.xqAdXRd2gSQcqp5E]</p>\n<p><strong>Sprzęt:</strong> A @Compendium[hopefinder.equipment.bc8sOVxvNVTEl9gB]</p>"
+        },
+        "Fixer": {
+            "name": "Naprawiacz",
+            "description": "<p>Wszystko jest zepsute. Na szczęście masz talent do rozumienia i naprawiania maszyn. Chociaż wiele rzeczy jest poza twoim zasięgiem, potrafisz naprawić silnik, serwisować piłę taśmową lub przywrócić do działania stary zegar.</p>\n<p><strong>Modyfikatory atrybutów:</strong> +1 Sił, +1 Mdr</p>\n<p><strong>Umiejętność:</strong> Wytrenowanie w Maszynach</p>\n<p><strong>Atut:</strong> Atut umiejętności @Compendium[pf2e.feats-srd.e4KB4pSkx2lDBNw3]</p>\n<p><strong>Sprzęt:</strong> @Compendium[hopefinder.equipment.zt0Qhn9fJxVLIKSH] (narzędzia do naprawy i konserwacji maszyn)</p>"
+        },
+        "Hacker": {
+            "name": "Haker",
+            "description": "<p>Mimo braku prądu wiele rzeczy nadal jest sterowanych przez komputery. Zapewnienie im zasilania to tylko połowa problemu i tu właśnie wkraczasz Ty. Wiesz, jak sprawić, by komputery robiły to, czego od nich oczekujesz.</p>\n<p><strong>Modyfikatory atrybutów:</strong> +1 Zrc, +1 Int</p>\n<p><strong>Umiejętność:</strong> Wytrenowanie w Komputerach</p>\n<p><strong>Atut:</strong> Atut umiejętności @Compendium[hopefinder.feats.83mMgDCDMELC7jRI]</p>\n<p><strong>Sprzęt:</strong> @Compendium[hopefinder.equipment.KLYPmqyFUSUKfoff] (zasilanie urządzenia przez ograniczony czas)</p>"
+        },
+        "Liar": {
+            "name": "Kłamca",
+            "description": "<p>Dzięki odpowiednim słowom możesz osiągnąć wszystko, a żeby przetrwać, powiesz wszystko, nawet jeśli oznacza to narażenie kogoś innego na niebezpieczeństwo poprzez podanie fałszywych informacji. Wystarczy powiedzieć, że masz kilku wrogów.</p>\n<p><strong>Modyfikatory atrybutów:</strong> +1 Zrc, +1 Cha</p>\n<p><strong>Umiejętność:</strong> Wytrenowanie w Oszukiwaniu</p>\n<p><strong>Atut:</strong> Atut umiejętności @Compendium[pf2e.feats-srd.B6HbYsLBWb1RR6Fx]</p>\n<p><strong>Sprzęt:</strong> @Compendium[hopefinder.equipment.xA2tVYzG5pno7vCX] (umożliwia tworzenie podstawowych przebrań)</p>"
+        },
+        "Medic": {
+            "name": "Medyk",
+            "description": "<p>Być może nie ma lekarstwa na zarazę, ale nauczyłeś się opatrywać niemal wszystkie podstawowe urazy i dolegliwości. Twoje umiejętności są cenione ponad wszystko, a niektórzy są gotowi posunąć się do ekstremalnych środków, aby zapewnić sobie twoją pomoc.</p>\n<p><strong>Modyfikatory atrybutów:</strong> +1 Kon, +1 Mdr</p>\n<p><strong>Umiejętność:</strong> Wytrenowanie w Medycynie</p>\n<p><strong>Atut:</strong> Atut umiejętności @Compendium[pf2e.feats-srd.wYerMk6F1RZb0Fwt]</p>\n<p><strong>Sprzęt:</strong> @Compendium[hopefinder.equipment.PHClSyVXwCmuYZRk] (pozwala użyć @Compendium[pf2e.actionspf2e.1kGNdIIhuglAjIp9]{Leczenia ran})</p>"
+        },
+        "Muscle": {
+            "name": "Mięśniak",
+            "description": "<p>Okazuje się, że siła fizyczna ma wiele zastosowań w czasach apokalipsy. Można otwierać drzwi, wspinać się po ścianach i pływać w zalanych pomieszczeniach. Nie zaszkodzi też, że jesteś dobrym egzekutorem lub obrońcą.</p>\n<p><strong>Modyfikatory atrybutów:</strong> +1 Sił, +1 Mdr</p>\n<p><strong>Umiejętność:</strong> Wytrenowanie w Atletyce</p>\n<p><strong>Atut:</strong> Atut umiejętności @Compendium[pf2e.feats-srd.C0Tcelg3BAPhML6J]</p>\n<p><strong>Sprzęt:</strong> @Compendium[hopefinder.equipment.kRiNuQB3PYvE08pE] lub @Compendium[hopefinder.equipment.MYKmYue9lWgSudXx] (bronie)</p>",
+            "rules": {
+                "2": {
+                    "prompt": "Wybierz swoją broń"
+                }
+            }
+        },
+        "Negotiator": {
+            "name": "Negocjator",
+            "description": "<p>Nikt już nikomu nie ufa, nawet najbliższy przyjaciel może cię zdradzić. Na szczęście masz talent do zbliżania ludzi i znajdowania wspólnej płaszczyzny porozumienia, dzięki czemu możecie wspólnie działać na rzecz przetrwania gatunku.</p>\n<p><strong>Modyfikatory atrybutów:</strong> +1 Kon, +1 Cha</p>\n<p><strong>Umiejętność:</strong> Wytrenowanie w Dyplomacji</p>\n<p><strong>Atut:</strong> Atut umiejętności @Compendium[pf2e.feats-srd.KpFetnUqTiweypZk]</p>\n<p><strong>Sprzęt:</strong> Słownik tłumaczeń (wybierz jeden język, można tłumaczyć powoli)</p>"
+        },
+        "Runner": {
+            "name": "Biegacz",
+            "description": "<p>Znasz wszystkie tajniki osady: kto ma towary, komu trzeba zapłacić, a kogo unikać. Ludzie przychodzą do ciebie, gdy potrzebują czegoś za murami. Wszyscy cię znają.</p>\n<p><strong>Modyfikatory atrybutów:</strong> +1 Zrc, +1 Int</p>\n<p><strong>Umiejętność:</strong> Wytrenowanie w Społeczeństwie</p>\n<p><strong>Atut:</strong> Atut umiejętności @Compendium[pf2e.feats-srd.X2jGFfLU5qI5XVot]</p>\n<p><strong>Sprzęt:</strong> @Compendium[hopefinder.equipment.gAVzqJ4tDnUU4hte] (pokazuje główne lokalizacje i ulice, a nawet kilka zapomnianych ścieżek)</p>"
+        },
+        "Scrounger": {
+            "name": "Złomiarz",
+            "description": "<p>Upadek pozostawił po sobie mnóstwo przydatnego sprzętu, który ludzie mogą znaleźć, ale oddzielenie rzeczy wartościowych od śmieci to niemal sztuka. Na szczęście jesteś w tym dobry i zawsze masz coś wartościowego do wymiany.</p>\n<p><strong>Modyfikatory atrybutów:</strong> +1 Zrc, +1 Mdr</p>\n<p><strong>Umiejętność:</strong> Wytrenowanie w Przetrwaniu</p>\n<p><strong>Atut:</strong> Atut umiejętności @Compendium[pf2e.feats-srd.8qebBeOJsyRIchcu]</p>\n<p><strong>Sprzęt:</strong> Rozpocznij grę z dodatkowym ekwipunkiem o wartości 2 punktów barterowych.</p>"
+        },
+        "Sneak": {
+            "name": "Skradacz",
+            "description": "<p>Okazuje się, że o wiele łatwiej przetrwać apokalipsę, jeśli zombie i raiderzy nawet nie wiedzą o twoim istnieniu. Ostatnie kilka lat spędziłeś ukrywając się i czekając, aż wszystko się uspokoi..</p>\n<p><strong>Modyfikatory atrybutów:</strong> +1 Zrc, +1 Int</p>\n<p><strong>Umiejętność:</strong> Wytrenowanie w Ukryciu</p>\n<p><strong>Atut:</strong> Atut umiejętności @Compendium[pf2e.feats-srd.beyw5bdA5hkQbmaG] (wybierz ruiny, wieś, miasto lub dziką przyrodę)</p>\n<p><strong>Sprzęt:</strong> @Compendium[hopefinder.equipment.QL56tTTVuzlQCRWT] i 2 @Compendium[hopefinder.equipment.xBYhPtekXHcZbOEy]</p>"
+        },
+        "Thief": {
+            "name": "Złodziej",
+            "description": "<p>Słuchaj, ludzie są chciwi i będą gromadzić rzeczy potrzebne do przetrwania, wymieniając je dla własnej korzyści. Co z tego, że udało ci się wkraść i zabrać kilka rzeczy dla siebie i innych? Przecież nie mają ich aż tak dużo, żeby nie mogli się podzielić.</p>\n<p><strong>Modyfikatory atrybutów:</strong> +1 Zrc, +1 Cha</p>\n<p><strong>Umiejętność:</strong> Wytrenowanie w Złodziejstwie</p>\n<p><strong>Atut:</strong> Atut umiejętności @Compendium[pf2e.feats-srd.jDdOqFmZLwE4dblQ]</p>\n<p><strong>Sprzęt:</strong> @Compendium[hopefinder.equipment.l6TZHXAabM3ioaND] (umożliwia otwieranie zamków na klucz)</p>"
+        }
+    }
+}

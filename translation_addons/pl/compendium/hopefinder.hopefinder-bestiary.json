@@ -1,0 +1,485 @@
+{
+    "label": "Bestiariusz",
+    "entries": {
+        "+4 Item Bonus On Saving Throws Against Acid, Fire, Infections, Poison, And Smoke": {
+            "name": "+4 Item Bonus On Saving Throws Against Acid, Fire, Infections, Poison, And Smoke"
+        },
+        "Acidic Spray": {
+            "name": "Acidic Spray"
+        },
+        "Ambush": {
+            "name": "Zasadzka"
+        },
+        "Ankle Bite": {
+            "name": "Ugryzienie Kostki"
+        },
+        "Armored": {
+            "name": "Opancerzony"
+        },
+        "Arrows": {
+            "name": "Strzały"
+        },
+        "Bandages": {
+            "name": "Bandages"
+        },
+        "Baseball Bat": {
+            "name": "Baseball Bat"
+        },
+        "Bear (Black)": {
+            "name": "Bear (Black)"
+        },
+        "Bear (Brown)": {
+            "name": "Bear (Brown)"
+        },
+        "Beer": {
+            "name": "Piwo"
+        },
+        "Big Ben": {
+            "name": "Big Ben",
+            "blurb": "Zombie bear"
+        },
+        "Big Boss": {
+            "name": "Big Boss"
+        },
+        "Biker Gear": {
+            "name": "Biker Gear"
+        },
+        "Bloated": {
+            "name": "Bloated"
+        },
+        "Block": {
+            "name": "Blok"
+        },
+        "Body Slam": {
+            "name": "Body Slam"
+        },
+        "Bottle": {
+            "name": "Bottle"
+        },
+        "Branch": {
+            "name": "Gałąź"
+        },
+        "Brood Mother": {
+            "name": "Brood Mother",
+            "blurb": "Zombie pig"
+        },
+        "Bullet Proof Vest": {
+            "name": "Bullet Proof Vest"
+        },
+        "Bullets (Pistol)": {
+            "name": "Bullets (Pistol)"
+        },
+        "Bullets (Rifle)": {
+            "name": "Bullets (Rifle)"
+        },
+        "Bullets (Shotgun)": {
+            "name": "Bullets (Shotgun)"
+        },
+        "Burning Branch": {
+            "name": "Burning Branch"
+        },
+        "Canned Goods (Expired)": {
+            "name": "Canned Goods (Expired)"
+        },
+        "Cherenkov Glow": {
+            "name": "Cherenkov Glow"
+        },
+        "Claw": {
+            "name": "Pazur"
+        },
+        "Climbing Kit": {
+            "name": "Zestaw Wspinaczkowy"
+        },
+        "Clothes (Winter)": {
+            "name": "Clothes (Winter)"
+        },
+        "Clouded Mind": {
+            "name": "Clouded Mind"
+        },
+        "Command the Dead": {
+            "name": "Command the Dead"
+        },
+        "Compound Bow": {
+            "name": "Compound Bow"
+        },
+        "Computers": {
+            "name": "Computers"
+        },
+        "Consume": {
+            "name": "Consume"
+        },
+        "Cougar": {
+            "name": "Cougar"
+        },
+        "Crawler": {
+            "name": "Crawler",
+            "speedsDetails": "crawling"
+        },
+        "Creepy Crawler": {
+            "name": "Creepy Crawler"
+        },
+        "Crowbar": {
+            "name": "Łom"
+        },
+        "Crude Bow": {
+            "name": "Crude Bow"
+        },
+        "Crude Pistol": {
+            "name": "Crude Pistol"
+        },
+        "Crude Spear": {
+            "name": "Crude Spear"
+        },
+        "Darkvision": {
+            "name": "Widzenie w Ciemności"
+        },
+        "Dead Hog": {
+            "name": "Dead Hog",
+            "blurb": "Zombie pig"
+        },
+        "Death Burst": {
+            "name": "Wybuch Śmierci"
+        },
+        "Demand Results": {
+            "name": "Demand Results"
+        },
+        "Demolish": {
+            "name": "Wyburzenie"
+        },
+        "Destroy": {
+            "name": "Destroy"
+        },
+        "Devastating Smash": {
+            "name": "Devastating Smash"
+        },
+        "Double Fisted Smash": {
+            "name": "Double Fisted Smash"
+        },
+        "Drag": {
+            "name": "Wleczenie Ofiary"
+        },
+        "Drive-By": {
+            "name": "Drive-By"
+        },
+        "Driving": {
+            "name": "Prowadzenie Pojazdu"
+        },
+        "Egg": {
+            "name": "Egg"
+        },
+        "Fist": {
+            "name": "Pięść"
+        },
+        "Fluid Draw": {
+            "name": "Fluid Draw"
+        },
+        "Gnaw": {
+            "name": "Obgryzanie"
+        },
+        "Golf Club": {
+            "name": "Golf Club"
+        },
+        "Gore Spray": {
+            "name": "Gore Spray"
+        },
+        "Grab": {
+            "name": "Złapanie"
+        },
+        "Groan": {
+            "name": "Groan"
+        },
+        "Hangry": {
+            "name": "Hangry"
+        },
+        "Heavy Machinegun": {
+            "name": "Heavy Machinegun"
+        },
+        "Hog Charge": {
+            "name": "Hog Charge"
+        },
+        "Hop": {
+            "name": "Hop"
+        },
+        "Horrid Kiss": {
+            "name": "Horrid Kiss"
+        },
+        "Howl": {
+            "name": "Howl"
+        },
+        "Howling Hound": {
+            "name": "Howling Hound",
+            "blurb": "Zombie dog"
+        },
+        "Hulk": {
+            "name": "Hulk"
+        },
+        "Immolate": {
+            "name": "Immolate"
+        },
+        "Infested": {
+            "name": "Infested"
+        },
+        "Jaws": {
+            "name": "Szczęki"
+        },
+        "Katana": {
+            "name": "Katana"
+        },
+        "Katana Guy/Gal/Pal": {
+            "name": "Katana Guy/Gal/Pal"
+        },
+        "Kitchen Knife": {
+            "name": "Kitchen Knife"
+        },
+        "Knockdown": {
+            "name": "Powalenie"
+        },
+        "Lab Gear": {
+            "name": "Lab Gear"
+        },
+        "Leap": {
+            "name": "Skok"
+        },
+        "Leaper": {
+            "name": "Leaper"
+        },
+        "Light Patchwork": {
+            "name": "Light Patchwork"
+        },
+        "Lighter": {
+            "name": "Lighter"
+        },
+        "Liquor": {
+            "name": "Liquor"
+        },
+        "Low Profile": {
+            "name": "Low Profile"
+        },
+        "Low-Light Vision": {
+            "name": "Widzenie w Słabym Świetle"
+        },
+        "Machinery": {
+            "name": "Machinery"
+        },
+        "Mandibles": {
+            "name": "Żuchwy"
+        },
+        "Maul": {
+            "name": "Ciężki Młot"
+        },
+        "Menace": {
+            "name": "Menace"
+        },
+        "Military Helmet": {
+            "name": "Military Helmet"
+        },
+        "Molotov Cocktail": {
+            "name": "Molotov Cocktail",
+            "rules": {
+                "0": {
+                    "text": "Plus [[/r {1d6}[splash,fire]]]{1d6 Fire Splash} damage."
+                }
+            }
+        },
+        "Mutant": {
+            "name": "Mutant"
+        },
+        "Obliterate": {
+            "name": "Obliterate"
+        },
+        "Overhead Cut": {
+            "name": "Overhead Cut"
+        },
+        "Overmind": {
+            "name": "Overmind",
+            "sensesDetails": "sense infected (60 feet)"
+        },
+        "Override": {
+            "name": "Nadpisz"
+        },
+        "Overrun": {
+            "name": "Najazd"
+        },
+        "Pack Coordination": {
+            "name": "Pack Coordination"
+        },
+        "Police Body Armor": {
+            "name": "Police Body Armor"
+        },
+        "Polyp": {
+            "name": "Polyp"
+        },
+        "Pounce": {
+            "name": "Doskok"
+        },
+        "Pry Open": {
+            "name": "Pry Open"
+        },
+        "Pump Shotgun": {
+            "name": "Pump Shotgun"
+        },
+        "Pyro": {
+            "name": "Pyro",
+            "allSavesBonus": "+4 item bonus on saving throws against acid, fire, infections, poison, and smoke"
+        },
+        "R.O.U.S": {
+            "name": "R.O.U.S"
+        },
+        "Rad Zombie": {
+            "name": "Rad Zombie"
+        },
+        "Radiation Sickness": {
+            "name": "Radiation Sickness"
+        },
+        "Radioactive": {
+            "name": "Radioactive"
+        },
+        "Rage": {
+            "name": "Szał"
+        },
+        "Raider": {
+            "name": "Raider"
+        },
+        "Rat King": {
+            "name": "Rat King",
+            "blurb": "Zombie rat"
+        },
+        "Ration (Bar)": {
+            "name": "Ration (Bar)"
+        },
+        "Reckless Charge": {
+            "name": "Lekkomyślna Szarża"
+        },
+        "Road Warrior": {
+            "name": "Road Warrior"
+        },
+        "Runner": {
+            "name": "Biegacz"
+        },
+        "Rush": {
+            "name": "Pośpiech"
+        },
+        "Scavenge": {
+            "name": "Scavenge"
+        },
+        "Scent": {
+            "name": "Zmysł Węchu"
+        },
+        "Scent (Imprecise) 30 feet": {
+            "name": "Zmysł Węchu (nieprecyzyjny) 30 stóp"
+        },
+        "Semiauto Pistol": {
+            "name": "Semiauto Pistol"
+        },
+        "Sense Infected (Imprecise) 60 feet": {
+            "name": "Sense Infected (Imprecise) 60 feet"
+        },
+        "Shambler": {
+            "name": "Szwędacz"
+        },
+        "Shred": {
+            "name": "Szarpanie"
+        },
+        "Silent Stalker": {
+            "name": "Silent Stalker"
+        },
+        "Sledgehammer": {
+            "name": "Sledgehammer"
+        },
+        "Slow": {
+            "name": "Spowolnienie"
+        },
+        "Sneak Attack": {
+            "name": "Podstępny Atak"
+        },
+        "Sneaker": {
+            "name": "Sneaker"
+        },
+        "Soldier": {
+            "name": "Soldier"
+        },
+        "Spew Parasites": {
+            "name": "Spew Parasites"
+        },
+        "Sports Protection": {
+            "name": "Sports Protection"
+        },
+        "Spray": {
+            "name": "Pryśnięcie"
+        },
+        "Spring and Attack": {
+            "name": "Spring and Attack"
+        },
+        "Starved": {
+            "name": "Starved"
+        },
+        "Swallow Whole": {
+            "name": "Połknięcie w Całości"
+        },
+        "Swing Around": {
+            "name": "Swing Around"
+        },
+        "Swipe": {
+            "name": "Zamaszysty Atak"
+        },
+        "Tentacle": {
+            "name": "Macka"
+        },
+        "Terrifying Growl": {
+            "name": "Terrifying Growl"
+        },
+        "Throw": {
+            "name": "Throw"
+        },
+        "Timber Wolf": {
+            "name": "Timber Wolf"
+        },
+        "Tusk": {
+            "name": "Cios"
+        },
+        "Wanderer": {
+            "name": "Wanderer"
+        },
+        "Warg": {
+            "name": "Warg",
+            "blurb": "Zombie wolf"
+        },
+        "Wild Dog": {
+            "name": "Wild Dog"
+        },
+        "Workwear": {
+            "name": "Workwear"
+        },
+        "Wrench": {
+            "name": "Wrench"
+        },
+        "Z Rat": {
+            "name": "Z Rat",
+            "blurb": "Zombie rat"
+        },
+        "Z-Plague": {
+            "name": "Z-Plague"
+        },
+        "Zombie Immuinities": {
+            "name": "Zombie Immuinities"
+        },
+        "Zombie Vomit": {
+            "name": "Zombie Vomit"
+        }
+    },
+    "mapping": {
+        "publicNotes": "system.details.publicNotes",
+        "privateNotes": "system.details.privateNotes",
+        "acDetails": "system.attributes.ac.details",
+        "blurb": "system.details.blurb",
+        "hpDetails": "system.attributes.hp.details",
+        "allSavesBonus": "system.attributes.allSaves.value",
+        "speedsDetails": "system.attributes.speed.details",
+        "sensesDetails": "system.perception.details",
+        "languagesDetails": "system.details.languages.details",
+        "rules": {
+            "converter": "translateRules",
+            "path": "system.rules"
+        }
+    }
+}

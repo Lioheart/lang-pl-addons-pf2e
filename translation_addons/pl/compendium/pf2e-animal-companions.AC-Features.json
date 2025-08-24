@@ -1,5 +1,10 @@
 {
     "label": "AC-Zdolności",
+    "folders": {
+        "Swarm Eidolon": "Rój Eidolonów",
+        "Actions": "Akcje",
+        "Followers": "Zwolennicy"
+    },
     "entries": {
         "Adaptable Elemental": {
             "name": "Adaptowalny Żywiołak",
@@ -23,7 +28,7 @@
         },
         "Angelic Mercy": {
             "name": "Anielskie Miłosierdzie",
-            "description": "<p>Anielska moc twojego eidolona pozwala mu leczyć różne dolegliwości, podobnie jak większość innych potężnych aniołów. Twój eidolon może rzucać <em>@UUID[Compendium.pf2e.spells-srd.Item.SUKaxVZW2TlM8lu0]</em>, <em>@UUID[Compendium.pf2e.spells-srd.Item.EfFMLVbmkBWmzoLF]</em>, i <em>@UUID[Compendium.pf2e.spells-srd.Item.BCuHKrDeJ4eq53M6]</em> raz na dzień jako boskie zaklęcia wrodzone 9. poziomu.</p>"
+            "description": "<p>Anielska moc twojego eidolona pozwala mu łagodzić różne dolegliwości, podobnie jak większość innych potężnych aniołów. Twój eidolon może rzucać @UUID[Compendium.pf2e.spells-srd.Item.SUKaxVZW2TlM8lu0] dwa razy dziennie, @UUID[Compendium.pf2e.spells-srd.Item.EfFMLVbmkBWmzoLF] raz na dzień oraz @UUID[Compendium.pf2e.spells-srd.Item.BCuHKrDeJ4eq53M6] raz na dzień, każde jako boskie zaklęcie wrodzone 9. rangi.</p>"
         },
         "Anger Aura": {
             "name": "Aura Gniewu",
@@ -40,6 +45,10 @@
         "Blasphemous Decree": {
             "name": "Bluźnierczy Dekret",
             "description": "<p>Twój demon wypowiada nieopisane słowa, wijąc się wraz z towarzyszącym mu grzechem. Może rzucić <em>@UUID[Compendium.pf2e.spells-srd.Item.sX2o0HH4RjJDAZ8C]</em> raz na dzień jako zaklęcie 9. poziomu. Dekret ten nie ma na ciebie wpływu, nawet jeśli nie jesteś zły. Na 19. poziomie staje się on dekretem boskim 10. poziomu.</p>"
+        },
+        "Brazen Swarm": {
+            "name": "Zuchwały Rój",
+            "description": "<p><em>Sił</em> +4, <em>Zrc</em> +2, <em>Kon</em> +3, <em>Int</em> +0, <em>Mdr</em> +0, <em>Cha</em> +0; +2 KP (+3 Maks. premia za Zr)</p>"
         },
         "Breath Weapon": {
             "name": "Zionięcie",
@@ -192,6 +201,10 @@
             "name": "Wściekły Zabójca",
             "description": "<p>Sił +2, Zrc +4, Kon +3, Int +0, Mdr -1, Cha +1; +1 KP (+4 Maks. premia za Zr)</p>"
         },
+        "Exploit Injury": {
+            "name": "Wykorzystanie Zranienia",
+            "description": "<p><strong>Wymagania</strong> Ostatnią akcją zwiadowcy był udany atak wręcz przeciwko @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Odsłoniętemu} celowi.</p><hr /><p><strong>Efekt</strong> Cel ataku jest odsłonięty do końca twojej następnej tury.</p>"
+        },
         "Fey Chicanery": {
             "name": "Oszustwo Fey",
             "description": "<p>Zawsze pełen sztuczek, twój fey eidolon przekształca magiczne zabezpieczenia w waszą wspólną siłę życiową, dając mu w tylnej kieszeni rezerwę na wypadek desperackich sytuacji. Podczas codziennych przygotowań eidolon może rzucić zaklęcie @UUID[Compendium.pf2e.spells-srd.Item.WG91Z5TiR6oO5FOw]{Warunkowości}. Wybrane zaklęcie czwartego poziomu musi pochodzić z listy darów pierwotnych lub fey i musi być albo powszechne, albo być innym zaklęciem, do którego masz dostęp.</p>"
@@ -211,6 +224,14 @@
         "Fleet Beast": {
             "name": "Szybka Bestia",
             "description": "<p>Sił +2, Zrc +4, Kon +3, Int -1, Mdr +1, Cha +0; +1 KP (+4 Maks. premia za Zr)</p>"
+        },
+        "Follower": {
+            "name": "Zwolennik",
+            "description": "<p>Zwolennik to postać niezależna, która towarzyszy ci i pomaga przez dłuższy czas, a nawet przez całą kampanię. Zwolennika możesz zdobyć, wybierając archetyp kapitana. Zwolennicy to towarzysze, którzy polegają na twoich wskazówkach podczas walki; mają cechę sługus. Możesz mieć zwolennika i chowańca lub zwierzę domowe, ale nie możesz mieć zwolennika, jeśli masz już zwierzęcego towarzysza lub innego towarzysza, który uniemożliwia ci posiadanie zwierzęcego towarzysza.</p><p><strong>Pochodzenie:</strong> Większość zwolenników to ludzie, więc mają cechy ludzkie i humanoidalne. Są średniej wielkości, mają szybkość 25 stóp i mówią językiem wspólnym oraz dodatkowymi językami w liczbie równej 1 + ich modyfikator Inteligencji. Chociaż zwolennicy mają dziedzictwo, które jest częścią ich osobistej historii i przeszłości, nie uzyskują oni żadnych mechanicznych korzyści wynikających z tego dziedzictwa. Informacje na temat zwolenników innych pochodzeń można znaleźć w atucie @UUID[Compendium.pf2e.feats-srd.Item.mW9uqRmI0Wi2qYSm].</p><p><strong>Typ zwolennika:</strong> Zwolennicy mogą pochodzić z różnych środowisk i mieć różnorodne doświadczenia oraz umiejętności. Aby ułatwić rozgrywkę, zwolennicy są podzieleni na szerokie kategorie zwane typami zwolenników, takie jak berserker lub medyk.</p><p><strong>Zestawy:</strong> Każdy zwolennik posiada osobisty zestaw wyposażenia zwany zestawem, który automatycznie ulepsza się wraz z awansowaniem bohaterów i ma poziom równy poziomowi bohaterów. Zestaw zawiera broń, zbroję i inne przedmioty potrzebne zwolennikowi do wykonywania czynności wymienionych w jego statystykach. Zwolennicy nie mogą nosić ani używać przedmiotów innych niż te znajdujące się w ich zestawie, ani dzielić się wyposażeniem z bohaterami. Obrażenia zadawane przez zwolennika w atakach wręcz i na odległość zależą od jego typu. Każdy typ zwolennika ma domyślną broń; jeśli chcesz, aby twój zwolennik używał innej broni, która zadaje takie same lub mniejsze obrażenia z tej samej kategorii (na przykład prosta broń wręcz lub broń żołnierska na odległość) i wymaga użycia tej samej liczby rąk, porozmawiaj z MG. Zakłada się, że zwolennicy dbają o swój ekwipunek. Obejmuje to zaopatrzenie się w odpowiednią amunicję do broni dystansowej, a także naprawę uszkodzonego sprzętu. Zwolennik może poświęcić 10 minut na naprawę całego swojego zepsutego i uszkodzonego ekwipunku, a zniszczony ekwipunek może zastąpić podczas codziennych przygotowań.</p><p><strong>Zapłata:</strong> Mechanika zwolenników pomija wynagrodzenie, jakie otrzymują oni za swoją pracę, aby nie wpływać na oczekiwane bogactwo drużyny. Zakłada się, że zwolennicy zarabiają wystarczająco dużo, aby zapewnić sobie wyżywienie, ubranie i schronienie, utrzymać i ulepszać swój ekwipunek (patrz wyżej) oraz prowadzić wygodny tryb życia. Źródło tych dochodów zależy od MG i graczy, którzy decydują na podstawie sytuacji zwolennika; być może zostali oni zatrudnieni przez patrona bohaterów lub zewnętrzną organizację do współpracy z bohaterami, a może bohaterowie zdobywają dodatkowe bogactwo podczas swoich przygód, które przeznaczają dla zwolenników.</p><p><strong>Wymiana zwolennika:</strong> Zwolennicy mogą rozstać się z bohaterami z różnych powodów, np. z powodu śmierci lub innych wydarzeń podczas kampanii. Jeśli bohater straci zwolennika, może poświęcić tydzień czasu na jego zastąpienie. Zastąpienie zwolennika zazwyczaj wymaga od bohatera przebywania w osadzie lub innym miejscu, gdzie można znaleźć rekrutów, ale MG może również wprowadzić zwolenników w naturalny sposób podczas przygody.</p>"
+        },
+        "Following Shot": {
+            "name": "Kolejny Strzał",
+            "description": "<p><strong>Częstotliwość</strong> raz na turę</p><p><strong>Wyzwalacz</strong> Strzelec wyborowy zadaje krytyczne obrażenia Atakiem z dystansu</p><p><strong>Wymagania</strong> Strzelec wyborowy dzierży broń o czasie przeładowania 0.</p><hr /><p><strong>Efekt</strong> Wzmocniony sukcesem, strzelec wyborowy szybko oddaje kolejny strzał. Wykonuje kolejny Atak z dystansu tą samą bronią z tą samą karą za wielokrotny atak. Atak ten nadal liczy się do kary za wielokrotny atak strzelca wyborowego.</p>"
         },
         "Furious Strike": {
             "name": "Wściekły Atak",
@@ -232,6 +253,10 @@
             "name": "Uświęcone Ataki",
             "description": "<p>Ataki twojego eidolona są uświęcone przez niebiańskie królestwa. Ataki bez broni eidolona zyskują cechę świętości i zadają 1 dodatkowe obrażenia duchowe istotom nieświętym i istotom z podatnością na świętość. Dodatkowo, twój eidolon może wykonywać nieśmiercionośne ataki za pomocą swoich ataków bez użycia zwykłej kary -2 do okoliczności.</p>"
         },
+        "Haunting Visage": {
+            "name": "Nawiedzające Oblicze",
+            "description": "<p><strong>Wymagania</strong> Twój eidolon jest skondensowany. </p><hr /><p>Twój eidolon nagle zmienia się w przerażającą postać, którą sam wybiera, zamiast pozostawać prostym kopcem, dzięki ścisłej kontroli położenia poszczególnych części swojego ciała. Eidolon próbuje @UUID[Compendium.pf2e.actionspf2e.Item.2u915NdUyQan6uKF]{Zdemoralizować} istotę w promieniu 15 stóp; ta próba Demoralizacji traci cechę słuchową, zyskuje cechę wzrokową, a eidolon nie otrzymuje kary -4 do rzutu, jeśli nie posługuje się tym samym językiem co cel. W przypadku sukcesu lub krytycznego sukcesu cel zostaje dodatkowo @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Odsłonięty} na 1 rundę.</p>"
+        },
         "Hidden Watcher": {
             "name": "Ukryty Obserwator",
             "description": "<p>Twój eidolon może sprawić, że oboje staniecie się niewidzialni. Raz na godzinę może rzucić @Compendium[pf2e.spells-srd.XXqE1eY3w3z6xJCB]{Niewidzialność} na ciebie, ich lub was oboje jednocześnie. Jeśli zaklęcie dotyczyło was obojga, zaklęcie kończy się dla was obojga, jeśli któreś z was wykona wrogą akcję.</p>"
@@ -240,9 +265,17 @@
             "name": "Zwiększenie Inteligencji",
             "description": ""
         },
+        "Kit Armor": {
+            "name": "Zestaw Pancerza",
+            "description": "<p>Twój zwolennik jest wytrenowany w tej zbroi.</p>"
+        },
         "Marauding Dragon": {
             "name": "Smok Maruder",
             "description": "<p>Sił +4, Zrc +2, Kon +3, Int +0, Mdr +0, Cha +0; +2 KP (+3 Maks. premia za Zr)</p>"
+        },
+        "Medic's Treatment": {
+            "name": "Leczenie Medyka",
+            "description": "<p><strong>Wymagania</strong> Medyk nosi lub trzyma zestaw narzędzi medycznych.</p><hr /><p><strong>Efekt</strong> Medyk leczy sąsiednią istotę, próbując zmniejszyć stan @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm], @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7], @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18] lub @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]. Jeśli istota ma wiele stanów z tej listy, medyk wybiera jeden do leczenia. Medyk próbuje wykonać test przeciwdziałania na stan, używając swojego modyfikatora @Check[medicine] jako modyfikatora przeciwdziałania i połowy swojego poziomu jako rangi przeciwdziałania. Źródło stanu określa ST.</p><p>Medyk nie może leczyć stanu spowodowanego przez artefakt lub efekt powyżej 20. poziomu. Użycie Leczenia Medyka na stanie, który jest stosowany w sposób ciągły (na przykład stan osłabienia, który otrzymuje święta istota nosząca nieświętą broń) nie ma żadnego efektu, dopóki okoliczności się nie zmienią.</p><hr /><p><strong>Krytyczny Sukces</strong> Zmniejsz wartość wybranego stanu o 2.</p><p><strong>Sukces</strong> Zmniejsz wartość wybranego stanu o 1.</p><p><strong>Krytyczna Porażka</strong> Zwiększ wartość wybranego stanu o 1.</p>"
         },
         "Mindless Companion": {
             "name": "Bezmyślny Towarzysz",
@@ -291,9 +324,21 @@
             "name": "Pierwotny Żywiołak",
             "description": "<p>Sił +4, Zrc +2, Kon +3, Int -1, Mdr +1, Cha +0; +2 KP (+3 Maks. premia za Zr)</p>"
         },
+        "Quick Treatment": {
+            "name": "Szybkie Leczenie",
+            "description": "<p><strong>Częstotliwość</strong> raz na rundę</p><hr /><p><strong>Efekt</strong> Medyk wykonuje Bieg, a następnie używa akcji @UUID[Compendium.pf2e.actionspf2e.Item.MHLuKy4nQO2Z4Am1], @UUID[Compendium.pf2e.feats-srd.Item.wYerMk6F1RZb0Fwt], @UUID[Compendium.pf2e-animal-companions.KP-Features.Item.ma45EqTK72KQLca3] lub @UUID[Compendium.pf2e.actionspf2e.Item.KjoCEEmPGTeFE4hh].</p>"
+        },
+        "Reckless Attack": {
+            "name": "Lekkomyślny Atak",
+            "description": "<p><strong>Częstotliwość</strong> raz na turę</p><p><strong>Wyzwalacz</strong> Ty kierujesz berserkerem</p><hr /><p><strong>Efekt</strong> Berserker otrzymuje premię okolicznościową +1 do następnego rzutu ataku w tej turze. Jest on @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Odsłonięty} do początku twojej następnej tury.</p>"
+        },
         "Reconfigured Evolution": {
             "name": "Przekonfigurowana Ewolucja",
             "description": "<p>Twój eidolon konstrukt jest szczególnie łatwy do rekonfiguracji, zyskując dodatkową ewolucję, która pasuje do obu twoich zachcianek. Wybierz jeden dodatkowy atut ewolucji 6. poziomu lub niższego. Twój eidolon zyskuje ten atut. Możesz przekwalifikować ten atut na dowolny inny atut ewolucji 6. poziomu lub niższego z zaledwie jednym dniem przestoju, jeśli uda ci się wykonać test <span data-pf2-check=\"crafting\" data-pf2-label=\"Reconfigured Evolution DC\" data-pf2-dc=\"@self.level\" data-pf2-show-dc=\"gm\">Rzemiosła</span>, ze standardowym ST równym poziomowi eidolona. Jeśli ci się nie powiedzie, możesz spróbować ponownie późniejszego dnia. Wielu przywoływaczy wybiera Gniew Eidolona dla tej zdolności.</p>"
+        },
+        "Redistribute": {
+            "name": "Redystrybucja",
+            "description": "<p><strong>Wyzwalacz</strong> Atak wroga przeciwko twojemu eidolonowi jest trafieniem krytycznym. </p><hr /><p>Twój eidolon zmienia układ swoich ciał w odpowiedzi na potężny cios, łagodząc najgorsze obrażenia, jakie mogłyby zostać zadane. Krytyczne trafienie, które wywołało efekt, staje się zwykłym trafieniem. Twój eidolon natychmiast zmienia postać, przechodząc ze stanu skondensowanego do rozproszonego lub z rozproszonego do skondensowanego.</p>"
         },
         "Rejuvenation": {
             "name": "Przywracanie",
@@ -315,9 +360,25 @@
             "name": "Kipiący Szał",
             "description": "<p>Twój eidolon może wpaść w szał. Zyskuje akcję @Compendium[pf2e-animal-companions.AC-Features.7K6UJ3D3owmOQS03]{Kipiący Szał}.</p>"
         },
+        "Share the Pain": {
+            "name": "Dzielenie Bólu",
+            "description": "<p><strong>Wyzwalacz</strong> Berserker zostaje krytycznie trafiony przez stworzenie znajdujące się w zasięgu jego ręki.</p><hr /><p><strong>Efekt</strong> Berserker wykonuje Atak w walce wręcz przeciwko tej istocie.</p>"
+        },
+        "Sickening Assault": {
+            "name": "Ohydne Natarcie",
+            "description": "<p><strong>Wymagania</strong> Twój eidolon został rozproszony. </p><hr /><p>Twój eidolon skupia się na zadawaniu jak największych obrażeń swoim wrogom. Jeśli następną akcją twojego eidolona jest użycie Ataku Roju, liczba kości obrażeń Ataku Roju zostaje podwojona. Dodatkowo, stworzenia, które nie rzucą rzutu obronnego na Refleks przeciwko Atakowi Roju, otrzymują @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Mdłości 2} (@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Mdłości 4} w przypadku krytycznej porażki).</p>"
+        },
+        "Sickening Swarm": {
+            "name": "Rój Mdłości",
+            "description": "<p>Twój eidolon jest szczególnie dobry w odwracaniu uwagi i utrudnianiu działania wrogów, gdy jest rozproszony. Gdy jest rozproszony, przestrzenie zajmowane przez twojego eidolona są trudnym terenem dla innych stworzeń. Dodatkowo twój eidolon zyskuje akcję @UUID[Compendium.pf2e-animal-companions.KP-Features.Item.gGVaSvIhobXXsqTZ].</p>"
+        },
         "Skirmisher Fey": {
             "name": "Skrytobójca Fey",
             "description": "<p>Sił +2, Zrc +4, Kon +2, Int +0, Mdr +0, Cha +1; +1 KP (+4 Maks. premia za Zr)</p>"
+        },
+        "Slinking Swarm": {
+            "name": "Pełzający Rój",
+            "description": "<p><em>Sił</em> +2, <em>Zrc</em> +4, <em>Kon</em> +3, <em>Int</em> +0, <em>Mdr</em> +1, <em>Cha</em> –1; +1 KP (+4 Maks. premia za Zr)</p>"
         },
         "Soul Guardian": {
             "name": "Strażnik Dusz",
@@ -343,9 +404,30 @@
             "name": "Zwiększenie Siły",
             "description": ""
         },
+        "Sudden Shift": {
+            "name": "Nagłe Przesunięcie",
+            "description": "<p>Raz na rundę twój eidolon może zmienić postać ze skondensowanej na rozproszoną jako akcję darmową, a nie pojedynczą akcję. Dodatkowo twój eidolon zyskuje reakcję @UUID[Compendium.pf2e-animal-companions.KP-Features.Item.8NK5Z7vLxkTB6pIV].</p>"
+        },
+        "Swarm Form": {
+            "name": "Postać Roju",
+            "description": "<p>Twój eidolon jest inteligentnym rojem złożonym z setek malutkich stworzeń i jest odporny na stany @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Pochwycony}, @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Przewrócony} i @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Obezwładniony}. Może zmieścić się w ciasnych przestrzeniach, jakby był Malutkim stworzeniem. Ma podatność na obrażenia obszarowe równe jego poziomowi. Twój eidolon ma dwie postacie: skondensowaną i rozproszoną. Kiedy manifestujesz eidolona, manifestuje się on w postaci skondensowanej. Może przełączać się między tymi dwiema postaciami jako pojedyncza akcja, która ma cechę koncentracji.</p><p><strong>Postać Skondensowana:</strong> Po skondensowaniu eidolon łączy wszystkie swoje ciała w jedną, skondensowaną kupę, która funkcjonuje jako średniej wielkości stworzenie. Ma zasięg 5 stóp, może wykonywać ataki i nie może zajmować tej samej przestrzeni co inne stworzenia. W stanie skondensowanym może używać akcji @UUID[Compendium.pf2e-animal-companions.KP-Features.Item.roBX7VxpVKkRpClJ].</p><p><strong>Postać Rozproszona:</strong> Po rozproszeniu eidolon rozrzuca swoje ciała składowe na większym obszarze, zwiększając swój rozmiar o jedną kategorię (do Dużego w przypadku większości eidolonów roju). Ma zasięg 0 stóp, nie może wykonywać ataków i może zajmować tę samą przestrzeń co inne stworzenia. Podczas rozproszenia może używać aktywności @UUID[Compendium.pf2e-animal-companions.KP-Features.Item.fUTBJxjPmiP4KVVI].</p>",
+            "rules": {
+                "0": {
+                    "label": "Postać Roju"
+                }
+            }
+        },
+        "Swarming Assault": {
+            "name": "Atak Roju",
+            "description": "<p><strong>Wymagania</strong> Twój eidolon został rozproszony.</p><hr /><p>Twój eidolon otacza każdą istotę zajmującą jego pole, gryząc, dziobiąc, drapiąc lub wykonując podobne ataki za pomocą swoich części ciała. Zadaje @Damage[(1 + floor((@actor.level - 1)/2))d6[untyped]] obrażeń każdej istocie w obszarze, z podstawowym rzutem obronnym na Refleks przeciwko ST twojego zaklęcia. Za każdym razem, gdy twój eidolon używa Ataku Roju, wybierasz, czy zadaje obrażenia kłute czy tnące. Twój eidolon nie może ponownie użyć Ataku Roj przez następne [[/gmr 1d4 #rundy]]{1k4 rundy}.</p><p>Na 3. poziomie i co 2 kolejne poziomy obrażenia wzrastają o 1k6.</p>"
+        },
         "Swift Protector": {
             "name": "Błyskawiczny Obrońca",
             "description": "<p>Sił +2, Zrc +4, Kon +3, Int +0, Mdr +0, Cha +0; +1 KP (+4 Maks. premia za Zr)</p>"
+        },
+        "Take Aim": {
+            "name": "Wyceluj",
+            "description": "<p>Strzelec wyborowy celuje w przeciwnika i wykonuje Atak z dystansu, otrzymując +2 premii okolicznościowej do rzutu ataku.</p>"
         },
         "Tempter Demon": {
             "name": "Demon Kusiciel",

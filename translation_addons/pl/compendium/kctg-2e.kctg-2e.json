@@ -205,6 +205,10 @@
             "name": "Azuryt",
             "description": "<p>Azuryt jest bardzo popularnym minerałem o lazurowo-niebieskim kolorze i jest zwykle cięty na koraliki lub przedmioty ozdobne. Ze względu na swoją odporność na ogień, przez większość czasu jest używany przez kowali jako talizman na szczęście, aby uniknąć obrażeń podczas pracy.</p>"
         },
+        "Balista": {
+            "name": "Balista",
+            "description": "<p>Balista to broń używana głównie do obrony fortów i osad. Działa na innej zasadzie niż zwykła kusza, wykorzystując dwie dźwignie ze sprężynami skrętnymi zamiast napinacza. Istnieją pogłoski, że istnieje bardziej zaawansowana broń zwana polibolos, jednak nie są one potwierdzone.</p>"
+        },
         "Bamboula": {
             "name": "Bębenek Bamboula",
             "description": "<p>Bamboula, bęben wykonany z beczki po rumie pokrytej z jednej strony skórą, jest również kojarzony z tradycyjnym tańcem o tej samej nazwie. W społecznościach, które korzystają z bambouli, jej muzyka i taniec sprzyjają wyjątkowo bliskiej więzi. Chociaż instrument ten jest powszechny w krajach wyspiarskich, nie jest niczym niezwykłym, że podróżujący bardowie lub historycy napotykają go poza tymi regionami.</p>"
@@ -461,6 +465,10 @@
             "name": "Diament Kanaryjski",
             "description": "<p><em>\"W przeszłości diamenty były używane w formie magii zwanej magią kamieni szlachetnych, a rzucający zaklęcie przenosili je do diamentu, by użyć go później. Obecnie zostało to zastąpione magicznymi zwojami, ponieważ jest to bardziej opłacalne. W zależności od zaklęcia można zaimplementować określone wyzwalacze i stworzyć bardzo specyficzne i skomplikowane pułapki, co nie jest możliwe do osiągnięcia za pomocą zwykłych zwojów zaklęć. Ta wiedza, choć interesująca, została utracona przez czas”. </em></p>\n<p> </p>\n<p>Głęboko żółty diament, jeden z najdroższych wariantów, jest zwykle prawie dwukrotnie droższy od swojego zwykłego niekolorowego odpowiednika. </p>"
         },
+        "Cannon": {
+            "name": "Armata",
+            "description": "<p>W przeciwieństwie do balisty, armaty są przeznaczone do celów ofensywnych, głównie dlatego, że są zamontowane na kołach. Koła te służą wielu celom, ułatwiają transport armaty drogą morską lub lądową oraz amortyzują siłę jej potężnego odrzutu. Wcześniejsze modele armat bez kół często miały tendencję do rozpadania się pod wpływem odrzutu.</p>"
+        },
         "Cantaloupe": {
             "name": "Kantalupa",
             "description": "<p>Kantalupy są często spożywane jako orzeźwiająca i nawadniająca przekąska, a także mogą być używane w różnych potrawach i przepisach, takich jak sałatki, soki i ciasta. Występują w różnych kolorach, od białego, przez zielony, pomarańczowy, aż po czerwony.</p>"
@@ -581,6 +589,10 @@
         "Cheese Elixir": {
             "name": "Eliksir Serowy",
             "description": "<p>Ten eliksir jest wykonany z mieszanki rzadkich i egzotycznych serów oraz szczypty magii, z których każdy ma swoje unikalne właściwości i smaki. Po wypiciu, eliksir ten daje pijącemu możliwość kontrolowania wszystkich form sera, od najdelikatniejszego brie po najtwardszy parmezan.</p>"
+        },
+        "Cheese and Greens pie": {
+            "name": "Tarta serowo-warzywna",
+            "description": "<p>To specyficzne ciasto można łatwo przygotować bezpośrednio na patelni, jeśli nie masz piekarnika. Potrzebne składniki to jajko, mąka, drożdże, solony ser, cukier i sól, a jako dodatek zielony można dodać wszystko, co masz pod ręką, np. pokrzywę, arrach, koperek lub pietruszkę. Wszystko miesza się razem, formuje płaski placek i piecze. Większość ludzi uwielbia to ciasto, ponieważ jest tanie i łatwe w przygotowaniu. </p>"
         },
         "Cherry": {
             "name": "Wiśnia",
@@ -1090,6 +1102,10 @@
             "name": "Wachlarz",
             "description": "<p>Wykonane głównie z papieru lub rzadziej z tkaniny i wzmocnione metalami lekkimi, takimi jak cyna, lub jasnym drewnem, takim jak sekwoja. Wachlarze mają skomplikowane wzory, a wiele z nich jest wykonanych tak, by odzwierciedlać regionalne symbole lub herby rodzinne. Niektóre wachlarze, ozdobione żywymi kolorami lub delikatnymi haftami, są uważane za symbole statusu i są cenione jako pamiątki. W upalny letni dzień mieszkańcy wioski rozwijają swoje wachlarze jednym ruchem nadgarstka, wykonując zsynchronizowany taniec tkaniny i drewna, tworząc delikatną bryzę, która przynosi chwilową ulgę od nieustającego upału słońca.</p>"
         },
+        "Fat Candle": {
+            "name": "Gruba Świeca",
+            "description": "<p>Grube świece są wytwarzane z przetworzonego tłuszczu zwierzęcego, takiego jak tłuszcz wielorybi lub łój owczy lub krowi. Chociaż świece z wosku pszczelego są trwalsze, świece te palą się jaśniej i są znacznie tańsze. Wadą jest to, że podczas palenia wydzielają nieprzyjemny zapach.</p><p></p>"
+        },
         "Favor Coin": {
             "name": "Moneta Przysługi",
             "description": "<p><em>\"Każda przysługa ma swoją cenę”</em> wyryty na boku złotej monety w zapomnianym języku. Zwykle handlowana i produkowana przez nikczemne grupy w podziemnej gospodarce. Jeśli wymagana jest usługa, należy zapłacić monetą. Oferowane usługi mogą wahać się od szaty, przez zaawansowaną broń, plany zamków, aż po szybką utylizację ciał. Wszystkie przysługi mają swoją cenę.</p>"
@@ -1210,6 +1226,10 @@
             "name": "Ząbki Czosnku",
             "description": "<p>Ząbki czosnku to zioło o silniejszym smaku czosnku niż zwykły szczypiorek. Są one głównie używane do marynowania lub wysiewania nasion i rzadko są używane do gotowania lub jako baza do smażenia jajecznicy. W niektórych regionach ząbki czosnku są uważane za sezonowy przysmak, niecierpliwie wyczekiwany każdej wiosny. Lokalne rynki wypełniają się wiązkami tych kręconych zielonych łodyg, sygnalizując początek cieplejszych miesięcy i inspirując kucharzy do dodawania unikalnych akcentów do tradycyjnych przepisów.</p><p></p>"
         },
+        "Garum": {
+            "name": "Garum",
+            "description": "<p>Garum to sos wytwarzany głównie z ryb. W niektórych regionach nosi prostą nazwę sos rybny lub liquamen. Jednak liquamen na przestrzeni wieków przekształcił się w inny rodzaj sosu. Oryginalna receptura garum powstała w wyniku fermentacji resztek ryb z gruboziarnistą solą, w wyniku czego powstał ciemny, aromatyczny sos o znaczeniu kulinarnym, do którego można dodawać przyprawy i podawać z większością mięs lub małżami.</p>"
+        },
         "Geelbeck Croaker": {
             "name": "Głuszec",
             "description": "<p>Głuszce są powszechnie spotykane w wodach przybrzeżnych, gromadząc się wokół raf, wraków i piaszczystego dna. Łatwo je złowić w dużych ilościach, wykorzystując jako przynętę małe ryby, takie jak sardynki lub śledzie. Ich łagodne, aromatyczne mięso sprawia, że są ulubieńcami szefów kuchni, przygotowywanymi na różne sposoby, od pieczenia po smażenie.</p>"
@@ -1322,6 +1342,10 @@
             "name": "Zielone Jabłko",
             "description": "<p>Karczmarze używają zielonych jabłek do ozdabiania niektórych napojów, a także jako zdrowego deseru. Słynne cydry są wytwarzane z zielonych jabłek w całym królestwie, dlatego właściciele karczm i tawern cieszą się dużym popytem na zielone jabłka.</p>"
         },
+        "Green Breeze Ear Piece": {
+            "name": "Kolczyk Zielonej Bryzy",
+            "description": "<p>Ta szmaragdowa ozdoba do ucha została zaprojektowana dla osób, które chcą podkreślić swoją przynależność do wyższych sfer. Jest to wyjątkowo kosztowny dodatek do stroju, choć wielu osobom noszenie go sprawia dyskomfort. Ozdoba musi być umieszczona w określonych miejscach ucha, co dla niektórych osób o nietypowym kształcie uszu może być wręcz bolesne.</p><p></p>"
+        },
         "Green Gauntlet": {
             "name": "Zielona Rękawica",
             "description": "<p>Śmiałość Zielonej Rękawicy odzwierciedla odwagę rycerzy, których honoruje. Jej ostry, orzeźwiający smak pobudza zmysły, dodając odwagi z każdym łykiem. Połączenie ziół i przypraw użytych do warzenia piwa tworzy złożony smak, który długo pozostaje na podniebieniu, podobnie jak męstwo niezłomnego obrońcy.</p>"
@@ -1353,6 +1377,10 @@
         "Grilled Steak": {
             "name": "Grillowany Stek",
             "description": "<p>Starannie przyrządzony kawałek wysokiej jakości mięsa, często wołowiny, ugotowany z precyzją i często z dodatkiem świeżej zieleni lub miękkich tłuczonych ziemniaków.</p>"
+        },
+        "Grinder": {
+            "name": "Młynek",
+            "description": "<p>Drewniana konstrukcja z precyzyjnie wykonanymi i wytrzymałymi żelaznymi kołami zębatymi służy do rozdrabniania materiałów na drobny proszek. Korba ułatwia obsługę. Chociaż pierwotnie służyła jako alternatywa dla tradycyjnego moździerza i tłuczka, obecnie jest używana głównie w tawernach do szybkiego mielenia suszonego pieprzu.</p>"
         },
         "Grog": {
             "name": "Grog",
@@ -1474,6 +1502,10 @@
             "name": "Humanoidalna Czaszka",
             "description": "<p>Humanoidalne czaszki mają ograniczone zastosowania. Zazwyczaj są poszukiwane przez lekarzy w celu lepszego zrozumienia medycyny. Na potrzeby rytualne są używane głównie jako komponenty lub dodawane na końcu klepek w celach ozdobnych. Lub przez praktyków magii do tego, co niektórzy mogą uznać za ekstremalne sztuki tajemne. Innym rzadkim zastosowaniem jest dekoracja niektórych bardziej ekscentrycznych lordów w ich rozległych posiadłościach. </p>"
         },
+        "Huni Guitar": {
+            "name": "Gitara Huni",
+            "description": "<p>W przeciwieństwie do zwykłej gitary, instrument ten ma kwadratowy kształt, który wpływa na jego akustykę. Otwór rezonansowy tworzy delikatny efekt pogłosu na strunach, nadając gitarze charakterystyczne brzmienie w porównaniu z innymi instrumentami strunowymi. Bardzo często wykorzystują te gitary w zespołach muzycznych ze względu na ich wyjątkowe brzmienie.</p>"
+        },
         "Hunter's Mark": {
             "name": "Znak Łowcy",
             "description": "<p>Ta moneta o unikalnym kształcie jest wręczana myśliwym przez szlachtę jako dowód tożsamości w zamian za pozwolenie na polowanie na ich ziemiach, po dokonaniu pewnej formy płatności. Po zakończeniu polowania myśliwy zwraca monetę szlachcicowi i może zdecydować się sprzedać polowanie bezpośrednio jemu. Zazwyczaj myśliwy i szlachcic uzgadniają wcześniej procent zysków z polowania. Moneta może również zostać sprzedana bankom handlowym po wyższej cenie, dzięki czemu szlachcic może zająć się innymi sprawami.</p>"
@@ -1545,6 +1577,10 @@
         "Jet": {
             "name": "Gagat",
             "description": "<p>Gagat, głęboki czarny kamień szlachetny, jest wystarczająco twardy, aby można go było fasetować i jest często wykorzystywany w prostych wisiorkach lub jako element odzieży i mebli. W praktykach kulturowych w różnych regionach noszenie odzieży ozdobionej Jetem oznacza tematy smutku i żałoby.</p>"
+        },
+        "Jewelry box": {
+            "name": "Pudełko na biżuterię",
+            "description": "<p>Pudełka na biżuterię są niezbędne do ochrony delikatnych elementów przed uszkodzeniem. Diamenty, będące najtwardszym materiałem naturalnym, mogą zarysować bardziej miękkie kamienie szlachetne, takie jak opale i perły, a także pozostawić ślady na bardziej miękkich metalach, takich jak złoto. Jednak ogólnie rzecz biorąc, standardowe pudełka na biżuterię zapewniają dedykowaną przestrzeń do przechowywania biżuterii w jednym miejscu, zmniejszając ryzyko zgubienia lub zagubienia.</p><p></p>"
         },
         "Kala Namak": {
             "name": "Kala Namak",
@@ -1673,6 +1709,10 @@
         "Liquid Solid Slate": {
             "name": "Płynna Skała",
             "description": "<p>Niewiele wiadomo o procesie skraplania, jednak gdy jest używany jako stop z innym metalem, mówi się, że jest niezniszczalny. Atak bronią powoduje powstanie nieprzeniknionej fali uderzeniowej, która odpycha broń do tyłu. Ze względu na swoją wagę, utrudnia skryte poruszanie się.</p>"
+        },
+        "Living Book": {
+            "name": "Żywa Księga",
+            "description": "<p>Legenda głosi, że jest to rodzaj dziennika, który podobno należał do zapomnianej przez czas czarownicy. Podczas każdego przesilenia strony zostają wymazane i można dodać nowe wpisy. Kiedy pojawiają się nowe wpisy, a są one napisane w formie dziennika, książka przewraca oczami, gdy tylko pojawi się w niej coś wstydliwego. </p>"
         },
         "Lombart Wine": {
             "name": "Wino Lombart",
@@ -1893,6 +1933,10 @@
         "Murum": {
             "name": "Murum",
             "description": "<p>Murum znajduje zastosowanie w różnych ciężkich zadaniach, takich jak wypełnianie cokołów, nawierzchnie drogowe, zasypywanie wykopów i wykopów pod stopy fundamentowe. Brak materii organicznej i łatwość zagęszczania, prowadząca do tworzenia trwałych powierzchni, sprawiają, że jest to idealna gleba do celów budowlanych.</p>"
+        },
+        "Mussel": {
+            "name": "Omułek",
+            "description": "<p>Małże są uważane za przysmak w większości regionów i są zbierane zarówno ze słodkich, jak i słonych wód, głównie w zimnych porach roku, ponieważ wtedy osiągają najlepszą jakość. Wykorzystuje się je w wielu potrawach, a jedną z najbardziej znanych jest paella z małżami.</p>"
         },
         "Mutton Snapper": {
             "name": "Barwen Błotny",
@@ -2238,6 +2282,10 @@
             "name": "Ziemniak",
             "description": "<p>Jedno z najczęściej uprawianych warzyw w całym królestwie, dzięki czemu jest również jednym z najbardziej znanych. Mogą być podawane jako gotowane warzywo, w całości lub w postaci puree, a także jako nadzienie do ciast. W niektórych chłodniejszych regionach powszechnie uważa się, że ziemniaki są wykorzystywane do produkcji bardzo mocnego alkoholu.</p>"
         },
+        "Pouch": {
+            "name": "Woreczek",
+            "description": "<p>Prosty model jest wykonany głównie z prostego materiału, wytrzymałej skóry lub delikatnego jedwabiu i posiada sznurek, który przechodzi przez wzmocnione otwory w formie pętelek. Służy głównie do przenoszenia monet, ale w zależności od potrzeb może również pomieścić materiały lub małe przedmioty.</p>"
+        },
         "Prehnite": {
             "name": "Prehnit",
             "description": "<p>Prehnit często znajduje się w podszewce jam gazowych w utwardzonych formacjach lawy. Jednak materiał ten rzadko ma wymaganą grubość lub atrakcyjne zabarwienie, aby można go było rozważyć do cięcia kamieni szlachetnych.</p><p></p>"
@@ -2409,6 +2457,10 @@
         "Rosaline": {
             "name": "Rozalina",
             "description": "<p>Rozalina, zwana również różowym zoisytem, to kamień szlachetny znany ze swojej zdolności do wykazywania trzech różnych kolorów: fioletowego, czerwonego i niebieskiego lub zielonego, w zależności od kąta patrzenia. Po zmiażdżeniu rozalina jest używana do tworzenia farby do włosów lub farby, tworząc piękny różowo-czerwony odcień.</p><p></p>"
+        },
+        "Rose": {
+            "name": "Róża",
+            "description": "<p>Róża to kwiat, który ma wiele zastosowań dla zwykłych ludzi. Symbolicznie służy jako ponadczasowy znak miłości, często wręczany podczas pierwszych randek lub rocznic. Praktycznie, krzewy różane są wykorzystywane jako narzędzie ogrodnicze, aby poprawić wygląd parków i ogrodów. W niektórych regionach dżem różany jest ceniony za swój charakterystyczny smak.</p>"
         },
         "Rose Gold": {
             "name": "Różowe Złoto",
@@ -2626,6 +2678,10 @@
             "name": "Jedwab",
             "description": "<p>Jest to jeden z najrzadszych materiałów do zdobycia. Produkowany jest głównie przez fantastyczne bestie lub owady o różnych rozmiarach. Spekuluje się, że tylko najbardziej wyszkoleni zbieracze mogą stworzyć coś zwanego „Czystym Jedwabiem”, jednak niektórzy z nich czasami tracą życie, otrzymując więcej niż się spodziewali od niektórych ośmionożnych potworów.</p>"
         },
+        "Silphium": {
+            "name": "Sylfion",
+            "description": "<p>Sylfion, znane również jako łyszczec, to rzadka i egzotyczna roślina wykorzystywana przez doświadczonych alchemików i zielarzy do różnych celów. Ma zastosowanie jako przyprawa, składnik perfum, afrodyzjak i środek leczniczy. Leczy takie dolegliwości jak kaszel, ból gardła, gorączka, niestrawność, bóle ogólne i brodawki, a także działa jako środek antykoncepcyjny.</p>"
+        },
         "Siltstone": {
             "name": "Mułowiec",
             "description": "<p>Mułowiec, rodzaj skały mułowej, składa się ze sprasowanej gliny i mułu. Dobrze wchłania wodę, dzięki czemu jest przydatny w warstwach wodonośnych i magazynowaniu wody, ale nie nadaje się do większości konstrukcji ze względu na swoją porowatą naturę, a jeśli już, to jest używany głównie w obszarach, w których nie jest dostępny żaden inny rodzaj materiału skalnego. </p>"
@@ -2694,6 +2750,10 @@
             "name": "Nalewka Nasenna",
             "description": "<p>Kiedy zwykłe ręce robocze są nawiedzane przez bezsenne noce, jednym z najczęstszych sposobów na rozwiązanie tego problemu jest zaufana nalewka na sen, która jest warzona przez Alchemików. Nalewka ma słodzony smak, a po jej spożyciu użytkownicy mogą dobrze wypocząć w nocy.</p>"
         },
+        "Small Cabbage Sprouts": {
+            "name": "Małe kiełki kapusty",
+            "description": "<p>Różne regiony mają własne nazwy dla małych kiełków kapusty, zazwyczaj oparte na miejscu ich występowania. Kucharze w małych restauracjach i lokalnych tawernach często dokładają szczególnych starań, aby znaleźć te kiełki. Ponieważ są one dość rzadkie, potrawy z ich dodatkiem są zazwyczaj znacznie droższe. Dobrymi przykładami są mieszane sałatki z kapusty lub karmelizowane kiełki kapusty.</p>"
+        },
         "Smith's Coin": {
             "name": "Moneta Kowala",
             "description": "<p>Gdy klient składa niestandardowe zamówienie lub zlecenie w sklepie specjalistycznym, takim jak sklep jubilerski lub kowal, dostarczana jest moneta z symbolem sklepu. Imię klienta jest wyryte na odwrocie monety, a on sam proszony jest o podpisanie księgi. Gdy przedmiot zostanie wykonany lub zdobyty, właściciel może go odzyskać, wymieniając monetę. Wartość monety jest równa kosztowi zamówionego przedmiotu. Jeśli moneta zostanie zgubiona lub skradziona, staje się bezwartościowa i tylko prawowity właściciel może odzyskać przedmiot za pomocą oryginalnej monety.</p>"
@@ -2729,6 +2789,10 @@
         "Spicebush": {
             "name": "Lindera",
             "description": "<p>Lindera północna, niesławna jako gatunek inwazyjny, jest szybko zwalczana przez zielarzy, którzy starają się chronić lokalne ekosystemy. Jednak jej owoce trafiają do kuchni, gdzie są cenione jako aromatyczna przyprawa do mięs, zup i obfitych dań, ku niezadowoleniu zielarzy.</p>"
+        },
+        "Spider Silk": {
+            "name": "Jedwab Pająka",
+            "description": "<p>Jedwab pająka jest bardzo ceniony i drogi, mimo że jest stosunkowo łatwo dostępny. Niewiele osób próbuje go zbierać ze względu na trudności związane z tym procesem. Chociaż osiąga wysoką cenę, jedwab pochodzący od większych pająków jest zazwyczaj nieco tańszy. Proces pozyskiwania polega na ogłuszeniu pająków i użyciu specjalistycznego urządzenia do zbierania jedwabiu.</p>"
         },
         "Spider's Silk": {
             "name": "Pajęczy Jedwab",
@@ -2958,6 +3022,10 @@
             "name": "Klatka Transportowa",
             "description": "<p>Ta drewniana klatka została zaprojektowana z myślą o łatwym transporcie małych zwierząt gospodarskich, takich jak kury, kurczaki i małe zające, ułatwiając ich przemieszczanie na i z lokalnych rynków.</p><p></p>"
         },
+        "Transport Shackles": {
+            "name": "Kajdany Transportowe",
+            "description": "<p>Te kajdany, wykonane z żelaza lub stali, podobnie jak ich odpowiedniki i przeznaczone do łatwej masowej produkcji, działają podobnie jak pręgierze. Zazwyczaj są zaprojektowane tak, aby połączyć kilka zestawów kajdan w łańcuch, co ułatwia transport więźniów między różnymi miejscami.</p><p></p>"
+        },
         "Travel Horse": {
             "name": "Koń Podróżny",
             "description": "<p>Koń wierzchowy lub koń pod siodło to koń używany przez jeźdźców do rekreacji lub transportu. Oferuje swobodę i ruch oraz umożliwia niesamowite wyczyny sportowe. Galopowanie przez otwarte pole, w zgodzie z wierzchowcem, daje niesamowity dreszczyk emocji.</p>"
@@ -2965,6 +3033,10 @@
         "Truffle": {
             "name": "Trufla",
             "description": "<p>Trufla jest grzybem podziemnym, często lokalizowanym przy pomocy świń posiadających wyrafinowany zmysł węchu. Ze względu na wysoką cenę i silny aromat, trufle są oszczędnie wykorzystywane w kuchni dla smakoszy. Dostawy są dostępne w handlu jako niezafałszowane świeże produkty lub zakonserwowane, zazwyczaj w lekkiej solance. Ponieważ ich lotne aromaty szybko rozpraszają się po podgrzaniu, trufle są zwykle podawane na surowo i golone na ciepłych, prostych potrawach, aby podkreślić ich wyjątkowy smak.</p><p></p>"
+        },
+        "Tulip": {
+            "name": "Tulipan",
+            "description": "<p>Tulipany wywołały kiedyś poważny kryzys gospodarczy, znany jako „tulipomania”, ze względu na swój efektowny wygląd, popularność i ograniczoną dostępność. Ponieważ wymagały one specyficznego klimatu i cyklu uprawy, stały się towarem luksusowym. Po pęknięciu bańki spekulacyjnej tulipany stały się w końcu dostępne w bardziej przystępnej cenie, dostępne dla każdego zwykłego obywatela.</p>"
         },
         "Tuna Fish": {
             "name": "Tuńczyk",
@@ -3086,6 +3158,10 @@
             "name": "Gdzie znaleźć złoża rudy – przewodnik poszukiwacza rud",
             "description": "<p>Szczegółowy przewodnik po wszechstronności minerałów i sposobie, w jaki pochłaniają one właściwości otoczenia. Książka zawiera obszerne informacje na temat szybkiej identyfikacji minerałów na podstawie koloru po znalezieniu ich w jaskini lub systemie kopalń. Zawiera szczegółowe informacje, np. w jaki sposób hematyt, uważany za mniej wartościowy kamień szlachetny, może być przetwarzany w celu wydobycia rudy żelaza, a także w jaki sposób boksyt może być rafinowany w celu produkcji aluminium. Górnicy, alchemicy i rzemieślnicy również sięgają po ten przewodnik, aby pogłębić swoją wiedzę na temat cennych zasobów mineralnych, ich praktycznych zastosowań i składu.</p><p></p>"
         },
+        "White Beans": {
+            "name": "Biała Fasola",
+            "description": "<p>Biała fasola znana jest z jasnego koloru i skrobiowej konsystencji. Istnieje wiele jej rodzajów o różnych kształtach i rozmiarach, często noszących różne nazwy w zależności od regionu. Chociaż w kuchni są one powszechnie stosowane zamiennie, każda odmiana ma inny rozmiar, kształt i smak.</p>"
+        },
         "White Gold": {
             "name": "Białe Złoto",
             "description": "<p>Białe złoto, stop złota i srebra, nie powinno być mylone z platyną. Znane jako szare złoto w niektórych regionach, jest wysoko cenione przez szlachtę ze względu na wysoką cenę i nieskazitelny srebrny wygląd biżuterii.</p><p></p>"
@@ -3166,6 +3242,10 @@
         "Yam": {
             "name": "Bataty",
             "description": "<p>Proces zbioru ignamów jest wymagający fizycznie i pracochłonny, co wymaga użycia drewnianych narzędzi do ochrony upraw. Niektórzy rolnicy stosują metody palikowania i uprawy mieszanej, co może komplikować proces zbiorów. Bataty są wykorzystywane w różnych preparatach kulinarnych, takich jak mąka lub całe kawałki warzyw do sałatek lub gulaszu.</p><p></p>"
+        },
+        "Yellowfin Tuna": {
+            "name": "Tuńczyk Żółtopłetwy",
+            "description": "<p>Tuńczyk żółtopłetwy to duża i silna ryba oceaniczna, wyróżniająca się jaskrawymi żółtymi płetwami i smukłym, torpedowatym ciałem przystosowanym do szybkiego pływania i wytrzymałości, co sprawia, że jest bardzo trudna do złowienia. Występuje głównie w ciepłych wodach tropikalnych w pobliżu odizolowanych wysp i wymaga użycia specjalnie wyposażonych łodzi rybackich z wózkami, aby poradzić sobie z jego ogromną wagą.</p><p></p>"
         },
         "Zamac": {
             "name": "Znal",

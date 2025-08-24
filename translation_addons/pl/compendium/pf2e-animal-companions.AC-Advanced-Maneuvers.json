@@ -251,7 +251,12 @@
         },
         "Rolling Charge": {
             "name": "Szarża z Rozpędu",
-            "description": "<p>Niedźwiedź skalny zwija się w kłębek i wykonuje dwukrotnie Bieg w linii prostej. W dowolnym momencie tego ruchu może wykonać atak roztrzaskania przeciwko jednej istocie znajdującej się w sąsiedztwie. Jeśli atak jest trafieniem krytycznym, cel zostaje również @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Przewrócony}.</p>"
+            "description": "<p>Niedźwiedź skalny zwija się w kłębek i wykonuje dwukrotnie Bieg w linii prostej. W dowolnym momencie tego ruchu może wykonać atak roztrzaskania przeciwko jednej istocie znajdującej się w sąsiedztwie. Jeśli atak jest trafieniem krytycznym, cel zostaje również @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Przewrócony}.</p>",
+            "rules": {
+                "1": {
+                    "text": "COMP.SpecificRule.CragstoneBear.RollingCharge.Note"
+                }
+            }
         },
         "Rolling Knockdown": {
             "name": "Toczny Nokaut",
@@ -291,7 +296,12 @@
         },
         "Spit": {
             "name": "Plucie",
-            "description": "<p>Bakallia zwraca część zawartości swojego żołądka w postaci ataku na odległość, który zadaje obrażenia podstawowe równe @Damage[1d6[acid]] i ma zasięg 10 stóp. Obrażenia wynoszą 2k6 dla dojrzałej bakallii i 3k6 dla wyspecjalizowanej. Istota żywa trafiona tym atakiem otrzymuje również @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Mdłości 1} (@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Mdłości 2} przy trafieniu krytycznym).</p>"
+            "description": "<p>Bakallia zwraca część zawartości swojego żołądka w postaci ataku na odległość, który zadaje obrażenia podstawowe równe 1k6 obrażeń od kwasu i ma zasięg 10 stóp. Obrażenia wynoszą 2k6 dla dojrzałej bakallii i 3k6 dla wyspecjalizowanej. Istota żywa trafiona tym atakiem otrzymuje również @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Mdłości 1} (@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Mdłości 2} przy trafieniu krytycznym).</p>",
+            "rules": {
+                "3": {
+                    "text": "COMP.SpecificRule.Bacallia.AdvancedManeuver.Note"
+                }
+            }
         },
         "Spring Kick": {
             "name": "Sprężyste Kopnięcie",

@@ -8,6 +8,7 @@
         "Kaiju": "Kaiju",
         "Light": "Światło",
         "Pf2e Summons Assistant": "Pf2e Summons Assistant",
+        "Telekinetic Hand": "Telekinetyczna Dłoń",
         "Special": "Specjalne"
     },
     "entries": {
@@ -43,6 +44,9 @@
         },
         "Cataclysmic Deluge (Depart)": {
             "name": "Potop Kataklizmów (Odejście)"
+        },
+        "Commander's Banner": {
+            "name": "Sztandar Dowódcy"
         },
         "Deific Herald (Chaotic Evil)": {
             "name": "Zwiastun Bóstwa (Chaotyczny Zły)",
@@ -93,6 +97,9 @@
         },
         "Dire Foresight (Depart)": {
             "name": "Mroczna Dalekowzroczność (Odejście)"
+        },
+        "Duplicated Foe": {
+            "name": "Zduplikowany Wróg"
         },
         "Ebeshra, the Winged Razor": {
             "name": "Ebeshra, Skrzydlata Brzytwa",
@@ -175,6 +182,12 @@
             "name": "Mogaru, Ostateczny Król",
             "publicNotes": "<p>Na krótko wyczarowujesz kaiju, masywnego, szalejącego potwora o wyjątkowej nazwie i legendarnej reputacji. Powstaje on ze swojego zacisznego legowiska, aby unicestwić twoich wrogów. Przywołane kaiju zajmuje przestrzeń Ogromnego stworzenia.</p>"
         },
+        "Plant Banner": {
+            "name": "Roślinny Sztandar"
+        },
+        "Planted Banner": {
+            "name": "Umieszczony Sztandar"
+        },
         "Plate Crash (Depart)": {
             "name": "Zderzenie Płyt (Odejście)"
         },
@@ -199,6 +212,9 @@
         "Tectonic Rise (Arrive)": {
             "name": "Wzrost Tektoniczny (Przybycie)"
         },
+        "Telekinetic Hand": {
+            "name": "Telekinetyczna Dłoń"
+        },
         "Tempest of Shades": {
             "name": "Nawałnica Cieni",
             "publicNotes": "<p>Kanalizujesz moce nieśmiertelności, aby na krótko przywołać amalgamat mściwych zmarłych zabitych zarówno przez twoich wrogów, jak i sojuszników. Ten amalgamat manifestuje się jako wielkie tornado nieistotnych, wyjących twarzy.</p>"
@@ -219,6 +235,9 @@
         },
         "Vortex of Death (Arrive)": {
             "name": "Wir Śmierci (Przybycie)"
+        },
+        "Whip Tail": {
+            "name": "Bicz Ogonowy"
         },
         "Yarthoon, the Moon Grub": {
             "name": "Yarthoon, Księżycowa Larwa",
