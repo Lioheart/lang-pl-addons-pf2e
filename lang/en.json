@@ -46,6 +46,10 @@
       "enableSellToMerchant": {
         "name": "Enable selling to merchants",
         "hint": "If disabled, the module will not intercept or handle selling items to Merchant loot actors."
+      },
+      "enableUsedReactionEffect": {
+        "name": "Add 'Reaction Used' effect",
+        "hint": "After every used reaction automatically adds the 'Reaction Used' effect to the character, which ends at the start of their next turn."
       }
     },
     "effects": {
@@ -56,6 +60,10 @@
       "nonlethal": {
         "name": "Effect: Nonlethal Attacks",
         "desc": "<p>You take a -2 penalty to attack rolls.</p><hr/><p>You can make a nonlethal attack to knock someone out instead of killing them (see Knocked Out and Dying). Weapons with the nonlethal trait (including fists) do this automatically. You take a –2 circumstance penalty to the attack roll when you make a nonlethal attack using a weapon or unarmed attack that doesn’t have the nonlethal trait. You also take this penalty when making a lethal attack using a nonlethal weapon. Spells and other effects with the nonlethal trait that reduce a creature to 0 Hit Points knock the creature out instead of killing them.</p>"
+      },
+      "usedReaction": {
+        "name": "Reaction Used",
+        "description": "<p>This character has used their reaction. The effect ends at the start of their next turn.</p>"
       }
     },
     "scope": {

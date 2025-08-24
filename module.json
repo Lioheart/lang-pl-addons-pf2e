@@ -24,12 +24,15 @@
     "scripts/toggle-journal-style.js",
     "scripts/nonlethal-button.js",
     "scripts/world-time-hud.js",
-    "scripts/sell-to-merchant.js"
+    "scripts/sell-to-merchant.js",
+    "scripts/used-reaction.js"
   ],
   "templates": [
     "templates/world-time-display.hbs"
   ],
-  "styles": ["styles/world-time.css"],
+  "styles": [
+    "styles/world-time.css"
+  ],
   "languages": [
     {
       "lang": "pl",

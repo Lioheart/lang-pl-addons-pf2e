@@ -27,13 +27,13 @@ export const DEFAULT_RATE = 1;
  */
 
 export function registerClockPositionSettings() {
-  game.settings.register(MODULE_ID, "clockPosition", {
-    name: "Clock Position",
-    scope: "client",
-    config: false,
-    type: Object,
-    default: { top: 5, left: "50%" },
-  });
+    game.settings.register(MODULE_ID, "clockPosition", {
+        name: "Clock Position",
+        scope: "client",
+        config: false,
+        type: Object,
+        default: { top: 5, left: "50%" },
+    });
 }
 
 
@@ -144,4 +144,15 @@ export function registerSettings() {
         requiresReload: true,
         default: false
     });
+
+    game.settings.register(MODULE_ID, "enableUsedReactionEffect", {
+        name: game.i18n.localize(`${MODULE_ID}.settings.enableUsedReactionEffect.name`),
+        hint: game.i18n.localize(`${MODULE_ID}.settings.enableUsedReactionEffect.hint`),
+        scope: "world",
+        config: true,
+        type: Boolean,
+        default: true,
+        restricted: true
+    });
+
 }
