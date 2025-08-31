@@ -3,275 +3,275 @@
     "entries": {
         "Arrows": {
             "name": "Strzały",
-            "description": "<p><strong>Break</strong> 1</p>"
+            "description": "<p><strong>Zniszczenie</strong> 1</p>"
         },
         "Aspirin (Bottle)": {
-            "name": "Aspirin (Bottle)",
-            "description": "<p>Has 10 doses. Each one heals 1 bruise after 10 minutes. Maximum of 2 bruises per four hours.</p>\n<hr />\n<p><strong>Break</strong> 2</p>"
+            "name": "Aspiryna (butelka)",
+            "description": "<p>Zawiera 10 dawek. Każda z nich leczy 1 siniak po 10 minutach. Maksymalnie 2 siniaki na cztery godziny.</p>\n<hr />\n<p><strong>Zniszczenie</strong> 2</p>"
         },
         "Automotive Kit": {
-            "name": "Automotive Kit",
-            "description": "<p>Allows the use of Machinery to fix and build vehicles.</p>\n<hr />\n<p><strong>Break</strong> 4</p>"
+            "name": "Zestaw Samochodowy",
+            "description": "<p>Umożliwia użycie umiejętności Maszyn do naprawy i budowy pojazdów.</p>\n<hr />\n<p><strong>Zniszczenie</strong> 4</p>"
         },
         "Backpack": {
             "name": "Plecak",
-            "description": "<p>Allows you to carry up to 4 bulk of stowed items. These do not count toward your total bulk (although the backpack itself still counts).</p>\n<hr />\n<p><strong>Break</strong> 4</p>"
+            "description": "<p>Pozwala na przenoszenie do 4 Mas przedmiotów . Nie wliczają się one do całkowitej Masy bagażu (chociaż sam plecak nadal się wlicza).</p>\n<hr />\n<p><strong>Zniszczenie</strong> 4</p>"
         },
         "Bandages": {
-            "name": "Bandages",
-            "description": "<p>Allows for the use of First Aid and @Compendium[pf2e.actionspf2e.1kGNdIIhuglAjIp9]{Treat Wounds}. Consumed on use.</p>\n<hr />\n<p><strong>Break</strong> 1</p>"
+            "name": "Bandaże",
+            "description": "<p>Umożliwia użycie Wsparcia i @UUID[Compendium.hopefinder.actions.Item.jIN7minzIXOY3YJk]{Leczenie ran}. Zużywane przy użyciu.</p>\n<hr />\n<p><strong>Zniszczenie</strong> 1</p>"
         },
         "Baseball Bat": {
-            "name": "Baseball Bat",
-            "description": "<p><strong>Break</strong> 4</p>"
+            "name": "Kij Bejsbolowy",
+            "description": "<p><strong>Zniszczenie</strong> 4</p>"
         },
         "Battery (Large)": {
-            "name": "Battery (Large)",
-            "description": "<p>Provides power based on the device. Large and small batteries are not interchangeable without a power shunt. Large battery has 10 times the power of a small battery.</p>\n<hr />\n<p><strong>Break</strong> 2</p>"
+            "name": "Bateria (Duża)",
+            "description": "<p>Zasilanie dostosowane do urządzenia. Duże i małe baterie nie są wymienne bez zastosowania bocznika mocy. Duża bateria ma 10 razy większą moc niż mała bateria.</p>\n<hr />\n<p><strong>Zniszczenie</strong> 2</p>"
         },
         "Battery (Small)": {
-            "name": "Battery (Small)",
-            "description": "<p>Provides power based on the device. Large and small batteries are not interchangeable without a power shunt.</p>\n<hr />\n<p><strong>Break</strong> 1</p>"
+            "name": "Bateria (Mała)",
+            "description": "<p>Zasilanie dostosowane do urządzenia. Duże i małe baterie nie są wymienne bez zastosowania bocznika mocy.</p>\n<hr />\n<p><strong>Zniszczenie</strong> 1</p>"
         },
         "Bedroll": {
             "name": "Śpiwór",
-            "description": "<p><strong>Break</strong> 2</p>"
+            "description": "<p><strong>Zniszczenie</strong> 2</p>"
         },
         "Beer": {
             "name": "Piwo",
-            "description": "<p>Counts as -1 Hydration. Drinking it removes 1 bruise. Can only benefit from this once per day.</p>\n<hr />\n<p><strong>Break</strong> 1</p>"
+            "description": "<p>Liczy się jako -1 punkt Nawodnienia. Wypicie tego napoju usuwa 1 siniak. Można skorzystać z tej właściwości tylko raz na dzień.</p>\n<hr />\n<p><strong>Zniszczenie</strong> 1</p>"
         },
         "Bike Helmet": {
-            "name": "Bike Helmet",
-            "description": "<p>This adds a helmet to your armor, offering you protection against critical hits.</p>\n<hr />\n<p><strong>Break</strong> 4</p>"
+            "name": "Kask Rowerowy",
+            "description": "<p>Dodaje hełm do twojej zbroi, zapewniając ochronę przed krytycznymi trafieniami.</p>\n<hr />\n<p><strong>Zniszczenie</strong> 4</p>"
         },
         "Biker Gear": {
-            "name": "Biker Gear",
-            "description": "<p><strong>Resist</strong> 3 B/P/S</p>\n<p><strong>Break</strong> 10</p>"
+            "name": "Wyposażenie Motocyklisty",
+            "description": "<p><strong>Ochrona</strong> 3 Obuchowe / Kłute / Cięte</p>\n<p><strong>Zniszczenie</strong> 10</p>"
         },
         "Bolts": {
             "name": "Bełty",
-            "description": "<p><strong>Break</strong> 1</p>"
+            "description": "<p><strong>Zniszczenie</strong> 1</p>"
         },
         "Bottle": {
-            "name": "Bottle",
-            "description": "<p><strong>Break</strong> C</p>"
+            "name": "Butelka",
+            "description": "<p><strong>Zniszczenie</strong> C</p>"
         },
         "Branch": {
             "name": "Gałąź",
-            "description": "<p><strong>Break</strong> 2</p>"
+            "description": "<p><strong>Zniszczenie</strong> 2</p>"
         },
         "Brass Knuckles": {
-            "name": "Brass Knuckles",
-            "description": "<p><strong>Break</strong> 4</p>"
+            "name": "Mosiężne Kastety",
+            "description": "<p><strong>Zniszczenie</strong> 4</p>"
         },
         "Brick": {
-            "name": "Brick",
-            "description": "<p><strong>Break</strong> 1</p>"
+            "name": "Cegła",
+            "description": "<p><strong>Zniszczenie</strong> 1</p>"
         },
         "Bullet Proof Vest": {
-            "name": "Bullet Proof Vest",
-            "description": "<p><strong>Resist</strong> 5 B/P/S</p>\n<p><strong>Break</strong> 10</p>"
+            "name": "Kamizelka Kuloodporna",
+            "description": "<p><strong>Ochrona</strong> 5 Obuchowe / Kłute / Cięte</p>\n<p><strong>Zniszczenie</strong> 10</p>"
         },
         "Bullets (Pistol)": {
-            "name": "Bullets (Pistol)",
-            "description": "<p>Standard round of ammunition. Deals the damage listed in the weapon's description.</p>\n<hr />\n<p><strong>Break</strong> 1</p>"
+            "name": "Pociski (pistolet)",
+            "description": "<p>Standardowa amunicja. Zadaje obrażenia określone w opisie broni.</p>\n<hr />\n<p><strong>Zniszczenie</strong> 1</p>"
         },
         "Bullets (Rifle)": {
-            "name": "Bullets (Rifle)",
-            "description": "<p>Standard round of ammunition. Deals the damage listed in the weapon's description.</p>\n<hr />\n<p><strong>Break</strong> 1</p>"
+            "name": "Pociski (karabin)",
+            "description": "<p>Standardowa amunicja. Zadaje obrażenia określone w opisie broni.</p>\n<hr />\n<p><strong>Zniszczenie</strong> 1</p>"
         },
         "Bullets (Shotgun)": {
-            "name": "Bullets (Shotgun)",
-            "description": "<p>Standard round of ammunition. Deals the damage listed in the weapon's description.</p>\n<hr />\n<p><strong>Break</strong> 1</p>"
+            "name": "Pociski (strzelba)",
+            "description": "<p>Standardowa amunicja. Zadaje obrażenia określone w opisie broni.</p>\n<hr />\n<p><strong>Zniszczenie</strong> 1</p>"
         },
         "Canned Goods": {
-            "name": "Canned Goods",
-            "description": "<p>Counts as 1 food.</p>\n<hr />\n<p><strong>Break</strong> 1</p>"
+            "name": "Konserwy",
+            "description": "<p>Liczy się jako 1 porcja jedzenia.</p>\n<hr />\n<p><strong>Zniszczenie</strong> 1</p>"
         },
         "Canned Goods (Expired)": {
-            "name": "Canned Goods (Expired)",
-            "description": "<p>Counts as 1 food. If you eat expired food, you must attempt a @Check[type:fortitude|dc:15] save or be @Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{Sickened} for 1 day.</p>\n<hr />\n<p><strong>Break</strong> 1</p>"
+            "name": "Konserwy (przeterminowane)",
+            "description": "<p>Liczy się jako 1 posiłek. Jeśli zjesz przeterminowaną żywność, musisz wykonać test @Check[type:fortitude|dc:15] lub dostaniesz @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Mdłości} na 1 dzień.</p>\n<hr />\n<p><strong>Zniszczenie</strong> 1</p>"
         },
         "Canteen": {
-            "name": "Canteen",
-            "description": "<p>Holds 2 Hydration worth of water.</p>\n<hr />\n<p><strong>Break</strong> 2</p>"
+            "name": "Manierka",
+            "description": "<p>Pomieści 2 porcje wody.</p>\n<hr />\n<p><strong>Zniszczenie</strong> 2</p>"
         },
         "Chainsaw": {
-            "name": "Chainsaw",
-            "description": "<p><strong>Break</strong> 4</p>"
+            "name": "Piła Łańcuchowa",
+            "description": "<p><strong>Zniszczenie</strong> 4</p>"
         },
         "Climbing Kit": {
             "name": "Zestaw Wspinaczkowy",
-            "description": "<p>Gives a +2 bonus on Athletic checks made to Climb.</p>\n<hr />\n<p><strong>Break</strong> 4</p>"
+            "description": "<p>Daje +2 do testów Atletyki wykonywanych w celu wspinaczki.</p>\n<hr />\n<p><strong>Zniszczenie</strong> 4</p>"
         },
         "Clothes (Basic)": {
-            "name": "Clothes (Basic)",
-            "description": "<p><strong>Resist</strong> 1 S</p>\n<p><strong>Break</strong> 6</p>"
+            "name": "Ubrania (podstawowe)",
+            "description": "<p><strong>Ochrona</strong> 1 Cięte</p>\n<p><strong>Zniszczenie</strong> 6</p>"
         },
         "Clothes (Fancy)": {
-            "name": "Clothes (Fancy)",
-            "description": "<p><strong>Resist</strong> 1 S</p>\n<p><strong>Break</strong> 6</p>"
+            "name": "Ubrania (eleganckie)",
+            "description": "<p><strong>Ochrona</strong> 1 Cięte</p>\n<p><strong>Zniszczenie</strong> 6</p>"
         },
         "Clothes (Winter)": {
-            "name": "Clothes (Winter)",
-            "description": "<p><strong>Resist</strong> 2 B/P/S</p>\n<p><strong>Break</strong> 8</p>"
+            "name": "Odzież (zimowa)",
+            "description": "<p><strong>Ochrona</strong> 2 Obuchowe / Kłute / Cięte</p>\n<p><strong>Zniszczenie</strong> 8</p>"
         },
         "Cold Pack": {
-            "name": "Cold Pack",
-            "description": "<p>Heals [[/r 1d4 #Bruises]]{1d4 bruises} in 10 minutes. Can only use one cold pack per 6 hours.</p>\n<hr />\n<p><strong>Break</strong> 1</p>"
+            "name": "Zimny Okład",
+            "description": "<p>Leczy [[/r 1d4 #Siniaki]]{1k4 siniaków} w ciągu 10 minut. Można użyć tylko jednego okładu na 6 godzin.</p>\n<hr />\n<p><strong>Zniszczenie</strong> 1</p>"
         },
         "Combat Knife": {
-            "name": "Combat Knife",
-            "description": "<p><strong>Break</strong> 4</p>"
+            "name": "Nóż Bojowy",
+            "description": "<p><strong>Zniszczenie</strong> 4</p>"
         },
         "Compass": {
             "name": "Kompas",
-            "description": "<p><strong>Break</strong> 1</p>"
+            "description": "<p><strong>Zniszczenie</strong> 1</p>"
         },
         "Compound Bow": {
-            "name": "Compound Bow",
-            "description": "<p><strong>Break</strong> 6</p>"
+            "name": "Łuk Bloczkowy",
+            "description": "<p><strong>Zniszczenie</strong> 6</p>"
         },
         "Crafted Bow": {
-            "name": "Crafted Bow",
-            "description": "<p><strong>Break</strong> 4</p>"
+            "name": "Ręcznie wykonany Łuk",
+            "description": "<p><strong>Zniszczenie</strong> 4</p>"
         },
         "Crafted Spear": {
-            "name": "Crafted Spear",
-            "description": "<p><strong>Break</strong> 4</p>"
+            "name": "Ręcznie wykonana Włócznia",
+            "description": "<p><strong>Zniszczenie</strong> 4</p>"
         },
         "Crossbow": {
             "name": "Kusza",
-            "description": "<p><strong>Break</strong> 4</p>"
+            "description": "<p><strong>Zniszczenie</strong> 4</p>"
         },
         "Crowbar": {
             "name": "Łom",
-            "description": "<p><strong>Break</strong> 4</p>"
+            "description": "<p><strong>Zniszczenie</strong> 4</p>"
         },
         "Crude Bow": {
-            "name": "Crude Bow",
-            "description": "<p><strong>Break</strong> 2</p>"
+            "name": "Prymitywny Łuk",
+            "description": "<p><strong>Zniszczenie</strong> 2</p>"
         },
         "Crude Pistol": {
-            "name": "Crude Pistol",
-            "description": "<p><strong>Break</strong> 2</p>"
+            "name": "Prymitywny Pistolet",
+            "description": "<p><strong>Zniszczenie</strong> 2</p>"
         },
         "Crude Rifle": {
-            "name": "Crude Rifle",
-            "description": "<p><strong>Break</strong> 2</p>"
+            "name": "Prymitywny Karabin",
+            "description": "<p><strong>Zniszczenie</strong> 2</p>"
         },
         "Crude Spear": {
-            "name": "Crude Spear",
-            "description": "<p><strong>Break</strong> 1</p>"
+            "name": "Prymitywna Włócznia",
+            "description": "<p><strong>Zniszczenie</strong> 1</p>"
         },
         "Crude Sword": {
-            "name": "Crude Sword",
-            "description": "<p><strong>Break</strong> 1</p>"
+            "name": "Prymitywny Miecz",
+            "description": "<p><strong>Zniszczenie</strong> 1</p>"
         },
         "Double Barrel Shotgun": {
-            "name": "Double Barrel Shotgun",
-            "description": "<p><strong>Break</strong> 4</p>"
+            "name": "Strzelba Dwulufowa",
+            "description": "<p><strong>Zniszczenie</strong> 4</p>"
         },
         "Duct Tape": {
-            "name": "Duct Tape",
-            "description": "<p>Can temporarily repair up to 4 dings on objects. Each repair takes 1 minute. The repair only lasts until the item takes a ding again.</p>\n<hr />\n<p><strong>Break</strong> 1</p>"
+            "name": "Taśma Klejąca",
+            "description": "<p>Może tymczasowo naprawić do 4 wgnieceń na przedmiotach. Każda naprawa trwa 1 minutę. Naprawa trwa tylko do momentu, gdy przedmiot ponownie ulegnie wgnieceniu.</p>\n<hr />\n<p><strong>Zniszczenie</strong> 1</p>"
         },
         "Fire Axe": {
-            "name": "Fire Axe",
-            "description": "<p><strong>Break</strong> 4</p>"
+            "name": "Topór Strażacki",
+            "description": "<p><strong>Zniszczenie</strong> 4</p>"
         },
         "Firefighter Gear": {
-            "name": "Firefighter Gear",
-            "description": "<p><strong>Resist</strong> 4 All</p>\n<p><strong>Break</strong> 10</p>"
+            "name": "Sprzęt Strażacki",
+            "description": "<p><strong>Ochrona</strong> 4 Wszystkie</p>\n<p><strong>Zniszczenie</strong> 10</p>"
         },
         "First Aid Kit": {
-            "name": "First Aid Kit",
-            "description": "<p>Allows for a variety of uses of the Medicine skill.</p>\n<hr />\n<p><strong>Break</strong> 2</p>"
+            "name": "Zestaw Pierwszej Pomocy",
+            "description": "<p>Umożliwia różnorodne zastosowanie umiejętności Medycyna.</p>\n<hr />\n<p><strong>Zniszczenie</strong> 2</p>"
         },
         "Flashlight": {
-            "name": "Flashlight",
-            "description": "<p>Runs for 4 hours on one small battery. Provides a @Template[type:cone|distance:30] of light.</p>\n<hr />\n<p><strong>Break</strong> 1</p>"
+            "name": "Latarka",
+            "description": "<p>Działa przez 4 godziny na jednej małej baterii. Zapewnia światło o mocy @Template[type:cone|distance:30].</p>\n<hr />\n<p><strong>Zniszczenie</strong> 1</p>"
         },
         "Frag Grenade": {
-            "name": "Frag Grenade",
-            "description": "<p><strong>Break</strong> C</p>",
+            "name": "Granat Odłamkowy",
+            "description": "<p><strong>Zniszczenie</strong> C</p>",
             "rules": {
                 "0": {
-                    "text": "Plus [[/r (2d6[splash])[slashing]]]{2d6 Slashing Splash} damage."
+                    "text": "Dodatkowo [[/r (2d6[splash])[slashing]]]{2k6 obrażeń rozprysku od cięcia}."
                 }
             }
         },
         "Garden Shears": {
-            "name": "Garden Shears",
-            "description": "<p><strong>Break</strong> 2</p>"
+            "name": "Nożyce Ogrodowe",
+            "description": "<p><strong>Zniszczenie</strong> 2</p>"
         },
         "Gasoline (1 Gallon)": {
-            "name": "Gasoline (1 Gallon)",
-            "description": "<p><strong>Break</strong> 1</p>"
+            "name": "Benzyna (1 galon)",
+            "description": "<p><strong>Zniszczenie</strong> 1</p>"
         },
         "Generator": {
             "name": "Generator",
-            "description": "<p>Provides a lot of power but it requires 1 gallon of gasoline per hour to function.</p>\n<hr />\n<p><strong>Break</strong> 1</p>"
+            "description": "<p>Zapewnia dużą moc, ale do działania potrzebuje 1 galon benzyny na godzinę.</p>\n<hr />\n<p><strong>Zniszczenie</strong> 1</p>"
         },
         "Golf Club": {
-            "name": "Golf Club",
-            "description": "<p><strong>Break</strong> 4</p>"
+            "name": "Kij Golfowy",
+            "description": "<p><strong>Zniszczenie</strong> 4</p>"
         },
         "Hammer": {
             "name": "Młotek",
-            "description": "<p><strong>Break</strong> 4</p>"
+            "description": "<p><strong>Zniszczenie</strong> 4</p>"
         },
         "Hand Axe": {
             "name": "Topór Ręczny",
-            "description": "<p><strong>Break</strong> 4</p>"
+            "description": "<p><strong>Zniszczenie</strong> 4</p>"
         },
         "Hand Cannon": {
             "name": "Ręczne Działo",
-            "description": "<p><strong>Break</strong> 4</p>"
+            "description": "<p><strong>Zniszczenie</strong> 4</p>"
         },
         "Hardhat": {
-            "name": "Hardhat",
-            "description": "<p>This adds a helmet to your armor, offering you protection against critical hits.</p>\n<hr />\n<p><strong>Break</strong> 4</p>"
+            "name": "Kask Ochronny",
+            "description": "<p>Dodaje hełm do twojej zbroi, zapewniając ochronę przed krytycznymi trafieniami.</p>\n<hr />\n<p><strong>Zniszczenie</strong> 4</p>"
         },
         "Hazmat Suit": {
-            "name": "Hazmat Suit",
-            "description": "<p><strong>Resist</strong> 6 All</p>\n<p><strong>Break</strong> 8</p>"
+            "name": "Kombinezon Ochronny",
+            "description": "<p><strong>Ochrona</strong> 6 Wszystkie</p>\n<p><strong>Zniszczenie</strong> 8</p>"
         },
         "Headlight": {
-            "name": "Headlight",
-            "description": "<p>Runs for 8 hours on one small battery. Provides a 15-foot cone of light.</p>\n<hr />\n<p><strong>Break</strong> 1</p>"
+            "name": "Latarka Czołowa",
+            "description": "<p>Działa przez 8 godzin na jednej małej baterii. Zapewnia stożek światła o zasięgu 15 stóp.</p>\n<hr />\n<p><strong>Zniszczenie</strong> 1</p>"
         },
         "Heavy Machinegun": {
-            "name": "Heavy Machinegun",
-            "description": "<p><strong>Break</strong> 6</p>"
+            "name": "Ciężki Karabin Maszynowy",
+            "description": "<p><strong>Zniszczenie</strong> 6</p>"
         },
         "Heavy Patchwork": {
-            "name": "Heavy Patchwork",
-            "description": "<p><strong>Resist</strong> 5 All</p>\n<p><strong>Break</strong> 12</p>"
+            "name": "Ciężka Łatana Zbroja",
+            "description": "<p><strong>Ochrona</strong> 5 Wszystkie</p>\n<p><strong>Zniszczenie</strong> 12</p>"
         },
         "Hiking Boots": {
-            "name": "Hiking Boots",
-            "description": "<p>Provides steady footing. The wearer does not need to attempt @Compendium[pf2e.actionspf2e.Balance]{Balance} checks on uneven terrain.</p>\n<hr />\n<p><strong>Break</strong> 4</p>"
+            "name": "Buty Trekkingowe",
+            "description": "<p>Zapewnia stabilność. Użytkownik nie musi wykonywać testów @UUID[Compendium.pf2e.actionspf2e.Item.M76ycLAqHoAgbcej]{Balansowania} na nierównym terenie.</p>\n<hr />\n<p><strong>Zniszczenie</strong> 4</p>"
         },
         "Holster (Pistol)": {
-            "name": "Holster (Pistol)",
-            "description": "<p>Lets you draw a pistol as a free action.</p>\n<hr />\n<p><strong>Break</strong> 2</p>"
+            "name": "Kabura (pistolet)",
+            "description": "<p>Pozwala wyciągnąć pistolet jako akcję darmową.</p>\n<hr />\n<p><strong>Zniszczenie</strong> 2</p>"
         },
         "Hunting Rifle": {
-            "name": "Hunting Rifle",
-            "description": "<p><strong>Break</strong> 4</p>"
+            "name": "Karabin Myśliwski",
+            "description": "<p><strong>Zniszczenie</strong> 4</p>"
         },
         "Improvised Shield": {
-            "name": "Improvised Shield",
-            "description": "<p><strong>Resist</strong> 4 All</p>\n<p><strong>Break</strong> 4</p>"
+            "name": "Prowizoryczna Tarcza",
+            "description": "<p><strong>Ochrona</strong> 4 Wszystkie</p>\n<p><strong>Zniszczenie</strong> 4</p>"
         },
         "Incendiary Grenade": {
-            "name": "Incendiary Grenade",
-            "description": "<p><strong>Break</strong> C</p>",
+            "name": "Granat Zapalający",
+            "description": "<p><strong>Zniszczenie</strong> C</p>",
             "rules": {
                 "0": {
-                    "text": "Plus [[/r (2d6[splash])[fire]]]{2d6 Fire Splash} damage."
+                    "text": "Dodatkowo [[/r (2d6[splash])[fire]]]{2k6 obrażeń rozprysku od ognia}."
                 }
             }
         },
@@ -285,11 +285,11 @@
         },
         "Katana": {
             "name": "Katana",
-            "description": "<p><strong>Break</strong> 6</p>"
+            "description": "<p><strong>Zniszczenie</strong> 6</p>"
         },
         "Kitchen Knife": {
             "name": "Kitchen Knife",
-            "description": "<p><strong>Break</strong> 2</p>"
+            "description": "<p><strong>Zniszczenie</strong> 2</p>"
         },
         "Lab Gear": {
             "name": "Lab Gear",
@@ -305,7 +305,7 @@
         },
         "Light Machinegun": {
             "name": "Light Machinegun",
-            "description": "<p><strong>Break</strong> 4</p>"
+            "description": "<p><strong>Zniszczenie</strong> 4</p>"
         },
         "Light Patchwork": {
             "name": "Light Patchwork",
@@ -325,7 +325,7 @@
         },
         "Machete": {
             "name": "Maczeta",
-            "description": "<p><strong>Break</strong> 4</p>"
+            "description": "<p><strong>Zniszczenie</strong> 4</p>"
         },
         "Machinery Kit": {
             "name": "Machinery Kit",
@@ -353,7 +353,7 @@
         },
         "Molotov Cocktail": {
             "name": "Molotov Cocktail",
-            "description": "<p><strong>Break</strong> C</p>",
+            "description": "<p><strong>Zniszczenie</strong> C</p>",
             "rules": {
                 "0": {
                     "text": "Plus [[/r (1d6[splash])[fire]]]{1d6 Fire Splash} damage."
@@ -366,7 +366,7 @@
         },
         "Musical Instrument": {
             "name": "Musical Instrument",
-            "description": "<p><strong>Break</strong> 2</p>"
+            "description": "<p><strong>Zniszczenie</strong> 2</p>"
         },
         "Parts (Axe)": {
             "name": "Parts (Axe)",
@@ -450,11 +450,11 @@
         },
         "Pocket Knife": {
             "name": "Pocket Knife",
-            "description": "<p><strong>Break</strong> 1</p>"
+            "description": "<p><strong>Zniszczenie</strong> 1</p>"
         },
         "Pocket Pistol": {
             "name": "Pocket Pistol",
-            "description": "<p><strong>Break</strong> 4</p>"
+            "description": "<p><strong>Zniszczenie</strong> 4</p>"
         },
         "Police Body Armor": {
             "name": "Police Body Armor",
@@ -466,7 +466,7 @@
         },
         "Pump Shotgun": {
             "name": "Pump Shotgun",
-            "description": "<p><strong>Break</strong> 4</p>"
+            "description": "<p><strong>Zniszczenie</strong> 4</p>"
         },
         "Radio (Battery)": {
             "name": "Radio (Battery)",
@@ -478,7 +478,7 @@
         },
         "Raincoat": {
             "name": "Raincoat",
-            "description": "<p><strong>Break</strong> 2</p>"
+            "description": "<p><strong>Zniszczenie</strong> 2</p>"
         },
         "Ration (Bar)": {
             "name": "Ration (Bar)",
@@ -490,11 +490,11 @@
         },
         "Reference Books": {
             "name": "Reference Books",
-            "description": "<p><strong>Break</strong> 1</p>"
+            "description": "<p><strong>Zniszczenie</strong> 1</p>"
         },
         "Revolver": {
             "name": "Revolver",
-            "description": "<p><strong>Break</strong> 4</p>"
+            "description": "<p><strong>Zniszczenie</strong> 4</p>"
         },
         "Riot Shield": {
             "name": "Riot Shield",
@@ -502,11 +502,11 @@
         },
         "Rope (20 ft)": {
             "name": "Rope (20 ft)",
-            "description": "<p><strong>Break</strong> 2</p>"
+            "description": "<p><strong>Zniszczenie</strong> 2</p>"
         },
         "Screwdriver": {
             "name": "Screwdriver",
-            "description": "<p><strong>Break</strong> 2</p>"
+            "description": "<p><strong>Zniszczenie</strong> 2</p>"
         },
         "Sedative": {
             "name": "Sedative",
@@ -514,15 +514,15 @@
         },
         "Semiauto Pistol": {
             "name": "Semiauto Pistol",
-            "description": "<p><strong>Break</strong> 4</p>"
+            "description": "<p><strong>Zniszczenie</strong> 4</p>"
         },
         "Semiauto Shotgun": {
             "name": "Semiauto Shotgun",
-            "description": "<p><strong>Break</strong> 6</p>"
+            "description": "<p><strong>Zniszczenie</strong> 6</p>"
         },
         "Shiv": {
             "name": "Shiv",
-            "description": "<p><strong>Break</strong> C</p>"
+            "description": "<p><strong>Zniszczenie</strong> C</p>"
         },
         "Shovel": {
             "name": "Łopata",
@@ -534,15 +534,15 @@
         },
         "Skillet": {
             "name": "Skillet",
-            "description": "<p><strong>Break</strong> 4</p>"
+            "description": "<p><strong>Zniszczenie</strong> 4</p>"
         },
         "Sledgehammer": {
             "name": "Sledgehammer",
-            "description": "<p><strong>Break</strong> 6</p>"
+            "description": "<p><strong>Zniszczenie</strong> 6</p>"
         },
         "Sniper Rifle": {
             "name": "Sniper Rifle",
-            "description": "<p><strong>Break</strong> 4</p>"
+            "description": "<p><strong>Zniszczenie</strong> 4</p>"
         },
         "Soft Drink": {
             "name": "Soft Drink",
@@ -554,7 +554,7 @@
         },
         "Sports Protection": {
             "name": "Sports Protection",
-            "description": "<p><strong>Resist</strong> 5 All</p>\n<p><strong>Break</strong> 12</p>"
+            "description": "<p><strong>Ochrona</strong> 5 Wszystkie</p>\n<p><strong>Zniszczenie</strong> 12</p>"
         },
         "Surgical Kit": {
             "name": "Surgical Kit",
@@ -562,15 +562,15 @@
         },
         "Tarp": {
             "name": "Tarp",
-            "description": "<p><strong>Break</strong> 2</p>"
+            "description": "<p><strong>Zniszczenie</strong> 2</p>"
         },
         "Tear Gas Grenade": {
             "name": "Tear Gas Grenade",
-            "description": "<p><strong>Break</strong> C</p>"
+            "description": "<p><strong>Zniszczenie</strong> C</p>"
         },
         "Tent (2 Person)": {
             "name": "Tent (2 Person)",
-            "description": "<p><strong>Break</strong> 2</p>"
+            "description": "<p><strong>Zniszczenie</strong> 2</p>"
         },
         "Tool Belt": {
             "name": "Tool Belt",
@@ -578,7 +578,7 @@
         },
         "Translation Dictionary": {
             "name": "Translation Dictionary",
-            "description": "<p><strong>Break</strong> 1</p>"
+            "description": "<p><strong>Zniszczenie</strong> 1</p>"
         },
         "Trap (Explosive)": {
             "name": "Trap (Explosive)",
@@ -610,7 +610,7 @@
         },
         "Watch": {
             "name": "Watch",
-            "description": "<p><strong>Break</strong> 1</p>"
+            "description": "<p><strong>Zniszczenie</strong> 1</p>"
         },
         "Water (1 Gallon)": {
             "name": "Water (1 Gallon)",
@@ -626,7 +626,7 @@
         },
         "Wrench": {
             "name": "Wrench",
-            "description": "<p><strong>Break</strong> 4</p>"
+            "description": "<p><strong>Zniszczenie</strong> 4</p>"
         },
         "Z-Day Armor": {
             "name": "Z-Day Armor",

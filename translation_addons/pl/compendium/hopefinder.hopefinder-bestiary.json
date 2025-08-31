@@ -20,10 +20,10 @@
             "name": "Strzały"
         },
         "Bandages": {
-            "name": "Bandages"
+            "name": "Bandaże"
         },
         "Baseball Bat": {
-            "name": "Baseball Bat"
+            "name": "Kij Bejsbolowy"
         },
         "Bear (Black)": {
             "name": "Bear (Black)"
@@ -42,7 +42,7 @@
             "name": "Big Boss"
         },
         "Biker Gear": {
-            "name": "Biker Gear"
+            "name": "Wyposażenie Motocyklisty"
         },
         "Bloated": {
             "name": "Bloated"
@@ -54,7 +54,7 @@
             "name": "Body Slam"
         },
         "Bottle": {
-            "name": "Bottle"
+            "name": "Butelka"
         },
         "Branch": {
             "name": "Gałąź"
@@ -64,22 +64,22 @@
             "blurb": "Zombie pig"
         },
         "Bullet Proof Vest": {
-            "name": "Bullet Proof Vest"
+            "name": "Kamizelka Kuloodporna"
         },
         "Bullets (Pistol)": {
-            "name": "Bullets (Pistol)"
+            "name": "Pociski (pistolet)"
         },
         "Bullets (Rifle)": {
-            "name": "Bullets (Rifle)"
+            "name": "Pociski (Karabin)"
         },
         "Bullets (Shotgun)": {
-            "name": "Bullets (Shotgun)"
+            "name": "Pociski (strzelba)"
         },
         "Burning Branch": {
-            "name": "Burning Branch"
+            "name": "Płonąca Gałąź"
         },
         "Canned Goods (Expired)": {
-            "name": "Canned Goods (Expired)"
+            "name": "Konserwy (przeterminowane)"
         },
         "Cherenkov Glow": {
             "name": "Cherenkov Glow"
@@ -91,7 +91,7 @@
             "name": "Zestaw Wspinaczkowy"
         },
         "Clothes (Winter)": {
-            "name": "Clothes (Winter)"
+            "name": "Odzież (zimowa)"
         },
         "Clouded Mind": {
             "name": "Clouded Mind"
@@ -100,7 +100,7 @@
             "name": "Command the Dead"
         },
         "Compound Bow": {
-            "name": "Compound Bow"
+            "name": "Łuk Bloczkowy"
         },
         "Computers": {
             "name": "Computers"
@@ -122,13 +122,13 @@
             "name": "Łom"
         },
         "Crude Bow": {
-            "name": "Crude Bow"
+            "name": "Prymitywny Łuk"
         },
         "Crude Pistol": {
-            "name": "Crude Pistol"
+            "name": "Prymitywny Pistolet"
         },
         "Crude Spear": {
-            "name": "Crude Spear"
+            "name": "Prymitywna Włócznia"
         },
         "Darkvision": {
             "name": "Widzenie w Ciemności"
@@ -141,7 +141,7 @@
             "name": "Wybuch Śmierci"
         },
         "Demand Results": {
-            "name": "Demand Results"
+            "name": "Wymagane Rezultaty"
         },
         "Demolish": {
             "name": "Wyburzenie"
@@ -177,7 +177,7 @@
             "name": "Obgryzanie"
         },
         "Golf Club": {
-            "name": "Golf Club"
+            "name": "Kij Golfowy"
         },
         "Gore Spray": {
             "name": "Gore Spray"
@@ -192,7 +192,7 @@
             "name": "Hangry"
         },
         "Heavy Machinegun": {
-            "name": "Heavy Machinegun"
+            "name": "Ciężki Karabin Maszynowy"
         },
         "Hog Charge": {
             "name": "Hog Charge"
@@ -268,7 +268,7 @@
             "name": "Ciężki Młot"
         },
         "Menace": {
-            "name": "Menace"
+            "name": "Zagrożenie"
         },
         "Military Helmet": {
             "name": "Military Helmet"
@@ -438,7 +438,7 @@
             "name": "Cios"
         },
         "Wanderer": {
-            "name": "Wanderer"
+            "name": "Tułacz"
         },
         "Warg": {
             "name": "Warg",

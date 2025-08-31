@@ -213,7 +213,7 @@
             "description": "<p>You have received the basic inoculation against the Z Plague. If you contract the disease, while you are in Stage 1 you roll Fortitude saves to resist the infection twice, taking the better result.</p>"
         },
         "Inspire": {
-            "name": "Inspire",
+            "name": "Inspiracja",
             "description": "<p>With a few choice words or a hopeful tune, you inspire courage in those around you. Allies within 50 feet who can hear you gain a +1 status bonus on attack rolls, damage rolls, and saving throws against fear until the start of your next turn.</p>\n<p>@UUID[Compendium.hopefinder.effects.k64Kln6sGrwVipq4]{Effect: Inspire}</p>"
         },
         "Insult": {
@@ -250,7 +250,7 @@
             ]
         },
         "Menace": {
-            "name": "Menace",
+            "name": "Zagrożenie",
             "description": "<p>Your words can cause fear and doubt to creep in the minds of even the most resolute foes. Attempt an Intimidation check to @Compendium[pf2e.actionspf2e.2u915NdUyQan6uKF]{Demoralize} and compare the result to all enemy humans within 30 feet who hear your words.</p>"
         },
         "Misdirect": {
