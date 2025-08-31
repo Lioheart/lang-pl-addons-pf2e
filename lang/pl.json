@@ -55,8 +55,12 @@
         "hint": "Po każdej użytej reakcji automatycznie dodaje do postaci efekt 'Wykorzystano reakcję', który znika na początku jej następnej tury."
       },
       "enableRoundMarkers": {
-        "name": "Dodaj znaczniki rund",
+        "name": "Dodaj znaczniki rund w czacie",
         "hint": "Na początku każdej rundy walki dodaje specjalny komunikat w czacie, oddzielający rundy i ułatwiający czytelność."
+      },
+      "enableExplorationEffects": {
+        "name": "Włącz efekty eksploracji",
+        "hint": "Jeżeli włączone, aktywacja akcji eksploracji utworzy efekt na postaci. Efekty zostaną usunięte przy rozpoczęciu walki."
       }
     },
     "effects": {

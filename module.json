@@ -26,7 +26,8 @@
     "scripts/world-time-hud.js",
     "scripts/sell-to-merchant.js",
     "scripts/used-reaction.js",
-    "scripts/round-marker.js"
+    "scripts/round-marker.js",
+    "scripts/exploration-effects.js"
   ],
   "templates": [
     "templates/world-time-display.hbs"

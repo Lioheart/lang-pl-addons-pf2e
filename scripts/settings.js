@@ -165,4 +165,14 @@ export function registerSettings() {
         restricted: true
     });
 
+    game.settings.register(MODULE_ID, "enableExplorationEffects", {
+        name: game.i18n.localize(`${MODULE_ID}.settings.enableExplorationEffects.name`),
+        hint: game.i18n.localize(`${MODULE_ID}.settings.enableExplorationEffects.hint`),
+        scope: "world",
+        config: true,
+        type: Boolean,
+        default: true,
+        restricted: true
+    });
+
 }
