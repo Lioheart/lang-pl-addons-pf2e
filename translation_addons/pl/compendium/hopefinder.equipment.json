@@ -276,373 +276,373 @@
             }
         },
         "Infantry Armor": {
-            "name": "Infantry Armor",
-            "description": "<p><strong>Resist</strong> 8 All</p>\n<p><strong style=\"font-family:var(--font-primary);font-size:var(--font-size-14)\">Break</strong><span style=\"font-family:var(--font-primary);font-size:var(--font-size-14)\"> 18</span></p>"
+            "name": "Pancerz Piechoty",
+            "description": "<p><strong>Ochrona</strong> 8 Wszystkie</p>\n<p><strong style=\"font-family:var(--font-primary);font-size:var(--font-size-14)\">Zniszczenie</strong><span style=\"font-family:var(--font-primary);font-size:var(--font-size-14)\"> 18</span></p>"
         },
         "Iron Armor": {
-            "name": "Iron Armor",
-            "description": "<p><strong>Resist</strong> 7 All</p>\n<p><strong>Break</strong> 10</p>"
+            "name": "Żelazna Zbroja",
+            "description": "<p><strong>Ochrona</strong> 7 Wszystkie</p>\n<p><strong>Zniszczenie</strong> 10</p>"
         },
         "Katana": {
             "name": "Katana",
             "description": "<p><strong>Zniszczenie</strong> 6</p>"
         },
         "Kitchen Knife": {
-            "name": "Kitchen Knife",
+            "name": "Nóż Kuchenny",
             "description": "<p><strong>Zniszczenie</strong> 2</p>"
         },
         "Lab Gear": {
-            "name": "Lab Gear",
-            "description": "<p><strong>Resist</strong> 2 All</p>\n<p><strong>Break</strong> 10</p>"
+            "name": "Sprzęt Laboratoryjny",
+            "description": "<p><strong>Ochrona</strong> 2 Wszystkie</p>\n<p><strong>Zniszczenie</strong> 10</p>"
         },
         "Laptop": {
             "name": "Laptop",
-            "description": "<p>Runs for 4 hours on one large battery.</p>\n<hr />\n<p><strong>Break</strong> 4</p>"
+            "description": "<p>Działa przez 4 godziny na jednej dużej baterii.</p>\n<hr />\n<p><strong>Zniszczenie</strong> 4</p>"
         },
         "Leather Armor": {
             "name": "Skórznia",
-            "description": "<p><strong>Resist</strong> 4 B/P/S</p>\n<p><strong>Break</strong> 12</p>"
+            "description": "<p><strong>Ochrona</strong> 4 Obuchowe / Kłute / Cięte</p>\n<p><strong>Zniszczenie</strong> 12</p>"
         },
         "Light Machinegun": {
-            "name": "Light Machinegun",
+            "name": "Lekki Karabin Maszynowy",
             "description": "<p><strong>Zniszczenie</strong> 4</p>"
         },
         "Light Patchwork": {
-            "name": "Light Patchwork",
-            "description": "<p><strong>Resist</strong> 3 All</p>\n<p><strong>Break</strong> 10</p>"
+            "name": "Lekka Łatana Zbroja",
+            "description": "<p><strong>Ochrona</strong> 3 Wszystkie</p>\n<p><strong>Zniszczenie</strong> 10</p>"
         },
         "Lighter": {
-            "name": "Lighter",
-            "description": "<hr />\n<p><strong>Break</strong> 1</p>"
+            "name": "Zapalniczka",
+            "description": "<hr />\n<p><strong>Zniszczenie</strong> 1</p>"
         },
         "Liquor": {
-            "name": "Liquor",
-            "description": "<p>Counts a -1 Hydration. Drinking it removes 2 bruises. Can only benefit from this once per day.</p>\n<hr />\n<p><strong>Break</strong> 1</p>"
+            "name": "Alkohol",
+            "description": "<p>Liczy się jako -1 punkt Nawodnienia. Jego wypicie usuwa 2 siniaki. Można skorzystać tylko z tego raz na dzień.</p>\n<hr />\n<p><strong>Zniszczenie</strong> 1</p>"
         },
         "Lockpicks": {
-            "name": "Lockpicks",
-            "description": "<p>Allows the use of Thievery to pick keyed locks.</p>\n<hr />\n<p><strong>Break</strong> 2</p>"
+            "name": "Wytrychy",
+            "description": "<p>Umożliwia użycie umiejętności Złodziejstwo do otwierania zamków.</p>\n<hr />\n<p><strong>Zniszczenie</strong> 2</p>"
         },
         "Machete": {
             "name": "Maczeta",
             "description": "<p><strong>Zniszczenie</strong> 4</p>"
         },
         "Machinery Kit": {
-            "name": "Machinery Kit",
-            "description": "<p>Allows the use of Machinery to fix and build machines (not vehicles).</p>\n<hr />\n<p><strong>Break</strong> 4</p>"
+            "name": "Zestaw Maszyn",
+            "description": "<p>Umożliwia użycie Maszyn do naprawy i budowy maszyn (nie pojazdów).</p>\n<hr />\n<p><strong>Zniszczenie</strong> 4</p>"
         },
         "Makeup Kit": {
-            "name": "Makeup Kit",
-            "description": "<p>Allows the use of Deception to impersonate someone.</p>\n<hr />\n<p><strong>Break</strong> 1</p>"
+            "name": "Zestaw do Makijażu",
+            "description": "<p>Umożliwia wykorzystanie Oszustwa do podszywania się pod kogoś innego.</p>\n<hr />\n<p><strong>Zniszczenie</strong> 1</p>"
         },
         "Map (Local)": {
-            "name": "Map (Local)",
-            "description": "<p>Shows the main locations and important streets, as well as a few forgotten paths.</p>\n<hr />\n<p><strong>Break</strong> 1</p>"
+            "name": "Mapa (lokalna)",
+            "description": "<p>Pokazuje główne lokalizacje i ważne ulice, a także kilka zapomnianych ścieżek.</p>\n<hr />\n<p><strong>Zniszczenie</strong> 1</p>"
         },
         "Meat (Fresh)": {
-            "name": "Meat (Fresh)",
-            "description": "<p>Counts as 2 food. Spoils if not eaten within [[/r 1d4 #Days]]{1d4 days} ([[/r 2d4 #Days]]{2d4} if cooked).</p>\n<hr />\n<p><strong>Break</strong> 1</p>"
+            "name": "Mięso (świeże)",
+            "description": "<p>Liczy się jako 2 porcje jedzenia. Psuje się, jeśli nie zostanie zjedzone w ciągu [[/r 1d4 #Dni]]{1k4 dni} ([[/r 2d4 #Dni]]{2k4} jeśli jest ugotowane).</p>\n<hr />\n<p><strong>Zniszczenie</strong> 1</p>"
         },
         "Military Helmet": {
-            "name": "Military Helmet",
-            "description": "<p>This adds a helmet to your armor, offering you protection against critical hits.</p>\n<hr />\n<p><strong>Break</strong> 8</p>"
+            "name": "Hełm Wojskowy",
+            "description": "<p>Dodaje hełm do twojej zbroi, zapewniając ochronę przed krytycznymi trafieniami.</p>\n<hr />\n<p><strong>Zniszczenie</strong> 8</p>"
         },
         "Military Machinegun": {
-            "name": "Military Machinegun",
-            "description": "<p><strong>Break</strong> 6</p>\n<p><strong>Reload</strong> 4</p>"
+            "name": "Wojskowy Karabin Maszynowy",
+            "description": "<p><strong>Zniszczenie</strong> 6</p>\n<p><strong>Przeładowanie</strong> 4</p>"
         },
         "Molotov Cocktail": {
-            "name": "Molotov Cocktail",
+            "name": "Koktajl Mołotowa",
             "description": "<p><strong>Zniszczenie</strong> C</p>",
             "rules": {
                 "0": {
-                    "text": "Plus [[/r (1d6[splash])[fire]]]{1d6 Fire Splash} damage."
+                    "text": "Dodatkowo [[/r (1d6[splash])[fire]]]{1k6 obrażeń rozpryskowych od ognia}."
                 }
             }
         },
         "Multitool": {
-            "name": "Multitool",
-            "description": "<p>Has small versions of most tools. Allows for skill checks that require tools (such as @Compendium[pf2e.actionspf2e.Disable Device]{Disable Device}).</p>\n<hr />\n<p><strong>Break</strong> 2</p>"
+            "name": "Narzędzie Wielofunkcyjne",
+            "description": "<p>Posiada małe wersje większości narzędzi. Umożliwia sprawdzanie umiejętności wymagających użycia narzędzi (takich jak @UUID[Compendium.pf2e.actionspf2e.Item.cYdz2grcOcRt4jk6]).</p>\n<hr />\n<p><strong>Zniszczenie</strong> 2</p>"
         },
         "Musical Instrument": {
-            "name": "Musical Instrument",
+            "name": "Instrument Muzyczny",
             "description": "<p><strong>Zniszczenie</strong> 2</p>"
         },
         "Parts (Axe)": {
-            "name": "Parts (Axe)",
+            "name": "Części (topór)",
             "description": ""
         },
         "Parts (Blade)": {
-            "name": "Parts (Blade)",
+            "name": "Części (ostrze)",
             "description": ""
         },
         "Parts (Bow)": {
-            "name": "Parts (Bow)",
+            "name": "Części (łuk)",
             "description": ""
         },
         "Parts (Bullet)": {
-            "name": "Parts (Bullet)",
+            "name": "Części (pocisk)",
             "description": ""
         },
         "Parts (Cloth)": {
-            "name": "Parts (Cloth)",
+            "name": "Części (tkanina)",
             "description": ""
         },
         "Parts (Club)": {
-            "name": "Parts (Club)",
+            "name": "Części (maczuga)",
             "description": ""
         },
         "Parts (Electronic)": {
-            "name": "Parts (Electronic)",
+            "name": "Części (elektroniczne)",
             "description": ""
         },
         "Parts (Fuel)": {
-            "name": "Parts (Fuel)",
+            "name": "Części (paliwo)",
             "description": ""
         },
         "Parts (Grenade)": {
-            "name": "Parts (Grenade)",
+            "name": "Części (granat)",
             "description": ""
         },
         "Parts (Leather)": {
-            "name": "Parts (Leather)",
+            "name": "Części (skóra)",
             "description": ""
         },
         "Parts (Medicine)": {
-            "name": "Parts (Medicine)",
+            "name": "Części (tabletki)",
             "description": ""
         },
         "Parts (Pistol)": {
-            "name": "Parts (Pistol)",
+            "name": "Części (pistolet)",
             "description": ""
         },
         "Parts (Power)": {
-            "name": "Parts (Power)",
+            "name": "Części (zasilanie)",
             "description": ""
         },
         "Parts (Rifle)": {
-            "name": "Parts (Rifle)",
+            "name": "Części (karabin)",
             "description": ""
         },
         "Parts (Shotgun)": {
-            "name": "Parts (Shotgun)",
+            "name": "Części (strzelba)",
             "description": ""
         },
         "Parts (Synthetic)": {
-            "name": "Parts (Synthetic)",
+            "name": "Części (syntetyczne)",
             "description": ""
         },
         "Parts (Tool)": {
-            "name": "Parts (Tool)",
+            "name": "Części (narzędzia)",
             "description": ""
         },
         "Piercing Bullets (Pistol)": {
-            "name": "Piercing Bullets (Pistol)",
-            "description": "<p>Armor piercing round of ammunition. Halves the armor resistance of the target, if any (round down).</p>\n<hr />\n<p><strong>Break</strong> 2</p>"
+            "name": "Kłute Pociski (pistolet)",
+            "description": "<p>Amunicja kłuta. Zmniejsza o połowę odporność pancerza celu, jeśli taka istnieje (zaokrąglając w dół).</p>\n<hr />\n<p><strong>Zniszczenie</strong> 2</p>"
         },
         "Piercing Bullets (Rifle)": {
-            "name": "Piercing Bullets (Rifle)",
-            "description": "<p>Armor piercing round of ammunition. Halves the armor resistance of the target, if any (round down).</p>\n<hr />\n<p><strong>Break</strong> 2</p>"
+            "name": "Kłute Pociski (karabin)",
+            "description": "<p>Amunicja kłuta. Zmniejsza o połowę odporność pancerza celu, jeśli taka istnieje (zaokrąglając w dół).</p>\n<hr />\n<p><strong>Zniszczenie</strong> 2</p>"
         },
         "Piercing Bullets (Shotgun)": {
-            "name": "Piercing Bullets (Shotgun)",
-            "description": "<p>Armor piercing round of ammunition. Halves the armor resistance of the target, if any (round down).</p>\n<hr />\n<p><strong>Break</strong> 2</p>"
+            "name": "Kłute Pociski (strzelba)",
+            "description": "<p>Amunicja kłuta. Zmniejsza o połowę odporność pancerza celu, jeśli taka istnieje (zaokrąglając w dół).</p>\n<hr />\n<p><strong>Zniszczenie</strong> 2</p>"
         },
         "Pocket Knife": {
-            "name": "Pocket Knife",
+            "name": "Scyzoryk",
             "description": "<p><strong>Zniszczenie</strong> 1</p>"
         },
         "Pocket Pistol": {
-            "name": "Pocket Pistol",
+            "name": "Pistolet Kieszonkowy",
             "description": "<p><strong>Zniszczenie</strong> 4</p>"
         },
         "Police Body Armor": {
-            "name": "Police Body Armor",
-            "description": "<p><strong>Resist</strong> 7 All</p>\n<p><strong>Break</strong> 16</p>"
+            "name": "Kamizelka Policyjna",
+            "description": "<p><strong>Ochrona</strong> 7 Wszystkie</p>\n<p><strong>Zniszczenie</strong> 16</p>"
         },
         "Power Shunt": {
-            "name": "Power Shunt",
-            "description": "<p>Transfers power from a battery to a device, giving it the power it needs to function. Takes 1 minute to use.</p>\n<hr />\n<p><strong>Break</strong> 1</p>"
+            "name": "Rozdzielacz Mocy",
+            "description": "<p>Przekazuje energię z baterii do urządzenia, zapewniając mu moc niezbędną do działania. Czas użytkowania wynosi 1 minutę.</p>\n<hr />\n<p><strong>Zniszczenie</strong> 1</p>"
         },
         "Pump Shotgun": {
-            "name": "Pump Shotgun",
+            "name": "Strzelba Pompowa",
             "description": "<p><strong>Zniszczenie</strong> 4</p>"
         },
         "Radio (Battery)": {
-            "name": "Radio (Battery)",
-            "description": "<p>Battery radio runs for 1 day on a small battery.</p>\n<hr />\n<p><strong>Break</strong> 1</p>"
+            "name": "Radio (bateryjne)",
+            "description": "<p>Radio zasilane baterią działa przez 1 dzień na małej baterii.</p>\n<hr />\n<p><strong>Zniszczenie</strong> 1</p>"
         },
         "Radio (Crank)": {
-            "name": "Radio (Crank)",
-            "description": "<p>Crank radio runs indefinitely as long as it is cranked every hour.</p>\n<hr />\n<p><strong>Break</strong> 2</p>"
+            "name": "Radio (korbowe)",
+            "description": "<p>Radio z korbką działa bez ograniczeń, o ile co godzinę jest nakręcane.</p>\n<hr />\n<p><strong>Zniszczenie</strong> 2</p>"
         },
         "Raincoat": {
-            "name": "Raincoat",
+            "name": "Płaszcz Przeciwdeszczowy",
             "description": "<p><strong>Zniszczenie</strong> 2</p>"
         },
         "Ration (Bar)": {
-            "name": "Ration (Bar)",
-            "description": "<p>Basic military ration bar. Counts as 1 food.</p>\n<hr />\n<p><strong>Break</strong> 1</p>"
+            "name": "Racja Żywnościowa (baton)",
+            "description": "<p>Podstawowy batonik wojskowy. Liczy się jako 1 porcja jedzenia.</p>\n<hr />\n<p><strong>Zniszczenie</strong> 1</p>"
         },
         "Ration (Day)": {
-            "name": "Ration (Day)",
-            "description": "<p>Basic military meal kit. Counts as 3 food.</p>\n<hr />\n<p><strong>Break</strong> 1</p>"
+            "name": "Racja Żywnościowa (dzienna)",
+            "description": "<p>Podstawowy zestaw posiłków wojskowych. Liczy się jako 3 posiłki.</p>\n<hr />\n<p><strong>Zniszczenie</strong> 1</p>"
         },
         "Reference Books": {
-            "name": "Reference Books",
+            "name": "Książki Naukowe",
             "description": "<p><strong>Zniszczenie</strong> 1</p>"
         },
         "Revolver": {
-            "name": "Revolver",
+            "name": "Rewolwer",
             "description": "<p><strong>Zniszczenie</strong> 4</p>"
         },
         "Riot Shield": {
-            "name": "Riot Shield",
-            "description": "<p><strong>Resist</strong> 8 All</p>\n<p><strong>Break</strong> 10</p>"
+            "name": "Tarcza Antyzamieszkowa",
+            "description": "<p><strong>Ochrona</strong> 8 Wszystkie</p>\n<p><strong>Zniszczenie</strong> 10</p>"
         },
         "Rope (20 ft)": {
-            "name": "Rope (20 ft)",
+            "name": "Lina (20 stóp)",
             "description": "<p><strong>Zniszczenie</strong> 2</p>"
         },
         "Screwdriver": {
-            "name": "Screwdriver",
+            "name": "Śrubokręt",
             "description": "<p><strong>Zniszczenie</strong> 2</p>"
         },
         "Sedative": {
-            "name": "Sedative",
-            "description": "<p>Injected or in pill form. 1 minute after taking, the target must attempt a @Check[type:fortitude|dc:25] save or fall @Compendium[pf2e.conditionitems.Unconscious]{Unconscious} for 1 hour. Without it, surgery checks attempted on the target take a -4 penalty.</p>\n<hr />\n<p><strong>Break</strong> C</p>"
+            "name": "Środek Uspokajający",
+            "description": "<p>W postaci zastrzyku lub tabletki. 1 minutę po zażyciu cel musi wykonać rzut obronny @Check[type:fortitude|dc:25] lub zapada w stan @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{nieprzytomności} na 1 godzinę. Bez tego rzuty obronne na cel podlegają karze -4.</p>\n<hr />\n<p><strong>Zniszczenie</strong> C</p>"
         },
         "Semiauto Pistol": {
-            "name": "Semiauto Pistol",
+            "name": "Pistolet Półautomatyczny",
             "description": "<p><strong>Zniszczenie</strong> 4</p>"
         },
         "Semiauto Shotgun": {
-            "name": "Semiauto Shotgun",
+            "name": "Strzelba Półautomatyczna",
             "description": "<p><strong>Zniszczenie</strong> 6</p>"
         },
         "Shiv": {
-            "name": "Shiv",
+            "name": "Kosa",
             "description": "<p><strong>Zniszczenie</strong> C</p>"
         },
         "Shovel": {
             "name": "Łopata",
-            "description": "<hr />\n<p><strong>Break</strong> 2</p>"
+            "description": "<hr />\n<p><strong>Zniszczenie</strong> 2</p>"
         },
         "Siphon Kit": {
-            "name": "Siphon Kit",
-            "description": "<p>Slowly drains fuel or liquid from one tank to another receptacle. Takes 1 minute per gallon transferred.</p>\n<hr />\n<p><strong>Break</strong> 2</p>"
+            "name": "Zestaw Syfonowy",
+            "description": "<p>Powoli wysącza paliwo lub płyn z jednego zbiornika do innego pojemnika. Zajmuje 1 minutę na każdy galon.</p>\n<hr />\n<p><strong>Zniszczenie</strong> 2</p>"
         },
         "Skillet": {
-            "name": "Skillet",
+            "name": "Patelnia",
             "description": "<p><strong>Zniszczenie</strong> 4</p>"
         },
         "Sledgehammer": {
-            "name": "Sledgehammer",
+            "name": "Młot Kowalski",
             "description": "<p><strong>Zniszczenie</strong> 6</p>"
         },
         "Sniper Rifle": {
-            "name": "Sniper Rifle",
+            "name": "Karabin Snajperski",
             "description": "<p><strong>Zniszczenie</strong> 4</p>"
         },
         "Soft Drink": {
-            "name": "Soft Drink",
-            "description": "<p>Soda, juice, water, or tea. Counts as 1 hydration.</p>\n<hr />\n<p><strong>Break</strong> 1</p>"
+            "name": "Napój Bezalkoholowy",
+            "description": "<p>Napoje gazowane, soki, woda lub herbata. Liczy się jako 1 porcja nawodnienia.</p>\n<hr />\n<p><strong>Zniszczenie</strong> 1</p>"
         },
         "Splint": {
             "name": "Łubki",
-            "description": "<p>Allows a broken bone to heal over [[/r 2d4 #weeks]]{2d4 weeks}. Removes penalty in 1 day.</p>\n<hr />\n<p><strong>Break</strong> 2</p>"
+            "description": "<p>Pozwala złamanej kości zrosnąć się w ciągu [[/r 2d4 #tygodni]]{2k4 tygodni}. Usuwa karę w ciągu 1 dnia.</p>\n<hr />\n<p><strong>Zniszczenie</strong> 2</p>"
         },
         "Sports Protection": {
-            "name": "Sports Protection",
+            "name": "Ochrona Sportowa",
             "description": "<p><strong>Ochrona</strong> 5 Wszystkie</p>\n<p><strong>Zniszczenie</strong> 12</p>"
         },
         "Surgical Kit": {
-            "name": "Surgical Kit",
-            "description": "<p>Allows for the use of @Compendium[hopefinder.feats.y9oAlWcDVlCAucqA]{Surgery} feat.</p>\n<hr />\n<p><strong>Break</strong> 4</p>"
+            "name": "Zestaw Chirurgiczny",
+            "description": "<p>Umożliwia użycie atutu @Compendium[hopefinder.feats.y9oAlWcDVlCAucqA].</p>\n<hr />\n<p><strong>Zniszczenie</strong> 4</p>"
         },
         "Tarp": {
-            "name": "Tarp",
+            "name": "Plandeka",
             "description": "<p><strong>Zniszczenie</strong> 2</p>"
         },
         "Tear Gas Grenade": {
-            "name": "Tear Gas Grenade",
+            "name": "Granat z Gazem Łzawiącym",
             "description": "<p><strong>Zniszczenie</strong> C</p>"
         },
         "Tent (2 Person)": {
-            "name": "Tent (2 Person)",
+            "name": "Namiot (2 osobowy)",
             "description": "<p><strong>Zniszczenie</strong> 2</p>"
         },
         "Tool Belt": {
-            "name": "Tool Belt",
-            "description": "<p>Lets you carry up to four tools as ready items (takes up only 1 spot on your ready list).</p>\n<hr />\n<p><strong>Break</strong> 2</p>"
+            "name": "Pas Narzędziowy",
+            "description": "<p>Pozwala nosić do czterech narzędzi jako przedmioty gotowe (zajmuje tylko 1 miejsce na liście gotowości).</p>\n<hr />\n<p><strong>Zniszczenie</strong> 2</p>"
         },
         "Translation Dictionary": {
-            "name": "Translation Dictionary",
+            "name": "Słownik Tłumaczeń",
             "description": "<p><strong>Zniszczenie</strong> 1</p>"
         },
         "Trap (Explosive)": {
-            "name": "Trap (Explosive)",
-            "description": "<p>Simple wire traps that can be set up in 1 minute. Each trap creates a @Template[type:line|distance:10] and anyone walking through that line must attempt a @Check[type:reflex|dc:15] save or set off the trap. The trap can be noticed with a @Check[type:perception|dc:20] check. Traps are destroyed when they are sprung.</p>\n<p>This trap sets off a grenade. Damage is based on the grenade, which is not included.</p>\n<hr />\n<p><strong>Break</strong> 2</p>"
+            "name": "Pułapka (wybuchowa)",
+            "description": "<p>Proste pułapki z drutu, które można ustawić w ciągu 1 minuty. Każda pułapka tworzy @Template[type:line|distance:10] i każdy, kto przechodzi przez tę linię, musi wykonać rzut @Check[type:reflex|dc:15], aby uniknąć uruchomienia pułapki. Pułapkę można zauważyć za pomocą rzutu @Check[type:perception|dc:20]. Pułapki ulegają zniszczeniu po uruchomieniu.</p>\n<p>Ta pułapka wyzwala granat. Obrażenia zależą od granatu, który nie jest dołączony do zestawu.</p>\n<hr />\n<p><strong>Zniszczenie</strong> 2</p>"
         },
         "Trap (Noise)": {
-            "name": "Trap (Noise)",
-            "description": "<p>Simple wire traps that can be set up in 1 minute. Each trap creates a @Template[type:line|distance:10] and anyone walking through that line must attempt a @Check[type:reflex|dc:15] save or set off the trap. The trap can be noticed with a @Check[type:perception|dc:20] check. Traps are destroyed when they are sprung.</p>\n<p>If set off, this trap makes a lot of noise and is clearly audible in a @Template[type:burst|distance:50]{50-foot radius}.</p>\n<hr />\n<p><strong>Break</strong> 1</p>"
+            "name": "Pułapka (hałaśliwa)",
+            "description": "<p>Proste pułapki z drutu, które można ustawić w ciągu 1 minuty. Każda pułapka tworzy @Template[type:line|distance:10] i każdy, kto przechodzi przez tę linię, musi wykonać rzut @Check[type:reflex|dc:15], aby uniknąć uruchomienia pułapki. Pułapkę można zauważyć za pomocą rzutu @Check[type:perception|dc:20]. Pułapki ulegają zniszczeniu po uruchomieniu.</p>\n<p>Po uruchomieniu pułapka ta wydaje głośny dźwięk, który jest wyraźnie słyszalny w promieniu @Template[type:burst|distance:50]{50 stóp}.</p>\n<hr />\n<p><strong>Zniszczenie</strong> 1</p>"
         },
         "Trap (Trip Wire)": {
-            "name": "Trap (Trip Wire)",
-            "description": "<p>Simple wire traps that can be set up in 1 minute. Each trap creates a @Template[type:line|distance:10] and anyone walking through that line must attempt a @Check[type:reflex|dc:15] save or set off the trap. The trap can be noticed with a @Check[type:perception|dc:20] check. Traps are destroyed when they are sprung.</p>\n<p>Creatures that fail against this trap are knocked @Compendium[pf2e.conditionitems.Prone]{Prone}.</p>\n<hr />\n<p><strong>Break</strong> 1</p>"
+            "name": "Pułapka (linka przewracająca)",
+            "description": "<p>Proste pułapki z drutu, które można ustawić w ciągu 1 minuty. Każda pułapka tworzy @Template[type:line|distance:10] i każdy, kto przechodzi przez tę linię, musi wykonać rzut @Check[type:reflex|dc:15], aby uniknąć uruchomienia pułapki. Pułapkę można zauważyć za pomocą rzutu @Check[type:perception|dc:20]. Pułapki ulegają zniszczeniu po uruchomieniu.</p>\n<p>Stworzenia, które nie zdołają uniknąć tej pułapki, zostają @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Przewrócone}.</p>\n<hr />\n<p><strong>Zniszczenie</strong> 1</p>"
         },
         "Urban Camouflage": {
-            "name": "Urban Camouflage",
-            "description": "<p>A collection of lightweight trash and debris attached to a mesh body suit that makes the wearer appear like a mound of garbage. Provides a +2 circumstance bonus to Stealth checks in urban environments.</p>\n<hr />\n<p><strong>Break</strong> 2</p>"
+            "name": "Miejski Kamuflaż",
+            "description": "<p>Zbiór lekkich śmieci i odpadków przyłączonych do kombinezonu z siatki, który sprawia, że osoba nosząca wygląda jak sterta śmieci. Zapewnia premię +2 do testów Ukrycia w środowisku miejskim.</p>\n<hr />\n<p><strong>Zniszczenie</strong> 2</p>"
         },
         "Vegetables (Fresh)": {
-            "name": "Vegetables (Fresh)",
-            "description": "<p>Counts as 1 food. Spoils if not eaten within [[/r 1d6 #Days]]{1d6 days} ([[/r 2d6 #Days]]{2d6} if cooked).</p>\n<hr />\n<p><strong>Break</strong> 1</p>"
+            "name": "Warzywa (świeże)",
+            "description": "<p>Liczy się jako 1 porcja jedzenia. Psuje się, jeśli nie zostanie zjedzone w ciągu [[/r 1d6 #Dni]]{1k6 dni} ([[/r 2d6 #Dni]]{2k6}, jeśli jest ugotowane).</p>\n<hr />\n<p><strong>Zniszczenie</strong> 1</p>"
         },
         "Vitamins (Bottle)": {
-            "name": "Vitamins (Bottle)",
-            "description": "<p>Has 10 doses. Each dose gives a +2 bonus on Fortitude saves for 1 day. Does not stack with itself.</p>\n<p>@UUID[Compendium.hopefinder.effects.Item.nBTRC7tLNZt1oNlK]{Effect: Vitamins}</p>\n<hr />\n<p><strong>Break</strong> 1</p>"
+            "name": "Witaminy (butelka)",
+            "description": "<p>Zawiera 10 dawek. Każda dawka zapewnia premię +2 do rzutów obronnych na Wytrwałość przez 1 dzień. Nie kumuluje się z innymi dawkami.</p>\n<p>@UUID[Compendium.hopefinder.effects.Item.nBTRC7tLNZt1oNlK]{Efekt: Witaminy}</p>\n<hr />\n<p><strong>Zniszczenie</strong> 1</p>"
         },
         "Walkie Talkie": {
-            "name": "Walkie Talkie",
-            "description": "<p>Allows for communication out to a range of 5 miles. Runs for 4 hours on a small battery. Most settlements have a permanent walkie talkie wired to their power source.</p>\n<hr />\n<p><strong>Break</strong> 4</p>"
+            "name": "Krótkofalówka",
+            "description": "<p>Umożliwia komunikację w zasięgu 5 mil. Działa przez 4 godziny na małej baterii. Większość osad posiada stałe krótkofalówki podłączone do źródła zasilania.</p>\n<hr />\n<p><strong>Zniszczenie</strong> 4</p>"
         },
         "Watch": {
-            "name": "Watch",
+            "name": "Zegarek",
             "description": "<p><strong>Zniszczenie</strong> 1</p>"
         },
         "Water (1 Gallon)": {
-            "name": "Water (1 Gallon)",
-            "description": "<p>Jug that contains enough water for 4 hydration.</p>\n<hr />\n<p><strong>Break</strong> 1</p>"
+            "name": "Woda (1 galon)",
+            "description": "<p>Dzbanek zawierający wystarczającą ilość wody dla 4 osób.</p>\n<hr />\n<p><strong>Zniszczenie</strong> 1</p>"
         },
         "Water Purification Tablets": {
-            "name": "Water Purification Tablets",
-            "description": "<p>Package contains 4 tablets. Each tablet purifies 1 gallon of water from biological agents (include the Z Plague). It does not remove chemical or heavy metal contaminants.</p>\n<hr />\n<p><strong>Break</strong> 1</p>"
+            "name": "Tabletki do Uzdatniania Wody",
+            "description": "<p>Opakowanie zawiera 4 tabletki. Każda tabletka oczyszcza 1 galon wody z czynników biologicznych (w tym plagi Z). Nie usuwa zanieczyszczeń chemicznych ani metali ciężkich.</p>\n<hr />\n<p><strong>Zniszczenie</strong> 1</p>"
         },
         "Workwear": {
-            "name": "Workwear",
-            "description": "<p><strong>Resist</strong> 2 B/P/S</p>\n<p><strong>Break</strong> 10</p>"
+            "name": "Odzież Robocza",
+            "description": "<p><strong>Ochrona</strong> 2 Obuchowe / Kłute / Cięte</p>\n<p><strong>Zniszczenie</strong> 10</p>"
         },
         "Wrench": {
-            "name": "Wrench",
+            "name": "Klucz Płaski",
             "description": "<p><strong>Zniszczenie</strong> 4</p>"
         },
         "Z-Day Armor": {
-            "name": "Z-Day Armor",
-            "description": "<p><strong>Resist</strong> 12 All</p>\n<p><strong>Break</strong> 20</p>"
+            "name": "Pancerz Z-Day",
+            "description": "<p><strong>Ochrona</strong> 12 Wszystkie</p>\n<p><strong>Zniszczenie</strong> 20</p>"
         },
         "Z-Noc": {
             "name": "Z-Noc",
-            "description": "<p>Gives your body the tools to fight the Z Plague. While in Stage 1 of the infection, whenever you roll a Fortitude save, you may roll twice and take the better result.</p>\n<p>@UUID[Compendium.hopefinder.features.Item.PplJHSqlQOz25dpl]{Innoculated}</p>\n<hr />\n<p><strong>Break</strong> C</p>"
+            "description": "<p>Daje Twojemu ciału narzędzia do walki z plagą Z. W fazie 1 infekcji, za każdym razem, gdy rzucasz rzut obronny Wytrwałości, możesz rzucić dwa razy i wybrać lepszy wynik.</p>\n<p>@UUID[Compendium.hopefinder.features.Item.PplJHSqlQOz25dpl]</p>\n<hr />\n<p><strong>Zniszczenie</strong> C</p>"
         },
         "Z-Round Bullets (Pistol)": {
-            "name": "Z-Round Bullets (Pistol)",
-            "description": "<p>Special round designed specifically to be lethal to zombies. Z Rounds deal double the weapons listed damage against zombies (roll twice as many dice). On a critical hit, they automatically kill a zombie.</p>\n<hr />\n<p><strong>Break</strong> 4</p>"
+            "name": "Pociski typu Z-Round (pistolet)",
+            "description": "<p>Specjalny nabój zaprojektowany specjalnie do zabijania zombie. Nabój Z zadaje zombie podwójną wartość obrażeń podaną dla broni (rzucaj dwukrotnie większą liczbą kości). Przy trafieniu krytycznym automatycznie zabija zombie.</p>\n<hr />\n<p><strong>Zniszczenie</strong> 4</p>"
         },
         "Z-Round Bullets (Rifle)": {
-            "name": "Z-Round Bullets (Rifle)",
-            "description": "<p>Special round designed specifically to be lethal to zombies. Z Rounds deal double the weapons listed damage against zombies (roll twice as many dice). On a critical hit, they automatically kill a zombie.</p>\n<hr />\n<p><strong>Break</strong> 4</p>"
+            "name": "Pociski typu Z-Round (karabin)",
+            "description": "<p>Specjalny nabój zaprojektowany specjalnie do zabijania zombie. Nabój Z zadaje zombie podwójną wartość obrażeń podaną dla broni (rzucaj dwukrotnie większą liczbą kości). Przy trafieniu krytycznym automatycznie zabija zombie.</p>\n<hr />\n<p><strong>Zniszczenie</strong> 4</p>"
         }
     },
     "mapping": {

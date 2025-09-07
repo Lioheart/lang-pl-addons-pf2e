@@ -13,6 +13,9 @@
         "Counteract": {
             "name": "Przeciwdziałanie"
         },
+        "Crescent Spray": {
+            "name": "Rozprysk Półksiężyca"
+        },
         "Current hero points": {
             "name": "Aktualne punkty bohatera"
         },
@@ -42,6 +45,9 @@
         },
         "Flowing Spirit Strike": {
             "name": "Atak Przepływającego Ducha"
+        },
+        "Flowing Spirit Strike (Twin)": {
+            "name": "Atak Przepływającego Ducha (Bliźniaczy)"
         },
         "Flurry of Blows": {
             "name": "Grad Ciosów"

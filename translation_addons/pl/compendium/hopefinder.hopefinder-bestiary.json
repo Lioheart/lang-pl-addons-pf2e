@@ -1,470 +1,1023 @@
 {
-    "label": "Bestiariusz",
+    "label": "Bestiariusz Hopefinder",
     "entries": {
-        "+4 Item Bonus On Saving Throws Against Acid, Fire, Infections, Poison, And Smoke": {
-            "name": "+4 Item Bonus On Saving Throws Against Acid, Fire, Infections, Poison, And Smoke"
-        },
-        "Acidic Spray": {
-            "name": "Acidic Spray"
-        },
-        "Ambush": {
-            "name": "Zasadzka"
-        },
-        "Ankle Bite": {
-            "name": "Ugryzienie Kostki"
-        },
         "Armored": {
-            "name": "Opancerzony"
-        },
-        "Arrows": {
-            "name": "Strzały"
-        },
-        "Bandages": {
-            "name": "Bandaże"
-        },
-        "Baseball Bat": {
-            "name": "Kij Bejsbolowy"
+            "name": "Opancerzony",
+            "items": {
+                "action->Z-Plague": {
+                    "name": "Plaga Z",
+                    "description": "<p>@Check[type:fortitude|dc:16|traits:secret] Zarażony przenosi Plagę Z poprzez swoje szczęki i tylko w przypadku trafienia krytycznego.</p>\n<hr />\n<p>Ci, którzy przeżyli początkową epidemię zombie, która doprowadziła do upadku cywilizacji, zrobili to dzięki połączeniu środków ostrożności i odrobinie szczęścia genetycznego. Nie oznacza to jednak, że nikt nie jest całkowicie niewrażliwy. Nawet ci, którym udało się otrzymać upragnioną szczepionkę „Z-Noc”, zyskują jedynie odporność na infekcję w stadium 1.</p>\n<p>Jeśli zostaniesz narażony na Plagę Z (technicznie nazywaną amebowym zapaleniem mózgu Zynocol), narrator spróbuje wykonać tajny rzut obronny na Wytrwałość. Jeśli nie uda ci się ten rzut, zachorujesz na pierwszy etap choroby. Jeśli rzut zakończy się krytyczną porażką, zachorujesz na chorobę i stracisz 1 punkt NADZIEI podczas następnego odpoczynku.</p>\n<p><strong>Etap 1</strong>: Każdego dnia tracisz 1 punkt NADZIEI, stając się coraz bardziej ponury. Nie możesz zyskać NADZIEI. Osoby w twoim otoczeniu mogą poprosić o sprawdzenie @UUID[Compendium.pf2e.actionspf2e.Item.1xRFPTFtWtGJ9ELw] przy użyciu Percepcji, aby zauważyć, że coś jest nie tak. Pod koniec każdego dnia spróbuj wykonać rzut obronny na Wytrwałość przeciwko pierwotnemu ST. Jeśli uda ci się wykonać 2 rzuty obronne w ciągu dwóch kolejnych dni lub wykonasz rzut obronny z wynikiem krytycznym, uda ci się pozbyć infekcji i przestać tracić nadzieję. Jeśli wyczerpie się twoja nadzieja i będziesz musiał stracić kolejną, przejdziesz do etapu 2.</p>\n<p><strong>Etap 2</strong>: Stajesz się @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Ogłupiony 1}, a narrator potajemnie rzuca kostką k20, aby ustalić czas trwania w godzinach. Pod koniec tego czasu wartość Ogłupienia wzrasta o 1, a narrator ponownie rzuca kostką, aby ustalić czas trwania. Gdy wartość Ogłupienia jest większa niż suma wszystkich trzech modyfikatorów zdolności umysłowych (Int, Mdr, Cha), przechodzisz do etapu 3. Nie ma znanego sposobu na rzut obronny, aby uratować osobę, która osiągnęła etap 2. Zainfekowane osoby w etapie 2 są zakaźne i rozprzestrzeniają pasożyty poprzez kaszel i inne płyny ustrojowe. Każdy, kto spędzi więcej niż 1 minutę w odległości 10 stóp od osoby zarażonej, musi wykonać rzut obronny na Wytrwałość (o tym samym ST co osoba zarażona), aby uniknąć zarażenia się plagą.</p>\n<p><strong>Etap 3</strong>: Upadłeś, będąc @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Nieprzytomny} i tracisz [[/r 1d4]] Punktów Wytrzymałości na minutę. Kiedy Twoje Punkty Wytrzymałości osiągną 0, umierasz i powstajesz jako zombie w ciągu [[/r 1d10 #Minuty]]{1k10 minut}.</p>"
+                },
+                "action->Zombie Immuinities": {
+                    "name": "Odporności Zombie",
+                    "description": "<p>Jako martwe istoty, zombie są niewrażliwe na wiele czynników, które mają wpływ na żywych. O ile nie zaznaczono inaczej, zombie są niewrażliwe na choroby, efekty psychiczne, trucizny i wszystko, co mogłoby spowodować ich @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Nieprzytomność}. Zombie nie odnoszą siniaków ani nie muszą jeść ani pić (chociaż niektóre z nich zyskują dodatkowe zdolności, jeśli niedawno spożyły żywe mięso). Zombie zostają natychmiast zniszczone po zmniejszeniu ich Punktu Wytrzymałości do 0.</p>"
+                },
+                "action->Block": {
+                    "name": "Blok",
+                    "description": "<p><strong>Wyzwalacz</strong> Sąsiednia istota wykonuje Atak wręcz na opancerzoną postać.</p>\n<hr />\n<p><strong>Efekt</strong> Odporność pancerza na atak zostaje podwojona. Następnie trwale zmniejsz jego odporność o 1.</p>"
+                },
+                "melee->Jaws": {
+                    "name": "Szczęki"
+                },
+                "melee->Fist": {
+                    "name": "Pięść"
+                },
+                "action->Double Fisted Smash": {
+                    "name": "Podwójne Uderzenie Pięścią",
+                    "description": "<p>Opancerzony wykonuje przerażający atak oburącz z góry. Opancerzony wykonuje atak pięścią, który zadaje dodatkową kostkę obrażeń (2k6+3), a cel musi wykonać rzut obronny @Check[type:reflex|dc:17] i upada, będąc @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Przewrócony}, jeśli mu się nie powiedzie. Liczy się to jako dwa ataki dla kary za wielokrotny atak..</p>"
+                },
+                "armor->Light Patchwork": {
+                    "name": "Lekka Łatana Zbroja",
+                    "description": "<p><strong>Ochrona</strong> 3 Wszystkie</p>\n<p><strong>Zniszczenie</strong> 10</p>"
+                }
+            }
         },
         "Bear (Black)": {
-            "name": "Bear (Black)"
+            "name": "Niedźwiedź (Czarny)",
+            "items": {
+                "action->Scent (Imprecise) 30 feet": {
+                    "name": "Zmysł Węchu (nieprecyzyjny) 30 stóp"
+                },
+                "melee->Jaws": {
+                    "name": "Szczęki"
+                },
+                "action->Grab": {
+                    "name": "Złapanie"
+                },
+                "melee->Claw": {
+                    "name": "Pazur"
+                },
+                "action->Maul": {
+                    "name": "Kiereszowanie",
+                    "description": "<p>Niedźwiedź brunatny otrzymuje premię okolicznościową +2 do rzutów na obrażenia przeciwko stworzeniom, które @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Pochwycił}.</p>"
+                }
+            }
         },
         "Bear (Brown)": {
-            "name": "Bear (Brown)"
-        },
-        "Beer": {
-            "name": "Piwo"
+            "name": "Niedźwiedź (Brunatny)",
+            "items": {
+                "action->Scent (Imprecise) 30 feet": {
+                    "name": "Zmysł Węchu (nieprecyzyjny) 30 stóp"
+                },
+                "melee->Jaws": {
+                    "name": "Szczęki"
+                },
+                "action->Grab": {
+                    "name": "Złapanie"
+                },
+                "melee->Claw": {
+                    "name": "Pazur"
+                },
+                "action->Maul": {
+                    "name": "Kiereszowanie",
+                    "description": "<p>Niedźwiedź brunatny otrzymuje premię okolicznościową +2 do rzutów na obrażenia przeciwko stworzeniom, które @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Pochwycił}.</p>"
+                },
+                "action->Demolish": {
+                    "name": "Wyburzenie",
+                    "description": "<p>Niedźwiedź brunatny jest szczególnie skuteczny w burzeniu barykad. Niedźwiedź brunatny zadaje dwa razy więcej obrażeń, gdy @Compendium[hopefinder.actions.EAkekNb9khxY2Gir]{Rozbija} obiekt.</p>"
+                },
+                "action->Rush": {
+                    "name": "Pośpiech",
+                    "description": "<p>Niedźwiedź brunatny wykonuje Bieg i na końcu tego ruchu wykonuje Atak. Podczas Ataku niedźwiedź brunatny otrzymuje premię okolicznościową +10 stóp do swojej Szybkości.</p>"
+                }
+            }
         },
         "Big Ben": {
-            "name": "Big Ben",
-            "blurb": "Zombie bear"
+            "name": "Wielki Ben",
+            "blurb": "Niedźwiedź zombie",
+            "items": {
+                "action->Z-Plague": {
+                    "name": "Plaga Z",
+                    "description": "<p>@Check[type:fortitude|dc:16|traits:secret] Zarażony przenosi Plagę Z poprzez swoje szczęki i tylko w przypadku trafienia krytycznego.</p>\n<hr />\n<p>Ci, którzy przeżyli początkową epidemię zombie, która doprowadziła do upadku cywilizacji, zrobili to dzięki połączeniu środków ostrożności i odrobinie szczęścia genetycznego. Nie oznacza to jednak, że nikt nie jest całkowicie niewrażliwy. Nawet ci, którym udało się otrzymać upragnioną szczepionkę „Z-Noc”, zyskują jedynie odporność na infekcję w stadium 1.</p>\n<p>Jeśli zostaniesz narażony na Plagę Z (technicznie nazywaną amebowym zapaleniem mózgu Zynocol), narrator spróbuje wykonać tajny rzut obronny na Wytrwałość. Jeśli nie uda ci się ten rzut, zachorujesz na pierwszy etap choroby. Jeśli rzut zakończy się krytyczną porażką, zachorujesz na chorobę i stracisz 1 punkt NADZIEI podczas następnego odpoczynku.</p>\n<p><strong>Etap 1</strong>: Każdego dnia tracisz 1 punkt NADZIEI, stając się coraz bardziej ponury. Nie możesz zyskać NADZIEI. Osoby w twoim otoczeniu mogą poprosić o sprawdzenie @UUID[Compendium.pf2e.actionspf2e.Item.1xRFPTFtWtGJ9ELw] przy użyciu Percepcji, aby zauważyć, że coś jest nie tak. Pod koniec każdego dnia spróbuj wykonać rzut obronny na Wytrwałość przeciwko pierwotnemu ST. Jeśli uda ci się wykonać 2 rzuty obronne w ciągu dwóch kolejnych dni lub wykonasz rzut obronny z wynikiem krytycznym, uda ci się pozbyć infekcji i przestać tracić nadzieję. Jeśli wyczerpie się twoja nadzieja i będziesz musiał stracić kolejną, przejdziesz do etapu 2.</p>\n<p><strong>Etap 2</strong>: Stajesz się @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Ogłupiony 1}, a narrator potajemnie rzuca kostką k20, aby ustalić czas trwania w godzinach. Pod koniec tego czasu wartość Ogłupienia wzrasta o 1, a narrator ponownie rzuca kostką, aby ustalić czas trwania. Gdy wartość Ogłupienia jest większa niż suma wszystkich trzech modyfikatorów zdolności umysłowych (Int, Mdr, Cha), przechodzisz do etapu 3. Nie ma znanego sposobu na rzut obronny, aby uratować osobę, która osiągnęła etap 2. Zainfekowane osoby w etapie 2 są zakaźne i rozprzestrzeniają pasożyty poprzez kaszel i inne płyny ustrojowe. Każdy, kto spędzi więcej niż 1 minutę w odległości 10 stóp od osoby zarażonej, musi wykonać rzut obronny na Wytrwałość (o tym samym ST co osoba zarażona), aby uniknąć zarażenia się plagą.</p>\n<p><strong>Etap 3</strong>: Upadłeś, będąc @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Nieprzytomny} i tracisz [[/r 1d4]] Punktów Wytrzymałości na minutę. Kiedy Twoje Punkty Wytrzymałości osiągną 0, umierasz i powstajesz jako zombie w ciągu [[/r 1d10 #Minuty]]{1k10 minut}.</p>"
+                },
+                "action->Zombie Immuinities": {
+                    "name": "Odporności Zombie",
+                    "description": "<p>Jako martwe istoty, zombie są niewrażliwe na wiele czynników, które mają wpływ na żywych. O ile nie zaznaczono inaczej, zombie są niewrażliwe na choroby, efekty psychiczne, trucizny i wszystko, co mogłoby spowodować ich @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Nieprzytomność}. Zombie nie odnoszą siniaków ani nie muszą jeść ani pić (chociaż niektóre z nich zyskują dodatkowe zdolności, jeśli niedawno spożyły żywe mięso). Zombie zostają natychmiast zniszczone po zmniejszeniu ich Punktu Wytrzymałości do 0.</p>"
+                },
+                "melee->Jaws": {
+                    "name": "Szczęki"
+                },
+                "melee->Claw": {
+                    "name": "Pazur"
+                },
+                "action->Grab": {
+                    "name": "Złapanie"
+                },
+                "action->Destroy": {
+                    "name": "Zniszczenie",
+                    "description": "<p>Wielki Ben może rozrywać barykady i przeszkody. Zombie-niedźwiedź zadaje trzy razy więcej obrażeń, gdy @Compendium[hopefinder.actions.EAkekNb9khxY2Gir]{Rozbija} obiekt.</p>"
+                },
+                "action->Maul": {
+                    "name": "Kiereszowanie",
+                    "description": "<p>Wielki Ben otrzymuje premię okolicznościową +4 do rzutów na obrażenia przeciwko stworzeniom, które @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Pochwycił}.</p>"
+                },
+                "action->Rush": {
+                    "name": "Pośpiech",
+                    "description": "<p>Wielki Ben wykonuje Bieg i na końcu tego ruchu wykonuje Atak. Podczas Ataku Wielki Ben otrzymuje premię okolicznościową +10 stóp do swojej Szybkości.</p>"
+                },
+                "action->Terrifying Growl": {
+                    "name": "Przerażające Warczenie",
+                    "description": "<p>Wielki Ben wydaje przerażające warczenie, próbując wykonać test Zastraszania, aby [[/act demoralize]]{Demoralizować} wszystkie żywe stworzenia w promieniu 60 stóp. Rzuca się tylko raz i wynik ma zastosowanie do wszystkich celów. Po rozstrzygnięciu tego testu wszystkie cele są niewrażliwe na kolejne przerażające warczenie przez 24 godziny.</p>"
+                }
+            }
         },
         "Big Boss": {
-            "name": "Big Boss"
-        },
-        "Biker Gear": {
-            "name": "Wyposażenie Motocyklisty"
+            "name": "Wielki Szef",
+            "items": {
+                "weapon->Heavy Machinegun": {
+                    "name": "Ciężki Karabin Maszynowy",
+                    "description": "<p><strong>Zniszczenie</strong> 6</p>"
+                },
+                "consumable->Bullets (Rifle)": {
+                    "name": "Pociski (karabin)",
+                    "description": "<p>Standardowa amunicja. Zadaje obrażenia określone w opisie broni.</p>\n<hr />\n<p><strong>Zniszczenie</strong> 1</p>"
+                },
+                "armor->Police Body Armor": {
+                    "name": "Kamizelka Policyjna",
+                    "description": "<p><strong>Ochrona</strong> 7 Wszystkie</p>\n<p><strong>Zniszczenie</strong> 16</p>"
+                },
+                "weapon->Sledgehammer": {
+                    "name": "Młot Kowalski",
+                    "description": "<p><strong>Zniszczenie</strong> 6</p>"
+                },
+                "melee->Sledgehammer": {
+                    "name": "Młot Kowalski"
+                },
+                "melee->Heavy Machinegun": {
+                    "name": "Ciężki Karabin Maszynowy"
+                },
+                "action->Demand Results": {
+                    "name": "Wymagane Rezultaty",
+                    "description": "<p>Wielki szef wzywa wszystkich swoich sojuszników, żądając od nich lepszych wyników. Wszyscy sojusznicy wielkiego szefa w promieniu 60 stóp otrzymują premię +1 do rzutów ataku i obrażeń do początku następnej tury wielkiego szefa.</p>\n<p>@UUID[Compendium.hopefinder.effects.UYjgRxYbpQHmDShm]</p>"
+                },
+                "action->Devastating Smash": {
+                    "name": "Niszczycielskie Uderzenie",
+                    "description": "<p>Wielki szef wykonuje Atak wręcz, który zadaje dodatkową kostkę obrażeń (na przykład 3k6+4 obrażeń młotem kowalskim). Atak ten zadaje 2 punkty uszkodzenia pancerzowi celu, jeśli pokona jego odporność, i 2 punkty siniaków, jeśli tego nie zrobi.</p>"
+                },
+                "action->Spray": {
+                    "name": "Rozprysk",
+                    "description": "<p>Wielki szef strzela z ciężkiego karabinu maszynowego w obszarze @Template[type:cone|distance:30], zadając [[/r 2d8[piercing]]] wszystkim celom w tym obszarze (@Check[type:reflex|dc:21|basic:true]). Atak ten zużywa 15 pocisków.</p>"
+                }
+            }
         },
         "Bloated": {
-            "name": "Bloated"
-        },
-        "Block": {
-            "name": "Blok"
-        },
-        "Body Slam": {
-            "name": "Body Slam"
-        },
-        "Bottle": {
-            "name": "Butelka"
-        },
-        "Branch": {
-            "name": "Gałąź"
+            "name": "Wzdęty",
+            "items": {
+                "action->Z-Plague": {
+                    "name": "Plaga Z",
+                    "description": "<p>@Check[type:fortitude|dc:16|traits:secret] Zarażony przenosi Plagę Z poprzez swoje szczęki i tylko w przypadku trafienia krytycznego.</p>\n<hr />\n<p>Ci, którzy przeżyli początkową epidemię zombie, która doprowadziła do upadku cywilizacji, zrobili to dzięki połączeniu środków ostrożności i odrobinie szczęścia genetycznego. Nie oznacza to jednak, że nikt nie jest całkowicie niewrażliwy. Nawet ci, którym udało się otrzymać upragnioną szczepionkę „Z-Noc”, zyskują jedynie odporność na infekcję w stadium 1.</p>\n<p>Jeśli zostaniesz narażony na Plagę Z (technicznie nazywaną amebowym zapaleniem mózgu Zynocol), narrator spróbuje wykonać tajny rzut obronny na Wytrwałość. Jeśli nie uda ci się ten rzut, zachorujesz na pierwszy etap choroby. Jeśli rzut zakończy się krytyczną porażką, zachorujesz na chorobę i stracisz 1 punkt NADZIEI podczas następnego odpoczynku.</p>\n<p><strong>Etap 1</strong>: Każdego dnia tracisz 1 punkt NADZIEI, stając się coraz bardziej ponury. Nie możesz zyskać NADZIEI. Osoby w twoim otoczeniu mogą poprosić o sprawdzenie @UUID[Compendium.pf2e.actionspf2e.Item.1xRFPTFtWtGJ9ELw] przy użyciu Percepcji, aby zauważyć, że coś jest nie tak. Pod koniec każdego dnia spróbuj wykonać rzut obronny na Wytrwałość przeciwko pierwotnemu ST. Jeśli uda ci się wykonać 2 rzuty obronne w ciągu dwóch kolejnych dni lub wykonasz rzut obronny z wynikiem krytycznym, uda ci się pozbyć infekcji i przestać tracić nadzieję. Jeśli wyczerpie się twoja nadzieja i będziesz musiał stracić kolejną, przejdziesz do etapu 2.</p>\n<p><strong>Etap 2</strong>: Stajesz się @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Ogłupiony 1}, a narrator potajemnie rzuca kostką k20, aby ustalić czas trwania w godzinach. Pod koniec tego czasu wartość Ogłupienia wzrasta o 1, a narrator ponownie rzuca kostką, aby ustalić czas trwania. Gdy wartość Ogłupienia jest większa niż suma wszystkich trzech modyfikatorów zdolności umysłowych (Int, Mdr, Cha), przechodzisz do etapu 3. Nie ma znanego sposobu na rzut obronny, aby uratować osobę, która osiągnęła etap 2. Zainfekowane osoby w etapie 2 są zakaźne i rozprzestrzeniają pasożyty poprzez kaszel i inne płyny ustrojowe. Każdy, kto spędzi więcej niż 1 minutę w odległości 10 stóp od osoby zarażonej, musi wykonać rzut obronny na Wytrwałość (o tym samym ST co osoba zarażona), aby uniknąć zarażenia się plagą.</p>\n<p><strong>Etap 3</strong>: Upadłeś, będąc @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Nieprzytomny} i tracisz [[/r 1d4]] Punktów Wytrzymałości na minutę. Kiedy Twoje Punkty Wytrzymałości osiągną 0, umierasz i powstajesz jako zombie w ciągu [[/r 1d10 #Minuty]]{1k10 minut}.</p>"
+                },
+                "action->Zombie Immuinities": {
+                    "name": "Odporności Zombie",
+                    "description": "<p>Jako martwe istoty, zombie są niewrażliwe na wiele czynników, które mają wpływ na żywych. O ile nie zaznaczono inaczej, zombie są niewrażliwe na choroby, efekty psychiczne, trucizny i wszystko, co mogłoby spowodować ich @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Nieprzytomność}. Zombie nie odnoszą siniaków ani nie muszą jeść ani pić (chociaż niektóre z nich zyskują dodatkowe zdolności, jeśli niedawno spożyły żywe mięso). Zombie zostają natychmiast zniszczone po zmniejszeniu ich Punktu Wytrzymałości do 0.</p>"
+                },
+                "melee->Fist": {
+                    "name": "Pięść"
+                },
+                "action->Slow": {
+                    "name": "Spowolnienie",
+                    "description": "<p>Wzdęty wykonuje tylko 2 akcje w każdej rundzie i nie może wykonywać reakcji.</p>"
+                },
+                "action->Death Burst": {
+                    "name": "Wybuch Śmierci",
+                    "description": "<p>Kiedy wzdęty umiera, jego ciało pęka, rozpryskując się na wszystkie sąsiednie stworzenia i zadając [[/r 1d6[acid]]] (podstawowy @Check[type:reflex|dc:16]). Jeśli jego śmierć powoduje również rozprysk krwi, cel rozprysku jest niewrażliwy na ten efekt. Zombie są niewrażliwe na te obrażenia.</p>"
+                },
+                "action->Gore Spray": {
+                    "name": "Rozprysk Krwi",
+                    "description": "<p><strong>Wyzwalacz</strong> Sąsiednia istota zadaje wzdętemukrytyczne trafienie Atakiem, który zadaje obrażenia cięte.</p>\n<hr />\n<p><strong>Efekt</strong> Rozpryskujące się wnętrzności atakują napastnika, zadając [[/r 2d6[acid]]] (podstawowe @Check[type:reflex|dc:16]).</p>"
+                }
+            }
         },
         "Brood Mother": {
-            "name": "Brood Mother",
-            "blurb": "Zombie pig"
-        },
-        "Bullet Proof Vest": {
-            "name": "Kamizelka Kuloodporna"
-        },
-        "Bullets (Pistol)": {
-            "name": "Pociski (pistolet)"
-        },
-        "Bullets (Rifle)": {
-            "name": "Pociski (Karabin)"
-        },
-        "Bullets (Shotgun)": {
-            "name": "Pociski (strzelba)"
-        },
-        "Burning Branch": {
-            "name": "Płonąca Gałąź"
-        },
-        "Canned Goods (Expired)": {
-            "name": "Konserwy (przeterminowane)"
-        },
-        "Cherenkov Glow": {
-            "name": "Cherenkov Glow"
-        },
-        "Claw": {
-            "name": "Pazur"
-        },
-        "Climbing Kit": {
-            "name": "Zestaw Wspinaczkowy"
-        },
-        "Clothes (Winter)": {
-            "name": "Odzież (zimowa)"
-        },
-        "Clouded Mind": {
-            "name": "Clouded Mind"
-        },
-        "Command the Dead": {
-            "name": "Command the Dead"
-        },
-        "Compound Bow": {
-            "name": "Łuk Bloczkowy"
-        },
-        "Computers": {
-            "name": "Computers"
-        },
-        "Consume": {
-            "name": "Consume"
+            "name": "Matka Lęgowa",
+            "blurb": "Świnia zombie",
+            "items": {
+                "action->Z-Plague": {
+                    "name": "Plaga Z",
+                    "description": "<p>@Check[type:fortitude|dc:16|traits:secret] Zarażony przenosi Plagę Z poprzez swoje szczęki i tylko w przypadku trafienia krytycznego.</p>\n<hr />\n<p>Ci, którzy przeżyli początkową epidemię zombie, która doprowadziła do upadku cywilizacji, zrobili to dzięki połączeniu środków ostrożności i odrobinie szczęścia genetycznego. Nie oznacza to jednak, że nikt nie jest całkowicie niewrażliwy. Nawet ci, którym udało się otrzymać upragnioną szczepionkę „Z-Noc”, zyskują jedynie odporność na infekcję w stadium 1.</p>\n<p>Jeśli zostaniesz narażony na Plagę Z (technicznie nazywaną amebowym zapaleniem mózgu Zynocol), narrator spróbuje wykonać tajny rzut obronny na Wytrwałość. Jeśli nie uda ci się ten rzut, zachorujesz na pierwszy etap choroby. Jeśli rzut zakończy się krytyczną porażką, zachorujesz na chorobę i stracisz 1 punkt NADZIEI podczas następnego odpoczynku.</p>\n<p><strong>Etap 1</strong>: Każdego dnia tracisz 1 punkt NADZIEI, stając się coraz bardziej ponury. Nie możesz zyskać NADZIEI. Osoby w twoim otoczeniu mogą poprosić o sprawdzenie @UUID[Compendium.pf2e.actionspf2e.Item.1xRFPTFtWtGJ9ELw] przy użyciu Percepcji, aby zauważyć, że coś jest nie tak. Pod koniec każdego dnia spróbuj wykonać rzut obronny na Wytrwałość przeciwko pierwotnemu ST. Jeśli uda ci się wykonać 2 rzuty obronne w ciągu dwóch kolejnych dni lub wykonasz rzut obronny z wynikiem krytycznym, uda ci się pozbyć infekcji i przestać tracić nadzieję. Jeśli wyczerpie się twoja nadzieja i będziesz musiał stracić kolejną, przejdziesz do etapu 2.</p>\n<p><strong>Etap 2</strong>: Stajesz się @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Ogłupiony 1}, a narrator potajemnie rzuca kostką k20, aby ustalić czas trwania w godzinach. Pod koniec tego czasu wartość Ogłupienia wzrasta o 1, a narrator ponownie rzuca kostką, aby ustalić czas trwania. Gdy wartość Ogłupienia jest większa niż suma wszystkich trzech modyfikatorów zdolności umysłowych (Int, Mdr, Cha), przechodzisz do etapu 3. Nie ma znanego sposobu na rzut obronny, aby uratować osobę, która osiągnęła etap 2. Zainfekowane osoby w etapie 2 są zakaźne i rozprzestrzeniają pasożyty poprzez kaszel i inne płyny ustrojowe. Każdy, kto spędzi więcej niż 1 minutę w odległości 10 stóp od osoby zarażonej, musi wykonać rzut obronny na Wytrwałość (o tym samym ST co osoba zarażona), aby uniknąć zarażenia się plagą.</p>\n<p><strong>Etap 3</strong>: Upadłeś, będąc @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Nieprzytomny} i tracisz [[/r 1d4]] Punktów Wytrzymałości na minutę. Kiedy Twoje Punkty Wytrzymałości osiągną 0, umierasz i powstajesz jako zombie w ciągu [[/r 1d10 #Minuty]]{1k10 minut}.</p>"
+                },
+                "action->Zombie Immuinities": {
+                    "name": "Odporności Zombie",
+                    "description": "<p>Jako martwe istoty, zombie są niewrażliwe na wiele czynników, które mają wpływ na żywych. O ile nie zaznaczono inaczej, zombie są niewrażliwe na choroby, efekty psychiczne, trucizny i wszystko, co mogłoby spowodować ich @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Nieprzytomność}. Zombie nie odnoszą siniaków ani nie muszą jeść ani pić (chociaż niektóre z nich zyskują dodatkowe zdolności, jeśli niedawno spożyły żywe mięso). Zombie zostają natychmiast zniszczone po zmniejszeniu ich Punktu Wytrzymałości do 0.</p>"
+                },
+                "melee->Tusk": {
+                    "name": "Cios"
+                },
+                "action->Rage": {
+                    "name": "Szał",
+                    "description": "<p><strong>Wymagania</strong> W poprzedniej rundzie w promieniu 60 stóp zabito @UUID[Compendium.hopefinder.hopefinder-bestiary.A0ss4E2gULizby7E].</p>\n<hr />\n<p><strong>Efekt</strong> Matka lęgu wpada w szał na 1 minutę, zyskując premię +2 do rzutów ataku i obrażeń oraz karę -2 do KP.</p>\n<p>@Compendium[pf2e.feat-effects.z3uyCMBddrPK5umr]</p>"
+                }
+            }
         },
         "Cougar": {
-            "name": "Cougar"
+            "name": "Puma",
+            "items": {
+                "action->Scent": {
+                    "name": "Zmysł Węchu"
+                },
+                "melee->Jaws": {
+                    "name": "Szczęki"
+                },
+                "melee->Claw": {
+                    "name": "Pazur"
+                },
+                "action->Grab": {
+                    "name": "Złapanie"
+                },
+                "action->Pounce": {
+                    "name": "Doskok",
+                    "description": "<p>Puma wykonuje Bieg i na końcu tego ruchu wykonuje Atak. Jeśli puma rozpoczęła tę akcję będąc @Compendium[pf2e.conditionitems.Hidden]{Ukryta}, pozostaje ukryta do momentu wykonania Ataku tej zdolności.</p>"
+                },
+                "action->Drag": {
+                    "name": "Wleczenie Ofiary",
+                    "description": "<p>Kiedy puma wykonuje Krok podczas walki wręcz z istotą, ta porusza się wraz z nią.</p>"
+                },
+                "action->Sneak Attack": {
+                    "name": "Podstępny Atak",
+                    "description": "<p>Puma zadaje dodatkowe obrażenia precyzyjne równe 1k6 stworzeniom @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Odsłoniętym}.</p>"
+                }
+            }
         },
         "Crawler": {
-            "name": "Crawler",
-            "speedsDetails": "crawling"
-        },
-        "Creepy Crawler": {
-            "name": "Creepy Crawler"
-        },
-        "Crowbar": {
-            "name": "Łom"
-        },
-        "Crude Bow": {
-            "name": "Prymitywny Łuk"
-        },
-        "Crude Pistol": {
-            "name": "Prymitywny Pistolet"
-        },
-        "Crude Spear": {
-            "name": "Prymitywna Włócznia"
-        },
-        "Darkvision": {
-            "name": "Widzenie w Ciemności"
+            "name": "Pełzacz",
+            "items": {
+                "action->Z-Plague": {
+                    "name": "Plaga Z",
+                    "description": "<p>@Check[type:fortitude|dc:16|traits:secret] Zarażony przenosi Plagę Z poprzez swoje szczęki i tylko w przypadku trafienia krytycznego.</p>\n<hr />\n<p>Ci, którzy przeżyli początkową epidemię zombie, która doprowadziła do upadku cywilizacji, zrobili to dzięki połączeniu środków ostrożności i odrobinie szczęścia genetycznego. Nie oznacza to jednak, że nikt nie jest całkowicie niewrażliwy. Nawet ci, którym udało się otrzymać upragnioną szczepionkę „Z-Noc”, zyskują jedynie odporność na infekcję w stadium 1.</p>\n<p>Jeśli zostaniesz narażony na Plagę Z (technicznie nazywaną amebowym zapaleniem mózgu Zynocol), narrator spróbuje wykonać tajny rzut obronny na Wytrwałość. Jeśli nie uda ci się ten rzut, zachorujesz na pierwszy etap choroby. Jeśli rzut zakończy się krytyczną porażką, zachorujesz na chorobę i stracisz 1 punkt NADZIEI podczas następnego odpoczynku.</p>\n<p><strong>Etap 1</strong>: Każdego dnia tracisz 1 punkt NADZIEI, stając się coraz bardziej ponury. Nie możesz zyskać NADZIEI. Osoby w twoim otoczeniu mogą poprosić o sprawdzenie @UUID[Compendium.pf2e.actionspf2e.Item.1xRFPTFtWtGJ9ELw] przy użyciu Percepcji, aby zauważyć, że coś jest nie tak. Pod koniec każdego dnia spróbuj wykonać rzut obronny na Wytrwałość przeciwko pierwotnemu ST. Jeśli uda ci się wykonać 2 rzuty obronne w ciągu dwóch kolejnych dni lub wykonasz rzut obronny z wynikiem krytycznym, uda ci się pozbyć infekcji i przestać tracić nadzieję. Jeśli wyczerpie się twoja nadzieja i będziesz musiał stracić kolejną, przejdziesz do etapu 2.</p>\n<p><strong>Etap 2</strong>: Stajesz się @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Ogłupiony 1}, a narrator potajemnie rzuca kostką k20, aby ustalić czas trwania w godzinach. Pod koniec tego czasu wartość Ogłupienia wzrasta o 1, a narrator ponownie rzuca kostką, aby ustalić czas trwania. Gdy wartość Ogłupienia jest większa niż suma wszystkich trzech modyfikatorów zdolności umysłowych (Int, Mdr, Cha), przechodzisz do etapu 3. Nie ma znanego sposobu na rzut obronny, aby uratować osobę, która osiągnęła etap 2. Zainfekowane osoby w etapie 2 są zakaźne i rozprzestrzeniają pasożyty poprzez kaszel i inne płyny ustrojowe. Każdy, kto spędzi więcej niż 1 minutę w odległości 10 stóp od osoby zarażonej, musi wykonać rzut obronny na Wytrwałość (o tym samym ST co osoba zarażona), aby uniknąć zarażenia się plagą.</p>\n<p><strong>Etap 3</strong>: Upadłeś, będąc @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Nieprzytomny} i tracisz [[/r 1d4]] Punktów Wytrzymałości na minutę. Kiedy Twoje Punkty Wytrzymałości osiągną 0, umierasz i powstajesz jako zombie w ciągu [[/r 1d10 #Minuty]]{1k10 minut}.</p>"
+                },
+                "action->Zombie Immuinities": {
+                    "name": "Odporności Zombie",
+                    "description": "<p>Jako martwe istoty, zombie są niewrażliwe na wiele czynników, które mają wpływ na żywych. O ile nie zaznaczono inaczej, zombie są niewrażliwe na choroby, efekty psychiczne, trucizny i wszystko, co mogłoby spowodować ich @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Nieprzytomność}. Zombie nie odnoszą siniaków ani nie muszą jeść ani pić (chociaż niektóre z nich zyskują dodatkowe zdolności, jeśli niedawno spożyły żywe mięso). Zombie zostają natychmiast zniszczone po zmniejszeniu ich Punktu Wytrzymałości do 0.</p>"
+                },
+                "melee->Fist": {
+                    "name": "Pięść"
+                },
+                "action->Grab": {
+                    "name": "Złapanie"
+                },
+                "melee->Ankle Bite": {
+                    "name": "Ugryzienie Kostki",
+                    "description": "<p><strong>Wymagania</strong> Pełzacz posiada stworzenie @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Pochwycone} lub @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Obezwładnione}.</p>"
+                },
+                "action->Creepy Crawler": {
+                    "name": "Przerażający Pełzacz",
+                    "description": "<p>Pełzacz nie wywołuje reakcji podczas pełzania po ziemi. Automatycznie nie udaje mu się żadna próba wykonania rzutu obronnego, aby uniknąć uruchomienia pułapek na ziemi.</p>"
+                },
+                "action->Low Profile": {
+                    "name": "Niski Profil",
+                    "description": "<p>Pełzacz otrzymuje premię +4 do KP przeciwko atakom dystansowym wykonywanym z odległości większej niż 10 stóp.</p>"
+                },
+                "action->Slow": {
+                    "name": "Spowolnienie",
+                    "description": "<p>Pełzacz wykonuje tylko 2 akcje w każdej rundzie i nie może podejmować reakcji.</p>"
+                }
+            }
         },
         "Dead Hog": {
-            "name": "Dead Hog",
-            "blurb": "Zombie pig"
-        },
-        "Death Burst": {
-            "name": "Wybuch Śmierci"
-        },
-        "Demand Results": {
-            "name": "Wymagane Rezultaty"
-        },
-        "Demolish": {
-            "name": "Wyburzenie"
-        },
-        "Destroy": {
-            "name": "Destroy"
-        },
-        "Devastating Smash": {
-            "name": "Devastating Smash"
-        },
-        "Double Fisted Smash": {
-            "name": "Double Fisted Smash"
-        },
-        "Drag": {
-            "name": "Wleczenie Ofiary"
-        },
-        "Drive-By": {
-            "name": "Drive-By"
-        },
-        "Driving": {
-            "name": "Prowadzenie Pojazdu"
-        },
-        "Egg": {
-            "name": "Egg"
-        },
-        "Fist": {
-            "name": "Pięść"
-        },
-        "Fluid Draw": {
-            "name": "Fluid Draw"
-        },
-        "Gnaw": {
-            "name": "Obgryzanie"
-        },
-        "Golf Club": {
-            "name": "Kij Golfowy"
-        },
-        "Gore Spray": {
-            "name": "Gore Spray"
-        },
-        "Grab": {
-            "name": "Złapanie"
-        },
-        "Groan": {
-            "name": "Groan"
-        },
-        "Hangry": {
-            "name": "Hangry"
-        },
-        "Heavy Machinegun": {
-            "name": "Ciężki Karabin Maszynowy"
-        },
-        "Hog Charge": {
-            "name": "Hog Charge"
-        },
-        "Hop": {
-            "name": "Hop"
-        },
-        "Horrid Kiss": {
-            "name": "Horrid Kiss"
-        },
-        "Howl": {
-            "name": "Howl"
+            "name": "Martwa Świnia",
+            "blurb": "Świnia zombie",
+            "items": {
+                "action->Z-Plague": {
+                    "name": "Plaga Z",
+                    "description": "<p>@Check[type:fortitude|dc:16|traits:secret] Zarażony przenosi Plagę Z poprzez swoje szczęki i tylko w przypadku trafienia krytycznego.</p>\n<hr />\n<p>Ci, którzy przeżyli początkową epidemię zombie, która doprowadziła do upadku cywilizacji, zrobili to dzięki połączeniu środków ostrożności i odrobinie szczęścia genetycznego. Nie oznacza to jednak, że nikt nie jest całkowicie niewrażliwy. Nawet ci, którym udało się otrzymać upragnioną szczepionkę „Z-Noc”, zyskują jedynie odporność na infekcję w stadium 1.</p>\n<p>Jeśli zostaniesz narażony na Plagę Z (technicznie nazywaną amebowym zapaleniem mózgu Zynocol), narrator spróbuje wykonać tajny rzut obronny na Wytrwałość. Jeśli nie uda ci się ten rzut, zachorujesz na pierwszy etap choroby. Jeśli rzut zakończy się krytyczną porażką, zachorujesz na chorobę i stracisz 1 punkt NADZIEI podczas następnego odpoczynku.</p>\n<p><strong>Etap 1</strong>: Każdego dnia tracisz 1 punkt NADZIEI, stając się coraz bardziej ponury. Nie możesz zyskać NADZIEI. Osoby w twoim otoczeniu mogą poprosić o sprawdzenie @UUID[Compendium.pf2e.actionspf2e.Item.1xRFPTFtWtGJ9ELw] przy użyciu Percepcji, aby zauważyć, że coś jest nie tak. Pod koniec każdego dnia spróbuj wykonać rzut obronny na Wytrwałość przeciwko pierwotnemu ST. Jeśli uda ci się wykonać 2 rzuty obronne w ciągu dwóch kolejnych dni lub wykonasz rzut obronny z wynikiem krytycznym, uda ci się pozbyć infekcji i przestać tracić nadzieję. Jeśli wyczerpie się twoja nadzieja i będziesz musiał stracić kolejną, przejdziesz do etapu 2.</p>\n<p><strong>Etap 2</strong>: Stajesz się @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Ogłupiony 1}, a narrator potajemnie rzuca kostką k20, aby ustalić czas trwania w godzinach. Pod koniec tego czasu wartość Ogłupienia wzrasta o 1, a narrator ponownie rzuca kostką, aby ustalić czas trwania. Gdy wartość Ogłupienia jest większa niż suma wszystkich trzech modyfikatorów zdolności umysłowych (Int, Mdr, Cha), przechodzisz do etapu 3. Nie ma znanego sposobu na rzut obronny, aby uratować osobę, która osiągnęła etap 2. Zainfekowane osoby w etapie 2 są zakaźne i rozprzestrzeniają pasożyty poprzez kaszel i inne płyny ustrojowe. Każdy, kto spędzi więcej niż 1 minutę w odległości 10 stóp od osoby zarażonej, musi wykonać rzut obronny na Wytrwałość (o tym samym ST co osoba zarażona), aby uniknąć zarażenia się plagą.</p>\n<p><strong>Etap 3</strong>: Upadłeś, będąc @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Nieprzytomny} i tracisz [[/r 1d4]] Punktów Wytrzymałości na minutę. Kiedy Twoje Punkty Wytrzymałości osiągną 0, umierasz i powstajesz jako zombie w ciągu [[/r 1d10 #Minuty]]{1k10 minut}.</p>"
+                },
+                "action->Zombie Immuinities": {
+                    "name": "Odporności Zombie",
+                    "description": "<p>Jako martwe istoty, zombie są niewrażliwe na wiele czynników, które mają wpływ na żywych. O ile nie zaznaczono inaczej, zombie są niewrażliwe na choroby, efekty psychiczne, trucizny i wszystko, co mogłoby spowodować ich @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Nieprzytomność}. Zombie nie odnoszą siniaków ani nie muszą jeść ani pić (chociaż niektóre z nich zyskują dodatkowe zdolności, jeśli niedawno spożyły żywe mięso). Zombie zostają natychmiast zniszczone po zmniejszeniu ich Punktu Wytrzymałości do 0.</p>"
+                },
+                "melee->Tusk": {
+                    "name": "Cios"
+                },
+                "action->Hog Charge": {
+                    "name": "Świńska Szarża",
+                    "description": "<p>Martwa świnia wykonuje dwukrotny Bieg, a następnie atakuje Ciosami. Jeśli przemieściła się co najmniej 20 stóp, otrzymuje premię +2 do rzutu ataku.</p>"
+                }
+            }
         },
         "Howling Hound": {
-            "name": "Howling Hound",
-            "blurb": "Zombie dog"
+            "name": "Wyjący Ogar",
+            "blurb": "Zombie pies",
+            "items": {
+                "action->Z-Plague": {
+                    "name": "Plaga Z",
+                    "description": "<p>@Check[type:fortitude|dc:16|traits:secret] Zarażony przenosi Plagę Z poprzez swoje szczęki i tylko w przypadku trafienia krytycznego.</p>\n<hr />\n<p>Ci, którzy przeżyli początkową epidemię zombie, która doprowadziła do upadku cywilizacji, zrobili to dzięki połączeniu środków ostrożności i odrobinie szczęścia genetycznego. Nie oznacza to jednak, że nikt nie jest całkowicie niewrażliwy. Nawet ci, którym udało się otrzymać upragnioną szczepionkę „Z-Noc”, zyskują jedynie odporność na infekcję w stadium 1.</p>\n<p>Jeśli zostaniesz narażony na Plagę Z (technicznie nazywaną amebowym zapaleniem mózgu Zynocol), narrator spróbuje wykonać tajny rzut obronny na Wytrwałość. Jeśli nie uda ci się ten rzut, zachorujesz na pierwszy etap choroby. Jeśli rzut zakończy się krytyczną porażką, zachorujesz na chorobę i stracisz 1 punkt NADZIEI podczas następnego odpoczynku.</p>\n<p><strong>Etap 1</strong>: Każdego dnia tracisz 1 punkt NADZIEI, stając się coraz bardziej ponury. Nie możesz zyskać NADZIEI. Osoby w twoim otoczeniu mogą poprosić o sprawdzenie @UUID[Compendium.pf2e.actionspf2e.Item.1xRFPTFtWtGJ9ELw] przy użyciu Percepcji, aby zauważyć, że coś jest nie tak. Pod koniec każdego dnia spróbuj wykonać rzut obronny na Wytrwałość przeciwko pierwotnemu ST. Jeśli uda ci się wykonać 2 rzuty obronne w ciągu dwóch kolejnych dni lub wykonasz rzut obronny z wynikiem krytycznym, uda ci się pozbyć infekcji i przestać tracić nadzieję. Jeśli wyczerpie się twoja nadzieja i będziesz musiał stracić kolejną, przejdziesz do etapu 2.</p>\n<p><strong>Etap 2</strong>: Stajesz się @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Ogłupiony 1}, a narrator potajemnie rzuca kostką k20, aby ustalić czas trwania w godzinach. Pod koniec tego czasu wartość Ogłupienia wzrasta o 1, a narrator ponownie rzuca kostką, aby ustalić czas trwania. Gdy wartość Ogłupienia jest większa niż suma wszystkich trzech modyfikatorów zdolności umysłowych (Int, Mdr, Cha), przechodzisz do etapu 3. Nie ma znanego sposobu na rzut obronny, aby uratować osobę, która osiągnęła etap 2. Zainfekowane osoby w etapie 2 są zakaźne i rozprzestrzeniają pasożyty poprzez kaszel i inne płyny ustrojowe. Każdy, kto spędzi więcej niż 1 minutę w odległości 10 stóp od osoby zarażonej, musi wykonać rzut obronny na Wytrwałość (o tym samym ST co osoba zarażona), aby uniknąć zarażenia się plagą.</p>\n<p><strong>Etap 3</strong>: Upadłeś, będąc @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Nieprzytomny} i tracisz [[/r 1d4]] Punktów Wytrzymałości na minutę. Kiedy Twoje Punkty Wytrzymałości osiągną 0, umierasz i powstajesz jako zombie w ciągu [[/r 1d10 #Minuty]]{1k10 minut}.</p>"
+                },
+                "action->Zombie Immuinities": {
+                    "name": "Odporności Zombie",
+                    "description": "<p>Jako martwe istoty, zombie są niewrażliwe na wiele czynników, które mają wpływ na żywych. O ile nie zaznaczono inaczej, zombie są niewrażliwe na choroby, efekty psychiczne, trucizny i wszystko, co mogłoby spowodować ich @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Nieprzytomność}. Zombie nie odnoszą siniaków ani nie muszą jeść ani pić (chociaż niektóre z nich zyskują dodatkowe zdolności, jeśli niedawno spożyły żywe mięso). Zombie zostają natychmiast zniszczone po zmniejszeniu ich Punktu Wytrzymałości do 0.</p>"
+                },
+                "action->Grab": {
+                    "name": "Złapanie"
+                },
+                "action->Howl": {
+                    "name": "Wycie",
+                    "description": "<p>Wszystkie żywe stworzenia w promieniu 30 stóp muszą wykonać rzut obronny @Check[type:will|dc:14]. Ci, którzy nie powiedzą, otrzymują @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Przestraszony 1} (@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Przestraszony 2} w przypadku krytycznej porażki). Inne wyjące psy w okolicy mogą wyć w reakcji, aby powiększyć obszar. Cele są wtedy niewrażliwe na wycie przez 24 godziny.</p>"
+                },
+                "melee->Jaws": {
+                    "name": "Szczęki"
+                }
+            }
         },
         "Hulk": {
-            "name": "Hulk"
-        },
-        "Immolate": {
-            "name": "Immolate"
+            "name": "Kolos",
+            "items": {
+                "action->Z-Plague": {
+                    "name": "Plaga Z",
+                    "description": "<p>@Check[type:fortitude|dc:16|traits:secret] Zarażony przenosi Plagę Z poprzez swoje szczęki i tylko w przypadku trafienia krytycznego.</p>\n<hr />\n<p>Ci, którzy przeżyli początkową epidemię zombie, która doprowadziła do upadku cywilizacji, zrobili to dzięki połączeniu środków ostrożności i odrobinie szczęścia genetycznego. Nie oznacza to jednak, że nikt nie jest całkowicie niewrażliwy. Nawet ci, którym udało się otrzymać upragnioną szczepionkę „Z-Noc”, zyskują jedynie odporność na infekcję w stadium 1.</p>\n<p>Jeśli zostaniesz narażony na Plagę Z (technicznie nazywaną amebowym zapaleniem mózgu Zynocol), narrator spróbuje wykonać tajny rzut obronny na Wytrwałość. Jeśli nie uda ci się ten rzut, zachorujesz na pierwszy etap choroby. Jeśli rzut zakończy się krytyczną porażką, zachorujesz na chorobę i stracisz 1 punkt NADZIEI podczas następnego odpoczynku.</p>\n<p><strong>Etap 1</strong>: Każdego dnia tracisz 1 punkt NADZIEI, stając się coraz bardziej ponury. Nie możesz zyskać NADZIEI. Osoby w twoim otoczeniu mogą poprosić o sprawdzenie @UUID[Compendium.pf2e.actionspf2e.Item.1xRFPTFtWtGJ9ELw] przy użyciu Percepcji, aby zauważyć, że coś jest nie tak. Pod koniec każdego dnia spróbuj wykonać rzut obronny na Wytrwałość przeciwko pierwotnemu ST. Jeśli uda ci się wykonać 2 rzuty obronne w ciągu dwóch kolejnych dni lub wykonasz rzut obronny z wynikiem krytycznym, uda ci się pozbyć infekcji i przestać tracić nadzieję. Jeśli wyczerpie się twoja nadzieja i będziesz musiał stracić kolejną, przejdziesz do etapu 2.</p>\n<p><strong>Etap 2</strong>: Stajesz się @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Ogłupiony 1}, a narrator potajemnie rzuca kostką k20, aby ustalić czas trwania w godzinach. Pod koniec tego czasu wartość Ogłupienia wzrasta o 1, a narrator ponownie rzuca kostką, aby ustalić czas trwania. Gdy wartość Ogłupienia jest większa niż suma wszystkich trzech modyfikatorów zdolności umysłowych (Int, Mdr, Cha), przechodzisz do etapu 3. Nie ma znanego sposobu na rzut obronny, aby uratować osobę, która osiągnęła etap 2. Zainfekowane osoby w etapie 2 są zakaźne i rozprzestrzeniają pasożyty poprzez kaszel i inne płyny ustrojowe. Każdy, kto spędzi więcej niż 1 minutę w odległości 10 stóp od osoby zarażonej, musi wykonać rzut obronny na Wytrwałość (o tym samym ST co osoba zarażona), aby uniknąć zarażenia się plagą.</p>\n<p><strong>Etap 3</strong>: Upadłeś, będąc @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Nieprzytomny} i tracisz [[/r 1d4]] Punktów Wytrzymałości na minutę. Kiedy Twoje Punkty Wytrzymałości osiągną 0, umierasz i powstajesz jako zombie w ciągu [[/r 1d10 #Minuty]]{1k10 minut}.</p>"
+                },
+                "action->Zombie Immuinities": {
+                    "name": "Odporności Zombie",
+                    "description": "<p>Jako martwe istoty, zombie są niewrażliwe na wiele czynników, które mają wpływ na żywych. O ile nie zaznaczono inaczej, zombie są niewrażliwe na choroby, efekty psychiczne, trucizny i wszystko, co mogłoby spowodować ich @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Nieprzytomność}. Zombie nie odnoszą siniaków ani nie muszą jeść ani pić (chociaż niektóre z nich zyskują dodatkowe zdolności, jeśli niedawno spożyły żywe mięso). Zombie zostają natychmiast zniszczone po zmniejszeniu ich Punktu Wytrzymałości do 0.</p>"
+                },
+                "melee->Fist": {
+                    "name": "Pięść"
+                },
+                "action->Grab": {
+                    "name": "Złapanie"
+                },
+                "action->Consume": {
+                    "name": "Konsumpcja",
+                    "description": "<p><strong>Wymagania</strong> Kolos ma stworzenie @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei] lub @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM].</p>\n<hr />\n<p><strong>Efekt</strong> Kolos próbuje połknąć człowieka w całości, wykonując test Atletyki przeciwko wartości ST Wytrwałości chwyconego lub obezwładnionego celu. Jeśli test się powiedzie, stworzenie otrzymuje [[/r (2d6+7)[piercing]]], zostaje narażone na Plagę Z i przeniesione do ust kolosa. Następnie może próbować połknąć całość.</p>"
+                },
+                "action->Throw": {
+                    "name": "Rzut",
+                    "description": "<p><strong>Wymagania</strong> Kolos ma stworzenie @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei] lub @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM].</p>\n<hr />\n<p><strong>Efekt</strong> Kolos próbuje wykonać test umiejętności Atletyka przeciwko wartości ST Wytrwałości celu. Jeśli test się powiedzie, cel zostaje rzucony na odległość 20 stóp, lądując w pozycji @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Przewróconej} i otrzymuje [[/r 3d6[bludgeoning]]] (30 stóp w przypadku krytycznego sukcesu). Jeśli cel uderzy w przedmiot, otrzymuje [[/r 1d6[bludgeoning]]] 1k6 dodatkowych obuchowych obrażeń za każde 5 stóp, które nie przeleciał. @Check[type:reflex|dc:24|basic:true] może zmniejszyć te obrażenia.</p>"
+                },
+                "action->Zombie Vomit": {
+                    "name": "Wymiociny Zombie",
+                    "description": "<p>Stworzenia, które giną wewnątrz ciała zombie, stają się zombie w kolejnej rundzie, po tym jak Kolos zwymiotuje je na sąsiednie pole. Zazwyczaj są to Opancerzeni lub Biegacze. Nowe zombie rozpoczynają swoją turę @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Przewrócone}.</p>"
+                },
+                "action->Swallow Whole": {
+                    "name": "Połknięcie w Całości",
+                    "description": "<p>Średni, [[/r 3d6[acid]]] plus plaga Z, Rozerwanie 20</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.SwallowWhole]</p>"
+                },
+                "action->Obliterate": {
+                    "name": "Zniszczenie",
+                    "description": "<p>Kolos może przedrzeć się przez niemal wszystko, co stanie mu na drodze, zadając cztery razy więcej obrażeń, gdy uderza w obiekt.</p>"
+                }
+            }
         },
         "Infested": {
-            "name": "Infested"
-        },
-        "Jaws": {
-            "name": "Szczęki"
-        },
-        "Katana": {
-            "name": "Katana"
+            "name": "Zarażony",
+            "items": {
+                "action->Z-Plague": {
+                    "name": "Plaga Z",
+                    "description": "<p>@Check[type:fortitude|dc:16|traits:secret] Zarażony przenosi Plagę Z poprzez swoje szczęki i tylko w przypadku trafienia krytycznego.</p>\n<hr />\n<p>Ci, którzy przeżyli początkową epidemię zombie, która doprowadziła do upadku cywilizacji, zrobili to dzięki połączeniu środków ostrożności i odrobinie szczęścia genetycznego. Nie oznacza to jednak, że nikt nie jest całkowicie niewrażliwy. Nawet ci, którym udało się otrzymać upragnioną szczepionkę „Z-Noc”, zyskują jedynie odporność na infekcję w stadium 1.</p>\n<p>Jeśli zostaniesz narażony na Plagę Z (technicznie nazywaną amebowym zapaleniem mózgu Zynocol), narrator spróbuje wykonać tajny rzut obronny na Wytrwałość. Jeśli nie uda ci się ten rzut, zachorujesz na pierwszy etap choroby. Jeśli rzut zakończy się krytyczną porażką, zachorujesz na chorobę i stracisz 1 punkt NADZIEI podczas następnego odpoczynku.</p>\n<p><strong>Etap 1</strong>: Każdego dnia tracisz 1 punkt NADZIEI, stając się coraz bardziej ponury. Nie możesz zyskać NADZIEI. Osoby w twoim otoczeniu mogą poprosić o sprawdzenie @UUID[Compendium.pf2e.actionspf2e.Item.1xRFPTFtWtGJ9ELw] przy użyciu Percepcji, aby zauważyć, że coś jest nie tak. Pod koniec każdego dnia spróbuj wykonać rzut obronny na Wytrwałość przeciwko pierwotnemu ST. Jeśli uda ci się wykonać 2 rzuty obronne w ciągu dwóch kolejnych dni lub wykonasz rzut obronny z wynikiem krytycznym, uda ci się pozbyć infekcji i przestać tracić nadzieję. Jeśli wyczerpie się twoja nadzieja i będziesz musiał stracić kolejną, przejdziesz do etapu 2.</p>\n<p><strong>Etap 2</strong>: Stajesz się @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Ogłupiony 1}, a narrator potajemnie rzuca kostką k20, aby ustalić czas trwania w godzinach. Pod koniec tego czasu wartość Ogłupienia wzrasta o 1, a narrator ponownie rzuca kostką, aby ustalić czas trwania. Gdy wartość Ogłupienia jest większa niż suma wszystkich trzech modyfikatorów zdolności umysłowych (Int, Mdr, Cha), przechodzisz do etapu 3. Nie ma znanego sposobu na rzut obronny, aby uratować osobę, która osiągnęła etap 2. Zainfekowane osoby w etapie 2 są zakaźne i rozprzestrzeniają pasożyty poprzez kaszel i inne płyny ustrojowe. Każdy, kto spędzi więcej niż 1 minutę w odległości 10 stóp od osoby zarażonej, musi wykonać rzut obronny na Wytrwałość (o tym samym ST co osoba zarażona), aby uniknąć zarażenia się plagą.</p>\n<p><strong>Etap 3</strong>: Upadłeś, będąc @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Nieprzytomny} i tracisz [[/r 1d4]] Punktów Wytrzymałości na minutę. Kiedy Twoje Punkty Wytrzymałości osiągną 0, umierasz i powstajesz jako zombie w ciągu [[/r 1d10 #Minuty]]{1k10 minut}.</p>"
+                },
+                "action->Zombie Immuinities": {
+                    "name": "Odporności Zombie",
+                    "description": "<p>Jako martwe istoty, zombie są niewrażliwe na wiele czynników, które mają wpływ na żywych. O ile nie zaznaczono inaczej, zombie są niewrażliwe na choroby, efekty psychiczne, trucizny i wszystko, co mogłoby spowodować ich @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Nieprzytomność}. Zombie nie odnoszą siniaków ani nie muszą jeść ani pić (chociaż niektóre z nich zyskują dodatkowe zdolności, jeśli niedawno spożyły żywe mięso). Zombie zostają natychmiast zniszczone po zmniejszeniu ich Punktu Wytrzymałości do 0.</p>"
+                },
+                "melee->Jaws": {
+                    "name": "Szczęki"
+                },
+                "action->Grab": {
+                    "name": "Złapanie"
+                },
+                "melee->Fist": {
+                    "name": "Pięść"
+                },
+                "action->Horrid Kiss": {
+                    "name": "Okropny Pocałunek",
+                    "description": "<p><strong>Wymagania</strong> Zarażony ma stworzenie @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei] lub @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM].</p>\n<hr />\n<p><strong>Efekt</strong> Zarażony zmusza pasożyty do wejścia do ust schwytanej lub obezwładnionej istoty. Zarażony próbuje wykonać test Atletyki przeciwko ST Refleksu celu. Jeśli test się powiedzie, cel zostaje narażony na plagę Z, a jego początkowy rzut obronny jest wykonywany z karą -2.</p>"
+                },
+                "action->Spew Parasites": {
+                    "name": "Wymiotowanie Pasożytów",
+                    "description": "<p>Zarażony wyrzuca stożek pasożytów i kwasu żołądkowego w @Template[type:cone|distance:15]. Istoty żywe w tym obszarze otrzymują [[/r 3d6[acid]]] (@Check[type:reflex|dc:18|basic:true]). Te, które nie zdadzą tego rzutu obronnego, są również narażone na plagę Z. Nie może ponownie użyć Wymiotowania Pasożytów przez [[/r 1d4 #Rundy]]{1k4 rundy}.</p>"
+                }
+            }
         },
         "Katana Guy/Gal/Pal": {
-            "name": "Katana Guy/Gal/Pal"
-        },
-        "Kitchen Knife": {
-            "name": "Kitchen Knife"
-        },
-        "Knockdown": {
-            "name": "Powalenie"
-        },
-        "Lab Gear": {
-            "name": "Lab Gear"
-        },
-        "Leap": {
-            "name": "Skok"
+            "name": "Katana Kumpel",
+            "items": {
+                "lore->Computers": {
+                    "name": "Komputery"
+                },
+                "consumable->Bandages": {
+                    "name": "Bandaże",
+                    "description": "<p>Umożliwia użycie Wsparcia i @UUID[Compendium.hopefinder.actions.Item.jIN7minzIXOY3YJk]{Leczenie ran}. Zużywane przy użyciu.</p>\n<hr />\n<p><strong>Zniszczenie</strong> 1</p>"
+                },
+                "equipment->Climbing Kit": {
+                    "name": "Zestaw Wspinaczkowy",
+                    "description": "<p>Daje +2 do testów Atletyki wykonywanych w celu wspinaczki.</p>\n<hr />\n<p><strong>Zniszczenie</strong> 4</p>"
+                },
+                "weapon->Compound Bow": {
+                    "name": "Łuk Bloczkowy",
+                    "description": "<p><strong>Zniszczenie</strong> 6</p>"
+                },
+                "weapon->Katana": {
+                    "name": "Katana",
+                    "description": "<p><strong>Zniszczenie</strong> 6</p>"
+                },
+                "armor->Sports Protection": {
+                    "name": "Ochrona Sportowa",
+                    "description": "<p><strong>Ochrona</strong> 5 Wszystkie</p>\n<p><strong>Zniszczenie</strong> 12</p>"
+                },
+                "consumable->Ration (Bar)": {
+                    "name": "Racja Żywnościowa (baton)",
+                    "description": "<p>Podstawowy batonik wojskowy. Liczy się jako 1 porcja jedzenia.</p>\n<hr />\n<p><strong>Zniszczenie</strong> 1</p>"
+                },
+                "melee->Katana": {
+                    "name": "Katana"
+                },
+                "melee->Compound Bow": {
+                    "name": "Łuk Bloczkowy"
+                },
+                "consumable->Arrows": {
+                    "name": "Strzały",
+                    "description": "<p><strong>Zniszczenie</strong> 1</p>"
+                },
+                "action->Fluid Draw": {
+                    "name": "Pobieranie Płynów",
+                    "description": "<p>Katana kumpel wyciąga broń białą i używa jej do wykonania Ataku wręcz.</p>"
+                },
+                "action->Overhead Cut": {
+                    "name": "Cięcie nad Głową",
+                    "description": "<p>Katana kumpel wykonuje Atak wręcz, który zadaje dodatkową kostkę obrażeń (na przykład 2k10+4 obrażeń kataną).</p>"
+                },
+                "action->Sneak Attack": {
+                    "name": "Podstępny Atak",
+                    "description": "<p>Katana kumpel zadaje dodatkowe obrażenia precyzyjne równe 1k6 stworzeniom @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Odsłoniętym}.</p>"
+                }
+            }
         },
         "Leaper": {
-            "name": "Leaper"
-        },
-        "Light Patchwork": {
-            "name": "Light Patchwork"
-        },
-        "Lighter": {
-            "name": "Lighter"
-        },
-        "Liquor": {
-            "name": "Liquor"
-        },
-        "Low Profile": {
-            "name": "Low Profile"
-        },
-        "Low-Light Vision": {
-            "name": "Widzenie w Słabym Świetle"
-        },
-        "Machinery": {
-            "name": "Machinery"
-        },
-        "Mandibles": {
-            "name": "Żuchwy"
-        },
-        "Maul": {
-            "name": "Ciężki Młot"
-        },
-        "Menace": {
-            "name": "Zagrożenie"
-        },
-        "Military Helmet": {
-            "name": "Military Helmet"
-        },
-        "Molotov Cocktail": {
-            "name": "Molotov Cocktail",
-            "rules": {
-                "0": {
-                    "text": "Plus [[/r {1d6}[splash,fire]]]{1d6 Fire Splash} damage."
+            "name": "Skoczek",
+            "items": {
+                "action->Z-Plague": {
+                    "name": "Plaga Z",
+                    "description": "<p>@Check[type:fortitude|dc:16|traits:secret] Zarażony przenosi Plagę Z poprzez swoje szczęki i tylko w przypadku trafienia krytycznego.</p>\n<hr />\n<p>Ci, którzy przeżyli początkową epidemię zombie, która doprowadziła do upadku cywilizacji, zrobili to dzięki połączeniu środków ostrożności i odrobinie szczęścia genetycznego. Nie oznacza to jednak, że nikt nie jest całkowicie niewrażliwy. Nawet ci, którym udało się otrzymać upragnioną szczepionkę „Z-Noc”, zyskują jedynie odporność na infekcję w stadium 1.</p>\n<p>Jeśli zostaniesz narażony na Plagę Z (technicznie nazywaną amebowym zapaleniem mózgu Zynocol), narrator spróbuje wykonać tajny rzut obronny na Wytrwałość. Jeśli nie uda ci się ten rzut, zachorujesz na pierwszy etap choroby. Jeśli rzut zakończy się krytyczną porażką, zachorujesz na chorobę i stracisz 1 punkt NADZIEI podczas następnego odpoczynku.</p>\n<p><strong>Etap 1</strong>: Każdego dnia tracisz 1 punkt NADZIEI, stając się coraz bardziej ponury. Nie możesz zyskać NADZIEI. Osoby w twoim otoczeniu mogą poprosić o sprawdzenie @UUID[Compendium.pf2e.actionspf2e.Item.1xRFPTFtWtGJ9ELw] przy użyciu Percepcji, aby zauważyć, że coś jest nie tak. Pod koniec każdego dnia spróbuj wykonać rzut obronny na Wytrwałość przeciwko pierwotnemu ST. Jeśli uda ci się wykonać 2 rzuty obronne w ciągu dwóch kolejnych dni lub wykonasz rzut obronny z wynikiem krytycznym, uda ci się pozbyć infekcji i przestać tracić nadzieję. Jeśli wyczerpie się twoja nadzieja i będziesz musiał stracić kolejną, przejdziesz do etapu 2.</p>\n<p><strong>Etap 2</strong>: Stajesz się @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Ogłupiony 1}, a narrator potajemnie rzuca kostką k20, aby ustalić czas trwania w godzinach. Pod koniec tego czasu wartość Ogłupienia wzrasta o 1, a narrator ponownie rzuca kostką, aby ustalić czas trwania. Gdy wartość Ogłupienia jest większa niż suma wszystkich trzech modyfikatorów zdolności umysłowych (Int, Mdr, Cha), przechodzisz do etapu 3. Nie ma znanego sposobu na rzut obronny, aby uratować osobę, która osiągnęła etap 2. Zainfekowane osoby w etapie 2 są zakaźne i rozprzestrzeniają pasożyty poprzez kaszel i inne płyny ustrojowe. Każdy, kto spędzi więcej niż 1 minutę w odległości 10 stóp od osoby zarażonej, musi wykonać rzut obronny na Wytrwałość (o tym samym ST co osoba zarażona), aby uniknąć zarażenia się plagą.</p>\n<p><strong>Etap 3</strong>: Upadłeś, będąc @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Nieprzytomny} i tracisz [[/r 1d4]] Punktów Wytrzymałości na minutę. Kiedy Twoje Punkty Wytrzymałości osiągną 0, umierasz i powstajesz jako zombie w ciągu [[/r 1d10 #Minuty]]{1k10 minut}.</p>"
+                },
+                "action->Zombie Immuinities": {
+                    "name": "Odporności Zombie",
+                    "description": "<p>Jako martwe istoty, zombie są niewrażliwe na wiele czynników, które mają wpływ na żywych. O ile nie zaznaczono inaczej, zombie są niewrażliwe na choroby, efekty psychiczne, trucizny i wszystko, co mogłoby spowodować ich @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Nieprzytomność}. Zombie nie odnoszą siniaków ani nie muszą jeść ani pić (chociaż niektóre z nich zyskują dodatkowe zdolności, jeśli niedawno spożyły żywe mięso). Zombie zostają natychmiast zniszczone po zmniejszeniu ich Punktu Wytrzymałości do 0.</p>"
+                },
+                "action->Hop": {
+                    "name": "Podskok",
+                    "description": "<p><strong>Wyzwalacz</strong> Sąsiednia istota atakuje skoczka atakiem w walce wręcz.</p>\n<hr />\n<p><strong>Efekt</strong> Skaczący otrzymuje premię okolicznościową +2 do KP przeciwko atakowi, który go wywołał. Jeśli atak chybi, skaczący może wykonać krok do sąsiedniego pola.</p>"
+                },
+                "melee->Jaws": {
+                    "name": "Szczęki"
+                },
+                "action->Leap": {
+                    "name": "Skok",
+                    "description": "<p>Skoczek próbuje wykonać @Compendium[pf2e.actionspf2e.2HJ4yuEFY1Cast4h]{Skok wzwyż} lub @Compendium[pf2e.actionspf2e.JUvAvruz7yRQXfz2]{Skok w dal}, używając Akrobatyki. Nie musi poruszać się o 10 stóp przed próbą wykonania tych skoków, a wszystkie współczynniki trudności są zmniejszone o 10.</p>"
+                },
+                "action->Spring and Attack": {
+                    "name": "Doskok i Atak",
+                    "description": "<p>Jeśli poprzednią akcją skoczka było wykonanie skoku przy użyciu umiejętności Akrobatyka, a następną akcją jest atak szczęką, atak ten otrzymuje premię okolicznościową +2 do rzutu ataku i rzutu obrażeń.</p>"
                 }
             }
         },
         "Mutant": {
-            "name": "Mutant"
-        },
-        "Obliterate": {
-            "name": "Obliterate"
-        },
-        "Overhead Cut": {
-            "name": "Overhead Cut"
+            "name": "Mutant",
+            "items": {
+                "action->Z-Plague": {
+                    "name": "Plaga Z",
+                    "description": "<p>@Check[type:fortitude|dc:16|traits:secret] Zarażony przenosi Plagę Z poprzez swoje szczęki i tylko w przypadku trafienia krytycznego.</p>\n<hr />\n<p>Ci, którzy przeżyli początkową epidemię zombie, która doprowadziła do upadku cywilizacji, zrobili to dzięki połączeniu środków ostrożności i odrobinie szczęścia genetycznego. Nie oznacza to jednak, że nikt nie jest całkowicie niewrażliwy. Nawet ci, którym udało się otrzymać upragnioną szczepionkę „Z-Noc”, zyskują jedynie odporność na infekcję w stadium 1.</p>\n<p>Jeśli zostaniesz narażony na Plagę Z (technicznie nazywaną amebowym zapaleniem mózgu Zynocol), narrator spróbuje wykonać tajny rzut obronny na Wytrwałość. Jeśli nie uda ci się ten rzut, zachorujesz na pierwszy etap choroby. Jeśli rzut zakończy się krytyczną porażką, zachorujesz na chorobę i stracisz 1 punkt NADZIEI podczas następnego odpoczynku.</p>\n<p><strong>Etap 1</strong>: Każdego dnia tracisz 1 punkt NADZIEI, stając się coraz bardziej ponury. Nie możesz zyskać NADZIEI. Osoby w twoim otoczeniu mogą poprosić o sprawdzenie @UUID[Compendium.pf2e.actionspf2e.Item.1xRFPTFtWtGJ9ELw] przy użyciu Percepcji, aby zauważyć, że coś jest nie tak. Pod koniec każdego dnia spróbuj wykonać rzut obronny na Wytrwałość przeciwko pierwotnemu ST. Jeśli uda ci się wykonać 2 rzuty obronne w ciągu dwóch kolejnych dni lub wykonasz rzut obronny z wynikiem krytycznym, uda ci się pozbyć infekcji i przestać tracić nadzieję. Jeśli wyczerpie się twoja nadzieja i będziesz musiał stracić kolejną, przejdziesz do etapu 2.</p>\n<p><strong>Etap 2</strong>: Stajesz się @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Ogłupiony 1}, a narrator potajemnie rzuca kostką k20, aby ustalić czas trwania w godzinach. Pod koniec tego czasu wartość Ogłupienia wzrasta o 1, a narrator ponownie rzuca kostką, aby ustalić czas trwania. Gdy wartość Ogłupienia jest większa niż suma wszystkich trzech modyfikatorów zdolności umysłowych (Int, Mdr, Cha), przechodzisz do etapu 3. Nie ma znanego sposobu na rzut obronny, aby uratować osobę, która osiągnęła etap 2. Zainfekowane osoby w etapie 2 są zakaźne i rozprzestrzeniają pasożyty poprzez kaszel i inne płyny ustrojowe. Każdy, kto spędzi więcej niż 1 minutę w odległości 10 stóp od osoby zarażonej, musi wykonać rzut obronny na Wytrwałość (o tym samym ST co osoba zarażona), aby uniknąć zarażenia się plagą.</p>\n<p><strong>Etap 3</strong>: Upadłeś, będąc @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Nieprzytomny} i tracisz [[/r 1d4]] Punktów Wytrzymałości na minutę. Kiedy Twoje Punkty Wytrzymałości osiągną 0, umierasz i powstajesz jako zombie w ciągu [[/r 1d10 #Minuty]]{1k10 minut}.</p>"
+                },
+                "action->Zombie Immuinities": {
+                    "name": "Odporności Zombie",
+                    "description": "<p>Jako martwe istoty, zombie są niewrażliwe na wiele czynników, które mają wpływ na żywych. O ile nie zaznaczono inaczej, zombie są niewrażliwe na choroby, efekty psychiczne, trucizny i wszystko, co mogłoby spowodować ich @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Nieprzytomność}. Zombie nie odnoszą siniaków ani nie muszą jeść ani pić (chociaż niektóre z nich zyskują dodatkowe zdolności, jeśli niedawno spożyły żywe mięso). Zombie zostają natychmiast zniszczone po zmniejszeniu ich Punktu Wytrzymałości do 0.</p>"
+                },
+                "melee->Tentacle": {
+                    "name": "Macka"
+                },
+                "melee->Polyp": {
+                    "name": "Polip"
+                },
+                "action->Grab": {
+                    "name": "Złapanie"
+                },
+                "action->Destroy": {
+                    "name": "Zniszczenie",
+                    "description": "<p>Mutant może rozrywać barykady i przeszkody. Mutant zadaje trzy razy więcej obrażeń, gdy @Compendium[hopefinder.actions.EAkekNb9khxY2Gir]{Rozbija} obiekt.</p>"
+                },
+                "action->Overrun": {
+                    "name": "Najazd",
+                    "description": "<p>Mutant przebiega przez przeszkody i przeciwników, poruszając się z szybkością dwukrotnie większą niż jego normalna szybkość w linii prostej. Musi wykonać test Atletyki przeciwko każdej przeszkodzie (używając swojego ST Zniszczenia) lub stworzeniu (używając swojego Wytrwałość ST). Jeśli test się powiedzie, przeszkoda zostaje zniszczona lub stworzenie zostaje odepchnięte (lub @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Przewrócone}, jeśli nie ma miejsca poza linią). Jeśli test się nie powiedzie, zatrzymuje się tuż przed przeszkodą lub stworzeniem. Stworzenia odepchnięte podczas tego ataku otrzymują [[/r (1d6+5)[bludgeoning]]] (@Check[type:reflex|dc:20|basic:true]).</p>"
+                },
+                "action->Swing Around": {
+                    "name": "Obrót",
+                    "description": "<p>Mutant macha macką, zataczając szeroki łuk i trafiając wszystkie cele w promieniu 10 stóp. Mutant wykonuje atak macką przeciwko każdemu celowi z osobna. Liczy się to tylko jako jeden atak w ramach kary za wielokrotny atak i dopiero po rozstrzygnięciu wszystkich ataków. Po użyciu tej zdolności nie może nikogo chwycić.</p>"
+                },
+                "melee->Gnaw": {
+                    "name": "Obgryzanie",
+                    "description": "<p><strong>Wymagania</strong> Mutant ma stworzenie @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Pochwycone} lub @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Obezwładnione}.</p>"
+                }
+            }
         },
         "Overmind": {
-            "name": "Overmind",
-            "sensesDetails": "sense infected (60 feet)"
-        },
-        "Override": {
-            "name": "Nadpisz"
-        },
-        "Overrun": {
-            "name": "Najazd"
-        },
-        "Pack Coordination": {
-            "name": "Pack Coordination"
-        },
-        "Police Body Armor": {
-            "name": "Police Body Armor"
-        },
-        "Polyp": {
-            "name": "Polyp"
-        },
-        "Pounce": {
-            "name": "Doskok"
-        },
-        "Pry Open": {
-            "name": "Pry Open"
-        },
-        "Pump Shotgun": {
-            "name": "Pump Shotgun"
+            "name": "Nadumysł",
+            "items": {
+                "action->Z-Plague": {
+                    "name": "Plaga Z",
+                    "description": "<p>@Check[type:fortitude|dc:16|traits:secret] Zarażony przenosi Plagę Z poprzez swoje szczęki i tylko w przypadku trafienia krytycznego.</p>\n<hr />\n<p>Ci, którzy przeżyli początkową epidemię zombie, która doprowadziła do upadku cywilizacji, zrobili to dzięki połączeniu środków ostrożności i odrobinie szczęścia genetycznego. Nie oznacza to jednak, że nikt nie jest całkowicie niewrażliwy. Nawet ci, którym udało się otrzymać upragnioną szczepionkę „Z-Noc”, zyskują jedynie odporność na infekcję w stadium 1.</p>\n<p>Jeśli zostaniesz narażony na Plagę Z (technicznie nazywaną amebowym zapaleniem mózgu Zynocol), narrator spróbuje wykonać tajny rzut obronny na Wytrwałość. Jeśli nie uda ci się ten rzut, zachorujesz na pierwszy etap choroby. Jeśli rzut zakończy się krytyczną porażką, zachorujesz na chorobę i stracisz 1 punkt NADZIEI podczas następnego odpoczynku.</p>\n<p><strong>Etap 1</strong>: Każdego dnia tracisz 1 punkt NADZIEI, stając się coraz bardziej ponury. Nie możesz zyskać NADZIEI. Osoby w twoim otoczeniu mogą poprosić o sprawdzenie @UUID[Compendium.pf2e.actionspf2e.Item.1xRFPTFtWtGJ9ELw] przy użyciu Percepcji, aby zauważyć, że coś jest nie tak. Pod koniec każdego dnia spróbuj wykonać rzut obronny na Wytrwałość przeciwko pierwotnemu ST. Jeśli uda ci się wykonać 2 rzuty obronne w ciągu dwóch kolejnych dni lub wykonasz rzut obronny z wynikiem krytycznym, uda ci się pozbyć infekcji i przestać tracić nadzieję. Jeśli wyczerpie się twoja nadzieja i będziesz musiał stracić kolejną, przejdziesz do etapu 2.</p>\n<p><strong>Etap 2</strong>: Stajesz się @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Ogłupiony 1}, a narrator potajemnie rzuca kostką k20, aby ustalić czas trwania w godzinach. Pod koniec tego czasu wartość Ogłupienia wzrasta o 1, a narrator ponownie rzuca kostką, aby ustalić czas trwania. Gdy wartość Ogłupienia jest większa niż suma wszystkich trzech modyfikatorów zdolności umysłowych (Int, Mdr, Cha), przechodzisz do etapu 3. Nie ma znanego sposobu na rzut obronny, aby uratować osobę, która osiągnęła etap 2. Zainfekowane osoby w etapie 2 są zakaźne i rozprzestrzeniają pasożyty poprzez kaszel i inne płyny ustrojowe. Każdy, kto spędzi więcej niż 1 minutę w odległości 10 stóp od osoby zarażonej, musi wykonać rzut obronny na Wytrwałość (o tym samym ST co osoba zarażona), aby uniknąć zarażenia się plagą.</p>\n<p><strong>Etap 3</strong>: Upadłeś, będąc @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Nieprzytomny} i tracisz [[/r 1d4]] Punktów Wytrzymałości na minutę. Kiedy Twoje Punkty Wytrzymałości osiągną 0, umierasz i powstajesz jako zombie w ciągu [[/r 1d10 #Minuty]]{1k10 minut}.</p>"
+                },
+                "action->Zombie Immuinities": {
+                    "name": "Odporności Zombie",
+                    "description": "<p>Jako martwe istoty, zombie są niewrażliwe na wiele czynników, które mają wpływ na żywych. O ile nie zaznaczono inaczej, zombie są niewrażliwe na choroby, efekty psychiczne, trucizny i wszystko, co mogłoby spowodować ich @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Nieprzytomność}. Zombie nie odnoszą siniaków ani nie muszą jeść ani pić (chociaż niektóre z nich zyskują dodatkowe zdolności, jeśli niedawno spożyły żywe mięso). Zombie zostają natychmiast zniszczone po zmniejszeniu ich Punktu Wytrzymałości do 0.</p>"
+                },
+                "action->Sense Infected (Imprecise) 60 feet": {
+                    "name": "Wyczucie Zakażonych (Nieprecyzyjne) 60 stóp",
+                    "description": "<p>Nadumysł wie, czy jakiekolwiek stworzenia w promieniu 60 stóp są zarażone plagą Z. Jeśli nie może ich zobaczyć, wykrywa je za pomocą nieprecyzyjnego zmysłu.</p>"
+                },
+                "action->Clouded Mind": {
+                    "name": "Zamglony Umysł",
+                    "description": "<p>@Template[type:emanation|distance:10] @Compendium[pf2e.bestiary-ability-glossary-srd.Aura]{Aura}</p>\n<p>Istota żywa, która wejdzie na ten obszar, musi wykonać rzut obronny @Check[type:will|dc:24]. W przypadku porażki istota zostaje @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Ogłupiona 1}, a w przypadku krytycznej porażki zostaje @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{Zdezorientowana} na 1 minutę, ale może podjąć kolejną próbę rzutu obronnego na koniec każdej swojej tury, aby zakończyć ten efekt.</p>"
+                },
+                "action->Command the Dead": {
+                    "name": "Rozkazywanie Martwym",
+                    "description": "<p>Nadumysł może dowodzić wszystkimi nieumarłymi w promieniu 60 stóp, sprawiając, że działają oni w sposób taktyczny i inteligentny, niespotykany zazwyczaj u zmarłych. Będą oni omijać przeszkody, przemieszczać się, aby przeprowadzać ataki z flanki, i skupiać się na podatnych na ataki wrogach. Nieumarli nadal działają w swojej turze, wykonując normalną liczbę akcji. Nadumysł może poświęcić akcję, aby konkretnie nakazać nieumarłemu w tym promieniu działanie w dowolny sposób, jaki sobie zażyczy.</p>"
+                },
+                "melee->Mandibles": {
+                    "name": "Żuchwy"
+                },
+                "melee->Egg": {
+                    "name": "Jajko"
+                },
+                "action->Acidic Spray": {
+                    "name": "Kwasowy Rozprysk",
+                    "description": "<p>Nadumysł uwalnia @Template[type:line|distance:30] kwaśnych pasożytów. Żywe stworzenia w tym obszarze otrzymują [[/r 6d6[acid]]] (@Check[type:reflex|dc:22|basic:true]). Te, które nie zdadzą tego rzutu obronnego, są również narażone na plagę Z. Nie może ponownie użyć Kwasowego Rozprysku przez [[/br 1d4 #Recharge Kwasowy Rozprysk]]{1k4 rund}.</p>"
+                },
+                "action->Override": {
+                    "name": "Zastąpienie",
+                    "description": "<p>Nadumysł sięga do pasożyta infekującego żywą istotę w promieniu 60 stóp, próbując przejąć nad nią kontrolę. Cel musi wykonać rzut obronny @Check[type:will|dc:24]. W przypadku powodzenia jest on niewrażliwy na tę zdolność przez 24 godziny. W przypadku porażki jest on @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Spowolniony 1} przez 1 rundę. W przypadku krytycznej porażki musi wykonać prostą akcję podyktowaną przez nadumysł (zgodnie z zaklęciem @UUID[Compendium.pf2e.spells-srd.Item.aIHY2DArKFweIrpf]) i musi również wykonać kolejny rzut obronny przeciwko pladze Z, ponieważ pasożyty w nim zawarte stają się silniejsze.</p>"
+                }
+            }
         },
         "Pyro": {
-            "name": "Pyro",
-            "allSavesBonus": "+4 item bonus on saving throws against acid, fire, infections, poison, and smoke"
-        },
-        "R.O.U.S": {
-            "name": "R.O.U.S"
+            "name": "Piroman",
+            "items": {
+                "consumable->Beer": {
+                    "name": "Piwo",
+                    "description": "<p>Liczy się jako -1 punkt Nawodnienia. Wypicie tego napoju usuwa 1 siniak. Można skorzystać z tej właściwości tylko raz na dzień.</p>\n<hr />\n<p><strong>Zniszczenie</strong> 1</p>"
+                },
+                "weapon->Branch": {
+                    "name": "Gałąź",
+                    "description": "<p><strong>Zniszczenie</strong> 2</p>"
+                },
+                "weapon->Crude Pistol": {
+                    "name": "Prymitywny Pistolet",
+                    "description": "<p><strong>Zniszczenie</strong> 2</p>"
+                },
+                "consumable->Bullets (Pistol)": {
+                    "name": "Pociski (pistolet)",
+                    "description": "<p>Standardowa amunicja. Zadaje obrażenia określone w opisie broni.</p>\n<hr />\n<p><strong>Zniszczenie</strong> 1</p>"
+                },
+                "armor->Lab Gear": {
+                    "name": "Sprzęt Laboratoryjny",
+                    "description": "<p><strong>Ochrona</strong> 2 Wszystkie</p>\n<p><strong>Zniszczenie</strong> 10</p>"
+                },
+                "equipment->Lighter": {
+                    "name": "Zapalniczka",
+                    "description": "<hr />\n<p><strong>Zniszczenie</strong> 1</p>"
+                },
+                "weapon->Molotov Cocktail": {
+                    "name": "Koktajl Mołotowa",
+                    "description": "<p><strong>Zniszczenie</strong> C</p>"
+                },
+                "melee->Branch": {
+                    "name": "Gałąź"
+                },
+                "melee->Crude Pistol": {
+                    "name": "Prymitywny Pistolet"
+                },
+                "melee->Molotov Cocktail": {
+                    "name": "Koktajl Mołotowa",
+                    "description": "<p>Plus [[/r 1d6[splash,fire]]]</p>"
+                },
+                "action->+4 Item Bonus On Saving Throws Against Acid, Fire, Infections, Poison, And Smoke": {
+                    "name": "+4 premii do rzutów obronnych przeciwko kwasowi, ogniu, infekcjom, truciźnie i dymowi"
+                },
+                "action->Burning Branch": {
+                    "name": "Płonąca Gałąź",
+                    "description": "<p>Za pomocą zapalniczki piroman podpala gałąź. Przez następne dwie rundy wszelkie ataki płonącą gałęzią, które trafią cel, zadają dodatkowe [[/r 1d4[fire]]]. Gałąź otrzymuje 1 punkt obrażeń na koniec tury piromana.</p>\n<p>@UUID[Compendium.hopefinder.effects.AIkvpZ8dxtrrlrJ3]</p>"
+                },
+                "action->Immolate": {
+                    "name": "Samozapłon",
+                    "description": "<p>Jeśli piroman otrzyma krytyczne trafienie bronią obuchową, kilka butelek z łatwopalną cieczą przymocowanych do jego ciała pęknie. Jeśli dzierży płonącą gałąź lub otrzyma obrażenia od ognia, płyny te ulegają zapaleniu, a piroman otrzymuje [[/r 2d6[persistent,fire]]] @UUID[Compendium.pf2e.conditionitems.Item.lDVqvLKA6eF3Df60]{Trwałe obrażenia od ognia}, a wszystkie jego ataki wręcz zadają dodatkowe [[/r 1d6[fire]]] obrażenia.</p>"
+                }
+            }
         },
         "Rad Zombie": {
-            "name": "Rad Zombie"
-        },
-        "Radiation Sickness": {
-            "name": "Radiation Sickness"
-        },
-        "Radioactive": {
-            "name": "Radioactive"
-        },
-        "Rage": {
-            "name": "Szał"
+            "name": "Radioaktywny Zombie",
+            "items": {
+                "action->Z-Plague": {
+                    "name": "Plaga Z",
+                    "description": "<p>@Check[type:fortitude|dc:16|traits:secret] Zarażony przenosi Plagę Z poprzez swoje szczęki i tylko w przypadku trafienia krytycznego.</p>\n<hr />\n<p>Ci, którzy przeżyli początkową epidemię zombie, która doprowadziła do upadku cywilizacji, zrobili to dzięki połączeniu środków ostrożności i odrobinie szczęścia genetycznego. Nie oznacza to jednak, że nikt nie jest całkowicie niewrażliwy. Nawet ci, którym udało się otrzymać upragnioną szczepionkę „Z-Noc”, zyskują jedynie odporność na infekcję w stadium 1.</p>\n<p>Jeśli zostaniesz narażony na Plagę Z (technicznie nazywaną amebowym zapaleniem mózgu Zynocol), narrator spróbuje wykonać tajny rzut obronny na Wytrwałość. Jeśli nie uda ci się ten rzut, zachorujesz na pierwszy etap choroby. Jeśli rzut zakończy się krytyczną porażką, zachorujesz na chorobę i stracisz 1 punkt NADZIEI podczas następnego odpoczynku.</p>\n<p><strong>Etap 1</strong>: Każdego dnia tracisz 1 punkt NADZIEI, stając się coraz bardziej ponury. Nie możesz zyskać NADZIEI. Osoby w twoim otoczeniu mogą poprosić o sprawdzenie @UUID[Compendium.pf2e.actionspf2e.Item.1xRFPTFtWtGJ9ELw] przy użyciu Percepcji, aby zauważyć, że coś jest nie tak. Pod koniec każdego dnia spróbuj wykonać rzut obronny na Wytrwałość przeciwko pierwotnemu ST. Jeśli uda ci się wykonać 2 rzuty obronne w ciągu dwóch kolejnych dni lub wykonasz rzut obronny z wynikiem krytycznym, uda ci się pozbyć infekcji i przestać tracić nadzieję. Jeśli wyczerpie się twoja nadzieja i będziesz musiał stracić kolejną, przejdziesz do etapu 2.</p>\n<p><strong>Etap 2</strong>: Stajesz się @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Ogłupiony 1}, a narrator potajemnie rzuca kostką k20, aby ustalić czas trwania w godzinach. Pod koniec tego czasu wartość Ogłupienia wzrasta o 1, a narrator ponownie rzuca kostką, aby ustalić czas trwania. Gdy wartość Ogłupienia jest większa niż suma wszystkich trzech modyfikatorów zdolności umysłowych (Int, Mdr, Cha), przechodzisz do etapu 3. Nie ma znanego sposobu na rzut obronny, aby uratować osobę, która osiągnęła etap 2. Zainfekowane osoby w etapie 2 są zakaźne i rozprzestrzeniają pasożyty poprzez kaszel i inne płyny ustrojowe. Każdy, kto spędzi więcej niż 1 minutę w odległości 10 stóp od osoby zarażonej, musi wykonać rzut obronny na Wytrwałość (o tym samym ST co osoba zarażona), aby uniknąć zarażenia się plagą.</p>\n<p><strong>Etap 3</strong>: Upadłeś, będąc @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Nieprzytomny} i tracisz [[/r 1d4]] Punktów Wytrzymałości na minutę. Kiedy Twoje Punkty Wytrzymałości osiągną 0, umierasz i powstajesz jako zombie w ciągu [[/r 1d10 #Minuty]]{1k10 minut}.</p>"
+                },
+                "action->Zombie Immuinities": {
+                    "name": "Odporności Zombie",
+                    "description": "<p>Jako martwe istoty, zombie są niewrażliwe na wiele czynników, które mają wpływ na żywych. O ile nie zaznaczono inaczej, zombie są niewrażliwe na choroby, efekty psychiczne, trucizny i wszystko, co mogłoby spowodować ich @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Nieprzytomność}. Zombie nie odnoszą siniaków ani nie muszą jeść ani pić (chociaż niektóre z nich zyskują dodatkowe zdolności, jeśli niedawno spożyły żywe mięso). Zombie zostają natychmiast zniszczone po zmniejszeniu ich Punktu Wytrzymałości do 0.</p>"
+                },
+                "action->Cherenkov Glow": {
+                    "name": "Blask Czerenkowa",
+                    "description": "<p>Radioaktywny zombie świeci niebieskim światłem. Nie udaje mu się żadna próba ukrycia w słabym świetle lub ciemności, ale w takich warunkach jest @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Przysłonięty} przed atakami z odległości większej niż 20 stóp.</p>"
+                },
+                "action->Radioactive": {
+                    "name": "Radioaktywny",
+                    "description": "<p>@Template[type:emanation|distance:10] @Compendium[pf2e.bestiary-ability-glossary-srd.Aura]{Aura}</p>\n<p>Istoty żywe, które rozpoczynają swoją turę w tej aurze, otrzymują [[/r 2d6[poison]]] (@Check[type:fortitude|dc:20|basic:true]). Istoty żywe, którym nie powiedzie się rzut obronny, otrzymują również chorobę popromienną.</p>"
+                },
+                "action->Radiation Sickness": {
+                    "name": "Choroba Popromienna",
+                    "description": "<p>Istoty żywe, które zostały poszkodowane przez ataki wręcz radioaktywnego zombie, muszą wykonać rzut obronny @Check[type:fortitude|dc:20]. Te, którym nie powiedzie się, zapadają na chorobę popromienną (podobnie jak te, którym krytycznie nie powiedzie się rzut obronny przeciwko radioaktywnej aurze). Na początku każdego dnia osoby cierpiące na chorobę popromienną otrzymują [[/r 1d4[poison]]], której nie można się oprzeć ani wyleczyć. Następnie wykonują rzut obronny @Check[type:fortitude|dc:20]. Te, którym się powiedzie, wyleczają się z choroby. Suplementy jodu dają +4 premii do tego rzutu obronnego.</p>"
+                },
+                "melee->Jaws": {
+                    "name": "Szczęki"
+                },
+                "melee->Fist": {
+                    "name": "Pięść"
+                }
+            }
         },
         "Raider": {
-            "name": "Raider"
+            "name": "Najeźdźca",
+            "items": {
+                "weapon->Crude Pistol": {
+                    "name": "Prymitywny Pistolet",
+                    "description": "<p><strong>Zniszczenie</strong> 2</p>"
+                },
+                "weapon->Crude Spear": {
+                    "name": "Prymitywna Włócznia",
+                    "description": "<p><strong>Zniszczenie</strong> 1</p>"
+                },
+                "weapon->Wrench": {
+                    "name": "Klucz Płaski",
+                    "description": "<p><strong>Zniszczenie</strong> 4</p>"
+                },
+                "consumable->Bullets (Pistol)": {
+                    "name": "Pociski (pistolet)",
+                    "description": "<p>Standardowa amunicja. Zadaje obrażenia określone w opisie broni.</p>\n<hr />\n<p><strong>Zniszczenie</strong> 1</p>"
+                },
+                "consumable->Canned Goods (Expired)": {
+                    "name": "Konserwy (przeterminowane)",
+                    "description": "<p>Liczy się jako 1 posiłek. Jeśli zjesz przeterminowaną żywność, musisz wykonać test @Check[type:fortitude|dc:15] lub dostaniesz @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Mdłości} na 1 dzień.</p>\n<hr />\n<p><strong>Zniszczenie</strong> 1</p>"
+                },
+                "armor->Workwear": {
+                    "name": "Odzież Robocza",
+                    "description": "<p><strong>Ochrona</strong> 2 Obuchowe / Kłute / Cięte</p>\n<p><strong>Zniszczenie</strong> 10</p>"
+                },
+                "melee->Crude Spear": {
+                    "name": "Prymitywna Włócznia"
+                },
+                "melee->Crude Pistol": {
+                    "name": "Prymitywny Pistolet"
+                },
+                "action->Menace": {
+                    "name": "Zagrożenie",
+                    "description": "<p>Najeźdźca otrzymuje premię okolicznościową +1 do testów Zastraszania wykonanych w celu @Compendium[pf2e.actionspf2e.2u915NdUyQan6uKF]{Demoralizacji} za każdego innego widocznego najeźdźcę lub wojownika drogowego w okolicy (maksymalnie +4).</p>\n<p>@UUID[Compendium.hopefinder.effects.SIbzbl01JvQibJFx]</p>"
+                },
+                "action->Reckless Charge": {
+                    "name": "Lekkomyślna Szarża",
+                    "description": "<p>Najeźdźca wykonuje Bieg i na końcu tego ruchu wykonuje Atak wręcz. Najeźdźca pozostaje w stanie @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Odsłonięty} do początku swojej następnej tury.</p>"
+                }
+            }
         },
         "Rat King": {
-            "name": "Rat King",
-            "blurb": "Zombie rat"
-        },
-        "Ration (Bar)": {
-            "name": "Ration (Bar)"
-        },
-        "Reckless Charge": {
-            "name": "Lekkomyślna Szarża"
+            "name": "Król Szczurów",
+            "blurb": "Zombie szczur",
+            "items": {
+                "action->Z-Plague": {
+                    "name": "Plaga Z",
+                    "description": "<p>@Check[type:fortitude|dc:16|traits:secret] Zarażony przenosi Plagę Z poprzez swoje szczęki i tylko w przypadku trafienia krytycznego.</p>\n<hr />\n<p>Ci, którzy przeżyli początkową epidemię zombie, która doprowadziła do upadku cywilizacji, zrobili to dzięki połączeniu środków ostrożności i odrobinie szczęścia genetycznego. Nie oznacza to jednak, że nikt nie jest całkowicie niewrażliwy. Nawet ci, którym udało się otrzymać upragnioną szczepionkę „Z-Noc”, zyskują jedynie odporność na infekcję w stadium 1.</p>\n<p>Jeśli zostaniesz narażony na Plagę Z (technicznie nazywaną amebowym zapaleniem mózgu Zynocol), narrator spróbuje wykonać tajny rzut obronny na Wytrwałość. Jeśli nie uda ci się ten rzut, zachorujesz na pierwszy etap choroby. Jeśli rzut zakończy się krytyczną porażką, zachorujesz na chorobę i stracisz 1 punkt NADZIEI podczas następnego odpoczynku.</p>\n<p><strong>Etap 1</strong>: Każdego dnia tracisz 1 punkt NADZIEI, stając się coraz bardziej ponury. Nie możesz zyskać NADZIEI. Osoby w twoim otoczeniu mogą poprosić o sprawdzenie @UUID[Compendium.pf2e.actionspf2e.Item.1xRFPTFtWtGJ9ELw] przy użyciu Percepcji, aby zauważyć, że coś jest nie tak. Pod koniec każdego dnia spróbuj wykonać rzut obronny na Wytrwałość przeciwko pierwotnemu ST. Jeśli uda ci się wykonać 2 rzuty obronne w ciągu dwóch kolejnych dni lub wykonasz rzut obronny z wynikiem krytycznym, uda ci się pozbyć infekcji i przestać tracić nadzieję. Jeśli wyczerpie się twoja nadzieja i będziesz musiał stracić kolejną, przejdziesz do etapu 2.</p>\n<p><strong>Etap 2</strong>: Stajesz się @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Ogłupiony 1}, a narrator potajemnie rzuca kostką k20, aby ustalić czas trwania w godzinach. Pod koniec tego czasu wartość Ogłupienia wzrasta o 1, a narrator ponownie rzuca kostką, aby ustalić czas trwania. Gdy wartość Ogłupienia jest większa niż suma wszystkich trzech modyfikatorów zdolności umysłowych (Int, Mdr, Cha), przechodzisz do etapu 3. Nie ma znanego sposobu na rzut obronny, aby uratować osobę, która osiągnęła etap 2. Zainfekowane osoby w etapie 2 są zakaźne i rozprzestrzeniają pasożyty poprzez kaszel i inne płyny ustrojowe. Każdy, kto spędzi więcej niż 1 minutę w odległości 10 stóp od osoby zarażonej, musi wykonać rzut obronny na Wytrwałość (o tym samym ST co osoba zarażona), aby uniknąć zarażenia się plagą.</p>\n<p><strong>Etap 3</strong>: Upadłeś, będąc @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Nieprzytomny} i tracisz [[/r 1d4]] Punktów Wytrzymałości na minutę. Kiedy Twoje Punkty Wytrzymałości osiągną 0, umierasz i powstajesz jako zombie w ciągu [[/r 1d10 #Minuty]]{1k10 minut}.</p>"
+                },
+                "action->Zombie Immuinities": {
+                    "name": "Odporności Zombie",
+                    "description": "<p>Jako martwe istoty, zombie są niewrażliwe na wiele czynników, które mają wpływ na żywych. O ile nie zaznaczono inaczej, zombie są niewrażliwe na choroby, efekty psychiczne, trucizny i wszystko, co mogłoby spowodować ich @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Nieprzytomność}. Zombie nie odnoszą siniaków ani nie muszą jeść ani pić (chociaż niektóre z nich zyskują dodatkowe zdolności, jeśli niedawno spożyły żywe mięso). Zombie zostają natychmiast zniszczone po zmniejszeniu ich Punktu Wytrzymałości do 0.</p>"
+                },
+                "melee->Jaws": {
+                    "name": "Szczęki"
+                },
+                "action->R.O.U.S": {
+                    "name": "R.O.U.S",
+                    "description": "<p>Duży rozmiar króla szczurów wynika z tego, że jest on zarażony mniejszymi szczurami Z, które nosi w sobie. Kiedy król szczurów umiera, [[/br 1d4 #Szczury Z]] @UUID[Compendium.hopefinder.hopefinder-bestiary.i0zfqzuuKte4qXJy]{Szczury Z} wyłaniają się z jego ciała w następnej rundzie.</p>"
+                }
+            }
         },
         "Road Warrior": {
-            "name": "Road Warrior"
+            "name": "Wojownik Szos",
+            "items": {
+                "lore->Driving": {
+                    "name": "Prowadzenie Pojazdu"
+                },
+                "lore->Machinery": {
+                    "name": "Maszyny"
+                },
+                "weapon->Baseball Bat": {
+                    "name": "Kij Bejsbolowy",
+                    "description": "<p><strong>Zniszczenie</strong> 4</p>"
+                },
+                "armor->Biker Gear": {
+                    "name": "Wyposażenie Motocyklisty",
+                    "description": "<p><strong>Ochrona</strong> 3 Obuchowe / Kłute / Cięte</p>\n<p><strong>Zniszczenie</strong> 10</p>"
+                },
+                "weapon->Crowbar": {
+                    "name": "Łom",
+                    "description": "<p><strong>Zniszczenie</strong> 4</p>"
+                },
+                "consumable->Liquor": {
+                    "name": "Alkohol",
+                    "description": "<p>Liczy się jako -1 punkt Nawodnienia. Jego wypicie usuwa 2 siniaki. Można skorzystać tylko z tego raz na dzień.</p>\n<hr />\n<p><strong>Zniszczenie</strong> 1</p>"
+                },
+                "consumable->Ration (Bar)": {
+                    "name": "Racja Żywnościowa (baton)",
+                    "description": "<p>Podstawowy batonik wojskowy. Liczy się jako 1 porcja jedzenia.</p>\n<hr />\n<p><strong>Zniszczenie</strong> 1</p>"
+                },
+                "weapon->Pump Shotgun": {
+                    "name": "Strzelba Pompowa",
+                    "description": "<p><strong>Zniszczenie</strong> 4</p>"
+                },
+                "consumable->Bullets (Shotgun)": {
+                    "name": "Pociski (strzelba)",
+                    "description": "<p>Standardowa amunicja. Zadaje obrażenia określone w opisie broni.</p>\n<hr />\n<p><strong>Zniszczenie</strong> 1</p>"
+                },
+                "melee->Baseball Bat": {
+                    "name": "Kij Bejsbolowy"
+                },
+                "melee->Pump Shotgun": {
+                    "name": "Strzelba Pompowa"
+                },
+                "action->Swipe": {
+                    "name": "Zamaszysty Atak",
+                    "description": "<p>Wojownik szosowy wykonuje dwa Ataki bronią białą typu obuchowe lub cięte przeciwko dwóm różnym sąsiadującym przeciwnikom. Oba ataki wliczają się do kary za wielokrotny atak, ale dopiero po rozstrzygnięciu obu ataków.</p>"
+                },
+                "action->Drive-By": {
+                    "name": "Przejazdem",
+                    "description": "<p>Wojownik szosowy nie otrzymuje żadnych kar za wykonywanie ataków z dystansu z poruszającego się pojazdu.</p>"
+                },
+                "action->Menace": {
+                    "name": "Zagrożenie",
+                    "description": "<p>Wojownik szosowy otrzymuje premię okolicznościową +1 do testów Zastraszania wykonanych w celu @Compendium[pf2e.actionspf2e.2u915NdUyQan6uKF]{Demoralizacji} za każdego innego widocznego najeźdźcę lub wojownika szos w okolicy (maksymalnie +4).</p>\n<p>@Compendium[hopefinder.effects.SIbzbl01JvQibJFx]</p>"
+                }
+            }
         },
         "Runner": {
-            "name": "Biegacz"
-        },
-        "Rush": {
-            "name": "Pośpiech"
-        },
-        "Scavenge": {
-            "name": "Scavenge"
-        },
-        "Scent": {
-            "name": "Zmysł Węchu"
-        },
-        "Scent (Imprecise) 30 feet": {
-            "name": "Zmysł Węchu (nieprecyzyjny) 30 stóp"
-        },
-        "Semiauto Pistol": {
-            "name": "Semiauto Pistol"
-        },
-        "Sense Infected (Imprecise) 60 feet": {
-            "name": "Sense Infected (Imprecise) 60 feet"
+            "name": "Biegacz",
+            "items": {
+                "action->Z-Plague": {
+                    "name": "Plaga Z",
+                    "description": "<p>@Check[type:fortitude|dc:16|traits:secret] Zarażony przenosi Plagę Z poprzez swoje szczęki i tylko w przypadku trafienia krytycznego.</p>\n<hr />\n<p>Ci, którzy przeżyli początkową epidemię zombie, która doprowadziła do upadku cywilizacji, zrobili to dzięki połączeniu środków ostrożności i odrobinie szczęścia genetycznego. Nie oznacza to jednak, że nikt nie jest całkowicie niewrażliwy. Nawet ci, którym udało się otrzymać upragnioną szczepionkę „Z-Noc”, zyskują jedynie odporność na infekcję w stadium 1.</p>\n<p>Jeśli zostaniesz narażony na Plagę Z (technicznie nazywaną amebowym zapaleniem mózgu Zynocol), narrator spróbuje wykonać tajny rzut obronny na Wytrwałość. Jeśli nie uda ci się ten rzut, zachorujesz na pierwszy etap choroby. Jeśli rzut zakończy się krytyczną porażką, zachorujesz na chorobę i stracisz 1 punkt NADZIEI podczas następnego odpoczynku.</p>\n<p><strong>Etap 1</strong>: Każdego dnia tracisz 1 punkt NADZIEI, stając się coraz bardziej ponury. Nie możesz zyskać NADZIEI. Osoby w twoim otoczeniu mogą poprosić o sprawdzenie @UUID[Compendium.pf2e.actionspf2e.Item.1xRFPTFtWtGJ9ELw] przy użyciu Percepcji, aby zauważyć, że coś jest nie tak. Pod koniec każdego dnia spróbuj wykonać rzut obronny na Wytrwałość przeciwko pierwotnemu ST. Jeśli uda ci się wykonać 2 rzuty obronne w ciągu dwóch kolejnych dni lub wykonasz rzut obronny z wynikiem krytycznym, uda ci się pozbyć infekcji i przestać tracić nadzieję. Jeśli wyczerpie się twoja nadzieja i będziesz musiał stracić kolejną, przejdziesz do etapu 2.</p>\n<p><strong>Etap 2</strong>: Stajesz się @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Ogłupiony 1}, a narrator potajemnie rzuca kostką k20, aby ustalić czas trwania w godzinach. Pod koniec tego czasu wartość Ogłupienia wzrasta o 1, a narrator ponownie rzuca kostką, aby ustalić czas trwania. Gdy wartość Ogłupienia jest większa niż suma wszystkich trzech modyfikatorów zdolności umysłowych (Int, Mdr, Cha), przechodzisz do etapu 3. Nie ma znanego sposobu na rzut obronny, aby uratować osobę, która osiągnęła etap 2. Zainfekowane osoby w etapie 2 są zakaźne i rozprzestrzeniają pasożyty poprzez kaszel i inne płyny ustrojowe. Każdy, kto spędzi więcej niż 1 minutę w odległości 10 stóp od osoby zarażonej, musi wykonać rzut obronny na Wytrwałość (o tym samym ST co osoba zarażona), aby uniknąć zarażenia się plagą.</p>\n<p><strong>Etap 3</strong>: Upadłeś, będąc @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Nieprzytomny} i tracisz [[/r 1d4]] Punktów Wytrzymałości na minutę. Kiedy Twoje Punkty Wytrzymałości osiągną 0, umierasz i powstajesz jako zombie w ciągu [[/r 1d10 #Minuty]]{1k10 minut}.</p>"
+                },
+                "action->Zombie Immuinities": {
+                    "name": "Odporności Zombie",
+                    "description": "<p>Jako martwe istoty, zombie są niewrażliwe na wiele czynników, które mają wpływ na żywych. O ile nie zaznaczono inaczej, zombie są niewrażliwe na choroby, efekty psychiczne, trucizny i wszystko, co mogłoby spowodować ich @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Nieprzytomność}. Zombie nie odnoszą siniaków ani nie muszą jeść ani pić (chociaż niektóre z nich zyskują dodatkowe zdolności, jeśli niedawno spożyły żywe mięso). Zombie zostają natychmiast zniszczone po zmniejszeniu ich Punktu Wytrzymałości do 0.</p>"
+                },
+                "melee->Jaws": {
+                    "name": "Szczęki"
+                },
+                "melee->Fist": {
+                    "name": "Pięść"
+                },
+                "action->Body Slam": {
+                    "name": "Uderzenie Ciałem",
+                    "description": "<p>Biegacz porusza się z szybkością dwukrotnie większą od swojej normalnej, kończąc ruch w polu sąsiadującym z innym stworzeniem. Uderza w to stworzenie, wykonując test Akrobatyki przeciwko jego ST Wytrwałości. Jeśli test się powiedzie, zarówno cel, jak i biegacz zostają @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Przewróceni} (tylko cel w przypadku krytycznego sukcesu). W przypadku niepowodzenia żadne ze stworzeń nie zostaje przewrócone, a w przypadku krytycznej porażki tylko biegacz zostaje przewrócony..</p>"
+                }
+            }
         },
         "Shambler": {
-            "name": "Szwędacz"
-        },
-        "Shred": {
-            "name": "Szarpanie"
-        },
-        "Silent Stalker": {
-            "name": "Silent Stalker"
-        },
-        "Sledgehammer": {
-            "name": "Sledgehammer"
-        },
-        "Slow": {
-            "name": "Spowolnienie"
-        },
-        "Sneak Attack": {
-            "name": "Podstępny Atak"
+            "name": "Szwędacz",
+            "items": {
+                "action->Z-Plague": {
+                    "name": "Plaga Z",
+                    "description": "<p>@Check[type:fortitude|dc:16|traits:secret] Zarażony przenosi Plagę Z poprzez swoje szczęki i tylko w przypadku trafienia krytycznego.</p>\n<hr />\n<p>Ci, którzy przeżyli początkową epidemię zombie, która doprowadziła do upadku cywilizacji, zrobili to dzięki połączeniu środków ostrożności i odrobinie szczęścia genetycznego. Nie oznacza to jednak, że nikt nie jest całkowicie niewrażliwy. Nawet ci, którym udało się otrzymać upragnioną szczepionkę „Z-Noc”, zyskują jedynie odporność na infekcję w stadium 1.</p>\n<p>Jeśli zostaniesz narażony na Plagę Z (technicznie nazywaną amebowym zapaleniem mózgu Zynocol), narrator spróbuje wykonać tajny rzut obronny na Wytrwałość. Jeśli nie uda ci się ten rzut, zachorujesz na pierwszy etap choroby. Jeśli rzut zakończy się krytyczną porażką, zachorujesz na chorobę i stracisz 1 punkt NADZIEI podczas następnego odpoczynku.</p>\n<p><strong>Etap 1</strong>: Każdego dnia tracisz 1 punkt NADZIEI, stając się coraz bardziej ponury. Nie możesz zyskać NADZIEI. Osoby w twoim otoczeniu mogą poprosić o sprawdzenie @UUID[Compendium.pf2e.actionspf2e.Item.1xRFPTFtWtGJ9ELw] przy użyciu Percepcji, aby zauważyć, że coś jest nie tak. Pod koniec każdego dnia spróbuj wykonać rzut obronny na Wytrwałość przeciwko pierwotnemu ST. Jeśli uda ci się wykonać 2 rzuty obronne w ciągu dwóch kolejnych dni lub wykonasz rzut obronny z wynikiem krytycznym, uda ci się pozbyć infekcji i przestać tracić nadzieję. Jeśli wyczerpie się twoja nadzieja i będziesz musiał stracić kolejną, przejdziesz do etapu 2.</p>\n<p><strong>Etap 2</strong>: Stajesz się @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Ogłupiony 1}, a narrator potajemnie rzuca kostką k20, aby ustalić czas trwania w godzinach. Pod koniec tego czasu wartość Ogłupienia wzrasta o 1, a narrator ponownie rzuca kostką, aby ustalić czas trwania. Gdy wartość Ogłupienia jest większa niż suma wszystkich trzech modyfikatorów zdolności umysłowych (Int, Mdr, Cha), przechodzisz do etapu 3. Nie ma znanego sposobu na rzut obronny, aby uratować osobę, która osiągnęła etap 2. Zainfekowane osoby w etapie 2 są zakaźne i rozprzestrzeniają pasożyty poprzez kaszel i inne płyny ustrojowe. Każdy, kto spędzi więcej niż 1 minutę w odległości 10 stóp od osoby zarażonej, musi wykonać rzut obronny na Wytrwałość (o tym samym ST co osoba zarażona), aby uniknąć zarażenia się plagą.</p>\n<p><strong>Etap 3</strong>: Upadłeś, będąc @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Nieprzytomny} i tracisz [[/r 1d4]] Punktów Wytrzymałości na minutę. Kiedy Twoje Punkty Wytrzymałości osiągną 0, umierasz i powstajesz jako zombie w ciągu [[/r 1d10 #Minuty]]{1k10 minut}.</p>"
+                },
+                "action->Zombie Immuinities": {
+                    "name": "Odporności Zombie",
+                    "description": "<p>Jako martwe istoty, zombie są niewrażliwe na wiele czynników, które mają wpływ na żywych. O ile nie zaznaczono inaczej, zombie są niewrażliwe na choroby, efekty psychiczne, trucizny i wszystko, co mogłoby spowodować ich @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Nieprzytomność}. Zombie nie odnoszą siniaków ani nie muszą jeść ani pić (chociaż niektóre z nich zyskują dodatkowe zdolności, jeśli niedawno spożyły żywe mięso). Zombie zostają natychmiast zniszczone po zmniejszeniu ich Punktu Wytrzymałości do 0.</p>"
+                },
+                "melee->Fist": {
+                    "name": "Pięść"
+                },
+                "melee->Gnaw": {
+                    "name": "Obgryzanie",
+                    "description": "<p><strong>Wymagania</strong> Szwędacz posiada stworzenie @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Pochwycone} lub @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Obezwładnione}.</p>"
+                },
+                "action->Slow": {
+                    "name": "Spowolnienie",
+                    "description": "<p>Szwędacz wykonuje tylko 2 akcje w każdej rundzie i nie może podejmować reakcji.</p>"
+                },
+                "action->Groan": {
+                    "name": "Jęk",
+                    "description": "<p>Szwędacze wydają z siebie ciche jęki i pomruki podczas ruchu, co powoduje, że otrzymują oni karę -4 do testów Ukrycia.</p>"
+                }
+            }
         },
         "Sneaker": {
-            "name": "Sneaker"
+            "name": "Skradacz",
+            "items": {
+                "action->Z-Plague": {
+                    "name": "Plaga Z",
+                    "description": "<p>@Check[type:fortitude|dc:16|traits:secret] Zarażony przenosi Plagę Z poprzez swoje szczęki i tylko w przypadku trafienia krytycznego.</p>\n<hr />\n<p>Ci, którzy przeżyli początkową epidemię zombie, która doprowadziła do upadku cywilizacji, zrobili to dzięki połączeniu środków ostrożności i odrobinie szczęścia genetycznego. Nie oznacza to jednak, że nikt nie jest całkowicie niewrażliwy. Nawet ci, którym udało się otrzymać upragnioną szczepionkę „Z-Noc”, zyskują jedynie odporność na infekcję w stadium 1.</p>\n<p>Jeśli zostaniesz narażony na Plagę Z (technicznie nazywaną amebowym zapaleniem mózgu Zynocol), narrator spróbuje wykonać tajny rzut obronny na Wytrwałość. Jeśli nie uda ci się ten rzut, zachorujesz na pierwszy etap choroby. Jeśli rzut zakończy się krytyczną porażką, zachorujesz na chorobę i stracisz 1 punkt NADZIEI podczas następnego odpoczynku.</p>\n<p><strong>Etap 1</strong>: Każdego dnia tracisz 1 punkt NADZIEI, stając się coraz bardziej ponury. Nie możesz zyskać NADZIEI. Osoby w twoim otoczeniu mogą poprosić o sprawdzenie @UUID[Compendium.pf2e.actionspf2e.Item.1xRFPTFtWtGJ9ELw] przy użyciu Percepcji, aby zauważyć, że coś jest nie tak. Pod koniec każdego dnia spróbuj wykonać rzut obronny na Wytrwałość przeciwko pierwotnemu ST. Jeśli uda ci się wykonać 2 rzuty obronne w ciągu dwóch kolejnych dni lub wykonasz rzut obronny z wynikiem krytycznym, uda ci się pozbyć infekcji i przestać tracić nadzieję. Jeśli wyczerpie się twoja nadzieja i będziesz musiał stracić kolejną, przejdziesz do etapu 2.</p>\n<p><strong>Etap 2</strong>: Stajesz się @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Ogłupiony 1}, a narrator potajemnie rzuca kostką k20, aby ustalić czas trwania w godzinach. Pod koniec tego czasu wartość Ogłupienia wzrasta o 1, a narrator ponownie rzuca kostką, aby ustalić czas trwania. Gdy wartość Ogłupienia jest większa niż suma wszystkich trzech modyfikatorów zdolności umysłowych (Int, Mdr, Cha), przechodzisz do etapu 3. Nie ma znanego sposobu na rzut obronny, aby uratować osobę, która osiągnęła etap 2. Zainfekowane osoby w etapie 2 są zakaźne i rozprzestrzeniają pasożyty poprzez kaszel i inne płyny ustrojowe. Każdy, kto spędzi więcej niż 1 minutę w odległości 10 stóp od osoby zarażonej, musi wykonać rzut obronny na Wytrwałość (o tym samym ST co osoba zarażona), aby uniknąć zarażenia się plagą.</p>\n<p><strong>Etap 3</strong>: Upadłeś, będąc @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Nieprzytomny} i tracisz [[/r 1d4]] Punktów Wytrzymałości na minutę. Kiedy Twoje Punkty Wytrzymałości osiągną 0, umierasz i powstajesz jako zombie w ciągu [[/r 1d10 #Minuty]]{1k10 minut}.</p>"
+                },
+                "action->Zombie Immuinities": {
+                    "name": "Odporności Zombie",
+                    "description": "<p>Jako martwe istoty, zombie są niewrażliwe na wiele czynników, które mają wpływ na żywych. O ile nie zaznaczono inaczej, zombie są niewrażliwe na choroby, efekty psychiczne, trucizny i wszystko, co mogłoby spowodować ich @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Nieprzytomność}. Zombie nie odnoszą siniaków ani nie muszą jeść ani pić (chociaż niektóre z nich zyskują dodatkowe zdolności, jeśli niedawno spożyły żywe mięso). Zombie zostają natychmiast zniszczone po zmniejszeniu ich Punktu Wytrzymałości do 0.</p>"
+                },
+                "melee->Jaws": {
+                    "name": "Szczęki"
+                },
+                "melee->Fist": {
+                    "name": "Pięść"
+                },
+                "action->Ambush": {
+                    "name": "Zasadzka",
+                    "description": "<p>Skradacze często czają się w ukryciu, czekając, aż ofiara zbliży się na odległość 20 stóp, po czym rzucają się do ataku. Skradacze zadają dodatkowe 1k4 obrażenia precyzyjne przy atakach wymierzonych w przeciwników zaskoczonych w pierwszej rundzie walki.</p>"
+                }
+            }
         },
         "Soldier": {
-            "name": "Soldier"
-        },
-        "Spew Parasites": {
-            "name": "Spew Parasites"
-        },
-        "Sports Protection": {
-            "name": "Sports Protection"
-        },
-        "Spray": {
-            "name": "Pryśnięcie"
-        },
-        "Spring and Attack": {
-            "name": "Spring and Attack"
+            "name": "Żołnierz",
+            "items": {
+                "action->Z-Plague": {
+                    "name": "Plaga Z",
+                    "description": "<p>@Check[type:fortitude|dc:16|traits:secret] Zarażony przenosi Plagę Z poprzez swoje szczęki i tylko w przypadku trafienia krytycznego.</p>\n<hr />\n<p>Ci, którzy przeżyli początkową epidemię zombie, która doprowadziła do upadku cywilizacji, zrobili to dzięki połączeniu środków ostrożności i odrobinie szczęścia genetycznego. Nie oznacza to jednak, że nikt nie jest całkowicie niewrażliwy. Nawet ci, którym udało się otrzymać upragnioną szczepionkę „Z-Noc”, zyskują jedynie odporność na infekcję w stadium 1.</p>\n<p>Jeśli zostaniesz narażony na Plagę Z (technicznie nazywaną amebowym zapaleniem mózgu Zynocol), narrator spróbuje wykonać tajny rzut obronny na Wytrwałość. Jeśli nie uda ci się ten rzut, zachorujesz na pierwszy etap choroby. Jeśli rzut zakończy się krytyczną porażką, zachorujesz na chorobę i stracisz 1 punkt NADZIEI podczas następnego odpoczynku.</p>\n<p><strong>Etap 1</strong>: Każdego dnia tracisz 1 punkt NADZIEI, stając się coraz bardziej ponury. Nie możesz zyskać NADZIEI. Osoby w twoim otoczeniu mogą poprosić o sprawdzenie @UUID[Compendium.pf2e.actionspf2e.Item.1xRFPTFtWtGJ9ELw] przy użyciu Percepcji, aby zauważyć, że coś jest nie tak. Pod koniec każdego dnia spróbuj wykonać rzut obronny na Wytrwałość przeciwko pierwotnemu ST. Jeśli uda ci się wykonać 2 rzuty obronne w ciągu dwóch kolejnych dni lub wykonasz rzut obronny z wynikiem krytycznym, uda ci się pozbyć infekcji i przestać tracić nadzieję. Jeśli wyczerpie się twoja nadzieja i będziesz musiał stracić kolejną, przejdziesz do etapu 2.</p>\n<p><strong>Etap 2</strong>: Stajesz się @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Ogłupiony 1}, a narrator potajemnie rzuca kostką k20, aby ustalić czas trwania w godzinach. Pod koniec tego czasu wartość Ogłupienia wzrasta o 1, a narrator ponownie rzuca kostką, aby ustalić czas trwania. Gdy wartość Ogłupienia jest większa niż suma wszystkich trzech modyfikatorów zdolności umysłowych (Int, Mdr, Cha), przechodzisz do etapu 3. Nie ma znanego sposobu na rzut obronny, aby uratować osobę, która osiągnęła etap 2. Zainfekowane osoby w etapie 2 są zakaźne i rozprzestrzeniają pasożyty poprzez kaszel i inne płyny ustrojowe. Każdy, kto spędzi więcej niż 1 minutę w odległości 10 stóp od osoby zarażonej, musi wykonać rzut obronny na Wytrwałość (o tym samym ST co osoba zarażona), aby uniknąć zarażenia się plagą.</p>\n<p><strong>Etap 3</strong>: Upadłeś, będąc @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Nieprzytomny} i tracisz [[/r 1d4]] Punktów Wytrzymałości na minutę. Kiedy Twoje Punkty Wytrzymałości osiągną 0, umierasz i powstajesz jako zombie w ciągu [[/r 1d10 #Minuty]]{1k10 minut}.</p>"
+                },
+                "action->Zombie Immuinities": {
+                    "name": "Odporności Zombie",
+                    "description": "<p>Jako martwe istoty, zombie są niewrażliwe na wiele czynników, które mają wpływ na żywych. O ile nie zaznaczono inaczej, zombie są niewrażliwe na choroby, efekty psychiczne, trucizny i wszystko, co mogłoby spowodować ich @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Nieprzytomność}. Zombie nie odnoszą siniaków ani nie muszą jeść ani pić (chociaż niektóre z nich zyskują dodatkowe zdolności, jeśli niedawno spożyły żywe mięso). Zombie zostają natychmiast zniszczone po zmniejszeniu ich Punktu Wytrzymałości do 0.</p>"
+                },
+                "armor->Bullet Proof Vest": {
+                    "name": "Kamizelka Kuloodporna",
+                    "description": "<p><strong>Ochrona</strong> 5 Obuchowe / Kłute / Cięte</p>\n<p><strong>Zniszczenie</strong> 10</p>"
+                },
+                "equipment->Military Helmet": {
+                    "name": "Hełm Wojskowy",
+                    "description": "<p>Dodaje hełm do twojej zbroi, zapewniając ochronę przed krytycznymi trafieniami.</p>\n<hr />\n<p><strong>Zniszczenie</strong> 8</p>"
+                },
+                "weapon->Semiauto Pistol": {
+                    "name": "Pistolet Półautomatyczny",
+                    "description": "<p><strong>Zniszczenie</strong> 4</p>"
+                },
+                "consumable->Bullets (Pistol)": {
+                    "name": "Pociski (pistolet)",
+                    "description": "<p>Standardowa amunicja. Zadaje obrażenia określone w opisie broni.</p>\n<hr />\n<p><strong>Zniszczenie</strong> 1</p>"
+                },
+                "melee->Jaws": {
+                    "name": "Szczęki"
+                },
+                "melee->Fist": {
+                    "name": "Pięść"
+                },
+                "action->Grab": {
+                    "name": "Złapanie"
+                },
+                "action->Pry Open": {
+                    "name": "Podważanie",
+                    "description": "<p><strong>Wymagania</strong>  Żołnierz ma stworzenie @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei] lub @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM].</p>\n<hr />\n<p><strong>Efekt</strong> Wykorzystując swoją ogromną siłę, żołnierz rozrywa zbroję celu, aby ugryźć jego ciało. Żołnierz próbuje wykonać Atak szczęką na stworzenie, które chwycił lub obezwładnił, z karą okolicznościową -2. Jeśli Atak trafi, ignoruje on odporność zbroi.</p>"
+                },
+                "action->Demolish": {
+                    "name": "Wyburzenie",
+                    "description": "<p>Żołnierz jest szczególnie skuteczny w burzeniu barykad. Żołnierz zadaje dwa razy więcej obrażeń, gdy @Compendium[hopefinder.actions.EAkekNb9khxY2Gir]{Rozbija} obiekt.</p>"
+                }
+            }
         },
         "Starved": {
-            "name": "Starved"
-        },
-        "Swallow Whole": {
-            "name": "Połknięcie w Całości"
-        },
-        "Swing Around": {
-            "name": "Swing Around"
-        },
-        "Swipe": {
-            "name": "Zamaszysty Atak"
-        },
-        "Tentacle": {
-            "name": "Macka"
-        },
-        "Terrifying Growl": {
-            "name": "Terrifying Growl"
-        },
-        "Throw": {
-            "name": "Throw"
+            "name": "Wygłodzony",
+            "items": {
+                "weapon->Bottle": {
+                    "name": "Butelka",
+                    "description": "<p><strong>Zniszczenie</strong> C</p>"
+                },
+                "weapon->Golf Club": {
+                    "name": "Kij Golfowy",
+                    "description": "<p><strong>Zniszczenie</strong> 4</p>"
+                },
+                "melee->Golf Club": {
+                    "name": "Kij Golfowy"
+                },
+                "melee->Bottle": {
+                    "name": "Butelka"
+                },
+                "action->Hangry": {
+                    "name": "Głodny",
+                    "description": "<p>Wygłodzony wpada w szał głodu, który trwa 1 minutę. Podczas szału wygłodzonego jego KP wynosi 13, ale jego ataki wręcz otrzymują premię +2 do obrażeń. Jeśli wygłodzony znajdzie pożywienie podczas szału, zjada je tak szybko, jak to możliwe.</p>\n<p>@Compendium[pf2e.feat-effects.z3uyCMBddrPK5umr]</p>"
+                }
+            }
         },
         "Timber Wolf": {
-            "name": "Timber Wolf"
-        },
-        "Tusk": {
-            "name": "Cios"
+            "name": "Szary Wilk",
+            "items": {
+                "action->Scent (Imprecise) 30 feet": {
+                    "name": "Zmysł Węchu (nieprecyzyjny) 30 stóp"
+                },
+                "action->Knockdown": {
+                    "name": "Powalenie"
+                },
+                "melee->Jaws": {
+                    "name": "Szczęki"
+                },
+                "action->Pack Coordination": {
+                    "name": "Koordynacja Stada",
+                    "description": "<p>Wilk jest traktowany jako otaczający stworzenie, jeśli znajduje się w sąsiedztwie wroga, a sojusznik posiadający tę zdolność również znajduje się w sąsiedztwie. Nie muszą oni znajdować się po przeciwnych stronach.</p>"
+                }
+            }
         },
         "Wanderer": {
-            "name": "Tułacz"
+            "name": "Tułacz",
+            "items": {
+                "weapon->Crude Bow": {
+                    "name": "Prymitywny Łuk",
+                    "description": "<p><strong>Zniszczenie</strong> 2</p>"
+                },
+                "consumable->Arrows": {
+                    "name": "Strzały",
+                    "description": "<p><strong>Zniszczenie</strong> 1</p>"
+                },
+                "consumable->Canned Goods (Expired)": {
+                    "name": "Konserwy (przeterminowane)",
+                    "description": "<p>Liczy się jako 1 posiłek. Jeśli zjesz przeterminowaną żywność, musisz wykonać test @Check[type:fortitude|dc:15] lub dostaniesz @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Mdłości} na 1 dzień.</p>\n<hr />\n<p><strong>Zniszczenie</strong> 1</p>"
+                },
+                "weapon->Kitchen Knife": {
+                    "name": "Nóż Kuchenny",
+                    "description": "<p><strong>Zniszczenie</strong> 2</p>"
+                },
+                "equipment->Lighter": {
+                    "name": "Zapalniczka",
+                    "description": "<hr />\n<p><strong>Zniszczenie</strong> 1</p>"
+                },
+                "armor->Clothes (Winter)": {
+                    "name": "Odzież (zimowa)",
+                    "description": "<p><strong>Ochrona</strong> 2 Obuchowe / Kłute / Cięte</p>\n<p><strong>Zniszczenie</strong> 8</p>"
+                },
+                "melee->Kitchen Knife": {
+                    "name": "Nóż Kuchenny"
+                },
+                "melee->Crude Bow": {
+                    "name": "Prymitywny Łuk"
+                },
+                "action->Scavenge": {
+                    "name": "Zbieranie",
+                    "description": "<p>Tułacz spędza chwilę przeszukując obszar w zasięgu ręki, znajdując wszelkie przedmioty o wartości 0 barterowej, takie jak @Compendium[hopefinder.equipment.lozP2PiOnHWiQwEd], @Compendium[hopefinder.equipment.1WENGnxWyoab6BUJ], @Compendium[hopefinder.equipment.0O5HOhxzRDK9rOb1] lub @Compendium[hopefinder.equipment.nieY1HKSGsq4XHBq].</p>"
+                }
+            }
         },
         "Warg": {
             "name": "Warg",
-            "blurb": "Zombie wolf"
+            "blurb": "Wilk zombie",
+            "items": {
+                "action->Z-Plague": {
+                    "name": "Plaga Z",
+                    "description": "<p>@Check[type:fortitude|dc:16|traits:secret] Zarażony przenosi Plagę Z poprzez swoje szczęki i tylko w przypadku trafienia krytycznego.</p>\n<hr />\n<p>Ci, którzy przeżyli początkową epidemię zombie, która doprowadziła do upadku cywilizacji, zrobili to dzięki połączeniu środków ostrożności i odrobinie szczęścia genetycznego. Nie oznacza to jednak, że nikt nie jest całkowicie niewrażliwy. Nawet ci, którym udało się otrzymać upragnioną szczepionkę „Z-Noc”, zyskują jedynie odporność na infekcję w stadium 1.</p>\n<p>Jeśli zostaniesz narażony na Plagę Z (technicznie nazywaną amebowym zapaleniem mózgu Zynocol), narrator spróbuje wykonać tajny rzut obronny na Wytrwałość. Jeśli nie uda ci się ten rzut, zachorujesz na pierwszy etap choroby. Jeśli rzut zakończy się krytyczną porażką, zachorujesz na chorobę i stracisz 1 punkt NADZIEI podczas następnego odpoczynku.</p>\n<p><strong>Etap 1</strong>: Każdego dnia tracisz 1 punkt NADZIEI, stając się coraz bardziej ponury. Nie możesz zyskać NADZIEI. Osoby w twoim otoczeniu mogą poprosić o sprawdzenie @UUID[Compendium.pf2e.actionspf2e.Item.1xRFPTFtWtGJ9ELw] przy użyciu Percepcji, aby zauważyć, że coś jest nie tak. Pod koniec każdego dnia spróbuj wykonać rzut obronny na Wytrwałość przeciwko pierwotnemu ST. Jeśli uda ci się wykonać 2 rzuty obronne w ciągu dwóch kolejnych dni lub wykonasz rzut obronny z wynikiem krytycznym, uda ci się pozbyć infekcji i przestać tracić nadzieję. Jeśli wyczerpie się twoja nadzieja i będziesz musiał stracić kolejną, przejdziesz do etapu 2.</p>\n<p><strong>Etap 2</strong>: Stajesz się @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Ogłupiony 1}, a narrator potajemnie rzuca kostką k20, aby ustalić czas trwania w godzinach. Pod koniec tego czasu wartość Ogłupienia wzrasta o 1, a narrator ponownie rzuca kostką, aby ustalić czas trwania. Gdy wartość Ogłupienia jest większa niż suma wszystkich trzech modyfikatorów zdolności umysłowych (Int, Mdr, Cha), przechodzisz do etapu 3. Nie ma znanego sposobu na rzut obronny, aby uratować osobę, która osiągnęła etap 2. Zainfekowane osoby w etapie 2 są zakaźne i rozprzestrzeniają pasożyty poprzez kaszel i inne płyny ustrojowe. Każdy, kto spędzi więcej niż 1 minutę w odległości 10 stóp od osoby zarażonej, musi wykonać rzut obronny na Wytrwałość (o tym samym ST co osoba zarażona), aby uniknąć zarażenia się plagą.</p>\n<p><strong>Etap 3</strong>: Upadłeś, będąc @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Nieprzytomny} i tracisz [[/r 1d4]] Punktów Wytrzymałości na minutę. Kiedy Twoje Punkty Wytrzymałości osiągną 0, umierasz i powstajesz jako zombie w ciągu [[/r 1d10 #Minuty]]{1k10 minut}.</p>"
+                },
+                "action->Zombie Immuinities": {
+                    "name": "Odporności Zombie",
+                    "description": "<p>Jako martwe istoty, zombie są niewrażliwe na wiele czynników, które mają wpływ na żywych. O ile nie zaznaczono inaczej, zombie są niewrażliwe na choroby, efekty psychiczne, trucizny i wszystko, co mogłoby spowodować ich @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Nieprzytomność}. Zombie nie odnoszą siniaków ani nie muszą jeść ani pić (chociaż niektóre z nich zyskują dodatkowe zdolności, jeśli niedawno spożyły żywe mięso). Zombie zostają natychmiast zniszczone po zmniejszeniu ich Punktu Wytrzymałości do 0.</p>"
+                },
+                "action->Knockdown": {
+                    "name": "Powalenie"
+                },
+                "melee->Jaws": {
+                    "name": "Szczęki"
+                },
+                "action->Pack Coordination": {
+                    "name": "Koordynacja Stada",
+                    "description": "<p>Warg jest traktowany jako otaczający stworzenie, jeśli znajduje się w sąsiedztwie wroga, a sojusznik posiadający tę zdolność również znajduje się w sąsiedztwie. Nie muszą oni znajdować się po przeciwnych stronach.</p>"
+                },
+                "action->Silent Stalker": {
+                    "name": "Cichy Łowca",
+                    "description": "<p>Warg porusza się bezgłośnie i nie musi wykonywać testu Ukrycia, aby pozostać niewykrytym, jeśli żadna istota nie może go zobaczyć.</p>"
+                },
+                "action->Sneak Attack": {
+                    "name": "Podstępny Atak",
+                    "description": "<p>Warg zadaje dodatkowe obrażenia precyzyjne równe 1k6 stworzeniom @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Odsłoniętym}.</p>"
+                }
+            }
         },
         "Wild Dog": {
-            "name": "Wild Dog"
-        },
-        "Workwear": {
-            "name": "Workwear"
-        },
-        "Wrench": {
-            "name": "Wrench"
+            "name": "Dziki Pies",
+            "items": {
+                "action->Scent (Imprecise) 30 feet": {
+                    "name": "Zmysł Węchu (nieprecyzyjny) 30 stóp"
+                },
+                "melee->Jaws": {
+                    "name": "Szczęki"
+                },
+                "action->Shred": {
+                    "name": "Szarpanie",
+                    "description": "<p>Pies rozrywa i rozszarpuje stworzenie, które @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Chwycił}. Zadaje to [[/r 1d4[piercing]]]. Jeśli obrażenia nie przebiją odporności pancerza celu, jego pancerz zostaje wgnieciony (zamiast zadawać mu siniak).</p>"
+                },
+                "action->Grab": {
+                    "name": "Złapanie"
+                }
+            }
         },
         "Z Rat": {
-            "name": "Z Rat",
-            "blurb": "Zombie rat"
-        },
-        "Z-Plague": {
-            "name": "Z-Plague"
-        },
-        "Zombie Immuinities": {
-            "name": "Zombie Immuinities"
-        },
-        "Zombie Vomit": {
-            "name": "Zombie Vomit"
+            "name": "Szczur Z",
+            "blurb": "Zombie szczur",
+            "items": {
+                "action->Z-Plague": {
+                    "name": "Plaga Z",
+                    "description": "<p>@Check[type:fortitude|dc:16|traits:secret] Zarażony przenosi Plagę Z poprzez swoje szczęki i tylko w przypadku trafienia krytycznego.</p>\n<hr />\n<p>Ci, którzy przeżyli początkową epidemię zombie, która doprowadziła do upadku cywilizacji, zrobili to dzięki połączeniu środków ostrożności i odrobinie szczęścia genetycznego. Nie oznacza to jednak, że nikt nie jest całkowicie niewrażliwy. Nawet ci, którym udało się otrzymać upragnioną szczepionkę „Z-Noc”, zyskują jedynie odporność na infekcję w stadium 1.</p>\n<p>Jeśli zostaniesz narażony na Plagę Z (technicznie nazywaną amebowym zapaleniem mózgu Zynocol), narrator spróbuje wykonać tajny rzut obronny na Wytrwałość. Jeśli nie uda ci się ten rzut, zachorujesz na pierwszy etap choroby. Jeśli rzut zakończy się krytyczną porażką, zachorujesz na chorobę i stracisz 1 punkt NADZIEI podczas następnego odpoczynku.</p>\n<p><strong>Etap 1</strong>: Każdego dnia tracisz 1 punkt NADZIEI, stając się coraz bardziej ponury. Nie możesz zyskać NADZIEI. Osoby w twoim otoczeniu mogą poprosić o sprawdzenie @UUID[Compendium.pf2e.actionspf2e.Item.1xRFPTFtWtGJ9ELw] przy użyciu Percepcji, aby zauważyć, że coś jest nie tak. Pod koniec każdego dnia spróbuj wykonać rzut obronny na Wytrwałość przeciwko pierwotnemu ST. Jeśli uda ci się wykonać 2 rzuty obronne w ciągu dwóch kolejnych dni lub wykonasz rzut obronny z wynikiem krytycznym, uda ci się pozbyć infekcji i przestać tracić nadzieję. Jeśli wyczerpie się twoja nadzieja i będziesz musiał stracić kolejną, przejdziesz do etapu 2.</p>\n<p><strong>Etap 2</strong>: Stajesz się @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Ogłupiony 1}, a narrator potajemnie rzuca kostką k20, aby ustalić czas trwania w godzinach. Pod koniec tego czasu wartość Ogłupienia wzrasta o 1, a narrator ponownie rzuca kostką, aby ustalić czas trwania. Gdy wartość Ogłupienia jest większa niż suma wszystkich trzech modyfikatorów zdolności umysłowych (Int, Mdr, Cha), przechodzisz do etapu 3. Nie ma znanego sposobu na rzut obronny, aby uratować osobę, która osiągnęła etap 2. Zainfekowane osoby w etapie 2 są zakaźne i rozprzestrzeniają pasożyty poprzez kaszel i inne płyny ustrojowe. Każdy, kto spędzi więcej niż 1 minutę w odległości 10 stóp od osoby zarażonej, musi wykonać rzut obronny na Wytrwałość (o tym samym ST co osoba zarażona), aby uniknąć zarażenia się plagą.</p>\n<p><strong>Etap 3</strong>: Upadłeś, będąc @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Nieprzytomny} i tracisz [[/r 1d4]] Punktów Wytrzymałości na minutę. Kiedy Twoje Punkty Wytrzymałości osiągną 0, umierasz i powstajesz jako zombie w ciągu [[/r 1d10 #Minuty]]{1k10 minut}.</p>"
+                },
+                "action->Zombie Immuinities": {
+                    "name": "Odporności Zombie",
+                    "description": "<p>Jako martwe istoty, zombie są niewrażliwe na wiele czynników, które mają wpływ na żywych. O ile nie zaznaczono inaczej, zombie są niewrażliwe na choroby, efekty psychiczne, trucizny i wszystko, co mogłoby spowodować ich @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Nieprzytomność}. Zombie nie odnoszą siniaków ani nie muszą jeść ani pić (chociaż niektóre z nich zyskują dodatkowe zdolności, jeśli niedawno spożyły żywe mięso). Zombie zostają natychmiast zniszczone po zmniejszeniu ich Punktu Wytrzymałości do 0.</p>"
+                },
+                "melee->Jaws": {
+                    "name": "Szczęki"
+                }
+            }
         }
     },
     "mapping": {
@@ -476,10 +1029,6 @@
         "allSavesBonus": "system.attributes.allSaves.value",
         "speedsDetails": "system.attributes.speed.details",
         "sensesDetails": "system.perception.details",
-        "languagesDetails": "system.details.languages.details",
-        "rules": {
-            "converter": "translateRules",
-            "path": "system.rules"
-        }
+        "languagesDetails": "system.details.languages.details"
     }
 }

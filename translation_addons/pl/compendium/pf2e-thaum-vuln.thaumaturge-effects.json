@@ -48,11 +48,11 @@
         },
         "Effect: Divine Disharmony": {
             "name": "Efekt: Boska Dysharmonia",
-            "description": "<p>Ze swojej kolekcji religijnych bibelotów wyciągasz przeciwstawne boskie przedmioty - takie jak symbole religijne dwóch bóstw, które są znienawidzonymi wrogami - i łączysz je w pokazie, który powoduje niezgodne starcia boskiej energii, które są szczególnie rozpraszające dla wiernych.</p><p><strong>Krytyczny Sukces</strong> Do końca bieżącej tury ta istota jest odsłonięta wobec twoich ataków.</p><p><strong>Sukces</strong> Stworzenie jest odsłonięte wobec twoich ataków do końca twojej następnej tury.</p>"
+            "description": "<p>Ze swojej kolekcji religijnych bibelotów wyciągasz przeciwstawne boskie przedmioty - takie jak symbole religijne dwóch bóstw, które są znienawidzonymi wrogami - i łączysz je w pokazie, który powoduje niezgodne starcia boskiej energii, które są szczególnie rozpraszające dla wiernych.</p><p><strong>Krytyczny Sukces</strong> Do końca następnej tury ta istota jest odsłonięta wobec twoich ataków.</p><p><strong>Sukces</strong> Stworzenie jest odsłonięte wobec twoich ataków do końca twojej obecnej tury.</p>"
         },
         "Effect: Divine Disharmony (Critical Success)": {
             "name": "Efekt: Boska Dysharmonia (Krytyczny Sukces)",
-            "description": "<p>Ze swojej kolekcji religijnych bibelotów wyciągasz przeciwstawne boskie przedmioty - takie jak symbole religijne dwóch bóstw, które są znienawidzonymi wrogami - i łączysz je w pokazie, który powoduje niezgodne starcia boskiej energii, które są szczególnie rozpraszające dla wiernych.</p><p><strong>Krytyczny Sukces</strong> Do końca bieżącej tury ta istota jest odsłonięta wobec twoich ataków.</p><p><strong>Sukces</strong> Stworzenie jest odsłonięte wobec twoich ataków do końca twojej następnej tury.</p>"
+            "description": "<p>Ze swojej kolekcji religijnych bibelotów wyciągasz przeciwstawne boskie przedmioty - takie jak symbole religijne dwóch bóstw, które są znienawidzonymi wrogami - i łączysz je w pokazie, który powoduje niezgodne starcia boskiej energii, które są szczególnie rozpraszające dla wiernych.</p><p><strong>Krytyczny Sukces</strong> Do końca następnej tury ta istota jest odsłonięta wobec twoich ataków.</p><p><strong>Sukces</strong> Stworzenie jest odsłonięte wobec twoich ataków do końca twojej obecnej tury.</p>"
         },
         "Effect: Exploit Vulnerability DC": {
             "name": "Efekt: ST Wykorzystania Podatności",
@@ -214,7 +214,12 @@
         },
         "Personal Antithesis Target": {
             "name": "Cel Osobistej Antytezy",
-            "description": ""
+            "description": "",
+            "rules": {
+                "0": {
+                    "label": "Osobista Antyteza ({item|origin.name})"
+                }
+            }
         },
         "Thaumaturge Recall Knowledge": {
             "name": "Przywołanie Wiedzy Taumaturga",

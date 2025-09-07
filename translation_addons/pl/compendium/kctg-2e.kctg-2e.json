@@ -16,7 +16,7 @@
         "Herbalist Tools": "Narzędzia zielarskie",
         "Food": "Żywność",
         "Jewelry": "Biżuteria",
-        "Livestock": "Zwierzęta gospodarskie",
+        "Critters & Livestock": "Zwierzęta gospodarskie i hodowlane",
         "Potions": "Mikstury",
         "Tavern Foods": "Żywność w tawernie"
     },
@@ -124,6 +124,10 @@
         "Apatite": {
             "name": "Apatyt",
             "description": "<p>Apatyt jest głównie wykorzystywany do produkcji nawozów, barwników i farb po zmieleniu na drobny pył. W rzadkich przypadkach jest cięty na klejnoty, jest to miękki kamień, który może być łatwo obrabiany przez szlifierzy klejnotów bez potrzeby stosowania specjalistycznych narzędzi lub dużego doświadczenia.</p>"
+        },
+        "Aphid": {
+            "name": "Mszyca",
+            "description": "<p>Mszyce to małe owady, które żywią się sokiem roślinnym. Ich obecność może powodować poważne szkody w uprawach, a bez interwencji stanowią zagrożenie dla gospodarstw rolnych, drzew i ogrodów. Ludzie boją się pojawienia się tych małych stworzeń.</p>"
         },
         "Apple": {
             "name": "Jabłko",
@@ -505,6 +509,10 @@
             "name": "Deska Stolarska",
             "description": "<p>Płaszczyzna, wyposażona w sprytnie ukształtowaną krawędź tnącą, jest skrupulatnie zaprojektowana do skórowania lub golenia powierzchni drewna. Stosowany do wykańczania i wyrównywania powierzchni, zręcznie usuwa ślady pozostawione przez wcześniejsze narzędzia, takie jak siekiera, młotek lub piła, pozostawiając drewno gładkie, płaskie i proste.</p>"
         },
+        "Carpet Beetle": {
+            "name": "Chrząszcz Dywanowy",
+            "description": "<p>Chrząszcze dywanowe występują niemal wszędzie i prawdopodobnie każdy rolnik ma ich kilka w swoim gospodarstwie. Jako padlinożercy żywią się martwymi owadami, futrem, włosami, skórą i innymi rozkładającymi się substancjami organicznymi. Nie stanowią zagrożenia dla żywych istot, nie gryzą ani nie żądlą. W naukach bardziej abstrakcyjnych zielarze wykorzystują je do szacowania czasu śmierci.</p>"
+        },
         "Carriage Safety Guide": {
             "name": "Przewodnik bezpiecznego transportu",
             "description": "<p>Mała zwijana instrukcja bezpieczeństwa zawierająca informacje o następnej podróży wagonu, z takimi punktami jak:</p><ul><li><p>Miejsce dla palaczy: Zdajemy sobie sprawę z niejasności, ale miejsce to nie jest przeznaczone do palenia egzotycznych ziół. Jest ono przeznaczone wyłącznie dla humanoidalnych istot żywiołów. Prosimy o powstrzymanie się od gaszenia ognia w jakiejkolwiek postaci w tym miejscu.</p></li><li><p>Metalowe, ciężkie i duże stworzenia: Jeśli jesteś stworzeniem złożonym z metalu, o znacznych rozmiarach lub użytkownikiem magii, który przenosi duże ilości przedmiotów w niewielkiej przestrzeni (np. w międzywymiarowym schowku), poinformuj nas o tym przed wejściem na pokład. Może być konieczne zapewnienie specjalnych koni. Niepoinformowanie nas o tym spowoduje naliczenie dodatkowych opłat za bagaż.</p></li><li><p>Humanoidy z pazurami: Prosimy nie drapać siedzeń ani drewnianych elementów wagonu.</p></li><li><p>Rogate humanoidy: Rogate osoby muszą przez cały czas zakrywać rogi, chyba że są one zakrzywione do wewnątrz.</p></li><li><p>Transmutatorzy: Nie transmutujcie żadnych płynów w alkohol. W związku z poprzednim incydentem podczas podróży obowiązuje całkowity zakaz spożywania alkoholu. Ponadto prosimy o ignorowanie wszelkich krzyczących skał napotkanych podczas podróży.</p></li><li><p>Ostrzeżenie dotyczące pełni księżyca: Pasażerom z objawami likantropii zaleca się, aby nie rezerwowali podróży podczas pełni księżyca. Jeśli zdecydujesz się zignorować to ostrzeżenie, pamiętaj, że możesz zostać zatrudniony na stałe w celu zastąpienia koni utraconych podczas podróży.</p></li><li><p>Nosiciele aury: Pasażerowie z aktywną aurą muszą pozostać w specjalnie wyznaczonych miejscach. Rozumiemy znaczenie Twojej religii, bóstwa lub patrona, ale musimy brać pod uwagę komfort wszystkich podróżnych, w tym osób z innych kultur lub tych, które niedawno powróciły z zaświatów. Nieprzestrzeganie tego wymogu zostanie zgłoszone do najbliższego posterunku strażniczego.</p></li><li><p>Stworzenia petryfikujące: Jeśli Twoja rasa potrafi petryfikować inne istoty za pomocą wzroku lub innych środków, musisz powiadomić o tym personel przed wejściem na pokład. Niezastosowanie się do tego wymogu spowoduje zainstalowanie luster wokół Twojego siedzenia na czas trwania podróży.</p></li><li><p>Spożywanie posiłków: Podczas podróży nie wolno spożywać posiłków. Przewidziano kilka przystanków, podczas których będzie można coś zjeść. Inni pasażerowie nie są traktowani jako posiłek, niezależnie od zwyczajów kulturowych.</p></li><li><p>Uwaga dotycząca bezpieczeństwa: Prosimy o trzymanie wszystkich kończyn wewnątrz wagonu przez cały czas. Nie ponosimy odpowiedzialności za urazy odniesione podczas przejazdu.</p></li></ul><p></p>"
@@ -553,6 +561,10 @@
         "Cendal": {
             "name": "Tkanina Jedwabna",
             "description": "<p>Forma lekkiego jedwabiu używana głównie do produkcji odzieży ceremonialnej i szat kościelnych oraz do dekoracji sztandarów. </p>"
+        },
+        "Centipede": {
+            "name": "Stonoga",
+            "description": "<p>Stonogi wchodzą do domów w poszukiwaniu pożywienia, wody i schronienia, podobnie jak zwykli ludzie, szczególnie w wilgotnych i ciemnych środowiskach. Przyciągają je obszary o wysokiej wilgotności, takie jak piwnice, poddasza i łazienki, gdzie polują na inne owady w celu zdobycia pożywienia. Chociaż stonogi mogą gryźć i wstrzykiwać jad, generalnie nie są uważane za niebezpieczne dla zwykłych ludzi.</p>"
         },
         "Cerrosafe": {
             "name": "Cerrosafe",
@@ -950,6 +962,10 @@
             "name": "Bęben Djembe",
             "description": "<p>Djembe, czasami nazywane po prostu jembe, to bęben strojony liną, na którym gra się gołymi rękami. Jego nazwa w niektórych regionach oznacza „wszyscy gromadzą się razem w pokoju”, uosabiając jedność i ducha wspólnoty. Powłoka bębna jest wyrzeźbiona z twardego drewna, podczas gdy jego głowica jest tradycyjnie wykonana z surowej koziej skóry, co odzwierciedla jego głębokie korzenie kulturowe.</p>"
         },
+        "Dobsonfly": {
+            "name": "Dobsonfly",
+            "description": "<p>Dobsonfly to bardzo duży owad, który rodzi się z larwy znanej jako hellgrammite. Żywi się owadami wodnymi, nektarem, wodą z cukrem, robakami, a nawet małymi rybami. Chociaż jego ogromne rozmiary mogą budzić strach, krótki okres życia dobosza, wynoszący około tygodnia, oraz jego nocny tryb życia sprawiają, że wielu zwykłych ludzi może przeżyć całe życie, nie spotykając go nigdy.</p>"
+        },
         "Draconic Staters": {
             "name": "Smoczy Strażnicy",
             "description": "<p>Monety te, historycznie znane jako pierwsze monety w historii, zostały poddane niewielkim modyfikacjom na przestrzeni czasu. Zazwyczaj są one wytwarzane przez sługusy smoki i zawsze zawierają rzeźbę smoczego skrzydła lub głowy. Zbiory smoków często zawierają różnej jakości metale szlachetne, co powoduje, że bite monety mają niższą cenę złota w porównaniu do innych dostępnych na rynku. W zależności od regionu, mogą być one również określane jako „skrzydła” w oparciu o ich symbol.</p>"
@@ -1013,6 +1029,10 @@
         "Dumplings": {
             "name": "Pierogi",
             "description": "<p>Pierogi są zwykle przygotowywane poprzez połączenie mąki lub mączki z jajkiem, a następnie gotowanie mieszanki w wodzie, aż osiągnie lekką, ciastowatą konsystencję. Aby dodać smaku, niektóre przepisy dodają różne składniki, takie jak zioła, cebula, tarty ser lub posiekane mięso wymieszane z ciastem przed gotowaniem.</p>"
+        },
+        "Dung Beetle": {
+            "name": "Gnojowiec",
+            "description": "<p>Pojawienie się chrząszczy gnojowych świadczy o tym, że pastwisko jest w dobrym stanie, ponieważ doskonale rozkładają one i zakopują odchody zwierzęce, poprawiając jakość gleby. Chociaż budzi to pewne kontrowersje, w niektórych regionach wykorzystuje się je w kuchni. Po złapaniu są czyszczone, pieczone i suszone, czasem z dodatkiem przypraw. Niektóre przepisy wymagają przycięcia skrzydeł i nóg chrząszczy, a następnie smażenia ich na oleju z bazylią, chili i trawą cytrynową, aż będą chrupiące.</p>"
         },
         "Dungeon Plans": {
             "name": "Plany Lochów",
@@ -1370,6 +1390,14 @@
             "name": "Zielony Cień",
             "description": "<p>Produkt powstały w wyniku nieprawidłowego zmieszania mikstury zapewniającej niewidzialność. Skóra zaczyna się kameleonizować, zmieniając kolor, aby dopasować się do otoczenia, jednak efekt jest powolny i zajmuje trochę czasu, aż zostaniesz w pełni „wtopiony” w tło.</p>"
         },
+        "Green Soldier Bug": {
+            "name": "Zielony Żuk",
+            "description": "<p>Zielony żuk, powszechnie nazywany pluskwiakiem, wydziela nieprzyjemny zapach po zgnieceniu i stanowi poważne zagrożenie dla upraw takich jak bakłażany i pomidory. Na szczęście, w przeciwieństwie do zielonego chrząszcza letniego, tym stworzeniem można skutecznie zarządzać za pomocą kur i kaczek, które pomagają kontrolować ich liczebność bez szkody dla upraw.</p>"
+        },
+        "Green Summer Beetle": {
+            "name": "Zielony Chrząszcz Letni",
+            "description": "<p>Zielone chrząszcze letnie stają się problemem w okresie wegetacyjnym, szkodząc zarówno ogrodom, jak i uprawom. Chrząszcze te atakują dojrzałe lub fermentujące owoce, takie jak figi, winogrona i jagody. Każdego lata wiele osób próbuje włączyć piołun do swojego cyklu sadzenia, ponieważ działa on głównie jako środek odstraszający owady.</p>"
+        },
         "Grilled Ribs": {
             "name": "Grillowane Żeberka",
             "description": "<p>Żeberka z kością, oblane słodkimi i pikantnymi sosami domowej roboty, są ulubionym przysmakiem w większości tawern, często podawanym na imprezach lub uroczystościach i chętnie spożywanym przez poszukiwaczy przygód powracających triumfalnie z zadań lub misji.</p>"
@@ -1429,6 +1457,10 @@
         "Hazelnut": {
             "name": "Orzech Laskowy",
             "description": "<p>Orzechy laskowe zawdzięczają swoją nazwę kolorowi - leszczynowemu. Czasami nazywane są również orzechami kolbowymi lub filbertami. Orzechy są używane w ciastach lub jako kruszonka, jednak po zmieleniu mogą być również używane jako mąka do pieczenia. </p>"
+        },
+        "Hellgrammite": {
+            "name": "Hellgrammite",
+            "description": "<p>Hellgrammity są idealną przynętą wędkarską w całym królestwie, znaną z tego, że przyciąga szeroki wachlarz ryb, w tym panfish, okonie, szczupaki, sumy kanałowe, a zwłaszcza okonie. Podczas łowienia w głębszych wodach lub w pobliżu ciężkich konstrukcji, takich jak zanurzone kłody, korzenie drzew, duże skały lub pomosty dla łodzi, uważa się, że są one szczególnie skuteczne w przyciąganiu dużych połowów, jednak ich wygląd może budzić pewien respekt.</p>"
         },
         "Hematite": {
             "name": "Hematyt",
@@ -1497,6 +1529,10 @@
         "Hot Spiced Raspberry Cider": {
             "name": "Gorący, korzenny cydr malinowy",
             "description": "<p>Przez większość uważany za tradycyjny napój zimowy ze słodkim dodatkiem owoców. Jego kuszący aromat wypełnia tawerny, a ciepły cydr zapewnia wszystkim przytulną atmosferę podczas chłodnych wieczorów. Chociaż do jego przygotowania można użyć wielu składników, dwa pozostają niezmienne, głównie rum i cydr malinowy. Dodatki, takie jak syrop klonowy, kardamon, imbir, ziarna pieprzu, goździki lub cynamon, są powszechnie stosowane, aby nadać mu mocniejszy smak i sezonowy urok.</p><p></p>"
+        },
+        "Hugger of Faces": {
+            "name": "Twarzołap",
+            "description": "<p>Według niektórych rzadkich badań, ciało stworzenia ściśle przylega do twarzy, a ogon owija się wokół szyi, w nieznanym celu. Jednak ze względu na ograniczoną dokumentację na ich temat, ich przeznaczenie pozostaje niepewne. Nigdy nie odkryto żadnych żywych okazów, a jedynie sporadyczne skorupy egzoszkieletu. Analiza tych skorup doprowadziła do powstania teorii, że krew stworzenia jest silnie kwaśna, ponieważ jest w stanie rozpuścić większość substancji.</p>"
         },
         "Humanoid Skull": {
             "name": "Humanoidalna Czaszka",
@@ -1614,6 +1650,10 @@
             "name": "Drabina",
             "description": "<p>Drabina jest prostym, ale niezbędnym narzędziem umożliwiającym dotarcie do wysoko położonych miejsc. Czy to w bibliotekach, domach, gospodarstwach rolnych, stodołach, czy też używane przez strażaków do ratowania ludzi z wysokich miejsc, drabiny są używane w różnych środowiskach do podstawowych zadań.</p><p></p>"
         },
+        "Ladybug": {
+            "name": "Biedronka",
+            "description": "<p>Biedronki, kojarzone z szczęściem ze względu na swoje plamki, zawsze pojawiają się po obfitych zbiorach. Ludzie je uwielbiają, ponieważ zjadają mszyce i inne szkodniki roślin, chroniąc uprawy. Dzieci uwielbiają je oglądać i śpiewają krótką piosenkę, która towarzyszy im podczas liczenia plamek na biedronkach, wierząc, że przynoszą im długotrwałe szczęście. </p>"
+        },
         "Lake Trout": {
             "name": "Palia Jeziorowa",
             "description": "<p>Palie jeziorowe żyją w chłodnych, dobrze natlenionych strumieniach i jeziorach. Można je łowić przy użyciu różnych przynęt, z dryfującymi całymi dżdżownicami, a także małymi strzeblami i mącznikami. Unikalną cechą palii jeziorowego jest jego wyjątkowe ubarwienie przed złowieniem, ryba wykazuje żywe tęczowe odcienie, ale kolory te blakną po wyjęciu z wody.</p>"
@@ -1713,6 +1753,10 @@
         "Living Book": {
             "name": "Żywa Księga",
             "description": "<p>Legenda głosi, że jest to rodzaj dziennika, który podobno należał do zapomnianej przez czas czarownicy. Podczas każdego przesilenia strony zostają wymazane i można dodać nowe wpisy. Kiedy pojawiają się nowe wpisy, a są one napisane w formie dziennika, książka przewraca oczami, gdy tylko pojawi się w niej coś wstydliwego. </p>"
+        },
+        "Lobster": {
+            "name": "Homar",
+            "description": "<p>Homary żyją we wszystkich oceanach, na skalistym, piaszczystym lub mulistym dnie, od linii brzegowej po głębokie morze. Homary, podobnie jak niektóre ślimaki i pająki, mają niebieską krew, którą alchemicy pozyskują w celu stosowania jej w leczeniu niektórych powszechnie występujących chorób oraz w leczeniu oparzeń skóry.</p>"
         },
         "Lombart Wine": {
             "name": "Wino Lombart",
@@ -2202,6 +2246,10 @@
             "name": "Szczupak",
             "description": "<p>Szczupaki, samotni łowcy, leżą nieruchomo w wodzie lub czają się w gęstych skupiskach wodnych chwastów. Gdy ofiara znajdzie się w ich zasięgu, atakują nagłym, szybkim wypadem, chwytając cel ostrymi jak brzytwa zębami. Znane są z chwytania nie tylko ryb, ale także ptactwa wodnego, a nawet małych zwierząt hodowlanych. Szczupak to przerażający drapieżnik, który jest równie nieustępliwy, co żarłoczny. Dzięki dużym paszczom i nienasyconemu apetytowi szczupaki mogą osiągać zadziwiające rozmiary, przewyższając większość innych ryb słodkowodnych.</p>"
         },
+        "Pill Woodlouse": {
+            "name": "Ślimak Leśny",
+            "description": "<p>Ma wiele nazw, w tym: pchła ziemna, stonoga, pchła drzewna, roly-poly, pchła ziemniaczana, doodle bug i pchła stolarzowa. Niektórzy rolnicy zatrzymują je po udanych zbiorach, aby oczyścić glebę, ponieważ żywią się martwymi roślinami i zapobiegają rozprzestrzenianiu się chwastów.</p>"
+        },
         "Pillory": {
             "name": "Pręgierz",
             "description": "<p>Pręgierz był urządzeniem używanym do publicznego karania recydywistów. Posiada drewnianą ramę z otworami do mocowania głowy i rąk.</p><p></p>"
@@ -2318,6 +2366,10 @@
             "name": "Purpurowy Brittlegill",
             "description": "<p>Purpurowy Brittlegill jest dużym grzybem jadalnym o ciemno winnym lub fioletowym kapeluszu i białych lub kremowych skrzelach. Zielarze zalecają, aby ze względu na toksyczność niektórych kruchawek, jeść tylko te grzyby, które można rozpoznać. Jeśli nie masz pewności, lepiej ich unikaj. </p>"
         },
+        "Purple Emperor": {
+            "name": "Fioletowy Cesarz",
+            "description": "<p>Fioletowy cesarz to wspaniały motyl, który lata wysoko w koronach drzew bardzo gęstych lasów. Alchemicy zazwyczaj hodują kilka osobników w motylarni, ponieważ są one rzadkim składnikiem niektórych z najrzadszych eliksirów. </p>"
+        },
         "Purple Pink Diamond": {
             "name": "Fioletowo-różowy Diament",
             "description": "<p>Czasami określane również jako fantazyjne diamenty, są one niezwykle rzadkie. Spekuluje się również, że osoby noszące określone diamenty mogą być chronione przed niektórymi zaklęciami lub czarami. </p>"
@@ -2393,6 +2445,10 @@
         "Red Onion": {
             "name": "Czerwona Cebula",
             "description": "<p>Zwana również fioletową cebulą, jest zwykle podawana na świeżo, jako sałatka lub część mieszanki sałat, a zwłaszcza jako obowiązkowy dodatek do niektórych tradycyjnych zup z fasoli i wędzonej szynki.</p>"
+        },
+        "Red Paper Wasp": {
+            "name": "Czerwona Osa Papierowa",
+            "description": "<p>Czerwona osa jest nieagresywnym gatunkiem osy, która staje się agresywna tylko wtedy, gdy jej gniazdo jest zagrożone. Jej jad może być zbierany przez zielarzy do produkcji leków, a dzięki łagodnemu zachowaniu owada można go bezpiecznie pozyskiwać.</p>"
         },
         "Red Revenant's Refresher": {
             "name": "Odświeżenie Czerwonego Mściciela",
@@ -2582,6 +2638,10 @@
             "name": "Schematy",
             "description": "<p>Schematy wydają się stare, choć większość szczegółów pozostała zachowana, choć wyblakła. Najpierw potrzebny jest historyk, który określi datę powstania stron, przybliży materiały, z których zostały wykonane, oraz oceni ich pochodzenie. Aby w pełni odtworzyć brakujące informacje, konieczna jest pomoc mistrza w tej dziedzinie, ponieważ tylko on posiada wiedzę niezbędną do przeprowadzenia kompletnej renowacji.</p><p></p>"
         },
+        "Scorpion": {
+            "name": "Skorpion",
+            "description": "<p>Skorpiony to nocne drapieżniki, które można spotkać głównie w suchych regionach, gdzie w ciągu dnia chowają się pod kamieniami i w norach. Ich charakterystyczny ogon zakończony jest jadowitym żądłem, którego używają do obezwładniania ofiar i obrony przed zagrożeniami. Chociaż ich użądlenie jest bolesne dla zwykłych ludzi, rzadko kończy się śmiercią, a alchemicy poszukują ich jadu do wykorzystania w różnych silnych miksturach leczniczych.</p>"
+        },
         "Scorpionfish": {
             "name": "Skorpena",
             "description": "<p>Skorpeny mają niezwykle silny jad w swoich ostrych kolcach, co czyni je jednymi z najbardziej trujących stworzeń w oceanie. Jednak pomimo swojej toksyczności są one uważane za przysmak, często chwalony jako jedna z najsmaczniejszych dostępnych ryb. Prawidłowe przygotowanie jest kluczowe, ponieważ niewłaściwe obchodzenie się z rybą może prowadzić do poważnego zatrucia, a nawet śmierci. Zielarze często zlecają rybakom pozyskiwanie jadu do celów leczniczych i alchemicznych.</p>"
@@ -2766,6 +2826,10 @@
             "name": "Wędzone Mięso",
             "description": "<p>Najpopularniejsza metoda wędzenia mięsa polega na użyciu twardego drewna, takiego jak dąb, hikora, wiśnia lub akacja, pojedynczo lub w połączeniu. Drewna te nadają mięsu wyraźny smak, jednocześnie pomagając w jego konserwacji. Wewnątrz wędzarni mięso zawieszane jest na hakach nad tacą ociekową. Typowe produkty wędzone obejmują bekon, ryby, szynkę, kiełbasy, salami i pastrami, z których każdy oferuje unikalny smak i aromat.</p>"
         },
+        "Snapping Death Worm": {
+            "name": "Śmiercionośny Robak",
+            "description": "<p>Śmierciożerca, zwany po prostu Bobbitem, to podziemne stworzenie, które żyje głównie na plażach, jednak każda wzmianka o nim przypomina opowieść grozy. Wykrywa drgania na powierzchni, aby zasadzkować ofiary, wyskakując w górę i wciągając stworzenia pod ziemię za pomocą swoich szczęk.</p>"
+        },
         "Soot": {
             "name": "Sadza",
             "description": "<p>Głęboko czarny proszek lub łuszcząca się substancja, wytwarzana przez spalanie materiału. Używany przez alchemików i zielarzy jako środek wiążący, a przez tkaczy jako barwnik do wielu tkanin. </p>"
@@ -2789,6 +2853,10 @@
         "Spicebush": {
             "name": "Lindera",
             "description": "<p>Lindera północna, niesławna jako gatunek inwazyjny, jest szybko zwalczana przez zielarzy, którzy starają się chronić lokalne ekosystemy. Jednak jej owoce trafiają do kuchni, gdzie są cenione jako aromatyczna przyprawa do mięs, zup i obfitych dań, ku niezadowoleniu zielarzy.</p>"
+        },
+        "Spider Beetle": {
+            "name": "Chrząszcz Pająkowy",
+            "description": "<p>Chociaż chrząszcz pająkowaty jest nieszkodliwy dla ludzi, jego obecność w pobliżu spichlerzy stanowi problem. Żywi się on suszonymi zapasami żywności, zwłaszcza zbożami i owocami, a jego obecność zazwyczaj oznacza, że przechowywane zapasy uległy zepsuciu.</p>"
         },
         "Spider Silk": {
             "name": "Jedwab Pająka",
@@ -2965,6 +3033,10 @@
         "Thyme": {
             "name": "Tymianek",
             "description": "<p>Tymianek jest dostępny zarówno w postaci świeżej, jak i suszonej. Chociaż jest to zazwyczaj zioło letnie, świeży tymianek szklarniowy można znaleźć przez cały rok. Świeża odmiana oferuje lepszy smak, ale wymaga bardziej ostrożnego obchodzenia się z nią, a jej okres przechowywania zwykle nie przekracza tygodnia. Odpowiednio zamrożony może być jednak przechowywany przez wiele miesięcy.</p>"
+        },
+        "Ticks": {
+            "name": "Kleszcze",
+            "description": "<p>Kleszcze to owady, które przyczepiają się do przechodzących zwierząt i ludzi, aby żywić się ich krwią. Występują w wysokich trawach i obszarach zalesionych, czekając na przechodzącego żywiciela. Za każdym razem, gdy zielarz musi zająć się kleszczem, ponieważ są one znanymi nosicielami chorób, prosi rolników o sprawdzenie wszystkich posiadanych przez nich zwierząt gospodarskich.</p>"
         },
         "Tiger's Eye": {
             "name": "Tygrysie Oko",
@@ -3166,6 +3238,10 @@
             "name": "Białe Złoto",
             "description": "<p>Białe złoto, stop złota i srebra, nie powinno być mylone z platyną. Znane jako szare złoto w niektórych regionach, jest wysoko cenione przez szlachtę ze względu na wysoką cenę i nieskazitelny srebrny wygląd biżuterii.</p><p></p>"
         },
+        "White Grub": {
+            "name": "Biała Larwa",
+            "description": "<p>Białe larwy to larwy wielu gatunków chrząszczy, które żyją tuż pod powierzchnią gleby. Żywią się korzeniami traw i roślin, powodując powstawanie martwych plam na pastwiskach i w ogrodach. Chociaż są zmorą większości gospodarstw rolnych, wędkarze cenią je jako wyjątkowo skuteczną przynętę.</p>"
+        },
         "White Pearl": {
             "name": "Biała Perła",
             "description": "<p>Te specyficzne perły są zwykle znajdowane w słonej wodzie i są poszukiwane głównie przez rodzinę królewską i szlachtę ze względu na ich rzadkość. Najrzadsze z nich, zwykle wielkości czyjejś głowy, są używane w kryształowych kulach, jednak nie mogą mieć żadnych niedoskonałości.</p>"
@@ -3234,6 +3310,10 @@
         "Wool": {
             "name": "Wełna",
             "description": "<p>Tkanina tekstylna pozyskiwana ze zwierząt hodowlanych, głównie owiec, używana głównie do produkcji odzieży. Oprócz tego jest również używana do produkcji koców, siodeł dla kawalerii, dywanów, a w rzadkich przypadkach nawet jako nawóz do gleby.</p>"
+        },
+        "Worm": {
+            "name": "Robak",
+            "description": "<p>Robaki są powszechnym widokiem w zdrowej glebie, głównie po ulewnych deszczach. Żywią się gnijącymi korzeniami, co sprawia, że są mile widziane i budzą nadzieję na dobre zbiory w każdym ogrodzie lub gospodarstwie. Są również szeroko stosowane przez zwykłych ludzi i rybaków jako niezawodna przynęta do łowienia ryb.</p>"
         },
         "Wulfenite": {
             "name": "Wulfenit",

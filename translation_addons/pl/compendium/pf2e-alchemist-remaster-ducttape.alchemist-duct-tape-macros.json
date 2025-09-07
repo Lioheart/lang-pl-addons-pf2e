@@ -1,6 +1,12 @@
 {
     "label": "Alchemist Duct Tape - Makra",
+    "folders": {
+        "Tools": "Narzędzia"
+    },
     "entries": {
+        "Index Table": {
+            "name": "Tabela indeksu"
+        },
         "Quick Alchemy": {
             "name": "Szybka Alchemia"
         },
@@ -9,6 +15,15 @@
         },
         "Update Formulas": {
             "name": "Aktualizacja formuł"
+        },
+        "clear-index": {
+            "name": "wyczyść indeks"
+        },
+        "index-stats": {
+            "name": "statystyki indeksu"
+        },
+        "rebuild-index": {
+            "name": "odbuduj indeks"
         }
     }
 }

@@ -33,6 +33,33 @@
         "Quick vial injury poison (*Temporary)": {
             "name": "Szybka fiolka z trucizną (*Tymczasowa)",
             "description": "<p>Stosowana jako trucizna zadająca obrażenia. Dodaje obrażenia do pierwszego udanego Ataku.</p>"
+        },
+        "Toxicologist Advanced Vial Poison": {
+            "name": "Zaawansowana Fiolka z Trucizną Toksykologa",
+            "description": "",
+            "rules": {
+                "0": {
+                    "prompt": "Wybierz broń, którą chcesz otruć"
+                },
+                "1": {
+                    "label": "Polowa Fiolka z Trucizną Urazową"
+                },
+                "2": {
+                    "label": "Polowa Fiolka z Trucizną Urazową (Trwała)"
+                }
+            }
+        },
+        "Toxicologist Field Vial Poison": {
+            "name": "Polowa Fiolka z Trucizną Toksykologa",
+            "description": "",
+            "rules": {
+                "0": {
+                    "prompt": "Wybierz broń, którą chcesz otruć"
+                },
+                "1": {
+                    "label": "Polowa Fiolka z Trucizną Urazową"
+                }
+            }
         }
     },
     "mapping": {

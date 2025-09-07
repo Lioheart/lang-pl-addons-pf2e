@@ -3,534 +3,534 @@
     "entries": {
         "Adept": {
             "name": "Adept",
-            "description": "<p>You are really good at one skill. Increase your proficiency in one skill by 1 step. You gain the @Compendium[pf2e.feats-srd.W6Gl9ePmItfDHji0]{Assurance} skill feat in that skill.</p>"
+            "description": "<p>Jesteś naprawdę dobry w jednej umiejętności. Zwiększ swoją biegłość w jednej umiejętności o 1 stopień. Zyskujesz atut umiejętności @Compendium[pf2e.feats-srd.W6Gl9ePmItfDHji0] w tej umiejętności.</p>"
         },
         "Agile": {
             "name": "Zwinny",
-            "description": "<p>Whenever you take the Dodge reaction, you receive a +3 circumstance bonus to AC. In addition, if the triggering attack still hits, you receive a +1 circumstance bonus to your AC until the end of the triggering creature's turn.</p>",
+            "description": "<p>Za każdym razem, gdy wykonujesz reakcję unikową, otrzymujesz premię okolicznościową +3 do KP. Dodatkowo, jeśli atak wywołujący nadal trafia, otrzymujesz premię okolicznościową +1 do KP do końca tury stworzenia, które wywołało atak.</p>",
             "rules": {
                 "0": {
-                    "label": "The triggering attack still hit"
+                    "label": "Atak wyzwalający nadal trafia"
                 }
             }
         },
         "Armored": {
             "name": "Opancerzony",
-            "description": "<p>You have learned how to wear armor. Increase your proficiency in both light and heavy armor by 1 step.</p>"
+            "description": "<p>Nauczyłeś się nosić zbroję. Zwiększ swoją biegłość w noszeniu zarówno lekkiej, jak i ciężkiej zbroi o 1 stopień.</p>"
         },
         "Assassinate": {
             "name": "Skrytobójstwo",
-            "description": "<p>You can perform a deadly strike against a foe that is unaware of your presence. Attempt a Strike against a foe that has not detected you. If the attack hits, treat it as a critical hit. You add your damage from precision to this Strike as normal.</p>",
+            "description": "<p>Możesz wykonać śmiertelny atak przeciwko przeciwnikowi, który nie jest świadomy twojej obecności. Spróbuj wykonać atak przeciwko przeciwnikowi, który cię nie wykrył. Jeśli atak trafi, potraktuj go jako trafienie krytyczne. Dodaj swoje obrażenia z precyzji do tego ataku w normalny sposób.</p>",
             "prerequisites": [
                 {
-                    "value": "Precision feat"
+                    "value": "Precyzyjny atut"
                 }
             ]
         },
         "Bandage": {
-            "name": "Bandage",
-            "description": "<p>You gain the @Compendium[pf2e.feats-srd.wYerMk6F1RZb0Fwt]{Battle Medicine} skill feat. In addition, you can create a bandage by ripping up a set of clothing. This is an interact action that deals 2 dings to clothing. Finally, whenever you use Battle Medicine, add half your Medicine proficiency bonus to the Hit Points restored.</p>"
+            "name": "Bandaż",
+            "description": "<p>Zyskujesz atut umiejętności @Compendium[pf2e.feats-srd.wYerMk6F1RZb0Fwt]. Dodatkowo możesz stworzyć bandaż, rozrywając ubranie. Jest to akcja Interakcji, która zadaje 2 punkty uszkodzenia ubraniu. Wreszcie, za każdym razem, gdy używasz Medycyny Bitewnej, dodaj połowę swojej premii do Medycyny do przywróconych Punktów Wytrzymałości.</p>"
         },
         "Basic Maintenance": {
-            "name": "Basic Maintenance",
-            "description": "<p>You can use the @Compendium[hopefinder.actions.kKDBzhpz0UdYA7dq]{Fix} activity using the Driving skill to repair vehicles.</p>",
+            "name": "Podstawowa Konserwacja",
+            "description": "<p>Możesz użyć czynności @Compendium[hopefinder.actions.kKDBzhpz0UdYA7dq] przy użyciu umiejętności Kierowanie, aby naprawić pojazdy.</p>",
             "prerequisites": [
                 {
-                    "value": "trained in Driving"
+                    "value": "wytrenowany w Kierowaniu"
                 }
             ]
         },
         "Breakdown": {
-            "name": "Breakdown",
-            "description": "<p>You can cause a machine or computer system to stop functioning. Target one computer or device that you are adjacent to and attempt a Computers or Machinery skill check (DC set by the narrator based on the complexity of the device). On a success you can shut down the device, causing it to stop working in whatever state it is in at that moment (a door that was closed would stay closed). On a critical success you can change the final state of the device before it stops functioning (cause a tractor to roll forward 20 feet before its engine dies).</p>"
+            "name": "Awaria",
+            "description": "<p>Możesz spowodować, że maszyna lub system komputerowy przestaną działać. Wybierz jeden komputer lub urządzenie znajdujące się w pobliżu i wykonaj test umiejętności Komputery lub Maszyny (ST ustalane przez narratora na podstawie złożoności urządzenia). W przypadku sukcesu możesz wyłączyć urządzenie, powodując jego zatrzymanie w stanie, w jakim znajduje się w danym momencie (zamknięte drzwi pozostaną zamknięte). W przypadku krytycznego sukcesu możesz zmienić ostateczny stan urządzenia przed jego zatrzymaniem (spowodować, że traktor przejedzie 20 stóp do przodu, zanim zgaśnie jego silnik).</p>"
         },
         "Built": {
-            "name": "Built",
-            "description": "<p>You have been training with a lot of gear and armor. Increase your bulk limit by 2. When you wear two sets of armor, you are not clumsy 1.</p>"
+            "name": "Budowa",
+            "description": "<p>Trenowałeś z użyciem dużej ilości sprzętu i zbroi. Zwiększ swój limit masy o 2. Kiedy nosisz dwa zestawy zbroi, nie jesteś niezdarny 1.</p>"
         },
         "Bypass Security": {
-            "name": "Bypass Security",
-            "description": "<p>When you @Compendium[hopefinder.actions.tXtfx1ZQnyySXnUH]{Hack} using the Computer skill, reduce the number of successes needed for you to gain access to the system by half (minimum 1).</p>",
+            "name": "Omijanie Zabezpieczeń",
+            "description": "<p>Kiedy używasz umiejętności Komputery, aby @Compendium[hopefinder.actions.tXtfx1ZQnyySXnUH]{Hakować}, zmniejsz o połowę liczbę sukcesów potrzebnych do uzyskania dostępu do systemu (minimum 1).</p>",
             "prerequisites": [
                 {
-                    "value": "trained in Computer"
+                    "value": "wytrenowany w Komputerach"
                 }
             ]
         },
         "Careful Hacker": {
-            "name": "Careful Hacker",
-            "description": "<p>When you @Compendium[hopefinder.actions.tXtfx1ZQnyySXnUH]{Hack} using the Computer skill, failed checks do not register in the system (and therefore do not count toward lockout). Critical failures still count as normal.</p>",
+            "name": "Ostrożny Haker",
+            "description": "<p>Kiedy używasz umiejętności Komputery, aby @Compendium[hopefinder.actions.tXtfx1ZQnyySXnUH]{Hakować}, nieudane próby nie są rejestrowane w systemie (i dlatego nie są brane pod uwagę przy blokadzie). Krytyczne porażki nadal są traktowane normalnie.</p>",
             "prerequisites": [
                 {
-                    "value": "expert in Computer"
+                    "value": "ekspercki w Komputerach"
                 }
             ]
         },
         "Caregiver": {
-            "name": "Caregiver",
-            "description": "<p>You know how to look after others to ensure they heal quickly. You can care for a number of other characters equal to half your Medicine proficiency bonus. Characters you care for regain twice as many Hit Points from resting and heal twice as many bruises. This bonus does not apply to other methods of healing.</p>"
+            "name": "Opiekun",
+            "description": "<p>Wiesz, jak dbać o innych, aby szybko wrócili do zdrowia. Możesz opiekować się liczbą postaci równą połowie twojej premii do biegłości w Medycynie. Postacie, którymi się opiekujesz, odzyskują dwa razy więcej Punktów Wytrzymałości podczas odpoczynku i leczą dwa razy więcej siniaków. Premia ta nie dotyczy innych metod leczenia.</p>"
         },
         "Charge": {
-            "name": "Charge",
-            "description": "<p>You charge across the battlefield and make a devastating attack. Stride twice. At the end of your movement attempt a Strike using a melee weapon or unarmed attack. This attack deals one additional die of damage.</p>"
+            "name": "Szarża",
+            "description": "<p>Pędzisz przez pole bitwy i wykonujesz niszczycielski atak. Wykonaj Bieg dwukrotnie. Pod koniec ruchu spróbuj wykonać Atak bronią białą lub atak bez broni. Atak ten zadaje dodatkową kostkę obrażeń.</p>"
         },
         "Close Training": {
-            "name": "Close Training",
-            "description": "<p>You become more skilled with melee weapons. Increase your training in all simple and martial melee weapons by 1 step. You can take this feat a second time as a Greater feat.</p>",
+            "name": "Bliskie Szkolenie",
+            "description": "<p>Stajesz się bardziej biegły w posługiwaniu się bronią białą. Zwiększasz swój poziom wytrenowania we wszystkich prostych i żołnierskich rodzajach broni białej o 1 stopień. Możesz wybrać tę atut po raz drugi jako atut Wyższy.</p>",
             "rules": {
                 "0": {
-                    "label": "Simple Melee"
+                    "label": "Prosta broń do walki wręcz"
                 },
                 "3": {
-                    "label": "Martial Melee"
+                    "label": "Bojowa broń do walki wręcz"
                 }
             }
         },
         "Control": {
-            "name": "Control",
-            "description": "<p><strong>Requirements</strong> You have access to a system or device that is not locked or encrypted.</p>\n<hr />\n<p>You infiltrate a system quickly to gain basic control over its function. Attempt a Computers or Machinery skill check (DC set by the narrator based on the complexity of the device). On a success you gain basic control over the system and can make it do any of the things it was designed to do (make a vending machine spit out beverages, redirect a CCTV system, etc). On a critical success you can make it do something that it was not meant to do but within its capabilities.</p>"
+            "name": "Kontrola",
+            "description": "<p><strong>Wymagania</strong> Masz dostęp do systemu lub urządzenia, które nie jest zablokowane ani zaszyfrowane.</p>\n<hr />\n<p>Szybko infiltrujesz system, aby uzyskać podstawową kontrolę nad jego funkcjonowaniem. Wykonaj test umiejętności Komputery lub Maszyny (ST ustalane przez narratora w oparciu o złożoność urządzenia). W przypadku sukcesu zyskujesz podstawową kontrolę nad systemem i możesz nakazać mu wykonanie dowolnej czynności, do której został zaprojektowany (wypuszczenie napoju z automatu, przekierowanie systemu CCTV itp.). W przypadku krytycznego sukcesu możesz nakazać mu wykonanie czynności, do której nie został zaprojektowany, ale która mieści się w zakresie jego możliwości.</p>"
         },
         "Deadeye": {
             "name": "Sokole Oko",
-            "description": "<p>You take a moment to line up your shot. When you take the @Compendium[hopefinder.actions.ly0oPyA1abcq0MNc]{Aim} action, you get a +2 circumstance bonus on the attack roll and may add your proficiency bonus with the weapon to the damage roll if your next attack hits.</p>"
+            "description": "<p>Poświęcasz chwilę na wycelowanie. Kiedy wykonujesz akcję @Compendium[hopefinder.actions.ly0oPyA1abcq0MNc], otrzymujesz premię okolicznościową +2 do rzutu ataku i możesz dodać premię za biegłość w posługiwaniu się bronią do rzutu na obrażenia, jeśli następny atak trafi.</p>"
         },
         "Direct": {
             "name": "Bezpośredni",
-            "description": "<p>You can sacrifice some of your turn to give someone else a fighting chance. Select one ally within 30 feet that can see and hear you to take either a Step, Stride, or Strike action. The ally can choose to take the action that you direct for free.</p>"
+            "description": "<p>Możesz poświęcić część swojej tury, aby dać komuś innemu szansę na walkę. Wybierz jednego sojusznika w promieniu 30 stóp, który może cię widzieć i słyszeć, aby wykonał akcję Krok, Bieg lub Atak. Sojusznik może wybrać akcję, którą mu wyznaczysz, bez ponoszenia kosztów.</p>"
         },
         "Distraction": {
-            "name": "Distraction",
-            "description": "<p>Whenever you @Compendium[pf2e.actionspf2e.Feint]{Feint}, you can target a number of creatures equal to your Wisdom modifier. All the targets must be within 30 feet of you. You only roll once and compare that result to each creature to determine the effect.</p>",
+            "name": "Rozproszenie Uwagi",
+            "description": "<p>Kiedy używasz akcji @UUID[Compendium.pf2e.actionspf2e.Item.QNAVeNKtHA0EUw4X]{Finty}, możesz wybrać jako cel liczbę stworzeń równą twojemu modyfikatorowi Mądrości. Wszystkie cele muszą znajdować się w odległości do 30 stóp od ciebie. Rzucasz tylko raz i porównujesz wynik z każdym stworzeniem, aby określić efekt.</p>",
             "prerequisites": [
                 {
-                    "value": "Misdirect feat"
+                    "value": "Chybiony atut"
                 }
             ]
         },
         "Exceptional": {
-            "name": "Exceptional",
-            "description": "<p>You are just that good. Increase any one ability modifier by +1. You cannot increase your highest ability modifier in this way.</p>",
+            "name": "Wyjątkowy",
+            "description": "<p>Jesteś po prostu tak dobry. Zwiększ dowolny modyfikator cechy o +1. Nie możesz w ten sposób zwiększyć swojego najwyższego modyfikatora cechy.</p>",
             "rules": {
                 "0": {
-                    "prompt": "Select an ability score to increase"
+                    "prompt": "Wybierz wartość atrybutu, którą chcesz zwiększyć"
                 }
             }
         },
         "Fatality": {
             "name": "Fatality",
-            "description": "<p>You are especially lethal with melee weapons. All your melee weapons deal an additional die of damage. On a critical hit with a melee weapon, double the added critical effect of bludgeoning (@UUID[Compendium.hopefinder.effects.KNcK8MtYgm6ka7PO]{Bruised 2}), piercing (@Compendium[pf2e.conditionitems.Sickened]{Sickened 2}), and slashing ([[/r {2}[persistent,bleed]]]{2 persistent bleed}) weapons.</p>",
+            "description": "<p>Jesteś szczególnie zabójczy w walce wręcz. Wszystkie twoje bronie białe zadają dodatkową kostkę obrażeń. Przy trafieniu krytycznym bronią białą podwajasz dodatkowy efekt krytyczny obrażeń obuchowych (@UUID[Compendium.hopefinder.effects.KNcK8MtYgm6ka7PO]{Siniaki 2}), kłutych (@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Mdłości 2}) i ciętych ([[/r {2}[persistent,bleed]]]{2 krwawienie ciągłe}).</p>",
             "rules": {
                 "0": {
-                    "text": "Critical hits from bludgeoning weapons also deal 2 bruises."
+                    "text": "Krytyczne trafienia bronią obuchową powodują również 2 siniaki."
                 },
                 "1": {
-                    "text": "<p>Critical hits from slashing weapons cause the target to take [[/r {2}[persistent,bleed]]]{2} @Compendium[pf2e.conditionitems.Persistent Damage]{Persistent bleed Damage}.</p>"
+                    "text": "<p>Krytyczne trafienia bronią ciętą powodują, że cel otrzymuje [[/r {2}[persistent,bleed]]]{2} @UUID[Compendium.pf2e.conditionitems.Item.lDVqvLKA6eF3Df60]{Trwałe obrażenia krwawienia}.</p>"
                 },
                 "2": {
-                    "text": "<p>Critical hits from piercing weapons cause the target to be @Compendium[pf2e.conditionitems.Sickened]{Sickened 2} until the target receives any amount of healing.</p>"
+                    "text": "<p>Krytyczne trafienia bronią kłutą powodują, że cel otrzymuje efekt @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Mdłości 2}, dopóki nie otrzyma jakiejkolwiek ilości leczenia.</p>"
                 }
             }
         },
         "Fleet": {
             "name": "Szybki",
-            "description": "<p>You are quick on your feet. Increase your speed by 10 feet. At the start of combat, when initiative is rolled, you may take a Step for free.</p>",
+            "description": "<p>Jesteś szybki w ruchu. Zwiększ swoją szybkość o 10 stóp. Na początku walki, kiedy rzucana jest inicjatywa, możesz wykonać Krok za darmo.</p>",
             "rules": {
                 "2": {
-                    "text": "When initiative is rolled, you may take a Step for free."
+                    "text": "Kiedy rzucasz inicjatywę, możesz wykonać Krok za darmo."
                 }
             }
         },
         "Flurry": {
             "name": "Nawałnica",
-            "description": "<p>You last out a whirlwind of attacks. Attempt a melee Strike with one of your weapons against each foe within reach. All of these attacks count against your multiple attack penalty, but not until all the attacks are resolved.</p>"
+            "description": "<p>Wykorzystujesz ostatnią szansę, aby wykonać serię ataków. Próbujesz wykonać Atak wręcz jedną ze swoich broni przeciwko każdemu przeciwnikowi w zasięgu. Wszystkie te ataki wliczają się do kary za wielokrotny atak, ale dopiero po rozstrzygnięciu wszystkich ataków.</p>"
         },
         "Ghost": {
             "name": "Duch",
-            "description": "<p>You have a knack for getting undead to lose track of your location. Stride up to your speed. If at the end of this movement, an undead creature cannot see you, attempt a Stealth check against it's Perception DC. If you succeed the undead treats you as undetected, even if it could have otherwise obviously seen where you went.</p>",
+            "description": "<p>Masz talent do tego, by nieumarli tracili ślad twojej lokalizacji. Wykonaj bieg z maksymalną szybkością. Jeśli pod koniec tego ruchu nieumarły nie widzi cię, wykonaj test Ukrycia przeciwko jego Percepcji ST. Jeśli ci się powiedzie, nieumarły traktuje cię jako niewykrytego, nawet jeśli w innym przypadku mógłby wyraźnie zobaczyć, dokąd się udałeś.</p>",
             "prerequisites": [
                 {
-                    "value": "Quiet feat"
+                    "value": "Cichy atut"
                 }
             ]
         },
         "Glory": {
-            "name": "Glory",
-            "description": "<p>Your words can truly make a difference, inspiring those around you to greatness. Spend 10 minutes to grant 1 temporary Hope to those who can hear your voice. They can spend that Hope on a reroll any time in the next hour. They are immune to any further use of this ability (from anyone) for 24 hours.</p>",
+            "name": "Chwała",
+            "description": "<p>Twoje słowa mogą naprawdę wiele zmienić, inspirując osoby w Twoim otoczeniu do wielkich czynów. Poświęć 10 minut, aby dać 1 tymczasową Nadzieję tym, którzy słyszą Twój głos. Mogą oni wykorzystać tę Nadzieję na ponowne rzucenie kości w dowolnym momencie w ciągu następnej godziny. Przez 24 godziny są oni niewrażliwi na dalsze użycie tej umiejętności (przez kogokolwiek).</p>",
             "prerequisites": [
                 {
-                    "value": "Inspire feat"
+                    "value": "Inspirujący atut"
                 }
             ]
         },
         "Grapple": {
             "name": "Chwytanie",
-            "description": "<p>You have learned how to grab hold of a creature more effectively in combat. Whenever you succeed at Grappling a creature, it must attempt a @Check[type:flat|dc:5] to Strike you (this does not apply to checks made to @Compendium[pf2e.actionspf2e.Escape]{Escape}). In addition, if you Step while grappling a target, the target moves with you.</p>"
+            "description": "<p>Nauczyłeś się, jak skuteczniej chwytać stworzenia podczas walki. Za każdym razem, gdy uda ci się złapać stworzenie, musi ono wykonać test @Check[type:flat|dc:5], aby cię Atakować (nie dotyczy to testów wykonywanych w celu @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Uwolnienia}). Ponadto, jeśli wykonasz Krok podczas chwytania celu, cel porusza się wraz z tobą.</p>"
         },
         "Hammer": {
             "name": "Młotek",
-            "description": "<p>Tools gain the deadly trait when you wield them. Your second attack with a tool in one round only takes a -4 penalty and the third only takes a -8 penalty.</p>",
+            "description": "<p>Narzędzia zyskują cechę mordercze, gdy je używasz. Twój drugi atak narzędziem w jednej rundzie otrzymuje tylko karę -4, a trzeci tylko karę -8.</p>",
             "prerequisites": [
                 {
-                    "value": "Handy feat"
+                    "value": "Zręczny atut"
                 }
             ]
         },
         "Handy": {
-            "name": "Handy",
-            "description": "<p>Tools are an extension of your hand, and you wield them with force. When you wield a heavy tool, it deals 1d8 bludgeoning damage (instead of 1d6). If you score a critical hit with a tool, the target's armor takes 1 ding even if the damage bypasses their resistance.</p>"
+            "name": "Poręczny",
+            "description": "<p>Narzędzia są przedłużeniem twojej ręki i posługujesz się nimi z dużą siłą. Kiedy używasz ciężkiego narzędzia, zadaje ono 1k8 obrażeń obuchowych (zamiast 1k6). Jeśli trafisz krytycznie narzędziem, zbroja celu otrzymuje 1 punkt uszkodzenia, nawet jeśli obrażenia ominęły jej odporność.</p>"
         },
         "Hardy": {
-            "name": "Hardy",
-            "description": "<p>You can take a beating. Increase your Fortitude proficiency by 1 step. Increase your hit points by 4.</p>"
+            "name": "Wytrzymały",
+            "description": "<p>Potrafisz przyjąć ciosy. Zwiększ swoją biegłość w Wytrwałości o 1 stopień. Zwiększ swoje Punkty Wytrzymałości o 4.</p>"
         },
         "Hauler": {
             "name": "Transporter",
-            "description": "<p>You always have the right tool for the job. Increase your bulk limit by 3. Once per session you can spend 10 minutes to find one item of your choice with a barter value equal to your level.</p>"
+            "description": "<p>Zawsze masz odpowiednie narzędzie do wykonania zadania. Zwiększ limit Masy o 3. Raz na sesję możesz poświęcić 10 minut na znalezienie jednego przedmiotu o wartości barterowej równej twojemu poziomowi.</p>"
         },
         "Headshot": {
             "name": "Strzał w Głowę",
-            "description": "<p>You know how to place a shot right where it counts. Attempt a Strike against a single target. If the attack roll exceeds their AC by 5 or more it is a critical success. If the weapon is deadly, this attack automatically reduces the target to 0 Hit Points if the attack roll exceeds their AC by 15 or more.</p>"
+            "description": "<p>Wiesz, jak trafić dokładnie tam, gdzie trzeba. Spróbuj wykonać Atak na pojedynczy cel. Jeśli wynik rzutu na atak przekroczy jego KP o 5 lub więcej, jest to krytyczny sukces. Jeśli broń jest mordercza, atak ten automatycznie redukuje Punkty Wytrzymałości celu do 0, jeśli wynik rzutu na atak przekroczy jego KP o 15 lub więcej.</p>"
         },
         "Herbalism": {
             "name": "Wiedza o Zielarstwie",
-            "description": "<p>You can perform First Aid checks without a kit as long as you spend 10 minutes foraging for herbs and other medicinal plants from any overgrown or wilderness area. In addition, you receive a +2 circumstance bonus on Medicine skill checks to treat ailments if you have similar access to herbs and medicinal plants.</p>",
+            "description": "<p>Możesz wykonywać testy Pierwszej pomocy bez apteczki, o ile poświęcisz 10 minut na zbieranie ziół i innych roślin leczniczych z dowolnego zarośniętego lub dzikiego obszaru. Dodatkowo otrzymujesz premię okolicznościową +2 do testów umiejętności Medycyna, aby leczyć dolegliwości, jeśli masz podobny dostęp do ziół i roślin leczniczych.</p>",
             "rules": {
                 "0": {
-                    "label": "Have access to herbs and medicinal plants"
+                    "label": "Masz dostęp do ziół i roślin leczniczych"
                 }
             }
         },
         "Improvise": {
-            "name": "Improvise",
-            "description": "<p>You can erect barricades with incredible speed. Attempt to erect a Barricade using the Crafting skill. The DC for this check is 5 higher than normal.</p>"
+            "name": "Improwizacja",
+            "description": "<p>Możesz budować barykady z niesamowitą szybkością. Spróbuj zbudować barykadę, używając umiejętności Rzemiosło. Poziom trudności tej próby jest o 5 wyższy niż normalnie.</p>"
         },
         "Indestructible": {
-            "name": "Indestructible",
-            "description": "<p>You just keep on going, no matter the pain. Bruises no longer cause you to take any penalties and they cannot cause you to fall @Compendium[pf2e.conditionitems.Unconscious]{Unconscious}. Should you ever have a number of bruises equal to or greater than five times your total Hit Points, you die.</p>"
+            "name": "Niezniszczalny",
+            "description": "<p>Po prostu idziesz dalej, bez względu na ból. Siniaki nie powodują już żadnych kar i nie mogą spowodować, że staniesz się @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Nieprzytomny}. Jeśli liczba siniaków jest równa lub większa niż pięć razy całkowita liczba Punktów Wytrzymałości, giniesz.</p>"
         },
         "Inoculated": {
-            "name": "Inoculated",
-            "description": "<p>You have received the basic inoculation against the Z Plague. If you contract the disease, while you are in Stage 1 you roll Fortitude saves to resist the infection twice, taking the better result.</p>"
+            "name": "Zaszczepiony",
+            "description": "<p>Otrzymałeś podstawowe szczepienie przeciwko Pladze Z. Jeśli zarazisz się chorobą, będąc w fazie 1, rzucasz dwa razy na Wytrwałość, aby oprzeć się infekcji, i bierzesz lepszy wynik.</p>"
         },
         "Inspire": {
             "name": "Inspiracja",
-            "description": "<p>With a few choice words or a hopeful tune, you inspire courage in those around you. Allies within 50 feet who can hear you gain a +1 status bonus on attack rolls, damage rolls, and saving throws against fear until the start of your next turn.</p>\n<p>@UUID[Compendium.hopefinder.effects.k64Kln6sGrwVipq4]{Effect: Inspire}</p>"
+            "description": "<p>Kilka trafnych słów lub pełna nadziei melodia dodają otuchy osobom w Twoim otoczeniu. Sojusznicy w promieniu 50 stóp, którzy Cię słyszą, otrzymują premię +1 do rzutów ataku, rzutów na obrażenia i rzutów obronnych przeciwko strachowi do początku Twojej następnej tury.</p>\n<p>@UUID[Compendium.hopefinder.effects.k64Kln6sGrwVipq4]</p>"
         },
         "Insult": {
-            "name": "Insult",
-            "description": "<p>Your wit can drive people into a rage directed solely at you. When you use this feat, you spend two actions berating and belittling a human target. Attempt an Intimidation skill check against the target's Will DC. If you succeed, the target becomes enraged and takes a -2 circumstance penalty when attacking anyone except you (-4 on a critical success). This penalty lasts until you are @Compendium[pf2e.conditionitems.Unconscious]{Unconscious}, or the target hits you with a critical hit.</p>\n<p>@UUID[Compendium.hopefinder.effects.HZMvFstS4np7q83t]{Effect: Insulted}</p>"
+            "name": "Obraza",
+            "description": "<p>Twoja elokwencja może doprowadzić ludzi do wściekłości skierowanej wyłącznie przeciwko tobie. Kiedy używasz tego atutu, poświęcasz dwie akcje na krytykowanie i poniżanie ludzkiego celu. Wykonaj test umiejętności Zastraszanie przeciwko wartości ST Woli celu. Jeśli ci się powiedzie, cel wpada w furię i otrzymuje karę okolicznościową -2 podczas ataku na kogokolwiek oprócz ciebie (-4 w przypadku krytycznego sukcesu). Kara ta trwa do momentu, gdy staniesz się @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf], lub cel trafi cię krytycznym trafieniem.</p>\n<p>@UUID[Compendium.hopefinder.effects.HZMvFstS4np7q83t]</p>"
         },
         "Keen": {
-            "name": "Runa Ostrości",
-            "description": "<p>Always being on edge has honed your senses. Increase your Perception proficiency by 1 step. You lose 1 fewer action if surprised at the start of combat.</p>"
+            "name": "Zapalony",
+            "description": "<p>Ciągłe napięcie wyostrzyło twoje zmysły. Zwiększ swoją biegłość w Percepcji o 1 stopień. Tracisz o 1 mniej akcji, jeśli zostaniesz zaskoczony na początku walki.</p>"
         },
         "Knockback": {
             "name": "Odrzut",
-            "description": "<p>Whenever you score a critical hit with melee Strike the foe is pushed back 5 feet. If the weapon is 2 handed, increase this to 10 feet.</p>",
+            "description": "<p>Za każdym razem, gdy zadajesz krytyczny atak bronią białą, przeciwnik zostaje odrzucony o 5 stóp. Jeśli broń jest dwuręczna, odległość ta wzrasta do 10 stóp.</p>",
             "rules": {
                 "0": {
-                    "text": "Whenever you score a critical hit with a two-handed melee Strike the foe is pushed back 10 feet."
+                    "text": "Za każdym razem, gdy zadajesz krytyczne trafienie za pomocą dwuręcznej broni, przeciwnik zostaje odrzucony o 10 stóp."
                 },
                 "1": {
-                    "text": "Whenever you score a critical hit with melee Strike the foe is pushed back 5 feet."
+                    "text": "Za każdym razem, gdy zadajesz krytyczny atak w walce wręcz, przeciwnik zostaje odrzucony o 5 stóp."
                 }
             }
         },
         "Lure": {
-            "name": "Lure",
-            "description": "<p>By tossing an old can, broken bottle, or bit of debris, you attempt to lure the dead to a nearby location. Select a spot that is within 30 feet that you can target with a thrown object. Zombies within 30 feet of that location must attempt a @Check[type:will|dc:resolve(10+@actor.system.skills.deception.value)] save against your Deception DC. Those who fail move to investigate the noise, where they remain for 1 minute. Those that critically succeed on this check detect you instead. This ability cannot be used in combat and if you attempt to use it more than once against the same zombie in a 1-hour period, it instantly detects you.</p>"
+            "name": "Przynęta",
+            "description": "<p>Rzucając starą puszką, potłuczoną butelką lub kawałkiem śmieci, próbujesz zwabić zmarłych do pobliskiego miejsca. Wybierz miejsce w promieniu 30 stóp, do którego możesz rzucić przedmiotem. Zombie w promieniu 30 stóp od tego miejsca muszą wykonać rzut obronny @Check[type:will|dc:resolve(10+@actor.system.skills.deception.value)] przeciwko Twojej wartości ST Oszustwa. Ci, którzy nie zdadzą testu, podchodzą, aby zbadać źródło hałasu, i pozostają w tym miejscu przez 1 minutę. Ci, którzy zdadzą test z wynikiem krytycznym, wykryją cię. Tego zdolności nie można używać w walce, a jeśli spróbujesz użyć jej więcej niż raz przeciwko temu samemu zombie w ciągu godziny, natychmiast cię wykryje.</p>"
         },
         "Machine Fixer": {
-            "name": "Machine Fixer",
-            "description": "<p>When you @Compendium[hopefinder.actions.kKDBzhpz0UdYA7dq]{Fix} a machine using the Machinery skill, reduce the number of successes needed for you to finish the job by half (minimum 1).</p>",
+            "name": "Mechanik Maszyn",
+            "description": "<p>Kiedy @Compendium[hopefinder.actions.kKDBzhpz0UdYA7dq]{Naprawiasz} maszynę, korzystając z umiejętności Mechanika, zmniejsz o połowę liczbę sukcesów potrzebnych do wykonania zadania (minimum 1).</p>",
             "prerequisites": [
                 {
-                    "value": "trained in Machinery"
+                    "value": "wytrenowany w Maszynach"
                 }
             ]
         },
         "Menace": {
             "name": "Zagrożenie",
-            "description": "<p>Your words can cause fear and doubt to creep in the minds of even the most resolute foes. Attempt an Intimidation check to @Compendium[pf2e.actionspf2e.2u915NdUyQan6uKF]{Demoralize} and compare the result to all enemy humans within 30 feet who hear your words.</p>"
+            "description": "<p>Twoje słowa mogą wywołać strach i wątpliwości nawet w umysłach najbardziej zdecydowanych wrogów. Wykonaj test Zastraszenia, aby @Compendium[pf2e.actionspf2e.2u915NdUyQan6uKF]{Zdemoralizować}, a następnie porównaj wynik ze wszystkimi wrogimi ludźmi w promieniu 30 stóp, którzy słyszą twoje słowa.</p>"
         },
         "Misdirect": {
-            "name": "Misdirect",
-            "description": "<p>You can use @Compendium[pf2e.actionspf2e.Feint]{Feint} against any creature within 30 feet. On a success, that creature is @Compendium[pf2e.conditionitems.Off-Guard]{Off-Guard} to the next attack made against the creature before the start of your next turn. On a critical success, it is off-guard against all attacks made against the creature before the start of your next turn.</p>"
+            "name": "Chybiony",
+            "description": "<p>Możesz użyć @UUID[Compendium.pf2e.actionspf2e.Item.QNAVeNKtHA0EUw4X]{Finty} przeciwko dowolnej istocie w promieniu 30 stóp. W przypadku powodzenia istota ta jest @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Odsłonięty} do następnego ataku wykonanego przeciwko niej przed rozpoczęciem twojej kolejnej tury. W przypadku krytycznego sukcesu jest ona odsłonięta do wszystkich ataków wykonanych przeciwko niej przed rozpoczęciem twojej następnej tury.</p>"
         },
         "Multilingual": {
             "name": "Poliglota",
-            "description": "<p>Communication is key in apocalypse. Add two languages to your list of languages known.</p>"
+            "description": "<p>Komunikacja jest kluczowa w czasach apokalipsy. Dodaj dwa języki do listy znanych języków.</p>"
         },
         "Nimble": {
-            "name": "Nimble",
-            "description": "<p>You are quick on your feet. Increase your Reflex proficiency by 1 step. Increase you speed by 5 feet.</p>"
+            "name": "Zwinny",
+            "description": "<p>Jesteś szybki w działaniu. Zwiększ swoją biegłość w zakresie Refleksu o 1 stopień. Zwiększ swoją szybkość o 5 stóp.</p>"
         },
         "Override": {
-            "name": "Nadpisz",
-            "description": "<p><strong>Requirements</strong> You have access to a device that is locked or otherwise protected</p>\n<hr />\n<p>You have learned how to physically bypass devices that protect machinery (such as hotwiring a car). Attempt a Machinery skill check (DC set by the narrator based on the level of security). Success allows you to gain control over the machine. A critical success allows you to do so in a way that is not noticeable later.</p>"
+            "name": "Zastąpienie",
+            "description": "<p><strong>Wymagania</strong> Masz dostęp do urządzenia, które jest zablokowane lub w inny sposób zabezpieczone.</p>\n<hr />\n<p>Nauczyłeś się, jak fizycznie ominąć urządzenia chroniące maszyny (np. uruchamianie samochodu za pomocą przewodów). Spróbuj wykonać test umiejętności Maszyny (ST ustalane przez narratora w oparciu o poziom bezpieczeństwa). Sukces pozwala ci przejąć kontrolę nad maszyną. Krytyczny sukces pozwala ci zrobić to w sposób, który nie będzie później zauważalny.</p>"
         },
         "Overwatch": {
             "name": "Stróż",
-            "description": "<p>Keeping careful eye on an area, you prepare to take a shot at any enemy that appears. The area that you can overwatch is a cone with double your weapon's range. Set this area when you use this action. There cannot be any visible enemies in this cone when it is set. Until the start of your next turn, you can spend a reaction to attempt a Strike with your readied ranged weapon at any target that you see in this area. If you use this ability again, it allows you to set a new cone and you are no longer watching the previous cone.</p>"
+            "description": "<p>Uważnie obserwując obszar, przygotowujesz się do oddania strzału do każdego pojawiającego się wroga. Obszar, który możesz obserwować, ma kształt stożka o zasięgu dwukrotnie większym niż zasięg twojej broni. Ustal ten obszar, gdy używasz tej akcji. W momencie ustawienia stożka nie może być w nim żadnych widocznych wrogów. Do początku następnej tury możesz wykorzystać reakcję, aby wykonać atak przygotowaną bronią dystansową na dowolny cel widoczny w tym obszarze. Jeśli użyjesz tej zdolności ponownie, możesz ustawić nowy stożek i nie obserwujesz już poprzedniego.</p>"
         },
         "Parkour": {
             "name": "Parkour",
-            "description": "<p>Gathering up momentum, you move easily through a space, jumping over, sliding around, and dodging all obstacles. Stride twice. This movement ignores difficult terrain and does not trigger reactions. During this move, you can move over objects up to 4 feet high and under objects with at least 2 feet of clearance without making skill checks or slowing down your movement.</p>"
+            "description": "<p>Nabierając rozpędu, poruszasz się z łatwością po przestrzeni, przeskakując, ślizgając się i omijając wszystkie przeszkody. Wykonaj Bieg dwukrotnie. Ten ruch ignoruje trudny teren i nie wywołuje reakcji. Podczas tego ruchu możesz poruszać się nad obiektami o wysokości do 4 stóp i pod obiektami o wysokości co najmniej 2 stóp bez wykonywania testów umiejętności lub spowalniania ruchu.</p>"
         },
         "Parry": {
             "name": "Parowanie",
-            "description": "<p><strong>Requirements</strong> Wielding a melee weapon</p>\n<hr />\n<p>You use your weapon to defend yourself from harm. Until your next turn, you receive a +2 circumstance bonus to AC against melee attacks. If you are hit by a melee attack before your next turn, your weapon takes 1 ding at the start of your next turn.</p>"
+            "description": "<p><strong>Wymagania</strong> Władanie bronią białą</p>\n<hr />\n<p>Używasz swojej broni, aby bronić się przed obrażeniami. Do następnej tury otrzymujesz premię okolicznościową +2 do KP przeciwko atakom wręcz. Jeśli zostaniesz trafiony atakiem wręcz przed następną turą, twoja broń otrzymuje 1 uszkodzenie na początku następnej tury.</p>"
         },
         "Patch": {
-            "name": "Patch",
-            "description": "<p>You can quickly apply a temporary patch to get a machine (including a gun) or system working again (even if it is broken). Attempt a @Check[type:computers|dc:20] or @Check[type:machinery|dc:20] skill check. You get a +4 circumstance bonus on the check if you spend an appropriate part on the check. If you succeed the device functions for 1 minute or until it takes a ding (increased to 1 hour on a critical success).</p>"
+            "name": "Łatka",
+            "description": "<p>Możesz szybko zastosować tymczasową poprawkę, aby przywrócić działanie maszyny (w tym broni) lub systemu (nawet jeśli jest uszkodzony). Spróbuj wykonać test umiejętności @Check[type:computers|dc:20] lub @Check[type:machinery|dc:20]. Otrzymasz premię +4 do testu, jeśli wydasz odpowiednią część maszyny na test. Jeśli test się powiedzie, urządzenie będzie działać przez 1 minutę lub do momentu, gdy ulegnie uszkodzeniu (w przypadku krytycznego sukcesu czas ten wydłuża się do 1 godziny).</p>"
         },
         "Perceptive": {
-            "name": "Perceptive",
-            "description": "<p>You notice things others do not. Increase your proficiency in Perception by 1 step. You lose 1 fewer actions when you are surprised.</p>"
+            "name": "Wnikliwy",
+            "description": "<p>Zauważasz rzeczy, których inni nie dostrzegają. Zwiększ swoją biegłość w Percepcji o 1 stopień. Tracisz o 1 mniej akcji, gdy jesteś zaskoczony.</p>"
         },
         "Practiced": {
-            "name": "Practiced",
-            "description": "<p>You know how to use one weapon very well. Increase your proficiency in one type of simple weapon by 1 step. Once per combat you can ignore one ding to that weapon caused by a critical failure on a Strike.</p>",
+            "name": "Praktyczny",
+            "description": "<p>Wiesz, jak bardzo dobrze posługiwać się jedną bronią. Zwiększ swoją biegłość w posługiwaniu się jednym rodzajem prostej broni o 1 stopień. Raz na walkę możesz zignorować jedno uszkodzenie tej broni spowodowane krytyczną porażką podczas ataku.</p>",
             "rules": {
                 "0": {
                     "choices": {
                         "0": {
-                            "label": "Clubs"
+                            "label": "Maczugi"
                         },
                         "1": {
                             "label": "Narzędzia"
                         },
                         "2": {
-                            "label": "Blades"
+                            "label": "Ostrza"
                         },
                         "3": {
-                            "label": "Patchwork"
+                            "label": "Łatanina"
                         },
                         "4": {
-                            "label": "Axes"
+                            "label": "Topory"
                         },
                         "5": {
-                            "label": "Bows"
+                            "label": "Łuki"
                         },
                         "6": {
-                            "label": "Pistols"
+                            "label": "Pistolety"
                         },
                         "7": {
-                            "label": "Rifles"
+                            "label": "Karabiny"
                         },
                         "8": {
-                            "label": "Fuel"
+                            "label": "Paliwo"
                         },
                         "9": {
-                            "label": "Grenades"
+                            "label": "Granaty"
                         },
                         "10": {
-                            "label": "Shotguns"
+                            "label": "Strzelby"
                         }
                     }
                 },
                 "1": {
-                    "label": "Practiced Weapons"
+                    "label": "Bronie Ćwiczebne"
                 }
             }
         },
         "Precision": {
             "name": "Precyzja",
-            "description": "<p>Whenever you catch a foe unaware, you can deal extra damage to them. If you Strike a @Compendium[pf2e.conditionitems.Off-Guard]{Off-Guard} creature, you deal an additional 1d6 precision damage. This damage increases to 2d6 if you have at least 2 other agility feats.</p>"
+            "description": "<p>Kiedy zaskoczysz przeciwnika, możesz zadać mu dodatkowe obrażenia. Jeśli wykonasz atak na stworzenie @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Odsłonięte}, zadajesz dodatkowe obrażenia precyzyjne 1k6. Obrażenia te wzrastają do 2k6, jeśli posiadasz co najmniej 2 inne atuty zręcznościowe.</p>"
         },
         "Prepared": {
-            "name": "Przygotowane",
-            "description": "<p>By meticulous planning and preparation, you always have what you need to get the job done. Whenever you are at a trader, you can give them a single item with a barter value up to twice your level. When out exploring or on a mission, you can trade that item for any item of lesser value in the trader's inventory gaining that item immediately (because you traded for it when back in the settlement). You can get multiple items of the same type, but you cannot get multiple different items in this way. Excess barter value is lost. The item gained is placed on your person in any open spot (except your hands).</p>"
+            "name": "Przygotowany",
+            "description": "<p>Dzięki skrupulatnemu planowaniu i przygotowaniom zawsze masz wszystko, czego potrzebujesz, aby wykonać zadanie. Kiedy jesteś u handlarza, możesz dać mu jeden przedmiot o wartości barterowej do dwukrotności twojego poziomu. Podczas eksploracji lub misji możesz wymienić ten przedmiot na dowolny przedmiot o mniejszej wartości z ekwipunku handlarza, otrzymując go natychmiast (ponieważ wymieniłeś go, gdy byłeś w osadzie). Możesz otrzymać wiele przedmiotów tego samego typu, ale nie możesz w ten sposób otrzymać wielu różnych przedmiotów. Nadwyżka wartości barterowej zostanie utracona. Uzyskany przedmiot zostanie umieszczony na Twojej postaci w dowolnym wolnym miejscu (z wyjątkiem rąk).</p>"
         },
         "Push": {
             "name": "Popchnięcie",
-            "description": "<p>Whenever you successfully @Compendium[pf2e.actionspf2e.Shove]{Shove} a creature, you also move a number of creatures behind it so long as your check would beat their Fortitude DC as well. You can only move up to a number of creatures equal to your Strength bonus in this way. Any creature that could be moved, but that cannot move to due insufficient space takes [[/r {1d6}[bludgeoning]]]{1d6 bludgeoning damage} plus your Strength.</p>"
+            "description": "<p>Za każdym razem, gdy pomyślnie wykonasz akcję @UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731] na stworzeniu, przesuwasz również kilka stworzeń znajdujących się za nim, o ile twoja próba pokona ich ST Wytrwałości. W ten sposób możesz przesunąć tylko tyle stworzeń, ile wynosi twoja premia do Siły. Każda istota, którą można przenieść, ale która nie może się przemieścić z powodu niewystarczającej ilości miejsca, otrzymuje [[/r {1d6}[bludgeoning]]]{1k6 obrażeń obuchowych} plus twoją Siłę.</p>"
         },
         "Quick Diagnosis": {
-            "name": "Quick Diagnosis",
-            "description": "<p>You can @Compendium[hopefinder.actions.tkcWD2z7JPkGpfZF]{Diagnose} a problem with a computer or machine (based on your skill) in just 1 minute. If you are at least an Master in the skill, this time is reduced to 1 action.</p>",
+            "name": "Szybka Diagnoza",
+            "description": "<p>Możesz @Compendium[hopefinder.actions.tkcWD2z7JPkGpfZF]{Diagnozować} problem z komputerem lub maszyną (w oparciu o swoje umiejętności) w zaledwie 1 minutę. Jeśli posiadasz co najmniej poziom mistrzowski w tej umiejętności, czas ten skraca się do 1 akcji.</p>",
             "prerequisites": [
                 {
-                    "value": "trained in Computer or Machinery"
+                    "value": "wytrenowany w Komputerach lub Maszynach"
                 }
             ]
         },
         "Quiet": {
-            "name": "Quiet",
-            "description": "<p>Whenever you @Compendium[pf2e.actionspf2e.Sneak]{Sneak}, undead do not get a Perception check to notice you if they cannot see you.</p>"
+            "name": "Cichy",
+            "description": "<p>Kiedy używasz @UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]{Skradasz}, nieumarli nie otrzymują testu Percepcji, aby cię zauważyć, jeśli cię nie widzą.</p>"
         },
         "Ranged Training": {
-            "name": "Ranged Training",
-            "description": "<p>You become more skilled with ranged weapons. Increase your training in all simple and martial ranged weapons by 1 step. You can take this feat a second time as a Greater feat.</p>",
+            "name": "Trening Dystansowy",
+            "description": "<p>Stajesz się bardziej biegły w posługiwaniu się bronią dystansową. Zwiększasz swój poziom wytrenowania we wszystkich prostych i bojowych rodzajach broni dystansowej o 1 stopień. Możesz wybrać tę atut po raz drugi jako atut Wyższy.</p>",
             "rules": {
                 "0": {
-                    "label": "Simple Ranged"
+                    "label": "Prosta broń dystansowa"
                 },
                 "3": {
-                    "label": "Martial Ranged"
+                    "label": "Bojowa broń dystansowa"
                 }
             }
         },
         "Reload": {
             "name": "Przeładowanie",
-            "description": "<p>You have learned how to reload your weapons quickly. Whenever you reload a weapon, reduce the number of actions required by 1, to a minimum of 1.</p>"
+            "description": "<p>Nauczyłeś się szybko przeładowywać broń. Za każdym razem, gdy przeładowujesz broń, zmniejsz liczbę wymaganych akcji o 1, do minimum 1.</p>"
         },
         "Requisition": {
-            "name": "Requisition",
-            "description": "<p>Before you head out on a mission, you can attempt to requisition one piece of gear or one weapon that the settlement might have to help you achieve your objective. Attempt a Diplomacy skill check with a DC equal to 10 + the barter value of the object. If you requisition food or basic ammunition, you can get 10 bullets or 2 food and 2 hydration for each member of your group.</p>"
+            "name": "Zapotrzebowanie",
+            "description": "<p>Przed wyruszeniem na misję możesz spróbować zażądać jednego elementu wyposażenia lub jednej broni, które osada może posiadać, aby pomóc ci osiągnąć cel. Spróbuj wykonać test umiejętności Dyplomacji o współczynniku trudności równym 10 + wartość barterowa przedmiotu. Jeśli zażądasz żywności lub podstawowej amunicji, możesz otrzymać 10 nabojów lub 2 porcje żywności i 2 porcje płynów dla każdego członka twojej grupy.</p>"
         },
         "Resilient": {
-            "name": "Runa Ochrony",
-            "description": "<p>You are capable of withstanding more than most. Increase your proficiency in one type of saving throw by 1 step. If you are a master in that saving throw, whenever you get a success, treat it as a critical success instead.</p>"
+            "name": "Odporny",
+            "description": "<p>Jesteś w stanie wytrzymać więcej niż większość osób. Zwiększ swoją biegłość w jednym rodzaju rzutu obronnego o 1 stopień. Jeśli jesteś mistrzem w tym rzucie obronnym, za każdym razem, gdy odniesiesz sukces, traktuj go jako sukces krytyczny.</p>"
         },
         "Resolute": {
             "name": "Zdecydowany",
-            "description": "<p>Nothing scares you. Increase your Will proficiency by 1 step. You are immune to the frightened condition.</p>"
+            "description": "<p>Nic Cię nie przeraża. Zwiększ swoją biegłość w Woli o 1 stopień. Jesteś niewrażliwy na stan przestraszony.</p>"
         },
         "Revive": {
-            "name": "Revive",
-            "description": "<p>You can try and save someone who has died using the contents of a first aid kit. Attempt a @Check[type:medicine|dc:25] skill check on an adjacent creature that has died. If the creature died within 1 minute, the DC is 25. Increase the DC by 5 for each minute beyond the first. If successful, the creature is returned to life, at 0 hit points, and stable. The creature gains the @Compendium[pf2e.conditionitems.Yl48xTdMh3aeQYL2]{Wounded 2} condition. The DC increases by 1 for each time this check is failed. This has no effect on zombies.</p>",
+            "name": "Ożywienie",
+            "description": "<p>Możesz spróbować uratować osobę, która zmarła, używając zawartości apteczki pierwszej pomocy. Wykonaj test umiejętności @Check[type:medicine|dc:25] na sąsiedniej istocie, która zmarła. Jeśli istota zmarła w ciągu 1 minuty, ST wynosi 25. Zwiększ ST o 5 za każdą minutę powyżej pierwszej. Jeśli test się powiedzie, istota wraca do życia z 0 Punktami Wytrzymałości i stabilnym stanem. Istota otrzymuje stan @Compendium[pf2e.conditionitems.Yl48xTdMh3aeQYL2]{Ranny 2}. Poziom trudności wzrasta o 1 za każdym razem, gdy test się nie powiedzie. Nie ma to wpływu na zombie.</p>",
             "prerequisites": [
                 {
-                    "value": "Rouse feat"
+                    "value": "Ożywczy atut"
                 }
             ]
         },
         "Rich": {
-            "name": "Rich",
-            "description": "<p>You just have more stuff than most. Increase your starting gear by 4 barter. Every time you increase your survivor level, gain an additional 4 barter worth of gear.</p>"
+            "name": "Bogaty",
+            "description": "<p>Po prostu masz więcej rzeczy niż większość. Zwiększ swój początkowy ekwipunek o 4 punkty barterowe. Za każdym razem, gdy zwiększysz swój poziom przetrwania, otrzymasz dodatkowe 4 punkty barterowe na ekwipunek.</p>"
         },
         "Rouse": {
-            "name": "Rouse",
-            "description": "<p>Using the contents of a first aid kit, you attempt to waken an adjacent target that is @Compendium[pf2e.conditionitems.Unconscious]{Unconscious} and dying. Attempt a @Check[type:medicine] skill check against DC 15 + the target's dying value. If you succeed, the target is restored to 1 Hit Point, gaining the @Compendium[pf2e.conditionitems.Yl48xTdMh3aeQYL2]{Wounded} condition as normal.</p>"
+            "name": "Ożywczy",
+            "description": "<p>Korzystając z zawartości apteczki pierwszej pomocy, próbujesz obudzić znajdującą się obok ciebie postać, która jest @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Nieprzytomna} i umiera. Wykonaj test umiejętności @Check[type:medicine] przeciwko ST 15 + wartość umierania postaci. Jeśli ci się powiedzie, cel odzyskuje 1 Punkt Wytrzymałości i otrzymuje stan @Compendium[pf2e.conditionitems.Yl48xTdMh3aeQYL2]{Ranny} jak zwykle.</p>"
         },
         "Search": {
             "name": "Przeszukiwanie",
-            "description": "<p>You are an expert at digging through the files and directories of computers to get the information that you need. Operating a computer is an action for you (instead of a 1 minute activity). In addition, you do not need to attempt a check to understand and catalog the public and easily accessible information contained within a device, giving you a list of topics and file names. Finally, if you are looking through a database, you receive a +4 circumstance bonus on any related skill checks (instead of the usual +2 for having reference materials).</p>"
+            "description": "<p>Jesteś ekspertem w przeszukiwaniu plików i katalogów komputerów w celu uzyskania potrzebnych informacji. Obsługa komputera jest dla Ciebie akcją (zamiast czynności trwającej 1 minutę). Ponadto nie musisz wykonywać testu, aby zrozumieć i skatalogować publiczne i łatwo dostępne informacje zawarte w urządzeniu, co daje Ci listę tematów i nazw plików. Wreszcie, jeśli przeglądasz bazę danych, otrzymujesz premię okolicznościową +4 do wszystkich powiązanych testów umiejętności (zamiast zwykłej premii +2 za posiadanie materiałów referencyjnych).</p>"
         },
         "Shoulder": {
-            "name": "Shoulder",
-            "description": "<p>You can lower your shoulder and clear a path. Move up to twice your speed in a straight line. You must attempt an Athletics check versus the Fortitude DC of each creature in your path. If you succeed, they move to an adjacent space, not in the line if possible (or fall @Compendium[pf2e.conditionitems.Prone]{Prone} if none are available), and you continue moving. If you fail, your movement stops in the space in front of them. If you critically fail the check you stop moving and fall prone. This movement does not trigger reactions.</p>"
+            "name": "Barczysty",
+            "description": "<p>Możesz opuścić ramiona i oczyścić drogę. Poruszaj się z szybkością dwukrotnie większą niż normalna, poruszając się w linii prostej. Musisz wykonać test Atletyki przeciwko ST Wytrwałości każdego stworzenia na swojej drodze. Jeśli ci się powiedzie, stworzenia te przemieszczają się do sąsiedniego pola, jeśli to możliwe nie w linii prostej (lub @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Przewracają się}, jeśli nie ma takiego pola), a ty kontynuujesz ruch. Jeśli ci się nie uda, zatrzymasz się w miejscu przed nimi. Jeśli test zakończy się krytyczną porażką, zatrzymasz się i upadniesz na ziemię. Ten ruch nie wywołuje reakcji.</p>"
         },
         "Sidekick": {
-            "name": "Sidekick",
-            "description": "<p>You have formed a bond with a very close ally who follows you on your missions. You and the narrator work together to determine the name and personality of the sidekick. The sidekick does not enter dangerous areas, instead acting as a lookout outside. The sidekick can also make trips back to the nearest settlement to perform trades on your behalf. The sidekick can carry up to 5 bulk of items for you and can use the Craft and Medicine skills to aid you (both at a +6 bonus). If the sidekick dies, you must replace this feat at the start of the next session and carry their memory.</p>"
+            "name": "Pomocnik",
+            "description": "<p>Nawiązałeś więź z bliskim sprzymierzeńcem, który towarzyszy ci podczas misji. Ty i narrator wspólnie ustalacie imię i osobowość pomocnika. Pomocnik nie wchodzi do niebezpiecznych obszarów, zamiast tego pełni rolę strażnika na zewnątrz. Pomocnik może również wracać do najbliższej osady, aby dokonywać transakcji w Twoim imieniu. Pomocnik może przenosić dla Ciebie do 5 sztuk przedmiotów i może używać umiejętności Rzemiosła i Medycyny, aby Ci pomóc (obie z premią +6). Jeśli pomocnik zginie, musisz zastąpić ten atut na początku następnej sesji i zachować pamięć o nim.</p>"
         },
         "Snare": {
             "name": "Sidła",
-            "description": "<p>You set up a trap, which normally takes 1 minute. You must have the trap ready to use this feat. If you spend 10 minutes instead, you can create a trip wire trap and set it up, scrounging parts from the area. You can only have one such scrounged trap in the area at a time.</p>"
+            "description": "<p>Ustawiasz pułapkę, co zwykle zajmuje 1 minutę. Aby skorzystać z tej zdolności, musisz mieć gotową pułapkę. Jeśli poświęcisz na to 10 minut, możesz stworzyć pułapkę z linką i ustawić ją, zbierając potrzebne elementy z otoczenia. W danym obszarze możesz mieć tylko jedną taką pułapkę naraz.</p>"
         },
         "Specialist": {
-            "name": "Specialist",
-            "description": "<p>You have learned of a way to treat the Z Plague if it has not progressed too far. Unfortunately, unlike doses of the highly coveted Z-Noc, your treatment is dangerous and far from certain. You can use @Compendium[pf2e.actionspf2e.Treat Disease]{Treat Disease} on the Z Plague if the victim is still in stage 1. Attempt a Medicine skill check against the DC of the plague +5. If successful, your treatment acts as one successful saving throw and it cures them entirely on a critical success. The creature you treat gains [[/r 1d4 #Bruises]]{1d4 bruises} from the harsh chemicals used.</p>"
+            "name": "Specjalista",
+            "description": "<p>Poznałeś sposób leczenia Plagi Z, jeśli nie jest ona jeszcze zbyt zaawansowana. Niestety, w przeciwieństwie do dawek bardzo pożądanego Z-Noc, twoje leczenie jest niebezpieczne i dalekie od pewności. Możesz użyć @UUID[Compendium.pf2e.actionspf2e.Item.TC7OcDa7JlWbqMaN] na Plagę Z, jeśli ofiara jest nadal w etapie 1. Spróbuj wykonać test umiejętności Medycyna przeciwko ST zarazy +5. Jeśli test się powiedzie, twoje leczenie działa jak jeden udany rzut obronny, a w przypadku krytycznego sukcesu całkowicie wyleczy ofiarę. Leczona istota otrzymuje [[/r 1d4 #Siniaki]]{1k4 siniaków} od silnych środków chemicznych użytych podczas leczenia.</p>"
         },
         "Speed Demon": {
-            "name": "Speed Demon",
-            "description": "<p>Reduce the travel time to any destination by 25%. When driving a vehicle, you can coax more power from the engine, increasing its maximum speed by 10%.</p>",
+            "name": "Demon Szybkości",
+            "description": "<p>Skróć czas podróży do dowolnego miejsca o 25%. Podczas jazdy samochodem możesz wycisnąć więcej mocy z silnika, zwiększając jego maksymalną szybkość o 10%.</p>",
             "prerequisites": [
                 {
-                    "value": "expert in Driving"
+                    "value": "ekspert w Kierowaniu"
                 }
             ]
         },
         "Spray": {
-            "name": "Pryśnięcie",
-            "description": "<p><strong>Requirements</strong> You are wielding a burst weapon with at least half its clip remaining</p>\n<hr />\n<p>You spray and area with gunfire. You weapon deals damage in a cone with a range equal to the weapon's range increment. All targets in this area take the weapon's damage, but can reduce the damage with a basic Reflex save (DC = 10 + you attack bonus with the weapon). This attack uses up an amount of ammunition equal to half the weapon's clip size. This counts as only one attack for the multiple attack penalty.</p>"
+            "name": "Rozprysk",
+            "description": "<p><strong>Wymagania</strong> Używasz broni seryjnej, w której pozostało co najmniej połowa magazynka.</p>\n<hr />\n<p>Ostrzeliwujesz obszar. Twoja broń zadaje obrażenia w stożku o zasięgu równym zasięgowi broni. Wszystkie cele w tym obszarze otrzymują obrażenia od broni, ale mogą je zmniejszyć, wykonując podstawowy rzut obronny na Refleks (ST = 10 + twoja premia do ataku bronią). Atak ten zużywa ilość amunicji równą połowie pojemności magazynka broni. Liczy się to jako tylko jeden atak dla celów kary za wielokrotny atak.</p>"
         },
         "Sunday Driver": {
-            "name": "Sunday Driver",
-            "description": "<p>Through careful driving, you can get more miles out of your vehicle. Increase the MPG of any vehicle you are driving by 10%.</p>",
+            "name": "Niedzielny Kierowca",
+            "description": "<p>Dzięki ostrożnej jeździe możesz przejechać więcej kilometrów swoim samochodem. Zwiększ zużycie paliwa każdego samochodu, którym jeździsz, o 10%.</p>",
             "prerequisites": [
                 {
-                    "value": "trained in Driving"
+                    "value": "wytrenowany w Kierowaniu"
                 }
             ]
         },
         "Surgery": {
-            "name": "Surgery",
-            "description": "<p>You can perform surgery to heal other survivors. This takes at least 1 hour to perform, you must have a surgical kit, and at the end you must attempt a Medicine skill check. The DC depends on how many Hit Points the target had remaining at the start of the operation (@Check[type:medicine|dc:25] if at less than 1/4, @Check[type:medicine|dc:20] if at less than 1/2, @Check[type:medicine|dc:15] if at less than 3/4, and @Check[type:medicine|dc:10] if at more than 3/4). If successful, you heal the target for half of the Hit Points it is missing (3/4 on a critical success). You do not need a sedative if the target has more than half its Hit Points at the start of the operation, but otherwise this check takes a -4 if the target is not @Compendium[pf2e.conditionitems.Unconscious]{Unconscious}.</p>"
+            "name": "Chirurgia",
+            "description": "<p>Możesz przeprowadzić operację, aby wyleczyć innych ocalałych. Zajmuje to co najmniej 1 godzinę, musisz mieć zestaw chirurgiczny, a na koniec musisz wykonać test umiejętności Medycyna. Poziom trudności zależy od tego, ile Punktów Wytrzymałości pozostało celowi na początku operacji (@Check[type:medicine|dc:25], jeśli mniej niż 1/4, @Check[type:medicine|dc:20], jeśli mniej niż 1/2, @Check[type:medicine|dc:15], jeśli mniej niż 3/4, oraz @Check[type:medicine|dc:10], jeśli więcej niż 3/4). Jeśli test się powiedzie, leczysz cel o połowę brakujących Punktów Wytrzymałości (3/4 w przypadku krytycznego sukcesu). Nie potrzebujesz środka uspokajającego, jeśli cel ma więcej niż połowę Punktów Wytrzymałości na początku operacji, ale w przeciwnym razie test ten otrzymuje modyfikator -4, jeśli cel nie jest @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf].</p>"
         },
         "Surrender": {
-            "name": "Surrender",
-            "description": "<p><strong>Requirements</strong> You are in combat with one human who has taken damage</p>\n<hr />\n<p>You attempt to get a human enemy to surrender. Attempt a Diplomacy or Intimidation skill check against the target's Will DC. Increase the DC by 5 if the target is not below half Hit Points. Increase the DC by 10 if the target has allies in the area. If you succeed, the target attempts to flee (if able, narrator's discretion) and surrenders if flight is impossible. If you critically succeed, the target gives up their weapon and surrenders to you. The target is immune to this feat for 24 hours.</p>"
+            "name": "Kapitulacja",
+            "description": "<p><strong>Wymagania</strong> Walczysz z jednym człowiekiem, który odniósł obrażenia.</p>\n<hr />\n<p>Próbujesz zmusić ludzkiego przeciwnika do poddania się. Wykonaj test umiejętności Dyplomacji lub Zastraszania przeciwko wartości ST Woli celu. Zwiększ ST o 5, jeśli cel nie ma mniej niż połowę Punktu Wytrzymałości. Zwiększ ST o 10, jeśli cel ma sojuszników w okolicy. Jeśli ci się powiedzie, cel próbuje uciec (jeśli to możliwe, według uznania narratora) i poddaje się, jeśli ucieczka jest niemożliwa. Jeśli ci się powiedzie krytycznie, cel oddaje broń i poddaje się. Cel jest niewrażliwy na to atut przez 24 godziny.</p>"
         },
         "Swipe": {
             "name": "Zamaszysty Atak",
-            "description": "<p>You take a broad sweeping attack with your weapon. Attempt two Strikes with a bludgeoning or slashing melee weapon against two different foes who are adjacent to you. Both count toward your multiple attack penalty, but not until both attacks are resolved.</p>"
+            "description": "<p>Wykonujesz szeroki zamach bronią. Próbujesz wykonać dwa Ataki bronią obuchową lub ciętą przeciwko dwóm różnym przeciwnikom znajdującym się obok ciebie. Oba ataki wliczają się do kary za wielokrotny atak, ale dopiero po rozstrzygnięciu obu ataków.</p>"
         },
         "Talented": {
-            "name": "Talented",
-            "description": "<p>You have a knack for picking up new skills. Increase two untrained skills to trained.</p>"
+            "name": "Utalentowany",
+            "description": "<p>Masz talent do przyswajania nowych umiejętności. Zwiększ poziom dwóch niewyszkolonych umiejętności do wytrenowanych.</p>"
         },
         "Target": {
-            "name": "Target",
-            "description": "<p>By taking careful aim, you can target legs, hands, or the gaps in its armor. Declare the target and attempt a Strike. If you target the legs or hands, the strike is made at a -2 circumstance penalty. If you hit the legs the target falls @Compendium[pf2e.conditionitems.Prone]{Prone}. If you hit the hands, it drops one item it is carrying. If you target the gaps in its armor, the strike is made with a -4 circumstance penalty and the damage ignores the target's armor resistance. The Strike deals damage as normal.</p>",
+            "name": "Cel",
+            "description": "<p>Celując ostrożnie, możesz trafić w nogi, ręce lub luki w zbroi. Ogłoś cel i spróbuj wykonać Atak. Jeśli celujesz w nogi lub ręce, atak otrzymuje karę okolicznościową -2. Jeśli trafisz w nogi, cel jest @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]. Jeśli trafisz w ręce, upuszcza on jeden przedmiot, który niesie. Jeśli celujesz w luki w jego zbroi, atak jest wykonywany z karą -4, a obrażenia ignorują odporność celów na zbroję. Atak zadaje obrażenia jak zwykle.</p>",
             "rules": {
                 "0": {
-                    "label": "Targeting legs or hands"
+                    "label": "Celowanie w nogi lub ręce"
                 },
                 "1": {
-                    "label": "Targeting gaps in armor"
+                    "label": "Celowanie w luki w pancerzu"
                 },
                 "2": {
-                    "label": "Targeting Legs or Hands"
+                    "label": "Celowanie w nogi lub ręce"
                 },
                 "3": {
-                    "label": "Targeting Gaps in Armor"
+                    "label": "Celowanie w luki w pancerzu"
                 }
             },
             "prerequisites": [
                 {
-                    "value": "Aim feat"
+                    "value": "Atut celowania"
                 }
             ]
         },
         "Teardown": {
-            "name": "Teardown",
-            "description": "<p>Whenever you attempt to @Compendium[pf2e.actionspf2e.Force Open]{Force Open} an enclosure or Batter an object, you get a +2 circumstance bonus to your Athletics check. In addition, when take apart an item for parts and you succeed on the craft check, you get a number of parts equal to the items break value.</p>"
+            "name": "Rozbiórka",
+            "description": "<p>Za każdym razem, gdy próbujesz @UUID[Compendium.pf2e.actionspf2e.Item.SjmKHgI7a5Z9JzBx] otworzyć obudowę lub Rozbić obiekt, otrzymujesz premię +2 do testu Atletyki. Dodatkowo, gdy rozbierasz przedmiot na części i udaje ci się test Rzemiosła, otrzymujesz liczbę części równą wartości zniszczenia przedmiotu..</p>"
         },
         "Throw": {
-            "name": "Throw",
-            "description": "<p>You can throw a creature that you are grappling. Attempt an Athletics check against the Fortitude DC of the creature you are grappling. If it is larger than you, increase it's DC by 5 for each step larger. If you succeed, you throw the creature a number of squares away from you equal to your Strength (minimum 1). On a critical success, it is thrown twice this distance. It also takes bludgeoning damage equal to [[/r {1d6}[bludgeoning]]]{1d6} + the total number of squares thrown. If thrown into another creature, that creature takes the damage as well (basic @Check[type:reflex|dc:15]). The creature thrown lands @Compendium[pf2e.conditionitems.Prone]{Prone}.</p>",
+            "name": "Rzut",
+            "description": "<p>Możesz rzucić stworzeniem, z którym się zmagasz. Wykonaj test Atletyki przeciwko ST Wytrwałości stworzenia, z którym się zmagasz. Jeśli jest ono większe od ciebie, zwiększ jego ST o 5 za każdy stopień większy. Jeśli ci się powiedzie, rzucasz stworzeniem o liczbę pól równą twojej Sile (minimum 1). W przypadku krytycznego sukcesu zostaje ono rzucone o dwukrotnie większą odległość. Ponadto otrzymuje obrażenia od uderzenia obuchowego równe [[/r {1d6}[bludgeoning]]]{1k6} + całkowita liczba pól, na które zostało rzucone. Jeśli zostanie rzucone na inne stworzenie, to stworzenie również otrzymuje obrażenia (podstawowa @Check[type:reflex|dc:15]). Rzucone stworzenie jest @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60].</p>",
             "prerequisites": [
                 {
-                    "value": "Grapple feat"
+                    "value": "Atut chwytania"
                 }
             ]
         },
         "Tough": {
             "name": "Twardy",
-            "description": "<p>You are just hard to kill. You gain 2 hit points for every level that you have when you take this feat and 2 extra hit points whenever you gain a new level. In addition, you do not die until you reach dying 5.</p>"
+            "description": "<p>Jesteś po prostu trudny do zabicia. Zyskujesz 2 Punkty Wytrzymałości za każdy poziom, który posiadasz w momencie wyboru tego atut, oraz 2 dodatkowe Punkty Wytrzymałości za każdym razem, gdy osiągasz nowy poziom. Ponadto nie umierasz, dopóki nie osiągniesz stanu umierającego 5.</p>"
         },
         "Troubleshoot": {
-            "name": "Troubleshoot",
-            "description": "<p>You can diagnose a problem using the Computers or Machinery skill as an action (instead of taking 10 minutes). If you succeed, you get a +2 circumstance bonus on any related checks to fix the device or system. If you get a critical success and the device or system has not been intentionally sabotaged, you can attempt a check to fix it as a free action (assuming it can be fixed in less than 1 minute normally).</p>"
+            "name": "Rozwiązywanie Problemów",
+            "description": "<p>Możesz zdiagnozować problem, wykorzystując umiejętność Komputery lub Maszyny jako akcję (zamiast poświęcać na to 10 minut). Jeśli ci się to uda, otrzymujesz premię okolicznościową +2 do wszystkich powiązanych testów związanych z naprawą urządzenia lub systemu. Jeśli uzyskasz krytyczny sukces, a urządzenie lub system nie zostało celowo sabotowane, możesz podjąć próbę naprawy jako akcję darmową (zakładając, że normalnie można to zrobić w mniej niż 1 minutę).</p>"
         },
         "Unkillable": {
             "name": "Niezabijalny",
-            "description": "<p>You do not fall @Compendium[pf2e.conditionitems.Unconscious]{Unconscious} at 0 Hit Points. You still gain the dying condition and still check to see if it increases at the end of your turn. You take a penalty on all checks equal to your dying condition. When you reach dying 6, you fall down dead.</p>",
+            "description": "<p>Nie upadasz @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Nieprzytomny} przy 0 Punktach Wytrzymałości. Nadal otrzymujesz stan umierania i nadal na koniec swojej tury sprawdzasz, czy stan ten się pogłębia. Otrzymujesz karę do wszystkich testów równą twojemu stanowi umierania. Kiedy osiągniesz stan umierania 6, upadasz martwy.</p>",
             "prerequisites": [
                 {
-                    "value": "Tough feat"
+                    "value": "Atut twardości"
                 }
             ]
         },
         "Virus": {
-            "name": "Virus",
-            "description": "<p><strong>Requirements</strong> You have access to a system that is locked by encryption</p>\n<hr />\n<p>You have a suite of special programs at your disposal that can allow you to quickly overcome a system's defenses and fail safes. Attempt to Hack using the Computers skill. Success allows you to access the system for 1 minute, even if the system would normally require multiple successes to access. A critical success gives you unlimited access.</p>"
+            "name": "Wirus",
+            "description": "<p><strong>Wymagania</strong> Masz dostęp do systemu, który jest zabezpieczony szyfrowaniem.</p>\n<hr />\n<p>Masz do dyspozycji zestaw specjalnych programów, które pozwalają szybko pokonać zabezpieczenia systemu i zabezpieczenia przed awarią. Spróbuj Zhakować sprzęt, korzystając z umiejętności Komputery. Sukces pozwala uzyskać dostęp do systemu na 1 minutę, nawet jeśli normalnie wymagałoby to wielu sukcesów. Krytyczny sukces daje nieograniczony dostęp.</p>"
         },
         "Warrior": {
             "name": "Wojownik",
-            "description": "<p>Living in the apocalypse has forged you into a capable combatant. You are trained in martial weapons and heavy armor.</p>"
+            "description": "<p>Życie w czasach apokalipsy ukształtowało cię na zdolnego wojownika. Jesteś wytrenowany w posługiwaniu się bronią żołnierską i ciężką zbroją.</p>"
         },
         "Workhorse": {
-            "name": "Workhorse",
-            "description": "<p>You are used to carrying heavy loads and working long hours. Increase the amount of bulk you can carry by 3 (although this does not let you carry more items than will fit in your inventory). In addition, you can drag items with a bulk equal to 15 + your Strength and when you drag items you can do so at up to 100 feet per minute. Finally, if you take 10 minutes to rest immediately after combat, you heal 1 bruise. You cannot do this again until after another combat.</p>"
+            "name": "Wół Roboczy",
+            "description": "<p>Jesteś przyzwyczajony do noszenia ciężkich ładunków i długich godzin pracy. Zwiększ ilość Masy, który możesz przenosić, o 3 (nie pozwala to jednak na przenoszenie większej ilości przedmiotów niż zmieści się w twoim ekwipunku). Dodatkowo możesz przeciągać przedmioty o masie równej 15 + twoja Siła, a podczas przeciągania przedmiotów możesz poruszać się z prędkością do 100 stóp na minutę. Wreszcie, jeśli zaraz po walce odpoczniesz przez 10 minut, wyleczysz 1 siniak. Nie możesz tego powtórzyć, dopóki nie zakończysz kolejnej walki.</p>"
         },
         "Wreck": {
-            "name": "Wreck",
-            "description": "<p>You are good at breaking things. When you succeed at battering an object it takes one additional ding, two on a critical success.</p>"
+            "name": "Wrak",
+            "description": "<p>Jesteś dobry w niszczeniu rzeczy. Kiedy uda ci się zniszczyć przedmiot, wymaga on jednego dodatkowego uderzenia, a w przypadku krytycznego sukcesu – dwóch.</p>"
         }
     },
     "mapping": {
