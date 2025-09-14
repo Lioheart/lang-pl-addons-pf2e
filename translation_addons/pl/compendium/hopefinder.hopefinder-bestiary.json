@@ -1,5 +1,5 @@
 {
-    "label": "Bestiariusz Hopefinder",
+    "label": "Bestiariusz",
     "entries": {
         "Armored": {
             "name": "Opancerzony",
@@ -16,10 +16,10 @@
                     "name": "Blok",
                     "description": "<p><strong>Wyzwalacz</strong> Sąsiednia istota wykonuje Atak wręcz na opancerzoną postać.</p>\n<hr />\n<p><strong>Efekt</strong> Odporność pancerza na atak zostaje podwojona. Następnie trwale zmniejsz jego odporność o 1.</p>"
                 },
-                "melee->Jaws": {
+                "strike-melee->Jaws": {
                     "name": "Szczęki"
                 },
-                "melee->Fist": {
+                "strike-melee->Fist": {
                     "name": "Pięść"
                 },
                 "action->Double Fisted Smash": {
@@ -38,13 +38,13 @@
                 "action->Scent (Imprecise) 30 feet": {
                     "name": "Zmysł Węchu (nieprecyzyjny) 30 stóp"
                 },
-                "melee->Jaws": {
+                "strike-melee->Jaws": {
                     "name": "Szczęki"
                 },
                 "action->Grab": {
                     "name": "Złapanie"
                 },
-                "melee->Claw": {
+                "strike-melee->Claw": {
                     "name": "Pazur"
                 },
                 "action->Maul": {
@@ -59,13 +59,13 @@
                 "action->Scent (Imprecise) 30 feet": {
                     "name": "Zmysł Węchu (nieprecyzyjny) 30 stóp"
                 },
-                "melee->Jaws": {
+                "strike-melee->Jaws": {
                     "name": "Szczęki"
                 },
                 "action->Grab": {
                     "name": "Złapanie"
                 },
-                "melee->Claw": {
+                "strike-melee->Claw": {
                     "name": "Pazur"
                 },
                 "action->Maul": {
@@ -94,10 +94,10 @@
                     "name": "Odporności Zombie",
                     "description": "<p>Jako martwe istoty, zombie są niewrażliwe na wiele czynników, które mają wpływ na żywych. O ile nie zaznaczono inaczej, zombie są niewrażliwe na choroby, efekty psychiczne, trucizny i wszystko, co mogłoby spowodować ich @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Nieprzytomność}. Zombie nie odnoszą siniaków ani nie muszą jeść ani pić (chociaż niektóre z nich zyskują dodatkowe zdolności, jeśli niedawno spożyły żywe mięso). Zombie zostają natychmiast zniszczone po zmniejszeniu ich Punktu Wytrzymałości do 0.</p>"
                 },
-                "melee->Jaws": {
+                "strike-melee->Jaws": {
                     "name": "Szczęki"
                 },
-                "melee->Claw": {
+                "strike-melee->Claw": {
                     "name": "Pazur"
                 },
                 "action->Grab": {
@@ -140,10 +140,10 @@
                     "name": "Młot Kowalski",
                     "description": "<p><strong>Zniszczenie</strong> 6</p>"
                 },
-                "melee->Sledgehammer": {
+                "strike-melee->Sledgehammer": {
                     "name": "Młot Kowalski"
                 },
-                "melee->Heavy Machinegun": {
+                "strike-melee->Heavy Machinegun": {
                     "name": "Ciężki Karabin Maszynowy"
                 },
                 "action->Demand Results": {
@@ -171,7 +171,7 @@
                     "name": "Odporności Zombie",
                     "description": "<p>Jako martwe istoty, zombie są niewrażliwe na wiele czynników, które mają wpływ na żywych. O ile nie zaznaczono inaczej, zombie są niewrażliwe na choroby, efekty psychiczne, trucizny i wszystko, co mogłoby spowodować ich @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Nieprzytomność}. Zombie nie odnoszą siniaków ani nie muszą jeść ani pić (chociaż niektóre z nich zyskują dodatkowe zdolności, jeśli niedawno spożyły żywe mięso). Zombie zostają natychmiast zniszczone po zmniejszeniu ich Punktu Wytrzymałości do 0.</p>"
                 },
-                "melee->Fist": {
+                "strike-melee->Fist": {
                     "name": "Pięść"
                 },
                 "action->Slow": {
@@ -200,7 +200,7 @@
                     "name": "Odporności Zombie",
                     "description": "<p>Jako martwe istoty, zombie są niewrażliwe na wiele czynników, które mają wpływ na żywych. O ile nie zaznaczono inaczej, zombie są niewrażliwe na choroby, efekty psychiczne, trucizny i wszystko, co mogłoby spowodować ich @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Nieprzytomność}. Zombie nie odnoszą siniaków ani nie muszą jeść ani pić (chociaż niektóre z nich zyskują dodatkowe zdolności, jeśli niedawno spożyły żywe mięso). Zombie zostają natychmiast zniszczone po zmniejszeniu ich Punktu Wytrzymałości do 0.</p>"
                 },
-                "melee->Tusk": {
+                "strike-melee->Tusk": {
                     "name": "Cios"
                 },
                 "action->Rage": {
@@ -215,10 +215,10 @@
                 "action->Scent": {
                     "name": "Zmysł Węchu"
                 },
-                "melee->Jaws": {
+                "strike-melee->Jaws": {
                     "name": "Szczęki"
                 },
-                "melee->Claw": {
+                "strike-melee->Claw": {
                     "name": "Pazur"
                 },
                 "action->Grab": {
@@ -249,13 +249,13 @@
                     "name": "Odporności Zombie",
                     "description": "<p>Jako martwe istoty, zombie są niewrażliwe na wiele czynników, które mają wpływ na żywych. O ile nie zaznaczono inaczej, zombie są niewrażliwe na choroby, efekty psychiczne, trucizny i wszystko, co mogłoby spowodować ich @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Nieprzytomność}. Zombie nie odnoszą siniaków ani nie muszą jeść ani pić (chociaż niektóre z nich zyskują dodatkowe zdolności, jeśli niedawno spożyły żywe mięso). Zombie zostają natychmiast zniszczone po zmniejszeniu ich Punktu Wytrzymałości do 0.</p>"
                 },
-                "melee->Fist": {
+                "strike-melee->Fist": {
                     "name": "Pięść"
                 },
                 "action->Grab": {
                     "name": "Złapanie"
                 },
-                "melee->Ankle Bite": {
+                "strike-melee->Ankle Bite": {
                     "name": "Ugryzienie Kostki",
                     "description": "<p><strong>Wymagania</strong> Pełzacz posiada stworzenie @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Pochwycone} lub @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Obezwładnione}.</p>"
                 },
@@ -285,7 +285,7 @@
                     "name": "Odporności Zombie",
                     "description": "<p>Jako martwe istoty, zombie są niewrażliwe na wiele czynników, które mają wpływ na żywych. O ile nie zaznaczono inaczej, zombie są niewrażliwe na choroby, efekty psychiczne, trucizny i wszystko, co mogłoby spowodować ich @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Nieprzytomność}. Zombie nie odnoszą siniaków ani nie muszą jeść ani pić (chociaż niektóre z nich zyskują dodatkowe zdolności, jeśli niedawno spożyły żywe mięso). Zombie zostają natychmiast zniszczone po zmniejszeniu ich Punktu Wytrzymałości do 0.</p>"
                 },
-                "melee->Tusk": {
+                "strike-melee->Tusk": {
                     "name": "Cios"
                 },
                 "action->Hog Charge": {
@@ -313,7 +313,7 @@
                     "name": "Wycie",
                     "description": "<p>Wszystkie żywe stworzenia w promieniu 30 stóp muszą wykonać rzut obronny @Check[type:will|dc:14]. Ci, którzy nie powiedzą, otrzymują @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Przestraszony 1} (@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Przestraszony 2} w przypadku krytycznej porażki). Inne wyjące psy w okolicy mogą wyć w reakcji, aby powiększyć obszar. Cele są wtedy niewrażliwe na wycie przez 24 godziny.</p>"
                 },
-                "melee->Jaws": {
+                "strike-melee->Jaws": {
                     "name": "Szczęki"
                 }
             }
@@ -329,7 +329,7 @@
                     "name": "Odporności Zombie",
                     "description": "<p>Jako martwe istoty, zombie są niewrażliwe na wiele czynników, które mają wpływ na żywych. O ile nie zaznaczono inaczej, zombie są niewrażliwe na choroby, efekty psychiczne, trucizny i wszystko, co mogłoby spowodować ich @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Nieprzytomność}. Zombie nie odnoszą siniaków ani nie muszą jeść ani pić (chociaż niektóre z nich zyskują dodatkowe zdolności, jeśli niedawno spożyły żywe mięso). Zombie zostają natychmiast zniszczone po zmniejszeniu ich Punktu Wytrzymałości do 0.</p>"
                 },
-                "melee->Fist": {
+                "strike-melee->Fist": {
                     "name": "Pięść"
                 },
                 "action->Grab": {
@@ -368,13 +368,13 @@
                     "name": "Odporności Zombie",
                     "description": "<p>Jako martwe istoty, zombie są niewrażliwe na wiele czynników, które mają wpływ na żywych. O ile nie zaznaczono inaczej, zombie są niewrażliwe na choroby, efekty psychiczne, trucizny i wszystko, co mogłoby spowodować ich @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Nieprzytomność}. Zombie nie odnoszą siniaków ani nie muszą jeść ani pić (chociaż niektóre z nich zyskują dodatkowe zdolności, jeśli niedawno spożyły żywe mięso). Zombie zostają natychmiast zniszczone po zmniejszeniu ich Punktu Wytrzymałości do 0.</p>"
                 },
-                "melee->Jaws": {
+                "strike-melee->Jaws": {
                     "name": "Szczęki"
                 },
                 "action->Grab": {
                     "name": "Złapanie"
                 },
-                "melee->Fist": {
+                "strike-melee->Fist": {
                     "name": "Pięść"
                 },
                 "action->Horrid Kiss": {
@@ -417,10 +417,10 @@
                     "name": "Racja Żywnościowa (baton)",
                     "description": "<p>Podstawowy batonik wojskowy. Liczy się jako 1 porcja jedzenia.</p>\n<hr />\n<p><strong>Zniszczenie</strong> 1</p>"
                 },
-                "melee->Katana": {
+                "strike-melee->Katana": {
                     "name": "Katana"
                 },
-                "melee->Compound Bow": {
+                "strike-melee->Compound Bow": {
                     "name": "Łuk Bloczkowy"
                 },
                 "consumable->Arrows": {
@@ -456,7 +456,7 @@
                     "name": "Podskok",
                     "description": "<p><strong>Wyzwalacz</strong> Sąsiednia istota atakuje skoczka atakiem w walce wręcz.</p>\n<hr />\n<p><strong>Efekt</strong> Skaczący otrzymuje premię okolicznościową +2 do KP przeciwko atakowi, który go wywołał. Jeśli atak chybi, skaczący może wykonać krok do sąsiedniego pola.</p>"
                 },
-                "melee->Jaws": {
+                "strike-melee->Jaws": {
                     "name": "Szczęki"
                 },
                 "action->Leap": {
@@ -480,10 +480,10 @@
                     "name": "Odporności Zombie",
                     "description": "<p>Jako martwe istoty, zombie są niewrażliwe na wiele czynników, które mają wpływ na żywych. O ile nie zaznaczono inaczej, zombie są niewrażliwe na choroby, efekty psychiczne, trucizny i wszystko, co mogłoby spowodować ich @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Nieprzytomność}. Zombie nie odnoszą siniaków ani nie muszą jeść ani pić (chociaż niektóre z nich zyskują dodatkowe zdolności, jeśli niedawno spożyły żywe mięso). Zombie zostają natychmiast zniszczone po zmniejszeniu ich Punktu Wytrzymałości do 0.</p>"
                 },
-                "melee->Tentacle": {
+                "strike-melee->Tentacle": {
                     "name": "Macka"
                 },
-                "melee->Polyp": {
+                "strike-melee->Polyp": {
                     "name": "Polip"
                 },
                 "action->Grab": {
@@ -501,7 +501,7 @@
                     "name": "Obrót",
                     "description": "<p>Mutant macha macką, zataczając szeroki łuk i trafiając wszystkie cele w promieniu 10 stóp. Mutant wykonuje atak macką przeciwko każdemu celowi z osobna. Liczy się to tylko jako jeden atak w ramach kary za wielokrotny atak i dopiero po rozstrzygnięciu wszystkich ataków. Po użyciu tej zdolności nie może nikogo chwycić.</p>"
                 },
-                "melee->Gnaw": {
+                "strike-melee->Gnaw": {
                     "name": "Obgryzanie",
                     "description": "<p><strong>Wymagania</strong> Mutant ma stworzenie @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Pochwycone} lub @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Obezwładnione}.</p>"
                 }
@@ -530,10 +530,10 @@
                     "name": "Rozkazywanie Martwym",
                     "description": "<p>Nadumysł może dowodzić wszystkimi nieumarłymi w promieniu 60 stóp, sprawiając, że działają oni w sposób taktyczny i inteligentny, niespotykany zazwyczaj u zmarłych. Będą oni omijać przeszkody, przemieszczać się, aby przeprowadzać ataki z flanki, i skupiać się na podatnych na ataki wrogach. Nieumarli nadal działają w swojej turze, wykonując normalną liczbę akcji. Nadumysł może poświęcić akcję, aby konkretnie nakazać nieumarłemu w tym promieniu działanie w dowolny sposób, jaki sobie zażyczy.</p>"
                 },
-                "melee->Mandibles": {
+                "strike-melee->Mandibles": {
                     "name": "Żuchwy"
                 },
-                "melee->Egg": {
+                "strike-melee->Egg": {
                     "name": "Jajko"
                 },
                 "action->Acidic Spray": {
@@ -577,13 +577,13 @@
                     "name": "Koktajl Mołotowa",
                     "description": "<p><strong>Zniszczenie</strong> C</p>"
                 },
-                "melee->Branch": {
+                "strike-melee->Branch": {
                     "name": "Gałąź"
                 },
-                "melee->Crude Pistol": {
+                "strike-melee->Crude Pistol": {
                     "name": "Prymitywny Pistolet"
                 },
-                "melee->Molotov Cocktail": {
+                "strike-melee->Molotov Cocktail": {
                     "name": "Koktajl Mołotowa",
                     "description": "<p>Plus [[/r 1d6[splash,fire]]]</p>"
                 },
@@ -623,10 +623,10 @@
                     "name": "Choroba Popromienna",
                     "description": "<p>Istoty żywe, które zostały poszkodowane przez ataki wręcz radioaktywnego zombie, muszą wykonać rzut obronny @Check[type:fortitude|dc:20]. Te, którym nie powiedzie się, zapadają na chorobę popromienną (podobnie jak te, którym krytycznie nie powiedzie się rzut obronny przeciwko radioaktywnej aurze). Na początku każdego dnia osoby cierpiące na chorobę popromienną otrzymują [[/r 1d4[poison]]], której nie można się oprzeć ani wyleczyć. Następnie wykonują rzut obronny @Check[type:fortitude|dc:20]. Te, którym się powiedzie, wyleczają się z choroby. Suplementy jodu dają +4 premii do tego rzutu obronnego.</p>"
                 },
-                "melee->Jaws": {
+                "strike-melee->Jaws": {
                     "name": "Szczęki"
                 },
-                "melee->Fist": {
+                "strike-melee->Fist": {
                     "name": "Pięść"
                 }
             }
@@ -658,10 +658,10 @@
                     "name": "Odzież Robocza",
                     "description": "<p><strong>Ochrona</strong> 2 Obuchowe / Kłute / Cięte</p>\n<p><strong>Zniszczenie</strong> 10</p>"
                 },
-                "melee->Crude Spear": {
+                "strike-melee->Crude Spear": {
                     "name": "Prymitywna Włócznia"
                 },
-                "melee->Crude Pistol": {
+                "strike-melee->Crude Pistol": {
                     "name": "Prymitywny Pistolet"
                 },
                 "action->Menace": {
@@ -686,7 +686,7 @@
                     "name": "Odporności Zombie",
                     "description": "<p>Jako martwe istoty, zombie są niewrażliwe na wiele czynników, które mają wpływ na żywych. O ile nie zaznaczono inaczej, zombie są niewrażliwe na choroby, efekty psychiczne, trucizny i wszystko, co mogłoby spowodować ich @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Nieprzytomność}. Zombie nie odnoszą siniaków ani nie muszą jeść ani pić (chociaż niektóre z nich zyskują dodatkowe zdolności, jeśli niedawno spożyły żywe mięso). Zombie zostają natychmiast zniszczone po zmniejszeniu ich Punktu Wytrzymałości do 0.</p>"
                 },
-                "melee->Jaws": {
+                "strike-melee->Jaws": {
                     "name": "Szczęki"
                 },
                 "action->R.O.U.S": {
@@ -732,10 +732,10 @@
                     "name": "Pociski (strzelba)",
                     "description": "<p>Standardowa amunicja. Zadaje obrażenia określone w opisie broni.</p>\n<hr />\n<p><strong>Zniszczenie</strong> 1</p>"
                 },
-                "melee->Baseball Bat": {
+                "strike-melee->Baseball Bat": {
                     "name": "Kij Bejsbolowy"
                 },
-                "melee->Pump Shotgun": {
+                "strike-melee->Pump Shotgun": {
                     "name": "Strzelba Pompowa"
                 },
                 "action->Swipe": {
@@ -763,10 +763,10 @@
                     "name": "Odporności Zombie",
                     "description": "<p>Jako martwe istoty, zombie są niewrażliwe na wiele czynników, które mają wpływ na żywych. O ile nie zaznaczono inaczej, zombie są niewrażliwe na choroby, efekty psychiczne, trucizny i wszystko, co mogłoby spowodować ich @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Nieprzytomność}. Zombie nie odnoszą siniaków ani nie muszą jeść ani pić (chociaż niektóre z nich zyskują dodatkowe zdolności, jeśli niedawno spożyły żywe mięso). Zombie zostają natychmiast zniszczone po zmniejszeniu ich Punktu Wytrzymałości do 0.</p>"
                 },
-                "melee->Jaws": {
+                "strike-melee->Jaws": {
                     "name": "Szczęki"
                 },
-                "melee->Fist": {
+                "strike-melee->Fist": {
                     "name": "Pięść"
                 },
                 "action->Body Slam": {
@@ -786,10 +786,10 @@
                     "name": "Odporności Zombie",
                     "description": "<p>Jako martwe istoty, zombie są niewrażliwe na wiele czynników, które mają wpływ na żywych. O ile nie zaznaczono inaczej, zombie są niewrażliwe na choroby, efekty psychiczne, trucizny i wszystko, co mogłoby spowodować ich @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Nieprzytomność}. Zombie nie odnoszą siniaków ani nie muszą jeść ani pić (chociaż niektóre z nich zyskują dodatkowe zdolności, jeśli niedawno spożyły żywe mięso). Zombie zostają natychmiast zniszczone po zmniejszeniu ich Punktu Wytrzymałości do 0.</p>"
                 },
-                "melee->Fist": {
+                "strike-melee->Fist": {
                     "name": "Pięść"
                 },
-                "melee->Gnaw": {
+                "strike-melee->Gnaw": {
                     "name": "Obgryzanie",
                     "description": "<p><strong>Wymagania</strong> Szwędacz posiada stworzenie @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Pochwycone} lub @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Obezwładnione}.</p>"
                 },
@@ -814,10 +814,10 @@
                     "name": "Odporności Zombie",
                     "description": "<p>Jako martwe istoty, zombie są niewrażliwe na wiele czynników, które mają wpływ na żywych. O ile nie zaznaczono inaczej, zombie są niewrażliwe na choroby, efekty psychiczne, trucizny i wszystko, co mogłoby spowodować ich @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Nieprzytomność}. Zombie nie odnoszą siniaków ani nie muszą jeść ani pić (chociaż niektóre z nich zyskują dodatkowe zdolności, jeśli niedawno spożyły żywe mięso). Zombie zostają natychmiast zniszczone po zmniejszeniu ich Punktu Wytrzymałości do 0.</p>"
                 },
-                "melee->Jaws": {
+                "strike-melee->Jaws": {
                     "name": "Szczęki"
                 },
-                "melee->Fist": {
+                "strike-melee->Fist": {
                     "name": "Pięść"
                 },
                 "action->Ambush": {
@@ -853,10 +853,10 @@
                     "name": "Pociski (pistolet)",
                     "description": "<p>Standardowa amunicja. Zadaje obrażenia określone w opisie broni.</p>\n<hr />\n<p><strong>Zniszczenie</strong> 1</p>"
                 },
-                "melee->Jaws": {
+                "strike-melee->Jaws": {
                     "name": "Szczęki"
                 },
-                "melee->Fist": {
+                "strike-melee->Fist": {
                     "name": "Pięść"
                 },
                 "action->Grab": {
@@ -883,10 +883,10 @@
                     "name": "Kij Golfowy",
                     "description": "<p><strong>Zniszczenie</strong> 4</p>"
                 },
-                "melee->Golf Club": {
+                "strike-melee->Golf Club": {
                     "name": "Kij Golfowy"
                 },
-                "melee->Bottle": {
+                "strike-melee->Bottle": {
                     "name": "Butelka"
                 },
                 "action->Hangry": {
@@ -904,7 +904,7 @@
                 "action->Knockdown": {
                     "name": "Powalenie"
                 },
-                "melee->Jaws": {
+                "strike-melee->Jaws": {
                     "name": "Szczęki"
                 },
                 "action->Pack Coordination": {
@@ -940,10 +940,10 @@
                     "name": "Odzież (zimowa)",
                     "description": "<p><strong>Ochrona</strong> 2 Obuchowe / Kłute / Cięte</p>\n<p><strong>Zniszczenie</strong> 8</p>"
                 },
-                "melee->Kitchen Knife": {
+                "strike-melee->Kitchen Knife": {
                     "name": "Nóż Kuchenny"
                 },
-                "melee->Crude Bow": {
+                "strike-melee->Crude Bow": {
                     "name": "Prymitywny Łuk"
                 },
                 "action->Scavenge": {
@@ -967,7 +967,7 @@
                 "action->Knockdown": {
                     "name": "Powalenie"
                 },
-                "melee->Jaws": {
+                "strike-melee->Jaws": {
                     "name": "Szczęki"
                 },
                 "action->Pack Coordination": {
@@ -990,7 +990,7 @@
                 "action->Scent (Imprecise) 30 feet": {
                     "name": "Zmysł Węchu (nieprecyzyjny) 30 stóp"
                 },
-                "melee->Jaws": {
+                "strike-melee->Jaws": {
                     "name": "Szczęki"
                 },
                 "action->Shred": {
@@ -1014,7 +1014,7 @@
                     "name": "Odporności Zombie",
                     "description": "<p>Jako martwe istoty, zombie są niewrażliwe na wiele czynników, które mają wpływ na żywych. O ile nie zaznaczono inaczej, zombie są niewrażliwe na choroby, efekty psychiczne, trucizny i wszystko, co mogłoby spowodować ich @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Nieprzytomność}. Zombie nie odnoszą siniaków ani nie muszą jeść ani pić (chociaż niektóre z nich zyskują dodatkowe zdolności, jeśli niedawno spożyły żywe mięso). Zombie zostają natychmiast zniszczone po zmniejszeniu ich Punktu Wytrzymałości do 0.</p>"
                 },
-                "melee->Jaws": {
+                "strike-melee->Jaws": {
                     "name": "Szczęki"
                 }
             }
