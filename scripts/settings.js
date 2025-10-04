@@ -130,7 +130,7 @@ export function registerSettings() {
         scope: "world",
         config: true,
         type: Number,
-        range: { min: 1, max: 10, step: 1 },
+        range: { min: 0, max: 10, step: 1 },
         default: DEFAULT_RATE,
         restricted: true
     });
