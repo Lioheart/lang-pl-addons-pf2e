@@ -11,7 +11,7 @@
         },
         "Delivery Driver": {
             "name": "Kierowca Dostawczaka",
-            "description": "<p>Spędziłeś życie za kierownicą, dostarczając paczki, przewożąc towary lub dbając o to, aby ludzie otrzymali pizzę w ciągu 30 minut lub mniej. Dobry zmysł orientacji i umiejętność szybkiego zapamiętywania tras z pewnością przydały się w czasach apokalipsy, ale nadal marzysz o dniach, kiedy spędzałeś długie godziny na otwartej drodze.</p>\n<p><strong>Mapa Mentalna</strong> @Embed[Compendium.hopefinder.features.Item.GKMZQQwQOXBilq3e inline].</p>\n<p><strong>Umiejętność</strong>: Zwiększ swoje umiejętności Kierowania lub Maszyn o 1 stopień.</p>\n<p><strong>Atuty</strong>: Możesz wybierać spośród atutów Siły, Zwarcia i Technologii.</p>"
+            "description": "<p>Spędziłeś życie za kierownicą, dostarczając paczki, przewożąc towary lub dbając o to, aby ludzie otrzymali pizzę w ciągu 30 minut lub mniej. Dobry zmysł orientacji i umiejętność szybkiego zapamiętywania tras z pewnością przydały się w czasach apokalipsy, ale nadal marzysz o dniach, kiedy spędzałeś długie godziny na otwartej drodze.</p>\n<p><strong>Mapa Mentalna</strong> @Embed[Compendium.hopefinder.features.Item.GKMZQQwQOXBilq3e inline]</p>\n<p><strong>Umiejętność</strong>: Zwiększ swoje umiejętności Kierowania lub Maszyn o 1 stopień.</p>\n<p><strong>Atuty</strong>: Możesz wybierać spośród atutów Siły, Zwarcia i Technologii.</p>"
         },
         "Displaced": {
             "name": "Wysiedlony",

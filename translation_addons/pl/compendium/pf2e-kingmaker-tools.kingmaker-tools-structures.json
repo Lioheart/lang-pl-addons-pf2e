@@ -12,7 +12,7 @@
             "blurb": "Budynek"
         },
         "Arcanist's Tower": {
-            "name": "Arcanist's Tower",
+            "name": "Wieża Arkanisty",
             "publicNotes": "<p><span id=\"ctl00_RadDrawer1_Content_MainContent_DetailedOutput\"><strong>Lots</strong> 1; <strong>Cost</strong> 30 RP, 6 Ore<br /><strong>Construction</strong> Magic (trained) DC 20<br /><strong>Item Bonus</strong> +1 item bonus to Quell Unrest using Magic<br /><strong>Effects</strong> Treat the settlement's level as one level higher than its actual level for the purposes of determining which arcane magic items are readily available for sale in that settlement. This effect stacks up to three times. While in a settlement with an arcanist's tower, you gain a +1 item bonus to checks made to Borrow an Arcane Spell or Learn a Spell.</span></p>",
             "blurb": "Budynek"
         },

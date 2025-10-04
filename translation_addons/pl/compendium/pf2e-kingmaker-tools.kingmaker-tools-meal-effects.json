@@ -2,32 +2,32 @@
     "label": "Kingmaker Tools - Efekty posiłków",
     "entries": {
         "Activate Black Linnorn Stew": {
-            "name": "Activate Black Linnorn Stew",
-            "description": "<p>The next time the eater is damaged, they gain fast healing 10; this fast healing lasts until the eater dies, is healed to its maximum hit points, or for 1 minute, whichever comes first, after which the fast healing effect ends.</p>\n<p>@UUID[Compendium.pf2e-kingmaker-tools.kingmaker-tools-meal-effects.Item.gVq8ObTjjElGUWGA]{Black Linnorn Stew: Fast Healing}</p>"
+            "name": "Aktywacja Czarnego Gulaszu Linnorn",
+            "description": "<p>Kiedy następnym razem zjadacz odniesie obrażenia, zyskuje szybkie leczenie 10; szybkie leczenie trwa do momentu śmierci zjadacza, wyleczenia go do maksymalnej liczby punktów wytrzymałości lub przez 1 minutę, w zależności od tego, co nastąpi wcześniej, po czym efekt szybkiego leczenia wygasa.</p>\n<p>@UUID[Compendium.pf2e-kingmaker-tools.kingmaker-tools-meal-effects.Item.gVq8ObTjjElGUWGA]{Czarny gulasz Linnorn: Szybkie leczenie}</p>"
         },
         "Activate Grilled Silver Eel": {
-            "name": "Activate Grilled Silver Eel",
-            "description": "<p><strong>Activate</strong> <span class=\"pf2-icon\">f</span> envision; <strong>Frequency</strong> once per meal; <strong>Effect </strong>Your Speed increases by 5 feet for 1 minute. @UUID[Compendium.pf2e-kingmaker-tools.kingmaker-tools-meal-effects.cFxiQsxvPP31qJhB]{Grilled Silver Eel: Speed}</p>"
+            "name": "Aktywacja Grillowanego Srebrnego Węgorza",
+            "description": "<p><strong>Aktywacja</strong> <span class=\"pf2-icon\">f</span> przewidywanie; <strong>Częstotliwość</strong> raz na posiłek; <strong>Efekt </strong>Twoja szybkość wzrasta o 5 stóp na 1 minutę. @UUID[Compendium.pf2e-kingmaker-tools.kingmaker-tools-meal-effects.cFxiQsxvPP31qJhB]{Grillowany srebrny węgorz: Szybkość}</p>"
         },
         "Activate Jeweled Rice (Critical Success)": {
-            "name": "Activate Jeweled Rice (Critical Success)",
-            "description": "<p>Twice during the next 24 hours when the eater takes the Step action, they carefully move 10 feet instead of five feet.</p>"
+            "name": "Aktywacja Klejnotowego Ryżu (Krytyczny Sukces)",
+            "description": "<p>Dwa razy w ciągu następnych 24 godzin, gdy gracz wykonuje akcję Krok, ostrożnie porusza się o 10 stóp zamiast o 5 stóp.</p>"
         },
         "Activate Jeweled Rice (Success)": {
-            "name": "Activate Jeweled Rice (Success)",
-            "description": "<p>Once during the next 24 hours when the eater takes the Step action, they carefully move 10 feet instead of five feet.</p>"
+            "name": "Aktywacja Klejnotowego Ryżu (Sukces)",
+            "description": "<p>Raz w ciągu następnych 24 godzin, gdy gracz wykonuje akcję Krok, ostrożnie porusza się o 10 stóp zamiast o 5 stóp.</p>"
         },
         "Activate Rice-N-Nut Pudding": {
-            "name": "Activate Rice-N-Nut Pudding",
-            "description": "<p>Once during the  next 24 hours, when the eater Refocuses to regain Focus Points, the restoration of magic infuses and invigorates them, restoring a number of Hit Points equal to <a class=\"inline-roll roll\" data-mode=\"roll\" data-flavor data-formula=\"1d8\">1d8</a> plus their level.</p>"
+            "name": "Aktywacja Budyniu Ryżowo-Orzechowego",
+            "description": "<p>Raz w ciągu następnych 24 godzin, kiedy zjadacz ponownie skupia się, aby odzyskać Punkty Skupienia, przywrócenie magii nasyca go i ożywia, przywracając liczbę Punktów Wytrzymałości równą<a class=\"inline-roll roll\" data-mode=\"roll\" data-flavor data-formula=\"1d8\">1k8</a> plus jego poziom.</p>"
         },
         "Activate Shepherd's Pie": {
-            "name": "Activate Shepherd's Pie",
-            "description": "<p>For the next 24 hours, the eater’s healing ability is enhanced. Whenever they recover Hit Points with a healing effect, they restore 1 additional Hit Point. If an effect would heal them more than once, such as fast healing, the additional Hit Point applies only the first time they’re healed</p>"
+            "name": "Aktywacja Placka Pasterskiego",
+            "description": "<p>Przez następne 24 godziny zdolność leczenia osoby spożywającej jest wzmocniona. Za każdym razem, gdy odzyskuje ona punkty zdrowia dzięki efektowi leczenia, przywraca 1 dodatkowy punkt wytrzymałości. Jeśli efekt leczy ją więcej niż raz, np. szybkie leczenie, dodatkowy punkt wytrzymałości ma zastosowanie tylko przy pierwszym leczeniu.</p>"
         },
         "Baked Spider Legs": {
-            "name": "Baked Spider Legs",
-            "description": "<p><strong>Recipe Price</strong> 8 gp</p><p><strong>Ingredients</strong> 4 basic, 1 special</p><p><strong>Preparation</strong> DC 20 Cooking Lore or DC 22 Survival</p><p><strong>Favorite Meal</strong> +1 status bonus to Stealth checks.</p><hr /><p><strong>Critical Success</strong> The meal grants a +1 status bonus to Fortitude saving throws for 24 hours.</p><p><strong>Success</strong> The meal grants a +1 status bonus to Fortitude saving throws against poison effects for 24 hours.</p><p><strong>Critical Failure</strong> The meal is toxic and causes a –1 status penalty to Fortitude saving throws for 24 hours. This is a poison effect.</p>",
+            "name": "Pieczone Nogi Pająka",
+            "description": "<p><strong>Cena przepisu</strong> 8 sz</p><p><strong>Składniki</strong> 4 podstawowe, 1 specjalne</p><p><strong>Przygotowanie</strong> ST 20 Wiedza o Kucharstwie lub ST 22 Przetrwanie</p><p><strong>Ulubiony posiłek</strong> +1 premii statusu do testów Ukrycia.</p><hr /><p><strong>Krytyczny Sukces</strong> Posiłek zapewnia premię +1 do rzutów obronnych na Wytrwałość przez 24 godziny.</p><p><strong>Sukces</strong> Posiłek zapewnia premię +1 do rzutów obronnych na Wytrwałość przeciwko efektom trucizny przez 24 godziny.</p><p><strong>Krytyczna Porażka</strong> Posiłek jest toksyczny i powoduje karę -1 do rzutów obronnych na Wytrwałość przez 24 godziny. Jest to efekt zatrucia.</p>",
             "rules": {
                 "0": {
                     "choices": {
@@ -55,20 +55,20 @@
             }
         },
         "Baked Spider Legs (Critical Failure)": {
-            "name": "Baked Spider Legs (Critical Failure)",
-            "description": "<p>The meal is toxic and causes a –1 status penalty to Fortitude saving throws for 24 hours. This is a poison effect.</p>"
+            "name": "Pieczone Nogi Pająka (Krytyczna Porażka)",
+            "description": "<p>Posiłek jest toksyczny i powoduje karę -1 do rzutów obronnych na Wytrwałość przez 24 godziny. Jest to efekt zatrucia.</p>"
         },
         "Baked Spider Legs (Critical Success)": {
-            "name": "Baked Spider Legs (Critical Success)",
-            "description": "<p>The meal grants a +1 status bonus to Fortitude saving throws for 24 hours.</p>"
+            "name": "Pieczone Nogi Pająka (Krytyczny Sukces)",
+            "description": "<p>Posiłek zapewnia premię +1 do rzutów obronnych na Wytrwałość przez 24 godziny.</p>"
         },
         "Baked Spider Legs (Favorite Meal)": {
-            "name": "Baked Spider Legs (Favorite Meal)",
-            "description": "<p>+1 status bonus to Stealth checks.</p>"
+            "name": "Pieczone Nogi Pająka (Ulubiony posiłek)",
+            "description": "<p>+1 premii statusu do testów Ukrycia.</p>"
         },
         "Baked Spider Legs (Success)": {
-            "name": "Baked Spider Legs (Success)",
-            "description": "<p>The meal grants a +1 status bonus to Fortitude saving throws against poison effects for 24 hours.</p>"
+            "name": "Pieczone Nogi Pająka (Sukces)",
+            "description": "<p>Posiłek zapewnia premię +1 do rzutów obronnych na Wytrwałość przeciwko efektom trucizny przez 24 godziny.</p>"
         },
         "Basic Meal": {
             "name": "Basic Meal",
@@ -659,7 +659,7 @@
         },
         "Jeweled Rice (Critical Success)": {
             "name": "Jeweled Rice (Critical Success)",
-            "description": "<p>Twice during the next 24 hours when the eater takes the Step action, they carefully move 10 feet instead of five feet.</p>"
+            "description": "<p>Dwa razy w ciągu następnych 24 godzin, gdy gracz wykonuje akcję Krok, ostrożnie porusza się o 10 stóp zamiast o 5 stóp.</p>"
         },
         "Jeweled Rice (Favorite Meal)": {
             "name": "Jeweled Rice (Favorite Meal)",
@@ -667,7 +667,7 @@
         },
         "Jeweled Rice (Success)": {
             "name": "Jeweled Rice (Success)",
-            "description": "<p>Once during the next 24 hours when the eater takes the Step action, they carefully move 10 feet instead of five feet.</p>"
+            "description": "<p>Raz w ciągu następnych 24 godzin, gdy gracz wykonuje akcję Krok, ostrożnie porusza się o 10 stóp zamiast o 5 stóp.</p>"
         },
         "Mastodon Steak": {
             "name": "Mastodon Steak",
@@ -1031,7 +1031,7 @@
         },
         "Rice-N-Nut Pudding (Favorite Meal)": {
             "name": "Rice-N-Nut Pudding (Favorite Meal)",
-            "description": "<p>Once during the  next 24 hours, when the eater Refocuses to regain Focus Points, the restoration of magic infuses and invigorates them, restoring a number of Hit Points equal to <a class=\"inline-roll roll\" data-mode=\"roll\" data-flavor data-formula=\"1d8\">1d8</a> plus their level.</p>"
+            "description": "<p>Raz w ciągu następnych 24 godzin, kiedy zjadacz ponownie skupia się, aby odzyskać Punkty Skupienia, przywrócenie magii nasyca go i ożywia, przywracając liczbę Punktów Wytrzymałości równą<a class=\"inline-roll roll\" data-mode=\"roll\" data-flavor data-formula=\"1d8\">1k8</a> plus jego poziom.</p>"
         },
         "Rice-N-Nut Pudding (Success)": {
             "name": "Rice-N-Nut Pudding (Success)",
@@ -1125,7 +1125,7 @@
         },
         "Shepherd's Pie (Favorite Meal)": {
             "name": "Shepherd's Pie (Favorite Meal)",
-            "description": "<p>For the next 24 hours, the eater’s healing ability is enhanced. Whenever they recover Hit Points with a healing effect, they restore 1 additional Hit Point. If an effect would heal them more than once, such as fast healing, the additional Hit Point applies only the first time they’re healed</p>"
+            "description": "<p>Przez następne 24 godziny zdolność leczenia osoby spożywającej jest wzmocniona. Za każdym razem, gdy odzyskuje ona punkty zdrowia dzięki efektowi leczenia, przywraca 1 dodatkowy punkt wytrzymałości. Jeśli efekt leczy ją więcej niż raz, np. szybkie leczenie, dodatkowy punkt wytrzymałości ma zastosowanie tylko przy pierwszym leczeniu.</p>"
         },
         "Shepherd's Pie (Success)": {
             "name": "Shepherd's Pie (Success)",

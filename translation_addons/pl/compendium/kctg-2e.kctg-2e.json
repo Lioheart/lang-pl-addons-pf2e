@@ -17,6 +17,7 @@
         "Food": "Żywność",
         "Jewelry": "Biżuteria",
         "Critters & Livestock": "Zwierzęta gospodarskie i hodowlane",
+        "Theme - Red Harvest": "Tematyka – Czerwone Żniwa",
         "Potions": "Mikstury",
         "Tavern Foods": "Żywność w tawernie"
     },
@@ -325,6 +326,10 @@
             "name": "Gąsówka",
             "description": "<p>Gąsówki to mocne i smaczne grzyby, szybko rozpoznawane po słabo fioletowym zabarwieniu. Szukaj ich jesienią w stosach ściółki i smaż je na obiad. Dość często są mylone z innym grzybem o nazwie „Ametystowy Oszust”, jednak oba są jadalne. </p>"
         },
+        "Blood Potion": {
+            "name": "Krwawa Mikstura",
+            "description": "<p>Każdego roku, w mrocznych tygodniach Czerwonych Żniw, kiedy pola leżą odłogiem, a ludzie zapalają lampiony wyrzeźbione z rzepy, z piwnic i podziemnych jaskiń wyciąga się beczki z eliksirem krwi. Pomimo swojej nazwy, napój ten nie zawiera ani kropli prawdziwej krwi. Jest to gęsty, szmaragdowo-czerwony napój wytwarzany z wiśni lub ciemnych leśnych jagód, gotowany do uzyskania syropowatej konsystencji i doprawiany goździkami, korą cynamonową, a czasem odrobiną octu, aby nadać mu ostry smak, który obudziłby nawet umarłych.</p>"
+        },
         "Bloodstone": {
             "name": "Heliotrop",
             "description": "<p>Kamień szlachetny o ciemnym kolorze z małymi plamkami czerwonych lub brązowych plamek, które czasami mogą również wyglądać podobnie do pasków lub żył. Jest używany głównie jako kamień uszczelniający do kamiennych podłóg lub używany w ozdobnych małych rzeźbach lub figurach, a inne właściwości obejmują jego zastosowanie jako środka leczniczego. Umieszczony na otwartej ranie pomaga w szybszym krzepnięciu krwi.</p>"
@@ -373,9 +378,17 @@
             "name": "Księga Pionków",
             "description": "<p>„Księga pionków” to humorystycznie nazwana księga zawierająca zbiór kalamburów, które sprawią, że nawet najbardziej stoiccy ludzie będą jęczeć z bólu brzucha. Oto kilka najlepszych przykładów: \"Co się stanie, jeśli poprosisz drzewca o radę życiową? Powie ci, żebyś rozgałęził się i odszedł\" lub \"Dlaczego występ komika kobolda okazał się klapą? – Jego żarty się ciągną\".</p>"
         },
+        "Box of Horrors": {
+            "name": "Pudełko Grozy",
+            "description": "<p>Pojawiają się tylko podczas Czerwonych Żniw, kiedy noce stają się długie, a powietrze cuchnie dymem i cydrem. Dzieci czekają na nie przez cały rok, ponieważ są wypełnione po brzegi słodyczami, a dzieci biegają między ogniskami z lepkimi palcami i fioletowymi ustami. Dorośli handlarze udają, że są ponad takie rzeczy, chociaż widziałem więcej niż jednego mistrza karawany „sprawdzającego” całe pudełko przed rozbiciem obozu. </p>"
+        },
         "Braided Bread": {
             "name": "Bochenek Plecionego Chleba",
             "description": "<p>Tradycyjne jedzenie w wielu miejscach, jego symbolika różni się znacznie w zależności od regionu. W niektórych regionach wiąże się z utratą ukochanej osoby, gdzie bochenek plecionego chleba jest umieszczany w miejscu pochówku, aby symbolizować połączenie w innych światach. W innych reprezentuje związek dwojga nowożeńców, a warkocze symbolizują splecione ramiona i miłość. W innych regionach nie ma to znaczenia kulturowego.</p>"
+        },
+        "Brain": {
+            "name": "Mózg",
+            "description": "<p>Mówi się, że pochodzą one z... cóż, to właśnie jest najtrudniejsze. Niektórzy kupcy twierdzą, że są one zbierane po wypadkach lub bitwach, ale inni przysięgają, że są one makabrycznym dziełem rzemieślników, tłoczone i konserwowane za pomocą tajemniczych olejów. Nie potrafię powiedzieć, która z tych wersji jest prawdziwa, ale tak czy inaczej, są one delikatne. Należy chronić je przed światłem słonecznym i nieostrożnymi rękami.</p>"
         },
         "Brass": {
             "name": "Mosiądz",
@@ -698,6 +711,10 @@
             "name": "Cytryn",
             "description": "<p><em>„Ten klejnot jest zwykle substytutem topazu, ponieważ mają bardzo podobny połysk. Jak można sobie wyobrazić, ktoś z niewprawnym okiem może zostać łatwo oszukany, co zdarza się raz po raz”. </em></p>\n<p> </p>\n<p>Kamień ten w swoich odcieniach przypomina Topaz Cesarski lub Żółty Szafir, jednak jego wartość jest znacznie niższa. Jest używany głównie w biżuterii i ozdobach artystycznych.</p>"
         },
+        "Claw Cup": {
+            "name": "Puchar Pazurów",
+            "description": "<p>Przez lata piłem z wielu dziwnych naczyń: rogów wyrzeźbionych z aurochsów, glinianych kubków jeszcze ciepłych po wyjęciu z pieca, a nawet wypolerowanej skorupy żółwia znalezionej na wybrzeżu, ale nic nie dorównuje uczuciu, jakie daje trzymanie w dłoni Pucharu Pazurów w Czerwonych Żniwach. Wyobraź sobie kielich, którego trzonek jest wykuty z żelaza, przyciemniony i szorstki jak stara krew, ukształtowany w pazur. Jego czarne szpony chwytają czaszę z dymnego szkła, jakby trzymały się jej kurczowo. Niektórzy kowale dodają nawet zadrapania i nacięcia, aby wyglądało, jakby pazur walczył o nią.</p><p></p>"
+        },
         "Clay Brick": {
             "name": "Cegła Gliniana",
             "description": "<p>Glina została uformowana w cegły poprzez wciśnięcie jej do drewnianej formy, a następnie podgrzanie w piecach. Można je również glazurować kolorowymi wykończeniami lub dekorować skomplikowanymi wzorami, co czyni je popularnym wyborem jako dekoracyjne materiały budowlane.</p>"
@@ -834,6 +851,10 @@
             "name": "Pelargonia",
             "description": "<p>Pelargonia to roślina ogrodowa, która ma wiele zastosowań leczniczych. Większość zwykłych ludzi trzyma je w swoich domach, aby przygotować herbatę. Pelargonia to zioło, które może być stosowane do płukania jamy ustnej w celu złagodzenia bólu owrzodzeń rakowych, a także jako gorący napar, łagodzący ostre bóle brzucha.</p>"
         },
+        "Creamatory": {
+            "name": "Krematorium",
+            "description": "<p>Na rynku krąży powiedzenie, że jeśli po pierwszym łyku śmietanka pozostawia idealną spiralę, rok zakończy się szczęściem. Jeśli natomiast się zsiądzie, lepiej nie oddalać się zbytnio od domu, ponieważ czeka nas pech. Dawno temu zignorowałem to przesądne przekonanie, wyśmiałem je, a nawet wyśmiewałem, i skończyło się to złamaniem osi wozu w ciemnych bagnach i kilkudniowym utknięciem, aż do momentu naprawy. Od tamtej pory zawsze obserwuję kształt śmietanki. Nazwijcie mnie głupcem, ale kiedy widzieliście śmietankę zbierającą się w kształty tylko tego konkretnego wieczoru, nauczyliście się szanować ten napój.</p>"
+        },
         "Crimson Lady": {
             "name": "Szkarłatna Dama",
             "description": "<p>Szkarłatna Dama to koktajl alkoholowy, przygotowywany z wódki, soku z cytryny i pomidorów oraz mielonej czerwonej papryki, która dodaje mu nieco pikantności. Zazwyczaj przygotowuje się go w dużych ilościach i przechowuje w lodówce. Można go udekorować marynowanymi warzywami, czosnkiem, chrzanem, selerem, oliwkami i czarnym pieprzem. Zazwyczaj przygotowuje się go w dużych ilościach, aby można było szybko podać go gościom.</p>"
@@ -841,6 +862,10 @@
         "Crimson Noble Slab": {
             "name": "Karmazynowa Szlachetna Płyta",
             "description": "<p>Te konkretne płyty są wykonane w 100% z czystego złota, ważą około 2,2 funta i przez długi czas były po prostu znane jako Szlachetne Złote Płyty. Gdy ludzie zaczęli częściej wykorzystywać je do niecnych czynów, zmieniono nazwę z Szlachetnych Złotych Płyt na Karmazynowe Szlachetne Płyty. Szlachta zwykle używa ich do płacenia, ponieważ nie są one oznaczone pieczęciami rodzinnymi, aby pomóc w rozwiązaniu wszelkich form rywalizacji, od zamachów stanu i przewrotów po zabójstwa. Płyty te są powszechnie akceptowane przez większość kupców, którzy rozumieją, że reprezentują one zakończoną transakcję. Odmowa ich przyjęcia może narazić ich i ich bliskich na niebezpieczeństwo.</p>"
+        },
+        "Crow Feathers": {
+            "name": "Pióra Kruka",
+            "description": "<p>Kruk jest sprytnym stworzeniem. Większość osób twierdzi, że jest obserwatorem i przewodnikiem, stworzeniem znającym sekrety zarówno pola, jak i śmietniska. Mówi się, że połączenie dwóch jego piór pozwala uchwycić odrobinę tej przebiegłości, a czerwona nitka przywiązana do ich podstawy? Działa ona jak punkt skupienia. Wiąże magię, że tak powiem, zapobiegając jej rozproszeniu. Ta konkretna przesądna wiara jest podzielona, ponieważ każda dusza, która postrzega ją jako talizman przynoszący szczęście, ma swoją przeciwną stronę, która pluje na ziemię i nazywa ją głupim hazardem. </p>"
         },
         "Crucible Steel": {
             "name": "Stal Tyglowa",
@@ -898,9 +923,17 @@
             "name": "Złoto z Mrocznej Rzeki",
             "description": "<p>Monety te, nieznanego pochodzenia, są zawsze odkrywane przez rybaków, ale kiedy się pojawiają, są postrzegane jako zły omen. Po ich znalezieniu w rzekach lub morzach, handel i komunikacja z pobliskimi miastami zwalnia lub ustaje, a plotki o inwazjach potworów, tsunami i pożarach mają tendencję do pojawiania się w regionie. Źródło tych pogłosek nie zostało jeszcze zweryfikowane. Jednak właściciele monet mają tendencję do szybkiego handlu nimi prawie bez zysku, pomimo ich rzadkości, prawdopodobnie z powodu postrzeganego negatywnego skojarzenia.</p>"
         },
+        "Dark Rose": {
+            "name": "Mroczna Róża",
+            "description": "<p>Nie znajdziesz tej rośliny uprawianej i pielęgnowanej w żadnym porządnym ogrodzie, i dzięki Bogu za to. Widziałem ją tylko na popiołach starych, zapomnianych pól bitewnych lub w cichych, ciemnych i gęstych lasach, gdzie powietrze wydaje się wilgotne, stare i czujne. Jej łodygi i liście mają głęboki fioletowy kolor, przypominający stary siniak, z ciemnoczerwonymi żyłkami, tak ciemnymi, że wydają się prawie czarne, a sam kwiat ma kolor przypominający krew. Nie ma zapachu, zamiast tego ma metaliczny zapach, jak strach na wietrze i melancholijny rozkład zapomnienia.</p>"
+        },
         "Dark-Bat Remains": {
             "name": "Pozostałości Mrocznego Nietoperza",
             "description": "<p>Kiedy stworzenia nocy przekształcają się w swoje bardziej zwierzęce części, ścigający je łowcy mają tylko jedną alternatywę, aby rozwiązać swoje polowania. Dekapitacja. Spala ona ciało i skórę stworzenia, pozostawiając jedynie jego czaszkę. Czaszka jest zwykle przechowywana jako trofeum i dość ceniona, ponieważ przeżycie jednego z tych stworzeń jest rzadkim wyczynem.</p>"
+        },
+        "Darkness Eye": {
+            "name": "Oko Ciemności",
+            "description": "<p>Pierwszy raz zobaczyłem Oko Ciemności w popękanej dłoni ulicznego sprzedawcy w Marrowgate i przysięgam, że wyglądało to tak, jakby pochłaniało całe światło. Był to rzeczywiście klejnot, ale nie taki, który błyszczy i mruga do ciebie, mieniąc się kolorami. Jego powierzchnia była matowa i czarna jak smoła, a jednocześnie głębsza niż jakakolwiek otchłań. Jeśli patrzyłeś na niego zbyt długo, żołądek ściskał ci się, jakbyś wpadał do niego. Niektórzy twierdzą, że to wcale nie był kamień, ale fragment samej nocy ukształtowany w okrągły kształt.</p>"
         },
         "Darmouth Bass": {
             "name": "Bass Darmouth",
@@ -1122,6 +1155,10 @@
             "name": "Wachlarz",
             "description": "<p>Wykonane głównie z papieru lub rzadziej z tkaniny i wzmocnione metalami lekkimi, takimi jak cyna, lub jasnym drewnem, takim jak sekwoja. Wachlarze mają skomplikowane wzory, a wiele z nich jest wykonanych tak, by odzwierciedlać regionalne symbole lub herby rodzinne. Niektóre wachlarze, ozdobione żywymi kolorami lub delikatnymi haftami, są uważane za symbole statusu i są cenione jako pamiątki. W upalny letni dzień mieszkańcy wioski rozwijają swoje wachlarze jednym ruchem nadgarstka, wykonując zsynchronizowany taniec tkaniny i drewna, tworząc delikatną bryzę, która przynosi chwilową ulgę od nieustającego upału słońca.</p>"
         },
+        "Fangs Necklace": {
+            "name": "Naszyjnik z Kłami",
+            "description": "<p>Ach, naszyjnik z kłami. Każdego roku, tuż przed rozpaleniem ognisk Czerwonego Żniwa, jubilerzy od Dockhaven po targowiska na wzgórzach Bristlethorn zaczynają wycinać je dziesiątkami. Jest to dość efektowna biżuteria, służąca głównie jako ozdoba. Bardzo ostre, przypominające zęby wisiorki zwisają z drutu lub łańcuszka, zazwyczaj wykonane są z czerwonego szkła lub dymnego kwarcu. Niektórzy mistrzowie szlifierstwa szlifują prawdziwe granaty, ale większość błyskających na straganach to sprytnie wykonane dzieła z kolorowego szkła. W świetle pochodni biżuteria mieni się czerwonym blaskiem, który niepokojąco przypomina świeżą krew, co ma na celu upodobnienie jej do nocnych kłów.</p>"
+        },
         "Fat Candle": {
             "name": "Gruba Świeca",
             "description": "<p>Grube świece są wytwarzane z przetworzonego tłuszczu zwierzęcego, takiego jak tłuszcz wielorybi lub łój owczy lub krowi. Chociaż świece z wosku pszczelego są trwalsze, świece te palą się jaśniej i są znacznie tańsze. Wadą jest to, że podczas palenia wydzielają nieprzyjemny zapach.</p><p></p>"
@@ -1149,6 +1186,10 @@
         "Figworts": {
             "name": "Figowce",
             "description": "<p>Figowce są pożądanym ziołem, ponieważ wielu zielarzy poszukuje ich, ponieważ mogą być przydatne w leczeniu stanów zapalnych skóry, łagodzeniu bólu, a nawet jako łagodny środek przeczyszczający. Większość figowców występuje zwykle w bogatych lasach, a kiedy zbieracze udają się do lasu, starają się mieć na nie oko, ponieważ zielarze zwykle płacą za nie premię.</p>"
+        },
+        "Finger Claw": {
+            "name": "Szponiasty Palec",
+            "description": "<p>Nie są to bronie, mimo że niektórzy zarozumiali młodzieńcy lubią nimi wymachiwać w powietrzu. Są to po prostu kostiumy, ale ludzie traktują je z dziwną powagą. W krainach nadrzecznych dzieciom rozdaje się poplamione jagodami pazury, aby zaznaczyć zmianę pory roku, podczas gdy w miastach portowych można znaleźć pazury inkrustowane kawałkami kolorowego szkła, sprzedawane po wysokich cenach przybywającym kupcom, którzy chcą wtopić się w ekscentryczną szlachtę.</p>"
         },
         "Fir Log": {
             "name": "Kłoda Jodły",
@@ -1354,6 +1395,10 @@
             "name": "Winogrona",
             "description": "<p>Większość produkcji winogron jest wykorzystywana do produkcji wina, a większość, jeśli nie wszystkie tawerny lub zajazdy, mają długoterminowe umowy z winnicami. Winogrona występują w wielu kolorach, takich jak karmazynowy, czarny, ciemnoniebieski, żółty, zielony, pomarańczowy, różowy i fioletowy. Mogą być również używane do produkcji dżemów lub suszone i przekształcane w rodzynki, które są następnie wykorzystywane w kuchni, najczęściej do wypieków.</p>"
         },
+        "Gravestone": {
+            "name": "Nagrobek",
+            "description": "<p>Nagrobki, co dziwne, nie są tylko ozdobą, jak to zwykle bywa w przypadku Czerwonych Żniw. Zauważyłem, że wszędzie tam, gdzie znajdują się te nagrobki, ziemia pod nimi ma dziwny zwyczaj poruszać się, jakby coś wzywała. Wielu opiekunów cmentarzy w dzielnicy Letea w Bacau twierdzi, że tani nagrobek z gipsu może skrywać niespokojne zwłoki tak samo jak prawdziwy. Niektórzy uczeni twierdzą, że to wszystko zbieg okoliczności lub że festiwal Czerwonych Żniw po prostu wydobywa resztki nekromancji, które pozostały w miastach po niezliczonych wojnach.</p>"
+        },
         "Great Forest Rolls": {
             "name": "Wielkie Leśne Bułki",
             "description": "<p>Są one wypełnione mieszanką świeżej kapusty, pikantnych grzybów i pachnącego koperku, podczas gdy arkusz ciasta jest fachowo połączony z chrupiącymi solonymi migdałami dla dodania tekstury i smaku. Dodatkowo, dla tych, którzy wolą słodsze smaki, dostępna jest wersja z melonem spadziowym, orzeźwiającym ogórkiem oraz aromatycznymi liśćmi bazylii i mięty, a ciasto i migdały są polewane słodkim miodem dla dodatkowego smaku.</p>"
@@ -1457,6 +1502,10 @@
         "Hazelnut": {
             "name": "Orzech Laskowy",
             "description": "<p>Orzechy laskowe zawdzięczają swoją nazwę kolorowi - leszczynowemu. Czasami nazywane są również orzechami kolbowymi lub filbertami. Orzechy są używane w ciastach lub jako kruszonka, jednak po zmieleniu mogą być również używane jako mąka do pieczenia. </p>"
+        },
+        "Heart": {
+            "name": "Serce",
+            "description": "<p>Wygląda jak rekwizyt sceniczny, prawda? Zbyt błyszczący, zbyt idealny, coś, czego można by się spodziewać po ulicznym magiku. Jednak gdy weźmiesz go do dłoni, poczujesz, jak pulsuje na twojej skórze, powoli, równomiernie, jak echo twojej własnej klatki piersiowej. Widziałem, jak zatwardziali najemnicy upuszczali go jak przekleństwo, jakby złapali żywą szczurzycę.</p>"
         },
         "Hellgrammite": {
             "name": "Hellgrammite",
@@ -1657,6 +1706,10 @@
         "Lake Trout": {
             "name": "Palia Jeziorowa",
             "description": "<p>Palie jeziorowe żyją w chłodnych, dobrze natlenionych strumieniach i jeziorach. Można je łowić przy użyciu różnych przynęt, z dryfującymi całymi dżdżownicami, a także małymi strzeblami i mącznikami. Unikalną cechą palii jeziorowego jest jego wyjątkowe ubarwienie przed złowieniem, ryba wykazuje żywe tęczowe odcienie, ale kolory te blakną po wyjęciu z wody.</p>"
+        },
+        "Lantern Jack": {
+            "name": "Jack-o’-lantern",
+            "description": "<p>Ach, Jack-o'-lantern. Żaden stragan ani schody tawerny nie wydają się właściwe podczas Czerwonego Żniwa bez tej uśmiechniętej latarnie. W najprostszym wydaniu to po prostu wydrążona dynia z wyrzeźbionymi oczami i ustami, w której wnętrzu migocze świeca. Jednak kryje się w nich coś więcej niż tylko warzywa i wosk. Stań na wiejskim placu o zmierzchu, gdy robi się chłodno, a te rzędy spoglądających na ciebie twarzy wydają się niemal żywe, jak tłum obserwujący cię z ciemności.</p>"
         },
         "Lapis Lazuli": {
             "name": "Lapis Lazuli",
@@ -1910,6 +1963,10 @@
             "name": "Okoń Północny",
             "description": "<p>Okonie Północne to rzadki widok w ciągu dnia, ponieważ preferują chłodną ciemność nocy do polowania na pożywienie. Rybacy poszukujący tego specyficznego połowu polegają na strategicznym oświetleniu, używając latarni, aby naśladować blask księżyca na wodzie. Te źródła światła wabią okonie z ich kryjówek wśród zatopionych drzew i skał, ułatwiając ich złowienie.</p><p></p>"
         },
+        "Mimic Sandwich": {
+            "name": "Kanapka Mimik",
+            "description": "<p>Pierwszy raz widziałem coś takiego, jak sądzę, w nadrzecznej tawernie w Vaslui podczas Czerwonych Żniw. Prawie wylałem piwo ze śmiechu. Wyobraźcie sobie kanapkę z gotowanymi jajkami, które spoglądają na was z góry, przybite patyczkami selera, z zielonymi i czarnymi oliwkami umieszczonymi w białkach, aby nadać „oczom” głodny błysk. Właściciel tawerny ułożył plasterek ogórka z boku jak zwisający język, a ser, roztopiony i wyciekający z chleba, przypominał krzywe zęby. Ma to oczywiście przypominać mimikę, a po kilku kuflach, kiedy pokój zaczyna się kręcić, zaczyna wyglądać niepokojąco realistycznie.</p><p></p>"
+        },
         "Mishanite": {
             "name": "Miszanit",
             "description": "<p>Miszanit jest wyjątkowo poszukiwanym klejnotem, podobnie jak Harumit. Ci, którzy go szukają, mogą uformować go w dowolny kształt lub kolor, a wiele manifestacji może współistnieć. Pomimo braku namacalnej wartości dla innych, miszanit ma ogromne znaczenie sentymentalne. Znalezienie tego klejnotu wywołuje głębokie poczucie osobistego ciepła i bliskości.</p><p></p>"
@@ -1937,6 +1994,14 @@
         "Monel": {
             "name": "Monel",
             "description": "<p>Monel powstaje w wyniku połączenia niklu i miedzi, a jego zawartość żelaza jest minimalna. Charakteryzuje się wyjątkową odpornością na korozję, dzięki czemu nadaje się do szerokiego zakresu zastosowań. Niezależnie od tego, czy chodzi o nieśmiertelniki, rury, blachy czy gwoździe używane na statkach słonowodnych, przedmioty wykonane z tego stopu zwykle wykazują zwiększoną trwałość.</p>"
+        },
+        "Monkey Paw": {
+            "name": "Małpia Łapka",
+            "description": "<p>Małpia łapka... ta łapka spełnia życzenia. Każdy palec oznacza jedno życzenie, a gdy życzenie zostanie spełnione, palec zamyka się szczelnie, sztywny jak kość. Spełnia to, o co prosisz, ale zabiera ducha twoich słów i skręca je jak linę. Znałem karawaniarza, który błagał o niekończące się złoto. Otrzymał je, ale z nieba spadł deszcz stopionych monet, który spalił jego obóz na popiół. Zanim dojdziesz do ostatniego palca, większość ludzi wolałaby raczej błagać o śmierć niż prosić o kolejną łaskę.</p>"
+        },
+        "Monster Pie": {
+            "name": "Potworny Placek",
+            "description": "<p>Nie daj się zwieść nazwie i nie myśl, że to coś makabrycznego, jak nerka ogra lub trolla. Nie, to tylko ciasto, i to świąteczne. Złocista skórka, posmarowana masłem, aż lśni, wypełniona po brzegi czerwonymi jagodami. Kucharze i piekarze wycinają w skórce prymitywne oczy i postrzępione usta, aby uśmiechała się do Ciebie z niegodziwą radością. Niektóre twarze wychodzą głupkowate, inne wręcz upiorne, a przysięgam, że te, które smakują najlepiej, wyglądają, jakby miały zaraz ugryźć.</p><p></p>"
         },
         "Monstrous Monsters": {
             "name": "Potworne Potwory",
@@ -1973,6 +2038,10 @@
         "Mulled Wine": {
             "name": "Grzane Wino",
             "description": "<p>Grzane wino staje się podstawowym napojem wraz z nadejściem chłodniejszych pór roku. Wino jest gotowane, a następnie nasycane cukrem, czarnym pieprzem, cynamonem, goździkami i skórkami pomarańczy. Podawane na gorąco, podobno leczy przeziębienie, choć przede wszystkim ma działanie rozgrzewające.</p>"
+        },
+        "Murder Cake": {
+            "name": "Mordercze Ciasto",
+            "description": "<p>Po raz pierwszy zetknąłem się z tym ciastem podczas balu maskowego w Sibiu, w okresie Czerwonego Żniwa, kiedy to szlachta oddawała się zabawom, które przyprawiały o dreszcze uczciwych rybaków. Ciasto morderstwa nie jest zwykłym deserem, jest centralnym punktem teatralnego wieczoru, podczas którego goście bawią się w detektywów i morderców. Samo ciasto jest okazałą, wielopoziomową kompozycją, często ciemną jak bezgwiezdna noc, z lukrem w kolorze starej krwi lub stylizowaną na gotycki dwór, ale może być również tak proste, jak warstwa ciasta z dżemem i wystającym z niego nożem.</p>"
         },
         "Murum": {
             "name": "Murum",
@@ -2374,6 +2443,10 @@
             "name": "Fioletowo-różowy Diament",
             "description": "<p>Czasami określane również jako fantazyjne diamenty, są one niezwykle rzadkie. Spekuluje się również, że osoby noszące określone diamenty mogą być chronione przed niektórymi zaklęciami lub czarami. </p>"
         },
+        "Purple Vampire Crab": {
+            "name": "Fioletowy Krab Wampir",
+            "description": "<p>Niesamowitą rzeczą, jaką usłyszałem od starego poławiacza krabów z delty, jest to, że intensywność fioletowego koloru na ich skorupkach przewiduje surowość nadchodzącej zimy. Im głębszy fiolet, tym silniejsze mrozy. Twierdził również, że jeśli trzyma się kraba w akwarium, będzie on dobrze się rozwijał tylko wtedy, gdy co miesiąc dodaje się do wody szczyptę mułu z jego rodzimej delty. Nazywał to „tęsknotą za domem” i myślę, że mógł mieć rację.</p>"
+        },
         "Pyrope": {
             "name": "Pirop",
             "description": "<p>Pirop, rodzaj granatu znany ze swojego wyjątkowego piękna, ma również znaczenie militarne. Uważa się, że ozdabianie broni tym granatem pozwala na przenikanie przez najgrubsze skóry lub niszczenie najmocniejszych drzwi, przy wsparciu sił tajemnych.</p><p></p>"
@@ -2598,6 +2671,10 @@
             "name": "Kanapka",
             "description": "<p><em>„Plotka głosi, że wiedza na temat robienia kanapek zniknęła na przestrzeni lat. Niedawno podróżnik o imieniu Peach wspomniał, że w moim kompendium brakuje przepisów na kanapki, a ja poczułem się trochę źle z powodu tego niedopatrzenia, zwłaszcza że kanapki są tak dobrze znane. Niemniej jednak wierzę, że posiadam notatki starego, zmęczonego podróżnika na temat tego, jak je przygotować”.</em></p><p>Kanapka to produkt spożywczy składający się z dwóch kawałków chleba z nadzieniem pomiędzy nimi, zwykle spożywany jako lekki posiłek. Nadzienie może być dowolne, od jajek i bekonu po dżemy i gotowaną fasolę.<br /><br /></p>"
         },
+        "Sanguine Cocktail": {
+            "name": "Krwawy Koktajl",
+            "description": "<p>Po raz pierwszy zobaczyłem to w Pozłacanym Morskim Koniku, tawernie schowanej w ukrytej uliczce w pobliżu doków, gdzie wszystko pachnie zgnilizną i starym solą. Matel, właścicielka tawerny, przesunęła szklankę po blacie z największym uśmiechem, jaki była w stanie wykrzywić na twarzy. W migotliwym świetle wygląda to jak świeża krew, głęboka, lepka czerwień, która przylega do szkła i spływa na tyle wolno, że wywołuje niepokój. Serce mi zamarło, a potem język wypowiedział inne słowa. Na początku jest słodka, jak ogrzane w dłoni miodowe jeżyny, a potem pojawia się szczypta cytryny, która pobudza zmysły. Pod spodem wyczuwalny jest czysty smak ginu z wyżyn, destylowanego w zimnych wzgórzach za Iteshti.</p>"
+        },
         "Sanidine": {
             "name": "Sanidyn",
             "description": "<p>Sanidyn to kamień szlachetny powszechnie występujący na szczytach gór i sporadycznie na obszarach pustynnych. Nomadyczne plemiona z pustyni wierzą, że umieszczenie go w wodzie pomaga w oczyszczeniu, choć bez pomocy tajemnej nie ma na to ostatecznych dowodów.</p><p></p>"
@@ -2645,6 +2722,10 @@
         "Scorpionfish": {
             "name": "Skorpena",
             "description": "<p>Skorpeny mają niezwykle silny jad w swoich ostrych kolcach, co czyni je jednymi z najbardziej trujących stworzeń w oceanie. Jednak pomimo swojej toksyczności są one uważane za przysmak, często chwalony jako jedna z najsmaczniejszych dostępnych ryb. Prawidłowe przygotowanie jest kluczowe, ponieważ niewłaściwe obchodzenie się z rybą może prowadzić do poważnego zatrucia, a nawet śmierci. Zielarze często zlecają rybakom pozyskiwanie jadu do celów leczniczych i alchemicznych.</p>"
+        },
+        "Screamsickle Shake": {
+            "name": "Krzykoszejk",
+            "description": "<p>Z Krzykoszejkiem wiąże się mały przesąd – małym dzieciom mówi się, że jeśli rozleją kroplę na drewnianą podłogę, to w przyszłym roku nie będzie plonów. Mam wrażenie, że wymyśliły to zmęczone matki, które nie chciały mieć lepkich śladów stóp na swoich czystych podłogach. Mimo to nigdy nie odważyłem się rozlać swojego kubka w domu mojej mamy i nie zamierzam teraz sprawdzać cierpliwości duchów.</p>"
         },
         "Scythe": {
             "name": "Kosa",
@@ -2705,6 +2786,10 @@
         "Shallot": {
             "name": "Cebula Szalotka",
             "description": "<p>Szalotki są szeroko stosowane w kuchni i mogą być również marynowane. Cienko pokrojone i smażone szalotki są powszechnie stosowane jako przyprawa w kuchni, zwłaszcza do owsianki. Oferują one smak podobny do cebuli, ale o łagodniejszym profilu. Podobnie jak cebula, krojenie surowej szalotki uwalnia związki, które podrażniają oczy i powodują łzawienie. Niektórzy zielarze zbierają szalotki do robienia okładów, wykorzystując szalotki i ich właściwości wywołujące łzy.</p><p></p>"
+        },
+        "Shapeshifter": {
+            "name": "Zmiennokształtny",
+            "description": "<p>Handlowcy tacy jak ja widzą, jak na początku jesieni skrzynki z dżemem jabłkowym przemieszczają się z sadów do gospodarstw mlecznych i z powrotem, aby ten jeden specyfik mógł być przygotowywany na kilka nocy. Nie przechowuje się go zbyt dobrze, następnego dnia rano gęstnieje i kwaśnieje, dlatego nikt nie wysyła go daleko. Jest to jeden z powodów, dla których otrzymał tak dziwną nazwę, ale dzieci go uwielbiają.</p>"
         },
         "Shark Teeth": {
             "name": "Zęby Rekina",
@@ -2794,6 +2879,14 @@
             "name": "Tuńczyk Pasiasty",
             "description": "<p>Tuńczyki bonito są najmniejszymi i najliczniejszymi gatunkami tuńczyków. Jako przynęta preferowane są żywe ryby, takie jak śledź, makrela lub kałamarnica. Ich opływowe, w większości pozbawione łusek ciała sprawiają, że idealnie nadają się do długotrwałego przechowywania poprzez solenie, wędzenie lub marynowanie.</p>"
         },
+        "Skull Candle": {
+            "name": "Świeca w kształcie czaszki",
+            "description": "<p>Gospodarzami i właścicielami karczm są ich główni klienci. Są tani w zakupie i jeszcze tańsi w utrzymaniu, a ponadto nadają miejscu pewien... charakter. Muszę też powiedzieć, że są oni szczególnie do nich przywiązani, twierdząc, że ponura twarz powstrzymuje hałaśliwych dokerów przed wstawaniem z miejsc. Uważam, że częściej są oni wykorzystywani jako cel do rzucania nożami po siódmej rundzie piwa, ale przez jedną noc w roku, myślę, że gospodarze sobie z tym poradzą.</p>"
+        },
+        "Skull Ring": {
+            "name": "Pierścień z czaszką",
+            "description": "<p>Chociaż jest to podstawowy element stroju na Czerwone Żniwa, jeśli nosi się go wystarczająco długo, ludzie zakładają, że zrobiło się coś ponurego, ponieważ zapomniałem go zdjąć na kilka dni. Nosząc go przez dwa tygodnie podczas podróży w małej wiosce, tylko po to, żeby sprawdzić, jak to jest, zarówno dokerzy, jak i rolnicy omijali mnie szerokim łukiem, szepcząc, że musiałem stracić załogę w głębinach lub że spotkało mnie coś strasznego.</p>"
+        },
         "Sky Blue": {
             "name": "Błękitna Entoloma",
             "description": "<p>Mały grzyb ma charakterystyczny, całkowicie niebieski kolor, w niektórych miejscach nazywany Werewere-kokako, ze względu na podobne ubarwienie do ptaka Kokako. Jego piękno jest zwodnicze, ponieważ jego trucizna przynosi szybką śmierć tym, którzy odważą się go zjeść. Dla wykwalifikowanych rzemieślników oferuje coś innego, niebieski barwnik tak bogaty i rzadki, że można go użyć do zwykłej tkaniny, aby przekształcić ją w dzieło sztuki.</p><p></p>"
@@ -2878,6 +2971,10 @@
             "name": "Koło Przędzalnicze",
             "description": "<p>Koło przędzalnicze lub wrzeciono to urządzenie mechaniczne służące do przędzenia nici lub przędzy z włókien. Przekształca ono surowce, takie jak wełna lub bawełna, w użyteczną nić w procesie skręcania i nawijania, który jest integralną częścią tworzenia tkanin.</p>"
         },
+        "Spirit Lights": {
+            "name": "Duchowe Światełka",
+            "description": "<p>Cóż, teraz mamy Duchowe Światła i spotkanie, którego nie pragnę. Widziałem je dwa razy podczas moich podróży i moim zdaniem to o dwa razy za dużo. Na pierwszy rzut oka wyglądają nieszkodliwie, jak małe migoczące punkciki dryfujące w zmierzchu, nie większe niż świetliki. Ale weterani żniw wiedzą lepiej. Te światła nie migoczą przez cały rok. Pojawiają się tylko podczas Czerwonych Żniw, kiedy księżyce ustawiają się w jednej linii, a pola świecą szkarłatnym blaskiem w ich świetle. Jeśli zbyt długo pozostajesz w rzędach, ścigając jedno z nich, coś za tobą podąża. Słyszałem krzyki w nocy, ciche i odległe.</p>"
+        },
         "Spring Water": {
             "name": "Woda Źródlana",
             "description": "<p>Woda źródlana pochodzi z podziemnych źródeł i jest wykorzystywana głównie przez alchemików. Jest bardzo poszukiwana, a z pomocą magicznych zaklinaczy woda jest oczyszczana jeszcze bardziej, ponieważ jest zwykle używana do tworzenia mikstur. Strumienie magicznej wody są rzadkie, ale jeśli już zostaną znalezione, spekuluje się, że eliksir stworzony przy użyciu tego konkretnego rodzaju wody znacznie zwiększa jego moc.</p>"
@@ -2905,6 +3002,10 @@
         "Stibiotantalite": {
             "name": "Stibiotantalit",
             "description": "<p>Stibiotantalit jest przede wszystkim ceniony jako kamień szlachetny, znany ze swojego żywego, błyszczącego, złoto-brązowego wyglądu. Był powszechnie noszony przez kupców i dworzan średniego szczebla jako przystępna cenowo alternatywa dla droższych kamieni szlachetnych.</p><p></p>"
+        },
+        "Stitch-me-up Pie": {
+            "name": "Ciasto „Zszyj mnie”",
+            "description": "<p>cTe ciasta pojawiają się najczęściej na jesiennych targach, kiedy piekarze chcą pochwalić się swoimi umiejętnościami i bogactwem swoich sadów. Im bardziej skomplikowane „szwy”, tym wyższa cena. Podczas jednej z moich podróży jakiś czas temu widziałem piekarza, który przyjmował zamówienia od grup poszukiwaczy przygód i formował ciasta z nacięciami przypominającymi ich blizny po bitwach. Głupie? Oczywiście. Ale członkowie gildii płacili hojnie i wszyscy wychodzili z lepkimi palcami i uśmiechem na twarzy.</p>"
         },
         "Stone Brick": {
             "name": "Kamienna Cegła",
@@ -3261,6 +3362,10 @@
         "Wine": {
             "name": "Wino",
             "description": "<p>Podczas gdy wino gronowe pozostaje najpopularniejszą odmianą, dostępne są również inne warianty, w tym wina z jagód, pokrzywy, jabłek, czarnego bzu i czerwonej porzeczki. Ceny tych win mogą się znacznie różnić w zależności od użytych owoców i ich wieku.</p>"
+        },
+        "Witches Brew": {
+            "name": "Napój Czarownic",
+            "description": "<p>Młodzi ludzie uwielbiają ten napój, a nawet niektórzy starsi ludzie piją go z nostalgii, czasem z dodatkiem odrobiny przyprawionego brandy, którą dodaje im bezczelny właściciel tawerny. Z napojem tym wiążą się różne historie. Niektórzy twierdzą, że jeśli trzy razy zamiesza się filiżankę pod księżycem w pełni, w pianie można dostrzec twarz swojej przyszłej miłości. Raz spróbowałem tego w Harthen Hollow. Jedyne, co uzyskałem, to lepki nos i śmiech córki piwowara, która obserwowała mnie przez cały czas. Być może to wystarczy, aby uznać to za magię.</p>"
         },
         "Witherite": {
             "name": "Witeryt",

@@ -328,7 +328,7 @@
             "description": "<p><strong>Zniszczenie</strong> 4</p>"
         },
         "Machinery Kit": {
-            "name": "Zestaw Maszyn",
+            "name": "Zestaw naprawczy Maszyn",
             "description": "<p>Umożliwia użycie Maszyn do naprawy i budowy maszyn (nie pojazdów).</p>\n<hr />\n<p><strong>Zniszczenie</strong> 4</p>"
         },
         "Makeup Kit": {
@@ -537,7 +537,7 @@
             "description": "<p><strong>Zniszczenie</strong> 4</p>"
         },
         "Sledgehammer": {
-            "name": "Młot Kowalski",
+            "name": "Młot Rozbiórkowy",
             "description": "<p><strong>Zniszczenie</strong> 6</p>"
         },
         "Sniper Rifle": {

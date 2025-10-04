@@ -886,7 +886,7 @@
                 "strike-melee->Golf Club": {
                     "name": "Kij Golfowy"
                 },
-                "strike-melee->Bottle": {
+                "strike-ranged->Bottle": {
                     "name": "Butelka"
                 },
                 "action->Hangry": {
