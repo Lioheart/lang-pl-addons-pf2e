@@ -28,7 +28,8 @@
     "scripts/used-reaction.js",
     "scripts/round-marker.js",
     "scripts/exploration-effects.js",
-    "scripts/used-ready.js"
+    "scripts/used-ready.js",
+    "scripts/custom-turn-marker.js"
   ],
   "templates": [
     "templates/world-time-display.hbs"

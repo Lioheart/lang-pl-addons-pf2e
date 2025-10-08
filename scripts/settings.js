@@ -196,4 +196,14 @@ export function registerSettings() {
         restricted: true
     });
 
+    game.settings.register(MODULE_ID, "enableCustomTurnMarker", {
+        name: game.i18n.localize(`${MODULE_ID}.settings.enableCustomTurnMarker.name`),
+        hint: game.i18n.localize(`${MODULE_ID}.settings.enableCustomTurnMarker.hint`),
+        scope: "world",
+        config: true,
+        type: Boolean,
+        default: true,
+        requiresReload: true,
+    });
+
 }
