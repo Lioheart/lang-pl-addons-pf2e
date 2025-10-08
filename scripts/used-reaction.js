@@ -104,7 +104,7 @@ async function ensureReactionEffect(actor) {
             level: { value: 0 },
             // 1 runda, wygasa na początku tury właściciela efektu
             duration: {
-                value: 0,
+                value: 1,
                 unit: "rounds",
                 expiry: "turn-start",
                 sustained: false
@@ -134,7 +134,8 @@ async function ensureReactionEffect(actor) {
 
 /** Główny hook */
 Hooks.on("createChatMessage", async (message, _options, _userId) => {
-    if (!game.settings.get(MODULE_ID, "enableUsedReactionEffect")) return;
+    if (!game.settings.settings.has("lang-pl-addons-pf2e.enableUsedReactionEffect") ||
+    !game.settings.get(MODULE_ID, "enableUsedReactionEffect")) return;
     try {
         // żeby nie tworzyć efektu po kilka razy — robi to tylko GM
         if (!game.user?.isGM) return;

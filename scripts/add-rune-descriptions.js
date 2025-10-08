@@ -165,6 +165,9 @@ const UUID_RUNES = {
 Hooks.once("init", registerSettings);
 
 Hooks.on("renderItemSheetPF2e", async (sheet) => {
+  if (game.settings.settings.has("lang-pl-addons-pf2e.enableRuneDescriptions") ||
+    !game.settings.get("lang-pl-addons-pf2e", "enableRuneDescriptions")) return;
+
   const item = sheet.document;
 
   const runes = item.system?.runes?.property ?? [];
@@ -184,7 +187,6 @@ Hooks.on("renderItemSheetPF2e", async (sheet) => {
   if (runes.length === 0) {
     await item.update({ "system.description.value": originalDesc });
     await item.unsetFlag(MOD_ID, FLAG_HASH);
-    console.log(`[${MOD_ID}] Removed the rune section from: ${item.name}`);
     return;
   }
 
@@ -224,5 +226,4 @@ Hooks.on("renderItemSheetPF2e", async (sheet) => {
   await item.update({ "system.description.value": finalDesc });
   await item.setFlag(MOD_ID, FLAG_HASH, hash);
 
-  console.log(`[${MOD_ID}] Updated descriptions of runes in: ${item.name}`);
 });

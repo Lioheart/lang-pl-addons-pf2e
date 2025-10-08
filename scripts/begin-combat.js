@@ -1,5 +1,6 @@
 Hooks.on("combatStart", async (combat) => {
-  if (!game.settings.get("lang-pl-addons-pf2e", "first-turn")) return;
+  if (!game.settings.settings.has("lang-pl-addons-pf2e.first-turn") ||
+    !game.settings.get("lang-pl-addons-pf2e", "first-turn")) return;
 
   const sortedCombatants = combat.combatants.contents.sort((a, b) => b.initiative - a.initiative);
   const firstCombatant = sortedCombatants[0];

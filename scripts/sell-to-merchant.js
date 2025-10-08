@@ -1,5 +1,6 @@
 Hooks.once("ready", () => {
-    if (!game.settings.get("lang-pl-addons-pf2e", "enableSellToMerchant")) return;
+    if (!game.settings.settings.has("lang-pl-addons-pf2e.enableSellToMerchant") ||
+    !game.settings.get("lang-pl-addons-pf2e", "enableSellToMerchant")) return;
 
     const LootSheet = CONFIG.Actor.sheetClasses.loot?.["pf2e.LootSheetPF2e"]?.cls;
     if (!LootSheet) return;

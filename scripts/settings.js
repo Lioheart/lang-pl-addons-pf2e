@@ -38,15 +38,20 @@ export function registerClockPositionSettings() {
 
 
 export function registerSettings() {
-    game.settings.register(MODULE_ID, "enableRuneDescriptions", {
-        name: game.i18n.localize(`${MODULE_ID}.settings.enableRuneDescriptions.name`),
-        hint: game.i18n.localize(`${MODULE_ID}.settings.enableRuneDescriptions.hint`),
-        scope: "world",
-        config: true,
-        default: true,
-        type: Boolean,
-        restricted: true,
-    });
+    const sundryActive = game.modules.get("sundry")?.active;
+    const pf2etoolbeltActive = game.modules.get("pf2e-toolbelt")?.active;
+
+    if (!sundryActive) {
+        game.settings.register(MODULE_ID, "enableRuneDescriptions", {
+            name: game.i18n.localize(`${MODULE_ID}.settings.enableRuneDescriptions.name`),
+            hint: game.i18n.localize(`${MODULE_ID}.settings.enableRuneDescriptions.hint`),
+            scope: "world",
+            config: true,
+            default: false,
+            type: Boolean,
+            restricted: true,
+        });
+    }
 
     game.settings.register(MODULE_ID, "enableAddonTranslations", {
         name: game.i18n.localize(`${MODULE_ID}.settings.enableAddonTranslations.name`),
@@ -59,15 +64,17 @@ export function registerSettings() {
         requiresReload: true
     });
 
-    game.settings.register(MODULE_ID, "first-turn", {
-        name: game.i18n.localize(`${MODULE_ID}.settings.firstTurn.name`),
-        hint: game.i18n.localize(`${MODULE_ID}.settings.firstTurn.hint`),
-        scope: "world",
-        config: true,
-        type: Boolean,
-        default: true,
-        restricted: true
-    });
+    if (!sundryActive) {
+        game.settings.register(MODULE_ID, "first-turn", {
+            name: game.i18n.localize(`${MODULE_ID}.settings.firstTurn.name`),
+            hint: game.i18n.localize(`${MODULE_ID}.settings.firstTurn.hint`),
+            scope: "world",
+            config: true,
+            type: Boolean,
+            default: true,
+            restricted: true
+        });
+    }
 
     game.settings.register(MODULE_ID, "showSettingScopeIcons", {
         name: game.i18n.localize(`${MODULE_ID}.settings.showSettingScopeIcons.name`),
@@ -135,25 +142,29 @@ export function registerSettings() {
         restricted: true
     });
 
-    game.settings.register(MODULE_ID, "enableSellToMerchant", {
-        name: game.i18n.localize(`${MODULE_ID}.settings.enableSellToMerchant.name`),
-        hint: game.i18n.localize(`${MODULE_ID}.settings.enableSellToMerchant.hint`),
-        scope: "world",
-        config: true,
-        type: Boolean,
-        requiresReload: true,
-        default: false
-    });
+    if (!pf2etoolbeltActive) {
+        game.settings.register(MODULE_ID, "enableSellToMerchant", {
+            name: game.i18n.localize(`${MODULE_ID}.settings.enableSellToMerchant.name`),
+            hint: game.i18n.localize(`${MODULE_ID}.settings.enableSellToMerchant.hint`),
+            scope: "world",
+            config: true,
+            type: Boolean,
+            requiresReload: true,
+            default: false
+        });
+    }
 
-    game.settings.register(MODULE_ID, "enableUsedReactionEffect", {
-        name: game.i18n.localize(`${MODULE_ID}.settings.enableUsedReactionEffect.name`),
-        hint: game.i18n.localize(`${MODULE_ID}.settings.enableUsedReactionEffect.hint`),
-        scope: "world",
-        config: true,
-        type: Boolean,
-        default: true,
-        restricted: true
-    });
+    if (!sundryActive) {
+        game.settings.register(MODULE_ID, "enableUsedReactionEffect", {
+            name: game.i18n.localize(`${MODULE_ID}.settings.enableUsedReactionEffect.name`),
+            hint: game.i18n.localize(`${MODULE_ID}.settings.enableUsedReactionEffect.hint`),
+            scope: "world",
+            config: true,
+            type: Boolean,
+            default: true,
+            restricted: true
+        });
+    }
 
     game.settings.register(MODULE_ID, "enableRoundMarkers", {
         name: game.i18n.localize(`${MODULE_ID}.settings.enableRoundMarkers.name`),
