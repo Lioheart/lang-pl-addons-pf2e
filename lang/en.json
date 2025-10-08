@@ -8,7 +8,7 @@
     "settings": {
       "enableRuneDescriptions": {
         "name": "Enable Rune Descriptions",
-        "hint": "Toggles automatic adding of rune descriptions to items."
+        "hint": "Toggles automatic adding of rune descriptions to items.\nIf you are using the module 'Sundry: Small Tidbits for (Mostly) PF2e', this option will not appear."
       },
       "enableAddonTranslations": {
         "name": "Enable modules translations",
@@ -16,7 +16,7 @@
       },
       "firstTurn": {
         "name": "Add 'Before Turn' effect",
-        "hint": "At the start of combat, adds an effect to all but the first combatant, preventing Reactions until their turn."
+        "hint": "At the start of combat, adds an effect to all but the first combatant, preventing Reactions until their turn.\nIf you are using the module 'Sundry: Small Tidbits for (Mostly) PF2e', this option will not appear."
       },
       "showSettingScopeIcons": {
         "name": "Show setting‑scope icons",
@@ -48,11 +48,11 @@
       },
       "enableSellToMerchant": {
         "name": "Enable selling to merchants",
-        "hint": "If disabled, the module will not intercept or handle selling items to Merchant loot actors."
+        "hint": "If disabled, the module will not intercept or handle selling items to Merchant loot actors (Only GM).\nIf you are using the module 'PF2e Toolbelt', this option will not appear."
       },
       "enableUsedReactionEffect": {
         "name": "Add 'Reaction Used' effect",
-        "hint": "After every used reaction automatically adds the 'Reaction Used' effect to the character, which ends at the start of their next turn."
+        "hint": "After every used reaction automatically adds the 'Reaction Used' effect to the character, which ends at the start of their next turn.\nIf you are using the module 'Sundry: Small Tidbits for (Mostly) PF2e', this option will not appear."
       },
       "enableRoundMarkers": {
         "name": "Add round markers in chat",
@@ -65,6 +65,10 @@
       "enableReadyEffect": {
         "name": "Add 'Ready Action' effect",
         "hint": "After using the 'Ready' action, automatically adds a 'Ready Action' effect to the character that expires at the start of their next turn."
+      },
+      "enableCustomTurnMarker": {
+        "name": "Custom Turn Marker",
+        "hint": "Replaces the default token turn marker with a luminous magic circle icon."
       }
     },
     "effects": {

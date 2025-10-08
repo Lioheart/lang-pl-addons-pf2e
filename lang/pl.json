@@ -8,7 +8,7 @@
     "settings": {
       "enableRuneDescriptions": {
         "name": "Włącz opisy run",
-        "hint": "Włącza lub wyłącza automatyczne dodawanie opisów run do przedmiotów."
+        "hint": "Włącza lub wyłącza automatyczne dodawanie opisów run do przedmiotów.\nW przypadku używania modułu 'Sundry: Small Tidbits for (Mostly) PF2e', ta opcja się nie pojawi."
       },
       "enableAddonTranslations": {
         "name": "Włącz tłumaczenia modułów",
@@ -16,7 +16,7 @@
       },
       "firstTurn": {
         "name": "Dodaj efekt 'Przed turą'",
-        "hint": "Na początku walki dodaje wszystkim poza pierwszym przeciwnikiem efekt uniemożliwiający reakcje do momentu ich tury."
+        "hint": "Na początku walki dodaje wszystkim poza pierwszym przeciwnikiem efekt uniemożliwiający reakcje do momentu ich tury.\nW przypadku używania modułu 'Sundry: Small Tidbits for (Mostly) PF2e', ta opcja się nie pojawi."
       },
       "showSettingScopeIcons": {
         "name": "Pokaż ikony zasięgu ustawień",
@@ -48,7 +48,7 @@
       },
       "enableSellToMerchant": {
         "name": "Włącz sprzedaż do kupców",
-        "hint": "Jeśli wyłączone, moduł nie będzie przechwytywać i obsługiwać sprzedaży przedmiotów do Kupców."
+        "hint": "Jeśli wyłączone, moduł nie będzie przechwytywać i obsługiwać sprzedaży przedmiotów do Kupców (tylko MG).\nW przypadku używania modułu 'PF2e Toolbelt', ta opcja się nie pojawi."
       },
       "enableUsedReactionEffect": {
         "name": "Dodaj efekt 'Wykorzystano reakcję'",
@@ -64,7 +64,11 @@
       },
       "enableReadyEffect": {
         "name": "Dodaj efekt „Przygotowano akcję”",
-        "hint": "Po użyciu akcji „Przygotowanie” automatycznie dodaje efekt „Przygotowano akcję” do postaci, który wygasa na początku jej następnej tury."
+        "hint": "Po użyciu akcji „Przygotowanie” automatycznie dodaje efekt „Przygotowano akcję” do postaci, który wygasa na początku jej następnej tury.\nW przypadku używania modułu 'Sundry: Small Tidbits for (Mostly) PF2e', ta opcja się nie pojawi."
+      },
+      "enableCustomTurnMarker": {
+        "name": "Własny znacznik tury",
+        "hint": "Zastępuje domyślny znacznik tury tokenów świecącym magicznym kręgiem."
       }
     },
     "effects": {
