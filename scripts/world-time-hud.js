@@ -100,9 +100,10 @@ async function renderWorldTimeHUD() {
   const isGM = game.user.isGM;
   console.log("renderWorldTimeHUD: isGM =", isGM);
 
-  const html = await renderTemplate("modules/lang-pl-addons-pf2e/templates/world-time-display.hbs", {
-    isGM,
-  });
+  const html = await foundry.applications.handlebars.renderTemplate(
+    "modules/lang-pl-addons-pf2e/templates/world-time-display.hbs",
+    { isGM }
+  );
 
   document.body.insertAdjacentHTML("beforeend", html);
   updateWorldTimeDisplay();
