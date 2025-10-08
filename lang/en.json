@@ -61,6 +61,10 @@
       "enableExplorationEffects": {
         "name": "Enable Exploration Effects",
         "hint": "If enabled, activating exploration actions will create effects on the actor. They will be removed when combat starts."
+      },
+      "enableReadyEffect": {
+        "name": "Add 'Ready Action' effect",
+        "hint": "After using the 'Ready' action, automatically adds a 'Ready Action' effect to the character that expires at the start of their next turn."
       }
     },
     "effects": {
@@ -75,6 +79,10 @@
       "usedReaction": {
         "name": "Reaction Used",
         "description": "<p>This character has used their reaction. The effect ends at the start of their next turn.</p>"
+      },
+      "readyEffect": {
+        "name": "Ready Action",
+        "description": "<p>This character has readied an action and will act when their trigger occurs. The effect ends at the start of their next turn.</p>"
       }
     },
     "scope": {

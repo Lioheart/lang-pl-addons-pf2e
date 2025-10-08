@@ -61,6 +61,10 @@
       "enableExplorationEffects": {
         "name": "Włącz efekty eksploracji",
         "hint": "Jeżeli włączone, aktywacja akcji eksploracji utworzy efekt na postaci. Efekty zostaną usunięte przy rozpoczęciu walki."
+      },
+      "enableReadyEffect": {
+        "name": "Dodaj efekt „Przygotowano akcję”",
+        "hint": "Po użyciu akcji „Przygotowanie” automatycznie dodaje efekt „Przygotowano akcję” do postaci, który wygasa na początku jej następnej tury."
       }
     },
     "effects": {
@@ -75,6 +79,10 @@
       "usedReaction": {
         "name": "Wykorzystano reakcję",
         "description": "<p>Ta postać wykorzystała swoją reakcję. Efekt znika na początku jej następnej tury.</p>"
+      },
+      "readyEffect": {
+        "name": "Przygotowano akcję",
+        "description": "<p>Ta postać przygotowała akcję, którą wykona, gdy zostanie spełniony wyzwalacz. Efekt wygasa na początku jej następnej tury.</p>"
       }
     },
     "scope": {

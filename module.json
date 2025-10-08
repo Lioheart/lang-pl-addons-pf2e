@@ -27,13 +27,14 @@
     "scripts/sell-to-merchant.js",
     "scripts/used-reaction.js",
     "scripts/round-marker.js",
-    "scripts/exploration-effects.js"
+    "scripts/exploration-effects.js",
+    "scripts/used-ready.js"
   ],
   "templates": [
     "templates/world-time-display.hbs"
   ],
   "styles": [
-    "styles/world-time.css",    
+    "styles/world-time.css",
     "styles/round-marker.css"
   ],
   "languages": [

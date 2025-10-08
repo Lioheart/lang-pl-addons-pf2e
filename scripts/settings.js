@@ -175,4 +175,14 @@ export function registerSettings() {
         restricted: true
     });
 
+    game.settings.register(MODULE_ID, "enableReadyEffect", {
+        name: game.i18n.localize(`${MODULE_ID}.settings.enableReadyEffect.name`),
+        hint: game.i18n.localize(`${MODULE_ID}.settings.enableReadyEffect.hint`),
+        scope: "world",
+        config: true,
+        type: Boolean,
+        default: true,
+        restricted: true
+    });
+
 }
