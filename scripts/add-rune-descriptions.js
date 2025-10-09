@@ -165,7 +165,7 @@ const UUID_RUNES = {
 Hooks.once("init", registerSettings);
 
 Hooks.on("renderItemSheetPF2e", async (sheet) => {
-  if (game.settings.settings.has("lang-pl-addons-pf2e.enableRuneDescriptions") ||
+  if (!game.settings.settings.has("lang-pl-addons-pf2e.enableRuneDescriptions") ||
     !game.settings.get("lang-pl-addons-pf2e", "enableRuneDescriptions")) return;
 
   const item = sheet.document;
