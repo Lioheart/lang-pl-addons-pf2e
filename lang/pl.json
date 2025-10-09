@@ -96,6 +96,7 @@
     },
     "buttons": {
       "nonlethal": "Nieśmiercionośne",
+      "reset": "Zresetuj",
       "time": {
         "minutes": "min",
         "hours": "godz.",

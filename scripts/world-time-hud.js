@@ -133,8 +133,17 @@ async function renderWorldTimeHUD() {
     div.style.transform = "translateX(-50%)";
   }
 
-  makeDraggable(div);
+  document.querySelector(".time-reset-btn")?.addEventListener("click", () => {
+    const defaultPosition = { top: 5, left: "50%" };
+    game.settings.set(MODULE_ID, "clockPosition", defaultPosition);
 
+    const div = document.getElementById("pf2e-world-time-display");
+    div.style.top = `${defaultPosition.top}px`;
+    div.style.left = defaultPosition.left === "50%" ? "50%" : `${defaultPosition.left}px`;
+    div.style.transform = defaultPosition.left === "50%" ? "translateX(-50%)" : "";
+  });
+
+  makeDraggable(div);
 }
 
 function makeDraggable(element) {

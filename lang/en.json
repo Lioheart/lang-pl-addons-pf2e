@@ -96,6 +96,7 @@
     },
     "buttons": {
       "nonlethal": "Nonlethal",
+      "reset": "Reset",
       "time": {
         "minutes": "min",
         "hours": "hour",
