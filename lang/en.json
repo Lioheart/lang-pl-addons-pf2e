@@ -69,6 +69,13 @@
       "enableCustomTurnMarker": {
         "name": "Custom Turn Marker",
         "hint": "Replaces the default token turn marker with a luminous magic circle icon."
+      },
+      "journalFont": {
+        "name": "Font",
+        "hint": "Choose the font used in the system.",
+        "choices": {
+          "default": "Default"
+        }
       }
     },
     "effects": {

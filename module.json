@@ -29,14 +29,16 @@
     "scripts/round-marker.js",
     "scripts/exploration-effects.js",
     "scripts/used-ready.js",
-    "scripts/custom-turn-marker.js"
+    "scripts/custom-turn-marker.js",
+    "scripts/journal-font.js"
   ],
   "templates": [
     "templates/world-time-display.hbs"
   ],
   "styles": [
     "styles/world-time.css",
-    "styles/round-marker.css"
+    "styles/round-marker.css",
+    "styles/style.css"
   ],
   "languages": [
     {

@@ -1,5 +1,6 @@
 import { toggleJournalStyle } from "./toggle-journal-style.js";
 import { updateWorldTimeDisplay } from "./world-time-hud.js";
+import { applyJournalFont } from "./journal-font.js";
 
 export const MODULE_ID = "lang-pl-addons-pf2e";
 export const DEFAULT_RATE = 1;
@@ -206,4 +207,19 @@ export function registerSettings() {
         requiresReload: true,
     });
 
+    game.settings.register(MODULE_ID, "journalFont", {
+        name: game.i18n.localize(`${MODULE_ID}.settings.journalFont.name`),
+        hint: game.i18n.localize(`${MODULE_ID}.settings.journalFont.hint`),
+        scope: "client",
+        config: true,
+        type: String,
+        choices: {
+            "default": game.i18n.localize(`${MODULE_ID}.settings.journalFont.choices.default`),
+            "im-fell-english-pro": "IM Fell English Pro",
+            "immortal": "Immortal",
+            "kirsty": "Kirsty"
+        },
+        default: "default",
+        onChange: (value) => applyJournalFont(value)
+    });
 }

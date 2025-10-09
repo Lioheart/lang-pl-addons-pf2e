@@ -1,31 +1,33 @@
 import { registerSettings } from "./settings.js";
 import { toggleJournalStyle } from "./toggle-journal-style.js";
 import { registerRoundMarker } from "./round-marker.js";
+import { initializeJournalFont, addJournalFontResetButton } from "./journal-font.js";
 
-Hooks.once("ready", () => {
-  registerRoundMarker();
+Hooks.once("init", () => {
+    registerSettings();
+    initializeJournalFont();      // odczyt ustawionej czcionki
+    addJournalFontResetButton();  // dodanie przycisku resetu
 });
 
 Hooks.once("ready", () => {
+    registerRoundMarker();
+
     const isEnabled = game.settings.get("lang-pl-addons-pf2e", "enableJournalStyle");
     toggleJournalStyle(isEnabled);
 });
 
+// Babele
 Hooks.once("init", () => {
-  registerSettings();
-});
+    const modId = "lang-pl-addons-pf2e";
+    const lang = "pl";
+    const useAddonTranslations = game.settings.get(modId, "enableAddonTranslations");
 
-Hooks.once("init", () => {
-  const modId = "lang-pl-addons-pf2e";
-  const lang = "pl";
-  const useAddonTranslations = game.settings.get(modId, "enableAddonTranslations");
-
-  if (useAddonTranslations && game.babele) {
-    game.babele.register({
-      module: modId,
-      lang,
-      dir: "translation_addons/pl/compendium"
-    });
-    console.log(`[${modId}] Tłumaczenia dodatków Babele zarejestrowane`);
-  }
+    if (useAddonTranslations && game.babele) {
+        game.babele.register({
+            module: modId,
+            lang,
+            dir: "translation_addons/pl/compendium"
+        });
+        console.log(`[${modId}] Tłumaczenia dodatków Babele zarejestrowane`);
+    }
 });

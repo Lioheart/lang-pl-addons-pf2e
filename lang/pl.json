@@ -69,6 +69,13 @@
       "enableCustomTurnMarker": {
         "name": "Własny znacznik tury",
         "hint": "Zastępuje domyślny znacznik tury tokenów świecącym magicznym kręgiem."
+      },
+      "journalFont": {
+        "name": "Czcionka",
+        "hint": "Wybierz czcionkę używaną w systemie.",
+        "choices": {
+          "default": "Domyślna"
+        }
       }
     },
     "effects": {
