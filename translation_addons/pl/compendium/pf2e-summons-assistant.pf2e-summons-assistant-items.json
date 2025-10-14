@@ -1,9 +1,5 @@
 {
     "label": "Pf2E Summons Assistant - Przedmioty",
-    "folders": {
-        "Effects": "Efekty",
-        "Incarnate": "Inkarnacja"
-    },
     "entries": {
         "Effect: Advantageous Roots": {
             "name": "Efekt: Korzystne Korzenie",
@@ -24,6 +20,14 @@
         "Effect: Defy Law": {
             "name": "Efekt: Sprzeciwianie się Prawu",
             "description": "<p>Ty i każdy sojusznik znajdujący się w promieniu 100 stóp od zwiastuna zyskujecie odporność 20 na obrażenia od ducha, gdy zwiastun jest obecny.</p>"
+        },
+        "Effect: In Plant Banner Range": {
+            "name": "Efekt: Zasięg Roślinnego Sztandaru",
+            "description": "<p>Przyznany przez @UUID[Compendium.pf2e-summons-assistant.pf2e-summons-assistant-actors.Actor.D8gtAM19NQKqbBfW.Item.vidOKIYqEJb5aXE5]</p><p></p><p>Ten przedmiot jest używany przez PF2e Summons do oznaczania stworzeń jako zasięg <strong>Roślinnego Sztandaru</strong> w celu zastosowania do nich efektów za pomocą automatyzacji modułów. Efekt ten sam w sobie nie powoduje żadnych zmian.</p><p></p>"
+        },
+        "Effect: Plant Banner": {
+            "name": "Efekt: Roślinny Sztandar",
+            "description": "<p>Przyznany przezy @UUID[Compendium.pf2e.feats-srd.Item.xEeCaJsQeDtRAVk1]</p>\n<p>Zyskujesz 4 tymczasowe Punkty Wytrzymałości oraz dodatkowe 4 tymczasowe Punkty Wytrzymałości, jeśli źródło pochodzi z 4. poziomu i co 4 kolejne poziomy.</p>"
         }
     }
 }

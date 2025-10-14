@@ -1,247 +1,417 @@
 {
     "label": "Pf2E Summons Assistant - Aktorzy",
-    "folders": {
-        "Elemental Herald": "Żywiołowy Zwiastun",
-        "Deific Herald": "Zwiastun Bóstwa",
-        "Incarnate": "Inkarnacja",
-        "Ancient Fleshforged": "Starożytny z Kuźni Ciał",
-        "Kaiju": "Kaiju",
-        "Light": "Światło",
-        "Pf2e Summons Assistant": "Pf2e Summons Assistant",
-        "Telekinetic Hand": "Telekinetyczna Dłoń",
-        "Special": "Specjalne"
-    },
     "entries": {
-        "(Arrive)": {
-            "name": "(Przybycie)"
-        },
-        "(Depart)": {
-            "name": "(Odejście)"
-        },
-        "Advantageous Roots (Arrive)": {
-            "name": "Korzystne Korzenie (Przybycie)"
-        },
         "Agmazar the Star Titan": {
             "name": "Agmazar, Gwiezdny Tytan",
-            "publicNotes": "<p>Na krótko wyczarowujesz kaiju, masywnego, szalejącego potwora o wyjątkowej nazwie i legendarnej reputacji. Powstaje on ze swojego zacisznego legowiska, aby unicestwić twoich wrogów. Przywołane kaiju zajmuje przestrzeń Ogromnego stworzenia.</p>"
+            "publicNotes": "<p>Na krótko wyczarowujesz kaiju, masywnego, szalejącego potwora o wyjątkowej nazwie i legendarnej reputacji. Powstaje on ze swojego zacisznego legowiska, aby unicestwić twoich wrogów. Przywołane kaiju zajmuje przestrzeń Ogromnego stworzenia.</p>",
+            "items": {
+                "action->(Arrive)": {
+                    "name": "(Przybycie)"
+                },
+                "action->(Depart)": {
+                    "name": "(Odejście)"
+                }
+            }
         },
         "Agyra, the Forever Storm": {
             "name": "Agyra, Wieczna Burza",
-            "publicNotes": "<p>Na krótko wyczarowujesz kaiju, masywnego, szalejącego potwora o wyjątkowej nazwie i legendarnej reputacji. Powstaje on ze swojego zacisznego legowiska, aby unicestwić twoich wrogów. Przywołane kaiju zajmuje przestrzeń Ogromnego stworzenia.</p>"
-        },
-        "Aura of Redemption (Arrive)": {
-            "name": "Aura Odkupienia (Przybycie)"
-        },
-        "Aura of Retribution (Arrive)": {
-            "name": "Aura Zemsty (Przybycie)"
+            "publicNotes": "<p>Na krótko wyczarowujesz kaiju, masywnego, szalejącego potwora o wyjątkowej nazwie i legendarnej reputacji. Powstaje on ze swojego zacisznego legowiska, aby unicestwić twoich wrogów. Przywołane kaiju zajmuje przestrzeń Ogromnego stworzenia.</p>",
+            "items": {
+                "action->(Arrive)": {
+                    "name": "(Przybycie)"
+                },
+                "action->(Depart)": {
+                    "name": "(Odejście)"
+                }
+            }
         },
         "Bezravnis, the Inferno Below": {
             "name": "Bezravnis, Piekło Poniżej",
-            "publicNotes": "<p>Na krótko wyczarowujesz kaiju, masywnego, szalejącego potwora o wyjątkowej nazwie i legendarnej reputacji. Powstaje on ze swojego zacisznego legowiska, aby unicestwić twoich wrogów. Przywołane kaiju zajmuje przestrzeń Ogromnego stworzenia.</p>"
+            "publicNotes": "<p>Na krótko wyczarowujesz kaiju, masywnego, szalejącego potwora o wyjątkowej nazwie i legendarnej reputacji. Powstaje on ze swojego zacisznego legowiska, aby unicestwić twoich wrogów. Przywołane kaiju zajmuje przestrzeń Ogromnego stworzenia.</p>",
+            "items": {
+                "action->(Arrive)": {
+                    "name": "(Przybycie)"
+                },
+                "action->(Depart)": {
+                    "name": "(Odejście)"
+                }
+            }
         },
         "Bone Breaker": {
             "name": "Łamacz Kości"
         },
-        "Cataclysmic Deluge (Depart)": {
-            "name": "Potop Kataklizmów (Odejście)"
-        },
-        "Commander's Banner": {
-            "name": "Sztandar Dowódcy"
-        },
         "Deific Herald (Chaotic Evil)": {
             "name": "Zwiastun Bóstwa (Chaotyczny Zły)",
-            "publicNotes": "<p>Twoja wiara jest wystarczająco silna, aby na krótko przywołać bezpośredniego przedstawiciela twojego bóstwa, takiego jak zwiastun bóstwa. Zwiastun zajmuje przestrzeń Wielkiego stworzenia i ma szybkość 60 stóp. Efekty tego zaklęcia zależą od ustawienia twojego bóstwa.</p>"
-        },
-        "Deific Herald (Chaotic Good)": {
-            "name": "Zwiastun Bóstwa (Chaotyczny Dobry)",
-            "publicNotes": "<p>Twoja wiara jest wystarczająco silna, aby na krótko przywołać bezpośredniego przedstawiciela twojego bóstwa, takiego jak zwiastun bóstwa. Zwiastun zajmuje przestrzeń Wielkiego stworzenia i ma szybkość 60 stóp. Efekty tego zaklęcia zależą od ustawienia twojego bóstwa.</p>"
-        },
-        "Deific Herald (Chaotic Neutral)": {
-            "name": "Zwiastun Bóstwa (Chaotyczny Neutralny)",
-            "publicNotes": "<p>Twoja wiara jest wystarczająco silna, aby na krótko przywołać bezpośredniego przedstawiciela twojego bóstwa, takiego jak zwiastun bóstwa. Zwiastun zajmuje przestrzeń Wielkiego stworzenia i ma szybkość 60 stóp. Efekty tego zaklęcia zależą od ustawienia twojego bóstwa.</p>"
-        },
-        "Deific Herald (Lawful Evil)": {
-            "name": "Zwiastun Bóstwa (Praworządny Zły)",
-            "publicNotes": "<p>Twoja wiara jest wystarczająco silna, aby na krótko przywołać bezpośredniego przedstawiciela twojego bóstwa, takiego jak zwiastun bóstwa. Zwiastun zajmuje przestrzeń Wielkiego stworzenia i ma szybkość 60 stóp. Efekty tego zaklęcia zależą od ustawienia twojego bóstwa.</p>"
-        },
-        "Deific Herald (Lawful Good)": {
-            "name": "Zwiastun Bóstwa (Praworządny Dobry)",
-            "publicNotes": "<p>Twoja wiara jest wystarczająco silna, aby na krótko przywołać bezpośredniego przedstawiciela twojego bóstwa, takiego jak zwiastun bóstwa. Zwiastun zajmuje przestrzeń Wielkiego stworzenia i ma szybkość 60 stóp. Efekty tego zaklęcia zależą od ustawienia twojego bóstwa.</p>"
-        },
-        "Deific Herald (Lawful Neutral)": {
-            "name": "Zwiastun Bóstwa (Praworządny Neutralny)",
-            "publicNotes": "<p>Twoja wiara jest wystarczająco silna, aby na krótko przywołać bezpośredniego przedstawiciela twojego bóstwa, takiego jak zwiastun bóstwa. Zwiastun zajmuje przestrzeń Wielkiego stworzenia i ma szybkość 60 stóp. Efekty tego zaklęcia zależą od ustawienia twojego bóstwa.</p>"
-        },
-        "Deific Herald (Neutral Evil)": {
-            "name": "Zwiastun Bóstwa (Neutralny Zły)",
-            "publicNotes": "<p>Twoja wiara jest wystarczająco silna, aby na krótko przywołać bezpośredniego przedstawiciela twojego bóstwa, takiego jak zwiastun bóstwa. Zwiastun zajmuje przestrzeń Wielkiego stworzenia i ma szybkość 60 stóp. Efekty tego zaklęcia zależą od ustawienia twojego bóstwa.</p>"
-        },
-        "Deific Herald (Neutral Good)": {
-            "name": "Zwiastun Bóstwa (Neutralny Dobry)",
-            "publicNotes": "<p>Twoja wiara jest wystarczająco silna, aby na krótko przywołać bezpośredniego przedstawiciela twojego bóstwa, takiego jak zwiastun bóstwa. Zwiastun zajmuje przestrzeń Wielkiego stworzenia i ma szybkość 60 stóp. Efekty tego zaklęcia zależą od ustawienia twojego bóstwa.</p>"
-        },
-        "Deific Herald (Neutral)": {
-            "name": "Zwiastun Bóstwa (Prawdziwie Neutralny)",
-            "publicNotes": "<p>Twoja wiara jest wystarczająco silna, aby na krótko przywołać bezpośredniego przedstawiciela twojego bóstwa, takiego jak zwiastun bóstwa. Zwiastun zajmuje przestrzeń Wielkiego stworzenia i ma szybkość 60 stóp. Efekty tego zaklęcia zależą od ustawienia twojego bóstwa.</p>"
-        },
-        "Detonate Mine": {
-            "name": "Detonacja Miny",
-            "rules": {
-                "0": {
-                    "label": "Modyfikacja obrażeń"
+            "publicNotes": "<p>Twoja wiara jest wystarczająco silna, aby na krótko przywołać bezpośredniego przedstawiciela twojego bóstwa, takiego jak zwiastun bóstwa. Zwiastun zajmuje przestrzeń Wielkiego stworzenia i ma szybkość 60 stóp. Efekty tego zaklęcia zależą od ustawienia twojego bóstwa.</p>",
+            "items": {
+                "action->(Arrive)": {
+                    "name": "(Przybycie)"
                 },
-                "3": {
-                    "label": "Krytyczna Eksplozja"
+                "action->(Depart)": {
+                    "name": "(Odejście)"
                 }
             }
         },
-        "Dire Foresight (Depart)": {
-            "name": "Mroczna Dalekowzroczność (Odejście)"
+        "Deific Herald (Chaotic Good)": {
+            "name": "Zwiastun Bóstwa (Chaotyczny Dobry)",
+            "publicNotes": "<p>Twoja wiara jest wystarczająco silna, aby na krótko przywołać bezpośredniego przedstawiciela twojego bóstwa, takiego jak zwiastun bóstwa. Zwiastun zajmuje przestrzeń Wielkiego stworzenia i ma szybkość 60 stóp. Efekty tego zaklęcia zależą od ustawienia twojego bóstwa.</p>",
+            "items": {
+                "action->(Arrive)": {
+                    "name": "(Przybycie)"
+                },
+                "action->(Depart)": {
+                    "name": "(Odejście)"
+                }
+            }
+        },
+        "Deific Herald (Chaotic Neutral)": {
+            "name": "Zwiastun Bóstwa (Chaotyczny Neutralny)",
+            "publicNotes": "<p>Twoja wiara jest wystarczająco silna, aby na krótko przywołać bezpośredniego przedstawiciela twojego bóstwa, takiego jak zwiastun bóstwa. Zwiastun zajmuje przestrzeń Wielkiego stworzenia i ma szybkość 60 stóp. Efekty tego zaklęcia zależą od ustawienia twojego bóstwa.</p>",
+            "items": {
+                "action->(Arrive)": {
+                    "name": "(Przybycie)"
+                },
+                "action->(Depart)": {
+                    "name": "(Odejście)"
+                }
+            }
+        },
+        "Deific Herald (Lawful Evil)": {
+            "name": "Zwiastun Bóstwa (Praworządny Zły)",
+            "publicNotes": "<p>Twoja wiara jest wystarczająco silna, aby na krótko przywołać bezpośredniego przedstawiciela twojego bóstwa, takiego jak zwiastun bóstwa. Zwiastun zajmuje przestrzeń Wielkiego stworzenia i ma szybkość 60 stóp. Efekty tego zaklęcia zależą od ustawienia twojego bóstwa.</p>",
+            "items": {
+                "action->(Arrive)": {
+                    "name": "(Przybycie)"
+                },
+                "action->(Depart)": {
+                    "name": "(Odejście)"
+                }
+            }
+        },
+        "Deific Herald (Lawful Good)": {
+            "name": "Zwiastun Bóstwa (Praworządny Dobry)",
+            "publicNotes": "<p>Twoja wiara jest wystarczająco silna, aby na krótko przywołać bezpośredniego przedstawiciela twojego bóstwa, takiego jak zwiastun bóstwa. Zwiastun zajmuje przestrzeń Wielkiego stworzenia i ma szybkość 60 stóp. Efekty tego zaklęcia zależą od ustawienia twojego bóstwa.</p>",
+            "items": {
+                "action->Aura of Retribution (Arrive)": {
+                    "name": "Aura Zemsty (Przybycie)",
+                    "description": "<p><strong>Przybycie</strong> (uroki, dobro, praworządność) <em>Aura Zemsty</em> W promieniu 100 stóp od herolda ty i twoi sojusznicy zyskujecie reakcję czempiona @UUID[Compendium.pf2e.actionspf2e.Item.EAP98XaChJEbgKcK]</p>"
+                },
+                "action->Holy Smite (Depart)": {
+                    "name": "Święte Uderzenie (Odejście)",
+                    "description": "<p><strong>Odejście</strong> <em>Święte Uderzenie</em> Herold rzuca zaklęcie 5. rangi @UUID[Compendium.pf2e.spells-srd.Item.hVU9msO9yGkxKZ3J] w @Template[type:emanation|distance:100].</p><hr /><p>Kierujesz gniew boskości przeciwko swoim wrogom. Zadajesz @Damage[5d10[holy,spirit]] obrażeń wrogom w obszarze, w zależności od ich @Check[fortitude|basic:true|dc:resolve(@actor.system.resources.dc.value)|name:Odejście Boskiego Herolda Praworządnie Dobry|traits:holy,spirit] rzutu obronnego.</p><hr /><p><strong>Krytyczny Sukces</strong> Nie ma to wpływu na stworzenie.</p><p><strong>Sukces</strong> Stworzenie otrzymuje połowę obrażeń.</p><p><strong>Porażka</strong> Stworzenie otrzymuje pełne obrażenia oraz @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Mdłości 1}.</p><p><strong>Krytyczna Porażka</strong> Stworzenie otrzymuje pełne obrażenia oraz @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Mdłości 2}; kiedy ma mdłości, jest również @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Spowolniony 1}.</p>"
+                }
+            }
+        },
+        "Deific Herald (Lawful Neutral)": {
+            "name": "Zwiastun Bóstwa (Praworządny Neutralny)",
+            "publicNotes": "<p>Twoja wiara jest wystarczająco silna, aby na krótko przywołać bezpośredniego przedstawiciela twojego bóstwa, takiego jak zwiastun bóstwa. Zwiastun zajmuje przestrzeń Wielkiego stworzenia i ma szybkość 60 stóp. Efekty tego zaklęcia zależą od ustawienia twojego bóstwa.</p>",
+            "items": {
+                "action->(Arrive)": {
+                    "name": "(Przybycie)"
+                },
+                "action->(Depart)": {
+                    "name": "(Odejście)"
+                }
+            }
+        },
+        "Deific Herald (Neutral Evil)": {
+            "name": "Zwiastun Bóstwa (Neutralny Zły)",
+            "publicNotes": "<p>Twoja wiara jest wystarczająco silna, aby na krótko przywołać bezpośredniego przedstawiciela twojego bóstwa, takiego jak zwiastun bóstwa. Zwiastun zajmuje przestrzeń Wielkiego stworzenia i ma szybkość 60 stóp. Efekty tego zaklęcia zależą od ustawienia twojego bóstwa.</p>",
+            "items": {
+                "action->(Arrive)": {
+                    "name": "(Przybycie)"
+                },
+                "action->(Depart)": {
+                    "name": "(Odejście)"
+                }
+            }
+        },
+        "Deific Herald (Neutral Good)": {
+            "name": "Zwiastun Bóstwa (Neutralny Dobry)",
+            "publicNotes": "<p>Twoja wiara jest wystarczająco silna, aby na krótko przywołać bezpośredniego przedstawiciela twojego bóstwa, takiego jak zwiastun bóstwa. Zwiastun zajmuje przestrzeń Wielkiego stworzenia i ma szybkość 60 stóp. Efekty tego zaklęcia zależą od ustawienia twojego bóstwa.</p>",
+            "items": {
+                "action->Aura of Redemption (Arrive)": {
+                    "name": "Aura Odkupienia (Przybycie)",
+                    "description": "<p><strong>Przybycie</strong> (uroki, dobro) <em>Aura Odkupienia</em> W promieniu 100 stóp od herolda ty i twoi sojusznicy zyskujecie reakcję czempiona @UUID[Compendium.pf2e.actionspf2e.Item.tuZnRWHixLArvaIf]</p>"
+                },
+                "action->Merciful Healing (Depart)": {
+                    "name": "Miłosierne Uzdrowienie (Odejście)",
+                    "description": "<p><strong>Odejście</strong> <em>Miłosierne Uzdrowienie</em> Herold rzuca 3-akcyjną wersję 5. rangi zaklęcia @UUID[Compendium.pf2e.spells-srd.Item.rfZpqmj0AIIdkVIs] o promieniu @Template[type:emanation|distance:100]. Zaklęcie to działa tylko na ciebie i twoich sojuszników.</p><hr /><p>Kierujesz energię życiową, aby leczyć żywe istoty lub zadawać obrażenia nieumarłym. Jeśli celem jest chętna żywa istota, przywracasz @Damage[5d8[healing,vitality]] Punkt Wytrzymałości. Jeśli celem jest nieumarły, zadajesz mu taką samą ilość obrażeń witalności, a on otrzymuje @Check[fortitude|basic:true|dc:resolve(@actor.system.resources.dc.value)|name:Odejście Boskiego Herolda Neutralny Dobry|traits:holy,spirit,vitality,healing].</p>"
+                }
+            }
+        },
+        "Deific Herald (Neutral)": {
+            "name": "Zwiastun Bóstwa (Prawdziwie Neutralny)",
+            "publicNotes": "<p>Twoja wiara jest wystarczająco silna, aby na krótko przywołać bezpośredniego przedstawiciela twojego bóstwa, takiego jak zwiastun bóstwa. Zwiastun zajmuje przestrzeń Wielkiego stworzenia i ma szybkość 60 stóp. Efekty tego zaklęcia zależą od ustawienia twojego bóstwa.</p>",
+            "items": {
+                "action->(Arrive)": {
+                    "name": "(Przybycie)"
+                },
+                "action->(Depart)": {
+                    "name": "(Odejście)"
+                }
+            }
         },
         "Duplicated Foe": {
             "name": "Zduplikowany Wróg"
         },
         "Ebeshra, the Winged Razor": {
             "name": "Ebeshra, Skrzydlata Brzytwa",
-            "publicNotes": "<p>Na krótko wyczarowujesz kaiju, masywnego, szalejącego potwora o wyjątkowej nazwie i legendarnej reputacji. Powstaje on ze swojego zacisznego legowiska, aby unicestwić twoich wrogów. Przywołane kaiju zajmuje przestrzeń Ogromnego stworzenia.</p>"
+            "publicNotes": "<p>Na krótko wyczarowujesz kaiju, masywnego, szalejącego potwora o wyjątkowej nazwie i legendarnej reputacji. Powstaje on ze swojego zacisznego legowiska, aby unicestwić twoich wrogów. Przywołane kaiju zajmuje przestrzeń Ogromnego stworzenia.</p>",
+            "items": {
+                "action->(Arrive)": {
+                    "name": "(Przybycie)"
+                },
+                "action->(Depart)": {
+                    "name": "(Odejście)"
+                }
+            }
         },
         "Elemental Herald (Air)": {
             "name": "Żywiołowy Zwiastun (Powietrze)",
-            "publicNotes": "<p>Twoja medytacja w różnych planach żywiołów łączy cię z nimi głęboko, a to połączenie pozwala ci przywołać zwiastuna władcy żywiołów. Zwiastun przybywa w postaci klęski żywiołowej skoncentrowanej na twoich wrogach. Zwiastun zajmuje przestrzeń Wielkiego stworzenia. Kiedy rzucasz to zaklęcie, wybierz jednego z poniższych heroldów żywiołów do przywołania; jeśli jesteś boskim czarodziejem, który czci władcę żywiołów, musisz wybrać opcję odpowiadającą żywiołowi twojego bóstwa. To zaklęcie zyskuje cechę (powietrze, ziemia, ogień, metal, woda lub drewno) odpowiadającą wybranemu żywiołowi.</p>"
+            "publicNotes": "<p>Twoja medytacja w różnych planach żywiołów łączy cię z nimi głęboko, a to połączenie pozwala ci przywołać zwiastuna władcy żywiołów. Zwiastun przybywa w postaci klęski żywiołowej skoncentrowanej na twoich wrogach. Zwiastun zajmuje przestrzeń Wielkiego stworzenia. Kiedy rzucasz to zaklęcie, wybierz jednego z poniższych heroldów żywiołów do przywołania; jeśli jesteś boskim czarodziejem, który czci władcę żywiołów, musisz wybrać opcję odpowiadającą żywiołowi twojego bóstwa. To zaklęcie zyskuje cechę (powietrze, ziemia, ogień, metal, woda lub drewno) odpowiadającą wybranemu żywiołowi.</p>",
+            "items": {
+                "action->Supercell Front (Arrive)": {
+                    "name": "Front Wielkiej Burzy (Przybycie)",
+                    "description": "<p><strong>Przybycie</strong>(powietrze) <em>Front Wielkiej Burzy</em> Zwiastun powietrza przybywa w postaci wirującej trąby powietrznej, której wiatry o wysokiej szybkości uderzają w twoich wrogów. Każdy przeciwnik w @Template[emanation|distance:100] otrzymuje @Damage[10d8[bludgeoning]] obrażeń przy @Check[fortitude|basic:true|dc:resolve(@actor.system.resources.dc.value)|name:Przybycie Herolda Żywiołów Powietrza|traits:air].</p>"
+                },
+                "action->Twister Downdraft  (Depart)": {
+                    "name": "Wirujący Podmuch (Odejście)",
+                    "description": "<p><strong>Odejście</strong> (powietrze) <em>Wirujący Podmuch</em> Każdy przeciwnik w @Template[line|distance:60] musi wykonać @Check[fortitude|dc:resolve(@actor.system.resources.dc.value)|name:Odejście Herolda Żywiołów Powietrza|traits:air]. Stworzenie, które nie zda testu, zostaje @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Przewrócone}, jeśli znajduje się na ziemi, lub spada o 40 stóp, jeśli znajduje się w powietrzu. Stworzenie, które spada, otrzymuje obrażenia od upadku, jeśli ten mocny ruch doprowadzi je do ziemi.</p>"
+                }
+            }
         },
         "Elemental Herald (Earth)": {
             "name": "Żywiołowy Zwiastun (Ziemia)",
-            "publicNotes": "<p>Twoja medytacja w różnych planach żywiołów łączy cię z nimi głęboko, a to połączenie pozwala ci przywołać zwiastuna władcy żywiołów. Zwiastun przybywa w postaci klęski żywiołowej skoncentrowanej na twoich wrogach. Zwiastun zajmuje przestrzeń Wielkiego stworzenia. Kiedy rzucasz to zaklęcie, wybierz jednego z poniższych heroldów żywiołów do przywołania; jeśli jesteś boskim czarodziejem, który czci władcę żywiołów, musisz wybrać opcję odpowiadającą żywiołowi twojego bóstwa. To zaklęcie zyskuje cechę (powietrze, ziemia, ogień, metal, woda lub drewno) odpowiadającą wybranemu żywiołowi.</p>"
+            "publicNotes": "<p>Twoja medytacja w różnych planach żywiołów łączy cię z nimi głęboko, a to połączenie pozwala ci przywołać zwiastuna władcy żywiołów. Zwiastun przybywa w postaci klęski żywiołowej skoncentrowanej na twoich wrogach. Zwiastun zajmuje przestrzeń Wielkiego stworzenia. Kiedy rzucasz to zaklęcie, wybierz jednego z poniższych heroldów żywiołów do przywołania; jeśli jesteś boskim czarodziejem, który czci władcę żywiołów, musisz wybrać opcję odpowiadającą żywiołowi twojego bóstwa. To zaklęcie zyskuje cechę (powietrze, ziemia, ogień, metal, woda lub drewno) odpowiadającą wybranemu żywiołowi.</p>",
+            "items": {
+                "action->Tectonic Rise (Arrive)": {
+                    "name": "Wzrost Tektoniczny (Przybycie)",
+                    "description": "<p><strong>Przybycie</strong>(ziemia) <em>Wzrost Tektoniczny</em> Herold ziemi wyrywa się z ziemi, rozrywając ją na @Template[emanation|distance:50]. Każdy wróg w zasięgu emanacji otrzymuje @Damage[10d6[slashing]] obrażeń od latających odłamków przy @Check[reflex|basic:true|dc:resolve(@actor.system.resources.dc.value)|name:Przybycie Herolda Żywiołów Ziemi|traits:earth]. Wrogowie, którzy poniosą krytyczną porażkę, spadają 30 stóp w szczelinę, otrzymując obrażenia od upadku (boki szczeliny wymagają pomyślnego wyniku @Check[athletics|dc:15|traits:action:climb] w teście Wspinaczki).</p>"
+                },
+                "action->Plate Crash (Depart)": {
+                    "name": "Zderzenie Płyt (Odejście)",
+                    "description": "<p><strong>Odejście</strong> (dźwiękowe) <em>Zderzenie Płyt</em> Herold ziemi zapada się z powrotem w głąb ziemi, a boki szczeliny z hukiem zderzają się ze sobą, zadając @Damage[5d10[sonic]] obrażeń z @Check[fortitude|basic:true|dc:resolve(@actor.system.resources.dc.value)] |name:Odejście Herolda Żywiołów Ziemi|traits:sonic] wszystkim wrogom w @Template[emanation|distance:30]. Wróg, który poniesie krytyczną porażkę, zostanie @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{Ogłuszony} na 10 minut.</p>"
+                }
+            }
         },
         "Elemental Herald (Fire)": {
             "name": "Żywiołowy Zwiastun (Ogień)",
-            "publicNotes": "<p>Twoja medytacja w różnych planach żywiołów łączy cię z nimi głęboko, a to połączenie pozwala ci przywołać zwiastuna władcy żywiołów. Zwiastun przybywa w postaci klęski żywiołowej skoncentrowanej na twoich wrogach. Zwiastun zajmuje przestrzeń Wielkiego stworzenia. Kiedy rzucasz to zaklęcie, wybierz jednego z poniższych heroldów żywiołów do przywołania; jeśli jesteś boskim czarodziejem, który czci władcę żywiołów, musisz wybrać opcję odpowiadającą żywiołowi twojego bóstwa. To zaklęcie zyskuje cechę (powietrze, ziemia, ogień, metal, woda lub drewno) odpowiadającą wybranemu żywiołowi.</p>"
+            "publicNotes": "<p>Twoja medytacja w różnych planach żywiołów łączy cię z nimi głęboko, a to połączenie pozwala ci przywołać zwiastuna władcy żywiołów. Zwiastun przybywa w postaci klęski żywiołowej skoncentrowanej na twoich wrogach. Zwiastun zajmuje przestrzeń Wielkiego stworzenia. Kiedy rzucasz to zaklęcie, wybierz jednego z poniższych heroldów żywiołów do przywołania; jeśli jesteś boskim czarodziejem, który czci władcę żywiołów, musisz wybrać opcję odpowiadającą żywiołowi twojego bóstwa. To zaklęcie zyskuje cechę (powietrze, ziemia, ogień, metal, woda lub drewno) odpowiadającą wybranemu żywiołowi.</p>",
+            "items": {
+                "action->Magma Flow (Arrive)": {
+                    "name": "Przepływ Magmy (Przybycie)",
+                    "description": "<p><strong>Przybycie</strong>(ogień) <em>Przepływ Magmy</em> Herold ognia wpływa na obszar jako żywa magma, zadając @Damage[10d6[fire]] obrażeń i @Damage[3d6[persistent,fire]] obrażeń wszystkim wrogom w @Template[emanation|distance:60] przy @Check[reflex|basic:true|dc:resolve(@actor.system.resources.dc.value)]|name:Przybycie Herolda Żywiołów Ognia|traits:fire]</p>"
+                },
+                "action->Flame Vortex (Depart)": {
+                    "name": "Ognisty Wir (Odejście)",
+                    "description": "<p><strong>Odejście</strong>(ogień) <em>Ognisty Wir</em> Każdy przeciwnik w promieniu 60 stóp otrzymuje obrażenia @Damage[6d6[fire]] oraz @Damage[3d6[persistent,fire]] przy teście @Check[reflex|basic:true|dc:resolve(@actor.system.resources.dc.value)|name:Odejście Herolda Żywiołów Ognia|traits:fire], gdy ognisty herold zamienia się w słup ognia, po czym znika.</p>"
+                }
+            }
         },
         "Elemental Herald (Metal)": {
             "name": "Żywiołowy Zwiastun (Metal)",
-            "publicNotes": "<p>Twoja medytacja w różnych planach żywiołów łączy cię z nimi głęboko, a to połączenie pozwala ci przywołać zwiastuna władcy żywiołów. Zwiastun przybywa w postaci klęski żywiołowej skoncentrowanej na twoich wrogach. Zwiastun zajmuje przestrzeń Wielkiego stworzenia. Kiedy rzucasz to zaklęcie, wybierz jednego z poniższych heroldów żywiołów do przywołania; jeśli jesteś boskim czarodziejem, który czci władcę żywiołów, musisz wybrać opcję odpowiadającą żywiołowi twojego bóstwa. To zaklęcie zyskuje cechę (powietrze, ziemia, ogień, metal, woda lub drewno) odpowiadającą wybranemu żywiołowi.</p>"
+            "publicNotes": "<p>Twoja medytacja w różnych planach żywiołów łączy cię z nimi głęboko, a to połączenie pozwala ci przywołać zwiastuna władcy żywiołów. Zwiastun przybywa w postaci klęski żywiołowej skoncentrowanej na twoich wrogach. Zwiastun zajmuje przestrzeń Wielkiego stworzenia. Kiedy rzucasz to zaklęcie, wybierz jednego z poniższych heroldów żywiołów do przywołania; jeśli jesteś boskim czarodziejem, który czci władcę żywiołów, musisz wybrać opcję odpowiadającą żywiołowi twojego bóstwa. To zaklęcie zyskuje cechę (powietrze, ziemia, ogień, metal, woda lub drewno) odpowiadającą wybranemu żywiołowi.</p>",
+            "items": {
+                "action->Shard Cloud (Arrive)": {
+                    "name": "Chmura Odłamków (Przybycie)",
+                    "description": "<p><strong>Przybycie</strong>(metal) <em>Chmura Odłamków</em> Herold metalu pojawia się jako chmura metalowych odłamków i elektryczności statycznej, zadając @Damage[4d8[slashing]] obrażeń i @Damage[4d12[electricity]] obrażeń wszystkim wrogom w @Template[emanation|distance:50] przy @Check[reflex|basic:true|dc:resolve(@actor.system.resources.dc.value)]|name:Przybycie Herolda Żywiołu Metalu|traits:metal]</p>"
+                },
+                "action->Rust Mist (Depart)": {
+                    "name": "Rdzawa Mgła (Odejście)",
+                    "description": "<p><strong>Odejście</strong>(metal) <em>Rdzawa Mgła</em> Odłamki w chmurze szybko rdzewieją i przylegają do wrogów w odległości @Template[emanation|distance:50], zadając @Damage[10d6] obrażeń metalowym stworzeniom i przedmiotom w obszarze o @Check[reflex|basic:true|dc:resolve(@actor.system.resources.dc.value)|name:Odejście Herolda Żywiołu Metalu|traits:metal], ignorując twardość. Przedmioty pozostawione bez opieki automatycznie ponoszą krytyczną porażkę w tym rzucie obronnym.</p>"
+                }
+            }
         },
         "Elemental Herald (Water)": {
             "name": "Żywiołowy Zwiastun (Woda)",
-            "publicNotes": "<p>Twoja medytacja w różnych planach żywiołów łączy cię z nimi głęboko, a to połączenie pozwala ci przywołać zwiastuna władcy żywiołów. Zwiastun przybywa w postaci klęski żywiołowej skoncentrowanej na twoich wrogach. Zwiastun zajmuje przestrzeń Wielkiego stworzenia. Kiedy rzucasz to zaklęcie, wybierz jednego z poniższych heroldów żywiołów do przywołania; jeśli jesteś boskim czarodziejem, który czci władcę żywiołów, musisz wybrać opcję odpowiadającą żywiołowi twojego bóstwa. To zaklęcie zyskuje cechę (powietrze, ziemia, ogień, metal, woda lub drewno) odpowiadającą wybranemu żywiołowi.</p>"
+            "publicNotes": "<p>Twoja medytacja w różnych planach żywiołów łączy cię z nimi głęboko, a to połączenie pozwala ci przywołać zwiastuna władcy żywiołów. Zwiastun przybywa w postaci klęski żywiołowej skoncentrowanej na twoich wrogach. Zwiastun zajmuje przestrzeń Wielkiego stworzenia. Kiedy rzucasz to zaklęcie, wybierz jednego z poniższych heroldów żywiołów do przywołania; jeśli jesteś boskim czarodziejem, który czci władcę żywiołów, musisz wybrać opcję odpowiadającą żywiołowi twojego bóstwa. To zaklęcie zyskuje cechę (powietrze, ziemia, ogień, metal, woda lub drewno) odpowiadającą wybranemu żywiołowi.</p>",
+            "items": {
+                "action->Hurricane Formation (Arrive)": {
+                    "name": "Formacja Huraganu (Przybycie)",
+                    "description": "<p><strong>Przybycie</strong> (mróz, woda) <em>Formacja Huraganu</em> Herold wody przybiera postać miniaturowego huraganu. Każdy wróg w @Template[emanation|distance:60] otrzymuje @Damage[4d10[bludgeoning]] obrażeń od uderzającego deszczu i @Damage[4d10[cold]] obrażeń od spadającego gradu przy @Check[fortitude|basic:true|dc:resolve(@actor.system.resources.dc.value)|name:Przybycie Herolda Żywiołów Wody|traits:cold,water].</p>"
+                },
+                "action->Cataclysmic Deluge (Depart)": {
+                    "name": "Potop Kataklizmów (Odejście)",
+                    "description": "<p><strong>Odejście</strong> (mróz, woda) <em>Potop Kataklizmów</em> Huragan zamienia się w rwącą powódź, zadając @Damage[6d8[bludgeoning]] obrażeń wszystkim wrogom w @Template[cone|distance:120] z @Check[fortitude|basic:true|dc:resolve(@actor.system.resources.dc.value)|name:Odejście Herolda Żywiołów Wody|traits:cold,water]. Stworzenie, które poniesie porażkę w rzucie obronnym, zostanie odepchnięte o 20 stóp od herolda (lub o 40 stóp w przypadku krytycznej porażki).</p>"
+                }
+            }
         },
         "Elemental Herald (Wood)": {
             "name": "Żywiołowy Zwiastun (Drewno)",
-            "publicNotes": "<p>Twoja medytacja w różnych planach żywiołów łączy cię z nimi głęboko, a to połączenie pozwala ci przywołać zwiastuna władcy żywiołów. Zwiastun przybywa w postaci klęski żywiołowej skoncentrowanej na twoich wrogach. Zwiastun zajmuje przestrzeń Wielkiego stworzenia. Kiedy rzucasz to zaklęcie, wybierz jednego z poniższych heroldów żywiołów do przywołania; jeśli jesteś boskim czarodziejem, który czci władcę żywiołów, musisz wybrać opcję odpowiadającą żywiołowi twojego bóstwa. To zaklęcie zyskuje cechę (powietrze, ziemia, ogień, metal, woda lub drewno) odpowiadającą wybranemu żywiołowi.</p>"
-        },
-        "Flame Vortex (Depart)": {
-            "name": "Ognisty Wir (Odejście)"
+            "publicNotes": "<p>Twoja medytacja w różnych planach żywiołów łączy cię z nimi głęboko, a to połączenie pozwala ci przywołać zwiastuna władcy żywiołów. Zwiastun przybywa w postaci klęski żywiołowej skoncentrowanej na twoich wrogach. Zwiastun zajmuje przestrzeń Wielkiego stworzenia. Kiedy rzucasz to zaklęcie, wybierz jednego z poniższych heroldów żywiołów do przywołania; jeśli jesteś boskim czarodziejem, który czci władcę żywiołów, musisz wybrać opcję odpowiadającą żywiołowi twojego bóstwa. To zaklęcie zyskuje cechę (powietrze, ziemia, ogień, metal, woda lub drewno) odpowiadającą wybranemu żywiołowi.</p>",
+            "items": {
+                "action->Advantageous Roots (Arrive)": {
+                    "name": "Korzystne Korzenie (Przybycie)",
+                    "description": "<p><strong>Przybycie</strong> (roślina, drewno) <em>Korzystne Korzenie</em> Ziemia wybucha drewnianym heroldem w postaci złożonego systemu korzeniowego. Każdy wróg w @Template[emanation|distance:50] otrzymuje @Damage[6d10[piercing]] obrażeń, a następnie musi wykonać @Check[reflex|basic:true|dc:resolve(@actor.system.resources.dc.value)|name:Przybycie Herolda Żywiołów Drewna|traits:plant,wood], ponieważ korzenie przebijają jego kończyny i ciało. Każdy wróg, który nie zda swojego rzutu obronnego, otrzymuje karę -10 stóp do swojej szybkości, dopóki herold nie odejdzie.</p><p>@UUID[Compendium.pf2e-summons-assistant.pf2e-summons-assistant-items.Item.8Bx6DgJ391LItD98]</p>"
+                },
+                "action->Retreat to Soil (Depart)": {
+                    "name": "Powrót do Gleby (Odejście)",
+                    "description": "<p><strong>Odejście</strong>(roślina, drewno) <em>Powrót do Gleby</em> Korzenie cofają się w głąb ziemi, zadając @Damage[6d10[piercing]] obrażeń każdemu wrogowi w @Template[emanation|distance:50] z @Check[reflex|basic:true|dc:resolve(@actor.system.resources.dc.value)|name:Odejście Herolda Żywiołów Drewna|traits:plant,wood]. Każda istota z karą do szybkości wynikającą z początkowego rzutu obronnego automatycznie otrzymuje obrażenia @Damage[2d6[persistent,bleed]]. Ziemia w obszarze emanacji staje się trudnym terenem po cofnięciu się korzeni.</p>"
+                }
+            }
         },
         "Floating Flame": {
             "name": "Lewitujący Płomień"
         },
         "Healing Servitor": {
             "name": "Leczący Sługa",
-            "publicNotes": "<p>Przywołujesz sługę stworzonego z surowej energii witalnej, aby leczył i wzmacniał twoich sojuszników.</p>"
-        },
-        "Holy Smite (Depart)": {
-            "name": "Święte Uderzenie (Odejście)"
-        },
-        "Howl of Eternity (Depart)": {
-            "name": "Skowyt Wieczności (Odejście)"
-        },
-        "Hurricane Formation (Arrive)": {
-            "name": "Formacja Huraganu (Przybycie)"
-        },
-        "Interrupted Lives (Arrive)": {
-            "name": "Przerwane Życia (Przybycie)"
-        },
-        "Light": {
-            "name": "Światło"
+            "publicNotes": "<p>Przywołujesz sługę stworzonego z surowej energii witalnej, aby leczył i wzmacniał twoich sojuszników.</p>",
+            "items": {
+                "action->Servitor's Protection (Arrive)": {
+                    "name": "Ochrona Sługi (Przybycie)",
+                    "description": "<p>Sługa pojawia się w błysku światła, przemieszczając się od sojusznika do sojusznika i zapewniając im tymczasowe wytchnienie. Wszyscy sojusznicy w promieniu 20 stóp od Sługi otrzymują 20 tymczasowych Punktów Wytrzymałości, które pozostają aktywne do momentu odejścia Sługi.</p><hr /><p><strong>Wzmocnienie (+2)</strong> Tymczasowe punkty wytrzymałości efektu „Przybycie” wzrastają o 8, a leczenie i obrażenia zadawane nieumarłym przez efekt „Odejście” wzrastają o 1k8.</p>"
+                },
+                "action->Servitor's Blessing (Depart)": {
+                    "name": "Błogosławieństwo Sługi (Odejście)",
+                    "description": "<p>Sługa znika w @Template[emanation|distance:30] energii witalnej. Wszystkie chętne żywe stworzenia w zasięgu leczą @Damage[ceil(@actor.level/2)d8[healing,vitality]] Punkt Wytrzymałości. Wszystkie nieumarłe istoty w zasięgu otrzymują tyle samo punktów obrażeń, z rzutem obronnym @Check[fortitude|basic:true|dc:resolve(@actor.system.resources.dc.value)|name:Odejście uzdrawiającego sługi|traits:healing,vitality].</p><hr /><p><strong>Wzmocnienie (+2)</strong> Tymczasowe punkty wytrzymałości efektu „Przybycie” wzrastają o 8, a leczenie i obrażenia zadawane nieumarłym przez efekt „Odejście” wzrastają o 1k8.</p>"
+                }
+            }
         },
         "Light (Blue)": {
-            "name": "Światło (Niebieskie)"
+            "name": "Światło (Niebieskie)",
+            "items": {
+                "action->Light": {
+                    "name": "Światło",
+                    "description": "<p>Tworzysz kulę światła, która rzuca jasne światło w promieniu 20 stóp (i słabe światło w promieniu następnych 20 stóp) w wybranym przez ciebie kolorze. Jeśli stworzysz światło w tym samym miejscu, który zajmuje chętna istota, możesz przymocować światło do tej istoty, powodując, że będzie ono unosić się w jej pobliżu, gdy się porusza. Możesz Podtrzymywać zaklęcie, aby przemieścić światło do 60 stóp; możesz przymocować lub odłączyć je od istoty jako część tego ruchu.</p><p>Możesz Zakończyć Zaklęcie. Jeśli Rzucisz Zaklęcie, podczas gdy masz już aktywne cztery zaklęcia <em>światła</em>, musisz wybrać jedno z istniejących zaklęć, aby je zakończyć.</p><p>@UUID[Compendium.pf2e.spell-effects.Item.cVVZXNbV0nElVOPZ]{Efekt Czaru: Światło}</p><hr /><p><strong>Wzmocnienie (4 ranga)</strong> Kula rzuca światło w promieniu 60 stóp (i słabe światło w promieniu następnych 60 stóp).</p>"
+                }
+            }
         },
         "Light (Dark Blue)": {
-            "name": "Światło (Granatowe)"
+            "name": "Światło (Granatowe)",
+            "items": {
+                "action->Light": {
+                    "name": "Światło",
+                    "description": "<p>Tworzysz kulę światła, która rzuca jasne światło w promieniu 20 stóp (i słabe światło w promieniu następnych 20 stóp) w wybranym przez ciebie kolorze. Jeśli stworzysz światło w tym samym miejscu, który zajmuje chętna istota, możesz przymocować światło do tej istoty, powodując, że będzie ono unosić się w jej pobliżu, gdy się porusza. Możesz Podtrzymywać zaklęcie, aby przemieścić światło do 60 stóp; możesz przymocować lub odłączyć je od istoty jako część tego ruchu.</p><p>Możesz Zakończyć Zaklęcie. Jeśli Rzucisz Zaklęcie, podczas gdy masz już aktywne cztery zaklęcia <em>światła</em>, musisz wybrać jedno z istniejących zaklęć, aby je zakończyć.</p><p>@UUID[Compendium.pf2e.spell-effects.Item.cVVZXNbV0nElVOPZ]{Efekt Czaru: Światło}</p><hr /><p><strong>Wzmocnienie (4 ranga)</strong> Kula rzuca światło w promieniu 60 stóp (i słabe światło w promieniu następnych 60 stóp).</p>"
+                }
+            }
         },
         "Light (Green)": {
-            "name": "Światło (Zielone)"
+            "name": "Światło (Zielone)",
+            "items": {
+                "action->Light": {
+                    "name": "Światło",
+                    "description": "<p>Tworzysz kulę światła, która rzuca jasne światło w promieniu 20 stóp (i słabe światło w promieniu następnych 20 stóp) w wybranym przez ciebie kolorze. Jeśli stworzysz światło w tym samym miejscu, który zajmuje chętna istota, możesz przymocować światło do tej istoty, powodując, że będzie ono unosić się w jej pobliżu, gdy się porusza. Możesz Podtrzymywać zaklęcie, aby przemieścić światło do 60 stóp; możesz przymocować lub odłączyć je od istoty jako część tego ruchu.</p><p>Możesz Zakończyć Zaklęcie. Jeśli Rzucisz Zaklęcie, podczas gdy masz już aktywne cztery zaklęcia <em>światła</em>, musisz wybrać jedno z istniejących zaklęć, aby je zakończyć.</p><p>@UUID[Compendium.pf2e.spell-effects.Item.cVVZXNbV0nElVOPZ]{Efekt Czaru: Światło}</p><hr /><p><strong>Wzmocnienie (4 ranga)</strong> Kula rzuca światło w promieniu 60 stóp (i słabe światło w promieniu następnych 60 stóp).</p>"
+                }
+            }
         },
         "Light (White)": {
-            "name": "Światło (Białe)"
+            "name": "Światło (Białe)",
+            "items": {
+                "action->Light": {
+                    "name": "Światło",
+                    "description": "<p>Tworzysz kulę światła, która rzuca jasne światło w promieniu 20 stóp (i słabe światło w promieniu następnych 20 stóp) w wybranym przez ciebie kolorze. Jeśli stworzysz światło w tym samym miejscu, który zajmuje chętna istota, możesz przymocować światło do tej istoty, powodując, że będzie ono unosić się w jej pobliżu, gdy się porusza. Możesz Podtrzymywać zaklęcie, aby przemieścić światło do 60 stóp; możesz przymocować lub odłączyć je od istoty jako część tego ruchu.</p><p>Możesz Zakończyć Zaklęcie. Jeśli Rzucisz Zaklęcie, podczas gdy masz już aktywne cztery zaklęcia <em>światła</em>, musisz wybrać jedno z istniejących zaklęć, aby je zakończyć.</p><p>@UUID[Compendium.pf2e.spell-effects.Item.cVVZXNbV0nElVOPZ]{Efekt Czaru: Światło}</p><hr /><p><strong>Wzmocnienie (4 ranga)</strong> Kula rzuca światło w promieniu 60 stóp (i słabe światło w promieniu następnych 60 stóp).</p>"
+                }
+            }
         },
         "Light (Yellow)": {
-            "name": "Światło (Żółte)"
-        },
-        "Magma Flow (Arrive)": {
-            "name": "Przepływ Magmy (Przybycie)"
-        },
-        "Merciful Healing (Depart)": {
-            "name": "Miłosierne Uzdrowienie (Przybycie)"
+            "name": "Światło (Żółte)",
+            "items": {
+                "action->Light": {
+                    "name": "Światło",
+                    "description": "<p>Tworzysz kulę światła, która rzuca jasne światło w promieniu 20 stóp (i słabe światło w promieniu następnych 20 stóp) w wybranym przez ciebie kolorze. Jeśli stworzysz światło w tym samym miejscu, który zajmuje chętna istota, możesz przymocować światło do tej istoty, powodując, że będzie ono unosić się w jej pobliżu, gdy się porusza. Możesz Podtrzymywać zaklęcie, aby przemieścić światło do 60 stóp; możesz przymocować lub odłączyć je od istoty jako część tego ruchu.</p><p>Możesz Zakończyć Zaklęcie. Jeśli Rzucisz Zaklęcie, podczas gdy masz już aktywne cztery zaklęcia <em>światła</em>, musisz wybrać jedno z istniejących zaklęć, aby je zakończyć.</p><p>@UUID[Compendium.pf2e.spell-effects.Item.cVVZXNbV0nElVOPZ]{Efekt Czaru: Światło}</p><hr /><p><strong>Wzmocnienie (4 ranga)</strong> Kula rzuca światło w promieniu 60 stóp (i słabe światło w promieniu następnych 60 stóp).</p>"
+                }
+            }
         },
         "Mine": {
-            "name": "Kopalnia"
+            "name": "Mina",
+            "items": {
+                "action->Detonate Mine": {
+                    "name": "Detonacja Miny",
+                    "description": "<p><strong>Wymagania</strong> Mina, którą rozłożyłeś, znajduje się w odległości 100 stóp. Po chwili namysłu uruchamiasz detonację miny, którą rozłożyłeś w odległości 100 stóp, powodując jej wybuch w @Template[type:burst|distance:10]. Mina ta zadaje @Damage[(1+ceil(@actor.level/2))d6[fire]] obrażeń, w zależności od rodzaju obrażeń wybranego podczas rozkładania miny. Stworzenia znajdujące się w tym obszarze mogą wykonać rzut obronny @Check[reflex|dc:resolve(@actor.system.resources.dc.value)|basic] przeciwko twojej klasowej wartości ST.</p><hr /><p>Możesz Detonować Minę jako reakcję, przy użyciu następującego wyzwalacza</p><p><strong>Wyzwalacz</strong> Stworzenie wchodzi lub opuszcza pole w obszarze wybuchu miny, którą rozłożyłeś.</p><hr /><p>Na 3. poziomie i co 2 kolejne poziomy obrażenia wzrastają o [[/r 1d6]].</p>"
+                }
+            }
         },
         "Mogaru, the Final King": {
             "name": "Mogaru, Ostateczny Król",
-            "publicNotes": "<p>Na krótko wyczarowujesz kaiju, masywnego, szalejącego potwora o wyjątkowej nazwie i legendarnej reputacji. Powstaje on ze swojego zacisznego legowiska, aby unicestwić twoich wrogów. Przywołane kaiju zajmuje przestrzeń Ogromnego stworzenia.</p>"
-        },
-        "Plant Banner": {
-            "name": "Roślinny Sztandar"
+            "publicNotes": "<p>Na krótko wyczarowujesz kaiju, masywnego, szalejącego potwora o wyjątkowej nazwie i legendarnej reputacji. Powstaje on ze swojego zacisznego legowiska, aby unicestwić twoich wrogów. Przywołane kaiju zajmuje przestrzeń Ogromnego stworzenia.</p>",
+            "items": {
+                "action->(Arrive)": {
+                    "name": "(Przybycie)"
+                },
+                "action->(Depart)": {
+                    "name": "(Odejście)"
+                }
+            }
         },
         "Planted Banner": {
-            "name": "Umieszczony Sztandar"
-        },
-        "Plate Crash (Depart)": {
-            "name": "Zderzenie Płyt (Odejście)"
-        },
-        "Retreat to Soil (Depart)": {
-            "name": "Powrót do Gleby (Odejście)"
-        },
-        "Rust Mist (Depart)": {
-            "name": "Rdzawa Mgła (Odejście)"
-        },
-        "Servitor's Blessing (Depart)": {
-            "name": "Błogosławieństwo Sługi (Odejście)"
-        },
-        "Servitor's Protection (Arrive)": {
-            "name": "Ochrona Sługi (Przybycie)"
-        },
-        "Shard Cloud (Arrive)": {
-            "name": "Chmura Odłamków (Przybycie)"
-        },
-        "Supercell Front (Arrive)": {
-            "name": "Front Wielkiej Burzy (Przybycie)"
-        },
-        "Tectonic Rise (Arrive)": {
-            "name": "Wzrost Tektoniczny (Przybycie)"
+            "name": "Umieszczony Sztandar",
+            "items": {
+                "action->Plant Banner": {
+                    "name": "Roślinny Sztandar",
+                    "description": "<p>Przyznany przez @UUID[Compendium.pf2e.feats-srd.xEeCaJsQeDtRAVk1]</p><p>Umieść swój sztandar, aby zainspirować sojuszników do utrzymania linii. Umieść sztandar w rogu swojego kwadratu. Każdy sojusznik w promieniu @Template[type:burst|distance:30] od środka sztandaru natychmiast zyskuje 4 tymczasowe Punkty Wytrzymałości oraz dodatkowe 4 tymczasowe Punkty Wytrzymałości na 4. poziomie i co 4 kolejne poziomy. Te tymczasowe Punkty Wytrzymałości utrzymują się przez 1 rundę; za każdym razem, gdy sojusznik rozpoczyna swoją turę w promieniu działania sztandaru, jego tymczasowe Punkty Wytrzymałości są odnawiane na kolejną rundę.</p><p>@UUID[Compendium.pf2e.feat-effects.Item.KsUQjLQO62BY0lk4]</p><p>Podczas gdy sztandar jest wbity, musisz sygnalizować swoje zdolności taktyczne wyłącznie za pomocą sygnałów dźwiękowych. Jeśli sztandar jest przyłączony do broni, nie możesz jej używać, gdy sztandar jest wbity. Gdy sztandar jest wbity, wszelkie efekty, które normalnie występują w promieniu wokół sztandaru, występują zamiast tego w wybuchu o zasięgu 10 stóp większym (więc @Template[type:emanation|distance:30] staje się @Template[type:burst|distance:40]). Broń lub drzewce, do którego przyłączony jest sztandar, zyskuje dodatkową Twardość równą twojemu poziomowi + modyfikator Inteligencji.</p><p>Możesz użyć tej akcji ponownie, gdy znajdziesz się w sąsiedztwie swojego sztandaru, aby go odzyskać. Wróg znajdujący się w sąsiedztwie pola, na którym umieściłeś sztandar, może usunąć sztandar jako akcję interakcji, kończąc ten efekt i uniemożliwiając tobie i twoim sojusznikom uzyskanie jakichkolwiek innych korzyści ze sztandaru, dopóki nie uda ci się go odzyskać.</p>"
+                },
+                "action->Commander's Banner": {
+                    "name": "Sztandar Dowódcy",
+                    "description": "<p>Przyznany przez @UUID[Compendium.pf2e.classfeatures.8NtRuNYGiU2iTwgL]</p><p>Dopóki sztandar jest widoczny i znajduje się w twoim posiadaniu, zapewnia on aurę, która daje tobie i wszystkim sojusznikom w @Template[type:emanation|distance:30] premię +1 do rzutów obronnych na Wolę i ST przeciwko efektom strachu. Możesz wstrzymać lub wznowić ten efekt w ramach dowolnej akcji, której zazwyczaj używasz do schowania lub odzyskania sztandaru. Jeśli sztandar zostanie zniszczony lub skradziony, sojusznicy korzystający obecnie z jego premii otrzymują @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Przestraszony 1}. Efekt ten ma cechy aury, emocji, umysłu i wizualne.</p>"
+                }
+            }
         },
         "Telekinetic Hand": {
             "name": "Telekinetyczna Dłoń"
         },
         "Tempest of Shades": {
             "name": "Nawałnica Cieni",
-            "publicNotes": "<p>Kanalizujesz moce nieśmiertelności, aby na krótko przywołać amalgamat mściwych zmarłych zabitych zarówno przez twoich wrogów, jak i sojuszników. Ten amalgamat manifestuje się jako wielkie tornado nieistotnych, wyjących twarzy.</p>"
+            "publicNotes": "<p>Kanalizujesz moce nieśmiertelności, aby na krótko przywołać amalgamat mściwych zmarłych zabitych zarówno przez twoich wrogów, jak i sojuszników. Ten amalgamat manifestuje się jako wielkie tornado nieistotnych, wyjących twarzy.</p>",
+            "items": {
+                "action->Vortex of Death (Arrive)": {
+                    "name": "Wir Śmierci (Przybycie)",
+                    "description": "<p><strong>Przybycie</strong> (negatywne) <em>Wir Śmierci</em> Każda wroga istota w zasięgu @Template[type:emanation|distance:60] musi wykonać test @Check[fortitude|dc:resolve(@actor.system.resources.dc.value)|name:Przybycie Burzy Cieni|traits:void] z następującymi efektami.</p><hr /><p><strong>Krytyczny Sukces</strong> Nie ma to wpływu na stworzenie.</p><p><strong>Sukces</strong> Stworzenie jest @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Wysączone 1}.</p><p><strong>Porażka</strong> Stworzenie jest @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Wysączone 2}.</p><p><strong>Krytyczna Porażka</strong> Stworzenie jest @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Wysączone 3}.</p>"
+                },
+                "action->Howl of Eternity (Depart)": {
+                    "name": "Skowyt Wieczności (Odejście)",
+                    "description": "<p><strong>Odejście</strong> (emocja, strach, mentalny) <em>Skowyt Wieczności</em> Mściwy zmarły wydaje z siebie pełen udręki krzyk. Wszyscy twoi wrogowie w promieniu @Template[type:emanation|distance:100] muszą wykonać test @Check[will|dc:resolve(@actor.system.resources.dc.value)|name:Odejście Burzy Cieni|traits:necromancy,emotion,fear,mental] z następującymi efektami.</p><hr /><p><strong>Krytyczny Sukces</strong> Nie ma to wpływu na stworzenie.</p><p><strong>Sukces</strong> Stworzenie to jest @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Przestraszone 1}.</p><p><strong>Porażka</strong> Stworzenie to jest @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Przestraszone 3}.</p><p><strong>Krytyczna Porażka</strong> Stworzenie jest przestraszone 3. Jest również @UUID[Compendium.pf2e.conditionitems.Item.sDPxOjQ9kx2RZE8D]{Uciekające} przez 1 rundę lub do momentu, aż przestanie być przestraszone, w zależności od tego, co nastąpi wcześniej.</p>"
+                }
+            }
         },
         "The Fluxwraith": {
             "name": "Fluksupiór",
-            "publicNotes": "<p>Rozbijasz lustro i wyrzucasz jego odłamki w powietrze. Pomiędzy ich tysiącem pękniętych odbić pojawia się fluksupiór - rzecz z rozbitego szkła, złamanego czasu i złamanego życia.</p>"
+            "publicNotes": "<p>Rozbijasz lustro i wyrzucasz jego odłamki w powietrze. Pomiędzy ich tysiącem pękniętych odbić pojawia się fluksupiór - rzecz z rozbitego szkła, złamanego czasu i złamanego życia.</p>",
+            "items": {
+                "action->Interrupted Lives (Arrive)": {
+                    "name": "Przerwane Życia (Przybycie)",
+                    "description": "<p><strong>Przybycie</strong> (transmutacja) <em>Przerwanie Życia</em></p><p>Każdy przeciwnik znajdujący się w odległości @Template[emanation|distance:10] musi wykonać test @Check[will|dc:resolve(@actor.system.resources.dc.value)|name:Przybycie Fluksopióra]. Jeśli stworzenie nie zda rzutu obronnego, zostaje przeniesione w przyszłość, znikając teraz, ale automatycznie pojawiając się ponownie w tym samym miejscu po [[/gmr 1d4 #Rundy]]{1k4 rundom}. Stworzenie może podjąć dodatkową próbę rzutu obronnego pod koniec każdej swojej tury, aby zakończyć czas trwania. Jeśli jego pierwotne miejsce jest zajęte po powrocie, stworzenie pojawia się w najbliższym wolnym miejscu. Ponieważ istota zostaje przeniesiona w przyszłość, nie doświadcza żadnego czasu, który upłynął w międzyczasie. Podobnie, wszelkie efekty działające na istotę nie tracą na czasie trwania i wracają, gdy istota pojawia się ponownie.</p>"
+                },
+                "action->Dire Foresight (Depart)": {
+                    "name": "Mroczna Dalekowzroczność (Odejście)",
+                    "description": "<p><strong>Odejście</strong> (wieszczenie, strach, mentalny, przewidywanie) <em>Mroczna Dalekowzroczność</em></p><p>Każdy wróg znajdujący się w odległości @Template[emanation|distance:60] musi wykonać test @Check[will|dc:resolve(@actor.system.resources.dc.value)|name:Odejście Fluksopióra|traits:fear,mental,prediction]. W przypadku niepowodzenia rzutu obronnego, stworzenie otrzymuje krótką wizję głęboko traumatycznego wydarzenia, które czai się wśród wielu możliwości jego przyszłości. Stworzenie jest @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Przestraszone 2} (@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Przestraszone 4} w przypadku krytycznej porażki) i @UUID[Compendium.pf2e.conditionitems. Item.xYTAsEpcJE1Ccni3]{Spowolnione 1}, gdy jest przestraszone.</p>"
+                }
+            }
         },
         "The Thousand": {
             "name": "Tysiące"
         },
-        "Twister Downdraft  (Depart)": {
-            "name": "Wirujący Podmuch (Odejście)"
-        },
         "Vorgozen, the Shapeless Feeder": {
             "name": "Vorgozen, Bezkształtny Karmiciel",
-            "publicNotes": "<p>Na krótko wyczarowujesz kaiju, masywnego, szalejącego potwora o wyjątkowej nazwie i legendarnej reputacji. Powstaje on ze swojego zacisznego legowiska, aby unicestwić twoich wrogów. Przywołane kaiju zajmuje przestrzeń Ogromnego stworzenia.</p>"
+            "publicNotes": "<p>Na krótko wyczarowujesz kaiju, masywnego, szalejącego potwora o wyjątkowej nazwie i legendarnej reputacji. Powstaje on ze swojego zacisznego legowiska, aby unicestwić twoich wrogów. Przywołane kaiju zajmuje przestrzeń Ogromnego stworzenia.</p>",
+            "items": {
+                "action->(Arrive)": {
+                    "name": "(Przybycie)"
+                },
+                "action->(Depart)": {
+                    "name": "(Odejście)"
+                }
+            }
         },
-        "Vortex of Death (Arrive)": {
-            "name": "Wir Śmierci (Przybycie)"
-        },
-        "Whip Tail": {
-            "name": "Bicz Ogonowy"
+        "Wooden Double": {
+            "name": "Drewniany Duplikat",
+            "items": {
+                "action->5 Hardness": {
+                    "name": "5 Twardość"
+                }
+            }
         },
         "Yarthoon, the Moon Grub": {
             "name": "Yarthoon, Księżycowa Larwa",
-            "publicNotes": "<p>Na krótko wyczarowujesz kaiju, masywnego, szalejącego potwora o wyjątkowej nazwie i legendarnej reputacji. Powstaje on ze swojego zacisznego legowiska, aby unicestwić twoich wrogów. Przywołane kaiju zajmuje przestrzeń Ogromnego stworzenia.</p>"
+            "publicNotes": "<p>Na krótko wyczarowujesz kaiju, masywnego, szalejącego potwora o wyjątkowej nazwie i legendarnej reputacji. Powstaje on ze swojego zacisznego legowiska, aby unicestwić twoich wrogów. Przywołane kaiju zajmuje przestrzeń Ogromnego stworzenia.</p>",
+            "items": {
+                "action->(Arrive)": {
+                    "name": "(Przybycie)"
+                },
+                "action->(Depart)": {
+                    "name": "(Odejście)"
+                }
+            }
         }
     },
     "mapping": {
@@ -254,9 +424,9 @@
         "speedsDetails": "system.attributes.speed.details",
         "sensesDetails": "system.perception.details",
         "languagesDetails": "system.details.languages.details",
-        "rules": {
-            "converter": "translateRules",
-            "path": "system.rules"
+        "items": {
+            "converter": "translateActorItems",
+            "path": "items"
         }
     }
 }

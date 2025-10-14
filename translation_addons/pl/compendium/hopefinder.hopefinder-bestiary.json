@@ -184,7 +184,7 @@
                 },
                 "action->Gore Spray": {
                     "name": "Rozprysk Krwi",
-                    "description": "<p><strong>Wyzwalacz</strong> Sąsiednia istota zadaje wzdętemukrytyczne trafienie Atakiem, który zadaje obrażenia cięte.</p>\n<hr />\n<p><strong>Efekt</strong> Rozpryskujące się wnętrzności atakują napastnika, zadając [[/r 2d6[acid]]] (podstawowe @Check[type:reflex|dc:16]).</p>"
+                    "description": "<p><strong>Wyzwalacz</strong> Sąsiednia istota zadaje wzdętemu krytyczne trafienie Atakiem, który zadaje obrażenia cięte.</p>\n<hr />\n<p><strong>Efekt</strong> Rozpryskujące się wnętrzności atakują napastnika, zadając [[/r 2d6[acid]]] (podstawowe @Check[type:reflex|dc:16]).</p>"
                 }
             }
         },
@@ -771,7 +771,7 @@
                 },
                 "action->Body Slam": {
                     "name": "Uderzenie Ciałem",
-                    "description": "<p>Biegacz porusza się z szybkością dwukrotnie większą od swojej normalnej, kończąc ruch w polu sąsiadującym z innym stworzeniem. Uderza w to stworzenie, wykonując test Akrobatyki przeciwko jego ST Wytrwałości. Jeśli test się powiedzie, zarówno cel, jak i biegacz zostają @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Przewróceni} (tylko cel w przypadku krytycznego sukcesu). W przypadku niepowodzenia żadne ze stworzeń nie zostaje przewrócone, a w przypadku krytycznej porażki tylko biegacz zostaje przewrócony..</p>"
+                    "description": "<p>Biegacz porusza się z szybkością dwukrotnie większą od swojej normalnej, kończąc ruch w polu sąsiadującym z innym stworzeniem. Uderza w to stworzenie, wykonując test Akrobatyki przeciwko jego ST Wytrwałości @Check[acrobatics|against:fortitude]. Jeśli test się powiedzie, zarówno cel, jak i biegacz zostają @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Przewróceni} (tylko cel w przypadku krytycznego sukcesu). W przypadku niepowodzenia żadne ze stworzeń nie zostaje przewrócone, a w przypadku krytycznej porażki tylko biegacz zostaje przewrócony.</p>"
                 }
             }
         },
