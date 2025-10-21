@@ -1,7 +1,12 @@
 import { MODULE_ID } from "./settings.js";
 
+let hooksRegistered = false;
+
 export function registerRoundMarker() {
-  let lastRound = 1;          // zapamiętuje ostatnią wyświetloną rundę
+  if (hooksRegistered) return; // zabezpieczenie
+  hooksRegistered = true;
+
+  let lastRound = 1;
   let battleStarted = false;
 
   Hooks.on("updateCombat", async (combat, changed) => {
@@ -22,7 +27,7 @@ export function registerRoundMarker() {
       battleStarted = true;
     }
 
-    // Separator dla każdej **nowej rundy**
+    // Separator dla każdej nowej rundy
     if (roundNumber > lastRound) {
       await ChatMessage.create({
         speaker: { alias: "Gamemaster" },
@@ -34,7 +39,6 @@ export function registerRoundMarker() {
     }
   });
 
-  // Koniec walki – po zakończeniu combatu
   Hooks.on("deleteCombat", async (combat) => {
     if (!game.user.isGM) return;
     if (!game.settings.get(MODULE_ID, "enableRoundMarkers")) return;
@@ -50,7 +54,6 @@ export function registerRoundMarker() {
     battleStarted = false;
   });
 
-  // Hook do dodawania klasy CSS
   Hooks.on("renderChatMessage", (_message, html) => {
     const roundMarker = _message.getFlag(MODULE_ID, "roundMarker");
     if (roundMarker) html.addClass("round-divider");
