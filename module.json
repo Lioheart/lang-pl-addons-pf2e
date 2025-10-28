@@ -53,6 +53,31 @@
       "path": "lang/en.json",
       "flags": {}
     }
+  ],  
+  "packs": [
+    {
+      "name": "macros-lang-pf2e-addons",
+      "label": "Makra - Dodatkowe Polskie tłumaczenie",
+      "path": "packs/macros-lang-pf2e-addons",
+      "type": "Macro",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e",
+      "module": "lang-pl-addons-pf2e"
+    }
+  ],
+    "packFolders": [
+    {
+      "name": "PF2e Polskie Tłumaczenie",
+      "sorting": "m",
+      "packs": [
+        "macros-lang-pf2e-addons"
+      ],
+      "color": null,
+      "folders": []
+    }
   ],
   "url": "Filled in by the release workflow",
   "manifest": "Filled in by the release workflow",
