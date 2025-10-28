@@ -12,3 +12,8 @@
     font-family: "Kirsty";
     src: url('../fonts/Kirsty.ttf');
 }
+
+@font-face {
+    font-family: "Almendra";
+    src: url('../fonts/Almendra-Regular.ttf');
+}

@@ -217,7 +217,8 @@ export function registerSettings() {
             "default": game.i18n.localize(`${MODULE_ID}.settings.journalFont.choices.default`),
             "im-fell-english-pro": "IM Fell English Pro",
             "immortal": "Immortal",
-            "kirsty": "Kirsty"
+            "kirsty": "Kirsty",
+            "almendra": "Almendra"
         },
         default: "default",
         onChange: (value) => applyJournalFont(value)

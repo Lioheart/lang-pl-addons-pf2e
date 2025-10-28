@@ -8,7 +8,8 @@ export function applyJournalFont(fontKey) {
         "default": "Girassol-Regular", // domyślna czcionka
         "im-fell-english-pro": "IM Fell English Pro",
         "immortal": "Immortal",
-        "kirsty": "Kirsty"
+        "kirsty": "Kirsty",
+        "almendra": "Almendra"
     };
 
     const fontName = fontMap[fontKey] || fontMap["default"];

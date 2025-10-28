@@ -492,7 +492,7 @@
         },
         "Throw": {
             "name": "Rzut",
-            "description": "<p>Możesz rzucić stworzeniem, z którym się zmagasz. Wykonaj test Atletyki przeciwko ST Wytrwałości stworzenia, z którym się zmagasz. Jeśli jest ono większe od ciebie, zwiększ jego ST o 5 za każdy stopień większy. Jeśli ci się powiedzie, rzucasz stworzeniem o liczbę pól równą twojej Sile (minimum 1). W przypadku krytycznego sukcesu zostaje ono rzucone o dwukrotnie większą odległość. Ponadto otrzymuje obrażenia od uderzenia obuchowego równe [[/r {1d6}[bludgeoning]]]{1k6} + całkowita liczba pól, na które zostało rzucone. Jeśli zostanie rzucone na inne stworzenie, to stworzenie również otrzymuje obrażenia (podstawowa @Check[type:reflex|dc:15]). Rzucone stworzenie jest @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60].</p>",
+            "description": "<p>Możesz rzucić stworzeniem, z którym się zmagasz. Wykonaj test @Check[athletics|defense:fortitude] przeciwko ST Wytrwałości stworzenia, z którym się zmagasz. Jeśli jest ono większe od ciebie, zwiększ jego ST o 5 za każdy stopień większy. Jeśli ci się powiedzie, rzucasz stworzeniem o liczbę pól równą twojej Sile (minimum 1). W przypadku krytycznego sukcesu zostaje ono rzucone o dwukrotnie większą odległość. Ponadto otrzymuje obrażenia od uderzenia obuchowego równe [[/r {1d6}[bludgeoning]]]{1k6} + całkowita liczba pól, na które zostało rzucone. Jeśli zostanie rzucone na inne stworzenie, to stworzenie również otrzymuje obrażenia (podstawowa @Check[type:reflex|dc:15]). Rzucone stworzenie jest @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60].</p>",
             "prerequisites": [
                 {
                     "value": "Atut chwytania"
