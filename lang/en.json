@@ -92,6 +92,15 @@
           "removed": "The “Nonlethal Attacks” effect has been disabled."
         }
       },
+      "lethal": {
+        "name": "Effect: Lethal Attacks",
+        "desc": "<p>You take a -2 circumstance penalty to attack rolls.</p><hr><p>Attacks with this weapon are nonlethal, and are used to knock creatures unconscious instead of kill them. You can use a nonlethal weapon to make a lethal attack with a -2 circumstance penalty.</p>",
+        "notifications":
+        {
+          "added": "The “Lethal Attacks” effect has been enabled.",
+          "removed": "The “Lethal Attacks” effect has been disabled."
+        }
+      },
       "usedReaction": {
         "name": "Reaction Used",
         "description": "<p>This character has used their reaction. The effect ends at the start of their next turn.</p>"
@@ -108,6 +117,7 @@
     },
     "buttons": {
       "nonlethal": "Nonlethal",
+      "lethal": "Lethal",
       "reset": "Reset",
       "time": {
         "minutes": "min",
