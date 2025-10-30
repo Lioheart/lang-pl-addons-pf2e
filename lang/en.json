@@ -85,7 +85,12 @@
       },
       "nonlethal": {
         "name": "Effect: Nonlethal Attacks",
-        "desc": "<p>You take a -2 penalty to attack rolls.</p><hr/><p>You can make a nonlethal attack to knock someone out instead of killing them (see Knocked Out and Dying). Weapons with the nonlethal trait (including fists) do this automatically. You take a –2 circumstance penalty to the attack roll when you make a nonlethal attack using a weapon or unarmed attack that doesn’t have the nonlethal trait. You also take this penalty when making a lethal attack using a nonlethal weapon. Spells and other effects with the nonlethal trait that reduce a creature to 0 Hit Points knock the creature out instead of killing them.</p>"
+        "desc": "<p>You take a -2 penalty to attack rolls.</p><hr/><p>You can make a nonlethal attack to knock someone out instead of killing them (see Knocked Out and Dying). Weapons with the nonlethal trait (including fists) do this automatically. You take a –2 circumstance penalty to the attack roll when you make a nonlethal attack using a weapon or unarmed attack that doesn’t have the nonlethal trait. You also take this penalty when making a lethal attack using a nonlethal weapon. Spells and other effects with the nonlethal trait that reduce a creature to 0 Hit Points knock the creature out instead of killing them.</p>",
+        "notifications":
+        {
+          "added": "The “Nonlethal Attacks” effect has been enabled.",
+          "removed": "The “Nonlethal Attacks” effect has been disabled."
+        }
       },
       "usedReaction": {
         "name": "Reaction Used",

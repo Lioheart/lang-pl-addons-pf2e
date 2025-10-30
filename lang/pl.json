@@ -85,7 +85,12 @@
       },
       "nonlethal": {
         "name": "Efekt: Ataki nieśmiercionośne",
-        "desc": "<p>Otrzymujesz karę -2 do testów ataku.</p><hr /><p>Możesz wykonać nieśmiercionośny atak, aby znokautować kogoś zamiast go zabijać (patrz Znokautowanie i umieranie na stronie 410). Broń z cechą nieśmiercionośności (w tym pięści) robi to automatycznie. </p><p>Otrzymujesz karę okoliczności -2 do rzutu ataku, gdy wykonujesz nieśmiercionośny atak przy użyciu broni lub ataku bez broni, która nie posiada cechy nieśmiercionośności. Otrzymujesz również tę karę, gdy wykonujesz śmiertelny atak przy użyciu broni nieśmiercionośnej. Zaklęcia i inne efekty z cechą nieśmiercionośności, które redukują istotę do 0 punktów wytrzymałości, powalają ją zamiast zabijać.</p>"
+        "desc": "<p>Otrzymujesz karę -2 do testów ataku.</p><hr /><p>Możesz wykonać nieśmiercionośny atak, aby znokautować kogoś zamiast go zabijać (patrz Znokautowanie i umieranie na stronie 410). Broń z cechą nieśmiercionośności (w tym pięści) robi to automatycznie. </p><p>Otrzymujesz karę okoliczności -2 do rzutu ataku, gdy wykonujesz nieśmiercionośny atak przy użyciu broni lub ataku bez broni, która nie posiada cechy nieśmiercionośności. Otrzymujesz również tę karę, gdy wykonujesz śmiertelny atak przy użyciu broni nieśmiercionośnej. Zaklęcia i inne efekty z cechą nieśmiercionośności, które redukują istotę do 0 punktów wytrzymałości, powalają ją zamiast zabijać.</p>",
+        "notifications":
+        {
+          "added": "Efekt „Ataki nieśmiercionośne” został włączony.",
+          "removed": "Efekt „Ataki nieśmiercionośne” został wyłączony."
+        }
       },
       "usedReaction": {
         "name": "Wykorzystano reakcję",
