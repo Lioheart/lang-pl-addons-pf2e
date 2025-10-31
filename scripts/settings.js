@@ -223,4 +223,14 @@ export function registerSettings() {
         default: "default",
         onChange: (value) => applyJournalFont(value)
     });
+
+        game.settings.register(MODULE_ID, "enableDamageColumn", {
+        name: game.i18n.localize(`${MODULE_ID}.settings.enableDamageColumn.name`),
+        hint: game.i18n.localize(`${MODULE_ID}.settings.enableDamageColumn.hint`),
+        scope: "world",
+        config: true,
+        type: Boolean,
+        default: true,
+        requiresReload: true,
+    });
 }

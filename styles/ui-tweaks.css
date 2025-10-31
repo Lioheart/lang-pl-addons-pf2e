@@ -1,0 +1,40 @@
+/* Wyrównanie nagłówka kolumny "Obr." */
+.actor.sheet .inventory h3.item-name + .dmg-label {
+    flex: 0 0 50px; 
+    text-align: center; 
+    font-weight: normal; /* Usunięto pogrubienie zgodnie z życzeniem */
+}
+
+/* KONTENER KOLUMNY: Nowy H4 wstawiony obok item-name */
+.actor.sheet .inventory ul.items > li > .data h4:has(span.dmg-value) {
+    /* Ustawienie kolumny */
+    flex: 0 0 50px; 
+    
+    /* Centrowanie w pionie i poziomie całego kontenera */
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    
+    /* Reset stylów H4, aby nie kolidowały z resztą interfejsu */
+    margin: 0;
+    padding: 0;
+}
+
+/* WŁAŚCIWA WARTOŚĆ OBRAŻEŃ: Span z kolorami i tłem */
+.actor.sheet .inventory ul.items > li > .data h4 span.dmg-value {
+    /* Style wizualne */
+    /* Jasnobrązowe tło */
+    background: rgba(161, 136, 127, 0.2); 
+    padding: 0 4px;
+    border-radius: 3px;
+    
+    /* Styl tekstu */
+    /* Ciemnobrązowy kolor tekstu */
+    color: #4E342E; 
+    font-size: var(--font-size-12); 
+    font-weight: bold;
+    
+    /* Wymuszenie wyświetlania w linii dla tła */
+    display: inline-block;
+    text-align: center;
+}

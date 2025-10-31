@@ -30,7 +30,8 @@
     "scripts/exploration-effects.js",
     "scripts/used-ready.js",
     "scripts/custom-turn-marker.js",
-    "scripts/journal-font.js"
+    "scripts/journal-font.js",
+    "scripts/ui-tweaks.js"
   ],
   "templates": [
     "templates/world-time-display.hbs"
@@ -38,6 +39,7 @@
   "styles": [
     "styles/world-time.css",
     "styles/round-marker.css",
+    "styles/ui-tweaks.css",
     "styles/style.css"
   ],
   "languages": [

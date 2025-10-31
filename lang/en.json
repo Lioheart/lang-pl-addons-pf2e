@@ -5,6 +5,7 @@
     "round": "Round",
     "combatStart": "Start of Combat",
     "combatEnd": "End of Combat",
+    "DamageHeader": "Dmg",
     "settings": {
       "enableRuneDescriptions": {
         "name": "Enable Rune Descriptions",
@@ -76,6 +77,10 @@
         "choices": {
           "default": "Default"
         }
+      },
+      "enableDamageColumn": {
+        "name": "Base Damage Column",
+        "hint": "Enables a new column in the 'Weapons and Shields' section displaying the weapon's base damage dice. Requires world reload."
       }
     },
     "effects": {

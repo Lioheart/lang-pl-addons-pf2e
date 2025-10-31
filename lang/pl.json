@@ -5,6 +5,7 @@
     "round": "Runda",
     "combatStart": "Początek walki",
     "combatEnd": "Koniec walki",
+    "DamageHeader": "Obr.",
     "settings": {
       "enableRuneDescriptions": {
         "name": "Włącz opisy run",
@@ -76,6 +77,10 @@
         "choices": {
           "default": "Domyślna"
         }
+      },
+      "enableDamageColumn": {
+        "name": "Kolumna obrażeń bazowych",
+        "hint": "Włącza nową kolumnę w sekcji 'Broń i Tarcze', wyświetlającą bazowe kości obrażeń. Wymaga przeładowania świata."
       }
     },
     "effects": {
