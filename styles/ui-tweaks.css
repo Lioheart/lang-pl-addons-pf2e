@@ -1,5 +1,5 @@
 /* Wyrównanie nagłówka kolumny "Obr." */
-.actor.sheet .inventory h3.item-name + .dmg-label {
+.actor.sheet .inventory h3.item-name + .damage-col-header {
     flex: 0 0 50px; 
     text-align: center; 
     font-weight: normal; /* Usunięto pogrubienie zgodnie z życzeniem */
