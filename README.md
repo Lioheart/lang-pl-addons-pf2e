@@ -34,11 +34,11 @@ Pokazuje, czy dane ustawienie jest globalne, czy dotyczy tylko klienta.
 
 Zmienia sposób wyświetlania dzienników.
 
-### Nieśmiercionośne obrażenia
+### Nieśmiercionośne i śmiercionośne obrażenia
 
-Dodaje przycisk na karcie postaci, umożliwiający użycie nieśmiercionośnych obrażeń każdej broni.
+Dodaje przycisk na karcie postaci, umożliwiający użycie nieśmiercionośnych lub śmiercionośnych obrażeń każdej broni.
 
-![obraz](https://github.com/user-attachments/assets/e19aad18-25df-4e32-9ab4-eac019343fc7)
+<img width="507" height="102" alt="obraz" src="https://github.com/user-attachments/assets/3bfb1b20-f876-4d0c-84a5-b779a44c25fd" />
 
 ### Automatyzacja czasu gry
 
@@ -46,9 +46,45 @@ Możliwość włączenia u góry ekranu HUD z czasem gry, który automatyzuje si
 
 ![Zrzut ekranu 2025-07-05 191208](https://github.com/user-attachments/assets/c8704dd3-dfad-485d-96b5-76ea9e0930d7)
 
-### Możliwość sprzedaży przedmiotów u kupca
+### Możliwość sprzedaży przedmiotów u kupca (dla MG)
 
 Możliwość sprzedawania przedmiotów u kupca.
+
+### Efekt "Wykorzystano reakcję"
+
+Umożliwia włączenie automatycznego efektu dla aktorów, którzy wykorzystali swoją reakcję.
+
+### Znaczniki rund na czacie
+
+Pozwala oddzielić rundy za pomocą informacji na czacie.
+
+<img width="297" height="51" alt="obraz" src="https://github.com/user-attachments/assets/48f3d6f8-56a1-4e99-8a69-393b858b72c3" />
+
+### Efekty eksporacji
+
+Włącza automatyczne efekty ekspolarcji na aktorze.
+
+### Przygotowano akcję
+
+Dodaje efekt "Przygotowano akcję" dla aktora, który użył tej zdolności.
+
+### Własny znacznik tury
+
+Zmienia domyślny znacznik tury na własny okrąg.
+
+<img width="396" height="386" alt="obraz" src="https://github.com/user-attachments/assets/0efbb1a4-bb69-46c4-9e56-37743557d71f" />
+
+### Zmiana głównej czcionki
+
+Możliwość zmiany głównej czcionki przez każdego gracza z osobna.
+
+<img width="805" height="103" alt="obraz" src="https://github.com/user-attachments/assets/c028e1bc-0fa8-4839-996d-f0adbeb13aad" />
+
+### Kolumna obrażeń bazowych
+
+Dodaje szybki podgląd na średnie obrażenia danej broni. Wliczone są tylko runy uderzeń.
+
+<img width="493" height="84" alt="obraz" src="https://github.com/user-attachments/assets/6d5fd26f-e854-4ff7-8c56-db081f28d162" />
 
 ## Tłumaczenia
 
@@ -105,11 +141,11 @@ Indicates whether a setting is global or client-specific.
 
 Changes the visual style of journals.
 
-### Nonlethal Damage
+### Nonlethal and Lethal Damage
 
-Adds a button to the character sheet allowing any weapon to be used for nonlethal damage.
+Adds a button to the character sheet allowing any weapon to be used for nonlethal or lethal damage.
 
-![obraz](https://github.com/user-attachments/assets/e17f4bb1-d24b-45b0-abe4-93070c60b319)
+<img width="507" height="102" alt="obraz" src="https://github.com/user-attachments/assets/3bfb1b20-f876-4d0c-84a5-b779a44c25fd" />
 
 ### In-Game Time Automation
 
@@ -117,6 +153,42 @@ Allows enabling a game time HUD at the top of the screen that automatically upda
 
 ![obraz](https://github.com/user-attachments/assets/109955cf-8bf5-47bb-9cb7-01a25a2f240e)
 
-### Possibility to sell items to a merchant
+### Possibility to sell items to a merchant (for GM)
 
 The ability to sell items to a merchant.
+
+### “Reaction Used” Effect
+
+Enables an automatic effect for actors who have used their reaction.
+
+### Round Markers in Chat
+
+Allows separating rounds with informational messages in the chat.
+
+<img width="300" height="54" alt="obraz" src="https://github.com/user-attachments/assets/e315da3a-3eab-4471-be9e-5f0ab0803d78" />
+
+### Exploration Effects
+
+Enables automatic exploration effects on the actor.
+
+### “Ready Action”
+
+Adds a “Ready Action” effect to an actor who used this ability.
+
+### Custom Turn Marker
+
+Replaces the default turn marker with a custom circular one.
+
+<img width="396" height="386" alt="image" src="https://github.com/user-attachments/assets/0efbb1a4-bb69-46c4-9e56-37743557d71f" />
+
+### Main Font Change
+
+Allows each player to change the main font individually.
+
+<img width="805" height="120" alt="obraz" src="https://github.com/user-attachments/assets/6d8704c6-ad07-40c7-931d-a9e369d4eec5" />
+
+### Base Damage Column
+
+Adds a quick preview of the average damage for a given weapon. Only striking runes are included.
+
+<img width="490" height="79" alt="obraz" src="https://github.com/user-attachments/assets/467d53b8-d247-408b-bc75-29d38cae4640" />
