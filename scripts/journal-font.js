@@ -51,11 +51,29 @@ export function initializeJournalFont() {
  */
 export function addJournalFontResetButton() {
     Hooks.on("renderSettingsConfig", (_app, html) => {
-        const fieldset = html.find(`fieldset:has(select[name="${MODULE_ID}.journalFont"])`);
-        if (!fieldset.length) return;
+        // Upewnij się, że mamy jQuery-wrapped element (działa zarówno gdy html jest jQuery, jak i gdy jest HTMLElement)
+        const $html = (typeof jQuery !== "undefined") ? $(html) : (html instanceof HTMLElement ? $(html) : null);
+        if (!$html || !$html.length) return;
 
-        const btn = $(`<button type="button" style="margin-top:5px;">Przywróć domyślną czcionkę</button>`);
-        btn.on("click", () => resetJournalFont());
-        fieldset.append(btn);
+        // Znajdź select związany z naszym settingiem, potem weź najbliższy fieldset
+        const $select = $html.find(`select[name="${MODULE_ID}.journalFont"]`);
+        if (!$select.length) return;
+
+        const $fieldset = $select.closest("fieldset");
+        if (!$fieldset.length) return;
+
+        // Zapobiegaj wielokrotnemu dodaniu przycisku
+        if ($fieldset.find('.jp-reset-journal-font-btn').length) return;
+
+        const $btn = $(`<button type="button" class="jp-reset-journal-font-btn" style="margin-top:5px;">Przywróć domyślną czcionkę</button>`);
+        $btn.on("click", (ev) => {
+            ev.preventDefault();
+            resetJournalFont();
+            // opcjonalnie: odśwież okno ustawień, żeby pokazać zmianę (jeśli chcesz)
+            const app = game.apps?.find(a => a?.options?.id === "settings");
+            if (app) app.render(); // bez await
+        });
+
+        $fieldset.append($btn);
     });
 }
