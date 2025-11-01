@@ -220,7 +220,7 @@ Hooks.on("renderItemSheetPF2e", async (sheet) => {
   }
 
   const title = game.i18n.localize("lang-pl-addons-pf2e.runeDescriptionsTitle");
-  const newBlock = `${START}<h3>${title}</h3>${fragments.join("")}${END}`;
+  const newBlock = `${START}<div class="addendum"><h3>${title}</h3>${fragments.join("")}${END}</div>`;
   const finalDesc = originalDesc ? `${originalDesc}\n<hr>\n${newBlock}` : newBlock;
 
   await item.update({ "system.description.value": finalDesc });
