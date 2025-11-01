@@ -17,3 +17,8 @@
     font-family: "Almendra";
     src: url('../fonts/Almendra-Regular.ttf');
 }
+
+@font-face {
+    font-family: "Awery";
+    src: url('../fonts/AwerySmallcaps.ttf');
+}

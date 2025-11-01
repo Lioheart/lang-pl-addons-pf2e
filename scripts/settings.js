@@ -218,7 +218,8 @@ export function registerSettings() {
             "im-fell-english-pro": "IM Fell English Pro",
             "immortal": "Immortal",
             "kirsty": "Kirsty",
-            "almendra": "Almendra"
+            "almendra": "Almendra",
+            "awery": "Awery"
         },
         default: "default",
         onChange: (value) => applyJournalFont(value)

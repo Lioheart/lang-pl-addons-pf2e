@@ -9,7 +9,8 @@ export function applyJournalFont(fontKey) {
         "im-fell-english-pro": "IM Fell English Pro",
         "immortal": "Immortal",
         "kirsty": "Kirsty",
-        "almendra": "Almendra"
+        "almendra": "Almendra",
+        "awery": "Awery"
     };
 
     const fontName = fontMap[fontKey] || fontMap["default"];
