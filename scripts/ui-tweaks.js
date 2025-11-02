@@ -80,13 +80,15 @@ Hooks.on("renderActorSheetPF2e", (app, html, data) => {
         const translatedDamageType = game.i18n.localize(`PF2E.Trait${capitalizedDamageKey}`);
 
         const iconClass = getDamageIconClass(damageKey);
-        const damageString = `${baseDice}${dieType}`;
-        const cssClass = `dmg-${damageKey}`;
+        let damageString = `${baseDice}${dieType}`;
+        if (game.i18n.lang === "pl") {
+            damageString = damageString.replace(/d/gi, "k");
+        }
 
         const damageHTML = `
             <h4 class="damage-type" data-tooltip="${translatedDamageType}">
-                <span class="dmg-value ${cssClass}">
-                    ${damageString}<i class="${iconClass}" inert=""></i>
+                <span class="dmg-value damage color ${damageKey}">
+                    ${damageString} <i class="${iconClass}" inert=""></i>
                 </span>
             </h4>
         `;

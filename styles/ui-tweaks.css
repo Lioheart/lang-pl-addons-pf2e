@@ -27,19 +27,10 @@
 }
 
 /* --- Kolory z PF2e src/styles/_colors.scss --- */
-.dmg-acid       { background: #3f9c3522; color: #007300; }
-.dmg-bleed      { background: #a8000022; color: #99001a; }
-.dmg-bludgeoning{ background: #5d403722; color: #3c3c3c; }
-.dmg-cold       { background: #0277bd22; color: #2f2fa6; }
-.dmg-electricity{ background: #ef6c0022; color: darkgoldenrod; }
-.dmg-fire       { background: #e5393522; color: #a62f00; }
-.dmg-force      { background: #7e57c222; color: #6300aa; }
-.dmg-mental     { background: #00897b22; color: midnightblue; }
-.dmg-piercing   { background: #6d4c4122; color: #3c3c3c; }
-.dmg-poison     { background: #689f3822; color: #5b7332; }
-.dmg-slashing   { background: #8d6e6322; color: #3c3c3c; }
-.dmg-sonic      { background: #039be522; color: darkcyan; }
-.dmg-spirit     { background: #9c27b022; color: #5a5585; }
-.dmg-vitality   { background: #ffeb3b22; color: #ffffe0; text-shadow: 0px 0px 5px var(--color-shadow-dark);}
-.dmg-void       { background: #9e9e9e22; color: #00001f; }
-.dmg-untyped    { background: #bdbdbd22; color: #bdbdbd; }
+
+.damage.color.vitality { text-shadow: 0px 0px 3px var(--color-shadow-dark);}
+.damage.color.bludgeoning,
+.damage.color.piercing,
+.damage.color.slashing {
+  color: var(--color-text-dark-primary);
+}
