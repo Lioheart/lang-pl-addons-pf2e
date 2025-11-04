@@ -406,6 +406,10 @@
             "name": "Mak Lekarski",
             "description": "<p>Mak lekarski jest rośliną ozdobną często spotykaną w ogrodach. Uprawia się go ze względu na nasiona, olej i właściwości lecznicze. W połączeniu z mocnym alkoholem może być stosowany jako silny środek przeciwbólowy.</p>"
         },
+        "Breathing Aparatus": {
+            "name": "Aparat Oddechowy",
+            "description": "<p>To zmechanizowane urządzenie stworzone wyłącznie w celu ułatwienia uprawiania relaksujących hobby, takich jak nurkowanie, ale przydatne również w najgłębszych kopalniach, gdzie oddychanie jest luksusem. Urządzenie, wykonane głównie z miedzi, aby uniknąć rdzewienia, jest dość ciężkie ze względu na materiał, z którego zostało wykonane, i zaleca się, aby używali go wyłącznie wytrenowani profesjonaliści.</p>"
+        },
         "Brined Cheese": {
             "name": "Ser w zalewie",
             "description": "<p>Powszechnie znany jako akkawi, halloumi, feta lub telemea, ser ten jest powszechny i popularny w różnych regionach. Jego proces solenia sprawia, że jest idealny do sałatek, grillowania i tradycyjnych potraw w całym królestwie.</p><p></p>"
@@ -991,6 +995,10 @@
             "name": "Dioptaza",
             "description": "<p>Dioptaza jest bardzo lubiana przez kolekcjonerów klejnotów i czasami jest formowana w małe klejnoty do biżuterii. Innym zastosowaniem tego kamienia szlachetnego jest to, że można go również sproszkować i wykorzystać jako pigment do malowania. </p><p></p>"
         },
+        "Distilation Gear": {
+            "name": "Sprzęt do Destylacji",
+            "description": "<p>Wielu alchemików i tawern posiada ten produkt, ponieważ służy on do poprawy jakości eliksirów i napojów. Tworzenie najlepszych eliksirów lub najsilniejszych napojów wymaga jego użycia, ale ponieważ proces ten zajmuje dużo czasu, produkt końcowy często staje się bardzo drogi.</p>"
+        },
         "Djembe": {
             "name": "Bęben Djembe",
             "description": "<p>Djembe, czasami nazywane po prostu jembe, to bęben strojony liną, na którym gra się gołymi rękami. Jego nazwa w niektórych regionach oznacza „wszyscy gromadzą się razem w pokoju”, uosabiając jedność i ducha wspólnoty. Powłoka bębna jest wyrzeźbiona z twardego drewna, podczas gdy jego głowica jest tradycyjnie wykonana z surowej koziej skóry, co odzwierciedla jego głębokie korzenie kulturowe.</p>"
@@ -1050,6 +1058,10 @@
         "Dried Meat": {
             "name": "Suszone Mięso",
             "description": "<p>Proces suszenia mięsa jest długi i rozległy. W niektórych szczególnych przypadkach, dla najwyższej jakości suszonego mięsa, może trwać ponad rok. Jest ono bardzo poszukiwane ze względu na wydłużony okres przydatności do spożycia i, w zależności od użytego mięsa, jest, szczerze mówiąc, pyszne.</p>"
+        },
+        "Drill": {
+            "name": "Wiertarka",
+            "description": "<p>Ta ręczna wiertarka mechaniczna działa dzięki przekładniom i olejowi, obracając się w stałym ruchu okrężnym, aby drążyć głębiej w jednym punkcie. Wymaga ona wykwalifikowanych górników zaznajomionych z majsterkowaniem, ponieważ skaliste podłoże często zużywa głowicę wiertła, co wymaga częstej wymiany.</p><p></p>"
         },
         "Drinking Horn": {
             "name": "Róg do picia",
@@ -1138,6 +1150,10 @@
         "Expensive Fish & Where to Get Them": {
             "name": "Drogie ryby i gdzie je zdobyć",
             "description": "<p>Książka szybko zagłębia się w szczegóły dotyczące różnych obszarów połowowych, jednak wiele informacji wydaje się niekompletnych lub mylących. Jest ona powszechnie sprzedawana w tawernach przez samozwańczych sławnych rybaków, często kierując swoją ofertę do niewykwalifikowanych zwykłych ludzi, którzy chcą szybko się wzbogacić. Podstawowa przesłanka zachęca czytelników, aby po prostu udali się do najbliższego akwenu, złowili wszystko, co się da, i sprzedali to z zyskiem. W całej książce pojawia się powtarzający się slogan zachęcający do działania: „Jedna zdobycz może zmienić Twoje życie. Oto jak to zrobić!”.</p><p></p>"
+        },
+        "Exploding Stick": {
+            "name": "Eksplodujący Patyk",
+            "description": "<p>Eksplodujące patyki są zazwyczaj nazywane tak ze względu na ich przeznaczenie do wiercenia, aby stworzyć małe pęknięcia w ciężkiej, litej skale lub rudzie, tak aby można było następnie użyć kilofa lub wiertła. Zazwyczaj są one produkowane przez wyspecjalizowanego mechanika, który wykorzystuje do tego najlepszy proch strzelniczy i również je montuje. Nie powodują one dużego wybuchu, ale pozwalają wykonać zadanie polegające na usunięciu skał.</p><p></p>"
         },
         "Faction Earrings": {
             "name": "Kolczyki Frakcji",
@@ -1291,6 +1307,10 @@
             "name": "Garum",
             "description": "<p>Garum to sos wytwarzany głównie z ryb. W niektórych regionach nosi prostą nazwę sos rybny lub liquamen. Jednak liquamen na przestrzeni wieków przekształcił się w inny rodzaj sosu. Oryginalna receptura garum powstała w wyniku fermentacji resztek ryb z gruboziarnistą solą, w wyniku czego powstał ciemny, aromatyczny sos o znaczeniu kulinarnym, do którego można dodawać przyprawy i podawać z większością mięs lub małżami.</p>"
         },
+        "Gear": {
+            "name": "Sprzęt",
+            "description": "<p>Standardowy element przekładniowy, który pasuje do wszystkich urządzeń mechanicznych, od zegarów po drzwi i zawory ciśnieniowe. Jest to specjalistyczne narzędzie do wszystkich elementów i konstrukcji mechanicznych. Bez niego nie mogłyby one istnieć. Wykonany głównie z miedzi, mosiądzu lub brązu, jest odporny na rdzę i wytrzymuje dziesiątki lat.</p>"
+        },
         "Geelbeck Croaker": {
             "name": "Głuszec",
             "description": "<p>Głuszce są powszechnie spotykane w wodach przybrzeżnych, gromadząc się wokół raf, wraków i piaszczystego dna. Łatwo je złowić w dużych ilościach, wykorzystując jako przynętę małe ryby, takie jak sardynki lub śledzie. Ich łagodne, aromatyczne mięso sprawia, że są ulubieńcami szefów kuchni, przygotowywanymi na różne sposoby, od pieczenia po smażenie.</p>"
@@ -1326,6 +1346,10 @@
         "Gleaming Unicorn": {
             "name": "Lśniący Jednorożec",
             "description": "<p>Kiedy leśne ludy próbują stworzyć nowe leśne kręgi, używają formy pierwotnej magii, aby wydobyć wszystkie metale z ziemi, a z metali szlachetnych, które wykopują, tworzą monety. Monety te są stopem platyny i srebra, dzięki czemu są dość cennym towarem i są wykorzystywane do handlu, gdy udają się do cywilizacji. Ich wartość wynosi około 25% platyny. </p>"
+        },
+        "Glider Wings": {
+            "name": "Skrzydła Szybowcowe",
+            "description": "<p>Chociaż niewielu rozumie skomplikowane zasady aerodynamiki, niektórzy wykorzystują parę półmechanicznych skrzydeł, aby poruszać się szybciej niż pieszo. Zazwyczaj są one wykonane z bardzo lekkiej aluminiowej ramy wzmocnionej tkaniną, podobną do tej używanej w największych żaglach statków.</p><p></p>"
         },
         "Gneiss": {
             "name": "Gnejs",
@@ -1382,6 +1406,10 @@
         "Goulash": {
             "name": "Gulasz",
             "description": "<p>Gulasz to obfity gulasz z różnych kawałków mięsa, cebuli i papryki, gotowany powoli w kotle na małym ogniu. Zazwyczaj przygotowuje się go tak, aby był dość pikantny, idealny do delektowania się z dodatkiem, takim jak tłuczone ziemniaki.</p>"
+        },
+        "Grandfather Clock": {
+            "name": "Drewniany Zegar",
+            "description": "<p>Dziadkowy zegar, znany również jako zegar długi, zegar wysoki, zegar holowy lub zegar podłogowy, to wysoki, wolnostojący zegar wahadłowy napędzany ciężarkiem, którego wahadło znajduje się wewnątrz wieży lub środkowej części obudowy. Są one tworzone przez najbardziej doświadczonych stolarzy, z pomocą wyspecjalizowanych inżynierów.</p>"
         },
         "Granite": {
             "name": "Granit",
@@ -1642,6 +1670,10 @@
         "Ironwood Log": {
             "name": "Kłoda Żelazodrewna",
             "description": "<p><em>„Nazywamy je Żelazodrewno, ale zazwyczaj ma swoją własną nazwę w zależności od regionu. Ludzie w tartakach nienawidzą tego rodzaju drewna, ponieważ prawie za każdym razem muszą wymieniać główne ostrze. Nie wspominając o tym, że jeśli ktoś chce mieć z niego tarcicę, musi mieć też odpowiednią ilość złota. Jest bardzo wytrzymałe!”</em><br /><br /></p>\n<p>Żelazodrewno występuje w kilku kolorach, od czerwonego przez szary do jasnobrązowego, w zależności od regionu, w którym zostało pozyskane. Używane jest głównie jako drewno opałowe, ponieważ spala się bardzo wolno. Jeśli chodzi o meble, jest ono zwykle używane tylko do małych dodatków dekoracyjnych, ponieważ większość narzędzi stolarskich nie jest w stanie go wyrzeźbić. </p>"
+        },
+        "Jackhammer": {
+            "name": "Młot Pneumatyczny",
+            "description": "<p>Młot pneumatyczny to narzędzie pneumatyczne, napędzane parą lub mechaniczne, które łączy w sobie młotek i dłuto. Zostało stworzone specjalnie do dłutowania twardszych kamieni, które nie wymagają delikatności, aby rozbić je na mniejsze kawałki i ułatwić transport.</p>"
         },
         "Jade": {
             "name": "Jadeit",
@@ -1943,6 +1975,10 @@
             "name": "Mięso z Polowania",
             "description": "<p>To danie zawiera ugotowany kawałek dziczyzny przyniesiony przez poszukiwaczy przygód. Mięsa te zazwyczaj nie znajdują się w menu większości tawern i są przeznaczone dla najodważniejszych klientów, którzy nie boją się eksperymentować. </p>"
         },
+        "Mechanized Key": {
+            "name": "Mechaniczny Klucz",
+            "description": "<p>Klucze tego typu są raczej brakującymi elementami złożonej konstrukcji inżynieryjnej. Nazywane są kluczami, ponieważ po umieszczeniu w przeznaczonych dla nich otworach uruchamiają mechanizm konstrukcji. Klucze te są zazwyczaj używane do skarbców i tylko nieliczni potrafią je wykonać.</p>"
+        },
         "Menu": {
             "name": "Menu",
             "description": "<div style=\"background-image:url('modules/kctg-2e/images/Menu%20Assets/background.webp');background-size:cover;background-repeat:no-repeat;background-position:center;padding:1rem;border:1px solid #eed292;border-radius:25px;color:white\"><img src=\"modules/kctg-2e/images/Menu%20Assets/Menu.webp\" style=\"border:none\" /><p><span style=\"color:black\">@UUID[Compendium.kctg-2e.kctg-2e.Item.FKpH0HjMlE2VJbM8]</span> - 8 sm (20% zniżki)<br /><span style=\"color:black\">@UUID[Compendium.kctg-2e.kctg-2e.Item.QAua3lPmPfk2HEBS]</span> - 2 sm<br /><span style=\"color:black\">@UUID[Compendium.kctg-2e.kctg-2e.Item.6QEYPg65gmIDfDM6]</span> - Lokalna specjalność - 4 sm</p><p><br /></p><img src=\"modules/kctg-2e/images/Menu%20Assets/Main Dish.webp\" alt=\"Menu\" style=\"filter:drop-shadow(1.5px 1.5px 1.5px rgba(1,1,1,1));border:none\" /><p></p><p><span style=\"color:black\">@UUID[Compendium.kctg-2e.kctg-2e.Item.INzGIklfSqIhCHuw]</span> - 5 sm<br /><span style=\"color:black\">@UUID[Compendium.kctg-2e.kctg-2e.Item.iYLfDwgVhnNTV4zN]</span> - 4 sm<br /><span style=\"color:black\">@UUID[Compendium.kctg-2e.kctg-2e.Item.r5LKtqFTCzxTYCY1]</span> - 4 sm</p><img src=\"modules/kctg-2e/images/Menu%20Assets/Drinks.webp\" alt=\"Menu\" style=\"filter:drop-shadow(1.5px 1.5px 1.5px rgba(1,1,1,1));border:none\" /><p><span style=\"color:black\">@UUID[Compendium.kctg-2e.kctg-2e.Item.OpfF7Z7Gcyjbq8Xr]</span> - 2 sm<br /><span style=\"color:black\">@UUID[Compendium.kctg-2e.kctg-2e.Item.da1m3ehDF8KCxqp7]</span> - 3 sm</p><img src=\"modules/kctg-2e/images/Menu%20Assets/Deserts.webp\" alt=\"Menu\" style=\"filter:drop-shadow(1.5px 1.5px 1.5px rgba(1,1,1,1));border:none\" /><p><span style=\"color:black\">@UUID[Compendium.kctg-2e.kctg-2e.Item.kuwerA6VBngdhugw]</span> - 2 sm<br /><span style=\"color:black\">@UUID[Compendium.kctg-2e.kctg-2e.Item.EoDbfdDCIYE4osir]</span> - 2 sm</p><img src=\"modules/kctg-2e/images/Menu%20Assets/Events.webp\" alt=\"Menu\" style=\"filter:drop-shadow(1.5px 1.5px 1.5px rgba(1,1,1,1));border:none\" /><p>Wizyta króla – przesilenie zimowe <br /><br /></p><p></p></div>"
@@ -1966,6 +2002,14 @@
         "Mimic Sandwich": {
             "name": "Kanapka Mimik",
             "description": "<p>Pierwszy raz widziałem coś takiego, jak sądzę, w nadrzecznej tawernie w Vaslui podczas Czerwonych Żniw. Prawie wylałem piwo ze śmiechu. Wyobraźcie sobie kanapkę z gotowanymi jajkami, które spoglądają na was z góry, przybite patyczkami selera, z zielonymi i czarnymi oliwkami umieszczonymi w białkach, aby nadać „oczom” głodny błysk. Właściciel tawerny ułożył plasterek ogórka z boku jak zwisający język, a ser, roztopiony i wyciekający z chleba, przypominał krzywe zęby. Ma to oczywiście przypominać mimikę, a po kilku kuflach, kiedy pokój zaczyna się kręcić, zaczyna wyglądać niepokojąco realistycznie.</p><p></p>"
+        },
+        "Mine Cart": {
+            "name": "Wózek Górniczy",
+            "description": "<p>Stworzone wyłącznie w celu usuwania gruzu z kopalń, mogą być również wykorzystywane do transportu górników w głąb kopalni, do miejsc pracy. Zazwyczaj pod koniec dnia są one przenoszone z powrotem do wejścia przez zwykłych ludzi lub zwierzęta gospodarskie, ale w niektórych obszarach opracowano systemy transportu linowego, aby ułatwić ich ciągnięcie.</p>"
+        },
+        "Mine Rails": {
+            "name": "Szyny Kopalniane",
+            "description": "<p>Wykonane ze stali, aby wytrzymać duże obciążenia wózków przewożących rudę i skały. Kowale, podczas ich wytwarzania, muszą używać najlepszych materiałów, jakie mają w magazynie, aby zapewnić ich trwałość i odporność na ekstremalne ciśnienia i temperatury.</p>"
         },
         "Mishanite": {
             "name": "Miszanit",
@@ -2138,6 +2182,10 @@
         "Ochre Fish": {
             "name": "Ryba Ochra",
             "description": "<p>Ochra to przezroczysta ryba, nieco kwaśna i lepka w dotyku, znana z tego, że koroduje większość haczyków po złowieniu. Zwykle występuje w morzach i oceanach, które nie są zakłócane przez ruch statków. Złapanie tej ryby wiąże się ze złymi wróżbami dla bardziej doświadczonych rybaków, ponieważ całe ławice ryb ochry mają tendencję do przyklejania się do brzucha łodzi rybackich, powoli korodując materiał i zatapiając je. Alchemicy przeprowadzali eksperymenty mające na celu uszlachetnienie jej kwaśnej wydzieliny w silne rozpuszczalniki, a nawet broń.</p>"
+        },
+        "Oil Lamp": {
+            "name": "Lampa Olejowa",
+            "description": "<p>Działają one w taki sam sposób jak świeca, ale wykorzystują paliwo, które w temperaturze pokojowej ma postać płynną, dlatego wymagają pojemnika na olej. Tekstylny knot zanurza się w oleju i zapala się jego koniec, co powoduje spalanie oleju w miarę jego wchłaniania przez knot. Źródłem paliwa dla lamp olejowych są różne rośliny, takie jak orzechy i nasiona, ale powszechnie stosuje się również tłuszcze zwierzęce.</p>"
         },
         "Oligoclase": {
             "name": "Oligoklaz",
@@ -2371,6 +2419,10 @@
             "name": "Nasiona Śliwek",
             "description": "<p>Proces sadzenia śliwek ma wiele podobieństw do sadzenia brzoskwiń. Wymaga on jednak jeszcze większej uwagi w zakresie kontroli temperatury. Nasiona potrzebują okresu zimnej ekspozycji, aby przełamać stan uśpienia, a czas musi być odpowiedni, aby zapewnić, że nasiona nie są narażone na zbyt duże ciepło lub mróz. Ten krytyczny okres jest powodem, dla którego tylko najbardziej doświadczeni farmerzy lub zielarze podejmują się tego zadania, zapewniając, że nasiona śliwek mają idealny stan do udanego wysiewu.</p><p></p>"
         },
+        "Pocketwatch": {
+            "name": "Zegarek Kieszonkowy",
+            "description": "<p>Zegarki kieszonkowe występują w dwóch różnych typach. Zegarek kieszonkowy typu hunter ma obudowę z okrągłą metalową pokrywą lub klapką na sprężynowych zawiasach, która zamyka tarczę zegarka, chroniąc ją przed kurzem, zarysowaniami i innymi uszkodzeniami lub zanieczyszczeniami, natomiast zegarek typu otwartego nie ma metalowej pokrywy chroniącej przednią szybkę.</p>"
+        },
         "Pollucite": {
             "name": "Pollucyt",
             "description": "<p>Pollucyt jest zwykle przezroczystym, kruchym białym kamieniem. W niektórych regionach jest on kruszony i mieszany z winem do spożycia, co ma przynosić wyjątkowe szczęście. Pomimo tradycyjnych wierzeń, uzdrowiciele i zielarze ostrzegają, że często powoduje silny ból brzucha.</p>"
@@ -2406,6 +2458,14 @@
         "Prehnite": {
             "name": "Prehnit",
             "description": "<p>Prehnit często znajduje się w podszewce jam gazowych w utwardzonych formacjach lawy. Jednak materiał ten rzadko ma wymaganą grubość lub atrakcyjne zabarwienie, aby można go było rozważyć do cięcia kamieni szlachetnych.</p><p></p>"
+        },
+        "Pressure Gauge": {
+            "name": "Manometr",
+            "description": "<p>Manometr to przyrząd pomiarowy służący do monitorowania siły występującej w zamkniętych systemach, takich jak przewody parowe lub aparatura alchemiczna. Niektóre jego odmiany skupiają się na tajemniczych mechanizmach, wykorzystując zaklęte płyny lub duchy żywiołów do wykrywania fluktuacji siły, które byłyby niewidoczne gołym okiem.</p>"
+        },
+        "Pressurized Container": {
+            "name": "Zbiornik Ciśnieniowy",
+            "description": "<p>Stworzone specjalnie w celu przechowywania najbardziej lotnych materiałów i utrzymywania ich pod ciśnieniem, takich jak określone gazy, powietrze, oddechy mitycznych bestii lub tajemnicze związki. Zazwyczaj, jeśli pojawia się jedna z tych szczelin, nawet jeśli są one wykonane z wytrzymałych materiałów, dochodzi do katastrofy.</p>"
         },
         "Pumpkin": {
             "name": "Dynia",
@@ -2446,6 +2506,10 @@
         "Purple Vampire Crab": {
             "name": "Fioletowy Krab Wampir",
             "description": "<p>Niesamowitą rzeczą, jaką usłyszałem od starego poławiacza krabów z delty, jest to, że intensywność fioletowego koloru na ich skorupkach przewiduje surowość nadchodzącej zimy. Im głębszy fiolet, tym silniejsze mrozy. Twierdził również, że jeśli trzyma się kraba w akwarium, będzie on dobrze się rozwijał tylko wtedy, gdy co miesiąc dodaje się do wody szczyptę mułu z jego rodzimej delty. Nazywał to „tęsknotą za domem” i myślę, że mógł mieć rację.</p>"
+        },
+        "Puzzle Box": {
+            "name": "Pudełko z łamigłówkami",
+            "description": "<p>Ta mała zabawka ma ostrzeżenie, że zawiera małe części. Chociaż jest zmechanizowana, pudełko z łamigłówkami jest głównie dla małych dzieci, żeby pomóc im w rozwoju poznawczym. Ma wiele małych trybików i kół zębatych. Ale kiedy w końcu się je otwiera, rodzice zawsze zostawiają w nim coś fajnego dla dzieci.</p>"
         },
         "Pyrope": {
             "name": "Pirop",
@@ -3019,6 +3083,10 @@
             "name": "Stołek",
             "description": "<p>Standardowy drewniany stołek używany w wielu tawernach jest często wykorzystywany jako improwizowana broń w przypadku bójki.</p><p></p>"
         },
+        "Stopwatch": {
+            "name": "Stoper",
+            "description": "<p>Mechaniczne stopery są zasilane sprężyną napędową, którą należy nakręcić, zazwyczaj poprzez obrócenie radełkowanego pokrętła znajdującego się w górnej części stopera. Są one używane głównie do pomiaru czasu, który upłynął w różnych dziedzinach, takich jak sport, treningi i nauka, podczas takich czynności jak bieganie lub przeprowadzanie eksperymentów.</p>"
+        },
         "Strawberry": {
             "name": "Truskawka",
             "description": "<p>Truskawki są ulubionym owocem wszystkich ludzi, ponieważ uważa się, że przynoszą szczęście. Oprócz spożywania świeżych truskawek, można z nich robić dżem, a także suszyć, aby wykorzystać je w gotowanych potrawach.  </p>"
@@ -3142,6 +3210,14 @@
         "Tiger's Eye": {
             "name": "Tygrysie Oko",
             "description": "<p>Jeden z bardziej powszechnych kamieni szlachetnych, używany jako symbol statusu wśród zwykłych ludzi, ponieważ występuje w połączeniu złota i czerni. Ze względu na wysoki popyt, w zależności od regionu, może być dość rzadki. W większości przesądnych grup zakłada się, że kamień ten odstrasza nieumarłych i niespokojne duchy.</p>"
+        },
+        "Timed Explosive": {
+            "name": "Ładunek Wybuchowy z Czasomierzem",
+            "description": "<p>Ładunki czasowe to urządzenia, które detonują po upływie określonego czasu, często wykorzystując zegar do wywołania eksplozji, dając wystarczająco dużo czasu, aby zdążyć się schronić. Opóźnione eksplozje pozwalają na przemieszczenie się odłamków skał przed detonacją kolejnego ładunku, maksymalizując skuteczność wybuchu i zmniejszając wibracje, które mogłyby uszkodzić strukturę kopalni.</p><p></p>"
+        },
+        "Timer": {
+            "name": "Czasomierz",
+            "description": "<p>Zazwyczaj kojarzony z materiałami wybuchowymi, stosowany w sytuacjach, gdy konieczne jest wywołanie wielu eksplozji jednocześnie. To niesamowite osiągnięcie inżynierii, wykorzystywane zarówno do burzenia murów bramowych, jak i solidnych ścian kopalń. Zegar jest niezbędny do zaplanowania reakcji łańcuchowej. Jednakże jest on również wykorzystywany podczas wydarzeń sportowych, aby zapewnić jednoznaczne wskazanie zwycięzcy.</p>"
         },
         "Timpani": {
             "name": "Kotły",

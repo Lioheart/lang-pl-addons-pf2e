@@ -106,8 +106,9 @@ Dodaje szybki podgląd na średnie obrażenia danej broni. Wliczone są tylko ru
 - [Pf2e Variant Cantrips](https://foundryvtt.com/packages/pf2e-variant-cantrips/) - Foundry v12
 - [PF2e Relics](https://foundryvtt.com/packages/pf2e-relics/) - Foundry v13
 - [PF2e Alchemist Remaster Duct Tape](https://foundryvtt.com/packages/pf2e-alchemist-remaster-ducttape/) - Foundry v13
-- [PF2e Summons Assistant](https://foundryvtt.com/packages/pf2e-summons-assistant/) - Foundry v13- 
+- [PF2e Summons Assistant](https://foundryvtt.com/packages/pf2e-summons-assistant/) - Foundry v13
 - [Hopefinder for Pathfinder 2e](https://foundryvtt.com/packages/hopefinder/) - Foundry v13
+- [PF2e Prisha's Precious Projectiles](https://foundryvtt.com/packages/prishas-precious-projectiles) - Foundry v13
 
 ### W trakcie opracowywania
 

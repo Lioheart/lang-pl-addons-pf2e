@@ -1,0 +1,269 @@
+{
+    "label": "Wartościowe Pociski Prishy",
+    "folders": {
+        "Bolts": "Bełty",
+        "Rounds": "Rundy",
+        "Blowgun Darts": "Rzutki do Dmuchawki",
+        "Sling Bullets": "Pociski do Procy",
+        "Arrows": "Strzały",
+        "Magazines": "Magazynki"
+    },
+    "entries": {
+        "Adamantine Arrows (High-Grade)": {
+            "name": "Strzały z Adamantyny (wysokiej jakości)",
+            "description": "Są to standardowe strzały, ale ich groty wykonane są z wysokiej jakości adamantyny, dzięki czemu można ich używać z magicznymi łukami."
+        },
+        "Adamantine Arrows (Standard-Grade)": {
+            "name": "Strzały z Adamantyny (standardowej jakości)",
+            "description": "Są to standardowe strzały, ale ich groty wykonane są ze standardowej jakości adamantyny, dzięki czemu mogą być używane z łukami magicznymi do 15. poziomu."
+        },
+        "Adamantine Blowgun Darts (High-Grade)": {
+            "name": "Rzutki do Dmuchawki z Adamantyny (wysokiej jakości)",
+            "description": "Są to standardowe rzutki do dmuchawki, ale mają końcówki z wysokiej jakości adamantyny, dzięki czemu można ich używać z magicznymi dmuchawkami."
+        },
+        "Adamantine Blowgun Darts (Standard-Grade)": {
+            "name": "Rzutki do Dmuchawki z Adamantyny (standardowej jakości)",
+            "description": "Są to standardowe strzałki do dmuchawki, ale mają końcówki ze standardowej jakości adamantyny, dzięki czemu mogą być używane z magicznymi dmuchawkami do 15. poziomu."
+        },
+        "Adamantine Bolts (High-Grade)": {
+            "name": "Bełty z Adamantyny (wysokiej jakości)",
+            "description": "Są to standardowe bełty do kuszy, ale ich groty wykonane są z wysokiej jakości adamantyny, dzięki czemu mogą być używane w magicznych kuszach."
+        },
+        "Adamantine Bolts (Standard-Grade)": {
+            "name": "Bełty z Adamantyny (standardowej jakości)",
+            "description": "Są to standardowe bełty do kuszy, ale ich groty są wykonane ze standardowej jakości adamantyny, dzięki czemu mogą być używane w magicznych kuszach do 15. poziomu."
+        },
+        "Adamantine Dueling Pistol Rounds (High-Grade)": {
+            "name": "Pociski do Pistoletu Pojedynkowego z Adamantyny (wysokiej jakości)",
+            "description": "Są to standardowe pociski do pistoletów pojedynkowych, ale wykonane są z wysokiej jakości adamantyny, dzięki czemu mogą być używane w magicznych pistoletach pojedynkowych."
+        },
+        "Adamantine Dueling Pistol Rounds (Standard-Grade)": {
+            "name": "Pociski do Pistoletu Pojedynkowego z Adamantyny (standardowej jakości)",
+            "description": "Są to standardowe pociski do pistoletów pojedynkowych, ale wykonane są ze standardowej jakości adamantyny, dzięki czemu mogą być używane w magicznych pistoletach pojedynkowych do 15. poziomu."
+        },
+        "Adamantine Sling Bullets (High-Grade)": {
+            "name": "Pociski do Procy z Adamantyny (wysokiej jakości)",
+            "description": "Są to standardowe pociski do procy, ale wykonane są z wysokiej jakości adamantyny, dzięki czemu mogą być używane z magicznymi procami."
+        },
+        "Adamantine Sling Bullets (Standard-Grade)": {
+            "name": "Pociski do Procy z Adamantyny (standardowej jakości)",
+            "description": "Są to standardowe pociski do procy, ale wykonane są ze standardowej jakości adamantyny, więc mogą być używane z magicznymi procami do 15. poziomu."
+        },
+        "Cold Iron Arrows (High-Grade)": {
+            "name": "Strzały z Zimnego Żelaza (wysokiej jakości)",
+            "description": "Są to standardowe strzały, ale ich groty wykonane są z wysokiej jakości zimnego żelaza, dzięki czemu można ich używać z magicznymi łukami."
+        },
+        "Cold Iron Arrows (Low-Grade)": {
+            "name": "Strzały z Zimnego Żelaza (niskiej jakości)",
+            "description": "Są to standardowe strzały, ale ich groty wykonane są z niskiej jakości zimnego żelaza, dzięki czemu mogą być używane z magicznymi łukami do 8. poziomu."
+        },
+        "Cold Iron Arrows (Standard-Grade)": {
+            "name": "Strzały z Zimnego Żelaza (standardowej jakości)",
+            "description": "Są to standardowe strzały, ale ich groty wykonane są ze standardowej jakości zimnego żelaza, dzięki czemu mogą być używane z magicznymi łukami do 15. poziomu."
+        },
+        "Cold Iron Blowgun Darts (High-Grade)": {
+            "name": "Rzutki do Dmuchawki z Zimnego Żelaza (wysokiej jakości)",
+            "description": "Są to standardowe rzutki do dmuchawek, ale mają końcówki z wysokiej jakości zimnego żelaza, dzięki czemu można ich używać z magicznymi dmuchawkami."
+        },
+        "Cold Iron Blowgun Darts (Low-Grade)": {
+            "name": "Rzutki do Dmuchawki z Zimnego Żelaza (niskiej jakości)",
+            "description": "Są to standardowe rzutki do dmuchawki, ale mają końcówki z niskiej jakości zimnego żelaza, dzięki czemu mogą być używane z magicznymi dmuchawkami do 8. poziomu."
+        },
+        "Cold Iron Blowgun Darts (Standard-Grade)": {
+            "name": "Rzutki do Dmuchawki z Zimnego Żelaza (standardowej jakości)",
+            "description": "Są to standardowe rzutki do dmuchawki, ale mają one końcówki ze standardowej jakości zimnego żelaza, dzięki czemu mogą być używane z magicznymi dmuchawkami do 15. poziomu."
+        },
+        "Cold Iron Bolts (High-Grade)": {
+            "name": "Bełty z Zimnego Żelaza (wysokiej jakości)",
+            "description": "Są to standardowe bełty do kuszy, ale ich groty wykonane są z wysokiej jakości zimnego żelaza, dzięki czemu mogą być używane w magicznych kuszach."
+        },
+        "Cold Iron Bolts (Low-Grade)": {
+            "name": "Bełty z Zimnego Żelaza (niskiej jakości)",
+            "description": "Są to standardowe bełty do kuszy, ale ich groty są wykonane z niskiej jakości zimnego żelaza, dzięki czemu mogą być używane z magicznymi kuszami do 8. poziomu."
+        },
+        "Cold Iron Bolts (Standard-Grade)": {
+            "name": "Bełty z Zimnego Żelaza (standardowej jakości)",
+            "description": "Są to standardowe bełty do kuszy, ale ich groty są wykonane ze standardowej jakości zimnego żelaza, dzięki czemu mogą być używane z magicznymi kuszami do 15. poziomu."
+        },
+        "Cold Iron Dueling Pistol Rounds (High-Grade)": {
+            "name": "Pociski do Pistoletu Pojedynkowego z Zimnego Żelaza (wysokiej jakości)",
+            "description": "Są to standardowe pociski do pistoletów pojedynkowych, ale wykonane są z wysokiej jakości zimnego żelaza, dzięki czemu mogą być używane w magicznych pistoletach pojedynkowych."
+        },
+        "Cold Iron Dueling Pistol Rounds (Low-Grade)": {
+            "name": "Pociski do Pistoletu Pojedynkowego z Zimnego Żelaza (niskiej jakości)",
+            "description": "Są to standardowe pociski do pistoletów pojedynkowych, ale są one wykonane z niskiej jakości zimnego żelaza, więc mogą być używane z magicznymi pistoletami pojedynkowymi do 8. poziomu."
+        },
+        "Cold Iron Dueling Pistol Rounds (Standard-Grade)": {
+            "name": "Pociski do Pistoletu Pojedynkowego z Zimnego Żelaza (standardowej jakości)",
+            "description": "Są to standardowe pociski do pistoletów pojedynkowych, ale są one wykonane ze standardowej jakości zimnego żelaza, więc mogą być używane z magicznymi pistoletami pojedynkowymi do 15. poziomu."
+        },
+        "Cold Iron Sling Bullets (High-Grade)": {
+            "name": "Pociski do Procy z Zimnego Żelaza (wysokiej jakości)",
+            "description": "Są to standardowe pociski do procy, ale wykonane są z wysokiej jakości zimnego żelaza, dzięki czemu mogą być używane z magicznymi procami."
+        },
+        "Cold Iron Sling Bullets (Low-Grade)": {
+            "name": "Pociski do Procy z Zimnego Żelaza (niskiej jakości)",
+            "description": "Są to standardowe pociski do procy, ale wykonane są z niskiej jakości zimnego żelaza, więc mogą być używane z magicznymi procami do 8. poziomu."
+        },
+        "Cold Iron Sling Bullets (Standard-Grade)": {
+            "name": "Pociski do Procy z Zimnego Żelaza (standardowej jakości)",
+            "description": "Są to standardowe pociski do procy, ale wykonane są ze standardowej jakości zimnego żelaza, więc mogą być używane z magicznymi procami do 15. poziomu."
+        },
+        "Repeating Crossbow Magazine with Adamantine Bolts (High-Grade)": {
+            "name": "Magazynek do Kuszy Powtarzalnej z Bełtami z Adamantyny (wysokiej jakości)",
+            "description": "Jest to magazyn na 5 bełtów do kusz powtarzalnych, ale groty są wykonane z wysokiej jakości adamantyny, dzięki czemu można ich używać w magicznych kuszach powtarzalnych."
+        },
+        "Repeating Crossbow Magazine with Adamantine Bolts (Standard-Grade)": {
+            "name": "Magazynek do Kuszy Powtarzalnej z Bełtami z Adamantyny (standardowej jakości)",
+            "description": "Jest to magazyn zawierający 5 bełtów przeznaczonych do kusz powtarzalnych, ale ich groty są wykonane ze standardowej jakości adamantyny, dzięki czemu mogą być używane z magicznymi kuszami powtarzalnymi do 15. poziomu."
+        },
+        "Repeating Crossbow Magazine with Cold Iron Bolts (High-Grade)": {
+            "name": "Magazynek do Kuszy Powtarzalnej z Bełtami z Zimnego Żelaza (wysokiej jakości)",
+            "description": "Jest to magazyn na 5 bełtów do użycia z kuszami powtarzalnymi, ale groty są wykonane z wysokiej jakości zimnego żelaza, dzięki czemu można ich używać z magicznymi kuszami powtarzalnymi."
+        },
+        "Repeating Crossbow Magazine with Cold Iron Bolts (Low-Grade)": {
+            "name": "Magazynek do Kuszy Powtarzalnej z Bełtami z Zimnego Żelaza (niskiej jakości)",
+            "description": "Jest to magazyn zawierający 5 bełtów do użycia z kuszami powtarzalnymi, ale groty są wykonane z niskiej jakości zimnego żelaza, więc mogą być używane z magicznymi kuszami powtarzalnymi do 8. poziomu."
+        },
+        "Repeating Crossbow Magazine with Cold Iron Bolts (Standard-Grade)": {
+            "name": "Magazynek do Kuszy Powtarzalnej z Bełtami z Zimnego Żelaza (standardowej jakości)",
+            "description": "Jest to magazyn zawierający 5 bełtów przeznaczonych do kusz powtarzalnych, ale ich groty są wykonane ze standardowej zimnej stali, dzięki czemu mogą być używane w magicznych kuszach powtarzalnych do 15. poziomu."
+        },
+        "Repeating Crossbow Magazine with Silver Bolts (High-Grade)": {
+            "name": "Magazynek do Kuszy Powtarzalnej z Bełtami ze Srebra (wysokiej jakości)",
+            "description": "Jest to magazyn na 5 bełtów do kusz powtarzalnych, ale groty są wykonane z wysokiej jakości srebra, dzięki czemu można ich używać w magicznych kuszach powtarzalnych."
+        },
+        "Repeating Crossbow Magazine with Silver Bolts (Low-Grade)": {
+            "name": "Magazynek do Kuszy Powtarzalnej z Bełtami ze Srebra (niskiej jakości)",
+            "description": "Jest to magazyn zawierający 5 bełtów do użycia z kuszami powtarzalnymi, ale ich groty są wykonane z niskiej jakości srebra, więc można ich używać z magicznymi kuszami powtarzalnymi do 8. poziomu."
+        },
+        "Repeating Crossbow Magazine with Silver Bolts (Standard-Grade)": {
+            "name": "Magazynek do Kuszy Powtarzalnej z Bełtami ze Srebra (standardowej jakości)",
+            "description": "Jest to magazyn zawierający 5 bełtów przeznaczonych do kusz powtarzalnych, ale ich groty są wykonane ze srebra standardowej jakości, dzięki czemu można ich używać w magicznych kuszach powtarzalnych do 15. poziomu."
+        },
+        "Repeating Hand Crossbow Magazine with Adamantine Bolts (High-Grade)": {
+            "name": "Magazynek do Ręcznej Kuszy Powtarzalnej z Bełtami z Adamantyny (wysokiej jakości)",
+            "description": "Jest to magazyn na 5 bełtów do użytku z powtarzalnymi ręcznymi kuszami, ale groty są wykonane z wysokiej jakości adamantyny, dzięki czemu można ich używać z magicznymi powtarzalnymi ręcznymi kuszami."
+        },
+        "Repeating Hand Crossbow Magazine with Adamantine Bolts (Standard-Grade)": {
+            "name": "Magazynek do Ręcznej Kuszy Powtarzalnej z Bełtami z Adamantyny (standardowej jakości)",
+            "description": "Jest to magazyn zawierający 5 bełtów przeznaczonych do powtarzalnych ręcznych kusz, ale ich groty są wykonane ze standardowej jakości adamantyny, dzięki czemu można ich używać w magicznych powtarzalnych ręcznych kuszach do 15. poziomu."
+        },
+        "Repeating Hand Crossbow Magazine with Cold Iron Bolts (High-Grade)": {
+            "name": "Magazynek do Ręcznej Kuszy Powtarzalnej z Bełtami z Zimnego Żelaza (wysokiej jakości)",
+            "description": "Jest to magazyn na 5 bełtów do użytku z powtarzalnymi ręcznymi kuszami, ale groty są wykonane z wysokiej jakości zimnego żelaza, dzięki czemu można ich używać z magicznymi powtarzalnymi ręcznymi kuszami."
+        },
+        "Repeating Hand Crossbow Magazine with Cold Iron Bolts (Low-Grade)": {
+            "name": "Magazynek do Ręcznej Kuszy Powtarzalnej z Bełtami z Zimnego Żelaza (niskiej jakości)",
+            "description": "Jest to magazyn zawierający 5 bełtów do użytku z powtarzalnymi kuszami ręcznymi, ale groty są wykonane z niskiej jakości zimnego żelaza, więc mogą być używane z magicznymi powtarzalnymi kuszami ręcznymi do 8. poziomu."
+        },
+        "Repeating Hand Crossbow Magazine with Cold Iron Bolts (Standard-Grade)": {
+            "name": "Magazynek do Ręcznej Kuszy Powtarzalnej z Bełtami z Zimnego Żelaza (standardowej jakości)",
+            "description": "Jest to magazyn zawierający 5 bełtów przeznaczonych do powtarzalnych kusz ręcznych, ale ich groty są wykonane ze standardowej zimnej stali, dzięki czemu można ich używać w magicznych powtarzalnych kuszach ręcznych do 15. poziomu."
+        },
+        "Repeating Hand Crossbow Magazine with Silver Bolts (High-Grade)": {
+            "name": "Magazynek do Ręcznej Kuszy Powtarzalnej z Bełtami ze Srebra (wysokiej jakości)",
+            "description": "Jest to magazyn na 5 bełtów do użytku z powtarzalnymi kuszami ręcznymi, ale groty są wykonane z wysokiej jakości srebra, dzięki czemu można ich używać z magicznymi powtarzalnymi kuszami ręcznymi."
+        },
+        "Repeating Hand Crossbow Magazine with Silver Bolts (Low-Grade)": {
+            "name": "Magazynek do Ręcznej Kuszy Powtarzalnej z Bełtami ze Srebra (niskiej jakości)",
+            "description": "Jest to magazyn zawierający 5 bełtów do użytku z powtarzalnymi kuszami ręcznymi, ale groty są wykonane z niskiej jakości srebra, więc można ich używać z magicznymi powtarzalnymi kuszami ręcznymi do 8. poziomu."
+        },
+        "Repeating Hand Crossbow Magazine with Silver Bolts (Standard-Grade)": {
+            "name": "Magazynek do Ręcznej Kuszy Powtarzalnej z Bełtami ze Srebra (standardowej jakości)",
+            "description": "Jest to magazyn zawierający 5 bełtów przeznaczonych do powtarzalnych kusz ręcznych, ale ich groty są wykonane ze srebra standardowej jakości, dzięki czemu można ich używać w magicznych powtarzalnych kuszach ręcznych do 15. poziomu."
+        },
+        "Repeating Heavy Crossbow Magazine with Adamantine Bolts (High-Grade)": {
+            "name": "Magazynek do Ciężkiej Kuszy Powtarzalnej z Bełtami z Adamantyny (wysokiej jakości)",
+            "description": "Jest to magazyn na 5 bełtów do użytku z powtarzalnymi ciężkimi kuszami, ale groty są wykonane z wysokiej jakości adamantyny, dzięki czemu można ich używać z magicznymi powtarzalnymi ciężkimi kuszami."
+        },
+        "Repeating Heavy Crossbow Magazine with Adamantine Bolts (Standard-Grade)": {
+            "name": "Magazynek do Ciężkiej Kuszy Powtarzalnej z Bełtami z Adamantyny (standardowej jakości)",
+            "description": "Jest to magazyn na 5 bełtów do użytku z powtarzalnymi ciężkimi kuszami, ale groty są wykonane ze standardowej jakości adamantyny, więc można ich używać z magicznymi powtarzalnymi ciężkimi kuszami do 15. poziomu."
+        },
+        "Repeating Heavy Crossbow Magazine with Cold Iron Bolts (High-Grade)": {
+            "name": "Magazynek do Ciężkiej Kuszy Powtarzalnej z Bełtami z Zimnego Żelaza (wysokiej jakości)",
+            "description": "Jest to magazyn na 5 bełtów do użytku z powtarzalnymi ciężkimi kuszami, ale groty są wykonane z wysokiej jakości zimnego żelaza, dzięki czemu można ich używać z magicznymi powtarzalnymi ciężkimi kuszami."
+        },
+        "Repeating Heavy Crossbow Magazine with Cold Iron Bolts (Low-Grade)": {
+            "name": "Magazynek do Ciężkiej Kuszy Powtarzalnej z Bełtami z Zimnego Żelaza (niskiej jakości)",
+            "description": "Jest to magazyn zawierający 5 bełtów przeznaczonych do powtarzalnych ciężkich kusz, ale ich groty są wykonane z niskiej jakości zimnego żelaza, dzięki czemu można ich używać w magicznych powtarzalnych ciężkich kuszach do 8. poziomu."
+        },
+        "Repeating Heavy Crossbow Magazine with Cold Iron Bolts (Standard-Grade)": {
+            "name": "Magazynek do Ciężkiej Kuszy Powtarzalnej z Bełtami z Zimnego Żelaza (standardowej jakości)",
+            "description": "Jest to magazyn zawierający 5 bełtów przeznaczonych do ciężkich kusz powtarzalnych, ale ich groty są wykonane ze standardowej jakości zimnego żelaza, dzięki czemu można ich używać w magicznych ciężkich kuszach powtarzalnych do 15. poziomu."
+        },
+        "Repeating Heavy Crossbow Magazine with Silver Bolts (High-Grade)": {
+            "name": "Magazynek do Ciężkiej Kuszy Powtarzalnej z Bełtami ze Srebra (wysokiej jakości)",
+            "description": "Jest to magazyn na 5 bełtów do użytku z powtarzalnymi ciężkimi kuszami, ale groty są wykonane z wysokiej jakości srebra, dzięki czemu można ich używać z magicznymi powtarzalnymi ciężkimi kuszami."
+        },
+        "Repeating Heavy Crossbow Magazine with Silver Bolts (Low-Grade)": {
+            "name": "Magazynek do Ciężkiej Kuszy Powtarzalnej z Bełtami ze Srebra (niskiej jakości)",
+            "description": "Jest to magazyn zawierający 5 bełtów przeznaczonych do powtarzalnych ciężkich kusz, ale ich groty są wykonane z niskiej jakości srebra, więc mogą być używane z magicznymi powtarzalnymi ciężkimi kuszami do 8. poziomu."
+        },
+        "Repeating Heavy Crossbow Magazine with Silver Bolts (Standard-Grade)": {
+            "name": "Magazynek do Ciężkiej Kuszy Powtarzalnej z Bełtami ze Srebra (standardowej jakości)",
+            "description": "Jest to magazyn zawierający 5 bełtów przeznaczonych do ciężkich kusz powtarzalnych, ale ich groty są wykonane ze srebra standardowej jakości, dzięki czemu można ich używać w magicznych ciężkich kuszach powtarzalnych do 15. poziomu."
+        },
+        "Silver Arrows (High-Grade)": {
+            "name": "Srebrne Strzały (wysokiej jakości)",
+            "description": "Są to standardowe strzały, ale ich groty wykonane są z wysokiej jakości srebra, dzięki czemu można ich używać z magicznymi łukami."
+        },
+        "Silver Arrows (Low-Grade)": {
+            "name": "Srebrne Strzały (niskiej jakości)",
+            "description": "Są to standardowe strzały, ale ich groty wykonane są z niskiej jakości srebra, dzięki czemu mogą być używane z magicznymi łukami do 8. poziomu."
+        },
+        "Silver Arrows (Standard-Grade)": {
+            "name": "Srebrne Strzały (standardowej jakości)",
+            "description": "Są to standardowe strzały, ale ich groty wykonane są ze srebra standardowej jakości, dzięki czemu mogą być używane z magicznymi łukami do 15. poziomu."
+        },
+        "Silver Blowgun Darts (High-Grade)": {
+            "name": "Rzutki do Dmuchawki ze Srebra (wysokiej jakości)",
+            "description": "Są to standardowe rzutki do dmuchawki, ale mają końcówki z wysokiej jakości srebra, dzięki czemu można ich używać z magicznymi dmuchawkami."
+        },
+        "Silver Blowgun Darts (Low-Grade)": {
+            "name": "Rzutki do Dmuchawki ze Srebra (niskiej jakości)",
+            "description": "Są to standardowe rzutki do dmuchawki, ale mają końcówki z niskiej jakości srebra, dzięki czemu mogą być używane z magicznymi dmuchawkami do 8. poziomu."
+        },
+        "Silver Blowgun Darts (Standard-Grade)": {
+            "name": "Rzutki do Dmuchawki ze Srebra (standardowej jakości)",
+            "description": "Są to standardowe rzutki do dmuchawki, ale mają końcówki ze srebra standardowej jakości, dzięki czemu mogą być używane z magicznymi dmuchawkami do 15. poziomu."
+        },
+        "Silver Bolts (High-Grade)": {
+            "name": "Srebrne Bełty (wysokiej jakości)",
+            "description": "Są to standardowe bełty do kuszy, ale ich groty wykonane są z wysokiej jakości srebra, dzięki czemu mogą być używane w magicznych kuszach."
+        },
+        "Silver Bolts (Low-Grade)": {
+            "name": "Srebrne Bełty (niskiej jakości)",
+            "description": "Są to standardowe bełty do kuszy, ale ich groty wykonane są z niskiej jakości srebra, dzięki czemu mogą być używane w magicznych kuszach do 8. poziomu."
+        },
+        "Silver Bolts (Standard-Grade)": {
+            "name": "Srebrne Bełty (standardowej jakości)",
+            "description": "Są to standardowe bełty do kuszy, ale ich groty są wykonane ze srebra standardowej jakości, dzięki czemu mogą być używane w magicznych kuszach do 15. poziomu."
+        },
+        "Silver Dueling Pistol Rounds (High-Grade)": {
+            "name": "Pociski do Pistoletu Pojedynkowego ze Srebra (wysokiej jakości)",
+            "description": "Są to standardowe pociski do pistoletów pojedynkowych, ale wykonane są z wysokiej jakości srebra, dzięki czemu mogą być używane w magicznych pistoletach pojedynkowych."
+        },
+        "Silver Dueling Pistol Rounds (Low-Grade)": {
+            "name": "Pociski do Pistoletu Pojedynkowego ze Srebra (niskiej jakości)",
+            "description": "Są to standardowe pociski do pistoletów pojedynkowych, ale wykonane są z niskiej jakości srebra, więc mogą być używane z magicznymi pistoletami pojedynkowymi do 8. poziomu."
+        },
+        "Silver Dueling Pistol Rounds (Standard-Grade)": {
+            "name": "Pociski do Pistoletu Pojedynkowego ze Srebra (standardowej jakości)",
+            "description": "Są to standardowe pociski do pistoletów pojedynkowych, ale wykonane są ze srebra standardowej jakości, dzięki czemu mogą być używane w magicznych pistoletach pojedynkowych do 15. poziomu."
+        },
+        "Silver Sling Bullets (High-Grade)": {
+            "name": "Pociski do Procy ze Srebra (wysokiej jakości)",
+            "description": "Są to standardowe pociski do procy, ale wykonane są z wysokiej jakości srebra, dzięki czemu mogą być używane z magicznymi procami."
+        },
+        "Silver Sling Bullets (Low-Grade)": {
+            "name": "Pociski do Procy ze Srebra (niskiej jakości)",
+            "description": "Są to standardowe pociski do procy, ale wykonane są z niskiej jakości srebra, więc mogą być używane z magicznymi procami do 8. poziomu."
+        },
+        "Silver Sling Bullets (Standard-Grade)": {
+            "name": "Pociski do Procy ze Srebra (standardowej jakości)",
+            "description": "Są to standardowe pociski do procy, ale wykonane są ze srebra standardowej jakości, więc mogą być używane z magicznymi procami do 15. poziomu."
+        }
+    }
+}

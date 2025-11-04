@@ -23,7 +23,7 @@
                             "label": "KP"
                         },
                         "1": {
-                            "label": "Rzut Obronny"
+                            "label": "Rzut obronny"
                         }
                     },
                     "prompt": "Wybierz premię +1 do statusu"
