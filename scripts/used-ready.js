@@ -92,7 +92,7 @@ async function ensureReadyEffect(actor) {
     const effectData = {
         type: "effect",
         name: game.i18n.localize(`${MODULE_ID}.effects.readyEffect.name`),
-        img: "systems/pf2e/icons/actions/LongerAction.webp",
+        img: "systems/pf2e/icons/default-icons/action.svg",
         system: {
             slug: READY_EFFECT_SLUG,
             description: {
