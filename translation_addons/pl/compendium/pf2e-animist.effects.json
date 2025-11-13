@@ -1,0 +1,152 @@
+{
+    "label": "Efekty",
+    "entries": {
+        "Effect: Avatar Form (Devourer of Lost Time)": {
+            "name": "Efekt: Postać Awatara (Pożeracz Straconego Czasu)",
+            "description": "",
+            "rules": {
+                "0": {
+                    "overrides": {
+                        "strikes": {
+                            "devour-potential": {
+                                "label": "Potencjał Pożerania"
+                            },
+                            "scream-of-loss": {
+                                "label": "Krzyk Zagubienia"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "Effect: Avatar Form (Incarnate Dungeon)": {
+            "name": "Efekt: Postać Awatara (Wcielony Loch)",
+            "description": "",
+            "rules": {
+                "3": {
+                    "overrides": {
+                        "strikes": {
+                            "dungeon-trap": {
+                                "label": "Pułapka w Lochu"
+                            },
+                            "deadly-darts": {
+                                "label": "Śmiercionośne Strzałki"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "Effect: Avatar Form (Peaceful Reaches)": {
+            "name": "Efekt: Postać Awatara (Spokojny Dostęp)",
+            "description": "",
+            "rules": {
+                "0": {
+                    "overrides": {
+                        "strikes": {
+                            "gardens-cradle": {
+                                "label": "Kołyska Ogrodowa"
+                            },
+                            "impose-peace": {
+                                "label": "Narzucenie Spokoju"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "Effect: Avatar Form (Queen of the Winter Court)": {
+            "name": "Efekt: Postać Awatara (Królowa Zimowego Dworu)",
+            "description": "",
+            "rules": {
+                "0": {
+                    "overrides": {
+                        "strikes": {
+                            "queens-caress": {
+                                "label": "Pieszczota Królowej"
+                            },
+                            "monarchs-spite": {
+                                "label": "Złośliwość Monarchy"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "Effect: Avatar Form (Ringmaster of the Dark Celebration)": {
+            "name": "Efekt: Postać Awatara (Władca Pierścieni Mrocznej Celebracji)",
+            "description": "",
+            "rules": {
+                "0": {
+                    "overrides": {
+                        "strikes": {
+                            "ringmasters-whip": {
+                                "label": "Bicz Wodzireja"
+                            },
+                            "feast-of-the-lost": {
+                                "label": "Uczta Zagubionych"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "Effect: Avatar Form (Tentacles from the Dark)": {
+            "name": "Efekt: Forma Awatara (Macki z Mroku)",
+            "description": "",
+            "rules": {
+                "1": {
+                    "overrides": {
+                        "strikes": {
+                            "grasping-tentacles": {
+                                "label": "Chwytające Macki"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "Effect: Avatar Form (Whisper Hiding in Shadows)": {
+            "name": "Efekt: Avatar Form (Szept ukrywający się w cieniu)",
+            "description": "",
+            "rules": {
+                "0": {
+                    "overrides": {
+                        "strikes": {
+                            "shadowed-touch": {
+                                "label": "Cienisty Dotyk"
+                            },
+                            "whisper-of-despair ": {
+                                "label": "Szept Rozpaczy"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "Effect: Devouring Dark Form": {
+            "name": "Efekt: Pożerająca Mroczna Postać",
+            "description": "Przyznany przez @UUID[Compendium.pf2e.spells-srd.Item.wTldMJx0vyBAehrI]",
+            "rules": {
+                "0": {
+                    "prompt": "Wybierz efekt."
+                }
+            }
+        },
+        "Effect: Tentacle Attack": {
+            "name": "Efekt: Atak Macką",
+            "description": ""
+        },
+        "Spell Effect: Elemental Form (Water)": {
+            "name": "Efekt Zaklęcia: Postać Żywiołu (Woda)",
+            "description": "",
+            "rules": {}
+        }
+    },
+    "mapping": {
+        "rules": {
+            "converter": "translateRules",
+            "path": "system.rules"
+        }
+    }
+}

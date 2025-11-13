@@ -234,7 +234,7 @@
                 },
                 "action->Sneak Attack": {
                     "name": "Podstępny Atak",
-                    "description": "<p>Puma zadaje dodatkowe obrażenia precyzyjne równe 1k6 stworzeniom @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Odsłoniętym}.</p>"
+                    "description": "<p>Puma zadaje dodatkowe obrażenia precyzyjne równe 1k6 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Odsłoniętym} stworzeniom.</p>"
                 }
             }
         },
@@ -379,7 +379,7 @@
                 },
                 "action->Horrid Kiss": {
                     "name": "Okropny Pocałunek",
-                    "description": "<p><strong>Wymagania</strong> Zarażony ma stworzenie @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei] lub @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM].</p>\n<hr />\n<p><strong>Efekt</strong> Zarażony zmusza pasożyty do wejścia do ust schwytanej lub obezwładnionej istoty. Zarażony próbuje wykonać test Atletyki przeciwko ST Refleksu celu. Jeśli test się powiedzie, cel zostaje narażony na plagę Z, a jego początkowy rzut obronny jest wykonywany z karą -2.</p>"
+                    "description": "<p><strong>Wymagania</strong> Zarażony ma stworzenie @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei] lub @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM].</p>\n<hr />\n<p><strong>Efekt</strong> Zarażony zmusza pasożyty do wejścia do ust schwytanej lub obezwładnionej istoty. Zarażony próbuje wykonać test @Check[type:athletics|traits:action|defense:reflex] przeciwko ST Refleksu celu. Jeśli test się powiedzie, cel zostaje narażony na plagę Z, a jego początkowy rzut obronny jest wykonywany z karą -2.</p>"
                 },
                 "action->Spew Parasites": {
                     "name": "Wymiotowanie Pasożytów",
@@ -437,7 +437,7 @@
                 },
                 "action->Sneak Attack": {
                     "name": "Podstępny Atak",
-                    "description": "<p>Katana kumpel zadaje dodatkowe obrażenia precyzyjne równe 1k6 stworzeniom @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Odsłoniętym}.</p>"
+                    "description": "<p>Katana kumpel zadaje dodatkowe obrażenia precyzyjne równe 1k6 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Odsłoniętym} stworzeniom.</p>"
                 }
             }
         },
@@ -498,7 +498,7 @@
                     "description": "<p>Mutant przebiega przez przeszkody i przeciwników, poruszając się z szybkością dwukrotnie większą niż jego normalna szybkość w linii prostej. Musi wykonać test Atletyki przeciwko każdej przeszkodzie (używając swojego ST Zniszczenia) lub stworzeniu (używając swojego Wytrwałość ST). Jeśli test się powiedzie, przeszkoda zostaje zniszczona lub stworzenie zostaje odepchnięte (lub @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Przewrócone}, jeśli nie ma miejsca poza linią). Jeśli test się nie powiedzie, zatrzymuje się tuż przed przeszkodą lub stworzeniem. Stworzenia odepchnięte podczas tego ataku otrzymują [[/r (1d6+5)[bludgeoning]]] (@Check[type:reflex|dc:20|basic:true]).</p>"
                 },
                 "action->Swing Around": {
-                    "name": "Obrót",
+                    "name": "Zamachnięcie się",
                     "description": "<p>Mutant macha macką, zataczając szeroki łuk i trafiając wszystkie cele w promieniu 10 stóp. Mutant wykonuje atak macką przeciwko każdemu celowi z osobna. Liczy się to tylko jako jeden atak w ramach kary za wielokrotny atak i dopiero po rozstrzygnięciu wszystkich ataków. Po użyciu tej zdolności nie może nikogo chwycić.</p>"
                 },
                 "strike-melee->Gnaw": {
@@ -533,7 +533,7 @@
                 "strike-melee->Mandibles": {
                     "name": "Żuchwy"
                 },
-                "strike-melee->Egg": {
+                "strike-ranged->Egg": {
                     "name": "Jajko"
                 },
                 "action->Acidic Spray": {
@@ -980,7 +980,7 @@
                 },
                 "action->Sneak Attack": {
                     "name": "Podstępny Atak",
-                    "description": "<p>Warg zadaje dodatkowe obrażenia precyzyjne równe 1k6 stworzeniom @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Odsłoniętym}.</p>"
+                    "description": "<p>Warg zadaje dodatkowe obrażenia precyzyjne równe 1k6 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Odsłoniętym} stworzeniom.</p>"
                 }
             }
         },

@@ -146,6 +146,15 @@
             "name": "Efekt Zaklęcia: Postać Żywiołaka (Kuźnia)",
             "description": "<p>Przyznane przez @UUID[Compendium.pf2e.spells-srd.1K6AYGisvo9gqdhs] i @UUID[Compendium.pf2e-relics.relic-gifts.5BX9BGusRyMqWftu]</p><hr /><p>Twoja postać w walce przybiera Wielki rozmiar, a twoje ataki mają zasięg 15 stóp. Musisz mieć miejsce, aby się rozszerzyć, w przeciwnym razie zaklęcie zostanie przerwane. W zamian zyskujesz KP = 22 + twój poziom, 20 tymczasowych PW, modyfikator ataku +25, premię do obrażeń +11, podwójną liczbę kości obrażeń (w tym obrażeń trwałych) oraz Akrobatyka lub Atletyka o wartości +25. Zyskujesz również następujące korzyści: </p><ul><li><strong>Szybkość kuźni</strong> 30 stóp; odporność na ogień 10, podatność na zimno i wodę 5; <strong>Walka Wręcz</strong> <span class=\"action action-glyph\" title=\"Single Action\" aria-label=\"Single Action\">1</span> atak kuźni, <strong>Obrażenia</strong> 1k10 modułowy; 1k4 trwałych obrażeń od ognia.</li></ul>",
             "rules": {
+                "0": {
+                    "overrides": {
+                        "strikes": {
+                            "forgestrike": {
+                                "label": "Atak Kuźni"
+                            }
+                        }
+                    }
+                },
                 "1": {
                     "label": "Modułowe obrażenia od Ataku Kuźni"
                 },

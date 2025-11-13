@@ -4,6 +4,9 @@
         "Tools": "Narzędzia"
     },
     "entries": {
+        "Adjust Effect Duration": {
+            "name": "Dostosuj czas trwania efektu"
+        },
         "Index Table": {
             "name": "Tabela indeksu"
         },

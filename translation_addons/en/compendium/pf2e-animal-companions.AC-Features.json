@@ -1,9 +1,22 @@
 {
     "label": "Ac-Features",
     "folders": {
-        "Swarm Eidolon": "Rój Eidolonów",
+        "Construct": "Konstrukt",
+        "Angel": "Anioł",
+        "Demon": "Wiedza o Demonach",
+        "Eidolons": "Eidolony",
+        "Psychopomp": "Psychopomp",
+        "Elemental": "Żywiołak",
         "Actions": "Akcje",
-        "Followers": "Zwolennicy"
+        "Fey": "Fey",
+        "Undead": "Nieumarły",
+        "Dragon": "Smok",
+        "Devotion Phantom": "Oddane Widmo",
+        "Anger Phantom": "Gniewne Widmo",
+        "Plant": "Roślina",
+        "Swarm": "Rój",
+        "Followers": "Zwolennicy",
+        "Beast": "Bestia"
     },
     "entries": {
         "Adaptable Elemental": {

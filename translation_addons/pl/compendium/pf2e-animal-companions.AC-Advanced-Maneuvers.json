@@ -107,15 +107,7 @@
         },
         "Diving Skewer": {
             "name": "Szpikulec Nurkowy",
-            "description": "<p>Wywerna podlatuje do połowy swojej szybkości, a następnie wykonuje atak żądłem. Jeśli atak się powiedzie, cel zostanie również @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Powalony}. Jeśli atak powiedzie się krytycznie, cel otrzyma również obrażenia @Damage[2d6[persistent,poison]].</p>",
-            "rules": {
-                "1": {
-                    "text": "Cel jest @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Przewrócony}."
-                },
-                "2": {
-                    "text": "Cel zostaje @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Przewrócony} i otrzymuje @Damage[2d6[persistent,poison]] obrażeń."
-                }
-            }
+            "description": "<p>Wywerna podlatuje do połowy swojej szybkości, a następnie wykonuje atak żądłem. Jeśli atak się powiedzie, cel zostanie również @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Powalony}. Jeśli atak powiedzie się krytycznie, cel otrzyma również obrażenia @Damage[2d6[persistent,poison]].</p>"
         },
         "Drench": {
             "name": "Zalanie",
@@ -168,6 +160,10 @@
         "Gnaw": {
             "name": "Obgryzanie",
             "description": "<p><strong>Wymagania</strong> Ostatnią akcją zwierzęcego towarzysza był udany Atak szczękami.</p><hr /><p>Cel Ataku otrzymuje @Damage[1d6[persistent,bleed]] obrażeń i otrzymuje karę do Szybkości równą –10 stóp, dopóki nie usunie obrażeń od krwawienia. Jeśli hiena jest wyspecjalizowanym zwierzęcym towarzyszem, trwałe obrażenia od krwawienia wzrastają do @Damage[2d6[persistent,bleed]|shortLabel].</p>"
+        },
+        "Go For the Eyes!": {
+            "name": "Celuj w Oczy!",
+            "description": "<p>Squox wykonuje Bieg, próbuje wykonać test @Check[acrobatics|against:perception] względem ST Percepcji sąsiedniego stworzenia, a następnie wykonuje Atak szczęką.</p><hr /><p><strong>Krytyczny Sukces</strong> Rzucony przez nagły skok squoxa, cel jest @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Odsłonięty} do końca następnej tury squoxa.</p><p><strong>Sukces</strong> Cel jest tylko chwilowo zaskoczony i pozostaje odsłonięty do końca bieżącej tury squoxa.</p><p><strong>Krytyczna Porażka</strong> Squox źle ocenia odległość do twarzy swojego celu i @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Przewraca się}.</p>"
         },
         "Grab and Sting": {
             "name": "Pochwycenie i Użądlenie",
@@ -251,12 +247,7 @@
         },
         "Rolling Charge": {
             "name": "Szarża z Rozpędu",
-            "description": "<p>Niedźwiedź skalny zwija się w kłębek i wykonuje dwukrotnie Bieg w linii prostej. W dowolnym momencie tego ruchu może wykonać atak roztrzaskania przeciwko jednej istocie znajdującej się w sąsiedztwie. Jeśli atak jest trafieniem krytycznym, cel zostaje również @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Przewrócony}.</p>",
-            "rules": {
-                "1": {
-                    "text": "COMP.SpecificRule.CragstoneBear.RollingCharge.Note"
-                }
-            }
+            "description": "<p>Niedźwiedź skalny zwija się w kłębek i wykonuje dwukrotnie Bieg w linii prostej. W dowolnym momencie tego ruchu może wykonać atak roztrzaskania przeciwko jednej istocie znajdującej się w sąsiedztwie. Jeśli atak jest trafieniem krytycznym, cel zostaje również @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Przewrócony}.</p>"
         },
         "Rolling Knockdown": {
             "name": "Toczny Nokaut",
@@ -296,16 +287,15 @@
         },
         "Spit": {
             "name": "Plucie",
-            "description": "<p>Bakallia zwraca część zawartości swojego żołądka w postaci ataku na odległość, który zadaje obrażenia podstawowe równe 1k6 obrażeń od kwasu i ma zasięg 10 stóp. Obrażenia wynoszą 2k6 dla dojrzałej bakallii i 3k6 dla wyspecjalizowanej. Istota żywa trafiona tym atakiem otrzymuje również @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Mdłości 1} (@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Mdłości 2} przy trafieniu krytycznym).</p>",
-            "rules": {
-                "3": {
-                    "text": "COMP.SpecificRule.Bacallia.AdvancedManeuver.Note"
-                }
-            }
+            "description": "<p>Bakallia zwraca część zawartości swojego żołądka w postaci ataku na odległość, który zadaje obrażenia podstawowe równe 1k6 obrażeń od kwasu i ma zasięg 10 stóp. Obrażenia wynoszą 2k6 dla dojrzałej bakallii i 3k6 dla wyspecjalizowanej. Istota żywa trafiona tym atakiem otrzymuje również @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Mdłości 1} (@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Mdłości 2} przy trafieniu krytycznym).</p>"
         },
         "Spring Kick": {
             "name": "Sprężyste Kopnięcie",
             "description": "<p>Kangur balansuje na ogonie i wymierza potężne kopnięcie z dwóch nóg. Kangur wykonuje Atak nogą. Jeśli trafi, cel zostaje odepchnięty na 10 stóp. Przy trafieniu krytycznym zostaje on również @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Przewrócony}.</p>"
+        },
+        "Suction Vortex": {
+            "name": "Wir Ssący",
+            "description": "<p><strong>Wymagania</strong> Żarłoczne smoczydło nie ma w szczękach @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Pochwyconej} istoty.</p><hr /><p><strong>Efekt</strong> Żarłoczne smoczydło bierze głęboki wdech, próbując przyciągnąć do siebie wroga znajdującego się w odległości do 10 stóp. Smoczydło wykonuje test @Check[athletics|against:fortitude] przeciwko ST Wytrwałości wroga. W przypadku powodzenia wygłodniałe smoczydło przyciąga wroga do siebie na odległość do 10 stóp. Jest to ruch wymuszony. W przypadku krytycznego sukcesu wróg zostaje również pochwycony przez szczęki smoczydła do początku twojej następnej tury.</p>"
         },
         "Sudden Retreat": {
             "name": "Nagły Odwrót",
@@ -333,7 +323,7 @@
         },
         "Tearing Clutch": {
             "name": "Rozrywający Dziób",
-            "description": "<p>Ptak terroru wykonuje Atak dziobem; przy udanym trafieniu cel otrzymuje @Damage[2d6[persistent,bleed]] obrażeń.</p>"
+            "description": "<p>Ptak terroru wykonuje Atak dziobem; przy udanym trafieniu cel otrzymuje [[/r 2d6[persistent,bleed]]] obrażeń.</p>"
         },
         "Telekinetic Assault": {
             "name": "Telekinetyczne Natarcie",

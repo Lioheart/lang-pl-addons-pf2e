@@ -512,7 +512,7 @@
         },
         "Hearty Meal (Critical Success)": {
             "name": "Hearty Meal (Critical Success)",
-            "description": "<p data-pm-slice=\"1 1 []\">The meal grants the eater a +1 status bonus to the next 3 saving throws they attempt during the next 24 hours.</p>"
+            "description": "<p data-pm-slice=\"1 1 []\">Posiłek daje spożywającemu premię statusu +1 do 3 następnych rzutów obronnych, które wykona w ciągu kolejnych 24 godzin.</p>"
         },
         "Hearty Meal (Favorite Meal)": {
             "name": "Hearty Meal (Favorite Meal)",
@@ -520,7 +520,7 @@
         },
         "Hearty Meal (Success)": {
             "name": "Hearty Meal (Success)",
-            "description": "<p>The meal grants the eater a +1 status bonus to the next saving throw they attempt during the next 24 hours.</p>"
+            "description": "<p>Posiłek daje spożywającemu premię statusu +1 do następnego rzutu obronnego, który wykona w ciągu kolejnych 24 godzin.</p>"
         },
         "Hearty Purple Soup": {
             "name": "Hearty Purple Soup",

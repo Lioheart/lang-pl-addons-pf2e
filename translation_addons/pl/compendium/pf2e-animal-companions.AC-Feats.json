@@ -20,7 +20,7 @@
         },
         "Daredevil": {
             "name": "Śmiałek",
-            "description": "<p>Twój towarzysz dołącza do walki, wykonując pełne gracji skoki, nurkując w stronę przeciwnika. Zyskuje zdolność zaprzeczenia przewadze, więc nie jest @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Odsłonięty} dla @UUID[Compendium.pf2e.conditionitems.Item. iU0fEDdBp3rXpTMC]{Ukrytego}, @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{Niewykrytego} lub flankujących stworzeń, chyba że poziom takiego stworzenia jest wyższy niż twój. Jego poziom biegłości w Akrobatyce wzrasta do mistrzowskiego, a jego modyfikator Zręczności wzrasta o 1. Jego poziom biegłości w obronie bez pancerza wzrasta do eksperta.</p>"
+            "description": "<p>Twój towarzysz dołącza do walki, wykonując pełne gracji skoki, nurkując w stronę przeciwnika. Zyskuje zdolność @UUID[Compendium.pf2e.classfeatures.Item.PNpmVmD21zViDtGC]{Zaprzeczenia przewadze}, więc nie jest @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Odsłonięty} dla @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Ukrytego}, @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{Niewykrytego} lub flankujących stworzeń, chyba że poziom takiego stworzenia jest wyższy niż twój. Jego poziom biegłości w Akrobatyce wzrasta do mistrzowskiego, a jego modyfikator Zręczności wzrasta o 1. Jego poziom biegłości w obronie bez pancerza wzrasta do eksperta.</p>"
         },
         "Deep Diver": {
             "name": "Nurek Głębinowy",
@@ -38,13 +38,17 @@
                 }
             }
         },
+        "Faithful Steed": {
+            "name": "Wierny Rumak",
+            "description": "<p>Twój wierzchowiec zyskuje cechę świętości lub nieświętości, podobnie jak jego Ataki.</p>"
+        },
         "Ferocious Charge": {
             "name": "Dzika Szarża",
             "description": "<p>Towarzysz porusza się w linii prostej z dwukrotną szybkością i zadaje cios porożem, głową lub rogiem. Jeśli przemieścił się o co najmniej 20 stóp, zadaje dodatkowe 1k8 obrażeń. Obrażenia te wzrastają do 2k8, jeśli towarzysz jest wyspecjalizowany. Towarzysz może użyć Dzikiej Szarży podczas kopania, wspinania się, latania lub pływania zamiast chodzenia, jeśli posiada odpowiedni typ ruchu.</p>"
         },
         "Genie-Touched Companion": {
             "name": "Dotknięty przez Dżina Zwierzęcy Towarzysz",
-            "description": "<p>Jeśli wybierzesz atut, który normalnie pozwoliłby ci wybrać dzikiego lub zwinnego zwierzęcego towarzysza, możesz zamiast tego wybrać, aby stał się on zwierzęcym towarzyszem dotkniętym przez dżina. Wybierając atut, należy wybrać rodzaj dżina, którego moc przepełnia towarzysza. Dżiny i ich cechy żywiołów są następujące: djinni (powietrze), efreeti (ogień), marid (woda) lub shaitan (ziemia). Towarzysz dotknięty przez dżina zwiększa swój modyfikator Mądrości o 2 oraz modyfikatory Siły, Zręczności i Kondycji o 1. Zadaje dodatkowe 3 obrażenia atakami bez broni; obrażenia te są obrażeniami od ognia w przypadku towarzysza dotkniętego przez efreeti lub tego samego typu co atak bez broni w przypadku pozostałych. Zyskuje odporność 5 na obrażenia typu zależnego od dżina: kwas dla djinni, ogień dla efreeti lub marida oraz elektryczność dla shaitana. Jeśli towarzysz jest dotknięty djinni lub efreeti, zwiększa swój poziom biegłości w Akrobatyce do eksperta; jeśli jest dotknięty maridem lub shaitanem, zwiększa swój poziom biegłości w Atletyce do eksperta. Uczy się również zaawansowanego manewru dla swojego typu. Jego ataki liczą się jako magiczne w celu ignorowania odporności i zyskują cechę żywiołu dżina. Towarzysze dotknięci przez dżina mogą wybrać jedną z następujących opcji, gdy stają się wyspecjalizowanymi towarzyszami zwierząt.</p>",
+            "description": "<p>Jeśli wybierzesz atut, który normalnie pozwoliłby ci wybrać dzikiego lub zwinnego zwierzęcego towarzysza, możesz zamiast tego wybrać, aby stał się on zwierzęcym towarzyszem dotkniętym przez dżina. Wybierając atut, należy wybrać rodzaj dżina, którego moc przepełnia towarzysza. Dżiny i ich cechy żywiołów są następujące: djinni (powietrze), efreeti (ogień), marid (woda) lub shaitan (ziemia). Towarzysz dotknięty przez dżina zwiększa swój modyfikator Mądrości o 2 oraz modyfikatory Siły, Zręczności i Kondycji o 1. Zadaje dodatkowe 3 obrażenia atakami bez broni; obrażenia te są obrażeniami od ognia w przypadku towarzysza dotkniętego przez efreeti lub tego samego typu co atak bez broni w przypadku pozostałych. Zyskuje odporność 5 na obrażenia typu zależnego od dżina: kwas dla djinni, ogień dla efreeti lub marida oraz elektryczność dla shaitana. Jeśli towarzysz jest dotknięty djinni lub efreeti, zwiększa swój poziom biegłości w Akrobatyce do eksperta; jeśli jest dotknięty maridem lub shaitanem, zwiększa swój poziom biegłości w Atletyce do eksperta. Uczy się również zaawansowanego manewru dla swojego typu. Jego ataki liczą się jako magiczne w celu ignorowania odporności i zyskują cechę żywiołu dżina.</p><p>Towarzysze dotknięci przez dżina mogą wybrać jedną z następujących opcji, gdy stają się wyspecjalizowanymi towarzyszami zwierząt.</p>",
             "rules": {
                 "0": {
                     "choices": {
@@ -83,6 +87,15 @@
         "Nimble Animal Companion": {
             "name": "Zwinny Zwierzęcy Towarzysz",
             "description": "<p>Aby przekształcić dojrzałego zwierzęcego towarzysza w zwinnego zwierzęcego towarzysza:</p><ul><li>Zwiększa modyfikator Zręczności o 2 oraz modyfikatory Siły, Kondycji i Mądrości o 1.</li><li>Zwiększa stopnie biegłości w Akrobatyce do poziomu eksperta.</li><li>Zadaje dodatkowe 2 obrażenia atakami bez broni. Jego ataki stają się magiczne w celu ignorowania odporności.</li><li>Uczy się zaawansowanego manewru dla swojego typu.</li></ul>"
+        },
+        "Peerless Mascot": {
+            "name": "Niezrównana Maskotka",
+            "description": "<p>Towarzysz dowódcy ze specjalizacją niezrównanej maskotki zyskuje następujące korzyści.</p><ul><li>Zyskuje aurę o zasięgu 30 stóp, która zapewnia takie same korzyści jak twoje sztandar, działając skutecznie jako drugi sztandar. Jeśli masz swój prawdziwy sztandar przymocowany do swojego towarzysza, aura ma zasięg 60 stóp (obejmuje to zwiększoną korzyść z aury dzięki atutowi Sprawdzony w Boju Towarzysz). Jeśli później zdobędziesz atut Chwalebny Sztandar, twój sztandar będzie miał aurę o zasięgu 100 stóp, gdy będzie przymocowany do twojego niezrównanego maskotkowego towarzysza.\n</li><li>Zyskuje cechę bestii.</li><li>Jego modyfikator Inteligencji wzrasta o 2, a modyfikator Mądrości wzrasta o 1.</li><li>Jest ekspertem w Wiedzy o Wojskowości.</li><li>Potrafi mówić w jednym języku, którym również się posługujesz (wybranym w momencie zdobycia tego atutu).</li><li>ego maksymalna liczba Punktów Wytrzymałości wzrasta o 20, osiągając 25 na 18. poziomie i 30 na 20. poziomie.</li><li><p>Opanowanie wszystkich rodzajów pól bitewnych zapewnia mu szybkość wspinaczki i pływania równą jego szybkości na lądzie; jeśli miał już szybkość większą niż szybkość na lądzie, to ma szybkość wspinaczki, pływania i szybkość na lądzie równe najwyższej szybkości, jaką posiada.</p><p></p></li></ul>",
+            "prerequisites": [
+                {
+                    "value": "Zahartowany w Boju Towarzysz"
+                }
+            ]
         },
         "Racer": {
             "name": "Ścigacz",
@@ -155,6 +168,7 @@
         "rules": {
             "converter": "translateRules",
             "path": "system.rules"
-        }
+        },
+        "prerequisites": "system.prerequisites.value"
     }
 }
