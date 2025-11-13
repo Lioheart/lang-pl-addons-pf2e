@@ -109,6 +109,7 @@ Dodaje szybki podgląd na średnie obrażenia danej broni. Wliczone są tylko ru
 - [PF2e Summons Assistant](https://foundryvtt.com/packages/pf2e-summons-assistant/) - Foundry v13
 - [Hopefinder for Pathfinder 2e](https://foundryvtt.com/packages/hopefinder/) - Foundry v13
 - [PF2e Prisha's Precious Projectiles](https://foundryvtt.com/packages/prishas-precious-projectiles) - Foundry v13
+- [PF2e Animist](https://foundryvtt.com/packages/pf2e-animist) - Foundry v13
 
 ### W trakcie opracowywania
 
