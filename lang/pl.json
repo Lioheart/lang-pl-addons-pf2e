@@ -53,7 +53,7 @@
       },
       "enableUsedReactionEffect": {
         "name": "Dodaj efekt 'Wykorzystano reakcję'",
-        "hint": "Po każdej użytej reakcji automatycznie dodaje do postaci efekt 'Wykorzystano reakcję', który znika na początku jej następnej tury."
+        "hint": "Po każdej użytej reakcji automatycznie dodaje do postaci efekt 'Wykorzystano reakcję', który znika na początku jej następnej tury.\nW przypadku używania modułu 'Sundry: Small Tidbits for (Mostly) PF2e', ta opcja się nie pojawi."
       },
       "enableRoundMarkers": {
         "name": "Dodaj znaczniki rund w czacie",
@@ -65,7 +65,7 @@
       },
       "enableReadyEffect": {
         "name": "Dodaj efekt „Przygotowano akcję”",
-        "hint": "Po użyciu akcji „Przygotowanie” automatycznie dodaje efekt „Przygotowano akcję” do postaci, który wygasa na początku jej następnej tury.\nW przypadku używania modułu 'Sundry: Small Tidbits for (Mostly) PF2e', ta opcja się nie pojawi."
+        "hint": "Po użyciu akcji „Przygotowanie” automatycznie dodaje efekt „Przygotowano akcję” do postaci, który wygasa na początku jej następnej tury."
       },
       "enableCustomTurnMarker": {
         "name": "Własny znacznik tury",
