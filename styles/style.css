@@ -22,3 +22,9 @@
     font-family: "Awery";
     src: url('../fonts/AwerySmallcaps.ttf');
 }
+
+
+@font-face {
+    font-family: "Girassol-Regular";
+    src: url('../fonts/Girassol-Regular.ttf');
+}
