@@ -134,8 +134,7 @@ async function ensureReactionEffect(actor) {
 
 /** Główny hook */
 Hooks.on("createChatMessage", async (message, _options, _userId) => {
-    if (!game.settings.settings.has("lang-pl-addons-pf2e.enableUsedReactionEffect") ||
-    !game.settings.get(MODULE_ID, "enableUsedReactionEffect")) return;
+    if (!game.settings.settings.has("lang-pl-addons-pf2e.enableUsedReactionEffect")) return;
     try {
         // żeby nie tworzyć efektu po kilka razy — robi to tylko GM
         if (!game.user?.isGM) return;
