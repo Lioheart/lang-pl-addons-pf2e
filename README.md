@@ -110,6 +110,9 @@ Dodaje szybki podgląd na średnie obrażenia danej broni. Wliczone są tylko ru
 - [Hopefinder for Pathfinder 2e](https://foundryvtt.com/packages/hopefinder/) - Foundry v13
 - [PF2e Prisha's Precious Projectiles](https://foundryvtt.com/packages/prishas-precious-projectiles) - Foundry v13
 - [PF2e Animist](https://foundryvtt.com/packages/pf2e-animist) - Foundry v13
+- [PF2e Automations](https://foundryvtt.com/packages/pf2e-automations) - Foundry v13
+- [PF2e Utility Buttons](https://foundryvtt.com/packages/pf2e-flatcheck-helper/) - Foundry v13
+- [PF2e Animation Macros](https://foundryvtt.com/packages/pf2e-jb2a-macros/) - Foundry v13
 
 ### W trakcie opracowywania
 
