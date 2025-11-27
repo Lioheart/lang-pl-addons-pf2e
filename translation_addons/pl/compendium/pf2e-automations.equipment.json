@@ -1,0 +1,25 @@
+{
+    "label": "Ekwipunek",
+    "entries": {
+        "Hardwood Armor": {
+            "name": "Pancerz z Twardego Drewna",
+            "description": "<p>Pancerz stworzony przy użyciu @UUID[Compendium.pf2e.feats-srd.Item.cZa6br5C3Iyzqqi9]</p>"
+        },
+        "Metal Carapace": {
+            "name": "Metalowy Karapaks",
+            "description": "<p>Pancerz stworzony przy użyciu @UUID[Compendium.pf2e.feats-srd.Item.HbdOZ8YTtu8ykASc]</p>"
+        },
+        "Rusty Steel Shield": {
+            "name": "Zardzewiała Stalowa Tarcza",
+            "description": ""
+        },
+        "Stone Armor": {
+            "name": "Kamienny Pancerz",
+            "description": "<p>Pancerz stworzony przy użyciu @UUID[Compendium.pf2e.feats-srd.Item.plEZoAyPwjAOdY4e]</p>"
+        },
+        "Wooden Shield": {
+            "name": "Drewniana Tarcza",
+            "description": ""
+        }
+    }
+}

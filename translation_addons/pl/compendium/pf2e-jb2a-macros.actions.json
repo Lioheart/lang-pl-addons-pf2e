@@ -1,0 +1,41 @@
+{
+    "label": "Akcje",
+    "entries": {
+        "Action Counter": {
+            "name": "Licznik akcji",
+            "description": "<blockquote>\n<p><em>Do stosowania z </em>PF2e Animations<em> i </em>Automated Animations<em>.</em></p>\n</blockquote>\n<p>Ten efekt pozwala śledzić akcje. To wszystko.</p>"
+        },
+        "Attack Animation Template (Critical Failure)": {
+            "name": "Szablon animacji ataku (Krytyczna Porażka)",
+            "description": "<blockquote style=\"border-left: 3px solid var(--color-border-light-tertiary);\">\n<p><span style=\"font-style: normal;\">Do stosowania z </span>PF2e Animations<span style=\"font-style: normal;\"> i </span>Automated Animations<span style=\"font-style: normal;\">.</span></p>\n<p><span style=\"font-style: normal;\">Jest to następca ustawień</span> PF2e Workbench's World Special Effect <span style=\"font-style: normal;\">.</span></p>\n</blockquote>\n<p>Ta fałszywa akcja pozwala wybrać dowolną animację dla krytycznych lub zwykłych sukcesów/porażek Ataków. Możesz dostosować tę animację, klikając przycisk <em class=\"fas fa-biohazard\" style=\"white-space: nowrap;\"><span style=\"font-family: Arial, Helvetica, sans-serif;\">A-A</span></em> powyżej.</p>\n<p>Ta akcja pojawia się w zakładce „Przestój” w karcie.</p>"
+        },
+        "Attack Animation Template (Critical Success)": {
+            "name": "Szablon animacji ataku (Krytyczny Sukces)",
+            "description": "<blockquote style=\"border-left: 3px solid var(--color-border-light-tertiary);\">\n<p><span style=\"font-style: normal;\">Do stosowania z </span>PF2e Animations<span style=\"font-style: normal;\"> i </span>Automated Animations<span style=\"font-style: normal;\">.</span></p>\n<p><span style=\"font-style: normal;\">Jest to następca ustawień</span> PF2e Workbench's World Special Effect <span style=\"font-style: normal;\">.</span></p>\n</blockquote>\n<p>Ta fałszywa akcja pozwala wybrać dowolną animację dla krytycznych lub zwykłych sukcesów/porażek Ataków. Możesz dostosować tę animację, klikając przycisk <em class=\"fas fa-biohazard\" style=\"white-space: nowrap;\"><span style=\"font-family: Arial, Helvetica, sans-serif;\">A-A</span></em> powyżej.</p>\n<p>Ta akcja pojawia się w zakładce „Przestój” w karcie.</p>"
+        },
+        "Attack Animation Template (Failure)": {
+            "name": "Szablon animacji ataku (Porażka)",
+            "description": "<blockquote style=\"border-left: 3px solid var(--color-border-light-tertiary);\">\n<p><span style=\"font-style: normal;\">Do stosowania z </span>PF2e Animations<span style=\"font-style: normal;\"> i </span>Automated Animations<span style=\"font-style: normal;\">.</span></p>\n<p><span style=\"font-style: normal;\">Jest to następca ustawień</span> PF2e Workbench's World Special Effect <span style=\"font-style: normal;\">.</span></p>\n</blockquote>\n<p>Ta fałszywa akcja pozwala wybrać dowolną animację dla krytycznych lub zwykłych sukcesów/porażek Ataków. Możesz dostosować tę animację, klikając przycisk <em class=\"fas fa-biohazard\" style=\"white-space: nowrap;\"><span style=\"font-family: Arial, Helvetica, sans-serif;\">A-A</span></em> powyżej.</p>\n<p>Ta akcja pojawia się w zakładce „Przestój” w karcie.</p>"
+        },
+        "Attack Animation Template (Success)": {
+            "name": "Szablon animacji ataku (Sukces)",
+            "description": "<blockquote style=\"border-left: 3px solid var(--color-border-light-tertiary);\">\n<p><span style=\"font-style: normal;\">Do stosowania z </span>PF2e Animations<span style=\"font-style: normal;\"> i </span>Automated Animations<span style=\"font-style: normal;\">.</span></p>\n<p><span style=\"font-style: normal;\">Jest to następca ustawień</span> PF2e Workbench's World Special Effect <span style=\"font-style: normal;\">.</span></p>\n</blockquote>\n<p>Ta fałszywa akcja pozwala wybrać dowolną animację dla krytycznych lub zwykłych sukcesów/porażek Ataków. Możesz dostosować tę animację, klikając przycisk <em class=\"fas fa-biohazard\" style=\"white-space: nowrap;\"><span style=\"font-family: Arial, Helvetica, sans-serif;\">A-A</span></em> powyżej.</p>\n<p>Ta akcja pojawia się w zakładce „Przestój” w karcie.</p>"
+        },
+        "Flip Chamber": {
+            "name": "Komora obrotowa"
+        },
+        "Reload": {
+            "name": "Przeładowanie"
+        },
+        "Reload Magazine": {
+            "name": "Przeładowanie magazynku"
+        },
+        "Summoning Animation Template": {
+            "name": "Szablon animacji przywołania",
+            "description": "<blockquote>\n<p><em>Do stosowania z </em>PF2e Animations<em> i </em>Automated Animations<em>.</em></p>\n</blockquote>\n<p>Ta fałszywa akcja pozwala wybrać dowolną animację podczas przywoływania stworzenia poprzez <em style=\"white-space: nowrap;\">PF2e Animations</em>. Możesz dostosować tę animację, klikając przycisk <em class=\"fas fa-biohazard\" style=\"white-space: nowrap;\"><span style=\"font-family: Arial, Helvetica, sans-serif;\">A-A</span></em> powyżej.</p>\n<p>Możesz dodać nawias na końcu tej akcji, aby animować konkretne zaklęcie, akcję, a nawet animację stworzenia. Jeśli masz wiele akcji stosujących się do tej samej akcji, priorytet mają stworzenia, następnie zaklęcia/akcje, a na końcu ogólne <strong>Szablon animacji przywołania\n</strong> bez żadnych nawiasów. Jeśli w karcie nie ma takiego, domyślnie zostanie użyty ten z kompendium <em>PF2e Animations </em>.</p>\n<p>Przykład: <strong>Szablon animacji przywołania (Borsuk)</strong> zastąpi <strong>Szablon animacji przywołania (Przyzwanie Zwierzęcia)</strong>.</p>\n<p>Ta akcja pojawia się w zakładce „Przestój” w Twojej karcie..</p>\n<h3>Przykłady:</h3>\n<ul>\n<li><strong>Szablon animacji przywołania (Borsuk)</strong></li>\n<li><strong>Szablon animacji przywołania (Przyzwanie Zwierzęcia)</strong></li>\n<li><strong>Szablon animacji przywołania (Manifestacja Eidolona)</strong></li>\n<li><strong>Szablon animacji przywołania (Imię mojego specjalnego anioła Eidolona)</strong></li>\n<li><strong>Szablon animacji przywołania (Zombie)</strong></li>\n<li><strong>Szablon animacji przywołania (Przyzwanie Anarchii)</strong></li>\n</ul>"
+        },
+        "Unload": {
+            "name": "Rozładuj"
+        }
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "label": "Efekty",
+    "entries": {
+        "Life Linked": {
+            "name": "Więzy Życia",
+            "description": ""
+        },
+        "Share Life": {
+            "name": "Współdzielenie Życia",
+            "description": ""
+        },
+        "Spirit Linked": {
+            "name": "Duchowa Więź",
+            "description": ""
+        }
+    }
+}

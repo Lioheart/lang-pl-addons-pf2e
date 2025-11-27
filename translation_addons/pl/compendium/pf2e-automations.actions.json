@@ -1,0 +1,9 @@
+{
+    "label": "Akcje",
+    "entries": {
+        "Travel on mount": {
+            "name": "Podróż na wierzchowcu",
+            "description": "Podróżuj konno lub dowolnym rodzajem stworzeń/środków transportu"
+        }
+    }
+}

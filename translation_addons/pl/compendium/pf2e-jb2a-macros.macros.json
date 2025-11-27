@@ -1,0 +1,194 @@
+{
+    "label": "Makra",
+    "entries": {
+        "Acid Flask": {
+            "name": "Kolba Kwasu"
+        },
+        "Action Counter": {
+            "name": "Licznik akcji"
+        },
+        "Add Effect": {
+            "name": "Dodaj efekt"
+        },
+        "Aeon Stone": {
+            "name": "Kamień Eonów"
+        },
+        "Arcane Cascade": {
+            "name": "Tajemna Kaskada"
+        },
+        "Bane": {
+            "name": "Zguba"
+        },
+        "Bardic Cantripry": {
+            "name": "Bardowska Sztuczka"
+        },
+        "Blacklist Animations": {
+            "name": "Animacje czarnej listy"
+        },
+        "Bless": {
+            "name": "Błogosławieństwo"
+        },
+        "Blur": {
+            "name": "Rozmycie"
+        },
+        "Bombs": {
+            "name": "Bomby"
+        },
+        "Bouncing Lightning": {
+            "name": "Odbijająca Błyskawica"
+        },
+        "Brain Drain": {
+            "name": "Drenaż Mózgu"
+        },
+        "Brain Response": {
+            "name": "Reakcja Mózgowa"
+        },
+        "Clumsy": {
+            "name": "Niezdarny"
+        },
+        "Concealed": {
+            "name": "Przysłonięty"
+        },
+        "Cone Hands": {
+            "name": "Stożek z Rąk"
+        },
+        "Cone Template": {
+            "name": "Szablon Stożka"
+        },
+        "Dancing Lights": {
+            "name": "Tańczące Światła"
+        },
+        "Darkness": {
+            "name": "Ciemność"
+        },
+        "Dazzling Flash": {
+            "name": "Oślepiający Błysk"
+        },
+        "Dimension Door": {
+            "name": "Wymiarowe Drzwi"
+        },
+        "Dimension Jumps": {
+            "name": "Skoki Wymiarowe"
+        },
+        "Dismiss Selected Token": {
+            "name": "Odwołaj wybrany token"
+        },
+        "Drain Bonded Item": {
+            "name": "Wysączenie Powiązanego Przedmiotu"
+        },
+        "Encumbered": {
+            "name": "Przeciążony"
+        },
+        "Export Autorec JSON": {
+            "name": "Eksportuj Autorec JSON"
+        },
+        "Feral Shades": {
+            "name": "Zdziczałe Cienie"
+        },
+        "Grim Tendrils": {
+            "name": "Ponure Macki"
+        },
+        "Harm": {
+            "name": "Krzywda"
+        },
+        "Haunting Hymn": {
+            "name": "Nawiedzony Hymn"
+        },
+        "Heal": {
+            "name": "Leczenie"
+        },
+        "Heat Haze": {
+            "name": "Cieplne Opary"
+        },
+        "Humanoid Form": {
+            "name": "Humanoidalna Postać"
+        },
+        "Illusory Disguise": {
+            "name": "Iluzoryczne Przebranie"
+        },
+        "Lightning Bolt": {
+            "name": "Błyskawica"
+        },
+        "Manifest Eidolon": {
+            "name": "Manifestacja Eidolona"
+        },
+        "Mirror Image": {
+            "name": "Lustrzane Odbicie"
+        },
+        "Mirror Reflection": {
+            "name": "Lustrzane Odbicie"
+        },
+        "Mirror Reflection Animation": {
+            "name": "Animacja Lustrzanego Odbicia"
+        },
+        "Opacity 1": {
+            "name": "Przezroczystość 1"
+        },
+        "Open AA": {
+            "name": "Otwórz AA"
+        },
+        "Overdrive": {
+            "name": "Podkręcenie"
+        },
+        "Panache": {
+            "name": "Polot"
+        },
+        "Persistent Conditions": {
+            "name": "Trwałe stany"
+        },
+        "Petrified": {
+            "name": "Spetryfikowany"
+        },
+        "Protective Ward": {
+            "name": "Glif Ochronny"
+        },
+        "Pummeling Rubble": {
+            "name": "Burzący Gruz"
+        },
+        "Quickened": {
+            "name": "Przyspieszony"
+        },
+        "Rage": {
+            "name": "Szał"
+        },
+        "Rebounding Toss": {
+            "name": "Odbijający Cios"
+        },
+        "Resist Energy": {
+            "name": "Odporność na Energię"
+        },
+        "Scorching Ray": {
+            "name": "Palący Promień"
+        },
+        "Soul Siphon": {
+            "name": "Wysysanie Duszy"
+        },
+        "Spiritual Weapon": {
+            "name": "Duchowa Broń"
+        },
+        "Stumbling Stance": {
+            "name": "Postawa Potykająca"
+        },
+        "Sudden Charge": {
+            "name": "Nagła Szarża"
+        },
+        "Summon Anything": {
+            "name": "Przywołaj cokolwiek"
+        },
+        "Tanglefoot": {
+            "name": "Tanglefoot"
+        },
+        "Unleash Psyche": {
+            "name": "Uwolnienie Psyche"
+        },
+        "Unseen Servant": {
+            "name": "Niewidzialny Sługa"
+        },
+        "Variable Templates": {
+            "name": "Zmienne szablony"
+        },
+        "Web": {
+            "name": "Pajęczyna"
+        }
+    }
+}
