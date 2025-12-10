@@ -13,6 +13,24 @@
             "name": "Efekt aktywacji: Pusta Śmierć",
             "description": "<p>Przyznany przez @UUID[Compendium.pf2e.equipment-srd.QT1jTPlf3ATYUh4I]{Szepty Traw}</p>\n<p><strong>Pusta Śmierć (klątwa, nekromancja, okultyzm)</strong></p>\n<p><strong>Rzut Obronny</strong> @Check[type:will|dc:27|traits:curse,necromancy]</p>\n<p><strong>Efekt</strong> W przypadku aktywacji @UUID[Compendium.pf2e.equipment-srd.QT1jTPlf3ATYUh4I]{Szeptów Traw} i gdy nie jesteś czcicielem Nhimbaloth, stajesz się @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Ogłupiony 2} przez 24 godziny, a twoje myśli wypełnia paranoja, że coś obserwuje cię z drugiej strony śmierci. Jeśli umrzesz pod wpływem Pustej Śmierci, natychmiast staniesz się chaotycznym złym duchem. Co 7 dni od momentu stania się duchem, musisz odnieść sukces w @Check[type:flat|dc:2]— porażka oznacza, że zostałeś pochłonięty przez Nhimbaloth. Istota, której duch zostanie pochłonięty w ten sposób, nie podróżuje do Rzeki Dusz i zostaje całkowicie unicestwiona; taka istota może zostać przywrócona do życia tylko poprzez efekt zaklęcia 10. rangi lub rytuał, taki jak @UUID[Compendium.pf2e.spells-srd.Item.6dDtGIUerazSHIOu]{Życzenie}.</p>"
         },
+        "Activation Effect: Fortification": {
+            "name": "Efekt aktywacji: Runa Fortyfikacji",
+            "description": "<p>Przyznany przez @UUID[Compendium.pf2e.equipment-srd.8buhFcGwuaJRrp0y]{Runę Fortyfikacji}<br />@Localize[pf2e-item-activations.notes.fortification]</p>",
+            "rules": {
+                "0": {
+                    "text": "@Localize[pf2e-item-activations.notes.fortification]"
+                }
+            }
+        },
+        "Activation Effect: Greater Fortification": {
+            "name": "Efekt aktywacji: Runa Większej Fortyfikacji",
+            "description": "<p>Przyznany przez @UUID[Compendium.pf2e.equipment-srd.ujWnpVMkbTljMGN9]{Runę Większej Fortyfikacji}<br />@Localize[pf2e-item-activations.notes.greater-fortification]</p>",
+            "rules": {
+                "0": {
+                    "text": "@Localize[pf2e-item-activations.notes.greater-fortification]"
+                }
+            }
+        },
         "Activation Effect: Through the Flames": {
             "name": "Efekt aktywacji: Przez Płomienie",
             "description": "<p>Przyznany przez @UUID[Compendium.pf2e-item-activations.item-activations.Item.mBoDXpeUodhvbhpb]{Aktywacja: Przez Płomienie}</p>\n<p>Czerwony kamień szlachetny pierścienia rozbłyska światłem, zapewniając odporność 5 na ogień i premię statusu +1 do KP lub rzutu obronnego przeciwko efektowi ognia skierowanemu przeciwko tobie; korzyści te kończą się, gdy tylko efekt ognia zakończy się.</p>",

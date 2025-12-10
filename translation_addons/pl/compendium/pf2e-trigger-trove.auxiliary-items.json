@@ -1,0 +1,101 @@
+{
+    "label": "Elementy Pomocnicze",
+    "entries": {
+        "Aux Effect: Aura Junction (Air)": {
+            "name": "Efekt pomocniczy: Aura Węzła (Powietrze)",
+            "description": "<p>Efekt pomocniczy dla wyzwalacza aury węzła @UUID[Compendium.pf2e.classfeatures.Item.X11Y3T1IzmtNqGMV]</p><p>Przyznaje celowi premię statusową +10 stóp do jego szybkości poruszania się po lądzie i w powietrzu, która utrzymuje się po opuszczeniu aury.</p>"
+        },
+        "Aux Effect: Diamond Dust": {
+            "name": "Efekt pomocniczy: Diamentowy Pył",
+            "description": "<p>Efekt pomocniczy dla wyzwalacza @UUID[Compendium.pf2e.spells-srd.Item.wjJW9hWY5CkkMvY5]</p><p>Połącz ten efekt z opisem zaklęcia i zastosuj go podczas rzucania zaklęcia.</p>"
+        },
+        "Aux Effect: Dread Flickering Addendum": {
+            "name": "Efekt pomocniczy: Dodatek do Przerażające Migotanie",
+            "description": "<p>Efekt pomocniczy dla wyzwalacza Przerażającego Migotania @UUID[Compendium.pf2e.abomination-vaults-bestiary.Actor.2TOXR7nKS6xPng2Y]{Ognika Grozy}</p><p>Tymczasowo doda opis uzupełniający do Przerażającego Migotania, w tym efekt niewrażliwości.</p>"
+        },
+        "Aux Effect: Dread Flickering Immunity": {
+            "name": "Efekt pomocniczy: Niewrażliwość na Przerażające Migotanie",
+            "description": "<p>Efekt pomocniczy dla wyzwalacza Przerażającego Migotania @UUID[Compendium.pf2e.abomination-vaults-bestiary.Actor.2TOXR7nKS6xPng2Y]{Ognika Grozy}</p><p>Efekt ten uniemożliwi odbiorcy wywołanie wspomnianego zdarzenia.</p>"
+        },
+        "Aux Effect: Energy Shot": {
+            "name": "Efekt pomocniczy: Strzał Energetyczny",
+            "description": "<p>Efekt pomocniczy dla @UUID[Compendium.pf2e.actionspf2e.Item.TSDbyYRQwhIyY2Oq]</p><p>Ten efekt zapewnia ci @UUID[Compendium.pf2e.atut-efekty.Item.zocU4IYIlWwRKUuE] i śledzi liczbę użyć Strzału Energetycznego. Po wystrzeleniu ostatniego Strzału Energetycznego oba efekty zostaną usunięte.</p>"
+        },
+        "Aux Effect: Gibbering Addendum": {
+            "name": "Efekt pomocniczy: Dodatek do Bełkotanie",
+            "description": "<p>Efekt pomocniczy dla wyzwalacza Bełkotania @UUID[Compendium.pf2e.pathfinder-bestiary.Actor.dEAneTvoPuQXZoLR]{Bełkoczącego Paszczowca}</p><p>Tymczasowo doda opis dodatkowy do Bełkotania, w tym efekt niewrażliwości.</p>"
+        },
+        "Aux Effect: Gibbering Immunity": {
+            "name": "Efekt pomocniczy: Niewrażliwość na Bełkotanie",
+            "description": "<p>Efekt pomocniczy dla wyzwalacza Bełkotania @UUID[Compendium.pf2e.pathfinder-bestiary.Actor.dEAneTvoPuQXZoLR]{Bełkoczącego Paszczowca}</p><p>Efekt ten zapewni niewrażliwość na kolejne zdarzenia związane z bełkotaniem.</p>"
+        },
+        "Aux Effect: Mirror Image": {
+            "name": "Efekt pomocniczy: Lustrzane Odbicie",
+            "description": "<p>Efekt pomocniczy dla @UUID[Compendium.pf2e.spells-srd.Item.j8vIoIEWElvpwkcI]</p><p>Efekt ten śledzi liczbę lustrzanych odbić. Zostanie on automatycznie zredukowany w odpowiednim momencie, jeśli powiązany z nim wyzwalacz jest aktywny.</p><p>Aby efekt ten mógł zostać uruchomiony, zaleca się umieszczenie go w opisie zaklęcia i stosowanie go zamiast efektu zapewnianego przez system.</p>"
+        },
+        "Aux Effect: Nettleskin": {
+            "name": "Efekt pomocniczy: Pokrzywowa Skóra",
+            "description": "<p>Efekt pomocniczy dla @UUID[Compendium.pf2e.spells-srd.Item.BA143r8fCqmSjdRf]</p><p>Gdy postać posiada ten efekt, a wyzwalacz Pokrzywowej Skóry jest aktywny, obrażenia zostaną automatycznie rzucone, gdy sąsiednia istota uderzy ją atakiem wręcz lub bez broni.</p><p>Efekt należy dodać do opisu zaklęcia i przeciągnąć stamtąd, aby uzyskać prawidłowe skalowanie.</p>"
+        },
+        "Aux Effect: One Shot, One Kill": {
+            "name": "Efekt pomocniczy: Jeden Strzał, Jeden Trup",
+            "description": "<p>Efekt pomocniczy dla @UUID[Compendium.pf2e.actionspf2e.Item.Tlrde2xh7AhesXNB]</p><p>Ustawia niezbędną opcję rzutu, aby obrażenia od Jeden Strzał, Jeden Trup były stosowane automatycznie.</p>"
+        },
+        "Aux Effect: Ravel of Thorns": {
+            "name": "Efekt pomocniczy: Plątanina Cierni",
+            "description": "<p>Efekt pomocniczy dla wyzwalacza @UUID[Compendium.pf2e.feats-srd.Item.mHvkBdBN4gs6CH1g]\n</p><p>Otrzymujesz karę okolicznościową -10 stóp do swojej szybkości.</p>"
+        },
+        "Aux Effect: Rooting": {
+            "name": "Efekt pomocniczy: Runa Zakorzenienia",
+            "description": "<p>Efekt pomocniczy dla runy @UUID[Compendium.pf2e.equipment-srd.Item.yGgsoSA8EaaEsYZn]{Zakorzenienia} i jej odmian.</p>"
+        },
+        "Aux Effect: Safe Elements": {
+            "name": "Efekt pomocniczy: Bezpieczne Żywioły",
+            "description": "<p>Efekt pomocniczy dla kinetyków uruchamia się, gdy posiadają oni atut @UUID[Compendium.pf2e.feats-srd.ZBPRABDXeLVwxFC7].</p><p>Ten efekt chroni cię przed działaniem wyzwalaczy źródłowego kinetika. Dodaj go do opisu atutu Bezpieczne Żywioły kinetika i przeciągnij stamtąd.</p>"
+        },
+        "Aux Effect: Scars of Steel": {
+            "name": "Efekt pomocniczy: Stalowe Blizny",
+            "description": "<p>Efekt pomocniczy dla @UUID[Compendium.pf2e.feats-srd.Item.j8ycCi7ghTtpRjEW]</p><p>Ten efekt aktywuje opcję rzutu dla odporności Stalowych Blizn. </p>"
+        },
+        "Aux Effect: Shared Stratagem": {
+            "name": "Efekt pomocniczy: Wspólna Strategia",
+            "description": "<p>Efekt pomocniczy dla wyzwalacza @UUID[Compendium.pf2e.feats-srd.Item.N4wCUZH2KG6FoGqh]</p><p>Cel wspólnych strategii badacza jest odsłonięty wobec twojego następnego ataku.</p>"
+        },
+        "Aux Effect: Spirit Link": {
+            "name": "Efekt pomocniczy: Duchowa Więź",
+            "description": "<p>Efekt pomocniczy dla @UUID[Compendium.pf2e.spells-srd.Item.yHujiDQPdtXW797e]</p><p>Efekt musi zostać dodany zarówno do rzucającego zaklęcie, jak i do celu.</p>"
+        },
+        "Aux Effect: Stench Addendum": {
+            "name": "Efekt pomocniczy: Dodatek do Smród",
+            "description": "<p>Efekt pomocniczy dla wyzwalacza @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.PqGX4Dgy9siZJitH]{Smrodu}</p><p>Tymczasowo doda opis dodatkowy do Smrodu, w tym efekt niewrażliwości.</p>"
+        },
+        "Aux Effect: Stench Immunity": {
+            "name": "Efekt pomocniczy: Niewrażliwość na Smród",
+            "description": "<p>Efekt pomocniczy dla wyzwalacza @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.PqGX4Dgy9siZJitH]{Smrodu}</p><p>Efekt ten zapewni niewrażliwość na kolejne zdarzenia związane ze smrodem.</p>"
+        },
+        "Aux Effect: Sword and Pistol": {
+            "name": "Efekt pomocniczy: Miecz i Pistolet",
+            "description": "<p>Efekt pomocniczy dla wyzwalacza @UUID[Compendium.pf2e.feats-srd.Item.dWbISC0di0r4oPCi]</p><p>Cel twojego ataku dystansowego będzie @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Odsłonięty} podczas twojego następnego ataku wręcz bronią jednoręczną.</p>"
+        },
+        "Aux Effect: Taunt": {
+            "name": "Efekt pomocniczy: Prowokowanie",
+            "description": "<p>Efekt pomocniczy dla @UUID[Compendium.pf2e.actionspf2e.Item.4DYFJ4TUsNkgFBDb]</p><p>Przez 1 rundę jesteś odsłonięty.</p>"
+        },
+        "Aux Effect: Trickster's Mirrors": {
+            "name": "Efekt pomocniczy: Lustra Oszusta",
+            "description": "<p>Efekt pomocniczy dla @UUID[Compendium.pf2e.spells-srd.Item.cuKVbWWNzJj1GDpZ]</p><p>Efekt ten śledzi liczbę luster. Liczba ta musi być ręcznie zwiększana, gdy zaklęcie jest podtrzymywane, ale zostanie automatycznie zmniejszona w odpowiednim momencie, jeśli powiązany z nim wyzwalacz jest aktywny.</p><p>Dodatkowo, jeśli odbiorca otrzyma obrażenia obszarowe lub rozpryskowe, wyświetli się przypomnienie, że wszystkie lustra zostaną zniszczone.</p>"
+        },
+        "Aux Effect: Vibrant Thorns": {
+            "name": "Efekt pomocniczy: Bujne Ciernie",
+            "description": "<p>Efekt pomocniczy dla @UUID[Compendium.pf2e.spells-srd.Item.nnSipUPNd3sm5vYL]</p><p>Gdy postać posiada ten efekt, a wyzwalacz Pokrzywowej Skóry jest włączony, obrażenia będą rzucane automatycznie, gdy sąsiednie stworzenia uderzą ją atakiem wręcz, a także gdy stworzenia uderzą ją atakami bez broni.</p>"
+        },
+        "Aux Effect: Vibrant Thorns (Increase Damage)": {
+            "name": "Efekt pomocniczy: Bujne Ciernie (zwiększenie obrażeń)",
+            "description": "<p>Efekt pomocniczy dla @UUID[Compendium.pf2e.spells-srd.Item.nnSipUPNd3sm5vYL]</p><p>Tymczasowo zwiększ obrażenia zadane przez Bujne Ciernie do kości k6.</p>"
+        },
+        "Aux Effect: Warning Stripes": {
+            "name": "Efekt pomocniczy: Ostrzegawcze Paski",
+            "description": "<p>Efekt pomocniczy dla wyzwalacza @UUID[Compendium.pf2e.spells-srd.Item.D4kArD91fFiREvC6].\n</p><p>Gdy postać posiada ten efekt, a wyzwalacz Pasków Ostrzegawczych jest włączony, obrażenia zostaną automatycznie rzucone, gdy zostanie ona trafiona atakiem wręcz bez broni.</p>"
+        }
+    }
+}

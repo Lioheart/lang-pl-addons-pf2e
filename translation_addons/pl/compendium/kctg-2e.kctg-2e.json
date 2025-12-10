@@ -454,6 +454,10 @@
             "name": "Pieczarka",
             "description": "<p>Rodzaj grzybów, które można łatwo znaleźć w lesie, ze względu na ich czysty biały kolor lub charakterystyczny brąz. Są one również czasami określane jako grzyby kasztanowe, ze względu na ich kolor pasujący do kasztanowców. Wykorzystywane są głównie w szerokiej gamie dań kulinarnych, począwszy od gulaszu, sałatek, zup i wielu innych.</p>"
         },
+        "Byrne": {
+            "name": "Skórzany Pas",
+            "description": "<p>Paski te były zazwyczaj wykonane ze skóry, plecionki, haftowanej tkaniny lub litego metalu. Kobiety z niższych warstw społecznych preferowały solidniejsze i bardziej praktyczne wersje wykonane ze skóry lub gęsto tkanej wełny, ponieważ używały ich głównie jako zamiennika gorsetu. Większość pasków była prosta, z wyjątkiem klamry, podczas gdy mężczyźni często wybierali swoje, aby pokazać swój status i osobistą dumę.</p><p></p>"
+        },
         "Cabbage": {
             "name": "Kapusta",
             "description": "<p>Główny składnik większości sałatek i gulaszu, jest zwykle bardzo poszukiwany przez karczmy i tawerny na kolacje dla swoich klientów. Większość gospodarstw domowych posiada kilka główek kapusty i jest ona bardzo często konserwowana w soli do użytku przez zimę w postaci kiszonej kapusty.</p>"
@@ -1307,6 +1311,10 @@
             "name": "Garum",
             "description": "<p>Garum to sos wytwarzany głównie z ryb. W niektórych regionach nosi prostą nazwę sos rybny lub liquamen. Jednak liquamen na przestrzeni wieków przekształcił się w inny rodzaj sosu. Oryginalna receptura garum powstała w wyniku fermentacji resztek ryb z gruboziarnistą solą, w wyniku czego powstał ciemny, aromatyczny sos o znaczeniu kulinarnym, do którego można dodawać przyprawy i podawać z większością mięs lub małżami.</p>"
         },
+        "Gauze": {
+            "name": "Gaza",
+            "description": "<p>Wykonane głównie z lnu, służą przede wszystkim do czyszczenia ran. Aby zwiększyć ich skuteczność, do bandażowania stosuje się wraz z nimi środki antyseptyczne, takie jak miód lub ocet, a czasami dodaje się zioła lecznicze, aby przyspieszyć szybkość procesu gojenia. Większość podróżników ma zawsze przy sobie kilka gotowych opatrunków.</p>"
+        },
         "Gear": {
             "name": "Sprzęt",
             "description": "<p>Standardowy element przekładniowy, który pasuje do wszystkich urządzeń mechanicznych, od zegarów po drzwi i zawory ciśnieniowe. Jest to specjalistyczne narzędzie do wszystkich elementów i konstrukcji mechanicznych. Bez niego nie mogłyby one istnieć. Wykonany głównie z miedzi, mosiądzu lub brązu, jest odporny na rdzę i wytrzymuje dziesiątki lat.</p>"
@@ -1350,6 +1358,10 @@
         "Glider Wings": {
             "name": "Skrzydła Szybowcowe",
             "description": "<p>Chociaż niewielu rozumie skomplikowane zasady aerodynamiki, niektórzy wykorzystują parę półmechanicznych skrzydeł, aby poruszać się szybciej niż pieszo. Zazwyczaj są one wykonane z bardzo lekkiej aluminiowej ramy wzmocnionej tkaniną, podobną do tej używanej w największych żaglach statków.</p><p></p>"
+        },
+        "Gloves of Working": {
+            "name": "Rękawice Robocze",
+            "description": "<p>Rękawice były noszone przez pracowników fizycznych do celów praktycznych, takich jak prace ogrodnicze lub ciężkie prace na świeżym powietrzu. Te rękawice robocze były często wykonane ze skóry i podszyte futrem lub alternatywnie wykonane z owczej skóry z runem po wewnętrznej stronie.</p>"
         },
         "Gneiss": {
             "name": "Gnejs",
