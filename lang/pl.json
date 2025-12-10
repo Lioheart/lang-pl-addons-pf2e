@@ -124,6 +124,7 @@
       "nonlethal": "Nieśmiercionośne",
       "lethal": "Śmiercionośne",
       "reset": "Zresetuj",
+      "pause": "Pauza",
       "time": {
         "minutes": "min",
         "hours": "godz.",

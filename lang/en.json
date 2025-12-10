@@ -124,6 +124,7 @@
       "nonlethal": "Nonlethal",
       "lethal": "Lethal",
       "reset": "Reset",
+      "pause": "Pause",
       "time": {
         "minutes": "min",
         "hours": "hour",

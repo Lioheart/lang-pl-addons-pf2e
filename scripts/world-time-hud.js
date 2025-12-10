@@ -9,6 +9,7 @@ class RealTimeClock {
   constructor() {
     this._intervalId = null;
     this._combatActive = !!game.combat && game.combat.started;
+    this._paused = false;
     this._startTicker();
     this._registerHooks();
   }
@@ -18,7 +19,17 @@ class RealTimeClock {
     return game.user.isGM && game.users.activeGM?.id === game.user.id;
   }
 
+  togglePause() {
+    this._paused = !this._paused;
+    const btn = document.querySelector(".time-pause-btn i");
+    if (btn) {
+      btn.classList.toggle("fa-pause", !this._paused);
+      btn.classList.toggle("fa-play", this._paused);
+    }
+  }
+
   // ---------- ticker ----------
+
   _startTicker() {
     if (!this.isPrimary) return;
     this._intervalId = window.setInterval(() => this._tick(), 1000);
@@ -34,6 +45,7 @@ class RealTimeClock {
   _tick() {
     if (!this.isPrimary) return;
     if (game.paused) return;  // pauza wstrzymuje czas
+    if (this._paused) return; // pauza z przycisku
 
     if (this._combatActive) {
       // Podczas walki nie odliczaj automatycznie w ticku!
@@ -142,6 +154,11 @@ async function renderWorldTimeHUD() {
     div.style.left = defaultPosition.left === "50%" ? "50%" : `${defaultPosition.left}px`;
     div.style.transform = defaultPosition.left === "50%" ? "translateX(-50%)" : "";
   });
+
+  document.querySelector(".time-pause-btn")?.addEventListener("click", () => {
+    game.pf2eRealTimeClock?.togglePause();
+  });
+
 
   makeDraggable(div);
 }

@@ -22,9 +22,9 @@
 }
 
 #pf2e-world-time-display .time-adjust-btn,
-#pf2e-world-time-display .time-reset-btn {
+#pf2e-world-time-display .time-reset-btn,
+#pf2e-world-time-display .time-pause-btn {
   background: rgba(255, 255, 255, 0.1);
-  border: 1px solid rgba(255, 255, 255, 0.2);
   margin-left: 4px;
   border-radius: 4px;
   font-weight: bold;
@@ -34,7 +34,8 @@
 }
 
 #pf2e-world-time-display .time-adjust-btn:hover,
-#pf2e-world-time-display .time-reset-btn:hover {
+#pf2e-world-time-display .time-reset-btn:hover,
+#pf2e-world-time-display .time-pause-btn:hover {
   background: #ffcc00;
   color: black;
 }
