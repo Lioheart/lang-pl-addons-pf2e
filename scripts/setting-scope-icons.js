@@ -37,7 +37,7 @@ function addScopeIcon(group, scope, requiresReload) {
       : `<i class="setting-scope-icon fa-duotone fa-solid fa-user" title="${game.i18n.localize("lang-pl-addons-pf2e.scope.client")}"></i>`;
 
   const reloadIcon = requiresReload
-    ? `<i class="setting-reload-icon fa-duotone fa-solid fa-triangle-exclamation" title="${game.i18n.localize("lang-pl-addons-pf2e.requiresReload")}"></i>`
+    ? `<i class="setting-reload-icon fa-duotone fa-solid fa-triangle-exclamation" title="${game.i18n.localize("lang-pl-addons-pf2e.scope.requiresReload")}"></i>`
     : "";
 
   const label = group.find("label").first();
