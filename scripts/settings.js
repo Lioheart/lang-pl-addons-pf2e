@@ -167,15 +167,15 @@ export function registerSettings() {
         });
     }
 
-    game.settings.register(MODULE_ID, "enableRoundMarkers", {
-        name: game.i18n.localize(`${MODULE_ID}.settings.enableRoundMarkers.name`),
-        hint: game.i18n.localize(`${MODULE_ID}.settings.enableRoundMarkers.hint`),
-        scope: "world",
-        config: true,
-        type: Boolean,
-        default: false,
-        restricted: true
-    });
+    // game.settings.register(MODULE_ID, "enableRoundMarkers", {
+    //     name: game.i18n.localize(`${MODULE_ID}.settings.enableRoundMarkers.name`),
+    //     hint: game.i18n.localize(`${MODULE_ID}.settings.enableRoundMarkers.hint`),
+    //     scope: "world",
+    //     config: true,
+    //     type: Boolean,
+    //     default: false,
+    //     restricted: true
+    // });
 
     game.settings.register(MODULE_ID, "enableExplorationEffects", {
         name: game.i18n.localize(`${MODULE_ID}.settings.enableExplorationEffects.name`),

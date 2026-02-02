@@ -26,12 +26,12 @@
     "scripts/world-time-hud.js",
     "scripts/sell-to-merchant.js",
     "scripts/used-reaction.js",
-    "scripts/round-marker.js",
     "scripts/exploration-effects.js",
     "scripts/used-ready.js",
     "scripts/custom-turn-marker.js",
     "scripts/journal-font.js",
-    "scripts/ui-tweaks.js"
+    "scripts/ui-tweaks.js",
+    "scripts/defense-exploration.js"
   ],
   "templates": [
     "templates/world-time-display.hbs"
