@@ -5,13 +5,25 @@
             "name": "Efekt pomocniczy: Aura Węzła (Powietrze)",
             "description": "<p>Efekt pomocniczy dla wyzwalacza aury węzła @UUID[Compendium.pf2e.classfeatures.Item.X11Y3T1IzmtNqGMV]</p><p>Przyznaje celowi premię statusową +10 stóp do jego szybkości poruszania się po lądzie i w powietrzu, która utrzymuje się po opuszczeniu aury.</p>"
         },
+        "Aux Effect: Blinding Aura Addendum": {
+            "name": "Efekt pomocniczy: Dodatek do Oślepiającej Aury",
+            "description": "<p>Efekt pomocniczy dla oślepiającej aury @UUID[Compendium.pf2e.pathfinder-monster-core.Actor.ePJcp2ADOjJYYQ5Q]{Lśniącego Dziecka}</p><p>Efekt ten tymczasowo doda dodatek do opisu Oślepiającej Aury, w tym jej efektu niewrażliwości.</p>"
+        },
+        "Aux Effect: Blinding Aura Immunity": {
+            "name": "Efekt pomocniczy: Niewrażliwość na Oślepiającą Aurę",
+            "description": "<p>Efekt pomocniczy dla oślepiającej aury @UUID[Compendium.pf2e.pathfinder-monster-core.Actor.ePJcp2ADOjJYYQ5Q]{Lśniącego Dziecka}</p><p>Efekt ten uniemożliwia wywołanie przez odbiorcę efektu Oślepiającej Aury.</p>"
+        },
+        "Aux Effect: Commanding Presence": {
+            "name": "Efekt pomocniczy: Władcza Obecność",
+            "description": "<p>Efekt pomocniczy dla Władczej Obecności @UUID[Compendium.pf2e.pathfinder-monster-core.Actor.Ccjg08wVRO43YlTf]{Jann}</p><p>Efekt ten powoduje dodanie kary -4 do rzutu obronnego przeciwko Władczej Obecności.</p>"
+        },
         "Aux Effect: Diamond Dust": {
             "name": "Efekt pomocniczy: Diamentowy Pył",
             "description": "<p>Efekt pomocniczy dla wyzwalacza @UUID[Compendium.pf2e.spells-srd.Item.wjJW9hWY5CkkMvY5]</p><p>Połącz ten efekt z opisem zaklęcia i zastosuj go podczas rzucania zaklęcia.</p>"
         },
         "Aux Effect: Dread Flickering Addendum": {
             "name": "Efekt pomocniczy: Dodatek do Przerażające Migotanie",
-            "description": "<p>Efekt pomocniczy dla wyzwalacza Przerażającego Migotania @UUID[Compendium.pf2e.abomination-vaults-bestiary.Actor.2TOXR7nKS6xPng2Y]{Ognika Grozy}</p><p>Tymczasowo doda opis uzupełniający do Przerażającego Migotania, w tym efekt niewrażliwości.</p>"
+            "description": "<p>Efekt pomocniczy dla wyzwalacza Przerażającego Migotania @UUID[Compendium.pf2e.abomination-vaults-bestiary.Actor.2TOXR7nKS6xPng2Y]{Ognika Grozy}</p><p>Ten efekt tymczasowo dodaje opis uzupełniający do Przerażającego Migotania, w tym efekt niewrażliwości.</p>"
         },
         "Aux Effect: Dread Flickering Immunity": {
             "name": "Efekt pomocniczy: Niewrażliwość na Przerażające Migotanie",
@@ -23,7 +35,7 @@
         },
         "Aux Effect: Gibbering Addendum": {
             "name": "Efekt pomocniczy: Dodatek do Bełkotanie",
-            "description": "<p>Efekt pomocniczy dla wyzwalacza Bełkotania @UUID[Compendium.pf2e.pathfinder-bestiary.Actor.dEAneTvoPuQXZoLR]{Bełkoczącego Paszczowca}</p><p>Tymczasowo doda opis dodatkowy do Bełkotania, w tym efekt niewrażliwości.</p>"
+            "description": "<p>Efekt pomocniczy dla wyzwalacza Bełkotania @UUID[Compendium.pf2e.pathfinder-bestiary.Actor.dEAneTvoPuQXZoLR]{Bełkoczącego Paszczowca}</p><p>Ten efekt tymczasowo dodaje opis dodatkowy do Bełkotania, w tym efekt niewrażliwości.</p>"
         },
         "Aux Effect: Gibbering Immunity": {
             "name": "Efekt pomocniczy: Niewrażliwość na Bełkotanie",
@@ -67,7 +79,7 @@
         },
         "Aux Effect: Stench Addendum": {
             "name": "Efekt pomocniczy: Dodatek do Smród",
-            "description": "<p>Efekt pomocniczy dla wyzwalacza @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.PqGX4Dgy9siZJitH]{Smrodu}</p><p>Tymczasowo doda opis dodatkowy do Smrodu, w tym efekt niewrażliwości.</p>"
+            "description": "<p>Efekt pomocniczy dla wyzwalacza @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.PqGX4Dgy9siZJitH]{Smrodu}</p><p>Ten efekt tymczasowo dodaje opis dodatkowy do Smrodu, w tym efekt niewrażliwości.</p>"
         },
         "Aux Effect: Stench Immunity": {
             "name": "Efekt pomocniczy: Niewrażliwość na Smród",

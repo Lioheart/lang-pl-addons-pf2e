@@ -11,6 +11,7 @@
         "Logs & Lumber": "Drewno i kłody",
         "Bones": "Kości",
         "Gemstones": "Kamienie szlachetne",
+        "Leatherworker": "Rymarstwo",
         "Ore & Metal": "Rudy i metale",
         "Carpentry": "Ciesielstwo",
         "Herbalist Tools": "Narzędzia zielarskie",
@@ -222,6 +223,10 @@
             "name": "Banan",
             "description": "<p>Owoc uwielbiany przez większość ludzi, zielarze zalecają go w przypadku rozstroju żołądka, karczmarze dostarczają go w postaci zmiksowanej jako słodki napój, a zwykli ludzie jedzą go na surowo, ponieważ jest całkiem smaczny.</p>"
         },
+        "Bark Tanned Hide": {
+            "name": "Skóra garbowana korą",
+            "description": "<p>Podczas gdy niektóre skóry po zebraniu są wykorzystywane do przetwarzania w stanie surowym, inne przechodzą dodatkowy etap obróbki, głównie w celu uzyskania określonego koloru. W płynnej mieszance różnych rodzajów olejów, z dodatkiem określonej kory drzewnej, skóry są moczone przez kilka tygodni przed przetworzeniem na skórę. Ogólny proces nie jest znany wielu rzemieślnikom zajmującym się obróbką skóry i czasami mylony jest z garbowaniem taniną, jednak dla tych, którzy znają go i stosują w swojej pracy, stanowi on dodatkowy źródło dochodu, ponieważ końcowy kolor jest zazwyczaj dość wyjątkowy.</p>"
+        },
         "Barrel": {
             "name": "Beczka",
             "description": "<p>Beczki są jednymi z najczęściej używanych pojemników do przechowywania, zwłaszcza płynów. Ich zastosowania obejmują fermentację mocnych alkoholi, konserwowanie marynowanej żywności lub przechowywanie domowych soków, co czyni je preferowanym wyborem do przechowywania o dużej pojemności.</p><p></p>"
@@ -249,6 +254,10 @@
         "Beans": {
             "name": "Fasola",
             "description": "<p>Występują we wszystkich kolorach; od zielonego do czerwonego, od czarnego do białego, preferowane przez zwykłych ludzi i właścicieli tawern, ponieważ są dość sycące po ugotowaniu, a także fakt, że ich uprawa nie jest tak wymagająca jak innych warzyw. </p>"
+        },
+        "Bear Hide": {
+            "name": "Skóra niedźwiedzia",
+            "description": "<p>Chociaż dla uproszczenia określa się ją ogólnie jako skórę niedźwiedzia, zazwyczaj obejmuje ona więcej niż tylko zwykłą skórę zwierzęcia czworonożnego i jest określana według rozmiaru. Niektóre plotki wspominają o nieco dziwniejszym egzemplarzu, skórze związanej z tym, co niektórzy nazywają mitycznym zwierzęciem, podczas gdy inni przysięgają na swoje życie, że jest ona prawdziwa i pokryta piórami sowy. </p><p></p>"
         },
         "Bear's Trace": {
             "name": "Niedźwiedzi Ślad",
@@ -441,6 +450,10 @@
         "Bucket": {
             "name": "Wiadro",
             "description": "<p>Podczas gdy wiadra są powszechnie używane do transportu wody ze studni do domów lub do sprzątania, można je również wykorzystać jako prowizoryczne latryny w ekstremalnych sytuacjach lub w niektórych celach więziennych, gdzie nie ma możliwości korzystania z wychodków.</p><p></p>"
+        },
+        "Buckle": {
+            "name": "Klamra",
+            "description": "<p>Rzemieślnicy zajmujący się obróbką skóry zazwyczaj zamawiają je w dużych ilościach, ponieważ są one wykorzystywane w wielu elementach wyposażenia, zarówno dla poszukiwaczy przygód, jak i zwykłych ludzi. Niektóre z nich znajdują zastosowanie w portmonetkach, torbach, plecakach, paskach, zbrojach, epoletach, butach i wielu innych przedmiotach. Są one wykonane głównie z żelaza lub stali i wlewane do form.</p><p></p>"
         },
         "Burger": {
             "name": "Burger",
@@ -827,6 +840,10 @@
             "name": "Koral",
             "description": "<p>Sproszkowany koral był bardzo pożądanym składnikiem w tworzeniu eliksirów leczniczych, ponieważ gwarantował większą minimalną skuteczność podczas tych leczniczych susz. Obecnie używany tylko do tworzenia rzadkiego czerwonego barwnika. </p>"
         },
+        "Cordovan Cut": {
+            "name": "Krój Kordowan",
+            "description": "<p>Najlepszy krój skórzany, nazwany na cześć miasta położonego na zboczu góry, w którym mieszkało kilku rzemieślników potrafiących tak wyprawiać skóry, że były one tak nieskazitelne, iż szybko zyskały sławę. Chociaż skóra pochodzi z krowiej skóry, to dzięki procesowi wyprawiania, suszenia i obróbki stała się ona znana w całym królestwie.</p>"
+        },
         "Corn": {
             "name": "Kukurydza",
             "description": "<p>Kukurydza jest jednym z najczęściej uprawianych zbóż, ponieważ może być przetwarzana na olej i mąkę. Sama kukurydza jest podstawowym pożywieniem dla wszystkich konsumentów i ich zwierząt gospodarskich. Sama roślina nazywana jest kukurydzą i jest zwykle sadzona wraz z nadejściem cieplejszych pór roku, ponieważ nie jest odporna na zimno.</p>"
@@ -850,6 +867,10 @@
         "Cow": {
             "name": "Krowa",
             "description": "<p>Krowy są uważane za jedne z najbardziej hodowlanych zwierząt, są cenne dla farmerów, ponieważ żaden z ich materiałów nie idzie na marne. Od podstawowych produktów, takich jak mięso lub nabiał, po skóry na skóry, klej pozyskiwany ze skóry i kości, po wytwarzanie srebrnych sztućców, szpilek, haczyków na ryby, fletów lub kościanych igieł - każdy aspekt zbioru krowy jest w pełni wykorzystywany.</p>"
+        },
+        "Cowhide": {
+            "name": "Skóra bydlęca",
+            "description": "<p>Materiał pozyskiwany w ramach hodowli i dostarczany rzemieślnikom zajmującym się obróbką skór w celu dalszego przetworzenia, aby nic nie zostało zmarnowane podczas rozbioru bydła. Skóry są kupowane w dużych partiach, ponieważ jest to najpopularniejszy rodzaj skóry wykorzystywany do produkcji sprzętu wojskowego.</p><p></p>"
         },
         "Crab": {
             "name": "Krab",
@@ -886,6 +907,10 @@
         "Cumin": {
             "name": "Kminek",
             "description": "<p>Nasiona kminku są używane jako przyprawa ze względu na swój charakterystyczny smak i aromat. Można go znaleźć w niektórych serach, takich jak ser Leyden, i można go dodawać podczas pieczenia chleba. Przyprawa ta jest podstawą w wielu kuchniach świata, wzbogacając potrawy swoim ciepłym, ziemistym smakiem.</p><p></p>"
+        },
+        "Cured Hide": {
+            "name": "Wytrawiona skóra",
+            "description": "<p>Zwykła garbowana skóra sprzedawana luzem przez rzemieślników zajmujących się obróbką skóry, która jest zazwyczaj wykorzystywana w innych branżach. Kowale używają jej zazwyczaj do produkcji rękojeści broni, krawcy do szycia wyszukanych sukienek lub pięknych torebek, a zwykli ludzie do produkcji pasków skórzanych do różnych zastosowań. </p>"
         },
         "Currants": {
             "name": "Porzeczki",
@@ -1054,6 +1079,10 @@
         "Dragon’s Heart": {
             "name": "Serce Smoka",
             "description": "<p>Według legend, Serce Smoka to rzadki kamień szlachetny, o którym mówi się, że powstał ze stopionego rdzenia smoka. Uważa się, że zawiera esencję smoczej mocy i siły. Przekonanie to jest jednak niezweryfikowane, ponieważ klejnot jest zwykle odkrywany po śmierci smoka lub gdy smok opuszcza swoje legowisko. Smocze Serce zostało odkryte niedawno, przez poszukiwaczy przygód i skarbów, którzy zapuścili się do legowisk smoków w poszukiwaniu skarbów i chwały. Klejnot można znaleźć tylko w jaskiniach, pieczarach lub kopalniach, które były używane jako legowiska smoków. Mówi się, że po pewnym czasie klejnot pojawi się w centrum legowiska, tak jakby sama ziemia go wypluła. Ze względu na ograniczoną liczbę odkrytych klejnotów, Serce Smoka jest uważane za jeden z najcenniejszych i najdroższych klejnotów dostępnych w handlu.</p>"
+        },
+        "Drayweight Leather": {
+            "name": "Skóra Drayweight",
+            "description": "<p>Ten rodzaj skóry jest w większości oszustwem, a kiedy kupcy ją sprzedają, używają nazwy „Drayweight”, ponieważ brzmi ona nieco bardziej fantastycznie. Jednak sama skóra jest raczej pospolita, ale dość ciężka. Handlarze żartują, że jest ona warta swojej wagi w srebrze, ale ktoś zaznajomiony z wysokiej jakości sprzętem szybko zorientuje się, że ten rodzaj skóry nie jest niczym specjalnym.</p><p></p>"
         },
         "Dreamfreezer's Draft": {
             "name": "Środek Zamrażania Snów",
@@ -1255,6 +1284,10 @@
             "name": "Plecak do Zbierania Pożywienia",
             "description": "<p>Wykonany ze słomy i wzmocniony jasnym drewnem, takim jak wierzba, ten wytrzymały kosz jest idealny dla zbieraczy i zielarzy. Przeznaczony jest do zbieractwa w obszarach leśnych, nad rzekami lub na otwartych polach, zapewniając lekkie, ale wytrzymałe narzędzie do zbierania żywności i ziół.</p>"
         },
+        "Fox Hide": {
+            "name": "Skóra lisa",
+            "description": "<p>Skóra lisia, dość powszechna na obszarach leśnych, jest zazwyczaj garbowana lub sprzedawana do produkcji odzieży, akcesoriów lub rękodzieła, a odmiany takie jak lis rudy, srebrny i polarny są cenione za grube, miękkie futro wykorzystywane do produkcji płaszczy, czapek, rękawiczek lub butów. Skóry te są zazwyczaj dostarczane do rzemieślników zajmujących się obróbką skóry przez zwykłych ludzi lub szlachciców, którzy mają trochę czasu na rekreację, lub przez oddanych myśliwych. </p><p></p>"
+        },
         "Freshwater Pearl": {
             "name": "Perła Słodkowodna",
             "description": "<p>Małże słodkowodne, znajdujące się w większości zbiorników wodnych, od jezior i stawów po rzeki, mogą wytwarzać perły. Są one bardzo poszukiwane, ponieważ mogą być używane zarówno do wyrobu biżuterii, jak i do ozdabiania odzieży. W niektórych regionach perły są uważane za święte, a każdy rzucający zaklęcia, który je spożywa, szybko zginie, jeśli zostanie o tym poinformowany.</p>"
@@ -1418,6 +1451,10 @@
         "Goulash": {
             "name": "Gulasz",
             "description": "<p>Gulasz to obfity gulasz z różnych kawałków mięsa, cebuli i papryki, gotowany powoli w kotle na małym ogniu. Zazwyczaj przygotowuje się go tak, aby był dość pikantny, idealny do delektowania się z dodatkiem, takim jak tłuczone ziemniaki.</p>"
+        },
+        "Grain Leather": {
+            "name": "Skóra ziarnista",
+            "description": "<p>Zazwyczaj odnosi się to do skóry licowej, która jest skórą najwyższej jakości, wykonaną z górnej warstwy skóry zwierzęcej z zachowaniem jej naturalnego uziarnienia i niedoskonałości, takich jak blizny, zmarszczki lub mieszki włosowe, dzięki czemu jest niezwykle trwała, wytrzymała i z upływem czasu nabiera pięknej patyny, w przeciwieństwie do skór niższej jakości, które są szlifowane lub polerowane.</p><p></p>"
         },
         "Grandfather Clock": {
             "name": "Drewniany Zegar",
@@ -1787,6 +1824,18 @@
             "name": "Sztabka Ołowiu",
             "description": "<p>W całym królestwie sztabka ołowiu jest cennym towarem. Wykwalifikowani rzemieślnicy poszukują go do produkcji potężnych pocisków do swoich broni. Pociski te są następnie zasilane magią, dzięki czemu mogą zadawać duże obrażenia magicznym bestiom lub bezcielesnym istotom. Są one również wykorzystywane przez alchemików do tworzenia mikstur i eliksirów. Sztabka ołowiu jest bardzo cenna i wszechstronna.</p>"
         },
+        "Leather Bedroll": {
+            "name": "Skórzany śpiwór",
+            "description": "<p>Standardowy śpiwór, przeznaczony do użytku podczas podróży w każdych warunkach pogodowych, zarówno normalnych, jak i ekstremalnych. Zazwyczaj zapewnia dość dobrą izolację przed zimnem i deszczem. W większości przypadków do jego produkcji wykorzystuje się wiele kawałków materiału, a rzadko jest on wykonywany z jednego kawałka skóry.</p><p></p>"
+        },
+        "Leather Scales": {
+            "name": "Skórzane łuski",
+            "description": "<p>Rzemieślnicy zajmujący się obróbką skóry zazwyczaj wytwarzają je specjalnie do kolczug skórzanych lub pancerzy do siodeł konnych, aby wytrzymały i rozpraszały najsilniejsze uderzenia. Jednak proces ich wytwarzania jest dość żmudny, a pechowi, niedoświadczeni nowi pracownicy otrzymują zadanie wykonania ich w ogromnych ilościach, aby doskonalić proces dokładnego cięcia skóry.</p>"
+        },
+        "Leather Scroll": {
+            "name": "Skórzany zwój",
+            "description": "<p>W regionach, gdzie dostępnych było dużo skór zwierzęcych, skórzane zwoje zastąpiły papirus jako preferowany materiał do pisania. Zazwyczaj były one wytwarzane ze skór owczych, kozich lub cielęcych, które najpierw poddawano skrobaniu w celu usunięcia sierści, a następnie rozciągnięto i wysuszono na ramie. Najczęściej tworzono je poprzez połączenie kilku kawałków za pomocą kleju lub nici.</p><p></p>"
+        },
         "Ledger": {
             "name": "Księga Rachunkowa",
             "description": "<p>Firmy używają specjalnych ksiąg rachunkowych do śledzenia zakupów lub sprzedaży albo do przechowywania informacji. W zależności od sklepu mogą one zawierać dodatkowe informacje, takie jak dane klientów, handlowców, szlaki handlowe lub lokalizacja najgłębszej jaskini. Poszukiwacze używają ich do śledzenia lokalizacji złóż rud. Zielarze zazwyczaj używają ich do śledzenia zapasów, a królestwa mogą przechowywać w nich informacje dotyczące podatków. Istnieje tyle zastosowań, ile jest ksiąg rachunkowych.</p>"
@@ -2042,6 +2091,10 @@
         "Moldavite Ring": {
             "name": "Pierścionek z Mołdawitem",
             "description": "<p>Mołdawit, kamień uważany za pochodzący z niebiańskich uderzeń, posiada naturalnie szklistą strukturę, która pozwala na łatwe kształtowanie go w różne narzędzia, takie jak pierścienie lub wisiorki. Niektórzy przesądni zwykli ludzie twierdzą, że noszenie biżuterii z mołdawitem znacząco wspomaga leczenie nieuleczalnych chorób, choć twierdzenia te pozostają niepoparte przez zielarzy czy alchemików.</p>"
+        },
+        "Mole Rat Hide": {
+            "name": "Skóra szczura molowego",
+            "description": "<p>Niektórzy twierdzą, że jest to kryjówka z innego świata, jednak mole szczury są dość powszechne na obszarach pustynnych. Nie jest to ani kret, ani szczur, mole szczur jest jednym z najbardziej niezwykłych gryzoni w królestwie, jednak ich skóry osiągają dość wysoką cenę ze względu na ich regionalną wyjątkowość.</p>"
         },
         "Moleskin": {
             "name": "Moleskin",
@@ -2683,6 +2736,10 @@
             "name": "Rubinowy Spinel",
             "description": "<p><em>„Mówią, że jeśli je spożyjesz, choć nie polecam tego ani trochę, możesz zapamiętać zaklęcia. Teraz zastanawiam się, jak ktoś może zapomnieć?” </em><br /><br /></p>\n<p>Spinel jest rzadkim minerałem i z tego powodu zastępuje nawet rzadsze minerały, takie jak rubiny. Niebieski wariant jest jednym z najdroższych kamieni szlachetnych na rynku.</p>"
         },
+        "Ruined Pelt": {
+            "name": "Zniszczona skóra",
+            "description": "<p>Wyroby rzemieślnicze niewykwalifikowanych rzemieślników zajmujących się obróbką skór. Zazwyczaj powstają one podczas szkolenia nowych pracowników lub w wyniku popełnionych błędów. Mają one zazwyczaj ograniczone zastosowanie, ale w większości przypadków kończą jako paski skóry, sznurowadła lub liny i rzadko są dodawane do utensylium. </p><p></p>"
+        },
         "Runner Peanut": {
             "name": "Orzeszek Arachidowy",
             "description": "<p>Orzeszki ziemne są przydatne do produkcji oleju z orzeszków ziemnych, masła orzechowego, prażonych orzeszków ziemnych, solonych i słodkich batonów orzechowych oraz sosu orzechowego, ale można je również spożywać na surowo lub solone.</p>"
@@ -2702,6 +2759,10 @@
         "Rutiled Quartz": {
             "name": "Kwarc rutylowy",
             "description": "<p>Kwarc rutylowany to odmiana kwarcu, która zawiera igiełkowate uderzenia wewnątrz klejnotu. Wtrącenia te mogą być rozmieszczone losowo lub w wiązkach, które czasami są ułożone gwiaździście i mogą być rzadkie lub wystarczająco gęste, aby ciało kwarcu było prawie nieprzezroczyste. Podczas gdy ogólnie inkluzje często obniżają wartość każdego innego kryształu, kwarc rutylowy jest ceniony za jakość tych inkluzji.</p><p></p>"
+        },
+        "Saddle Soft Cured Pelt": {
+            "name": "Siodło z miękkiej, wyprawionej skóry",
+            "description": "<p>Specjalna postać skóry, poddana obróbce i przetworzona, ale nie pocięta, przeznaczona do umieszczenia na koniu w celu poprawy komfortu siodła i zapobiegania powstawaniu zadrapań lub skaleczeń na skórze zwierzęcia. Po zakończeniu procesu skóra ta nie ma wielu innych zastosowań poza dekoracyjnym, np. jako nakrycie stołu.</p>"
         },
         "Safe Balm": {
             "name": "Balsam Leczniczy",
@@ -3167,6 +3228,14 @@
             "name": "Tamburyn",
             "description": "<p>Tamburyn to wszechstronny instrument perkusyjny z drewnianą ramą z parami małych metalowych dzwoneczków zwanych tamborami. Można na nim grać na wiele sposobów, np. trzymając go w dłoni, montując na statywie, potrząsając nim w celu uzyskania żywego dźwięku lub gwałtownie uderzając w niego dłonią lub kijem. Muzycy mogą również używać tamburynu przyłączonego do nogi lub biodra w celu dodania rytmu.</p>"
         },
+        "Tanners’ Bolt": {
+            "name": "Bolt Garbarzy",
+            "description": "<p>Termin „Bolt Garbarzy” odnosi się do produktu końcowego pochodzącego z garbarni. Garbowanie skóry w celu uzyskania skóry licowej obejmuje proces, który trwale zmienia właściwości skóry, czyniąc ją bardziej wytrzymałą i mniej podatną na rozkład i przebarwienia spowodowane upływem czasu. Produkt końcowy ma postać ogromnej rolki zawierającej kilka warstw skóry, zwanej po prostu „bolt”.</p><p></p>"
+        },
+        "Tannin Leather": {
+            "name": "Skóra garbowana taninami",
+            "description": "<p>Tanina odnosi się do specyficznej postaci garbowania, wykorzystującej określony rodzaj kory do wzmocnienia skóry, w niektórych regionach znaną po prostu jako garbowanie roślinne. Większość rzemieślników zajmujących się obróbką skóry stara się tego unikać, ponieważ jest to dość czasochłonne, jednak arystokracja uwielbia ten proces, ponieważ błędnie uważa, że jest to skóra wykonana z warzyw, podczas gdy w rzeczywistości w procesie garbowania wykorzystuje się tylko określoną korę.</p><p></p>"
+        },
         "Tanzanite": {
             "name": "Tanzanit",
             "description": "<p>Kamień szlachetny Tanzanit, rodzaj zoisytu, znany jest z głębokiego niebieskiego koloru i unikalnych właściwości optycznych. Jest to jeden z niewielu kamieni szlachetnych, który może wyświetlać trzy różne kolory w zależności od kąta patrzenia. Tanzanit pojawia się jako wyraźny błękit, gdy patrzy się na niego z jednego kierunku i przechodzi w odcienie od fioletu do czerwieni, gdy patrzy się na niego pod innymi kątami.</p>"
@@ -3218,6 +3287,10 @@
         "Ticks": {
             "name": "Kleszcze",
             "description": "<p>Kleszcze to owady, które przyczepiają się do przechodzących zwierząt i ludzi, aby żywić się ich krwią. Występują w wysokich trawach i obszarach zalesionych, czekając na przechodzącego żywiciela. Za każdym razem, gdy zielarz musi zająć się kleszczem, ponieważ są one znanymi nosicielami chorób, prosi rolników o sprawdzenie wszystkich posiadanych przez nich zwierząt gospodarskich.</p>"
+        },
+        "Tiger Hide": {
+            "name": "Skóra tygrysa",
+            "description": "<p>Skóra tygrysa to duży kawałek futra pochodzący od dość majestatycznego zwierzęcia, które ma tendencję do zwyciężać w starciach z dużymi grupami myśliwych, co sprawia, że jest rzadkością u handlarzy. Zwierzę to można spotkać głównie w gęstych, wiecznie zielonych lasach lub głębokich dżunglach, a znalezienie go zazwyczaj nie jest łatwe. </p>"
         },
         "Tiger's Eye": {
             "name": "Tygrysie Oko",
@@ -3407,6 +3480,10 @@
             "name": "Arbuz",
             "description": "<p>Arbuz to słodki, powszechnie spożywany letni owoc, zwykle w postaci świeżych plastrów, pokrojonych w kostkę sałatek owocowych lub soku. Sok z arbuza może być mieszany z innymi sokami owocowymi lub przetwarzany na wino.</p>"
         },
+        "Waxed Thread": {
+            "name": "Woskowana nić",
+            "description": "<p>Skóra tygrysa to duży kawałek futra pochodzący od dość majestatycznego zwierzęcia, które ma tendencję do zwyciężać w starciach z dużymi grupami myśliwych, co sprawia, że jest rzadkością u handlarzy. Zwierzę to można spotkać głównie w gęstych, wiecznie zielonych lasach lub głębokich dżunglach, a znalezienie go zazwyczaj nie jest łatwe. </p>"
+        },
         "Weakfish": {
             "name": "Słaboryb",
             "description": "<p>Słabe ryby znane są z pysznego smaku i waleczności. Migrują w głąb lądu w cieplejszych miesiącach, aby odbyć tarło i dobrze się rozwijać w wodach przyujściowych i przybrzeżnych. Ze względu na łatwość przygotowania, słaba ryba jest powszechnie pieczona lub smażona. Alternatywnie, jego delikatna konsystencja sprawia, że jest to doskonała opcja na rybne tacos lub frytki rybne i ziemniaczane.</p>"
@@ -3450,6 +3527,10 @@
         "Wine": {
             "name": "Wino",
             "description": "<p>Podczas gdy wino gronowe pozostaje najpopularniejszą odmianą, dostępne są również inne warianty, w tym wina z jagód, pokrzywy, jabłek, czarnego bzu i czerwonej porzeczki. Ceny tych win mogą się znacznie różnić w zależności od użytych owoców i ich wieku.</p>"
+        },
+        "Winter Kept Pelt": {
+            "name": "Zimowa skóra",
+            "description": "<p>Preferowany rodzaj skóry używany do produkcji skórzanej zbroi i odzieży z Dalekiej Północy zapewnia bardzo dobrą izolację przed czynnikami atmosferycznymi. Chociaż jest bardzo poszukiwany w chłodniejszym klimacie, ten konkretny rodzaj skóry jest wręcz znienawidzony przez rzemieślników zajmujących się obróbką skóry, którzy mieli z nim do czynienia, ponieważ bez odpowiednich narzędzi jest on prawie niemożliwy do cięcia.</p>"
         },
         "Witches Brew": {
             "name": "Napój Czarownic",

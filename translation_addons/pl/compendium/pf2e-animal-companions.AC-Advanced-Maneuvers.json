@@ -113,6 +113,10 @@
             "name": "Zalanie",
             "description": "<p>Twój żywiołak wody zalewa pobliskie pożary, aby je ugasić. Żywiołak gasi wszystkie pożary w obszarze @Template[type:emanation|distance:5]. Żywiołak automatycznie gasi wszystkie niemagiczne pożary i próbuje przeciwdziałać magicznym pożarom (jego modyfikator przeciwdziałania jest równy modyfikatorowi ataku za pomocą Ataku falą, niemodyfikowanemu przez żadne premie lub efekty, które mają zastosowanie do rzutów ataku).</p>"
         },
+        "Enamoring Exhalation": {
+            "name": "Oczarowujący Wydech",
+            "description": "<p>Twój smoczątko zachwyca wszystkich w pobliżu, wydzielając @Template[type:cone|distance:15] feromonów, które fascynują wszystkich w zasięgu. Każda istota w tym obszarze jest @UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{Zauroczona} tobą i twoim Smoczątkiem do końca twojej następnej tury, chyba że uda jej się wykonać rzut obronny @Check[type:fortitude|against:enamoring-exhalation|basic:true]. W tym przypadku stosuje się wytrenowaną wartość ST przy użyciu modyfikatora Charyzmy Smoczątka lub wartość ST eksperta, jeśli Smoczątko jest wyspecjalizowane.</p>"
+        },
         "Extend Pseudopod": {
             "name": "Przedłużona Nibynóżka",
             "description": "<p>Krzesło wydłuża się, zapewniając swojemu Atakowi cechę Zasięg 10 stóp do początku następnej tury.</p>"

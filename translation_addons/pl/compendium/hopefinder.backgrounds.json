@@ -31,7 +31,7 @@
         },
         "Hacker": {
             "name": "Haker",
-            "description": "<p>Mimo braku prądu wiele rzeczy nadal jest sterowanych przez komputery. Zapewnienie im zasilania to tylko połowa problemu i tu właśnie wkraczasz Ty. Wiesz, jak sprawić, by komputery robiły to, czego od nich oczekujesz.</p>\n<p><strong>Modyfikatory atrybutów:</strong> +1 Zrc, +1 Int</p>\n<p><strong>Umiejętność:</strong> Wytrenowanie w Komputerach</p>\n<p><strong>Atut:</strong> Atut umiejętności @Compendium[hopefinder.feats.83mMgDCDMELC7jRI]</p>\n<p><strong>Sprzęt:</strong> @Compendium[hopefinder.equipment.KLYPmqyFUSUKfoff] (zasilanie urządzenia przez ograniczony czas)</p>"
+            "description": "<p>Mimo braku prądu wiele rzeczy nadal jest sterowanych przez komputery. Zapewnienie im zasilania to tylko połowa problemu i tu właśnie wkraczasz Ty. Wiesz, jak sprawić, by komputery robiły to, czego od nich oczekujesz.</p>\n<p><strong>Modyfikatory atrybutów:</strong> +1 Zrc, +1 Int</p>\n<p><strong>Umiejętność:</strong> Wytrenowanie w Hakowaniu</p>\n<p><strong>Atut:</strong> Atut umiejętności @Compendium[hopefinder.feats.83mMgDCDMELC7jRI]</p>\n<p><strong>Sprzęt:</strong> @Compendium[hopefinder.equipment.KLYPmqyFUSUKfoff] (zasilanie urządzenia przez ograniczony czas)</p>"
         },
         "Liar": {
             "name": "Kłamca",

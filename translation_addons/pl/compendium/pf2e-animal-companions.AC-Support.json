@@ -225,6 +225,10 @@
             "name": "Korzyść Wsparcia Nosorożca",
             "description": "<p>Nosorożec wymachuje ciężką głową, aby wytrącić przeciwnika z równowagi. Pierwsza istota w zasięgu twojego nosorożca, którą trafisz i zadasz jej obrażenia przed rozpoczęciem twojej następnej tury, staje się @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Niezdarna 1} do końca twojej następnej tury.</p><p>@UUID[Compendium.pf2e-animal-companions.AC-effects.Item.LqhSjyZbMN1wKPss]</p><p></p>"
         },
+        "Riding Dragonet Support Benefit": {
+            "name": "Korzyść Wsparcia Smoczątka Wierzchowego",
+            "description": "<p>Skrzydła twojego smoczątka trzepoczą szybko, poruszając powietrzem wokół was. Do początku następnej tury, za każdym razem, gdy wykonujesz Atak podczas jazdy na smoczątku i trafisz stworzenie znajdujące się w zasięgu smoczątka, stworzenie to otrzymuje 1k4 obrażenia obuchowe od siły skrzydeł smoczątka. Jeśli twoje smoczątko jest zwinny lub dziki, obrażenia obuchowe wzrastają do 2k4.</p><p>@UUID[Compendium.pf2e-animal-companions.AC-effects.Item.W0umjrZCgfSo0qh6]</p>"
+        },
         "Riding Drake Support Benefit": {
             "name": "Korzyść Wsparcia Smoczydła Wierzchowego",
             "description": "<p>Twoje smoczydło zieje ogniem w twarze wrogów. Do początku twojej następnej tury, za każdym razem gdy Atakujesz jadąc na smoczydle i trafisz istotę w zasięgu smoczydła, istota ta otrzymuje @Damage[1d4[fire]] od smoka. Jeśli smok jest zwinny lub dziki, obrażenia od ognia wzrastają do @Damage[2d4[fire]|shortLabel].</p><p>@UUID[Compendium.pf2e-animal-companions.AC-effects.Item.5VHKIMzKMw3r2BOa]</p>"

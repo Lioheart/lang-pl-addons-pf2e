@@ -39,7 +39,7 @@
         },
         "Fix": {
             "name": "Naprawa",
-            "description": "<p>Próbujesz naprawić komputer, system elektroniczny lub maszynę, które są zepsute lub nie działają prawidłowo. Poświęć 10 minut i spróbuj wykonać test Komputery dla komputerów lub test Maszyny dla maszyn. ST tego testu zależy od stopnia trudności problemu, określonego przez narratora. Złożone problemy mogą wymagać wielu udanych testów, a w takich przypadkach krytyczny sukces liczy się jako dwa testy potrzebne do wykonania zadania.</p>"
+            "description": "<p>Próbujesz naprawić komputer, system elektroniczny lub maszynę, które są zepsute lub nie działają prawidłowo. Poświęć 10 minut i spróbuj wykonać test Komputerów dla komputerów lub test Maszyny dla maszyn. ST tego testu zależy od stopnia trudności problemu, określonego przez narratora. Złożone problemy mogą wymagać wielu udanych testów, a w takich przypadkach krytyczny sukces liczy się jako dwa testy potrzebne do wykonania zadania.</p>"
         },
         "Hack": {
             "name": "Hakowanie",
@@ -51,7 +51,7 @@
         },
         "Hotwire": {
             "name": "Odpalenie na krótko",
-            "description": "<p>Omijasz zabezpieczenia pojazdu, zazwyczaj w postaci kluczyka, aby go uruchomić. Działa tak samo jak użycie umiejętności Komputery w trybie Hakowania, ale zamiast tego wykorzystuje umiejętność Kierowania (samochody z nadal działającą elektroniką można również uruchomić za pomocą umiejętności Komputery).</p>"
+            "description": "<p>Omijasz zabezpieczenia pojazdu, zazwyczaj w postaci kluczyka, aby go uruchomić. Działa tak samo jak użycie umiejętności Komputery w trybie Komputerów, ale zamiast tego wykorzystuje umiejętność Kierowania (samochody z nadal działającą elektroniką można również uruchomić za pomocą umiejętności Komputery).</p>"
         },
         "Maneuver": {
             "name": "Manewr",

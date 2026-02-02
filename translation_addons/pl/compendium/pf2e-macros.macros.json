@@ -82,6 +82,9 @@
         "Scare to Death": {
             "name": "Śmiertelne Przerażenie"
         },
+        "Set numbers to tokens": {
+            "name": "Ustaw liczby jako tokeny"
+        },
         "Show info about target effect/condition": {
             "name": "Wyświetlanie informacji o efekcie/stanie celu"
         },

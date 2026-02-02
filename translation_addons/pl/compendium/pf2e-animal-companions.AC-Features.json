@@ -411,7 +411,7 @@
         },
         "Steadfast Devotion": {
             "name": "Niezłomne Oddanie",
-            "description": "<p>Dedykacja twojego eidolona sprawia, że wrogom niezwykle trudno jest zagiąć jego umysł. Twój eidolon zyskuje premię +2 do rzutów obronnych przeciwko efektom mentalnym, a jeśli wyrzuci sukces przeciwko takiemu efektowi, otrzymuje zamiast tego sukces krytyczny. Jeśli posiadasz cechę klasową Współdzielenie Determinacji, a twój eidolon wyrzuci krytyczną porażkę przeciwko efektowi mentalnemu, zamiast tego otrzyma porażkę.</p>"
+            "description": "<p>Dedykacja twojego eidolona sprawia, że wrogom niezwykle trudno jest zagiąć jego umysł. Twój eidolon zyskuje premię +2 do rzutów obronnych przeciwko efektom mentalnym, a jeśli wyrzuci sukces przeciwko takiemu efektowi, otrzymuje zamiast tego sukces krytyczny. Jeśli posiadasz zdolność klasową Współdzielenie Determinacji, a twój eidolon wyrzuci krytyczną porażkę przeciwko efektowi mentalnemu, zamiast tego otrzyma porażkę.</p>"
         },
         "Strength Boost": {
             "name": "Zwiększenie Siły",
@@ -452,7 +452,7 @@
         },
         "Traveler's Aura": {
             "name": "Aura Podróżnika",
-            "description": "<p>Twój eidolon emanuje potężną aurą - przypominającą aurę astralnego diabła - która chroni istoty podczas podróży. Aura posiada cechy odpychania, aury i boskości. Twój eidolon i jego sojusznicy w promieniu @Template[distance:20] są chronieni przed silnym gorącem i zimnem, a twój eidolon nigdy nie jest @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Odsłonięty} wobec istot wewnątrz aury, które są niższego poziomu niż eidolon.</p>\n<p>Kiedy zyskujesz cechę klasową Transcendencja, ewoluuje ona do pełnych korzyści astralnego deva; twój eidolon i sojusznicy w aurze są chronieni przed obrażeniami środowiskowymi z dowolnego planu, w tym przed silnym i ekstremalnym gorącem i zimnem, a także bardziej nietypowymi niebezpieczeństwami.</p>"
+            "description": "<p>Twój eidolon emanuje potężną aurą - przypominającą aurę astralnego diabła - która chroni istoty podczas podróży. Aura posiada cechy odpychania, aury i boskości. Twój eidolon i jego sojusznicy w promieniu @Template[distance:20] są chronieni przed silnym gorącem i zimnem, a twój eidolon nigdy nie jest @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Odsłonięty} wobec istot wewnątrz aury, które są niższego poziomu niż eidolon.</p>\n<p>Kiedy zyskujesz zdolność klasową Transcendencja, ewoluuje ona do pełnych korzyści astralnego deva; twój eidolon i sojusznicy w aurze są chronieni przed obrażeniami środowiskowymi z dowolnego planu, w tym przed silnym i ekstremalnym gorącem i zimnem, a także bardziej nietypowymi niebezpieczeństwami.</p>"
         },
         "Trickster Fey": {
             "name": "Podstępny Fey",

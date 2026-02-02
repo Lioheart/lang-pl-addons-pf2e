@@ -5,6 +5,24 @@
             "name": "Czatownik",
             "description": "<p>W naturalnym środowisku towarzysz może użyć akcji @UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]{Skradania się}, nawet jeśli jest aktualnie obserwowany. Jego poziom biegłości w Ukryciu wzrasta do eksperta (lub mistrza, jeśli był już ekspertem ze swojego typu), a jego modyfikator Zręczności wzrasta o 1. Jego poziom biegłości w obronie bez pancerza wzrasta do eksperta.</p>"
         },
+        "Auspice": {
+            "name": "Zwierzchnictwo",
+            "description": "<p>Wierny rumak ze specjalizacją zwierzchnictwa zyskuje następujące korzyści.</p><ul><li>Zyskuje cechę niebiański, czart lub obserwator - w zależności od tego, co najlepiej pasuje do sług twojego bóstwa, a jego wygląd zmienia się, aby bardziej przypominał tych sług. Zyskuje również cechę świętości, jeśli jest niebiański, lub cechę nieświętości, jeśli jest czartem.</li><li>Jego modyfikator Inteligencji wzrasta o 2, a modyfikator Mądrości o 1.</li><li>Jego poziom biegłości w Religii wzrasta do eksperta.</li><li>Może posługiwać się językiem związanym z sługami twojego bóstwa (takim jak Empyriański dla istot niebiańskich, Chtoniczny dla demonów lub Requiański dla psychopomps).</li><li>Jego maksymalne Punkty Wytrzymałości wzrastają o 20, zwiększając się do 25 na 18. poziomie i 30 na 20. poziomie. Jeśli wierzchowiec posiada niebiańską cechę, dodatkowe PW wzrastają o 5, a wierzchowiec zyskuje podatność 5 na nieświęte. Jeśli wierzchowiec posiada cechę czart, dodatkowe PW wzrastają o 5, a wierzchowiec zyskuje podatność 5 na świętość.</li><li>Zyskuje skrzydła, które zapewniają mu prędkość lotu równą jego prędkości lądowej.</li></ul>",
+            "rules": {
+                "0": {
+                    "prompt": "Wybierz wyspecjalizowanego towarzysza, do którego masz dostęp"
+                }
+            }
+        },
+        "Auspicious Mount": {
+            "name": "Obiecujący Wierzchowiec",
+            "description": "<p>Pod twoją stałą opieką rumak rozwinął niesamowitą inteligencję i umiejętności. Wierzchowiec, którego zdobyłeś dzięki atutowi Wierny Rumak, jest teraz wyspecjalizowanym zwierzęcym towarzyszem. Możesz wybrać jedną ze zwykłych specjalizacji lub specjalizację zwierzchnictwa. Wierny rumak ze specjalizacją zwierzchnictwa zyskuje następujące korzyści.</p><ul><li>Zyskuje cechę niebiański, czart lub obserwator - w zależności od tego, co najlepiej pasuje do sług twojego bóstwa, a jego wygląd zmienia się, aby bardziej przypominał tych sług. Zyskuje również cechę świętości, jeśli jest niebiański, lub cechę nieświętości, jeśli jest czartem.</li><li>Jego modyfikator Inteligencji wzrasta o 2, a modyfikator Mądrości o 1.</li><li>Jego poziom biegłości w Religii wzrasta do eksperta.</li><li>Może posługiwać się językiem związanym z sługami twojego bóstwa (takim jak Empyriański dla istot niebiańskich, Chtoniczny dla demonów lub Requiański dla psychopomps).</li><li>Jego maksymalne Punkty Wytrzymałości wzrastają o 20, zwiększając się do 25 na 18. poziomie i 30 na 20. poziomie. Jeśli wierzchowiec posiada niebiańską cechę, dodatkowe PW wzrastają o 5, a wierzchowiec zyskuje podatność 5 na nieświęte. Jeśli wierzchowiec posiada cechę czart, dodatkowe PW wzrastają o 5, a wierzchowiec zyskuje podatność 5 na świętość.</li><li>Zyskuje skrzydła, które zapewniają mu prędkość lotu równą jego prędkości lądowej.</li></ul>",
+            "prerequisites": [
+                {
+                    "value": "Imponujący Rumak"
+                }
+            ]
+        },
         "Billowing Wings": {
             "name": "Rozłożyste Skrzydła",
             "description": "<p>Wytrenowałeś swoich skrzydlatych towarzyszy, by gromadzili powietrze w swoich skrzydłach, wzbijając skoncentrowany podmuch wiatru w kierunku przeciwników, potencjalnie ich oszałamiając.</p><p>Twoi skrzydlaci towarzysze zyskują dystansowy atak bez broni w postaci podmuchu, który zadaje 1k4 obrażeń obuchowych w zasięgu 30 stóp i posiada cechy powietrza i siłowy. Przy trafieniu krytycznym cel zostaje odepchnięty na 5 stóp. Jest to ruch wymuszony.</p>",
@@ -119,12 +137,7 @@
         },
         "Specialized Animal Companion": {
             "name": "Wyspecjalizowany Zwierzęcy Towarzysz",
-            "description": "<p>Wyspecjalizowani zwierzęcy towarzysze są bardziej inteligentni i angażują się w bardziej złożone zachowania. Większość zwierzęcych towarzyszy może mieć tylko jedną specjalizację. Za pierwszym razem, gdy zwierzę zyskuje specjalizację, zyskuje również następujące cechy.</p><ul><li>Jego poziom biegłości w atakach bez broni wzrasta do eksperta.</li><li>Jego stopnie biegłości dla rzutów obronnych i Percepcji wzrastają do poziomu mistrzowskiego.</li><li>Zwiększa modyfikator Zręczności o 1 i modyfikator Inteligencji o 2.</li><li>Jego obrażenia od ataków bez broni wzrastają z dwóch do trzech kości, a dodatkowe obrażenia od ataków bez broni wzrastają z 2 do 4 lub z 3 do 6.</li></ul>",
-            "rules": {
-                "4": {
-                    "prompt": "Wybierz wyspecjalizowanego towarzysza, do którego masz dostęp"
-                }
-            }
+            "description": "<p>Wyspecjalizowani zwierzęcy towarzysze są bardziej inteligentni i angażują się w bardziej złożone zachowania. Większość zwierzęcych towarzyszy może mieć tylko jedną specjalizację. Za pierwszym razem, gdy zwierzę zyskuje specjalizację, zyskuje również następujące cechy.</p><ul><li>Jego poziom biegłości w atakach bez broni wzrasta do eksperta.</li><li>Jego stopnie biegłości dla rzutów obronnych i Percepcji wzrastają do poziomu mistrzowskiego.</li><li>Zwiększa modyfikator Zręczności o 1 i modyfikator Inteligencji o 2.</li><li>Jego obrażenia od ataków bez broni wzrastają z dwóch do trzech kości, a dodatkowe obrażenia od ataków bez broni wzrastają z 2 do 4 lub z 3 do 6.</li></ul>"
         },
         "Steadfast Strider": {
             "name": "Niezłomny Spacer",

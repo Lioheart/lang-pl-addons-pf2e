@@ -258,6 +258,15 @@
             "name": "Efekt: Korzyść Wsparcia Nosorożca",
             "description": "<p>Przyznany przez @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.kecawjDhBFz5QA4f]{Korzyść Wsparcia Nosorożca}</p><p>Pierwsza istota w zasięgu twojego nosorożca, którą trafisz i zadasz jej obrażenia przed rozpoczęciem twojej następnej tury, staje się Niezdarna 1.</p>"
         },
+        "Effect: Riding Dragonet Support Benefit": {
+            "name": "Efekt: Korzyść Wsparcia Smoczątka Wierzchowego",
+            "description": "<p>Przyznany przez Korzyść Wsparcia Smoczątka Wierzchowego</p><p>Twoje Ataki zadają obrażenia obuchowe w zasięgu twojego Smoczątka.</p>",
+            "rules": {
+                "0": {
+                    "prompt": "Czy towarzysz jest zwinny czy dziki?"
+                }
+            }
+        },
         "Effect: Riding Drake Support Benefit": {
             "name": "Efekt: Korzyść Wsparcia Smoczydła Wierzchowego",
             "description": "<p>Przyznany przez @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.C41lCXjerYjMyOTI]{Korzyść Wsparcia Smoczydła Wierzchowego}</p><p>Za każdym razem, gdy wykonasz atak podczas dosiadania smoczydła i trafisz istotę znajdującą się w zasięgu smoczydła, istota ta otrzyma obrażenia od ognia zadane przez smoczydło.</p>",

@@ -26,14 +26,11 @@
             "name": "Zwierzęcy Towarzysz Łowcy",
             "description": "<p>Ta istota jest zwierzęcym towarzyszem łowcy i zyskuje korzyści swojego pana @UUID[Compendium.pf2e.actionspf2e.JYi4MnsdFu618hPm]{Naznaczoną Ofiarę} oraz jego przewagę myśliwego.</p>",
             "rules": {
-                "4": {
-                    "label": "pf2e-ranged-combat.huntPrey.huntersEdge.flurry"
-                },
                 "5": {
                     "label": "pf2e-ranged-combat.huntPrey.huntersEdge.flurry"
                 },
                 "6": {
-                    "label": "pf2e-ranged-combat.huntPrey.huntersEdge.outwit"
+                    "label": "pf2e-ranged-combat.huntPrey.huntersEdge.flurry"
                 },
                 "7": {
                     "label": "pf2e-ranged-combat.huntPrey.huntersEdge.outwit"
@@ -42,6 +39,9 @@
                     "label": "pf2e-ranged-combat.huntPrey.huntersEdge.outwit"
                 },
                 "9": {
+                    "label": "pf2e-ranged-combat.huntPrey.huntersEdge.outwit"
+                },
+                "10": {
                     "label": "pf2e-ranged-combat.huntPrey.precision.attackNumber"
                 }
             }
