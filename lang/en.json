@@ -6,6 +6,7 @@
     "combatStart": "Start of Combat",
     "combatEnd": "End of Combat",
     "DamageHeader": "Dmg",
+    "DamageDescription": "Displays weapon damage with Strike Runes",
     "settings": {
       "enableRuneDescriptions": {
         "name": "Enable Rune Descriptions",

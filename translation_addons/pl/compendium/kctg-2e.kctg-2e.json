@@ -343,6 +343,10 @@
             "name": "Heliotrop",
             "description": "<p>Kamień szlachetny o ciemnym kolorze z małymi plamkami czerwonych lub brązowych plamek, które czasami mogą również wyglądać podobnie do pasków lub żył. Jest używany głównie jako kamień uszczelniający do kamiennych podłóg lub używany w ozdobnych małych rzeźbach lub figurach, a inne właściwości obejmują jego zastosowanie jako środka leczniczego. Umieszczony na otwartej ranie pomaga w szybszym krzepnięciu krwi.</p>"
         },
+        "Blue Chanterelle": {
+            "name": "Niebieska kurka",
+            "description": "<p>Owocniki kurki niebieskiej można opisać jako czapeczki w kształcie lejka o aksamitnej teksturze, które często rosną jedna na drugiej. Uważa się, że dziko rosnąca kurka niebieska jest rzadkością ze względu na jej związek ze starymi lasami iglastymi. Jednak przekonanie to może być nieprawdziwe, ponieważ gatunek ten, choć rzadko, spotykany jest również na terenach trawiastych.</p>"
+        },
         "Blue Quartz": {
             "name": "Niebieski Kwarc",
             "description": "<p>Preferowany przez szklarzy do wyrobu różnego rodzaju pucharów i wazonów, a z pomocą kowali jest używany do ozdabiania kufli. Osoby władające magią używają tego kamienia szlachetnego, by przejrzeć krainy lub czyjeś oszustwa.</p>"
@@ -752,6 +756,10 @@
             "name": "Koniczyna",
             "description": "<p>Koniczyna jest od dawna stosowana jako zioło lecznicze przez większość zielarzy, o którym mówi się, że pomaga we wszystkim, od skurczów po astmę. Koniczyna jest jednak wykorzystywana głównie jako pasza dla zwierząt gospodarskich lub jako nawóz. W niektórych regionach uważa się, że jeśli znajdziesz czterolistną koniczynę, uśmiechnie się do ciebie szczęście. Jednak większość myli czterolistną koniczynę ze szczawiem leśnym.</p><p></p>"
         },
+        "Clustered Domecap": {
+            "name": "Kępkowiec jasnobrązowy",
+            "description": "<p>Znany jako Kępkowiec jasnobrązowy lub Grzyb kurczakowy, swoją alternatywną nazwę zawdzięcza wyjątkowemu smakowi, który nawet na surowo przypomina smak smażonego drobiu. Ten konkretny grzyb cieszy się bardzo dużym popytem w gospodach i tawernach, ponieważ można go wykorzystać w wielu przepisach, które, szczerze mówiąc, smakują niesamowicie.</p>"
+        },
         "Coal": {
             "name": "Węgiel",
             "description": "<p><em>„Jest to ulubiony rodzaj rudy kowali. Bez dobrej jakości węgla nie będą w stanie robić tego, co robią. W małej kuźni wystarczy trochę węgla i drewna, ale jeśli chodzi o odlewnie, węgiel w dużych ilościach jest koniecznością\".</em></p>\n<p> </p>\n<p>Ulubione narzędzie metalowców, węgiel można znaleźć głównie pod ziemią, co czyni go jednym z najczęstszych przedmiotów odkrywanych podczas wydobycia. Węgiel można znaleźć zarówno blisko powierzchni, jak i pod ziemią, dzięki czemu krasnoludy są jednym z najbardziej rozpowszechnionych eksporterów.  </p>"
@@ -996,6 +1004,10 @@
             "name": "Demantoid",
             "description": "<p>Demantoid, jeden z najrzadszych rodzajów granatu, wykazuje żywy kolor porównywalny do szmaragdu i blask, który przewyższa nawet diamenty. Bardzo poszukiwane zarówno przez koneserów klejnotów, jak i miłośników biżuterii, demantoidy są zwykle sprzedawane z premią znacznie wyższą niż ich cena regionalna.</p>"
         },
+        "Desert Shaggy Mane": {
+            "name": "Pustynna grzywa",
+            "description": "<p>Duża liczba tych grzybów może pojawić się po ulewnych deszczach. Rozwijają się one na pustyniach i w bardzo surowym klimacie. Zmęczony poszukiwacz przygód może je zjeść w razie potrzeby, ponieważ gdy grzyb jest młody, nadaje się do spożycia. Jednak zielarze uważają te grzyby za dość trudne w uprawie ze względu na specyfikę ich naturalnych siedlisk.</p>"
+        },
         "Detonator": {
             "name": "Detonator",
             "description": "<p>Narzędzie bardzo lubiane przez górników, jego połączenie z materiałem wybuchowym w postaci prochu strzelniczego ułatwia szybkie tworzenie otworów lub tuneli w celu dotarcia do bardziej interesujących metali pod ziemią. Niemniej jednak, ze względu na sporadyczną niestabilność eksplozji i rzadkie ryzyko uszkodzenia obudów kopalni przez odłamki, preferowanym wyborem są wiertarki.</p>"
@@ -1148,6 +1160,10 @@
             "name": "Żywiołowy Dług",
             "description": "<p>Ta magiczna moneta ma nieokreśloną wartość, która zależy od materiału użytego do jej stworzenia. Jest używana głównie jako materiał, który ma zostać zużyty do zaklęć, które mają określone wymagania wstępne. Magiczne stopy z perłami, diamentami, kośćmi i srebrem są powszechnie używane do produkcji tych monet. Każda moneta posiada magiczny sygil reprezentujący rodzaj zaklęcia, do którego może być użyta, a symbol ten określa również jej wartość. Monety te można zazwyczaj znaleźć w dużych miastach, w których znajduje się uczelnia magiczna zdolna do ich wytwarzania.</p>"
         },
+        "Elfin Saddle": {
+            "name": "Elfinowa siodłówka",
+            "description": "<p>Znany jako czarna elfinowa siodłówka, czarna helwella lub szara siodłówka, jest to lekko toksyczny, ale bardzo niezwykły grzyb. Niektórzy zielarze uważają, że jest jadalny, jednak nie wszyscy się z tym zgadzają, ponieważ niektórzy zauważyli problemy, w tym bóle brzucha, u osób, które go spożywały.</p>"
+        },
         "Embalming Fluid": {
             "name": "Płyn Balsamujący",
             "description": "<p>Płyn ten jest specjalnie stworzony do konserwowania zmarłych w celu późniejszego wykorzystania do sekcji lub pochówku, a nawet nekromancji. Płyn sam w sobie jest uważany za truciznę dla zwykłych ludzi, którzy mogą rozważać jego spożycie. Zabalsamowane zwłoki rozkładają się wolniej niż ich niezabalsamowane odpowiedniki.</p>"
@@ -1223,6 +1239,10 @@
         "Fiddle": {
             "name": "Świergot",
             "description": "<p>Skrzypce, bardziej znane jako altówka, są często używane w muzyce skupiającej się na tańcu. Różnica między nimi polega na sposobie grania muzyki. Skrzypce charakteryzują się szybkimi rytmami i szybkimi zmianami nut, podczas gdy altówka zazwyczaj wytwarza bardziej łagodny dźwięk z dłuższymi, utrzymanymi nutami. Nazwa instrumentu zależy od stylu, w jakim jest grany.</p>"
+        },
+        "Field Mushroom": {
+            "name": "Pieczarka polna",
+            "description": "<p>Pieczarka polna, znana również jako pieczarka łąkowa, jest jednym z najczęściej błędnie identyfikowanych grzybów. Często mylona jest z trującą pieczarką żółtą, która jest do niej bardzo podobna, a także z śmiertelną muchomorową. Ze względu na te zagrożenia zielarze radzą, aby osoby bez odpowiedniej wiedzy nie zbierały przypadkowych grzybów na łąkach i polach.</p>"
         },
         "Fig": {
             "name": "Figa",
@@ -1315,6 +1335,10 @@
         "Fruit Vulcano Lava Pie": {
             "name": "Owocowy Placek z Wulkanicznej Lawy",
             "description": "<p>To ciasto zachwyca od pierwszego do ostatniego kęsa. Po przebiciu ciasta łyżką, gorący dżem owocowy wypływa na zewnątrz, przypominając lawę, od której pochodzi jego nazwa.</p>"
+        },
+        "Funeral Bell": {
+            "name": "Hełmówka jadowita",
+            "description": "<p>Hełmówka jadowita, śmiertelna jarmułka, jesienna jarmułka lub śmiertelna galerina – grzyb ten, jak sama nazwa wskazuje, jest dość śmiercionośny. Niestety często mylony jest z kilkoma innymi grzybami jadalnymi. Istnieje ponura legenda, że po spożyciu tego grzyba ofiara usłyszy dzwon kościelny zwiastujący jej śmierć, niezależnie od tego, gdzie się znajduje.</p>"
         },
         "Fustian": {
             "name": "Fustian",
@@ -1420,6 +1444,10 @@
             "name": "Złoty Klucz",
             "description": "<p>Aby wzbudzić dodatkowe zaufanie u właścicieli skrytek depozytowych w całym królestwie, niektóre banki zlecają wykonanie kluczy do swoich skrytek ze złota, aby stworzyć wizerunek prestiżu i bogactwa. Jednak te tak zwane złote klucze są często wykonane z pirytu, znacznie mniej trwałego materiału. Z biegiem czasu i przy regularnym użytkowaniu te pirytowe klucze mają tendencję do pękania lub kruszenia się, podczas gdy banki tną koszty.</p>"
         },
+        "Gold-Drop Milkcap": {
+            "name": "Mleczaj złocisty",
+            "description": "<p>Znany jako Złocisty lub Żółty mleczaj, grzyb ten występuje zazwyczaj na dębach lub w ich pobliżu. Co gorsza, można go znaleźć wśród innych grzybów w systemie symbiotycznym. Jednak w przeciwieństwie do grzybów, które zazwyczaj rosną w pobliżu, ten mleczaj jest raczej śmiertelny. Zielarze radzą, aby w sezonie zbiorów każdy grzyb był trzykrotnie sprawdzany i weryfikowany przez osobę znającą się na regionalnych grzybach.</p><p></p>"
+        },
         "Golden Berry": {
             "name": "Złota Jagoda",
             "description": "<p>Ze względu na swój żółty kolor agrest przylądkowy jest czasami nazywany wiśnią lub złotą jagodą. Najczęściej spożywa się go w postaci surowej lub zanurzonego w słodkiej czekoladzie. Może być również gotowany w celu uzyskania wykwintnych dżemów, galaretek i przecierów lub stosowany w egzotycznych sałatkach owocowych, pavlovas i roladach. Dodatkowo można je dusić w wodzie z niewielką ilością cukru i wykorzystywać w plackach owocowych, ciastach lub kruszonce.</p><p></p>"
@@ -1519,6 +1547,10 @@
         "Green Summer Beetle": {
             "name": "Zielony Chrząszcz Letni",
             "description": "<p>Zielone chrząszcze letnie stają się problemem w okresie wegetacyjnym, szkodząc zarówno ogrodom, jak i uprawom. Chrząszcze te atakują dojrzałe lub fermentujące owoce, takie jak figi, winogrona i jagody. Każdego lata wiele osób próbuje włączyć piołun do swojego cyklu sadzenia, ponieważ działa on głównie jako środek odstraszający owady.</p>"
+        },
+        "Green-Spored Parasol": {
+            "name": "Zielony wymiotnik",
+            "description": "<p>Zieleńka parasolowa jest zazwyczaj zbierana przez młodych mieszczan w celu... żartowania sobie z innych. Grzyb ten ma również inną nazwę, po prostu „Wymiotnik”. Jak sama nazwa wskazuje, jest on trujący, ale nie śmiertelnie, a jedynie na tyle, by stanowić dość poważną niedogodność dla osób, które go spożyją. Zielarze zalecają spożywanie dużych ilości nabiału, ponieważ ma on działanie łagodzące na żołądek.</p>"
         },
         "Grilled Ribs": {
             "name": "Grillowane Żeberka",
@@ -1696,6 +1728,10 @@
             "name": "Idikolit",
             "description": "<p>Często mylony z szafirem, ten kamień szlachetny jest w rzeczywistości odmianą turmalinu. Pomimo prób pozbawionych skrupułów sprzedawców, by przedstawić go jako bardziej wartościowy szafir, jego dostrzegalny, nieco mniej żywy kolor służy jako znak ostrzegawczy dla tych, którzy mają wytrenowane oko.</p>"
         },
+        "Indigo Milkcap": {
+            "name": "Mleczaj niebieski",
+            "description": "<p>Mleczaj niebieski, to niezwykle wyjątkowy grzyb o barwie od niebieskiej do fioletowej. Jest dość powszechny na wielu rynkach i zazwyczaj osiąga wysoką cenę, głównie ze względu na swoje egzotyczne kolory. Właściciele lokali gastronomicznych często zamawiają go, ponieważ lokalni klienci wydają się szczególnie zainteresowani jego smakiem, który często opisywany jest jako przypominający prażoną słodką kukurydzę lub cukrowe ciasteczka.</p>"
+        },
         "Invitation": {
             "name": "Zaproszenie",
             "description": "<p>Zaproszenia są często używane na wesela, oficjalne wydarzenia lub w celu uzyskania dostępu do dworu hrabiego. Różnią się one znacznie stylem, od bardzo formalnych po osobiste, od luksusowych po oficjalne. Zazwyczaj trudno jest dokładnie określić, jakiego rodzaju wydarzenie nas czeka, dopóki nie otworzymy zaproszenia.</p><p></p>"
@@ -1719,6 +1755,10 @@
         "Ironwood Log": {
             "name": "Kłoda Żelazodrewna",
             "description": "<p><em>„Nazywamy je Żelazodrewno, ale zazwyczaj ma swoją własną nazwę w zależności od regionu. Ludzie w tartakach nienawidzą tego rodzaju drewna, ponieważ prawie za każdym razem muszą wymieniać główne ostrze. Nie wspominając o tym, że jeśli ktoś chce mieć z niego tarcicę, musi mieć też odpowiednią ilość złota. Jest bardzo wytrzymałe!”</em><br /><br /></p>\n<p>Żelazodrewno występuje w kilku kolorach, od czerwonego przez szary do jasnobrązowego, w zależności od regionu, w którym zostało pozyskane. Używane jest głównie jako drewno opałowe, ponieważ spala się bardzo wolno. Jeśli chodzi o meble, jest ono zwykle używane tylko do małych dodatków dekoracyjnych, ponieważ większość narzędzi stolarskich nie jest w stanie go wyrzeźbić. </p>"
+        },
+        "Jack'o'lantern Mushroom": {
+            "name": "Kielichowiec pomarańczowy",
+            "description": "<p>Istnieje niewielkie przekonanie, że są one nieco halucynogenne i spekuluje się, że po spożyciu można zobaczyć nieumarłego jeźdźca bez głowy. Jedyne, co może cię dotknąć, to bardzo rozstrój żołądka i bóle brzucha. Większość zwykłych ludzi nazywa je fałszywymi kurkami, ponieważ wyglądają bardzo podobnie. </p>"
         },
         "Jackhammer": {
             "name": "Młot Pneumatyczny",
@@ -1751,6 +1791,10 @@
         "Kala Namak": {
             "name": "Kala Namak",
             "description": "<p>Kala Namak, czyli czarna sól, jest zarówno wydobywana, jak i wytwarzana przez alchemików. Proces wytwarzania obejmuje zamykanie surowej soli w ceramicznych słoikach z węglem drzewnym i dodawanie nasion harad, amli, bahery, kory babul lub natronu przed wypalaniem ich w piecu przez 24 godziny. Powstała sól ma kolor od brązowawo-różowego do ciemnofioletowego, gdy nie jest zmielona.</p>"
+        },
+        "King Bolete": {
+            "name": "Borowik szlachetny",
+            "description": "<p>Borowik szlachetny jest jednym z największych grzybów występujących w lasach. Chociaż jego dość duże rozmiary są pierwszym wskazaniem, można go również łatwo rozpoznać po charakterystycznym zapachu, który przypomina chleb na zakwasie. Niektórzy zwykli ludzie nazywają je „leśnymi bułeczkami”, ponieważ zarówno ich zapach, jak i kolor przypominają te wypieki.</p>"
         },
         "Kinnor": {
             "name": "Kinnor",
@@ -2028,6 +2072,10 @@
             "name": "Młotek Kamieniarski",
             "description": "<p>Powszechnie nazywane młotkami murarskimi, młotki kamieniarskie są przeznaczone przede wszystkim do precyzyjnego rozbijania cegieł, kamieni, kostki brukowej lub wbijania pali. Posiadają one jedną płaską, tradycyjną powierzchnię, a z tyłu krótkie lub długie ostrze w kształcie dłuta. Taka konstrukcja pozwala im skutecznie odłupywać krawędzie lub małe kawałki kamienia i ciąć ceglane elementy murowe bez konieczności stosowania oddzielnego dłuta.</p>"
         },
+        "Matsutake": {
+            "name": "Gąska sosnowa",
+            "description": "<p>Gąski sosnowe są trudne do znalezienia ze względu na ich specyficzne wymagania wzrostowe, a zielarze mają trudności z odtworzeniem odpowiednich warunków, ponieważ rosną one w bardzo specyficznych lasach. W sezonie zbiorów zwykli ludzie zwykle ścigają się z dziką przyrodą, aby znaleźć te grzyby w dobrym stanie na rynek, ponieważ w pełni wyrośnięte mogą osiągnąć wysoką cenę.</p>"
+        },
         "Mead": {
             "name": "Miód Pitny",
             "description": "<p>Większość klasztorów podtrzymuje tradycje produkcji miodu pitnego jako produktu ubocznego pszczelarstwa, zwłaszcza na obszarach, gdzie nie można było uprawiać winogron, jednak dopóki istnieje dostęp do jakiejkolwiek formy miodu, miód pitny można łatwo wyprodukować. Większość tawern po prostu importuje miód i rozpoczyna proces fermentacji, aby wyprodukować miód pitny na miejscu.</p>"
@@ -2252,6 +2300,10 @@
             "name": "Lampa Olejowa",
             "description": "<p>Działają one w taki sam sposób jak świeca, ale wykorzystują paliwo, które w temperaturze pokojowej ma postać płynną, dlatego wymagają pojemnika na olej. Tekstylny knot zanurza się w oleju i zapala się jego koniec, co powoduje spalanie oleju w miarę jego wchłaniania przez knot. Źródłem paliwa dla lamp olejowych są różne rośliny, takie jak orzechy i nasiona, ale powszechnie stosuje się również tłuszcze zwierzęce.</p>"
         },
+        "Old Man of the Woods": {
+            "name": "Szyszkowiec łuskowaty",
+            "description": "<p>Grzyb ten można łatwo rozpoznać po kudłatym, miękkim, ciemnoszarym i czarnym plamkach na białej powierzchni, która po zgnieceniu zmienia kolor na czerwony i czarny. Wielu zielarzy zaleca tę reakcję zmiany koloru jako sposób identyfikacji, aby uniknąć pomylenia go z czymś nieco bardziej śmiercionośnym. Grzyby te są jadalne, ale kupowane są głównie przez tawerny lub zajazdy, gdy są młode, ponieważ z wiekiem stają się bez smaku.</p>"
+        },
         "Oligoclase": {
             "name": "Oligoklaz",
             "description": "<p>Oligoklaz, będący kamieniem półszlachetnym, jest zwykle bardzo poszukiwany przez większość zwykłych ludzi, ponieważ jest jednym z bardziej przystępnych cenowo klejnotów. Zwykle występuje w kolorze białym, szarym, zielonym lub czerwonym. Ze względu na szeroką gamę kolorów </p>"
@@ -2468,6 +2520,10 @@
             "name": "Widły",
             "description": "<p>Widły, powszechnie nazywane widłami do siana, to narzędzie przeznaczone do rozrzucania luźnych materiałów, w tym siana, słomy, obornika lub liści. Dzięki długiemu uchwytowi i zazwyczaj od dwóm do pięciu cienkim zębom, są one specjalnie zaprojektowane do wydajnego przenoszenia takich materiałów.</p>"
         },
+        "Pixie’s Parasol": {
+            "name": "Wróżkowy grzyb",
+            "description": "<p>Te grzyby są niezwykle małe i naprawdę piękne. Zielarze wiedzą, że nie są one śmiertelnie niebezpieczne, ale radzą, żeby ich nie jeść, bo mogą powodować poważne problemy żołądkowe. Mimo to zielarze zbierają je w dużych ilościach, bo alchemicy uwielbiają ich wygląd i kupują różne odmiany, żeby po prostu cieszyć oko i, miejmy nadzieję, zwiększyć sprzedaż, bo nawet po wysuszeniu nadal wyglądają atrakcyjnie.</p>"
+        },
         "Platinum Ingot": {
             "name": "Sztabka Platyny",
             "description": "<p>Sztabki platyny są niezwykle trudne w produkcji i wymagają najgorętszych hut zasilanych lawą lub magicznym ogniem, aby odpowiednio stopić i uszlachetnić rudę platyny. Po oczyszczeniu do postaci wlewków, tylko najbardziej wykwalifikowani rzemieślnicy i elitarne warsztaty wykorzystują je do tworzenia wysokiej jakości przedmiotów. Wlewki są jednak sprzedawane głównie jako towar dla towarów o wysokiej wartości. </p>"
@@ -2532,6 +2588,10 @@
             "name": "Zbiornik Ciśnieniowy",
             "description": "<p>Stworzone specjalnie w celu przechowywania najbardziej lotnych materiałów i utrzymywania ich pod ciśnieniem, takich jak określone gazy, powietrze, oddechy mitycznych bestii lub tajemnicze związki. Zazwyczaj, jeśli pojawia się jedna z tych szczelin, nawet jeśli są one wykonane z wytrzymałych materiałów, dochodzi do katastrofy.</p>"
         },
+        "Puffball": {
+            "name": "Purchawka",
+            "description": "<p>Purchawki to rodzaj grzybów o owocniku w kształcie kuli. Po osiągnięciu pełnej dojrzałości pęka przy kontakcie lub uderzeniu, uwalniając chmurę zarodników do otoczenia. Chmury te są wykorzystywane przez wytrenowanych zielarzy do dalszego strategicznego zapładniania gleby. Są one wykorzystywane przede wszystkim do produkcji atramentu, który powstaje poprzez spalenie i sprasowanie grzyba w drobną pastę.</p>"
+        },
         "Pumpkin": {
             "name": "Dynia",
             "description": "<p>Uważa się, że jest to jedno z najbardziej świątecznych warzyw. Dynie są wykorzystywane w większości imprez festiwalowych do rzeźbienia w dyni, dekoracji lub rzucania dyniami, w których drużyny próbują rzucić dyniami jak najdalej za pomocą katapult, trebuchetów lub balist. Dynie czasami są również związane z lokalnymi legendami, w których dynia jest symbolem głowy stworzenia. Tawerny przechowują pestki i prażą je, aby zapewnić swoim gościom przekąskę, a przy pomocy miąższu powstaje jedna z najsmaczniejszych form ciasta, jednak może to być smak nabyty.</p>"
@@ -2562,7 +2622,7 @@
         },
         "Purple Emperor": {
             "name": "Fioletowy Cesarz",
-            "description": "<p>Fioletowy cesarz to wspaniały motyl, który lata wysoko w koronach drzew bardzo gęstych lasów. Alchemicy zazwyczaj hodują kilka osobników w motylarni, ponieważ są one rzadkim składnikiem niektórych z najrzadszych eliksirów. </p>"
+            "description": "<p>Grzyby te mają jasnofioletowe kapelusze, które lśnią śluzem. Ich nazwa budzi pewne zamieszanie, ponieważ jest taka sama jak nazwa gatunku motyla. Nie wiadomo, czy grzyby te są jadalne, ale bardzo często mylone są z innymi, bardzo podobnymi grzybami, które są śmiertelnie trujące, dlatego zielarze zdecydowanie odradzają ich spożywanie.</p>"
         },
         "Purple Pink Diamond": {
             "name": "Fioletowo-różowy Diament",
@@ -2591,6 +2651,10 @@
         "Quartzite": {
             "name": "Kwarcyt",
             "description": "<p>Kwarcyt jest kamieniem dekoracyjnym i może być stosowany do pokrywania ścian, dachówek, podłóg i schodów, a ze względu na swoją wytrzymałość jest również wykorzystywany do budowy dróg, mostów i zapór. Po pocięciu i wypolerowaniu skała jest dość piękna, a także trwała.</p>"
+        },
+        "Questionable Stropharia": {
+            "name": "Wątpliwa strzępka",
+            "description": "<p>Grzyb ten jest często przedmiotem badań, ponieważ zielarze uznają go za jadalny, ale jednocześnie twierdzą, że jest dość trujący, a nawet śmiertelny. Powoduje to pewne zamieszanie, ponieważ nawet w kontrolowanych testach istnieje ryzyko, że może wywołać gwałtowne reakcje, a nawet doprowadzić do śmierci, ale może też nic się nie wydarzyć. Z tego powodu otrzymał swoją nazwę.</p>"
         },
         "Quince": {
             "name": "Pigwa",
@@ -3040,6 +3104,10 @@
             "name": "Nalewka Nasenna",
             "description": "<p>Kiedy zwykłe ręce robocze są nawiedzane przez bezsenne noce, jednym z najczęstszych sposobów na rozwiązanie tego problemu jest zaufana nalewka na sen, która jest warzona przez Alchemików. Nalewka ma słodzony smak, a po jej spożyciu użytkownicy mogą dobrze wypocząć w nocy.</p>"
         },
+        "Slippery Jack": {
+            "name": "Maślak zwyczajny",
+            "description": "<p>Występują we wszystkich królestwach w lasach sosnowych i mają różne lokalne nazwy. Można je łatwo rozpoznać po oleistym, mokrym wyglądzie. Po znalezieniu zielarze zalecają, aby przed spożyciem maślaki zwyczajne obrać z brązowej, lepkiej skórki, ponieważ warstwa ta jest trudna do strawienia i może powodować problemy zdrowotne.</p>"
+        },
         "Small Cabbage Sprouts": {
             "name": "Małe kiełki kapusty",
             "description": "<p>Różne regiony mają własne nazwy dla małych kiełków kapusty, zazwyczaj oparte na miejscu ich występowania. Kucharze w małych restauracjach i lokalnych tawernach często dokładają szczególnych starań, aby znaleźć te kiełki. Ponieważ są one dość rzadkie, potrawy z ich dodatkiem są zazwyczaj znacznie droższe. Dobrymi przykładami są mieszane sałatki z kapusty lub karmelizowane kiełki kapusty.</p>"
@@ -3444,6 +3512,10 @@
             "name": "Fioletowy Granat",
             "description": "<p>Lub rodolit, jest używany głównie przez jubilerów, złotników, a czasem nawet kowali do celów zdobniczych. W niektórych kulturach i religiach granaty były uważane za zestaloną krew konkretnego boskiego awatara danej religii.</p>"
         },
+        "Violet Webcap": {
+            "name": "Zasłonak fioletowy",
+            "description": "<p>Powszechnie znany jako zasłonak fioletowy, grzyb ten łatwo odróżnić od wielu innych gatunków dzięki charakterystycznemu fioletowemu kolorowi i kapeluszowi, który w dotyku przypomina krótkie włoski. To sprawia, że różni się on znacznie od innych grzybów o podobnej kolorystyce. Chociaż nie jest trujący, zaleca się zachowanie szczególnej ostrożności, ponieważ można go łatwo pomylić z bardziej toksycznymi gatunkami. Mimo to zwykli ludzie twierdzą, że smakuje jak żuty tytoń, więc nie jest to grzyb aktywnie zbierany.</p>"
+        },
         "Wall Meat": {
             "name": "Mięso Ścienne",
             "description": "<p>Mięso ścienne, zbierane z Kurnarak, jest cenionym przysmakiem wśród podziemnego ludu, ze względu na długi i pracochłonny proces jego sadzenia i zbierania. Pomimo swojej nazwy, Mięso ze Ściany nie jest prawdziwym mięsem, ale rodzajem grzyba o twardej, twardej powierzchni zewnętrznej. Jego przygotowanie jest proste, ale może być odstraszające dla osób nieprzyzwyczajonych do podziemnej kuchni, ponieważ ma silny, pleśniowy zapach spowodowany długim czasem spędzonym w podziemnym środowisku. Tylko osoby o silnej Kondycji są w stanie ją przyrządzić. Po przygotowaniu ma jednak bogaty smak, łączący w sobie najlepsze cechy delikatnej wołowiny i smażonych grzybów.</p>"
@@ -3482,7 +3554,7 @@
         },
         "Waxed Thread": {
             "name": "Woskowana nić",
-            "description": "<p>Skóra tygrysa to duży kawałek futra pochodzący od dość majestatycznego zwierzęcia, które ma tendencję do zwyciężać w starciach z dużymi grupami myśliwych, co sprawia, że jest rzadkością u handlarzy. Zwierzę to można spotkać głównie w gęstych, wiecznie zielonych lasach lub głębokich dżunglach, a znalezienie go zazwyczaj nie jest łatwe. </p>"
+            "description": "<p>Zazwyczaj służy do jednego konkretnego celu, jakim jest łączenie skóry, od butów po elementy zbroi, a rzadko jest wykorzystywany przez jubilerów do tworzenia skomplikowanej biżuterii. Woskowa powłoka na nici chroni materiał przed rozdarciem spowodowanym tarciem podczas ruchu.</p>"
         },
         "Weakfish": {
             "name": "Słaboryb",
@@ -3535,6 +3607,10 @@
         "Witches Brew": {
             "name": "Napój Czarownic",
             "description": "<p>Młodzi ludzie uwielbiają ten napój, a nawet niektórzy starsi ludzie piją go z nostalgii, czasem z dodatkiem odrobiny przyprawionego brandy, którą dodaje im bezczelny właściciel tawerny. Z napojem tym wiążą się różne historie. Niektórzy twierdzą, że jeśli trzy razy zamiesza się filiżankę pod księżycem w pełni, w pianie można dostrzec twarz swojej przyszłej miłości. Raz spróbowałem tego w Harthen Hollow. Jedyne, co uzyskałem, to lepki nos i śmiech córki piwowara, która obserwowała mnie przez cały czas. Być może to wystarczy, aby uznać to za magię.</p>"
+        },
+        "Witchhat Mushroom": {
+            "name": "Wilgotnica czerniejąca",
+            "description": "<p>Ze względu na rzadkość występowania tego konkretnego grzyba większość zielarzy nie ma pewności co do jego toksyczności. Niepewność ta utrzymuje się, ponieważ osoby, które mogły go spróbować, nie przeżyły, aby opowiedzieć o tym, lub gdy podejmowane są próby jego zbadania, nie można znaleźć żadnego egzemplarza do badań. Niektórzy przypisują jego rzadkość tajemniczym wpływom, co jest przekonaniem opartym na przesądach wynikających z jego nazwy.</p><p></p>"
         },
         "Witherite": {
             "name": "Witeryt",
@@ -3596,6 +3672,10 @@
         "Yam": {
             "name": "Bataty",
             "description": "<p>Proces zbioru ignamów jest wymagający fizycznie i pracochłonny, co wymaga użycia drewnianych narzędzi do ochrony upraw. Niektórzy rolnicy stosują metody palikowania i uprawy mieszanej, co może komplikować proces zbiorów. Bataty są wykorzystywane w różnych preparatach kulinarnych, takich jak mąka lub całe kawałki warzyw do sałatek lub gulaszu.</p><p></p>"
+        },
+        "Yellow Stainer": {
+            "name": "Pieczarka karbolowa",
+            "description": "<p>Łatwo go rozpoznać po jasnożółtej plamie, która pojawia się natychmiast po zgnieceniu lub przecięciu czapeczki, oraz po charakterystycznym zapachu przypominającym atrament. Zielarze zalecają, aby nie spożywać tego grzyba, ponieważ choć nie jest on śmiertelnie trujący, powoduje rozstrój żołądka i może doprowadzić do trwałych uszkodzeń.</p>"
         },
         "Yellowfin Tuna": {
             "name": "Tuńczyk Żółtopłetwy",

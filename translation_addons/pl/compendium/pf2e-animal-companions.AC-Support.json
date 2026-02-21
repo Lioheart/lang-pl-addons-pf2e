@@ -71,7 +71,7 @@
         },
         "Chetamog Support Benefit": {
             "name": "Korzyść Wsparcia Chetamoga",
-            "description": "<p>Chetamog ignoruje trudny teren i trudniejszy teren z niemagicznych liści.</p>"
+            "description": "<p>Chetamog ignoruje trudny teren i większy trudny teren z niemagicznych liści.</p>"
         },
         "Combat Squox Support Benefit": {
             "name": "Korzyść Wsparcia Bojowego Squox'a",

@@ -57,7 +57,8 @@ Hooks.on("renderActorSheetPF2e", (app, html, data) => {
     const targetHeader = html.find(`h3.item-name:contains("${localizedWeaponsHeader}")`);
     if (targetHeader.length > 0 && targetHeader.next('.damage-col-header').length === 0) {
         const localizedDamageHeader = game.i18n.localize(`${MODULE_ID}.DamageHeader`);
-        targetHeader.after(`<span class="damage-col-header">${localizedDamageHeader}</span>`);
+        const localizedDamageDescription = game.i18n.localize(`${MODULE_ID}.DamageDescription`);
+        targetHeader.after(`<span class="damage-col-header" data-tooltip="${localizedDamageDescription}">${localizedDamageHeader}</span>`);
     }
 
     // Przetwarzamy tylko bronie

@@ -6,6 +6,7 @@
     "combatStart": "Początek walki",
     "combatEnd": "Koniec walki",
     "DamageHeader": "Obr.",
+    "DamageDescription": "Wyświetla obrażenia broni wraz z Runami Uderzeń",
     "settings": {
       "enableRuneDescriptions": {
         "name": "Włącz opisy run",

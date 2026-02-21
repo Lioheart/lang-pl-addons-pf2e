@@ -1,6 +1,6 @@
 {
   "id": "lang-pl-addons-pf2e",
-  "title": "PF2e Dodatkowe Polskie Tłumaczenie",
+  "title": "Pathfinder 2e - Polskie Tłumaczenie modułów",
   "version": "vDev",
   "compatibility": {
     "minimum": "13",
@@ -30,8 +30,7 @@
     "scripts/used-ready.js",
     "scripts/custom-turn-marker.js",
     "scripts/journal-font.js",
-    "scripts/ui-tweaks.js",
-    "scripts/defense-exploration.js"
+    "scripts/ui-tweaks.js"
   ],
   "templates": [
     "templates/world-time-display.hbs"
