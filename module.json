@@ -37,7 +37,6 @@
   ],
   "styles": [
     "styles/world-time.css",
-    "styles/round-marker.css",
     "styles/ui-tweaks.css",
     "styles/style.css"
   ],

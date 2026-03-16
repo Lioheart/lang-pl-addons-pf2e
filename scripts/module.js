@@ -1,6 +1,6 @@
 import { registerSettings } from "./settings.js";
 import { toggleJournalStyle } from "./toggle-journal-style.js";
-import { registerRoundMarker } from "./round-marker.js";
+// import { registerRoundMarker } from "./round-marker.js";
 import { initializeJournalFont, addJournalFontResetButton } from "./journal-font.js";
 
 Hooks.once("init", () => {
@@ -10,7 +10,7 @@ Hooks.once("init", () => {
 });
 
 Hooks.once("ready", () => {
-    registerRoundMarker();
+    // registerRoundMarker();
 
     const isEnabled = game.settings.get("lang-pl-addons-pf2e", "enableJournalStyle");
     toggleJournalStyle(isEnabled);
