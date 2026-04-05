@@ -211,6 +211,14 @@
             "name": "Azuryt",
             "description": "<p>Azuryt jest bardzo popularnym minerałem o lazurowo-niebieskim kolorze i jest zwykle cięty na koraliki lub przedmioty ozdobne. Ze względu na swoją odporność na ogień, przez większość czasu jest używany przez kowali jako talizman na szczęście, aby uniknąć obrażeń podczas pracy.</p>"
         },
+        "Back Rib": {
+            "name": "Żeberka",
+            "description": "<p>Żeberka tylne to jeden z najpopularniejszych, jeśli nie najpopularniejszy, kawałek mięsa. Jest to delikatny i chudy kawałek mięsa pochodzący z górnej części klatki piersiowej, a konkretnie z obszaru między kręgosłupem a żeberkami bocznymi, tuż poniżej mięśnia schabowego. Jest to kawałek często kupowany przez wiele tawern i gospód, ponieważ zazwyczaj jest niedrogi, a goście uważają go za pyszny.</p>"
+        },
+        "Bacon": {
+            "name": "Bekon",
+            "description": "<p>Bekon to peklowane mięso o dużej zawartości soli, zazwyczaj pochodzące z boczku lub grzbietu świni. Mięso innych zwierząt, takie jak wołowina, jagnięcina, kurczak, koźlina lub indyk, może być również krojone, peklowane lub przygotowywane w inny sposób tak, aby przypominało bekon, ale zazwyczaj zachowuje swoją pierwotną nazwę, na przykład boczek z kurczaka lub jagnięcy.</p>"
+        },
         "Balista": {
             "name": "Balista",
             "description": "<p>Balista to broń używana głównie do obrony fortów i osad. Działa na innej zasadzie niż zwykła kusza, wykorzystując dwie dźwignie ze sprężynami skrętnymi zamiast napinacza. Istnieją pogłoski, że istnieje bardziej zaawansowana broń zwana polibolos, jednak nie są one potwierdzone.</p>"
@@ -367,6 +375,10 @@
             "name": "Czaszka Dzika",
             "description": "<p>Dzik, w bardziej tradycyjnych regionach, reprezentuje dobre zdrowie i niesamowitą siłę. Ponieważ większość ludzi nie może sobie pozwolić na zakup głowy u taksydermisty, alternatywą jest nabycie czaszki bezpośrednio, ponieważ jest ona dość łatwa do zdobycia i stanowi ulubioną dekorację w niektórych wiejskich domach.</p>"
         },
+        "Boar Head": {
+            "name": "Głowa dzika",
+            "description": "<p>Głowa dzika, po bardzo starannym wypatroszeniu, jest zazwyczaj przechowywana i wysyłana do taksydermistów, ponieważ przynosi rzeźnikowi całkiem niezły zysk – nie licząc już samego mięsa najwyższej jakości. Po odpowiednim przygotowaniu arystokracja lubi eksponować je w salach trofeów, udając, że są one nagrodą za udane polowania.</p>"
+        },
         "Boiled Corn": {
             "name": "Gotowana Kukurydza",
             "description": "<p>Młoda kukurydza, zanim w pełni dojrzeje, może być grillowana lub gotowana z solą. Ten sezonowy przysmak jest dostępny tylko przed zbiorami kukurydzy i przez bardzo ograniczony czas. Zwykle cieszy się dużym popytem ze względu na swój wyśmienity smak.</p>"
@@ -462,6 +474,10 @@
         "Burger": {
             "name": "Burger",
             "description": "<p>Burgera przyrządza się, grillując kotlet z mielonej wołowiny i umieszczając go między dwiema połówkami bułki. Dodatkowe składniki, takie jak plastry surowej cebuli, sałata, bekon i majonez, mogą być dodawane w celu wzmocnienia smaku.</p><p></p>"
+        },
+        "Bushmeat": {
+            "name": "Mięso dzikich zwierząt",
+            "description": "<p>Nazywane po prostu „mięsem z dziczyzny”, ponieważ może pochodzić z dowolnego polowania. Nie jest to konkretny rodzaj mięsa, a pojęcie szersze od pozostałych, ponieważ nie ogranicza się do jednego konkretnego zwierzęcia. Może pochodzić od wielu różnych gatunków zwierząt, zarówno mitycznych, jak i rzeczywistych; niektóre z nich pozyskuje się między innymi z jeżozwierzy, gryzoni, duikerów czy gigantycznych nietoperzy.</p>"
         },
         "Butter": {
             "name": "Masło",
@@ -1228,6 +1244,10 @@
             "name": "Gruba Świeca",
             "description": "<p>Grube świece są wytwarzane z przetworzonego tłuszczu zwierzęcego, takiego jak tłuszcz wielorybi lub łój owczy lub krowi. Chociaż świece z wosku pszczelego są trwalsze, świece te palą się jaśniej i są znacznie tańsze. Wadą jest to, że podczas palenia wydzielają nieprzyjemny zapach.</p><p></p>"
         },
+        "Fatback": {
+            "name": "Słonina",
+            "description": "<p>Kawałek mięsa z tylnej części wieprzowiny, solony w celu przechowywania przez dłuższy czas, zwłaszcza podczas długich zim. Zazwyczaj wykorzystuje się go albo jako zamiennik tłuszczu do gotowania, albo jako środek uszczelniający do glinianych naczyń, aby gotowe potrawy można było szczelnie zamknąć i lepiej przechowywać. </p>"
+        },
         "Favor Coin": {
             "name": "Moneta Przysługi",
             "description": "<p><em>\"Każda przysługa ma swoją cenę”</em> wyryty na boku złotej monety w zapomnianym języku. Zwykle handlowana i produkowana przez nikczemne grupy w podziemnej gospodarce. Jeśli wymagana jest usługa, należy zapłacić monetą. Oferowane usługi mogą wahać się od szaty, przez zaawansowaną broń, plany zamków, aż po szybką utylizację ciał. Wszystkie przysługi mają swoją cenę.</p>"
@@ -1596,6 +1616,10 @@
             "name": "Wózek Ręczny",
             "description": "<p>Wózek ręczny wyposażony w długie uchwyty, jest idealny do przenoszenia ciężkich przedmiotów, takich jak beczki i meble. Jest on często używany w karczmach, tawernach i piekarniach, aby ułatwić codzienne uzupełnianie zapasów z rynku.</p><p></p>"
         },
+        "Hanger Steak": {
+            "name": "Stek z polędwicy",
+            "description": "<p>Kawałek mięsa z tylnej części wieprzowiny, solony w celu przechowywania przez dłuższy czas, zwłaszcza podczas długich zim. Zazwyczaj wykorzystuje się go albo jako zamiennik tłuszczu do gotowania, albo jako środek uszczelniający do glinianych naczyń, aby gotowe potrawy można było szczelnie zamknąć i lepiej przechowywać. </p>"
+        },
         "Hard Candy": {
             "name": "Twarde Cukierki",
             "description": "<p>Twarde cukierki były tradycyjnie uważane za formę lekarstwa, dostarczanego przez zielarzy w celu złagodzenia bólów żołądka lub gardła. Jednak w ostatnich czasach do ich receptury włączono dodatkowy cukier i owoce, szybko czyniąc je ulubionymi wśród młodych ludzi.</p>"
@@ -1780,6 +1804,10 @@
             "name": "Pierścień z Jaspisu",
             "description": "<p>Pierścionek z jaspisu jest wykonany z jednego kawałka jaspisu, ukształtowanego przez doświadczonych kamieniarzy z wyjątkowymi umiejętnościami i precyzją. Dzięki pięknej kolorystyce i żywemu połyskowi przyciąga uwagę wielu zwykłych ludzi szukających pierścionka pasującego do ich palców. Jest oferowany w skromnej cenie, dzięki czemu jest bardzo dostępny dla ludzi z różnych środowisk.</p><p></p>"
         },
+        "Jerky": {
+            "name": "Suszone mięso",
+            "description": "<p>Suszone mięso to paski chudego, oczyszczonego mięsa, z którego usunięto cały tłuszcz. Następnie są one suszone, aby zapobiec psuciu się, i przyprawiane w różnym stopniu. Zazwyczaj stanowi ono część racji żywnościowej dla żołnierzy, którzy muszą przebywać w trasie przez dłuższy czas, ponieważ nie wymaga przechowywania w niskiej temperaturze, by zachować świeżość.</p>"
+        },
         "Jet": {
             "name": "Gagat",
             "description": "<p>Gagat, głęboki czarny kamień szlachetny, jest wystarczająco twardy, aby można go było fasetować i jest często wykorzystywany w prostych wisiorkach lub jako element odzieży i mebli. W praktykach kulturowych w różnych regionach noszenie odzieży ozdobionej Jetem oznacza tematy smutku i żałoby.</p>"
@@ -1832,6 +1860,10 @@
             "name": "Palia Jeziorowa",
             "description": "<p>Palie jeziorowe żyją w chłodnych, dobrze natlenionych strumieniach i jeziorach. Można je łowić przy użyciu różnych przynęt, z dryfującymi całymi dżdżownicami, a także małymi strzeblami i mącznikami. Unikalną cechą palii jeziorowego jest jego wyjątkowe ubarwienie przed złowieniem, ryba wykazuje żywe tęczowe odcienie, ale kolory te blakną po wyjęciu z wody.</p>"
         },
+        "Lamb Neck Fillet": {
+            "name": "Filet z karkówki jagnięcej",
+            "description": "<p>Prosty kawałek mięsa z karkówki jagnięcej, znany z tego, że jest wyjątkowo twardy i trudny do usmażenia, ale jednocześnie niezwykle aromatyczny. Wymaga długiego i cierpliwego gotowania; często stanowi podstawowy składnik gulaszu i potraw duszonych serwowanych w ludowych tawernach, ponieważ jest niedrogi i wystarcza na wiele porcji, gdy uzupełni się go warzywami korzeniowymi i bulionem. </p><p></p>"
+        },
         "Lantern Jack": {
             "name": "Jack-o’-lantern",
             "description": "<p>Ach, Jack-o'-lantern. Żaden stragan ani schody tawerny nie wydają się właściwe podczas Czerwonego Żniwa bez tej uśmiechniętej latarnie. W najprostszym wydaniu to po prostu wydrążona dynia z wyrzeźbionymi oczami i ustami, w której wnętrzu migocze świeca. Jednak kryje się w nich coś więcej niż tylko warzywa i wosk. Stań na wiejskim placu o zmierzchu, gdy robi się chłodno, a te rzędy spoglądających na ciebie twarzy wydają się niemal żywe, jak tłum obserwujący cię z ciemności.</p>"
@@ -1839,6 +1871,10 @@
         "Lapis Lazuli": {
             "name": "Lapis Lazuli",
             "description": "<p>Niebieski, nieprzezroczysty kamień szlachetny, jest zwykle używany jako ozdoba pierścionków, bransoletek, wisiorków lub talizmanów. Ze względu na swój specyficzny kolor czasami jest rzeźbiony w artystyczne kształty, takie jak gryfy, skarabeusze, a nawet jednorożce.</p>"
+        },
+        "Lard": {
+            "name": "Smalec",
+            "description": "<p>Tłuszcz wieprzowy, pozyskiwany najczęściej z grzbietu, boczku lub łopatki świni. Ma wiele zastosowań w kuchni – od smażenia i pieczenia po wypieki – i jest uważany za niezbędny element zapasów w większości gospodarstw domowych oraz kuchniach karczemnych. Wielu kucharzy wolałoby raczej obejść się bez soli niż bez swojego garnka ze smalcem.</p>"
         },
         "Last Will": {
             "name": "Ostatnia Wola",
@@ -1948,6 +1984,10 @@
             "name": "Homar",
             "description": "<p>Homary żyją we wszystkich oceanach, na skalistym, piaszczystym lub mulistym dnie, od linii brzegowej po głębokie morze. Homary, podobnie jak niektóre ślimaki i pająki, mają niebieską krew, którą alchemicy pozyskują w celu stosowania jej w leczeniu niektórych powszechnie występujących chorób oraz w leczeniu oparzeń skóry.</p>"
         },
+        "Loin Chop": {
+            "name": "Kotlet z polędwicy",
+            "description": "<p>Kotlet z polędwicy, wycinany bezpośrednio z polędwicy wieprzowej lub jagnięcej, to gruby i ceniony kawałek mięsa, który obejmuje zarówno mięso z polędwicy, jak i niewielki fragment polędwiczki, oddzielone kością w kształcie litery T. Jest to popularne danie w lepszych lokalach, a właściciele tawern zazwyczaj odpowiednio podnoszą jego cenę, doskonale wiedząc, że zamożni podróżni rzadko pomijają je w menu.</p>"
+        },
         "Lombart Wine": {
             "name": "Wino Lombart",
             "description": "<p>Wino Lombart to znany trunek, produkowany i dystrybuowany w całym królestwie przez winnicę Roklas Lombart. Znane ze swojej stałej jakości i przystępnej ceny, należy do najlepszych win dostępnych na rynku. Jego powszechna dostępność, nawet w najbardziej odległych i odizolowanych regionach, często budzi większą ciekawość co do logistyki dystrybucji niż samego wina.</p><p></p>"
@@ -1959,6 +1999,10 @@
         "Longstraw": {
             "name": "Słoma",
             "description": "<p>Długa słoma odnosi się do słomy uprawianej specjalnie do krycia dachów. Słoma ta jest wytwarzana z trzciny wodnej lub pszenicy czesanej, które są powszechnie stosowane do krycia dachów. Są one preferowane do pokryć dachowych ze względu na ich dłuższą żywotność w porównaniu z tradycyjnymi materiałami dachowymi na bazie drewna. </p>"
+        },
+        "Lonzino": {
+            "name": "Schab",
+            "description": "<p>Wędlina pochodząca z schabu wieprzowego, przygotowywana w drodze starannego procesu solenia i długotrwałego suszenia na powietrzu. W większości regionów uważana jest za przysmak i zazwyczaj podaje się ją pokrojoną w bardzo cienkie plasterki. Nie spotyka się jej zazwyczaj w przydrożnych gospodach ani zwykłych tawernach, lecz raczej w piwnicach zamożniejszych kupców i szlacheckich rodów, którzy cenią sobie wyrafinowane smaki.</p><p></p>"
         },
         "Lover's Embrace": {
             "name": "Objęcia Kochanków",
@@ -2564,6 +2608,14 @@
             "name": "Drewno Topoli",
             "description": "<p>Doskonale nadaje się do produkcji palet, pudeł i skrzyń, ale także misek rzemieślniczych, drewnianych talerzy i innych drobnych wyrobów stolarskich. Ze względu na stosunkowo niską cenę, topola jest doskonałym wyborem do zastosowań komercyjnych. Może jednak łatwo ulec wgnieceniu lub zarysowaniu, co czyni ją niepożądaną w przypadku przedmiotów o wysokim zużyciu, a z czasem jej kolor blaknie do średnio brązowego w ciągu kilku miesięcy.</p>"
         },
+        "Pork Belly": {
+            "name": "Boczek wieprzowy",
+            "description": "<p>Kawałek mięsa pochodzący z dolnej części tuszy wieprzowej, znany z bogatych i obfitych warstw tłuszczu przeplatających się z mięsem. Można go przyrządzać na wiele różnych sposobów, choć najczęściej jest pieczony na wolnym ogniu lub peklowany na boczek. Sprzedawcy uliczni i straganiarze na targowiskach szczególnie chętnie go oferują, ponieważ tłuszcz pięknie się topi nad otwartym ogniem, a sam zapach wystarcza, by przyciągnąć tłumy.</p><p></p>"
+        },
+        "Pork Ribs": {
+            "name": "Żeberka wieprzowe",
+            "description": "<p>Żeberka wieprzowe, pozyskiwane z dolnej części klatki piersiowej świni, stanowią bardziej nieokrzesany i rustykalny odpowiednik żeber z grzbietu. Zawierają więcej tłuszczu i tkanki łącznej, które podczas powolnego pieczenia w niskiej temperaturze topią się, tworząc danie dające ogromną satysfakcję. Często spotyka się je na festiwalach i imprezach plenerowych, gdzie zazwyczaj piecze się je w całości nad ogniskiem i sprzedaje w postaci całych porcji.</p><p></p>"
+        },
         "Portobello Mushroom": {
             "name": "Pieczarki Portobello",
             "description": "<p>Grzyby Portobello są powszechnie uprawiane i cenione za ich wszechstronność w sałatkach i jako dodatki do różnych potraw.</p><p></p>"
@@ -2587,6 +2639,10 @@
         "Pressurized Container": {
             "name": "Zbiornik Ciśnieniowy",
             "description": "<p>Stworzone specjalnie w celu przechowywania najbardziej lotnych materiałów i utrzymywania ich pod ciśnieniem, takich jak określone gazy, powietrze, oddechy mitycznych bestii lub tajemnicze związki. Zazwyczaj, jeśli pojawia się jedna z tych szczelin, nawet jeśli są one wykonane z wytrzymałych materiałów, dochodzi do katastrofy.</p>"
+        },
+        "Prosciutto": {
+            "name": "Szynka",
+            "description": "<p>Suszona szynka, dojrzewająca przez długi czas, wytwarzana z tylnej łopatki wieprzowej. Proces ten jest długotrwały i wymaga starannego wykonania, obejmującego regularne solenie, prasowanie oraz kontrolowane suszenie na powietrzu, które może trwać wiele miesięcy. Efektem jest cienkie jak papier, aksamitne w dotyku mięso o bogatym i złożonym smaku. Uważana jest za produkt luksusowy, a kawałki najwyższej jakości często rezerwuje się dla szlacheckich stołów i ekskluzywnych lokali.</p><p></p>"
         },
         "Puffball": {
             "name": "Purchawka",
@@ -2704,6 +2760,10 @@
             "name": "Czerwony Barwnik",
             "description": "<p>Czerwony barwnik jest stosunkowo rzadki i występuje głównie u określonych owadów, które znajdują się głównie na kaktusach. W zależności od klimatu i terytorium, mogą one nie być łatwo dostępne. Po zebraniu owady są kruszone na drobny proszek, suszone i filtrowane w celu usunięcia wszelkich pozostałości. Pozostały materiał może być używany jako barwnik do tkanin lub farb.</p>"
         },
+        "Red Meat Poultry": {
+            "name": "Czerwone mięso i drób",
+            "description": "<p>Kawałek mięsa z tylnej części wieprzowiny, solony w celu przechowywania przez dłuższy czas, zwłaszcza podczas długich zim. Zazwyczaj wykorzystuje się go albo jako zamiennik tłuszczu do gotowania, albo jako środek uszczelniający do glinianych naczyń, aby gotowe potrawy można było szczelnie zamknąć i lepiej przechowywać. </p>"
+        },
         "Red Obsidian": {
             "name": "Czerwony Obsydian",
             "description": "<p>Czerwony obsydian jest również nazywany mahoniowym obsydianem, ze względu na kolor klejnotu przypominający drewno. Powstaje, gdy sztuki arkaniczne szybko schładzają kałuże lawy. Niektórzy legendarni rzemieślnicy próbują sprzedawać je jako premium, zakładając, że mają niewykorzystany potencjał magiczny, jednak ich zwykła cena jest zbliżona do ceny zwykłego obsydianu.</p>"
@@ -2768,6 +2828,10 @@
             "name": "Ciasto Rabarbarowe",
             "description": "<p>Ciasto z rabarbarem zachwyca słodkim i pikantnym smakiem, podkreślonym przez owocowe nadzienie, które dobrze się trzyma. Ponieważ rabarbar jest warzywem sezonowym, ciasto to jest dostępne tylko przez ograniczony czas po zimnych porach roku.</p>"
         },
+        "Rib Rack of Lamb": {
+            "name": "Żeberka jagnięce",
+            "description": "<p>Pełny kawałek mięsa wycięty z żeber jagnięcych, zazwyczaj przygotowywany jako pojedynczy, imponujący kawałek i podawany w całości. Uważany jest za jedną z bardziej wyrafinowanych i eleganckich propozycji, jakie może zaoferować rzeźnik, i stanowi popularny wybór na bankiety oraz uroczyste przyjęcia, gdzie wygląd ma równie duże znaczenie jak smak. Kości często pozostawia się w całości i oczyszcza w celu uzyskania odpowiedniego wyglądu – technika ta nazywana jest przez rzeźników „frenchingiem”.</p><p></p>"
+        },
         "Rock Salt": {
             "name": "Sól Kamienna",
             "description": "<p>Sól jest szeroko stosowana w kuchni jako kluczowy składnik i do peklowania szerokiej gamy produktów spożywczych, takich jak wieprzowina i ryby. Zbieracze tworzą mieszankę soli i wody, aby używać jej jako środka chwastobójczego na polach cennych upraw.</p>"
@@ -2787,6 +2851,10 @@
         "Rose Gold": {
             "name": "Różowe Złoto",
             "description": "<p>Różowe złoto, tworzone przez połączenie czystego złota i miedzi, jest popularne w specjalistycznej biżuterii. Jest bardziej plastyczne niż czyste złoto, dzięki czemu jest preferowanym materiałem dla białych kowali i jest tańsze niż złoto lub białe złoto.</p><p></p>"
+        },
+        "Round Steak with Bone": {
+            "name": "Stek z kością",
+            "description": "<p>Wycięty z tylnej nogi krowy stek z kością to chudy i nieco twardy kawałek mięsa, który najlepiej smakuje po długim gotowaniu lub duszeniu. Kość nadaje wyrazisty smak każdemu bulionowi lub gulaszowi, w którym się gotuje, dlatego pozostaje popularnym wyborem wśród kucharzy, którzy potrafią ją odpowiednio wykorzystać.</p>"
         },
         "Royal Signet": {
             "name": "Sygnet Królewski",
@@ -3072,6 +3140,10 @@
             "name": "Sinhalit",
             "description": "<p>Sinhalit, występujący naturalnie, objawia się jako żółte kamienie szlachetne przypominające zaokrąglone kamyki, ukształtowane przez bębniące działanie wody w aktywnych strumieniach lub wyschniętych korytach rzek.</p><p></p>"
         },
+        "Sirloin": {
+            "name": "Polędwica",
+            "description": "<p>Jest to jeden z bardziej cenionych kawałków wołowiny, pochodzący z górnej tylnej części zwierzęcia. Charakteryzuje się idealną równowagą między kruchością a smakiem i znacznie łatwiej jest go odpowiednio przyrządzić niż niektóre z jego twardszych odpowiedników. Właściciele tawern, którzy serwują to danie, zazwyczaj żądają za nie sporej sumy, a ci, których na to stać, rzadko narzekają na cenę. </p>"
+        },
         "Skewers": {
             "name": "Szaszłyki",
             "description": "<p>Mięso i warzywa są krojone w plastry lub kostki, a następnie nabijane na szpikulec i gotowane. Mieszanie się soków między mięsem i warzywami tworzy niepowtarzalny i aromatyczny smak.</p>"
@@ -3119,6 +3191,10 @@
         "Smithsonite": {
             "name": "Kowalit",
             "description": "<p>Kowalit, określany również jako spar cynkowy, jest często odkrywany w złożach rud cynku. We wcześniejszych epokach wierzono, że posiada niezwykłą zdolność przywracania wzroku niewidomym, choć starożytne metody osiągnięcia tego wyczynu odeszły w zapomnienie. Współcześni alchemicy wytrwale dążą do odkrycia i ożywienia tych zaginionych sztuk.</p>"
+        },
+        "Smoked Ham": {
+            "name": "Wędzona szynka",
+            "description": "<p>Tylna noga wieprzowa, poddana procesowi peklowania, a następnie wędzona nad drewnem przez dłuższy czas, co nadaje jej głęboki i charakterystyczny smak, zależny od rodzaju użytego drewna. Wyjątkowo dobrze się przechowuje i często wisi pod sufitem w sklepach mięsnych i spiżarniach w chłodniejszych regionach. Można ją podawać w postaci nieprzetworzonej lub wykorzystać do przyprawiania zup, fasoli i bulionów, gdy mięso zostanie już w większości zjedzone.</p>"
         },
         "Smoked Meats": {
             "name": "Wędzone Mięso",
@@ -3403,6 +3479,10 @@
         "Tombak": {
             "name": "Tombak",
             "description": "<p>Tombak to stop miedzi i cynku używany do imitacji złota w taniej biżuterii i do złocenia. Jest to tani, ciągliwy stop używany głównie do produkcji medali, ozdób, dekoracji i innych zastosowań ozdobnych. Jednak najbardziej nikczemni z ludzi mają tendencję do kupowania go hurtowo, aby sprzedawać go po wyższej cenie jako złoto.</p>"
+        },
+        "Top Round": {
+            "name": "Górna część udźca",
+            "description": "<p>Kawałek pochodzący z wewnętrznej części tylnej nogi krowy; jest to stosunkowo duży kawałek, który najczęściej wykorzystuje się do smażenia, pieczenia lub krojenia na cienkie plasterki, aby wystarczył na cały tydzień. Zazwyczaj kupują go większe gospodarstwa domowe i kuchnie, które muszą wyżywić wiele osób, nie wydając przy tym dużych sum pieniędzy. </p>"
         },
         "Topaz": {
             "name": "Topaz",

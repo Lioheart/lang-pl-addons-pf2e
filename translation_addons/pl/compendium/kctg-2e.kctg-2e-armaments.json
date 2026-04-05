@@ -1,0 +1,161 @@
+{
+    "label": "PF2e - Uzbrojenie od Krisa",
+    "folders": {
+        "Far North": "Daleka Północ",
+        "Green Druid Grove": "Zielony Gaj Druidów"
+    },
+    "entries": {
+        "Far North Bear Claws": {
+            "name": "Pazury Niedźwiedzia z Dalekiej Północy",
+            "description": "<p>Ten zestaw kastetów został zaprojektowany z myślą o walce wręcz. Wykonano je tak, by przypominały pazury olbrzymiego niedźwiedzia; są one wykonane ze stali i posiadają w górnej części każdego elementu szczelinę, w której można umieścić zaklęte klejnoty. Jednak intensywne użytkowanie może spowodować pęknięcie klejnotu, co doprowadzi do utraty jego zaklęcia.</p><section class=\"secret\" id=\"secret-RvKT8CUni0ZfPVOX\"><p><strong>Uwaga dla Mistrzów Gry</strong></p><p>Ten przedmiot nie ma stałych parametrów – jest to zamierzone. Zaleca się, aby Mistrz Gry dostosował parametry tak, aby jak najlepiej pasowały do jego świata, otoczenia i fabuły. Z tych powodów wszystkie parametry mogą się znacznie różnić.</p></section>"
+        },
+        "Far North Belt": {
+            "name": "Pas Dalekiej Północy",
+            "description": "<p>Ten pas, wykonany z warstw utwardzonej skóry, tkaniny i izolującego futra białego lisa, chroni przed przenikliwym mrozem panującym na dalekiej północy. Służy przede wszystkim do przenoszenia łatwo dostępnych woreczków i eliksirów, a także ciężkiej broni, takiej jak miecze czy młoty.</p>"
+        },
+        "Far North Boots": {
+            "name": "Buty Dalekiej Północy",
+            "description": "<p>Buty wykonane z nasączonej olejem skóry fokowej i futra lisa sięgają do kolan, a futro skierowane do wewnątrz zapewnia ciepło. Ze względu na ich sztywność i twardość doświadczeni podróżnicy zawsze zmiękczają je przy ognisku lub zakładają grube filcowe skarpety, aby wygodnie je założyć.</p>"
+        },
+        "Far North Cape": {
+            "name": "Peleryna Dalekiej Północy",
+            "description": "<p>Ten ciężki płaszcz z kapturem wykonany jest ze skóry wielkiego białego niedźwiedzia, co czyni go jednym z najcięższych dostępnych płaszczy. Po długim procesie garbowania kaletnicy muszą przyciąć skórę, zabarwić ją na głęboki odcień za pomocą specjalistycznego barwnika oraz wyłożyć wnętrze dodatkowym futrem dla zapewnienia ciepła.</p>"
+        },
+        "Far North Cloth": {
+            "name": "Tkaniny z Dalekiej Północy",
+            "description": "<p>Ten tłusty filc, wytwarzany z wełny łosia, jest ciężki, gęsty i wodoodporny. Nie nosi się go jako eleganckiej odzieży, lecz raczej w celu ochrony ciała przed surowymi warunkami pogodowymi panującymi na północy; jego główną wadą jest znaczna waga.</p><section class=\"secret\" id=\"secret-plngZzeUQTAZq2Bp\"><p><strong>Uwaga dla Mistrzów Gry</strong></p><p>Ten przedmiot nie ma stałych parametrów – jest to zamierzone. Zaleca się, aby Mistrz Gry dostosował parametry tak, aby jak najlepiej pasowały do jego świata, otoczenia i fabuły. Z tych powodów wszystkie parametry mogą się znacznie różnić.</p></section>"
+        },
+        "Far North Crown": {
+            "name": "Korona Dalekiej Północy",
+            "description": "<p>Korona Dalekiej Północy nie jest symbolem władzy, lecz raczej dominacji nad zamarzniętym pustkowiem. Wykonana zazwyczaj z żelaza, a niekiedy nawet ze skóry zwierzęcej, korona nie oznacza, że osoba ją nosząca rządzi ludźmi, lecz że opanowała samą ziemię.</p>"
+        },
+        "Far North Dye": {
+            "name": "Barwniki z Dalekiej Północy",
+            "description": "<p>Barwnik Dalekiej Północy powstaje poprzez zmielenie fioletowej ochry, rzadkiej odmiany kamienia ochry, na drobny proszek. Choć w regionie tym nie jest on powszechnie spotykany, stanowi jeden z najczęściej stosowanych barwników w północnych krainach, ponieważ zapewnia doskonałą widoczność z daleka na jasnych skórach, na które zazwyczaj się go nakłada.</p>"
+        },
+        "Far North Epaulets": {
+            "name": "Epolety Dalekiej Północy",
+            "description": "<p>Epolety Dalekiej Północy są wykonane ze skór i futer wilków arktycznych, osadzone na solidnej skórzanej podstawie i połączone stalowymi śrubami. Oprócz zapewniania ochrony przed ugryzieniami dużych zwierząt i ciosami siekierą służą one również do mocowania peleryny noszącego.</p>"
+        },
+        "Far North Gloves": {
+            "name": "Rękawice Dalekiej Północy",
+            "description": "<p>Wykonany z trzech specjalnych warstw ułożonych jedna na drugiej, zapewniających ochronę w niskich temperaturach. Warstwa wewnętrzna pokryta jest miękkim futrem lisim, które zapewnia ciepło, warstwa środkowa składa się z filcowanej wełny, która dodatkowo izoluje, a warstwa zewnętrzna wykonana jest z grubej skóry, dzięki czemu jest wodoodporna.</p>"
+        },
+        "Far North Great Axe": {
+            "name": "Wielki Topór Dalekiej Północy",
+            "description": "<p>Głowica tej potężnej siekiery została wykonana z jednego kawałka czarnego, zamrożonego żelaza, które można znaleźć wyłącznie w głębi lodowców. Chociaż niewielu kowali wie, jak je obrabiać, uważa się, że do ukończenia tej siekiery niezbędna jest boska interwencja.</p><section class=\"secret\" id=\"secret-RvKT8CUni0ZfPVOX\"><p><strong>Uwaga dla Mistrzów Gry</strong></p><p>Ten przedmiot nie ma stałych parametrów – jest to zamierzone. Zaleca się, aby Mistrz Gry dostosował parametry tak, aby jak najlepiej pasowały do jego świata, otoczenia i fabuły. Z tych powodów wszystkie parametry mogą się znacznie różnić.</p></section>"
+        },
+        "Far North Hammer": {
+            "name": "Młot Dalekiej Północy",
+            "description": "<p>Stalowa broń i narzędzie użytkowe przeznaczone do przedzierania się przez zamarznięte tereny i przełamywania umocnień na polu bitwy. Zostało zaprojektowane tak, by zapewnić jak największą wszechstronność, a jednocześnie być łatwe do przenoszenia – zarówno przy pasku, jak i w plecaku</p><section class=\"secret\" id=\"secret-RvKT8CUni0ZfPVOX\"><p><strong>Uwaga dla Mistrzów Gry</strong></p><p>Ten przedmiot nie ma stałych parametrów – jest to zamierzone. Zaleca się, aby Mistrz Gry dostosował parametry tak, aby jak najlepiej pasowały do jego świata, otoczenia i fabuły. Z tych powodów wszystkie parametry mogą się znacznie różnić.</p></section>"
+        },
+        "Far North Helm": {
+            "name": "Hełm Dalekiej Północy",
+            "description": "<p>Wykonana głównie z utwardzonej skóry i futra lisa, z dwoma kłami narwala wystającymi po obu stronach, została zaprojektowana tak, by służyć przez długi czas i zachować wytrzymałość w surowym klimacie północy. Dzięki swojej wyściełanej konstrukcji jest również dobrze przygotowana do wytrzymania potężnego uderzenia.</p>"
+        },
+        "Far North Pants": {
+            "name": "Spodnie Dalekiej Północy",
+            "description": "<p>Rzemieślnicy wykorzystują do tego celu ciężką i grubą skórę pochodzącą od niedźwiedzi lub fok z krajów nordyckich, przycinając materiał tak, by zapewnić swobodę ruchów oraz pomieścić dodatkowe warstwy wełny noszone pod spodem w celu ochrony przed niekorzystnymi warunkami pogodowymi.</p>"
+        },
+        "Far North Ring": {
+            "name": "Pierścień Dalekiej Północy",
+            "description": "<p>Przedmiot ten, wykonany głównie z kamienia i oznaczony symbolami konkretnego plemienia lub wsi, jest raczej pamiątką z rodzinnych stron. Nie ma on żadnej wartości pieniężnej, jednak niektórzy kolekcjonerzy są nim zainteresowani, ponieważ każdy egzemplarz jest niepowtarzalny – nie są one bowiem tworzone przez doświadczonych jubilerów, lecz przez kamieniarzy.</p>"
+        },
+        "Far North Shortbow": {
+            "name": "Krótki Łuk Dalekiej Północy",
+            "description": "<p>Ten krótki łuk, wykonany ze stopu stali i mosiądzu, aby był jak najbardziej elastyczny, z cięciwą ze stali i niklu, wymaga siły giganta, by go w pełni napiąć. Użytkownik musi zachować ostrożność, ponieważ użycie większej siły niż to konieczne może trwale wygiąć łuk, czyniąc go bezużytecznym; musi być silny, ale jednocześnie pełen gracji.</p><section class=\"secret\" id=\"secret-RvKT8CUni0ZfPVOX\"><p><strong>Uwaga dla Mistrzów Gry</strong></p><p>Ten przedmiot nie ma stałych parametrów – jest to zamierzone. Zaleca się, aby Mistrz Gry dostosował parametry tak, aby jak najlepiej pasowały do jego świata, otoczenia i fabuły. Z tych powodów wszystkie parametry mogą się znacznie różnić.</p></section>"
+        },
+        "Far North Staff": {
+            "name": "Kostur Dalekiej Północy",
+            "description": "<p>Ten kostur, będący jednocześnie podporą do chodzenia, narzędziem i bronią, to kawałek drewna wyrzuconego przez morze na zimne północne wybrzeża. Na jego końcu znajduje się nasadka z zaklętym klejnotem, który jest ulubionym kamieniem użytkownika. Zazwyczaj stosowane są zaklęcia chroniące przed ekstremalnie niskimi temperaturami.</p><section class=\"secret\" id=\"secret-RvKT8CUni0ZfPVOX\"><p><strong>Uwaga dla Mistrzów Gry</strong></p><p>Ten przedmiot nie ma stałych parametrów – jest to zamierzone. Zaleca się, aby Mistrz Gry dostosował parametry tak, aby jak najlepiej pasowały do jego świata, otoczenia i fabuły. Z tych powodów wszystkie parametry mogą się znacznie różnić.</p></section>"
+        },
+        "Far North Vambrances": {
+            "name": "Wambrasy Dalekiej Północy",
+            "description": "<p>Te wambrasy zostały zaprojektowane, aby chronić przedramiona przed przenikliwym wiatrem i mrozem. Tworzą szczelne połączenie z rękawicami noszącego, blokując zimno, a ich futrzane podszycie zapewnia dodatkowe ciepło, tworząc barierę przed ekstremalnymi warunkami chłodu.</p>"
+        },
+        "Forest Sickle": {
+            "name": "Leśny Sierp",
+            "description": "<p>Wykonane głównie z kości lub krzemienia, z uchwytem z pałki, pnączy drzewnych lub strzechy. Zazwyczaj używają go mieszkańcy lasu, którym służy przede wszystkim do zbierania pożywienia z lasu lub do wytyczania ścieżek zapewniających wszystkim bezpieczną wędrówkę.</p><section class=\"secret\" id=\"secret-s9kxVPJGn10GoDBJ\"><p><strong>Uwaga dla Mistrzów Gry</strong></p><p>Ten przedmiot nie ma stałych parametrów – jest to zamierzone. Zaleca się, aby Mistrz Gry dostosował parametry tak, aby jak najlepiej pasowały do jego świata, otoczenia i fabuły. Z tych powodów wszystkie parametry mogą się znacznie różnić.</p></section>"
+        },
+        "Golden Moon Dagger": {
+            "name": "Sztylet Złotego Księżyca",
+            "description": "<p>Wykonane z rzadkich metali, które można znaleźć w rzekach metodą płukania, zazwyczaj z elektrumu, ponieważ ma ono piękny połysk przypominający blask księżyca, ludy leśne, które ich używają, są podzielone: najczystszymi zwolennikami tej tradycji nie podoba się pomysł korzystania z przedmiotów, których zasoby w glebie nie mogą się odnowić, podczas gdy inni odpowiadają, że wierzą w bóstwo wielu księżyców i że jest to sposób na okazanie im szacunku.</p><section class=\"secret\" id=\"secret-s9kxVPJGn10GoDBJ\"><p><strong>Uwaga dla Mistrzów Gry</strong></p><p>Ten przedmiot nie ma stałych parametrów – jest to zamierzone. Zaleca się, aby Mistrz Gry dostosował parametry tak, aby jak najlepiej pasowały do jego świata, otoczenia i fabuły. Z tych powodów wszystkie parametry mogą się znacznie różnić.</p></section>"
+        },
+        "Golden Moon Sickle": {
+            "name": "Sierp Złotego Księżyca",
+            "description": "<p>Wykonany głównie ze zbieranych metali, zazwyczaj z elektrumu, lśni w bardzo charakterystyczny sposób, który doskonale komponuje się z promieniami księżyca prześwitującymi między drzewami. Dzięki większej wytrzymałości niż zwykły krzemień, służy przez wiele pokoleń i jest postrzegany jako swego rodzaju symbol statusu, ponieważ może być przekazywany z ojca na syna – tak dzieje się już od wielu cykli księżycowych.</p><section class=\"secret\" id=\"secret-s9kxVPJGn10GoDBJ\"><p><strong>Uwaga dla Mistrzów Gry</strong></p><p>Ten przedmiot nie ma stałych parametrów – jest to zamierzone. Zaleca się, aby Mistrz Gry dostosował parametry tak, aby jak najlepiej pasowały do jego świata, otoczenia i fabuły. Z tych powodów wszystkie parametry mogą się znacznie różnić.</p></section>"
+        },
+        "Green Druid Armor": {
+            "name": "Pancerz Zielonego Druida",
+            "description": "<p>Ta zbroja, wykonana z ułożonych warstwowo skór, kawałków kory i plecionych pnączy, została zaprojektowana tak, by wtapiać się w gęste lasy. Zapewnia umiarkowaną ochronę, nie ograniczając przy tym swobody ruchów, i często jest ozdabiana liśćmi lub barwiona naturalnymi barwnikami.</p><section class=\"secret\" id=\"secret-yPjap40jvmkhvuQj\"><p><strong>Uwaga dla Mistrzów Gry</strong></p><p>Ten przedmiot nie ma stałych parametrów – jest to zamierzone. Zaleca się, aby Mistrz Gry dostosował parametry tak, aby jak najlepiej pasowały do jego świata, otoczenia i fabuły. Z tych powodów wszystkie parametry mogą się znacznie różnić.</p></section>"
+        },
+        "Green Druid Cape": {
+            "name": "Peleryna Zielonego Druida",
+            "description": "<p>Płynąca peleryna wykonana z impregnowanych włókien mchu i lekkich skórek, barwiona na głębokie odcienie zieleni i brązu po długim procesie garbowania. Pomaga w kamuflażu i bywa zaklinana przez bardziej skłonnych do magii leśnych mieszkańców lub impregnowana tak, by odpychała wodę i poranną rosę, zapewniając użytkownikowi suchość.</p><section class=\"secret\" id=\"secret-yPjap40jvmkhvuQj\"><p><strong>Uwaga dla Mistrzów Gry</strong></p><p>Ten przedmiot nie ma stałych parametrów – jest to zamierzone. Zaleca się, aby Mistrz Gry dostosował parametry tak, aby jak najlepiej pasowały do jego świata, otoczenia i fabuły. Z tych powodów wszystkie parametry mogą się znacznie różnić.</p></section>"
+        },
+        "Green Druid Flag": {
+            "name": "Sztandar Zielonego Druida",
+            "description": "<p>Sztandar utkany z włókien roślinnych, takich jak pałka wodna lub len, ozdobiony symbolami dzikiej przyrody, który symbolizuje albo plemię, do którego należy jego właściciel, albo krąg druidów. Zazwyczaj nosi się go podczas rytuałów lub zgromadzeń, gdzie reprezentuje równowagę i szacunek dla natury.</p><section class=\"secret\" id=\"secret-yPjap40jvmkhvuQj\"><p><strong>Uwaga dla Mistrzów Gry</strong></p><p>Ten przedmiot nie ma stałych parametrów – jest to zamierzone. Zaleca się, aby Mistrz Gry dostosował parametry tak, aby jak najlepiej pasowały do jego świata, otoczenia i fabuły. Z tych powodów wszystkie parametry mogą się znacznie różnić.</p></section>"
+        },
+        "Green Druid Gloves": {
+            "name": "Rękawiczki Zielonego Druida",
+            "description": "<p>Miękkie skórzane rękawiczki wzmocnione paskami kory w okolicy kostek dłoni i nadgarstka. Zapewniają one precyzyjne ruchy dłoni potrzebne do rzucania zaklęć lub zbierania ziół, a jednocześnie pozwalają użytkownikowi pozostawać w stałym kontakcie z naturą, oferując przy tym lekką ochronę.</p><section class=\"secret\" id=\"secret-yPjap40jvmkhvuQj\"><p><strong>Uwaga dla Mistrzów Gry</strong></p><p>Ten przedmiot nie ma stałych parametrów – jest to zamierzone. Zaleca się, aby Mistrz Gry dostosował parametry tak, aby jak najlepiej pasowały do jego świata, otoczenia i fabuły. Z tych powodów wszystkie parametry mogą się znacznie różnić.</p></section>"
+        },
+        "Green Druid Helm": {
+            "name": "Hełm Zielonego Druida",
+            "description": "<p>Nakrycie głowy wykonane z rzeźbionego drewna, czasem z fragmentami poroża, oraz ze skórzanymi opaskami. Zazwyczaj noszone jest rzadko, głównie w sytuacjach zagrożenia dla kręgu lub samego lasu, gdy walka jest nieunikniona. Ma charakter bardziej ceremonialny niż praktyczny i często symbolizuje rangę w kręgach druidów.</p><section class=\"secret\" id=\"secret-yPjap40jvmkhvuQj\"><p><strong>Uwaga dla Mistrzów Gry</strong></p><p>Ten przedmiot nie ma stałych parametrów – jest to zamierzone. Zaleca się, aby Mistrz Gry dostosował parametry tak, aby jak najlepiej pasowały do jego świata, otoczenia i fabuły. Z tych powodów wszystkie parametry mogą się znacznie różnić.</p></section>"
+        },
+        "Green Druid Hood": {
+            "name": "Kaptur Zielonego Druida",
+            "description": "<p>Głęboki kaptur uszyty z barwionej na zielono tkaniny i skóry, często impregnowany w celu zapewnienia odporności na deszcz. Zasłania twarz i pomaga ukryć tożsamość podczas wędrówek leśnymi ścieżkami, a także chroni przed niekorzystnymi warunkami pogodowymi.</p><section class=\"secret\" id=\"secret-yPjap40jvmkhvuQj\"><p><strong>Uwaga dla Mistrzów Gry</strong></p><p>Ten przedmiot nie ma stałych parametrów – jest to zamierzone. Zaleca się, aby Mistrz Gry dostosował parametry tak, aby jak najlepiej pasowały do jego świata, otoczenia i fabuły. Z tych powodów wszystkie parametry mogą się znacznie różnić.</p></section>"
+        },
+        "Green Druid Mace": {
+            "name": "Buława Zielonego Druida",
+            "description": "<p>Broń tępą z drewnianym trzonkiem i głowicą wzmocnioną kamieniem lub utwardzoną żywicą. Zazwyczaj jest ona tworzona głównie w celu obezwładnienia, a nie zabicia, zgodnie z pewnymi wierzeniami druidów, jednak zdarzają się przypadki, gdy jej kolce są zaostrzone.</p><section class=\"secret\" id=\"secret-s9kxVPJGn10GoDBJ\"><p><strong>Uwaga dla Mistrzów Gry</strong></p><p>Ten przedmiot nie ma stałych parametrów – jest to zamierzone. Zaleca się, aby Mistrz Gry dostosował parametry tak, aby jak najlepiej pasowały do jego świata, otoczenia i fabuły. Z tych powodów wszystkie parametry mogą się znacznie różnić.</p></section>"
+        },
+        "Green Druid Pants": {
+            "name": "Spodnie Zielonego Druida",
+            "description": "<p>Wytrzymałe legginsy wykonane z miękkiej, garbowanej taninowo skóry oraz włókien roślinnych, takich jak len. Zaprojektowane przede wszystkim z myślą o długich podróżach między kręgami druidów, zostały stworzone specjalnie po to, by wytrzymać rozdarcia spowodowane przez gałęzie i zarośla.</p><section class=\"secret\" id=\"secret-yPjap40jvmkhvuQj\"><p><strong>Uwaga dla Mistrzów Gry</strong></p><p>Ten przedmiot nie ma stałych parametrów – jest to zamierzone. Zaleca się, aby Mistrz Gry dostosował parametry tak, aby jak najlepiej pasowały do jego świata, otoczenia i fabuły. Z tych powodów wszystkie parametry mogą się znacznie różnić.</p></section>"
+        },
+        "Green Druid Pauldrons": {
+            "name": "Naramienniki Zielonego Druida",
+            "description": "<p>Głęboki kaptur uszyty z barwionej na zielono tkaniny i skóry, często impregnowany w celu zapewnienia odporności na deszcz. Zasłania twarz i pomaga ukryć tożsamość podczas wędrówek leśnymi ścieżkami, a także chroni przed niekorzystnymi warunkami pogodowymi.</p><section class=\"secret\" id=\"secret-yPjap40jvmkhvuQj\"><p><strong>Uwaga dla Mistrzów Gry</strong></p><p>Ten przedmiot nie ma stałych parametrów – jest to zamierzone. Zaleca się, aby Mistrz Gry dostosował parametry tak, aby jak najlepiej pasowały do jego świata, otoczenia i fabuły. Z tych powodów wszystkie parametry mogą się znacznie różnić.</p></section>"
+        },
+        "Green Druid Shoes": {
+            "name": "Buty Zielonego Druida",
+            "description": "<p>Elastyczne obuwie wykonane z miękkiej skóry i plecionych korzeni, barwione tak, by idealnie wtapiać się w otoczenie. Nie wydaje ono odgłosów podczas chodzenia po leśnej ściółce i zapewnia dobrą przyczepność na nierównym terenie oraz podczas wspinaczki dzięki podwyższonemu przodowi buta.</p><section class=\"secret\" id=\"secret-yPjap40jvmkhvuQj\"><p><strong>Uwaga dla Mistrzów Gry</strong></p><p>Ten przedmiot nie ma stałych parametrów – jest to zamierzone. Zaleca się, aby Mistrz Gry dostosował parametry tak, aby jak najlepiej pasowały do jego świata, otoczenia i fabuły. Z tych powodów wszystkie parametry mogą się znacznie różnić.</p></section>"
+        },
+        "Green Druid Staff": {
+            "name": "Kostur Zielonego Druida",
+            "description": "<p>Długa drewniana laska, wyrzeźbiona przez mistrzów rzemiosła z pojedynczej gałęzi, często inkrustowana kamieniami lub klejnotami albo owinięta pnączami. Służy zarówno jako pomoc przy chodzeniu, jak i jako skupisko tajemnej mocy druidów.</p><section class=\"secret\" id=\"secret-s9kxVPJGn10GoDBJ\"><p><strong>Uwaga dla Mistrzów Gry</strong></p><p>Ten przedmiot nie ma stałych parametrów – jest to zamierzone. Zaleca się, aby Mistrz Gry dostosował parametry tak, aby jak najlepiej pasowały do jego świata, otoczenia i fabuły. Z tych powodów wszystkie parametry mogą się znacznie różnić.</p></section>"
+        },
+        "Green Druid Vambraces": {
+            "name": "Wambrasy Zielonego Druida",
+            "description": "<p>Ochraniacze przedramion wykonane ze skóry i cienkich płyt drewnianych lub z utwardzonej skóry garbowanej taniną. Sprzęt ten ma na celu ochronę przed zadrapaniami i niewielkimi uderzeniami, zapewniając jednocześnie pełną swobodę ruchów ramion. Jeśli ochraniacze są wysadzane kamieniami szlachetnymi, zazwyczaj stanowi to oznakę statusu lub przywództwa.</p><section class=\"secret\" id=\"secret-yPjap40jvmkhvuQj\"><p><strong>Uwaga dla Mistrzów Gry</strong></p><p>Ten przedmiot nie ma stałych parametrów – jest to zamierzone. Zaleca się, aby Mistrz Gry dostosował parametry tak, aby jak najlepiej pasowały do jego świata, otoczenia i fabuły. Z tych powodów wszystkie parametry mogą się znacznie różnić.</p></section>"
+        },
+        "Hunter's Claws": {
+            "name": "Szpony Łowcy",
+            "description": "<p>Para zakrzywionych, zaostrzonych ostrzy zakładanych na palce, przypominających szpony dzikich zwierząt, zazwyczaj w zestawach po trzy lub cztery sztuki. Używane przez myśliwych do walki wręcz lub poruszania się po trudnym terenie lub drzewach; jednak sylwetka osoby je noszącej może budzić naprawdę przerażający widok.</p><section class=\"secret\" id=\"secret-s9kxVPJGn10GoDBJ\"><p><strong>Uwaga dla Mistrzów Gry</strong></p><p>Ten przedmiot nie ma stałych parametrów – jest to zamierzone. Zaleca się, aby Mistrz Gry dostosował parametry tak, aby jak najlepiej pasowały do jego świata, otoczenia i fabuły. Z tych powodów wszystkie parametry mogą się znacznie różnić.</p></section>"
+        },
+        "Legacy of the Moon Belt": {
+            "name": "Dziedzictwo Księżycowego Pasa",
+            "description": "<p>Płynąca peleryna wykonana z impregnowanych włókien mchu i lekkich skórek, barwiona na głębokie odcienie zieleni i brązu po długim procesie garbowania. Pomaga w kamuflażu i bywa zaklinana przez bardziej skłonnych do magii leśnych mieszkańców lub impregnowana tak, by odpychać wodę i poranną rosę, zapewniając użytkownikowi suchość.</p><section class=\"secret\" id=\"secret-ILFhVhYlCexF5mgs\"><p><strong>Uwaga dla Mistrzów Gry</strong></p><p>Ten przedmiot nie ma stałych parametrów – jest to zamierzone. Zaleca się, aby Mistrz Gry dostosował parametry tak, aby jak najlepiej pasowały do jego świata, otoczenia i fabuły. Z tych powodów wszystkie parametry mogą się znacznie różnić.</p></section>"
+        },
+        "Stone Dagger": {
+            "name": "Kamienny Sztylet",
+            "description": "<p>Małe, proste ostrze wyrzeźbione z krzemienia lub innego twardego materiału, takiego jak obsydian, przymocowane do krótkiej drewnianej rękojeści za pomocą ścięgien lub włókien. Często wykorzystywane w rytuałach, podczas polowań lub jako broń ostateczna; jest łatwe w wykonaniu, ale łatwo ulega odpryskom, gdy używa się go przeciwko twardszym materiałom.</p><section class=\"secret\" id=\"secret-s9kxVPJGn10GoDBJ\"><p><strong>Uwaga dla Mistrzów Gry</strong></p><p>Ten przedmiot nie ma stałych parametrów – jest to zamierzone. Zaleca się, aby Mistrz Gry dostosował parametry tak, aby jak najlepiej pasowały do jego świata, otoczenia i fabuły. Z tych powodów wszystkie parametry mogą się znacznie różnić.</p></section>"
+        },
+        "Stone Spear": {
+            "name": "Kamienna Włócznia",
+            "description": "<p>Drewniany trzon zakończony zaostrzonym kamiennym ostrzem, zazwyczaj z krzemienia lub obsydianu, przymocowanym za pomocą opasek ze ścięgien. Broń ta, powszechnie używana przez większość myśliwych, jest niezawodna i łatwa zarówno do wykonania, jak i do naprawy w terenie.</p><section class=\"secret\" id=\"secret-s9kxVPJGn10GoDBJ\"><p><strong>Uwaga dla Mistrzów Gry</strong></p><p>Ten przedmiot nie ma stałych parametrów – jest to zamierzone. Zaleca się, aby Mistrz Gry dostosował parametry tak, aby jak najlepiej pasowały do jego świata, otoczenia i fabuły. Z tych powodów wszystkie parametry mogą się znacznie różnić.</p></section>"
+        },
+        "Totem Staff": {
+            "name": "Kostur Totemu",
+            "description": "<p>Wyrzeźbiony kostur z symbolami lub niewielkimi wizerunkami przedstawiającymi duchy lub przodków. Każdy znak opowiada historię sięgającą wielu pokoleń i jest często wykorzystywany w rytuałach lub, w zależności od wielkości kostura, jako znak władzy.</p><section class=\"secret\" id=\"secret-s9kxVPJGn10GoDBJ\"><p><strong>Uwaga dla Mistrzów Gry</strong></p><p>Ten przedmiot nie ma stałych parametrów – jest to zamierzone. Zaleca się, aby Mistrz Gry dostosował parametry tak, aby jak najlepiej pasowały do jego świata, otoczenia i fabuły. Z tych powodów wszystkie parametry mogą się znacznie różnić.</p></section>"
+        },
+        "Witch Staff": {
+            "name": "Kostur Wiedźmy",
+            "description": "<p>Smukły, poskręcany kostur wykonany ze starego drewna, przypominający haczyk, czasem zakończony nasadką z kości, kryształu, rzeźbionego drewna lub metalu. Służy jako narzędzie do kierowania magią dla czarodziejów, często dostosowane do specjalizacji użytkownika.</p><section class=\"secret\" id=\"secret-s9kxVPJGn10GoDBJ\"><p><strong>Uwaga dla Mistrzów Gry</strong></p><p>Ten przedmiot nie ma stałych parametrów – jest to zamierzone. Zaleca się, aby Mistrz Gry dostosował parametry tak, aby jak najlepiej pasowały do jego świata, otoczenia i fabuły. Z tych powodów wszystkie parametry mogą się znacznie różnić.</p></section>"
+        }
+    }
+}

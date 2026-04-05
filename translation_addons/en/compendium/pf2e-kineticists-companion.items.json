@@ -1,16 +1,16 @@
 {
     "label": "Items",
     "folders": {
-        "Thermal Nimbus": "Termiczna Otulina",
-        "Fresh Produce": "Świeże Produkty",
-        "Protector Tree": "Drzewo Obrońca",
-        "Hardwood Armor": "Pancerz z Twardego Drewna",
-        "Ocean's Balm": "Oceaniczny Balsam",
-        "Dash of Herbs": "Szczypta Ziół",
-        "Metal Carapace": "Metalowy Karapaks",
-        "Torrent in the Blood": "Strumień Krwi",
-        "Ignite the Sun": "Zapłon Słońca",
-        "Armor in Earth": "Zbroja z Ziemi"
+        "Thermal Nimbus": "Thermal Nimbus",
+        "Fresh Produce": "Fresh Produce",
+        "Protector Tree": "Protector Tree",
+        "Hardwood Armor": "Hardwood Armor",
+        "Ocean's Balm": "Ocean's Balm",
+        "Dash of Herbs": "Dash of Herbs",
+        "Metal Carapace": "Metal Carapace",
+        "Torrent in the Blood": "Torrent in the Blood",
+        "Ignite the Sun": "Ignite the Sun",
+        "Armor in Earth": "Armor in Earth"
     },
     "entries": {
         "Armor in Earth": {

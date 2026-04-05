@@ -209,6 +209,10 @@
             "name": "Skok Jaszczurki",
             "description": "<p>Keulia wykonuje skok, a następnie atak ugryzieniem. Jeśli przemieściła się o co najmniej 10 stóp, jej atak zadaje dodatkowe obrażenia @Damage[1d6[piercing]] lub @Damage[2d6[piercing]], jeśli twoja keulia jest zwinna lub dzika.</p>"
         },
+        "Lock Jaw": {
+            "name": "Zablokowanie Szczęką",
+            "description": "<p><strong>Wymagania</strong>  Ostatnią akcją psa myśliwskiego było skuteczne atakowanie szczękami. </p><hr /><p>Cel staje się @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei], tak jakby pies myśliwski skutecznie obezwładnił cel.</p>"
+        },
         "Long Stomp": {
             "name": "Długi Tupot",
             "description": "<p>Żyrafa robi dwa kroki, a następnie wykonuje Atak Kopytem. Tak długo, jak żyrafa porusza się na odległość co najmniej 20 stóp, zadaje dodatkowe obrażenia @Damage[1d6[bludgeoning]]. Zwiększ te obrażenia do @Damage[2d6[bludgeoning]|shortLabel], jeśli twoja żyrafa jest wyspecjalizowana.</p>"

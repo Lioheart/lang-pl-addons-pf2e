@@ -1,5 +1,8 @@
 {
     "label": "Efekty aktywacji przedmiotów",
+    "folders": {
+        "Helper Items": "Przedmioty pomocnicze"
+    },
     "entries": {
         "Activation Effect: Douse Fire": {
             "name": "Efekt aktywacji: Duszący Ogień",
@@ -47,6 +50,14 @@
                     "prompt": "Wybierz premię +1 do statusu"
                 }
             }
+        },
+        "Effect: Enigma Mirror - Armor": {
+            "name": "Efekt: Lustro Enigmy - Pancerz",
+            "description": "<p>Przyznany przez @UUID[Compendium.pf2e.equipment-srd.Jx7cxxTqOENzlGaj]{Lustro Enigmy}</p><p>@Localize[pf2e-item-activations.notes.spellhearts.items.enigma-mirror.armor]</p>"
+        },
+        "Effect: Enigma Mirror - Weapon": {
+            "name": "Efekt: Lustro Enigmy - Broń",
+            "description": "<p>Przyznany przez @UUID[Compendium.pf2e.equipment-srd.Jx7cxxTqOENzlGaj]{Lustro Enigmy}</p><p>@Localize[pf2e-item-activations.notes.spellhearts.items.enigma-mirror.weapon]</p>"
         }
     },
     "mapping": {

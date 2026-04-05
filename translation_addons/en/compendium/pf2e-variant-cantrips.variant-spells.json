@@ -1,8 +1,8 @@
 {
     "label": "Variant-Spells",
     "folders": {
-        "Spell Effects": "Efekty Zaklęć",
-        "Remaster Cantrips": "Remaster Sztuczek"
+        "Spell Effects": "Spell Effects",
+        "Remaster Cantrips": "Remaster Cantrips"
     },
     "entries": {
         "Blaze": {

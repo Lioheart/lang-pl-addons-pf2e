@@ -1,9 +1,9 @@
 {
     "label": "Effects",
     "folders": {
-        "Hunt Prey": "Naznaczona Ofiara",
-        "Ammunition": "Amunicja",
-        "Feats": "Atuty"
+        "Hunt Prey": "Hunt Prey",
+        "Ammunition": "Ammunition",
+        "Feats": "Feats"
     },
     "entries": {
         "Alchemical Shot": {
@@ -78,10 +78,6 @@
         "Chamber Loaded": {
             "name": "Chamber Loaded",
             "description": "<p>Your weapon's current chamber or barrel is loaded, and is ready to fire.</p>"
-        },
-        "Conjured Round": {
-            "name": "Conjured Round",
-            "description": "<p>You've loaded your weapon with a conjured round.</p>"
         },
         "Effect: Crossbow Ace": {
             "name": "Effect: Crossbow Ace",

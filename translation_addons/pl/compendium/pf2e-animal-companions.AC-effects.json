@@ -188,6 +188,10 @@
             "name": "Efekt: Korzyść Wsparcia Hieny",
             "description": "<p>Przyznany przez @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.wlh1poSMLK9wk2Nw]{Korzyść Wsparcia Hieny}</p><p>Kiedy trafisz atakiem istotę znajdującą się w zasięgu hieny, staje się ona Przestraszona 1.</p>"
         },
+        "Effect: Isgeri Boarhound Support Benefit": {
+            "name": "Efekt: Korzyść Wsparcia Psa Myśliwskiego Isgeri",
+            "description": "<p>Przyznany przez @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.OQnyw05StojLRcA0]{Korzyść Wsparcia Psa Myśliwskiego Isgeri}</p><p>Otrzymujesz premię okolicznościową +1 do następnego rzutu na Atak, aby uderzyć przeciwnika znajdującego się w zasięgu twojego psa myśliwskiego.</p><p>Jeśli tym atakiem zadasz obrażenia stworzeniu posiadającemu cechę odpowiadającą wyznaczonemu wrogowi twojego psa myśliwskiego, stworzenie to otrzymuje dodatkowe k6 obrażeń kłutych.</p>"
+        },
         "Effect: Keulia Support Benefit": {
             "name": "Efekt: Korzyść Wsparcia Keulii",
             "description": "<p>Przyznany przez @UUID[Compendium.pf2e-animal-companions.AC-Support.Item.IsdduEnR9bFi2vDS]{Korzyść Wsparcia Keulii}</p><p>Twoje ataki, które zadają obrażenia stworzeniu w zasięgu Keulii, zadają również obrażenia obuchowe.</p>"

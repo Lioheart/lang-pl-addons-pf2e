@@ -1,14 +1,14 @@
 {
     "label": "Effects",
     "folders": {
-        "Spell": "Zaklęcie",
-        "Consumable": "Zużywalny",
-        "Feat": "Atut",
-        "Critical Specialization": "Krytyczna Specjalizacja",
-        "Swashbuckler": "Zawadiaka",
-        "Rogue": "Łotr",
-        "Class Feature": "Zdolność Klasowa",
-        "Action": "Akcja"
+        "Spell": "Spell",
+        "Consumable": "Consumable",
+        "Feat": "Feat",
+        "Critical Specialization": "Critical Specialization",
+        "Swashbuckler": "Swashbuckler",
+        "Rogue": "Rogue",
+        "Class Feature": "Class Feature",
+        "Action": "Action"
     },
     "entries": {
         "Effect: Bottled Lightning": {

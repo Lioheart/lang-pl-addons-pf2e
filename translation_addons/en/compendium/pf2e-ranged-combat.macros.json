@@ -1,10 +1,10 @@
 {
     "label": "Macros",
     "folders": {
-        "Utility": "Użytkowe",
-        "Ammunition System": "System Amunicji",
-        "Feats & Features": "Atuty i Cechy",
-        "Weapon Actions": "Akcje Broni"
+        "Utility": "Utility",
+        "Ammunition System": "Ammunition System",
+        "Feats & Features": "Feats & Features",
+        "Weapon Actions": "Weapon Actions"
     },
     "entries": {
         "Alchemical Shot": {
@@ -12,9 +12,6 @@
         },
         "Clear Jam": {
             "name": "Clear Jam"
-        },
-        "Conjure Bullet": {
-            "name": "Conjure Bullet"
         },
         "Consolidate Repeating Weapon Ammunition": {
             "name": "Consolidate Repeating Weapon Ammunition"

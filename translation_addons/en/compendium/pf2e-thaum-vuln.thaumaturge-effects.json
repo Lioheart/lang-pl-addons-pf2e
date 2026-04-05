@@ -1,13 +1,13 @@
 {
     "label": "Thaumaturge-Effects",
     "folders": {
-        "Weapon": "Broń",
-        "Chalice": "Kielich",
-        "Implement Effects": "Efekty Utensylium",
-        "Tome": "Tom",
+        "Weapon": "Weapon",
+        "Chalice": "Chalice",
+        "Implement Effects": "Implement Effects",
+        "Tome": "Tome",
         "Amulet": "Amulet",
-        "Lantern": "Latarnia",
-        "Regalia": "Insygnia"
+        "Lantern": "Lantern",
+        "Regalia": "Regalia"
     },
     "entries": {
         "Breached Defenses": {

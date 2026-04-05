@@ -1,12 +1,12 @@
 {
     "label": "Prishas-Precious-Projectiles",
     "folders": {
-        "Bolts": "Bełty",
-        "Rounds": "Rundy",
-        "Blowgun Darts": "Rzutki do Dmuchawki",
-        "Sling Bullets": "Pociski do Procy",
-        "Arrows": "Strzały",
-        "Magazines": "Magazynki"
+        "Bolts": "Bolts",
+        "Rounds": "Rounds",
+        "Blowgun Darts": "Blowgun Darts",
+        "Sling Bullets": "Sling Bullets",
+        "Arrows": "Arrows",
+        "Magazines": "Magazines"
     },
     "entries": {
         "Adamantine Arrows (High-Grade)": {

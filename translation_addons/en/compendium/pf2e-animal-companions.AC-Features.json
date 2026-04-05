@@ -1,22 +1,22 @@
 {
     "label": "Ac-Features",
     "folders": {
-        "Construct": "Konstrukt",
-        "Angel": "Anioł",
-        "Demon": "Wiedza o Demonach",
-        "Eidolons": "Eidolony",
+        "Construct": "Construct",
+        "Angel": "Angel",
+        "Demon": "Demon",
+        "Eidolons": "Eidolons",
         "Psychopomp": "Psychopomp",
-        "Elemental": "Żywiołak",
-        "Actions": "Akcje",
+        "Elemental": "Elemental",
+        "Actions": "Actions",
         "Fey": "Fey",
-        "Undead": "Nieumarły",
-        "Dragon": "Smok",
-        "Devotion Phantom": "Oddane Widmo",
-        "Anger Phantom": "Gniewne Widmo",
-        "Plant": "Roślina",
-        "Swarm": "Rój",
-        "Followers": "Zwolennicy",
-        "Beast": "Bestia"
+        "Undead": "Undead",
+        "Dragon": "Dragon",
+        "Devotion Phantom": "Devotion Phantom",
+        "Anger Phantom": "Anger Phantom",
+        "Plant": "Plant",
+        "Swarm": "Swarm",
+        "Followers": "Followers",
+        "Beast": "Beast"
     },
     "entries": {
         "Adaptable Elemental": {

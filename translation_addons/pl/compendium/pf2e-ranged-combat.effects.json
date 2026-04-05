@@ -79,10 +79,6 @@
             "name": "Komora załadowana",
             "description": "<p>Bieżąca komora lub lufa broni jest załadowana i gotowa do strzału.</p>"
         },
-        "Conjured Round": {
-            "name": "Wyczarowany Pocisk",
-            "description": "<p>Załadowałeś broń wyczarowanym pociskiem.</p>"
-        },
         "Effect: Crossbow Ace": {
             "name": "Efekt: As Kuszy",
             "description": "<p>Otrzymujesz premię okoliczności +2 do rzutu na obrażenia przy następnym ataku kuszą. Jeśli kusza jest zwykłą kuszą, zwiększasz także rozmiar kości obrażeń dla tego ataku.</p>",

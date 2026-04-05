@@ -1,8 +1,8 @@
 {
     "label": "Ac-Followers",
     "folders": {
-        "Advancements": "Rozwój",
-        "Feats": "Atuty"
+        "Advancements": "Advancements",
+        "Feats": "Feats"
     },
     "entries": {
         "Berserker": {

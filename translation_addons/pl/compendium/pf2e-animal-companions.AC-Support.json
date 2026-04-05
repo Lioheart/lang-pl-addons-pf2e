@@ -173,6 +173,10 @@
             "name": "Korzyść Wsparcia Hieny",
             "description": "<p>Hiena szyderczo warczy na twoich wrogów i gryzie ich, gdy stworzysz okazję. Do początku twojej następnej tury, za każdym razem gdy trafisz Atakiem istotę w zasięgu hieny, staje się ona @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Przestraszona 1}.</p><p>@UUID[Compendium.pf2e-animal-companions.AC-effects.Item.zrI6j7mFhkbSFdf0]</p>"
         },
+        "Isgeri Boarhound Support Benefit": {
+            "name": "Korzyść Wsparcia Psa Myśliwskiego Isgeri",
+            "description": "<p>Twój pies myśliwski jest wiernym towarzyszem polowań. Otrzymujesz premię okolicznościową +1 do następnego rzutu ataku, aby zadać cios przeciwnikowi znajdującemu się w zasięgu twojego psa. Premia ta obowiązuje do momentu jej pierwszego wykorzystania lub do początku twojej następnej tury, w zależności od tego, co nastąpi wcześniej. Jeśli tym atakiem zadasz obrażenia stworzeniu o cechie odpowiadającej wyznaczonemu wrogowi twojego psa myśliwskiego, stworzenie to otrzymuje dodatkowe 1k6 obrażeń kłutych od psa. Jeśli twój pies myśliwski jest zwinny lub dziki, obrażenia wzrastają do 2k6.</p><p>@UUID[Compendium.pf2e-animal-companions.AC-effects.Item.otgQvXBTGIEGbJJP]{Efekt: Korzyść Wsparcia Psa Myśliwskiego Isgeri}</p>"
+        },
         "Kangaroo Support Benefit": {
             "name": "Korzyść Wsparcia Kangura",
             "description": "<p>Twój kangur odbija się i przesuwa w przód i w tył. Do początku twojej następnej tury liczy się on jako znajdujący się w swojej przestrzeni lub pustej przestrzeni wybranej przez ciebie w promieniu 5 stóp podczas określania, czy ty i twój towarzysz flankujecie; możesz wybrać inną przestrzeń dla każdego ze swoich ataków.</p>"
