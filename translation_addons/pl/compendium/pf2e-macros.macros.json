@@ -10,6 +10,9 @@
         "Certain Strike": {
             "name": "Pewne Uderzenie"
         },
+        "Change Alliance": {
+            "name": "Zmiana sojuszu"
+        },
         "Counteract": {
             "name": "Przeciwdziałanie"
         },
@@ -51,6 +54,9 @@
         },
         "Flurry of Blows": {
             "name": "Grad Ciosów"
+        },
+        "Form Up": {
+            "name": "Formacja"
         },
         "Hunted Shot": {
             "name": "Strzał Łowcy"

@@ -4,7 +4,7 @@
   "version": "vDev",
   "compatibility": {
     "minimum": "13",
-    "verified": "13"
+    "verified": "14"
   },
   "description": "<p>Jest to moduł zawierający tłumaczenia dodatkowych paczek do Pathfindera 2e.</p><p>Zawiera tłumaczenia kompendium, a także kilka dodatkowych opcji, nie ujętych w podstawowym tłumaczeniu.</p>",
   "authors": [
