@@ -1,6 +1,19 @@
 import { MODULE_ID, DEFAULT_RATE } from "./settings.js";
 import { registerClockPositionSettings } from "./settings.js";
 
+function isCalendariaActive() {
+  return game.modules.get("calendaria")?.active === true;
+}
+
+function hasSetting(key) {
+  return game.settings.settings.has(`${MODULE_ID}.${key}`);
+}
+
+function getSettingSafe(key, fallback = undefined) {
+  if (!hasSetting(key)) return fallback;
+  return game.settings.get(MODULE_ID, key);
+}
+
 Hooks.once("init", () => {
   registerClockPositionSettings();
 });
@@ -52,8 +65,7 @@ class RealTimeClock {
       return;
     }
 
-    const seconds = game.settings.get(MODULE_ID, "secondsPerRealSecond") ?? DEFAULT_RATE;
-    this._advanceWorldTime(seconds);
+    const seconds = getSettingSafe("secondsPerRealSecond", DEFAULT_RATE); this._advanceWorldTime(seconds);
   }
 
   // ---------- world‑clock helpers ----------
@@ -91,12 +103,17 @@ class RealTimeClock {
 
 // ---------- bootstrap ----------
 Hooks.once("ready", async () => {
-  const clockEnabled = game.settings.get("lang-pl-addons-pf2e", "enableRealTimeClock");
-  const hudEnabled = game.settings.get("lang-pl-addons-pf2e", "showClockHUD");
+  if (isCalendariaActive()) {
+    console.log(`${MODULE_ID} | Calendaria aktywna — własny zegar i HUD nie zostaną uruchomione`);
+    return;
+  }
+
+  const clockEnabled = getSettingSafe("enableRealTimeClock", false);
+  const hudEnabled = getSettingSafe("showClockHUD", false);
 
   if (clockEnabled) {
     game.pf2eRealTimeClock = new RealTimeClock();
-    console.log("%cPF2e Real‑Time Clock | Initialized", "color: green");
+    console.log("%cPF2e Real-Time Clock | Initialized", "color: green");
     Hooks.on("updateWorldTime", updateWorldTimeDisplay);
   }
 
@@ -204,7 +221,7 @@ async function updateWorldTimeDisplay() {
   const div = document.getElementById("pf2e-world-time-display");
   if (!div) return;
 
-  const show = game.settings.get(MODULE_ID, "showClockHUD");
+  const show = getSettingSafe("showClockHUD", false);
   div.style.display = show ? "block" : "none";
 
   const wc = game.pf2e?.worldClock;

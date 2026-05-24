@@ -19,11 +19,31 @@ export function registerClockPositionSettings() {
     });
 }
 
+function isSettingRegistered(key) {
+    return game.settings.settings.has(`${MODULE_ID}.${key}`);
+}
+
+export function registerAddonTranslationSetting() {
+    if (isSettingRegistered("enableAddonTranslations")) return;
+
+    game.settings.register(MODULE_ID, "enableAddonTranslations", {
+        name: game.i18n.localize(`${MODULE_ID}.settings.enableAddonTranslations.name`),
+        hint: game.i18n.localize(`${MODULE_ID}.settings.enableAddonTranslations.hint`),
+        scope: "world",
+        config: true,
+        type: Boolean,
+        default: true,
+        restricted: true,
+        requiresReload: true
+    });
+}
 
 export function registerSettings() {
     const sundryActive = game.modules.get("sundry")?.active;
     const pf2etoolbeltActive = game.modules.get("pf2e-toolbelt")?.active;
-    const calendariaActive = game.modules.get("Calendaria")?.active;
+    const calendariaActive = game.modules.get("calendaria")?.active;
+
+    registerAddonTranslationSetting();
 
     if (!sundryActive) {
         game.settings.register(MODULE_ID, "enableRuneDescriptions", {
@@ -36,17 +56,6 @@ export function registerSettings() {
             restricted: true,
         });
     }
-
-    game.settings.register(MODULE_ID, "enableAddonTranslations", {
-        name: game.i18n.localize(`${MODULE_ID}.settings.enableAddonTranslations.name`),
-        hint: game.i18n.localize(`${MODULE_ID}.settings.enableAddonTranslations.hint`),
-        scope: "world",
-        config: true,
-        type: Boolean,
-        default: true,
-        restricted: true,
-        requiresReload: true
-    });
 
     if (!sundryActive) {
         game.settings.register(MODULE_ID, "first-turn", {
@@ -81,42 +90,42 @@ export function registerSettings() {
         restricted: true
     });
 
-    if (!calendariaActive) {
-        game.settings.register(MODULE_ID, "enableRealTimeClock", {
-            name: game.i18n.localize(`${MODULE_ID}.settings.enableRealTimeClock.name`),
-            hint: game.i18n.localize(`${MODULE_ID}.settings.enableRealTimeClock.hint`),
-            scope: "world",
-            config: true,
-            type: Boolean,
-            requiresReload: true,
-            default: false
-        });
+    const showClockSettings = !calendariaActive;
 
-        game.settings.register(MODULE_ID, "showClockHUD", {
-            name: game.i18n.localize(`${MODULE_ID}.settings.showClockHUD.name`),
-            hint: game.i18n.localize(`${MODULE_ID}.settings.showClockHUD.hint`),
-            scope: "client",
-            config: true,
-            type: Boolean,
-            default: false,
-            onChange: () => {
-                if (game.pf2e?.worldClock) {
-                    updateWorldTimeDisplay();
-                }
+    game.settings.register(MODULE_ID, "enableRealTimeClock", {
+        name: game.i18n.localize(`${MODULE_ID}.settings.enableRealTimeClock.name`),
+        hint: game.i18n.localize(`${MODULE_ID}.settings.enableRealTimeClock.hint`),
+        scope: "world",
+        config: showClockSettings,
+        type: Boolean,
+        requiresReload: true,
+        default: false
+    });
+
+    game.settings.register(MODULE_ID, "showClockHUD", {
+        name: game.i18n.localize(`${MODULE_ID}.settings.showClockHUD.name`),
+        hint: game.i18n.localize(`${MODULE_ID}.settings.showClockHUD.hint`),
+        scope: "client",
+        config: showClockSettings,
+        type: Boolean,
+        default: false,
+        onChange: () => {
+            if (game.pf2e?.worldClock) {
+                updateWorldTimeDisplay();
             }
-        });
+        }
+    });
 
-        game.settings.register(MODULE_ID, "secondsPerRealSecond", {
-            name: game.i18n.localize(`${MODULE_ID}.settings.secondsPerRealSecond.name`),
-            hint: game.i18n.localize(`${MODULE_ID}.settings.secondsPerRealSecond.hint`),
-            scope: "world",
-            config: true,
-            type: Number,
-            range: { min: 0, max: 10, step: 1 },
-            default: DEFAULT_RATE,
-            restricted: true
-        });
-    }
+    game.settings.register(MODULE_ID, "secondsPerRealSecond", {
+        name: game.i18n.localize(`${MODULE_ID}.settings.secondsPerRealSecond.name`),
+        hint: game.i18n.localize(`${MODULE_ID}.settings.secondsPerRealSecond.hint`),
+        scope: "world",
+        config: showClockSettings,
+        type: Number,
+        range: { min: 0, max: 10, step: 1 },
+        default: DEFAULT_RATE,
+        restricted: true
+    });
 
     if (!pf2etoolbeltActive) {
         game.settings.register(MODULE_ID, "enableSellToMerchant", {

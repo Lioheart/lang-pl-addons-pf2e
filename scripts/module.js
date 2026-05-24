@@ -1,4 +1,4 @@
-import { registerSettings } from "./settings.js";
+import { registerSettings, registerAddonTranslationSetting } from "./settings.js";
 import { toggleJournalStyle } from "./toggle-journal-style.js";
 import { initializeJournalFont, addJournalFontResetButton } from "./journal-font.js";
 
@@ -17,6 +17,8 @@ Hooks.once("ready", () => {
 });
 
 Hooks.once("babele.init", (babele) => {
+    registerAddonTranslationSetting();
+
     const useAddonTranslations = game.settings.get(MOD_ID, "enableAddonTranslations");
 
     if (!useAddonTranslations) {
