@@ -1,6 +1,9 @@
 {
     "label": "Makra Taumaturga",
     "entries": {
+        "Check For Abandoned Tokens": {
+            "name": "Sprawdź, czy nie ma porzuconych tokenów"
+        },
         "Cursed Effigy": {
             "name": "Przeklęta Kukła"
         },

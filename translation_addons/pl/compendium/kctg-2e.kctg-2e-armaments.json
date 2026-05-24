@@ -2,9 +2,46 @@
     "label": "PF2e - Uzbrojenie od Krisa",
     "folders": {
         "Far North": "Daleka Północ",
-        "Green Druid Grove": "Zielony Gaj Druidów"
+        "Green Druid Grove": "Zielony Gaj Druidów",
+        "Apparel": "Odzież"
     },
     "entries": {
+        "Bycocket Hat": {
+            "name": "Bycocket",
+            "description": "<p>Sztywna skóra została uformowana na kalapie i pozostawiona do utwardzenia, dzięki czemu powstał kapelusz o szerokim rondzie, podwiniętym z tyłu i spiczastym z przodu niczym ptasie dzioby. Kapelusz ten noszą szlachta i członkowie rodziny królewskiej, ale można go również spotkać wśród kupców.</p>"
+        },
+        "Common Robes": {
+            "name": "Zwykłe szaty",
+            "description": "<p>Proste ubrania z lnu, szyte zazwyczaj przez niewykwalifikowanych krawców, i właśnie dlatego są tak powszechne wśród zwykłych ludzi, uczonych czy duchownych. Większość pozostawia się w stanie niebarwionym, a tylko nieliczne poddaje się obróbce tanimi barwnikami, aby uzyskać stonowane odcienie brązu lub szarości dla tych, którzy pragną niewielkiej odmiany.</p>"
+        },
+        "Common Sash": {
+            "name": "Zwykła szarfa",
+            "description": "<p>Wykonane z lnu lub bawełny albo wycięte ze skóry, zawiązywane w pasie lub na ramieniu, służą do przytrzymywania ubrania na miejscu lub jako znak przynależności do cechu rzemieślniczego lub lokalnej milicji. Sprzedawcy uliczni oferują je w paczkach za grosze, dlatego wydaje się, że niemal każdy ma przynajmniej jeden.</p>"
+        },
+        "Common Scarf": {
+            "name": "Zwykły szal",
+            "description": "<p>Prostokątny kawałek materiału, zazwyczaj wełnianego, produkowany w tak ogromnych ilościach, że praktycznie nie ma żadnej wartości rynkowej. Pasterze, rolnicy i pracownicy targowi rzadko kiedy się bez niego obejść, ponieważ świetnie nadaje się zarówno do wycierania potu, filtrowania zakurzonego powietrza, jak i do owinięcia twarzy podczas silnego wiatru.</p>"
+        },
+        "Common Shoes": {
+            "name": "Zwykłe buty",
+            "description": "<p>Proste obuwie wykonane z jednego kawałka skóry lub taniej skóry, zszyte ścięgnami lub konopiami. Szewcy produkują je szybko i w dużych partiach, ponieważ łatwo je wytwarzać na skalę masową. Doświadczeni szewcy potrafią na podstawie samego stanu podeszew ocenić, jaką odległość pokonał podróżny.</p>"
+        },
+        "Corset": {
+            "name": "Gorset",
+            "description": "<p>Konstrukcyjny element odzieży wykonany z warstwowego lnu, wzmocniony cienkimi paskami z drewna lub żelaza, a w zamożniejszych gospodarstwach domowych – ze stali, ciasno sznurowany w celu ukształtowania tułowia. Chociaż najczęściej kojarzony jest ze strojami szlacheckimi, wiele kobiet pracujących nosi również tańsze wersje tego ubioru, aby zapewnić wsparcie dla pleców podczas długich godzin pracy.</p>"
+        },
+        "Crakows": {
+            "name": "Ciżemka",
+            "description": "<p>Długie, spiczaste buty wykonane z miękkiej skóry, z czubkami wystającymi znacznie poza palce, wymagające czasem wypełnienia lub drutu przymocowanego do kolana, aby zapobiec ich wleczeniu po ziemi. Zupełnie niepraktyczne do pracy fizycznej czy podróży, co jest właśnie ich sensem, ponieważ noszenie ich świadczy o tym, że nie ma się potrzeby ani jednego, ani drugiego.</p>"
+        },
+        "Decorative Corset": {
+            "name": "Gorset ozdobny",
+            "description": "<p>Wykonane z materiałów takich jak jedwab czy barwiony len, z dodatkiem haftów, koronek lub metalowych elementów, a wykwalifikowani krawcy poświęcali na wykonanie pojedynczego egzemplarza tygodnie, jeśli nie więcej. Szlachta i zamożni kupcy zamawiali je na uroczyste okazje, gdzie wygoda schodziła na drugi plan w stosunku do wyglądu, a większość osób noszących te stroje godziła się z ograniczeniami ruchów w imię efektownego wyglądu.</p>"
+        },
+        "Evening Gloves": {
+            "name": "Rękawiczki wieczorowe",
+            "description": "<p>Długie rękawiczki wykonane z cienkiej skóry lub jedwabiu, barwione na jaskrawe kolory, takie jak czerwony lub zielony, sięgające poza nadgarstek aż do łokcia. Posiadanie pary w dobrym stanie jest oznaką zamożności, ponieważ w niektórych kręgach towarzyskich pokazywanie gołych rąk podczas uroczystych spotkań jest źle widziane.</p>"
+        },
         "Far North Bear Claws": {
             "name": "Pazury Niedźwiedzia z Dalekiej Północy",
             "description": "<p>Ten zestaw kastetów został zaprojektowany z myślą o walce wręcz. Wykonano je tak, by przypominały pazury olbrzymiego niedźwiedzia; są one wykonane ze stali i posiadają w górnej części każdego elementu szczelinę, w której można umieścić zaklęte klejnoty. Jednak intensywne użytkowanie może spowodować pęknięcie klejnotu, co doprowadzi do utraty jego zaklęcia.</p><section class=\"secret\" id=\"secret-RvKT8CUni0ZfPVOX\"><p><strong>Uwaga dla Mistrzów Gry</strong></p><p>Ten przedmiot nie ma stałych parametrów – jest to zamierzone. Zaleca się, aby Mistrz Gry dostosował parametry tak, aby jak najlepiej pasowały do jego świata, otoczenia i fabuły. Z tych powodów wszystkie parametry mogą się znacznie różnić.</p></section>"
@@ -73,9 +110,17 @@
             "name": "Wambrasy Dalekiej Północy",
             "description": "<p>Te wambrasy zostały zaprojektowane, aby chronić przedramiona przed przenikliwym wiatrem i mrozem. Tworzą szczelne połączenie z rękawicami noszącego, blokując zimno, a ich futrzane podszycie zapewnia dodatkowe ciepło, tworząc barierę przed ekstremalnymi warunkami chłodu.</p>"
         },
+        "Fez": {
+            "name": "Fez",
+            "description": "<p>Kapelusz z płaskim daszkiem, wykonany ze sztywnego filcu, zazwyczaj w kolorze czerwonym, zakończony jedwabnym frędzlem u podstawy. Stał się on swego rodzaju rozpoznawalnym symbolem kultury handlowej w królestwach, a w wielu miastach portowych dostrzeżenie go w tłumie zazwyczaj oznacza, że w pobliżu znajduje się kupiec pragnący zawrzeć interesy, czy to oficjalnie, czy też nieoficjalnie.</p>"
+        },
         "Forest Sickle": {
             "name": "Leśny Sierp",
             "description": "<p>Wykonane głównie z kości lub krzemienia, z uchwytem z pałki, pnączy drzewnych lub strzechy. Zazwyczaj używają go mieszkańcy lasu, którym służy przede wszystkim do zbierania pożywienia z lasu lub do wytyczania ścieżek zapewniających wszystkim bezpieczną wędrówkę.</p><section class=\"secret\" id=\"secret-s9kxVPJGn10GoDBJ\"><p><strong>Uwaga dla Mistrzów Gry</strong></p><p>Ten przedmiot nie ma stałych parametrów – jest to zamierzone. Zaleca się, aby Mistrz Gry dostosował parametry tak, aby jak najlepiej pasowały do jego świata, otoczenia i fabuły. Z tych powodów wszystkie parametry mogą się znacznie różnić.</p></section>"
+        },
+        "Ghoonghat": {
+            "name": "Hidżab",
+            "description": "<p>Welon wykonany z długiego kawałka materiału, który zakrywa głowę i twarz; materiał, z którego jest wykonany, waha się od zwykłej bawełny wśród zwykłych ludzi po bogato haftowany jedwab wśród zamożnych. W niektórych kulturach w różnych krainach noszony jest tradycyjnie jako znak skromności lub szacunku, zwłaszcza w obecności starszych osób lub podczas uroczystości.</p>"
         },
         "Golden Moon Dagger": {
             "name": "Sztylet Złotego Księżyca",
@@ -133,13 +178,33 @@
             "name": "Wambrasy Zielonego Druida",
             "description": "<p>Ochraniacze przedramion wykonane ze skóry i cienkich płyt drewnianych lub z utwardzonej skóry garbowanej taniną. Sprzęt ten ma na celu ochronę przed zadrapaniami i niewielkimi uderzeniami, zapewniając jednocześnie pełną swobodę ruchów ramion. Jeśli ochraniacze są wysadzane kamieniami szlachetnymi, zazwyczaj stanowi to oznakę statusu lub przywództwa.</p><section class=\"secret\" id=\"secret-yPjap40jvmkhvuQj\"><p><strong>Uwaga dla Mistrzów Gry</strong></p><p>Ten przedmiot nie ma stałych parametrów – jest to zamierzone. Zaleca się, aby Mistrz Gry dostosował parametry tak, aby jak najlepiej pasowały do jego świata, otoczenia i fabuły. Z tych powodów wszystkie parametry mogą się znacznie różnić.</p></section>"
         },
+        "Hoop Skirt": {
+            "name": "Spódnica z koszem",
+            "description": "<p>Szeroka spódnica w kształcie dzwonu, której wyrazisty krój utrzymuje szkielet z pierścieni wykonanych z cienkiego drutu stalowego wszytego w materiał. Jest to ubranie przeznaczone wyłącznie dla zamożnych osób, ponieważ już sama ilość materiału potrzebna do pokrycia szkieletu sprawia, że jego produkcja jest kosztowna.</p>"
+        },
         "Hunter's Claws": {
             "name": "Szpony Łowcy",
             "description": "<p>Para zakrzywionych, zaostrzonych ostrzy zakładanych na palce, przypominających szpony dzikich zwierząt, zazwyczaj w zestawach po trzy lub cztery sztuki. Używane przez myśliwych do walki wręcz lub poruszania się po trudnym terenie lub drzewach; jednak sylwetka osoby je noszącej może budzić naprawdę przerażający widok.</p><section class=\"secret\" id=\"secret-s9kxVPJGn10GoDBJ\"><p><strong>Uwaga dla Mistrzów Gry</strong></p><p>Ten przedmiot nie ma stałych parametrów – jest to zamierzone. Zaleca się, aby Mistrz Gry dostosował parametry tak, aby jak najlepiej pasowały do jego świata, otoczenia i fabuły. Z tych powodów wszystkie parametry mogą się znacznie różnić.</p></section>"
         },
+        "Lapel Trim Hat": {
+            "name": "Czapka z wykończeniem przy daszku",
+            "description": "<p>Kapelusz z rondem, ozdobiony wzdłuż ronda, zazwyczaj wstążką, piórami lub haftowaną tkaniną, przymocowany małą szpilką lub broszką. Kupcy i niższa szlachta chętnie noszą je podczas publicznych wystąpień, ponieważ sam wygląd ozdoby pozwala bez słów zaznaczyć swój szlachecki status.</p>"
+        },
+        "Leather Boots": {
+            "name": "Skórzane buty",
+            "description": "<p>Solidne obuwie wykonane z grubej skóry bydlęcej, impregnowane tłuszczem zwierzęcym lub woskiem pszczelim, aby było wodoodporne. Żołnierze, kurierzy i doświadczeni podróżnicy uważają dobrą parę butów za inwestycję cenniejszą niż broń, ponieważ pęcherze na stopach w drodze mogą być równie niebezpieczne jak każdy bandyta.</p>"
+        },
         "Legacy of the Moon Belt": {
             "name": "Dziedzictwo Księżycowego Pasa",
             "description": "<p>Płynąca peleryna wykonana z impregnowanych włókien mchu i lekkich skórek, barwiona na głębokie odcienie zieleni i brązu po długim procesie garbowania. Pomaga w kamuflażu i bywa zaklinana przez bardziej skłonnych do magii leśnych mieszkańców lub impregnowana tak, by odpychać wodę i poranną rosę, zapewniając użytkownikowi suchość.</p><section class=\"secret\" id=\"secret-ILFhVhYlCexF5mgs\"><p><strong>Uwaga dla Mistrzów Gry</strong></p><p>Ten przedmiot nie ma stałych parametrów – jest to zamierzone. Zaleca się, aby Mistrz Gry dostosował parametry tak, aby jak najlepiej pasowały do jego świata, otoczenia i fabuły. Z tych powodów wszystkie parametry mogą się znacznie różnić.</p></section>"
+        },
+        "Miner Padded Clothes": {
+            "name": "Odzież ochronna dla górników",
+            "description": "<p>Ciężka odzież wypełniona surową wełną lub watą bawełnianą, zszyta między dwiema warstwami wytrzymałego materiału, aby chronić przed spadającymi odłamkami i otarciami o ściany tunelu. Większość górników posiada tylko jeden komplet i nieustannie go naprawia, ponieważ jego wymiana kosztuje więcej, niż można zarobić w ciągu tygodnia.</p>"
+        },
+        "Miner's Hat": {
+            "name": "Kask górniczy",
+            "description": "<p>Wzmocniona czapka, usztywniona paskami żelaza lub grubymi szwami, wyposażona z przodu w niewielki uchwyt do zamocowania świecy lub knota olejowego albo w uchwyt do specjalistycznych okularów górniczych. Jest to jeden z niewielu elementów wyposażenia, bez którego górnik nigdy się nie obejdzie, ponieważ praca w ciemności bez niego jest uważana nie za akt odwagi, lecz za głupotę przez każdego, kto choćby przez chwilę przebywał pod ziemią.</p>"
         },
         "Stone Dagger": {
             "name": "Kamienny Sztylet",
@@ -149,9 +214,29 @@
             "name": "Kamienna Włócznia",
             "description": "<p>Drewniany trzon zakończony zaostrzonym kamiennym ostrzem, zazwyczaj z krzemienia lub obsydianu, przymocowanym za pomocą opasek ze ścięgien. Broń ta, powszechnie używana przez większość myśliwych, jest niezawodna i łatwa zarówno do wykonania, jak i do naprawy w terenie.</p><section class=\"secret\" id=\"secret-s9kxVPJGn10GoDBJ\"><p><strong>Uwaga dla Mistrzów Gry</strong></p><p>Ten przedmiot nie ma stałych parametrów – jest to zamierzone. Zaleca się, aby Mistrz Gry dostosował parametry tak, aby jak najlepiej pasowały do jego świata, otoczenia i fabuły. Z tych powodów wszystkie parametry mogą się znacznie różnić.</p></section>"
         },
+        "Stylized Girdle": {
+            "name": "Stylizowany pas",
+            "description": "<p>Ozdobny pas wykonany ze tłoczonej skóry lub tkaniny, wysadzany wypolerowanymi kamieniami szlachetnymi lub metalowymi ćwiekami, noszony nisko na biodrach, na szatach lub sukienkach. W wielu rodach szlacheckich kunszt wykonania pasa poddaje się równie wnikliwej ocenie, jak ubranie, które się pod nim kryje.</p>"
+        },
+        "Tiered Dress": {
+            "name": "Sukienka warstwowa",
+            "description": "<p>Suknia wielowarstwowa, uszyta z coraz większych pasów materiału, zszytych w regularnych odstępach wzdłuż spódnicy, co tworzy efekt kaskadowy. Krawcowe i krawcy żądają za nie znacznie wyższych opłat niż za zwykłe suknie, ze względu na ilość potrzebnego materiału i konieczność wykonania precyzyjnych szwów.</p>"
+        },
+        "Top Hat": {
+            "name": "Cylinder",
+            "description": "<p>Wysoki kapelusz wykonany ze sztywnego filcu lub skóry małego zwierzęcia, uformowany na drewnianym trzonku. Niemal zawsze kojarzy się z bogactwem i miejskim stylem życia, a noszenie go na wsi to pewny sposób na wzbudzenie szacunku lub podejrzeń, w zależności od tego, gdzie się znajdujesz.</p>"
+        },
         "Totem Staff": {
             "name": "Kostur Totemu",
             "description": "<p>Wyrzeźbiony kostur z symbolami lub niewielkimi wizerunkami przedstawiającymi duchy lub przodków. Każdy znak opowiada historię sięgającą wielu pokoleń i jest często wykorzystywany w rytuałach lub, w zależności od wielkości kostura, jako znak władzy.</p><section class=\"secret\" id=\"secret-s9kxVPJGn10GoDBJ\"><p><strong>Uwaga dla Mistrzów Gry</strong></p><p>Ten przedmiot nie ma stałych parametrów – jest to zamierzone. Zaleca się, aby Mistrz Gry dostosował parametry tak, aby jak najlepiej pasowały do jego świata, otoczenia i fabuły. Z tych powodów wszystkie parametry mogą się znacznie różnić.</p></section>"
+        },
+        "Waist Cincher": {
+            "name": "Pas wyszczuplający",
+            "description": "<p>Krótsze i mniej krępujące niż gorset, wykonane ze sztywnego materiału lub lekkiej skóry, przeznaczone do uciskania i modelowania wyłącznie talii, a nie całego tułowia. Wielu artystów i tancerzy woli je od gorsetów, ponieważ znacznie mniej ograniczają ruchy.</p>"
+        },
+        "Winter Hat": {
+            "name": "Czapka zimowa",
+            "description": "<p>Wykonane z grubej wełny lub futra, podszyte skórką małego zwierzęcia i naciągnięte nisko, tak by zakrywały uszy i kark. Północni handlarze sprzedają je hurtowo na początku zimowych miesięcy, a ci, którzy zbyt długo zwlekają z zakupem, zazwyczaj muszą zapłacić sporo za ostatnie egzemplarze z zapasów.</p>"
         },
         "Witch Staff": {
             "name": "Kostur Wiedźmy",

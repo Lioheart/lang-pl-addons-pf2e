@@ -5,24 +5,6 @@ import { applyJournalFont } from "./journal-font.js";
 export const MODULE_ID = "lang-pl-addons-pf2e";
 export const DEFAULT_RATE = 1;
 
-// Hooks.on("renderSettingsConfig", (_app, htmlElement) => {
-//     const html = $(htmlElement);
-
-//     const section = $(`
-//     <fieldset>
-//       <legend>${game.i18n.localize(`${MODULE_ID}.settings.clockSection.label`)}</legend>
-//       <p class="hint">${game.i18n.localize(`${MODULE_ID}.settings.clockSection.hint`)}</p>
-//     </fieldset>
-//   `);
-
-//     const input = html.find('input[name="lang-pl-addons-pf2e.showClockHUD"]');
-//     const formGroup = input.closest(".form-group");
-
-//     if (formGroup.length) {
-//         formGroup.before(section);
-//     }
-// });
-
 /**
  * Rejestruje wszystkie ustawienia modułu.
  */
@@ -41,6 +23,7 @@ export function registerClockPositionSettings() {
 export function registerSettings() {
     const sundryActive = game.modules.get("sundry")?.active;
     const pf2etoolbeltActive = game.modules.get("pf2e-toolbelt")?.active;
+    const calendariaActive = game.modules.get("Calendaria")?.active;
 
     if (!sundryActive) {
         game.settings.register(MODULE_ID, "enableRuneDescriptions", {
@@ -77,16 +60,6 @@ export function registerSettings() {
         });
     }
 
-    game.settings.register(MODULE_ID, "showSettingScopeIcons", {
-        name: game.i18n.localize(`${MODULE_ID}.settings.showSettingScopeIcons.name`),
-        hint: game.i18n.localize(`${MODULE_ID}.settings.showSettingScopeIcons.hint`),
-        scope: "world",
-        config: true,
-        type: Boolean,
-        default: true,
-        restricted: true
-    });
-
     game.settings.register(MODULE_ID, "enableJournalStyle", {
         name: game.i18n.localize(`${MODULE_ID}.settings.enableJournalStyle.name`),
         hint: game.i18n.localize(`${MODULE_ID}.settings.enableJournalStyle.hint`),
@@ -108,40 +81,42 @@ export function registerSettings() {
         restricted: true
     });
 
-    game.settings.register(MODULE_ID, "enableRealTimeClock", {
-        name: game.i18n.localize(`${MODULE_ID}.settings.enableRealTimeClock.name`),
-        hint: game.i18n.localize(`${MODULE_ID}.settings.enableRealTimeClock.hint`),
-        scope: "world",
-        config: true,
-        type: Boolean,
-        requiresReload: true,
-        default: true
-    });
+    if (!calendariaActive) {
+        game.settings.register(MODULE_ID, "enableRealTimeClock", {
+            name: game.i18n.localize(`${MODULE_ID}.settings.enableRealTimeClock.name`),
+            hint: game.i18n.localize(`${MODULE_ID}.settings.enableRealTimeClock.hint`),
+            scope: "world",
+            config: true,
+            type: Boolean,
+            requiresReload: true,
+            default: false
+        });
 
-    game.settings.register(MODULE_ID, "showClockHUD", {
-        name: game.i18n.localize(`${MODULE_ID}.settings.showClockHUD.name`),
-        hint: game.i18n.localize(`${MODULE_ID}.settings.showClockHUD.hint`),
-        scope: "client",
-        config: true,
-        type: Boolean,
-        default: false,
-        onChange: () => {
-            if (game.pf2e?.worldClock) {
-                updateWorldTimeDisplay();
+        game.settings.register(MODULE_ID, "showClockHUD", {
+            name: game.i18n.localize(`${MODULE_ID}.settings.showClockHUD.name`),
+            hint: game.i18n.localize(`${MODULE_ID}.settings.showClockHUD.hint`),
+            scope: "client",
+            config: true,
+            type: Boolean,
+            default: false,
+            onChange: () => {
+                if (game.pf2e?.worldClock) {
+                    updateWorldTimeDisplay();
+                }
             }
-        }
-    });
+        });
 
-    game.settings.register(MODULE_ID, "secondsPerRealSecond", {
-        name: game.i18n.localize(`${MODULE_ID}.settings.secondsPerRealSecond.name`),
-        hint: game.i18n.localize(`${MODULE_ID}.settings.secondsPerRealSecond.hint`),
-        scope: "world",
-        config: true,
-        type: Number,
-        range: { min: 0, max: 10, step: 1 },
-        default: DEFAULT_RATE,
-        restricted: true
-    });
+        game.settings.register(MODULE_ID, "secondsPerRealSecond", {
+            name: game.i18n.localize(`${MODULE_ID}.settings.secondsPerRealSecond.name`),
+            hint: game.i18n.localize(`${MODULE_ID}.settings.secondsPerRealSecond.hint`),
+            scope: "world",
+            config: true,
+            type: Number,
+            range: { min: 0, max: 10, step: 1 },
+            default: DEFAULT_RATE,
+            restricted: true
+        });
+    }
 
     if (!pf2etoolbeltActive) {
         game.settings.register(MODULE_ID, "enableSellToMerchant", {
@@ -166,16 +141,6 @@ export function registerSettings() {
             restricted: true
         });
     }
-
-    // game.settings.register(MODULE_ID, "enableRoundMarkers", {
-    //     name: game.i18n.localize(`${MODULE_ID}.settings.enableRoundMarkers.name`),
-    //     hint: game.i18n.localize(`${MODULE_ID}.settings.enableRoundMarkers.hint`),
-    //     scope: "world",
-    //     config: true,
-    //     type: Boolean,
-    //     default: false,
-    //     restricted: true
-    // });
 
     game.settings.register(MODULE_ID, "enableExplorationEffects", {
         name: game.i18n.localize(`${MODULE_ID}.settings.enableExplorationEffects.name`),
@@ -225,7 +190,7 @@ export function registerSettings() {
         onChange: (value) => applyJournalFont(value)
     });
 
-        game.settings.register(MODULE_ID, "enableDamageColumn", {
+    game.settings.register(MODULE_ID, "enableDamageColumn", {
         name: game.i18n.localize(`${MODULE_ID}.settings.enableDamageColumn.name`),
         hint: game.i18n.localize(`${MODULE_ID}.settings.enableDamageColumn.hint`),
         scope: "world",

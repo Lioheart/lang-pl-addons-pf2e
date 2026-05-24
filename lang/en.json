@@ -20,10 +20,6 @@
         "name": "Add 'Before Turn' effect",
         "hint": "At the start of combat, adds an effect to all but the first combatant, preventing Reactions until their turn.\nIf you are using the module 'Sundry: Small Tidbits for (Mostly) PF2e', this option will not appear."
       },
-      "showSettingScopeIcons": {
-        "name": "Show setting‑scope icons",
-        "hint": "Prepends 🌍 (World) or 👤 (Client) icon to each setting entry."
-      },
       "enableJournalStyle": {
         "name": "Use journal style",
         "hint": "Enables a custom journal appearance."
@@ -34,19 +30,19 @@
       },
       "enableRealTimeClock": {
         "name": "Enable Real-Time Clock",
-        "hint": "Enables automatic in-game time progression based on the real-world system clock."
+        "hint": "Enables automatic in-game time progression based on the real-world system clock. Disabled when the ‘Calendaria’ module is enabled."
       },
       "clockSection": {
         "label": "Clock Settings",
-        "hint": "Options related to the real-time clock behavior."
+        "hint": "Options related to the real-time clock behavior. Disabled when the ‘Calendaria’ module is enabled."
       },
       "showClockHUD": {
         "name": "Show Clock HUD",
-        "hint": "Displays the current in-game world time at the top of the screen."
+        "hint": "Displays the current in-game world time at the top of the screen. Disabled when the ‘Calendaria’ module is enabled."
       },
       "secondsPerRealSecond": {
         "name": "Game seconds per real-time second",
-        "hint": "How many seconds pass in the game world for each real-life second (outside combat)."
+        "hint": "How many seconds pass in the game world for each real-life second (outside combat). Disabled when the ‘Calendaria’ module is enabled."
       },
       "enableSellToMerchant": {
         "name": "Enable selling to merchants",
@@ -115,11 +111,6 @@
         "name": "Ready Action",
         "description": "<p>This character has readied an action and will act when their trigger occurs. The effect ends at the start of their next turn.</p>"
       }
-    },
-    "scope": {
-      "world": "World‑scope setting",
-      "client": "Client‑scope setting",
-      "requiresReload": "Requires restart"
     },
     "buttons": {
       "nonlethal": "Nonlethal",

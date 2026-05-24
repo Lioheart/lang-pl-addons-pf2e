@@ -20,10 +20,6 @@
         "name": "Dodaj efekt 'Przed turą'",
         "hint": "Na początku walki dodaje wszystkim poza pierwszym przeciwnikiem efekt uniemożliwiający reakcje do momentu ich tury.\nW przypadku używania modułu 'Sundry: Small Tidbits for (Mostly) PF2e', ta opcja się nie pojawi."
       },
-      "showSettingScopeIcons": {
-        "name": "Pokaż ikony zasięgu ustawień",
-        "hint": "Dodaje obok każdej opcji ikonę 🌍 (Globalny) lub 👤 (Lokalny)."
-      },
       "enableJournalStyle": {
         "name": "Użyj stylu dzienników",
         "hint": "Włącza alternatywny styl wyglądu dzienników."
@@ -34,19 +30,19 @@
       },
       "enableRealTimeClock": {
         "name": "Włącz Zegar Czasu Rzeczywistego",
-        "hint": "Włącza automatyczne dostosowywanie czasu w grze do rzeczywistego czasu systemowego."
+        "hint": "Włącza automatyczne dostosowywanie czasu w grze do rzeczywistego czasu systemowego. Wyłączone, gdy uruchomiono moduł 'Calendaria'."
       },
       "clockSection": {
         "label": "Ustawienia zegara",
-        "hint": "Opcje dotyczące działania zegara czasu rzeczywistego."
+        "hint": "Opcje dotyczące działania zegara czasu rzeczywistego. Wyłączone, gdy uruchomiono moduł 'Calendaria'."
       },
       "showClockHUD": {
         "name": "Pokaż HUD zegara",
-        "hint": "Wyświetla aktualny czas świata gry w górnej części ekranu."
+        "hint": "Wyświetla aktualny czas świata gry w górnej części ekranu. Wyłączone, gdy uruchomiono moduł 'Calendaria'."
       },
       "secondsPerRealSecond": {
         "name": "Sekundy gry na sekundę realnego czasu",
-        "hint": "Ile sekund upływa w świecie gry na każdą sekundę rzeczywistego czasu (poza walką)."
+        "hint": "Ile sekund upływa w świecie gry na każdą sekundę rzeczywistego czasu (poza walką). Wyłączone, gdy uruchomiono moduł 'Calendaria'."
       },
       "enableSellToMerchant": {
         "name": "Włącz sprzedaż do kupców",
@@ -115,11 +111,6 @@
         "name": "Przygotowano akcję",
         "description": "<p>Ta postać przygotowała akcję, którą wykona, gdy zostanie spełniony wyzwalacz. Efekt wygasa na początku jej następnej tury.</p>"
       }
-    },
-    "scope": {
-      "world": "Ustawienie globalne (World)",
-      "client": "Ustawienie lokalne (Client)",
-      "requiresReload": "Wymaga ponownego uruchomienia"
     },
     "buttons": {
       "nonlethal": "Nieśmiercionośne",
